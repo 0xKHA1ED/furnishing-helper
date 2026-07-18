@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-17",
+  "status": "catalog_ready",
+  "galleryPage": "tv-gallery.html",
+  "catalogPath": "data/appliances/tv_catalog.json",
+  "answers": {
+    "budgetMaxEGP": 26000,
+    "minSizeInches": 50,
+    "resolutionPriority": "not_important_4k_not_required",
+    "gimmicksPriority": "not_important",
+    "notes": "Work autonomously; dual-gate later when starring"
+  },
+  "filters": {
+    "maxPriceEGP": 26000,
+    "minSizeInches": 50,
+    "rankBy": [
+      "size_within_budget",
+      "brand_service_egypt",
+      "built_in_receiver",
+      "simple_led_value"
+    ],
+    "doNotBoost": [
+      "4K",
+      "QLED",
+      "NanoCell",
+      "OLED",
+      "Mini-LED marketing"
+    ]
+  },
+  "rooms": {
+    "primary": "living",
+    "living_cm": [
+      375,
+      450
+    ]
+  },
+  "scrape": {
+    "method": "Playwright MCP",
+    "date": "2026-07-17",
+    "sources": [
+      "B.TECH televisions category (full scroll, LE price parse)",
+      "Amazon.eg 50 inch TV under ~26k filter",
+      "Jumia Egypt 50 inch smart TV"
+    ],
+    "notes": "Rejected implausible prices (e.g. model number fragments). Re-verify day of purchase."
+  },
+  "countsFromCatalog": {
+    "included": 117,
+    "excludedListed": 207,
+    "total": 324,
+    "withImage": 324,
+    "bySource": {
+      "B.TECH": 238,
+      "Amazon.eg": 47,
+      "Jumia Egypt": 39
+    },
+    "byBrand": {
+      "Toshiba": 6,
+      "Samsung": 9,
+      "Hisense": 6,
+      "LG": 23,
+      "Sharp": 5,
+      "Ultra": 9,
+      "Haier": 16,
+      "ATA": 5,
+      "Armadillo": 1,
+      "Grouhy": 3,
+      "Castle": 2,
+      "TCL": 5,
+      "GTV": 1,
+      "Evolve": 1,
+      "JAC": 2,
+      "Beko": 2,
+      "Elc": 1,
+      "Fresh": 4,
+      "Hyundai": 1,
+      "Tornado": 8,
+      "Jac": 2,
+      "Arion": 1,
+      "Xiaomi": 1,
+      "Thomson": 2,
+      "Levon": 1
+    },
+    "bySize": {
+      "65": 8,
+      "58": 3,
+      "55": 31,
+      "50": 71,
+      "60": 2,
+      "?": 2
+    }
+  },
+  "decisionHints": [
+    "If seating is normal living distance, 55\" is the sweet spot under 26k",
+    "65\" under 26k exists (Toshiba/Samsung promos) — only if you sit far enough",
+    "50\" value options leave cash for wall mount or TV bench",
+    "Ignore 4K upsell if two models match on size, brand, warranty, price"
+  ]
+}

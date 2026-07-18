@@ -1,0 +1,2080 @@
+- generic [ref=f6e2]:
+  - banner [ref=f6e3]:
+    - generic [ref=f6e5]:
+      - link "Skip to Content" [ref=f6e6] [cursor=pointer]:
+        - /url: "#contentarea"
+      - generic [ref=f6e7]:
+        - strong [ref=f6e8]: Language
+        - generic [ref=f6e10] [cursor=pointer]:
+          - strong [ref=f6e11]: English
+          - text: 
+      - list [ref=f6e12]:
+        - listitem
+        - listitem [ref=f6e13]:
+          - link "Sell on Raneen" [ref=f6e14] [cursor=pointer]:
+            - /url: https://sell.raneen.com/en
+        - listitem [ref=f6e15]:
+          - link "Sign In" [ref=f6e16] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/customer/account/login/referer/aHR0cHM6Ly93d3cucmFuZWVuLmNvbS9lbi9zZWFyY2g_cT1zb2ZhK0w~/
+          - text: or
+        - listitem [ref=f6e17]:
+          - link "Create an Account" [ref=f6e18] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/customer/account/create/
+    - generic [ref=f6e19]:
+      - button "All Categories" [ref=f6e20] [cursor=pointer]
+      - link "store logo" [ref=f6e21] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/
+        - img "Raneen.com" [ref=f6e22]
+      - generic [ref=f6e25]:
+        - generic [ref=f6e26]:
+          - generic [ref=f6e27]:
+            - text: 
+            - generic [ref=f6e28]: Search
+          - combobox " Search" [ref=f6e30]: sofa L
+        - button "Search" [ref=f6e31] [cursor=pointer]: 
+      - link " My Cart" [ref=f6e34] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/checkout/cart/
+        - text: 
+        - generic [ref=f6e35]: My Cart
+  - navigation [ref=f6e37]:
+    - list [ref=f6e38]:
+      - link [disabled] [ref=f6e39] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/appliances/large-appliances/air-conditioners
+        - text: Air Conditioner
+      - link [disabled] [ref=f6e40] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/appliances
+        - text: Appliances
+      - list [ref=f6e41]:
+        - link [disabled] [ref=f6e42] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/appliances/large-appliances
+          - text: Large Appliances
+        - list [ref=f6e43]:
+          - link [disabled] [ref=f6e44] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/large-appliances/air-conditioners
+            - text: Air Conditioners
+          - link [disabled] [ref=f6e45] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/large-appliances/air-coolers
+            - text: Air Coolers
+          - link [disabled] [ref=f6e46] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/large-appliances/washers-and-dryers
+            - text: Washers & Dryers
+          - list [ref=f6e47]:
+            - link [disabled] [ref=f6e48] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/washers-and-dryers/washer
+              - text: Washers
+            - list [ref=f6e49]:
+              - link [disabled] [ref=f6e50] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/appliances/large-appliances/washers-and-dryers/washer/front-load
+                - text: Front Load
+              - link [disabled] [ref=f6e51] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/appliances/large-appliances/washers-and-dryers/washer/top-load
+                - text: Top Load
+          - link [disabled] [ref=f6e52] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/large-appliances/dish-washers
+            - text: Dish Washers
+          - link [disabled] [ref=f6e53] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/large-appliances/refrigerators-and-freezers
+            - text: Refrigerators & Freezers
+          - list [ref=f6e54]:
+            - link [disabled] [ref=f6e55] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/refrigerators-and-freezers/refrigerators
+              - text: Refrigerators
+            - link [disabled] [ref=f6e56] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/refrigerators-and-freezers/freezers
+              - text: Freezers
+          - link [disabled] [ref=f6e57] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/large-appliances/cookers
+            - text: Cookers
+          - link [disabled] [ref=f6e58] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/large-appliances/built-in-appliances
+            - text: Built-in Appliances
+          - list [ref=f6e59]:
+            - link [disabled] [ref=f6e60] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/built-in-appliances/built-in-oven
+              - text: Oven Built-in
+            - link [disabled] [ref=f6e61] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/built-in-appliances/stove-built-in
+              - text: Stove Built-in
+            - link [disabled] [ref=f6e62] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/built-in-appliances/hood-built-in
+              - text: Hood Built-in
+          - link [disabled] [ref=f6e63] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/large-appliances/water-heaters
+            - text: Water Heaters
+          - list [ref=f6e64]:
+            - link [disabled] [ref=f6e65] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/water-heaters/electric-water-heater
+              - text: Electric Water Heater
+            - link [disabled] [ref=f6e66] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/water-heaters/gas-water-heater
+              - text: Gas Water Heater
+            - link [disabled] [ref=f6e67] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/water-heaters/solar-water-heater
+              - text: Solar Water Heater
+          - link [disabled] [ref=f6e68] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/large-appliances/water-dispensers
+            - text: Water Dispensers
+          - list [ref=f6e69]:
+            - link [disabled] [ref=f6e70] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/water-dispensers/water-dispensers
+              - text: Water Dispenser
+            - link [disabled] [ref=f6e71] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/large-appliances/water-dispensers/water-dispensers-accessories
+              - text: Water Dispensers Accessories
+        - link [disabled] [ref=f6e72] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/appliances/small-appliances
+          - text: Small Appliances
+        - list [ref=f6e73]:
+          - link [disabled] [ref=f6e74] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/small-appliances/irons
+            - text: Irons
+          - link [disabled] [ref=f6e75] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/small-appliances/vacuum-cleaners
+            - text: Vacuum Cleaners
+          - link [disabled] [ref=f6e76] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/small-appliances/fans
+            - text: Fans
+          - list [ref=f6e77]:
+            - link [disabled] [ref=f6e78] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/small-appliances/fans/ceiling-fans
+              - text: Ceiling Fans
+            - link [disabled] [ref=f6e79] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/small-appliances/fans/wall-fans
+              - text: Wall Fans
+            - link [disabled] [ref=f6e80] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/small-appliances/fans/stand-fans
+              - text: Stand Fans
+            - link [disabled] [ref=f6e81] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/small-appliances/fans/table-fans
+              - text: Table Fans
+            - link [disabled] [ref=f6e82] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/small-appliances/fans/box-fans
+              - text: Box Fans
+            - link [disabled] [ref=f6e83] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/small-appliances/fans/personal-fans
+              - text: Personal Fans
+          - link [disabled] [ref=f6e84] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/small-appliances/suction-fan
+            - text: Suction Fan
+          - link [disabled] [ref=f6e85] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/small-appliances/heaters
+            - text: Heaters
+          - list [ref=f6e86]:
+            - link [disabled] [ref=f6e87] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/small-appliances/heaters/oil-heaters
+              - text: Oil Heaters
+            - link [disabled] [ref=f6e88] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/small-appliances/heaters/electric-heaters
+              - text: Electric Heaters
+          - link [disabled] [ref=f6e89] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/small-appliances/burner
+            - text: Burner
+          - link [disabled] [ref=f6e90] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/small-appliances/insect-killer
+            - text: Insect Killer
+        - link [disabled] [ref=f6e91] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/appliances/kitchen-appliances
+          - text: Kitchen Appliances
+        - list [ref=f6e92]:
+          - link [disabled] [ref=f6e93] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/sandwich-waffle-makers
+            - text: Sandwich Waffle Makers
+          - link [disabled] [ref=f6e94] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/juicers
+            - text: Juicers
+          - link [disabled] [ref=f6e95] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/coffee-makers
+            - text: Coffee Makers
+          - link [disabled] [ref=f6e96] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/kitchen-machine
+            - text: Kitchen Machine & Kneading Machines
+          - list [ref=f6e97]:
+            - link [disabled] [ref=f6e98] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/kitchen-machine/kneading-machines
+              - text: Kneading Machines
+            - link [disabled] [ref=f6e99] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/kitchen-machine/food-processor
+              - text: Food Processor
+            - link [disabled] [ref=f6e100] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/kitchen-machine/mixers
+              - text: Food Processor Accessories
+          - link [disabled] [ref=f6e101] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/electric-slicers
+            - text: Electric Slicers
+          - link [disabled] [ref=f6e102] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/microwaves-ovens
+            - text: Microwaves & Ovens
+          - list [ref=f6e103]:
+            - link [disabled] [ref=f6e104] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/microwaves-ovens/microwaves
+              - text: Microwaves
+            - link [disabled] [ref=f6e105] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/microwaves-ovens/ovens
+              - text: Ovens
+          - link [disabled] [ref=f6e106] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/electric-meat-grinders
+            - text: Electric Meat Grinders
+          - link [disabled] [ref=f6e107] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/mixers-blenders
+            - text: Mixers & Blenders
+          - list [ref=f6e108]:
+            - link [disabled] [ref=f6e109] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/mixers-blenders/hand-blenders
+              - text: Hand Blenders
+            - link [disabled] [ref=f6e110] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/mixers-blenders/hand-mixers
+              - text: Hand Mixers
+            - link [disabled] [ref=f6e111] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/mixers-blenders/choppers
+              - text: Choppers
+            - link [disabled] [ref=f6e112] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/mixers-blenders/countertop-blenders
+              - text: Countertop Blenders
+            - link [disabled] [ref=f6e113] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/mixers-blenders/mixers-blenders-accessories
+              - text: Mixers & Blenders Accessories
+          - link [disabled] [ref=f6e114] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/food-dehydrators
+            - text: Food Dehydrators
+          - link [disabled] [ref=f6e115] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/grinders
+            - text: Grinders
+          - link [disabled] [ref=f6e116] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/fryers
+            - text: Fryers
+          - list [ref=f6e117]:
+            - link [disabled] [ref=f6e118] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/fryers/air-fryers
+              - text: Air Fryers
+            - link [disabled] [ref=f6e119] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/appliances/kitchen-appliances/fryers/oil-fryers
+              - text: Oil Fryers
+          - link [disabled] [ref=f6e120] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/grill
+            - text: Grill
+          - link [disabled] [ref=f6e121] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/toasters
+            - text: Toasters
+          - link [disabled] [ref=f6e122] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/kettles
+            - text: Kettles
+          - link [disabled] [ref=f6e123] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/electric-pressure-cooker
+            - text: Electric Pressure Cooker
+          - link [disabled] [ref=f6e124] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/appliances/kitchen-appliances/yogurt-maker
+            - text: Yogurt Maker
+      - link [disabled] [ref=f6e125] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/appliances
+        - text: Appliances
+      - link [disabled] [ref=f6e126] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/mobiles
+        - text: Mobile
+      - link [disabled] [ref=f6e127] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/mobiles
+        - text: Mobiles
+      - list [ref=f6e128]:
+        - link [disabled] [ref=f6e129] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/mobiles/mobiles-tablets
+          - text: Mobiles & Tablets
+        - list [ref=f6e130]:
+          - link [disabled] [ref=f6e131] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/mobiles-tablets/mobile
+            - text: Mobile
+          - link [disabled] [ref=f6e132] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/mobiles-tablets/tablet
+            - text: Tablet
+        - link [disabled] [ref=f6e133] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/mobiles/wearable
+          - text: Wearable
+        - list [ref=f6e134]:
+          - link [disabled] [ref=f6e135] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/wearable/smart-watches
+            - text: Smart Watches
+          - link [disabled] [ref=f6e136] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/wearable/airpods
+            - text: AirPods
+        - link [disabled] [ref=f6e137] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/mobiles/accessories
+          - text: Accessories
+        - list [ref=f6e138]:
+          - link [disabled] [ref=f6e139] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/accessories/mobile-accessories
+            - text: Mobile Accessories
+          - link [disabled] [ref=f6e140] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/accessories/audio
+            - text: Audio
+          - link [disabled] [ref=f6e141] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/accessories/screen-protectors
+            - text: Screen Protectors
+          - link [disabled] [ref=f6e142] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/accessories/cable
+            - text: Mobile Cable
+          - link [disabled] [ref=f6e143] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/accessories/case-cover
+            - text: Case & Cover
+          - link [disabled] [ref=f6e144] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/accessories/watch-accessories
+            - text: Watch Accessories
+          - link [disabled] [ref=f6e145] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/accessories/chargers
+            - text: Chargers
+          - link [disabled] [ref=f6e146] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/accessories/power-banks
+            - text: Power Banks
+          - link [disabled] [ref=f6e147] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/accessories/memory-card
+            - text: Memory Card
+          - link [disabled] [ref=f6e148] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/mobiles/accessories/airpods-accessories
+            - text: AirPods Accessories
+      - link [disabled] [ref=f6e149] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/electronics
+        - text: Electronics
+      - list [ref=f6e150]:
+        - link [disabled] [ref=f6e151] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/electronics/televisions-accessories
+          - text: Televisions & Accessories
+        - list [ref=f6e152]:
+          - link [disabled] [ref=f6e153] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/televisions-accessories/tv
+            - text: TV
+          - link [disabled] [ref=f6e154] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/televisions-accessories/tv-stand-accessories
+            - text: TV Stand & Accessories
+          - link [disabled] [ref=f6e155] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/televisions-accessories/receivers
+            - text: Receivers
+          - link [disabled] [ref=f6e156] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/televisions-accessories/media-streaming-devices
+            - text: Media Streaming Devices
+          - link [disabled] [ref=f6e157] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/televisions-accessories/tv-cables
+            - text: TV Cables
+        - link [disabled] [ref=f6e158] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/electronics/audio
+          - text: Audio
+        - link [disabled] [ref=f6e159] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/electronics/computers
+          - text: Computers Components & Accessories
+        - list [ref=f6e160]:
+          - link [disabled] [ref=f6e161] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/laptops-notebooks
+            - text: Laptops & Notebooks
+          - link [disabled] [ref=f6e162] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/laptop-accessories
+            - text: Laptop Accessories
+          - list [ref=f6e163]:
+            - link [disabled] [ref=f6e164] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/electronics/computers/laptop-accessories/laptop-computer-tables
+              - text: Laptop & Computer Tables
+            - link [disabled] [ref=f6e165] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/electronics/computers/laptop-accessories/laptop-bags
+              - text: Laptop Bags
+          - link [disabled] [ref=f6e166] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/printer-scanner
+            - text: Printers & Scanners
+          - list [ref=f6e167]:
+            - link [disabled] [ref=f6e168] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/electronics/computers/printer-scanner/printers
+              - text: Printers
+            - link [disabled] [ref=f6e169] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/electronics/computers/printer-scanner/scanners
+              - text: Scanners
+            - link [disabled] [ref=f6e170] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/electronics/computers/printer-scanner/cartridge-toner
+              - text: Cartridge Toner
+          - link [disabled] [ref=f6e171] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/keyboard-mouse
+            - text: Keyboard & Mouse
+          - link [disabled] [ref=f6e172] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/storage-accessories
+            - text: Storage & Accessories
+          - link [disabled] [ref=f6e173] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/computer-casing
+            - text: Desktops
+          - link [disabled] [ref=f6e174] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/computers-components
+            - text: Hardware Components
+          - link [disabled] [ref=f6e175] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/computers-components-and-accessories
+            - text: Monitors
+          - link [disabled] [ref=f6e176] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/cables
+            - text: Cables
+          - link [disabled] [ref=f6e177] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/webcams
+            - text: Webcams
+          - link [disabled] [ref=f6e178] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/routers-repeaters
+            - text: Routers & Repeaters
+          - link [disabled] [ref=f6e179] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/computers/software-s
+            - text: Software's
+        - link [disabled] [ref=f6e180] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/electronics/others-electronics
+          - text: Other Electronics
+        - list [ref=f6e181]:
+          - link [disabled] [ref=f6e182] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/others-electronics/camera-camera-accessories
+            - text: Camera & Camera Accessories
+          - list [ref=f6e183]:
+            - link [disabled] [ref=f6e184] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/electronics/others-electronics/camera-camera-accessories/camera-accessories
+              - text: Cameras Accessories
+            - link [disabled] [ref=f6e185] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/electronics/others-electronics/camera-camera-accessories/camera
+              - text: Camera
+            - link [disabled] [ref=f6e186] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/electronics/others-electronics/camera-camera-accessories/interchangeable-lenses
+              - text: Interchangeable Lenses
+            - link [disabled] [ref=f6e187] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/electronics/others-electronics/camera-camera-accessories/flash-camera
+              - text: Flash Camera
+          - link [disabled] [ref=f6e188] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/others-electronics/telephones
+            - text: Telephones
+          - link [disabled] [ref=f6e189] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/others-electronics/projectors
+            - text: Projectors
+          - link [disabled] [ref=f6e190] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/others-electronics/remote-device
+            - text: Remote Units
+          - link [disabled] [ref=f6e191] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/others-electronics/stabilizer
+            - text: Stabilizer
+        - link [disabled] [ref=f6e192] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/electronics/game-gate
+          - text: Games Gate
+        - list [ref=f6e193]:
+          - link [disabled] [ref=f6e194] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/game-gate/gaming-console
+            - text: Gaming Console
+          - link [disabled] [ref=f6e195] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/game-gate/games-cd-s
+            - text: Games CD's
+          - link [disabled] [ref=f6e196] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/electronics/game-gate/gaming-accessories
+            - text: Gaming Accessories
+          - link [disabled] [ref=f6e197] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/catalog/category/view/s/gaming-chairs/id/50370/
+            - text: Gaming Chairs
+      - link [disabled] [ref=f6e198] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/electronics/televisions-accessories/tv
+        - text: Televisions
+      - link [disabled] [ref=f6e199] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/security-surveillance-systems
+        - text: Security & Surveillance Systems
+      - list [ref=f6e200]:
+        - link [disabled] [ref=f6e201] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/security-surveillance-systems/surveillance-systems-and-equipment
+          - text: Surveillance Systems & Equipment
+        - link [disabled] [ref=f6e202] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/security-surveillance-systems/access-control-detection
+          - text: Access Control & Detection
+        - link [disabled] [ref=f6e203] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/security-surveillance-systems/alarm-security-systems
+          - text: Alarm & Security Systems
+        - link [disabled] [ref=f6e204] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/security-surveillance-systems/dvr-nvr
+          - text: DVR & NVR
+      - link [disabled] [ref=f6e205] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/home
+        - text: Home
+      - link [disabled] [ref=f6e206] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/home
+        - text: Home
+      - list [ref=f6e207]:
+        - link [disabled] [ref=f6e208] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/home-balcony-essentials
+          - text: Home & Balcony Essentials
+        - link [disabled] [ref=f6e209] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/batteries
+          - text: Batteries
+        - link [disabled] [ref=f6e210] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/barbecue-grills-accessories
+          - text: Barbecue Grills & Accessories
+        - link [disabled] [ref=f6e211] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/iron-tables-accessories
+          - text: Iron Tables & Accessories
+        - link [disabled] [ref=f6e212] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/party-supplies
+          - text: Party Supplies
+        - link [disabled] [ref=f6e213] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/ladders-clothes-dryer
+          - text: Ladders & Clothes Dryer
+        - link [disabled] [ref=f6e214] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/cleaning-tools-supplies
+          - text: Cleaning Tools & Supplies
+        - link [disabled] [ref=f6e215] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/paper-products
+          - text: Paper Products
+        - link [disabled] [ref=f6e216] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/hangers
+          - text: Hangers
+        - link [disabled] [ref=f6e217] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/bathroom-accessories
+          - text: Bathroom Accessories
+        - link [disabled] [ref=f6e218] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/tools-home-improvement
+          - text: Tools & Home Improvement
+        - list [ref=f6e219]:
+          - link [disabled] [ref=f6e220] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/home/tools-home-improvement/power-hand-tools
+            - text: Power & Hand Tools
+          - list [ref=f6e221]:
+            - link [disabled] [ref=f6e222] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/home/tools-home-improvement/power-hand-tools/power-tools
+              - text: Power Tools
+            - link [disabled] [ref=f6e223] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/home/tools-home-improvement/power-hand-tools/hand-tools
+              - text: Hand Tools
+            - link [disabled] [ref=f6e224] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/catalog/category/view/s/power-tools-accessories/id/49474/
+              - text: Power Tools Accessories
+            - link [disabled] [ref=f6e225] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/home/tools-home-improvement/power-hand-tools/air-tools
+              - text: Air Tools
+            - link [disabled] [ref=f6e226] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/home/tools-home-improvement/power-hand-tools/water-pumps-and-accessories
+              - text: Water Pumps and Accessories
+            - link [disabled] [ref=f6e227] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/home/tools-home-improvement/power-hand-tools/connectors
+              - text: Connectors
+          - link [disabled] [ref=f6e228] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/home/tools-home-improvement/garden-tools
+            - text: Garden Tools
+        - link [disabled] [ref=f6e229] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home/safes-and-safe-accessories
+          - text: Safes and Safe Accessories
+      - link [disabled] [ref=f6e230] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/furniture/rugs
+        - text: Rugs
+      - link [disabled] [ref=f6e231] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/textile
+        - text: Textile
+      - link [disabled] [ref=f6e232] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/textile
+        - text: Textile
+      - list [ref=f6e233]:
+        - link [disabled] [ref=f6e234] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/bed-sheets
+          - text: Bed Sheets
+        - link [disabled] [ref=f6e235] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/towels
+          - text: Towels
+        - link [disabled] [ref=f6e236] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/blanket
+          - text: Blanket
+        - link [disabled] [ref=f6e237] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/bed-heater
+          - text: Bed Heater
+        - link [disabled] [ref=f6e238] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/quilt
+          - text: Quilt
+        - link [disabled] [ref=f6e239] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/comforters
+          - text: Comforters
+        - link [disabled] [ref=f6e240] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/mattress
+          - text: Mattress
+        - list [ref=f6e241]:
+          - link [disabled] [ref=f6e242] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/mattress/bed-mattress
+            - text: Bed Mattress
+          - link [disabled] [ref=f6e243] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/mattress/topper-mattress
+            - text: Topper Mattress
+          - link [disabled] [ref=f6e244] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/mattress/mattress-covers
+            - text: Mattress Covers
+        - link [disabled] [ref=f6e245] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/curtain
+          - text: Curtain
+        - list [ref=f6e246]:
+          - link [disabled] [ref=f6e247] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/curtain/home-curtain
+            - text: Home Curtain
+          - link [disabled] [ref=f6e248] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/curtain/balcony-curtain
+            - text: Balcony Curtain
+          - link [disabled] [ref=f6e249] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/curtain/curtains-accessories
+            - text: Curtains Accessories
+        - link [disabled] [ref=f6e250] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/rugs
+          - text: Rugs
+        - list [ref=f6e251]:
+          - link [disabled] [ref=f6e252] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/rugs/carpets
+            - text: Carpets
+          - link [disabled] [ref=f6e253] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/rugs/carpets-accessories
+            - text: Carpets Accessories
+          - link [disabled] [ref=f6e254] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/rugs/home-mats
+            - text: Home Mats
+          - link [disabled] [ref=f6e255] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/rugs/bathroom-mats
+            - text: Bathroom Mats
+          - link [disabled] [ref=f6e256] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/rugs/door-mat
+            - text: Door Mats
+          - link [disabled] [ref=f6e257] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/rugs/kitchen-mats
+            - text: Kitchen Mats
+          - link [disabled] [ref=f6e258] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/rugs/beach-rugs
+            - text: Beach Rugs
+        - link [disabled] [ref=f6e259] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/tablecloth
+          - text: Tablecloth
+        - link [disabled] [ref=f6e260] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/chairs-cover
+          - text: Chairs Cover
+        - link [disabled] [ref=f6e261] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile/pillows-cushions
+          - text: Pillows & Cushions
+        - list [ref=f6e262]:
+          - link [disabled] [ref=f6e263] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/pillows-cushions/cushion
+            - text: Cushion
+          - link [disabled] [ref=f6e264] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/textile/pillows-cushions/pillows
+            - text: Pillows
+      - link [disabled] [ref=f6e265] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/kitchen
+        - text: Kitchen
+      - link [disabled] [ref=f6e266] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/kitchen
+        - text: Kitchen
+      - list [ref=f6e267]:
+        - link [disabled] [ref=f6e268] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/kitchen/kitchenware-tools
+          - text: Kitchenware
+        - list [ref=f6e269]:
+          - link [disabled] [ref=f6e270] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/knifes-cutters
+            - text: Knifes & Cutters
+          - link [disabled] [ref=f6e271] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/serving-set
+            - text: Serving Set
+          - link [disabled] [ref=f6e272] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/spatulas-and-scooping-tools
+            - text: Spatulas and Scooping Tools
+          - link [disabled] [ref=f6e273] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/strainer
+            - text: Strainer
+          - link [disabled] [ref=f6e274] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/peelers
+            - text: Peelers & Graters
+          - link [disabled] [ref=f6e275] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/measurings
+            - text: Measuring's
+          - link [disabled] [ref=f6e276] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/oil-vinegar-bottles
+            - text: Oil & Vinegar Bottles
+          - link [disabled] [ref=f6e277] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/garlic-meat-presses
+            - text: Garlic & Meat Presses
+          - list [ref=f6e278]:
+            - link [disabled] [ref=f6e279] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/garlic-meat-presses/meat-presses
+              - text: Meat Presses
+            - link [disabled] [ref=f6e280] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/garlic-meat-presses/garlic-presses
+              - text: Garlic Presses
+          - link [disabled] [ref=f6e281] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/meat-hammers
+            - text: Meat Hammers
+          - link [disabled] [ref=f6e282] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/dish-rack
+            - text: Dish Racks
+          - link [disabled] [ref=f6e283] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/rolling-pins
+            - text: Rolling Pins
+          - link [disabled] [ref=f6e284] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/cutting-board
+            - text: Cutting Boards
+          - link [disabled] [ref=f6e285] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchenware-tools/squeezers
+            - text: Squeezers
+        - link [disabled] [ref=f6e286] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/kitchen/cookware
+          - text: Cookware
+        - list [ref=f6e287]:
+          - link [disabled] [ref=f6e288] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cookware/pots-set
+            - text: Pots Set
+          - link [disabled] [ref=f6e289] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cookware/single-pots
+            - text: Single Pots
+          - link [disabled] [ref=f6e290] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cookware/frying-pan-s
+            - text: Frying Pans
+          - link [disabled] [ref=f6e291] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cookware/grills
+            - text: Grills
+          - link [disabled] [ref=f6e292] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cookware/oven-trays
+            - text: Oven Trays
+          - link [disabled] [ref=f6e293] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cookware/pressure-cooker
+            - text: Pressure Cooker
+          - link [disabled] [ref=f6e294] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cookware/tajin-thermal-trays
+            - text: Tajin & Thermal Trays
+          - link [disabled] [ref=f6e295] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cookware/pottery-products
+            - text: Pottery Products
+          - link [disabled] [ref=f6e296] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cookware/baking-tools
+            - text: Baking Tools
+          - link [disabled] [ref=f6e297] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cookware/milk-coffee-pots
+            - text: Milk & Coffee Pots
+        - link [disabled] [ref=f6e298] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/kitchen/plates-bowls
+          - text: Plates & Bowls
+        - list [ref=f6e299]:
+          - link [disabled] [ref=f6e300] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/plates-bowls/bowl
+            - text: Bowl
+          - link [disabled] [ref=f6e301] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/plates-bowls/dishes-plates
+            - text: Dishes & Plates
+        - link [disabled] [ref=f6e302] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/kitchen/cutlery-flatware
+          - text: Cutlery & Flatware
+        - list [ref=f6e303]:
+          - link [disabled] [ref=f6e304] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cutlery-flatware/spoons-fork-set
+            - text: Spoons & Fork Set
+          - link [disabled] [ref=f6e305] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cutlery-flatware/spoons
+            - text: Spoons
+          - link [disabled] [ref=f6e306] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cutlery-flatware/fork
+            - text: Fork
+          - link [disabled] [ref=f6e307] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/cutlery-flatware/knives
+            - text: Knives
+        - link [disabled] [ref=f6e308] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/kitchen/filters-tanks
+          - text: Filters & Tanks
+        - list [ref=f6e309]:
+          - link [disabled] [ref=f6e310] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/filters-tanks/water-filters
+            - text: Water Filters
+          - link [disabled] [ref=f6e311] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/filters-tanks/water-filters-accessories
+            - text: Water Filters Accessories
+          - link [disabled] [ref=f6e312] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/filters-tanks/ice-box-tanks
+            - text: Ice Box & Tanks
+          - link [disabled] [ref=f6e313] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/filters-tanks/water-containers
+            - text: Water Containers
+        - link [disabled] [ref=f6e314] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/kitchen/kitchen-accessories-s
+          - text: Kitchen Accessories
+        - list [ref=f6e315]:
+          - link [disabled] [ref=f6e316] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchen-accessories-s/appliances-covers
+            - text: Appliances Covers
+          - link [disabled] [ref=f6e317] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchen-accessories-s/kitchen-scale
+            - text: Kitchen Scale
+          - link [disabled] [ref=f6e318] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchen-accessories-s/clothespins-basket
+            - text: Clothespins & Basket
+          - link [disabled] [ref=f6e319] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchen-accessories-s/thermal-bags-holder
+            - text: Thermal Bags & Holder
+          - link [disabled] [ref=f6e320] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchen-accessories-s/shopping-bags-carts
+            - text: Shopping Bags & Carts
+          - link [disabled] [ref=f6e321] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchen-accessories-s/bib-potholders-oven-mitts
+            - text: Bib. Potholders & Oven Mitts
+          - link [disabled] [ref=f6e322] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/kitchen-accessories-s/home-kitchen-accessories
+            - text: Home & Kitchen Accessories
+        - link [disabled] [ref=f6e323] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/kitchen/food-keeper-jars
+          - text: Food Keeper & Jars
+        - list [ref=f6e324]:
+          - link [disabled] [ref=f6e325] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/food-keeper-jars/storge
+            - text: Storage & Organization
+          - list [ref=f6e326]:
+            - link [disabled] [ref=f6e327] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/food-keeper-jars/storge/lunch-box
+              - text: Lunch Box
+            - link [disabled] [ref=f6e328] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/food-keeper-jars/storge/refrigerator-box
+              - text: Refrigerator Box
+            - link [disabled] [ref=f6e329] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/food-keeper-jars/storge/storage-box
+              - text: Storage Box
+            - link [disabled] [ref=f6e330] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/food-keeper-jars/storge/storage-units
+              - text: Storage Units
+          - link [disabled] [ref=f6e331] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/food-keeper-jars/spice-jars
+            - text: Spice & Jars
+          - list [ref=f6e332]:
+            - link [disabled] [ref=f6e333] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/food-keeper-jars/spice-jars/spice-jars-set
+              - text: Spice Jar Set
+            - link [disabled] [ref=f6e334] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/food-keeper-jars/spice-jars/single-spice-jars
+              - text: Spice Jars
+        - link [disabled] [ref=f6e335] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/kitchen/drinkware
+          - text: Drinkware
+        - list [ref=f6e336]:
+          - link [disabled] [ref=f6e337] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/drinkware/jugs
+            - text: Jugs
+          - link [disabled] [ref=f6e338] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/drinkware/cups-s
+            - text: Cups
+          - list [ref=f6e339]:
+            - link [disabled] [ref=f6e340] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/drinkware/cups-s/coffee-tea-cup
+              - text: Coffee & Tea Cup
+            - link [disabled] [ref=f6e341] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/drinkware/cups-s/cups-sets
+              - text: Cups Sets
+            - link [disabled] [ref=f6e342] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/drinkware/cups-s/usual-use-cup
+              - text: Usual Use Cup
+          - link [disabled] [ref=f6e343] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/drinkware/mugs-thermal-container
+            - text: Mugs & Thermal Container
+          - list [ref=f6e344]:
+            - link [disabled] [ref=f6e345] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/drinkware/mugs-thermal-container/mugs
+              - text: Mugs
+            - link [disabled] [ref=f6e346] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/drinkware/mugs-thermal-container/thermal-mugs
+              - text: Thermal Mugs
+            - link [disabled] [ref=f6e347] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/drinkware/mugs-thermal-container/bottle
+              - text: Bottle
+            - link [disabled] [ref=f6e348] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/kitchen/drinkware/mugs-thermal-container/thermos
+              - text: Thermos
+          - link [disabled] [ref=f6e349] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/drinkware/glasses-sets
+            - text: Glasses Sets
+          - link [disabled] [ref=f6e350] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/drinkware/dispensers
+            - text: Dispensers
+          - link [disabled] [ref=f6e351] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/drinkware/bottles
+            - text: Bottles
+        - link [disabled] [ref=f6e352] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/kitchen/food-dessert-serving-sets
+          - text: Food & Dessert Serving Sets
+        - list [ref=f6e353]:
+          - link [disabled] [ref=f6e354] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/food-dessert-serving-sets/dinner-dining-set
+            - text: Dinner & Dining Set
+          - link [disabled] [ref=f6e355] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/food-dessert-serving-sets/serving-sets
+            - text: Serving Sets
+          - link [disabled] [ref=f6e356] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/kitchen/food-dessert-serving-sets/serving-trays
+            - text: Serving Trays
+      - link [disabled] [ref=f6e357] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/furniture
+        - text: Furniture
+      - link [disabled] [ref=f6e358] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/family-products/health-beauty
+        - text: Health & Beauty
+      - link [disabled] [ref=f6e359] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/furniture
+        - text: Furniture
+      - list [ref=f6e360]:
+        - link [disabled] [ref=f6e361] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture/living-room
+          - text: Living Room
+        - list [ref=f6e362]:
+          - link [disabled] [ref=f6e363] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/living-room/l-shape
+            - text: L-Shape
+          - link [disabled] [ref=f6e364] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/living-room/sofas
+            - text: Sofas
+          - link [disabled] [ref=f6e365] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/living-room/living-room-set
+            - text: Living Room Set
+          - link [disabled] [ref=f6e366] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/living-room/display-book-cases
+            - text: Display & Book Cases
+          - link [disabled] [ref=f6e367] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/living-room/chairs
+            - text: Chairs
+          - list [ref=f6e368]:
+            - link [disabled] [ref=f6e369] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/living-room/chairs/recliner
+              - text: Recliner
+            - link [disabled] [ref=f6e370] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/living-room/chairs/armchairs
+              - text: Armchairs
+            - link [disabled] [ref=f6e371] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/living-room/chairs/banquettes
+              - text: Banquettes
+            - link [disabled] [ref=f6e372] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/living-room/chairs/puff
+              - text: Puff
+            - link [disabled] [ref=f6e373] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/living-room/chairs/bar-chairs
+              - text: Bar Chairs
+            - link [disabled] [ref=f6e374] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/living-room/chairs/dining-chairs
+              - text: Dining Chairs
+          - link [disabled] [ref=f6e375] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/living-room/tables
+            - text: Tables
+          - list [ref=f6e376]:
+            - link [disabled] [ref=f6e377] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/living-room/tables/side-table
+              - text: Side Table
+            - link [disabled] [ref=f6e378] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/living-room/tables/center-table
+              - text: Center Table
+            - link [disabled] [ref=f6e379] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/living-room/tables/console-table
+              - text: Console Table
+          - link [disabled] [ref=f6e380] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/living-room/tv-tables
+            - text: TV Table
+        - link [disabled] [ref=f6e381] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture/bed-room
+          - text: Bed Room
+        - list [ref=f6e382]:
+          - link [disabled] [ref=f6e383] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/bed-room/beds
+            - text: Beds
+          - list [ref=f6e384]:
+            - link [disabled] [ref=f6e385] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/bed-room/beds/single-beds
+              - text: Single Beds
+            - link [disabled] [ref=f6e386] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/bed-room/beds/queen-beds
+              - text: Queen Beds
+            - link [disabled] [ref=f6e387] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/bed-room/beds/king-beds
+              - text: King Beds
+            - link [disabled] [ref=f6e388] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/bed-room/beds/bunk-beds
+              - text: Bunk Beds
+            - link [disabled] [ref=f6e389] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/bed-room/beds/cribs
+              - text: Cribs
+          - link [disabled] [ref=f6e390] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/bed-room/bed-room-set
+            - text: Bed Room Set
+          - list [ref=f6e391]:
+            - link [disabled] [ref=f6e392] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/bed-room/bed-room-set/children-s-bedrooms
+              - text: Children's Bed Room
+          - link [disabled] [ref=f6e393] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/bed-room/wardrobe
+            - text: Wardrobe
+          - link [disabled] [ref=f6e394] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/bed-room/drawer
+            - text: Drawer
+          - link [disabled] [ref=f6e395] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/bed-room/commode
+            - text: Commode
+          - link [disabled] [ref=f6e396] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/bed-room/clothes-hangers
+            - text: Clothes Hangers
+          - link [disabled] [ref=f6e397] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/bed-room/dressing-tables
+            - text: Dressing Tables
+        - link [disabled] [ref=f6e398] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture/dining-room
+          - text: Dining Room
+        - list [ref=f6e399]:
+          - link [disabled] [ref=f6e400] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/dining-room/dining-room-set
+            - text: Dining Room Set
+          - link [disabled] [ref=f6e401] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/dining-room/dining-table
+            - text: Dining Table
+          - link [disabled] [ref=f6e402] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/dining-room/buffet
+            - text: Buffet
+        - link [disabled] [ref=f6e403] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture/storage-units
+          - text: Storage Units
+        - list [ref=f6e404]:
+          - link [disabled] [ref=f6e405] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/storage-units/drawer
+            - text: Drawer
+          - link [disabled] [ref=f6e406] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/storage-units/shoe-rack
+            - text: Shoe Rack
+          - link [disabled] [ref=f6e407] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/storage-units/bath-room-storages
+            - text: Bath Room Storages
+          - link [disabled] [ref=f6e408] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/storage-units/coffee-corner
+            - text: Coffee Corner
+        - link [disabled] [ref=f6e409] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture/kitchen-room
+          - text: Kitchen Room
+        - list [ref=f6e410]:
+          - link [disabled] [ref=f6e411] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/kitchen-room/kitchen-room
+            - text: Kitchen Room
+          - link [disabled] [ref=f6e412] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/kitchen-room/kitchen-storages
+            - text: Kitchen Storages
+        - link [disabled] [ref=f6e413] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture/office-furniture
+          - text: Office Furniture
+        - list [ref=f6e414]:
+          - link [disabled] [ref=f6e415] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/office-furniture/desk
+            - text: Desk
+          - link [disabled] [ref=f6e416] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/office-furniture/office-chair
+            - text: Office Chair
+        - link [disabled] [ref=f6e417] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture/mirrors
+          - text: Mirrors
+        - link [disabled] [ref=f6e418] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture/lighting-home-decor
+          - text: Lighting & Home Decor
+        - list [ref=f6e419]:
+          - link [disabled] [ref=f6e420] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/lighting-home-decor/lighting
+            - text: Lighting
+          - list [ref=f6e421]:
+            - link [disabled] [ref=f6e422] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/lighting/wall-lamp
+              - text: Wall Lamp
+            - link [disabled] [ref=f6e423] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/lighting/table-lamp
+              - text: Table Lamp
+            - link [disabled] [ref=f6e424] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/lighting/ceiling-lamps
+              - text: Ceiling Lamps
+            - link [disabled] [ref=f6e425] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/lighting/kids-lighting
+              - text: Kids Lighting
+            - link [disabled] [ref=f6e426] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/lighting/light-bulb
+              - text: Light Bulb
+            - link [disabled] [ref=f6e427] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/lighting/floor-lamp
+              - text: Floor Lamps
+            - link [disabled] [ref=f6e428] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/lighting/emergency-lamp
+              - text: Emergency Lightings
+            - link [disabled] [ref=f6e429] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/lighting/boho-lamp
+              - text: Boho Lamp
+          - link [disabled] [ref=f6e430] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/lighting-home-decor/home-decor
+            - text: Home Decor
+          - list [ref=f6e431]:
+            - link [disabled] [ref=f6e432] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/home-decor/watches
+              - text: Watches & Alarms
+            - link [disabled] [ref=f6e433] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/home-decor/wall-decor
+              - text: Wall Decor
+            - link [disabled] [ref=f6e434] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/home-decor/candles
+              - text: Candles
+            - link [disabled] [ref=f6e435] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/home-decor/planet-pots
+              - text: Planet Pots
+            - link [disabled] [ref=f6e436] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/home-decor/picture-frames
+              - text: Picture Frames
+            - link [disabled] [ref=f6e437] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/home-decor/vases
+              - text: Vases
+            - link [disabled] [ref=f6e438] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/home-decor/bonbonniere
+              - text: Bonbonniere
+            - link [disabled] [ref=f6e439] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/furniture/lighting-home-decor/home-decor/decorative-accessories
+              - text: Decorative Accessories
+        - link [disabled] [ref=f6e440] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture/outdoor-furniture
+          - text: Outdoor Furniture
+        - list [ref=f6e441]:
+          - link [disabled] [ref=f6e442] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/outdoor-furniture/beanbag
+            - text: Bean Bags
+          - link [disabled] [ref=f6e443] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/outdoor-furniture/outdoor-dining-set
+            - text: Outdoor Dining Set
+          - link [disabled] [ref=f6e444] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/outdoor-furniture/outdoor-garden-swing
+            - text: Garden Swing
+          - link [disabled] [ref=f6e445] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/outdoor-furniture/outdoor-sofa
+            - text: Outdoor Sofa
+          - link [disabled] [ref=f6e446] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/outdoor-furniture/outdoor-chair
+            - text: Outdoor Chair
+          - link [disabled] [ref=f6e447] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/outdoor-furniture/outdoor-chaise-longue-sofa
+            - text: Outdoor Chaise Longue Sofa
+          - link [disabled] [ref=f6e448] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/outdoor-furniture/garden-decoration
+            - text: Garden Decoration & Accessories
+          - link [disabled] [ref=f6e449] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/furniture/outdoor-furniture/outdoor-table
+            - text: Outdoor Table
+      - link [disabled] [ref=f6e450] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/fashion
+        - text: Fashion
+      - list [ref=f6e451]:
+        - link [disabled] [ref=f6e452] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/fashion/women
+          - text: For Women
+        - list [ref=f6e453]:
+          - link [disabled] [ref=f6e454] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/women/clothes
+            - text: Clothes For Women
+          - list [ref=f6e455]:
+            - link [disabled] [ref=f6e456] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/women-sweaters-cardigans
+              - text: Women Sweaters & Cardigans
+            - link [disabled] [ref=f6e457] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/womens-jackets-coats
+              - text: Jackets & Coats
+            - link [disabled] [ref=f6e458] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/ethnic-traditional-wear
+              - text: Ethnic & Traditional Wear
+            - link [disabled] [ref=f6e459] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/tops-and-t-shirts
+              - text: Tops and T-Shirts
+            - link [disabled] [ref=f6e460] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/dresses
+              - text: Women Dresses
+            - link [disabled] [ref=f6e461] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/pants
+              - text: Pants
+            - list [ref=f6e462]:
+              - link [disabled] [ref=f6e463] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/women/clothes/pants/jeans
+                - text: Jeans
+              - link [disabled] [ref=f6e464] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/women/clothes/pants/sweatpants
+                - text: Sweatpants
+              - link [disabled] [ref=f6e465] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/women/clothes/pants/leggings
+                - text: Leggings
+              - link [disabled] [ref=f6e466] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/women/clothes/pants/trousers
+                - text: Trousers
+            - link [disabled] [ref=f6e467] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/hats-caps
+              - text: Hats & Caps
+            - link [disabled] [ref=f6e468] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/scarves-wraps
+              - text: Scarves & Wraps
+            - link [disabled] [ref=f6e469] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/accessories
+              - text: Accessories
+            - link [disabled] [ref=f6e470] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/swimwear
+              - text: Women Swimwear
+            - link [disabled] [ref=f6e471] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/underwear
+              - text: Underwear
+            - link [disabled] [ref=f6e472] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/sleepwear-pajamas
+              - text: Sleepwear & Pajamas
+            - link [disabled] [ref=f6e473] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/sportswear-for-women
+              - text: Sportswear For Women
+            - link [disabled] [ref=f6e474] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/tees-blouses
+              - text: Tees & Blouses
+            - link [disabled] [ref=f6e475] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/women-jumpsuits
+              - text: Women Jumpsuits
+            - link [disabled] [ref=f6e476] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/women-shorts-skirts
+              - text: Women Shorts & Skirts
+            - link [disabled] [ref=f6e477] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/clothes/suits-blazers
+              - text: Suits & Blazers
+          - link [disabled] [ref=f6e478] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/women/shoes-for-women
+            - text: Shoes For Women
+          - list [ref=f6e479]:
+            - link [disabled] [ref=f6e480] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/shoes-for-women/sandals
+              - text: Sandals
+            - link [disabled] [ref=f6e481] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/shoes-for-women/flats-shoes
+              - text: Flats Shoes
+            - link [disabled] [ref=f6e482] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/shoes-for-women/sneakers
+              - text: Sneakers
+            - link [disabled] [ref=f6e483] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/shoes-for-women/formal-shoes
+              - text: Formal Shoes
+            - link [disabled] [ref=f6e484] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/shoes-for-women/heels
+              - text: Heels
+            - link [disabled] [ref=f6e485] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/shoes-for-women/flip-flops-slides
+              - text: Flip Flops & Slides
+            - link [disabled] [ref=f6e486] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/shoes-for-women/boots
+              - text: Boots
+            - link [disabled] [ref=f6e487] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/shoes-for-women/sports-shoes
+              - text: Sports Shoes
+          - link [disabled] [ref=f6e488] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/women/watches
+            - text: Watches For Women
+          - link [disabled] [ref=f6e489] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/women/jewelry-accessories
+            - text: Jewelry & Accessories
+          - list [ref=f6e490]:
+            - link [disabled] [ref=f6e491] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/jewelry-accessories/bracelets
+              - text: Bracelets
+            - link [disabled] [ref=f6e492] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/jewelry-accessories/rings
+              - text: Rings
+            - link [disabled] [ref=f6e493] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/jewelry-accessories/earrings
+              - text: Earrings
+            - link [disabled] [ref=f6e494] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/women/jewelry-accessories/necklaces
+              - text: Necklaces
+          - link [disabled] [ref=f6e495] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/women/glasses-for-women
+            - text: Women's Eyewear
+          - link [disabled] [ref=f6e496] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/women/bags-for-women
+            - text: Bags For Women
+        - link [disabled] [ref=f6e497] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/fashion/men
+          - text: For Men
+        - list [ref=f6e498]:
+          - link [disabled] [ref=f6e499] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/men/clothes-for-him
+            - text: Clothes For Men
+          - list [ref=f6e500]:
+            - link [disabled] [ref=f6e501] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/men-s-pullovers
+              - text: Men's Pullovers
+            - link [disabled] [ref=f6e502] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/men-s-hoodies-sweatshirts
+              - text: Hoodies & Sweatshirts
+            - link [disabled] [ref=f6e503] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/jackets-coats
+              - text: Men's Jackets & Coats
+            - link [disabled] [ref=f6e504] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/pants
+              - text: Men's Pants
+            - list [ref=f6e505]:
+              - link [disabled] [ref=f6e506] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/pants/classic-pants
+                - text: Trousers
+              - link [disabled] [ref=f6e507] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/pants/jeans
+                - text: Jeans
+              - link [disabled] [ref=f6e508] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/pants/sweatpants
+                - text: Sweatpants
+            - link [disabled] [ref=f6e509] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/underwear-socks
+              - text: Underwear & Socks
+            - list [ref=f6e510]:
+              - link [disabled] [ref=f6e511] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/men-s-underwear/underwear-for-men
+                - text: Underwear For Men
+              - link [disabled] [ref=f6e512] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/men-s-underwear/socks-for-men
+                - text: Socks For Men
+            - link [disabled] [ref=f6e513] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/tops-t-shirts
+              - text: Tops & T-Shirts
+            - link [disabled] [ref=f6e514] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/men-s-pajamas
+              - text: Men's Pajamas
+            - link [disabled] [ref=f6e515] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/ihram-clothes
+              - text: Ihram Clothes
+            - link [disabled] [ref=f6e516] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/men-s-swimwear
+              - text: Men's Swimwear
+            - link [disabled] [ref=f6e517] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/traditional-cultural-wear
+              - text: Traditional & Cultural Wear
+            - link [disabled] [ref=f6e518] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/sportswear-for-men
+              - text: Sportswear For Men
+            - link [disabled] [ref=f6e519] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/men-jumpsuits-rompers
+              - text: Jumpsuits & Rompers
+            - link [disabled] [ref=f6e520] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/men-s-accessories
+              - text: Men's Accessories
+            - link [disabled] [ref=f6e521] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/clothes-for-him/men-s-short
+              - text: Men's Short
+          - link [disabled] [ref=f6e522] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/men/shoes-for-men
+            - text: Shoes For Men
+          - list [ref=f6e523]:
+            - link [disabled] [ref=f6e524] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/shoes-for-men/sneakers
+              - text: Sneakers
+            - link [disabled] [ref=f6e525] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/shoes-for-men/flip-flops-slides
+              - text: Flip Flops & Slides
+            - link [disabled] [ref=f6e526] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/shoes-for-men/sports-shoes
+              - text: Sports Shoes
+            - link [disabled] [ref=f6e527] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/shoes-for-men/sandals
+              - text: Sandals
+            - link [disabled] [ref=f6e528] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/shoes-for-men/formal-shoes
+              - text: Formal Shoes
+            - link [disabled] [ref=f6e529] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/shoes-for-men/loafer-flats-shoes
+              - text: Loafer Flats Shoes
+            - link [disabled] [ref=f6e530] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/men/shoes-for-men/boots
+              - text: Boots
+          - link [disabled] [ref=f6e531] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/men/watches-for-men
+            - text: Watches For Men
+          - link [disabled] [ref=f6e532] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/men/glasses-for-men
+            - text: Glasses For Men
+          - link [disabled] [ref=f6e533] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/men/bags-for-men
+            - text: Bags For Men
+        - link [disabled] [ref=f6e534] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/fashion/for-kids
+          - text: For Kids
+        - list [ref=f6e535]:
+          - link [disabled] [ref=f6e536] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/for-kids/kids-bags
+            - text: Kids Bags
+          - link [disabled] [ref=f6e537] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/fashion/for-kids/clothes
+            - text: Clothes & Shoes
+          - list [ref=f6e538]:
+            - link [disabled] [ref=f6e539] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys
+              - text: For Boys
+            - list [ref=f6e540]:
+              - link [disabled] [ref=f6e541] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/footwear
+                - text: Footwear
+              - link [disabled] [ref=f6e542] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/shirts
+                - text: Shirts
+              - link [disabled] [ref=f6e543] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/t-shirts-polo
+                - text: T-shirts & Polo
+              - link [disabled] [ref=f6e544] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/underwear
+                - text: Underwear
+              - link [disabled] [ref=f6e545] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/pants-jeans
+                - text: Pants & Sweatpants
+              - link [disabled] [ref=f6e546] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/pajamas
+                - text: Pajamas
+              - link [disabled] [ref=f6e547] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/swimwear
+                - text: Swimming Wear
+              - link [disabled] [ref=f6e548] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/sportswear-for-boys
+                - text: Sportswear For Boys
+              - link [disabled] [ref=f6e549] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/hoodies-sweat-shirts
+                - text: Hoodies & Sweatshirts
+              - link [disabled] [ref=f6e550] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/pullovers
+                - text: Pullovers
+              - link [disabled] [ref=f6e551] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/set
+                - text: Set For Boys
+              - link [disabled] [ref=f6e552] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/jackets-coats
+                - text: Jackets & Coats
+              - link [disabled] [ref=f6e553] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/fashion/for-kids/clothes/for-boys/boys-costumes-cosplay
+                - text: Costumes Cosplay
+            - link [disabled] [ref=f6e554] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/fashion/for-kids/clothes-shoes/for-girls
+              - text: For Girls
+            - list [ref=f6e555]:
+              - link [disabled] [ref=f6e556] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/catalog/category/view/s/footwear/id/21931/
+                - text: Footwear
+              - link [disabled] [ref=f6e557] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/catalog/category/view/s/pants-sweatpants/id/21919/
+                - text: Pants & Sweatpants
+              - link [disabled] [ref=f6e558] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/catalog/category/view/s/tops-tees-blouses/id/21889/
+                - text: Tops. Tees & Blouses
+              - link [disabled] [ref=f6e559] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/catalog/category/view/s/pajamas/id/21883/
+                - text: Pajamas
+              - link [disabled] [ref=f6e560] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/catalog/category/view/s/underwear/id/21886/
+                - text: Underwear
+              - link [disabled] [ref=f6e561] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/catalog/category/view/s/swimming-wear/id/21874/
+                - text: Swimming Wear
+              - link [disabled] [ref=f6e562] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/catalog/category/view/s/hoodies-sweatshirts/id/42037/
+                - text: Hoodies & Sweatshirts
+              - link [disabled] [ref=f6e563] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/catalog/category/view/s/ethnic-traditional-wear/id/42094/
+                - text: Ethnic & Traditional Wear
+              - link [disabled] [ref=f6e564] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/catalog/category/view/s/jackets-coats/id/42434/
+                - text: Jackets & Coats
+              - link [disabled] [ref=f6e565] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/catalog/category/view/s/costumes-cosplay/id/43289/
+                - text: Costumes Cosplay
+      - link [disabled] [ref=f6e566] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/fashion
+        - text: Fashion
+      - link [disabled] [ref=f6e567] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/family-products
+        - text: Family Products
+      - link [disabled] [ref=f6e568] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/family-products
+        - text: Family Products
+      - list [ref=f6e569]:
+        - link [disabled] [ref=f6e570] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products/baby-toys
+          - text: Baby & Toys
+        - list [ref=f6e571]:
+          - link [disabled] [ref=f6e572] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/baby-toys/baby
+            - text: Baby
+          - list [ref=f6e573]:
+            - link [disabled] [ref=f6e574] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/baby/diapers
+              - text: Diapers
+            - link [disabled] [ref=f6e575] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/baby/baby-care
+              - text: Baby Care
+            - link [disabled] [ref=f6e576] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/baby/baby-accessories
+              - text: Baby Accessories
+            - link [disabled] [ref=f6e577] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/baby/baby-gears
+              - text: Baby Gears
+            - link [disabled] [ref=f6e578] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/baby/baby-feeding
+              - text: Baby Feeding
+            - link [disabled] [ref=f6e579] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/baby/baby-safety
+              - text: Baby Safety
+          - link [disabled] [ref=f6e580] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/baby-toys/toys
+            - text: Toys
+          - list [ref=f6e581]:
+            - link [disabled] [ref=f6e582] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/toys/activities-books
+              - text: Educational Books & Toys
+            - link [disabled] [ref=f6e583] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/toys/action-toys
+              - text: Activity & Action Toys
+            - link [disabled] [ref=f6e584] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/toys/nursery-furniture-decor
+              - text: Nursery Furniture & Décor
+            - link [disabled] [ref=f6e585] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/toys/bike-scooters
+              - text: Bike & Scooters
+            - link [disabled] [ref=f6e586] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/baby-toys/toys/dolls
+              - text: Dolls
+        - link [disabled] [ref=f6e587] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products/health-beauty
+          - text: Health & Beauty
+        - list [ref=f6e588]:
+          - link [disabled] [ref=f6e589] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/health-beauty/shaving-grooming-101
+            - text: Shaving & Grooming
+          - list [ref=f6e590]:
+            - link [disabled] [ref=f6e591] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/shaving-grooming-101/electric-shavers
+              - text: Electric Shavers
+            - link [disabled] [ref=f6e592] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/shaving-grooming-101/men-s-razors-blades
+              - text: Men's Razors & Blades
+            - link [disabled] [ref=f6e593] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/shaving-grooming-101/men-s-shaving-creams-lotions-gels
+              - text: Men's Shaving Creams & Lotions
+          - link [disabled] [ref=f6e594] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/catalog/category/view/s/hair-styling-tools/id/135/
+            - text: Hair Styling Tools
+          - list [ref=f6e595]:
+            - link [disabled] [ref=f6e596] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-care/hair-accessories
+              - text: Hair Accessories
+            - link [disabled] [ref=f6e597] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-care/hair-brushes
+              - text: Hair Brushes
+            - link [disabled] [ref=f6e598] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-care/hair-dryer
+              - text: Hair Dryer
+            - link [disabled] [ref=f6e599] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-care/hair-straighteners
+              - text: Hair Straighteners
+            - link [disabled] [ref=f6e600] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-care/hair-straightening-brush
+              - text: Hair Straightening Brush
+          - link [disabled] [ref=f6e601] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/health-beauty/hair-treatments
+            - text: Hair Treatments
+          - list [ref=f6e602]:
+            - link [disabled] [ref=f6e603] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-treatments/hair-oils-serums
+              - text: Hair Oils & Serums
+            - link [disabled] [ref=f6e604] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-treatments/hair-masks
+              - text: Hair Masks
+            - link [disabled] [ref=f6e605] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-treatments/hair-color
+              - text: Hair Color
+            - link [disabled] [ref=f6e606] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-treatments/conditioners
+              - text: Conditioners
+            - link [disabled] [ref=f6e607] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-treatments/shower-gel
+              - text: Shower Gel
+            - link [disabled] [ref=f6e608] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/hair-treatments/shampoos
+              - text: Shampoos
+          - link [disabled] [ref=f6e609] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/health-beauty/beauty-body-care
+            - text: Beauty & Body Care
+          - link [disabled] [ref=f6e610] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care
+            - text: Personal Care
+          - list [ref=f6e611]:
+            - link [disabled] [ref=f6e612] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/health-nutrition
+              - text: Health & Nutrition
+            - list [ref=f6e613]:
+              - link [disabled] [ref=f6e614] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/health-nutrition/sexual-wellness
+                - text: Sexual Wellness
+              - link [disabled] [ref=f6e615] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/health-nutrition/health-nutrition
+                - text: Health & Nutrition
+              - link [disabled] [ref=f6e616] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/health-nutrition/massagers
+                - text: Massagers
+              - link [disabled] [ref=f6e617] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/health-nutrition/nebulizer
+                - text: Nebulizer
+              - link [disabled] [ref=f6e618] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/health-nutrition/thermometer
+                - text: Thermometer
+              - link [disabled] [ref=f6e619] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/health-nutrition/blood-glucose-meter
+                - text: Blood Glucose Meter
+              - link [disabled] [ref=f6e620] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/health-nutrition/blood-pressure-monitor
+                - text: Blood Pressure Monitor
+              - link [disabled] [ref=f6e621] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/health-nutrition/vitamins-supplements
+                - text: Vitamins & Supplements
+              - link [disabled] [ref=f6e622] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/health-nutrition/face-mask
+                - text: Face Mask
+            - link [disabled] [ref=f6e623] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/body-mists-sprays
+              - text: Body Mists & Sprays
+            - link [disabled] [ref=f6e624] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/deodorants-antiperspirants
+              - text: Deodorants & Antiperspirants
+            - link [disabled] [ref=f6e625] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/feminine-care
+              - text: Feminine Care
+            - link [disabled] [ref=f6e626] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/foot-care
+              - text: Foot Care
+            - link [disabled] [ref=f6e627] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/oral-care
+              - text: Oral Care
+            - link [disabled] [ref=f6e628] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/personal-care/shaving-hair-removal
+              - text: Shaving & Hair Removal
+          - link [disabled] [ref=f6e629] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/health-beauty/skin-care
+            - text: Skin Care
+          - link [disabled] [ref=f6e630] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/health-beauty/shampoos-conditioners
+            - text: Shampoos & Conditioners
+          - link [disabled] [ref=f6e631] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/health-beauty/soap-shower-gel
+            - text: Soap & Shower Gel
+          - link [disabled] [ref=f6e632] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/health-beauty/dental-care
+            - text: Dental Care
+          - link [disabled] [ref=f6e633] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/health-beauty/makeup
+            - text: Makeup
+          - list [ref=f6e634]:
+            - link [disabled] [ref=f6e635] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/nails
+              - text: Nails
+            - list [ref=f6e636]:
+              - link [disabled] [ref=f6e637] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/nails/nail-polish
+                - text: Nail Polish
+              - link [disabled] [ref=f6e638] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/nails/nail-remover
+                - text: Nail Remover
+            - link [disabled] [ref=f6e639] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/eyes
+              - text: Eyes
+            - list [ref=f6e640]:
+              - link [disabled] [ref=f6e641] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/eyes/eyebrow-enhancer
+                - text: Eyelash Enhancer
+              - link [disabled] [ref=f6e642] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/eyes/eyeliner
+                - text: Eyeliner
+              - link [disabled] [ref=f6e643] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/eyes/eyeshadow
+                - text: Eyeshadow
+              - link [disabled] [ref=f6e644] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/eyes/mascara
+                - text: Mascara
+              - link [disabled] [ref=f6e645] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/eyes/eye-brow-enhancer
+                - text: Eye Brow Enhancer
+            - link [disabled] [ref=f6e646] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/lips
+              - text: Lips
+            - list [ref=f6e647]:
+              - link [disabled] [ref=f6e648] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/lips/lip-balm
+                - text: Lip Balm
+              - link [disabled] [ref=f6e649] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/lips/lip-glosses
+                - text: Lip Glosses
+              - link [disabled] [ref=f6e650] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/lips/lip-plumper
+                - text: Lip Plumper
+              - link [disabled] [ref=f6e651] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/lips/lip-tint
+                - text: Lip Tint
+              - link [disabled] [ref=f6e652] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/lips/lipliner
+                - text: Lipliner
+              - link [disabled] [ref=f6e653] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/lips/lipstick
+                - text: Lipstick
+            - link [disabled] [ref=f6e654] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/face
+              - text: Face
+            - list [ref=f6e655]:
+              - link [disabled] [ref=f6e656] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/face/blushers-bronzers
+                - text: Blushers & Bronzers
+              - link [disabled] [ref=f6e657] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/face/concealer
+                - text: Concealer
+              - link [disabled] [ref=f6e658] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/face/contour
+                - text: Contour
+              - link [disabled] [ref=f6e659] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/face/face-palettes
+                - text: Face Palettes
+              - link [disabled] [ref=f6e660] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/face/foundations
+                - text: Foundations
+              - link [disabled] [ref=f6e661] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/face/highlighter
+                - text: Highlighter
+            - link [disabled] [ref=f6e662] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/makeup/makeup-remover
+              - text: Makeup Accessories & Remover
+          - link [disabled] [ref=f6e663] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/health-beauty/perfumes
+            - text: Perfumes
+          - list [ref=f6e664]:
+            - link [disabled] [ref=f6e665] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/perfumes/for-men
+              - text: For Men
+            - link [disabled] [ref=f6e666] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/perfumes/for-women
+              - text: For Women
+            - link [disabled] [ref=f6e667] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/perfumes/for-unisex
+              - text: For Unisex
+            - link [disabled] [ref=f6e668] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/health-beauty/perfumes/for-kids
+              - text: For Kids
+        - link [disabled] [ref=f6e669] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products/for-family
+          - text: For Family
+        - list [ref=f6e670]:
+          - link [disabled] [ref=f6e671] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/for-family/luggage-bags
+            - text: Luggage & Bags
+          - list [ref=f6e672]:
+            - link [disabled] [ref=f6e673] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/for-family/luggage-bags/duffel-bags
+              - text: Duffel Bags
+            - link [disabled] [ref=f6e674] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/for-family/luggage-bags/trolley-bags
+              - text: Trolley Bags
+          - link [disabled] [ref=f6e675] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/for-family/sports-equipment
+            - text: Sports Equipment
+          - list [ref=f6e676]:
+            - link [disabled] [ref=f6e677] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/for-family/sports-equipment/weightlifting-equipment-accessories
+              - text: Weightlifting Equipment & Accessories
+            - link [disabled] [ref=f6e678] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/for-family/sports-equipment/team-sports-athletic-equipment
+              - text: Team Sports & Athletic Equipment
+            - link [disabled] [ref=f6e679] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/for-family/sports-equipment/swimming-gear-accessories
+              - text: Swimming Gear & Accessories
+            - link [disabled] [ref=f6e680] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/for-family/sports-equipment/fitness-equipment-accessories
+              - text: Fitness Equipment. Machines & Accessories
+            - link [disabled] [ref=f6e681] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/for-family/sports-equipment/treadmills
+              - text: Treadmills
+            - link [disabled] [ref=f6e682] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/for-family/sports-equipment/boxing-martial-arts-equipment
+              - text: Boxing & Martial Arts Equipment
+            - link [disabled] [ref=f6e683] [cursor=pointer]:
+              - /url: https://www.raneen.com/en/family-products/for-family/sports-equipment/yoga-fitness-recovery-gear
+              - text: Yoga. Fitness & Recovery Gear
+          - link [disabled] [ref=f6e684] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/for-family/personal-scale
+            - text: Personal Scale
+          - link [disabled] [ref=f6e685] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/for-family/medical-supplies
+            - text: Medical Supplies
+          - link [disabled] [ref=f6e686] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/for-family/islamic
+            - text: Islamic
+        - link [disabled] [ref=f6e687] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products/automotive
+          - text: Automotive
+        - list [ref=f6e688]:
+          - link [disabled] [ref=f6e689] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/automotive/cars-care
+            - text: Car Care
+          - link [disabled] [ref=f6e690] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/automotive/scooter
+            - text: Scooters
+          - link [disabled] [ref=f6e691] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/automotive/car-video
+            - text: Car Video
+          - link [disabled] [ref=f6e692] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/automotive/car-audio
+            - text: Car Audio
+          - link [disabled] [ref=f6e693] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/automotive/car-speakers
+            - text: Car Speakers
+          - link [disabled] [ref=f6e694] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/automotive/car-parts-and-services
+            - text: Car Parts And Services
+          - link [disabled] [ref=f6e695] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/automotive/car-tires
+            - text: Car Tires
+          - link [disabled] [ref=f6e696] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/automotive/car-amplifiers
+            - text: Car Amplifiers
+          - link [disabled] [ref=f6e697] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/automotive/smart-ev-charger
+            - text: Smart EV Charger
+        - link [disabled] [ref=f6e698] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products/stationery
+          - text: Stationery
+        - list [ref=f6e699]:
+          - link [disabled] [ref=f6e700] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/stationery/office-supplies
+            - text: Office Supplies
+          - link [disabled] [ref=f6e701] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/stationery/calculator
+            - text: Calculator
+          - link [disabled] [ref=f6e702] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/stationery/pens
+            - text: Pens
+        - link [disabled] [ref=f6e703] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products/camping-goods
+          - text: Camping Goods
+        - list [ref=f6e704]:
+          - link [disabled] [ref=f6e705] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/camping-goods/tent-tent-accessories
+            - text: Tent & Tent Accessories
+          - link [disabled] [ref=f6e706] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/camping-goods/camping-tools
+            - text: Camping Tools
+          - link [disabled] [ref=f6e707] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/camping-goods/fishing
+            - text: Fishing
+        - link [disabled] [ref=f6e708] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products/sewing-machines
+          - text: Sewing Machines
+        - list [ref=f6e709]:
+          - link [disabled] [ref=f6e710] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/sewing-machines/sewing-machines
+            - text: Sewing Machines
+          - link [disabled] [ref=f6e711] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/sewing-machines/cutting-steam-machines
+            - text: Cutting & Steam Machines
+        - link [disabled] [ref=f6e712] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products/pet-supplies
+          - text: Pet Supplies
+        - list [ref=f6e713]:
+          - link [disabled] [ref=f6e714] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/pet-supplies/pet-foods
+            - text: Pet Foods
+          - link [disabled] [ref=f6e715] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/family-products/pet-supplies/pet-supplies
+            - text: Pet Supplies
+      - link [disabled] [ref=f6e716] [cursor=pointer]:
+        - /url: https://www.raneen.com/en/family-products/kids
+        - text: Kids & Toys
+  - navigation "Main Menu" [ref=f6e719]:
+    - menubar [ref=f6e720]:
+      - menuitem [ref=f6e721]:
+        - link "Air Conditioner" [ref=f6e722] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/appliances/large-appliances/air-conditioners
+          - paragraph [ref=f6e723]:
+            - generic [ref=f6e724]: Air Conditioner
+      - menuitem [ref=f6e725]:
+        - link "Appliances" [ref=f6e726] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/appliances
+          - paragraph [ref=f6e727]:
+            - generic [ref=f6e728]: Appliances
+      - menuitem [ref=f6e729]:
+        - link "Mobile" [ref=f6e730] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/mobiles
+          - paragraph [ref=f6e731]:
+            - generic [ref=f6e732]: Mobile
+      - menuitem [ref=f6e733]:
+        - link "Televisions" [ref=f6e734] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/electronics/televisions-accessories/tv
+          - paragraph [ref=f6e735]:
+            - generic [ref=f6e736]: Televisions
+      - menuitem [ref=f6e737]:
+        - link "Home" [ref=f6e738] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/home
+          - paragraph [ref=f6e739]:
+            - generic [ref=f6e740]: Home
+      - menuitem [ref=f6e741]:
+        - link "Rugs" [ref=f6e742] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture/rugs
+          - paragraph [ref=f6e743]:
+            - generic [ref=f6e744]: Rugs
+      - menuitem [ref=f6e745]:
+        - link "Textile" [ref=f6e746] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/textile
+          - paragraph [ref=f6e747]:
+            - generic [ref=f6e748]: Textile
+      - menuitem [ref=f6e749]:
+        - link "Kitchen" [ref=f6e750] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/kitchen
+          - paragraph [ref=f6e751]:
+            - generic [ref=f6e752]: Kitchen
+      - menuitem [ref=f6e753]:
+        - link "Furniture" [ref=f6e754] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/furniture
+          - paragraph [ref=f6e755]:
+            - generic [ref=f6e756]: Furniture
+      - menuitem [ref=f6e757]:
+        - link "Health & Beauty" [ref=f6e758] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products/health-beauty
+          - paragraph [ref=f6e759]:
+            - generic [ref=f6e760]: Health & Beauty
+      - menuitem [ref=f6e761]:
+        - link "Fashion" [ref=f6e762] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/fashion
+          - paragraph [ref=f6e763]:
+            - generic [ref=f6e764]: Fashion
+      - menuitem [ref=f6e765]:
+        - link "Family Products" [ref=f6e766] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products
+          - paragraph [ref=f6e767]:
+            - generic [ref=f6e768]: Family Products
+      - menuitem [ref=f6e769]:
+        - link "Kids & Toys" [ref=f6e770] [cursor=pointer]:
+          - /url: https://www.raneen.com/en/family-products/kids
+          - paragraph [ref=f6e771]:
+            - generic [ref=f6e772]: Kids & Toys
+  - main [ref=f6e773]:
+    - generic:
+      - generic:
+        - alert
+        - alert
+    - generic [ref=f6e779]:
+      - generic [ref=f6e782]:
+        - heading "Oops! Page Not Found" [level=1] [ref=f6e783]
+        - paragraph [ref=f6e784]: We apologize, but the page you are looking for does not exist.
+        - paragraph [ref=f6e785]:
+          - text: Please check the URL for typos, or go back to the
+          - link "homepage" [ref=f6e786] [cursor=pointer]:
+            - /url: /
+          - text: .
+        - paragraph [ref=f6e787]: If you believe this is an error, please contact our support team.
+        - paragraph [ref=f6e788]:
+          - text: Continue shopping?
+          - link "Click here" [ref=f6e789] [cursor=pointer]:
+            - /url: javascript:history.back()
+          - text: .
+      - figure [ref=f6e791]
+  - contentinfo [ref=f6e792]:
+    - generic [ref=f6e793]:
+      - generic [ref=f6e794]:
+        - text: Subscribe in our newsletter
+        - generic [ref=f6e796]:
+          - generic [ref=f6e798]:
+            - text: 
+            - generic [ref=f6e799]:
+              - generic [ref=f6e800]: "Sign Up for Our Newsletter:"
+              - textbox "Sign Up for Our Newsletter:" [ref=f6e801]:
+                - /placeholder: Enter your email address
+          - button "Subscribe" [ref=f6e803] [cursor=pointer]
+      - list [ref=f6e804]:
+        - listitem [ref=f6e805]:
+          - link "Privacy and Cookie Policy" [ref=f6e806] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=f6e807]:
+          - link "Orders and Returns" [ref=f6e808] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/sales/guest/form/
+        - listitem [ref=f6e809]:
+          - link "Search Terms" [ref=f6e810] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/search/term/popular/
+        - listitem [ref=f6e811]:
+          - link "Advanced Search" [ref=f6e812] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/catalogsearch/advanced/
+        - listitem [ref=f6e813]:
+          - link "Sitemap" [ref=f6e814] [cursor=pointer]:
+            - /url: https://www.raneen.com/en/sitemap.html/
+        - listitem
+      - generic [ref=f6e819]:
+        - generic [ref=f6e820]:
+          - heading "Important Links" [level=3] [ref=f6e822]
+          - generic [ref=f6e823]:
+            - list [ref=f6e824]:
+              - list [ref=f6e825]:
+                - list [ref=f6e826]:
+                  - listitem [ref=f6e827]:
+                    - link "Help Center" [ref=f6e828] [cursor=pointer]:
+                      - /url: https://www.raneen.com/en/help-center/
+                  - listitem [ref=f6e829]:
+                    - link "About Us" [ref=f6e830] [cursor=pointer]:
+                      - /url: https://www.raneen.com/en/help-center-about-us-6728c1346e087
+                  - listitem [ref=f6e831]:
+                    - link "Our Branches" [ref=f6e832] [cursor=pointer]:
+                      - /url: https://www.raneen.com/en/offline-stores-map
+                  - listitem [ref=f6e833]:
+                    - link "Our Offers" [ref=f6e834] [cursor=pointer]:
+                      - /url: https://www.raneen.com/en/deals/daily-deals
+                  - listitem [ref=f6e835]:
+                    - link "Return Policy" [ref=f6e836] [cursor=pointer]:
+                      - /url: https://www.raneen.com/en/return-policy
+            - paragraph [ref=f6e837]
+            - paragraph [ref=f6e838]
+        - generic [ref=f6e839]:
+          - heading "Categories" [level=3] [ref=f6e841]
+          - list [ref=f6e843]:
+            - listitem [ref=f6e844]:
+              - link "Home Appliances" [ref=f6e845] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/appliances
+            - listitem [ref=f6e846]:
+              - link "Electronics" [ref=f6e847] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/electronics
+            - listitem [ref=f6e848]:
+              - link "Mobiles" [ref=f6e849] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/mobiles
+            - listitem [ref=f6e850]:
+              - link "Home" [ref=f6e851] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/home
+            - listitem [ref=f6e852]:
+              - link "Kitchen" [ref=f6e853] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/kitchen
+            - listitem [ref=f6e854]:
+              - link "Furniture" [ref=f6e855] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/furniture
+            - listitem [ref=f6e856]:
+              - link "Family Products" [ref=f6e857] [cursor=pointer]:
+                - /url: https://www.raneen.com/en/family-products
+        - generic [ref=f6e858]:
+          - heading "My Account" [level=3] [ref=f6e860]
+          - generic [ref=f6e861]:
+            - list [ref=f6e862]:
+              - listitem [ref=f6e863]:
+                - link "Account Details" [ref=f6e864] [cursor=pointer]:
+                  - /url: https://www.raneen.com/en/customer/account/
+              - listitem [ref=f6e865]:
+                - link "My Orders" [ref=f6e866] [cursor=pointer]:
+                  - /url: https://www.raneen.com/en/sales/order/history/
+              - listitem [ref=f6e867]:
+                - link "My Wishlist" [ref=f6e868] [cursor=pointer]:
+                  - /url: https://www.raneen.com/en/wishlist/
+              - listitem [ref=f6e869]:
+                - link "Wallet" [ref=f6e870] [cursor=pointer]:
+                  - /url: https://www.raneen.com/en/storecredit/info/
+              - listitem [ref=f6e871]:
+                - link "Returns" [ref=f6e872] [cursor=pointer]:
+                  - /url: https://www.raneen.com/en/rma/returns/history/
+              - listitem [ref=f6e873]:
+                - link "Sell At Raneen" [ref=f6e874] [cursor=pointer]:
+                  - /url: https://sell.raneen.com/en
+            - paragraph [ref=f6e875]
+        - generic [ref=f6e876]:
+          - heading "Social Media" [level=3] [ref=f6e878]
+          - figure [ref=f6e879]:
+            - link [ref=f6e880] [cursor=pointer]:
+              - /url: https://www.facebook.com/RaneenPage/
+          - figure [ref=f6e881]:
+            - link [ref=f6e882] [cursor=pointer]:
+              - /url: https://www.instagram.com/raneenofficial/
+          - figure [ref=f6e883]:
+            - link [ref=f6e884] [cursor=pointer]:
+              - /url: https://eg.linkedin.com/company/raneen
+          - figure [ref=f6e885]:
+            - link [ref=f6e886] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Raneen/featured
+          - heading "Download Raneen App" [level=3] [ref=f6e888]
+          - figure [ref=f6e889]:
+            - link [ref=f6e890] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.raneen.mobapp
+          - figure [ref=f6e891]:
+            - link [ref=f6e892] [cursor=pointer]:
+              - /url: https://apps.apple.com/eg/app/raneen/id1595916027
+          - heading "Hotline" [level=3] [ref=f6e894]
+          - figure [ref=f6e895]:
+            - link [ref=f6e896] [cursor=pointer]:
+              - /url: tel:16113
+              - img "Raneen Hotline" [ref=f6e897]
+  - generic:
+    - iframe
+  - generic [ref=f6e900]: © Raneen 2026. All Rights Reserved.
+  - text: "* * * *  * * * * * Required Fields"

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-17",
+  "status": "catalog_ready",
+  "galleryPage": "protein-gallery.html",
+  "catalogPath": "data/appliances/protein_catalog.json",
+  "goal": "High protein, low calorie, supermarket, snacks preferred, minimal processing",
+  "ranking": {
+    "primary": "EGP per gram of protein (lower better)",
+    "secondary": "kcal per gram of protein (lower better)"
+  },
+  "prepAllowed": ["ready", "open_eat", "boil_once", "microwave_1min", "assemble_no_cook"],
+  "note": "Egypt supermarket price bands approximate; re-verify labels"
+}

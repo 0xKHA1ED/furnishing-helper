@@ -1,0 +1,160 @@
+- generic [active] [ref=e1]:
+  - link [ref=e3] [cursor=pointer]:
+    - /url: https://wa.me/201060552252
+    - img "Contact" [ref=e4]
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "info@furniturehubapp.com" [ref=e14] [cursor=pointer]:
+          - /url: mail:info@furniturehubapp.com
+        - link "(+20) 106 055 2252" [ref=e20] [cursor=pointer]:
+          - /url: tel:01060552252
+        - generic [ref=e22]:
+          - checkbox
+      - generic [ref=e24]:
+        - heading "Follow Us and get a chance to win 80% off" [level=2] [ref=e25]
+        - generic [ref=e26]: 🎉
+      - generic [ref=e27]:
+        - button [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - img "Furniture Hub" [ref=e31]
+            - text: English
+        - generic [ref=e32]:
+          - generic [ref=e33]: "Follow Us :"
+          - generic [ref=e34]:
+            - link "" [ref=e35] [cursor=pointer]:
+              - /url: https://www.facebook.com/Furniturehub.eg
+            - link "" [ref=e37] [cursor=pointer]:
+              - /url: https://x.com/Furniturehubapp?t=OUYUn-wzBYxgAlCzr3b0MQ&s=09
+            - link "" [ref=e39] [cursor=pointer]:
+              - /url: https://www.instagram.com/furniturehub.eg
+            - link "" [ref=e41] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/74050877
+    - banner [ref=e43]:
+      - generic [ref=e50]:
+        - link "Home" [ref=e52] [cursor=pointer]:
+          - /url: https://furniturehubapp.com/en
+        - generic [ref=e71]:
+          - combobox [ref=e72]:
+            - option "All Categories" [selected]
+            - option "Bed Rooms"
+            - option "Children's Rooms"
+            - option "Dining Rooms"
+            - option "Salons"
+            - option "Kitchens"
+            - option "Chairs"
+            - option "Offices Furniture"
+            - option "Antiques"
+            - option "Decor"
+            - option "Tables"
+            - option "Lighting"
+            - option "Outdoor Furniture"
+            - option "Bean Bags"
+            - option "Storage Unit"
+            - option "Bohemian Furniture"
+            - option "Lazy Boy"
+            - option "Stainless product"
+            - option "Summer Products"
+            - option "living rooms"
+          - textbox "What are you looking for ?" [ref=e75]
+          - button [ref=e77] [cursor=pointer]
+        - link "Login" [ref=e81] [cursor=pointer]:
+          - /url: "#"
+  - main [ref=e87]:
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - heading "Filter by" [level=2] [ref=e91]
+        - button [ref=e99] [cursor=pointer]
+        - button "Categories" [ref=e107] [cursor=pointer]
+      - generic [ref=e112]:
+        - link [ref=e114] [cursor=pointer]:
+          - /url: "#"
+          - img "Modern Bedroom" [ref=e115]
+        - heading "Filter by" [level=2] [ref=e119]
+    - generic [ref=e129]:
+      - generic [ref=e135]:
+        - heading "Secure payment" [level=5] [ref=e136]
+        - paragraph [ref=e137]: Secure payment
+      - generic [ref=e143]:
+        - heading "Return & Refund" [level=5] [ref=e144]
+        - paragraph [ref=e145]: Return & Refund
+      - generic [ref=e151]:
+        - heading "Gift voucher" [level=5] [ref=e152]
+        - paragraph [ref=e153]: Gift voucher
+      - generic [ref=e159]:
+        - heading "Support 24/7" [level=5] [ref=e160]
+        - paragraph [ref=e161]: 24 hour support, all days
+      - generic [ref=e167]:
+        - heading "Fast Shipping" [level=5] [ref=e168]
+        - paragraph [ref=e169]: Delivery to your door
+  - contentinfo [ref=e170]:
+    - generic [ref=e172]:
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - heading "Get a surprise discount" [level=4] [ref=e176]
+          - generic [ref=e177]: Join our email subscription now
+        - generic [ref=e179]:
+          - textbox "Enter Your Email" [ref=e180]
+          - button "Subscribe" [ref=e181] [cursor=pointer]
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - heading "About US" [level=4] [ref=e184]
+          - paragraph [ref=e186]: Shop now for all your home furniture, decor, office furniture and more, only on Furniture Hub.
+          - generic [ref=e187]:
+            - generic [ref=e188]: 
+            - link "info@furniturehubapp.com" [ref=e190] [cursor=pointer]:
+              - /url: mail:info@furniturehubapp.com
+          - generic [ref=e191]:
+            - generic [ref=e192]: 
+            - link "+201060552252" [ref=e194] [cursor=pointer]:
+              - /url: tel:01060552252
+          - generic [ref=e195]:
+            - generic [ref=e196]: 
+            - link "Egypt, Damietta, New Damietta" [ref=e198] [cursor=pointer]:
+              - /url: tel:01060552252
+        - generic [ref=e199]:
+          - generic [ref=e218]:
+            - generic [ref=e219]: Follow Us
+            - generic [ref=e220]:
+              - link "" [ref=e221] [cursor=pointer]:
+                - /url: https://www.facebook.com/Furniturehub.eg
+              - link "" [ref=e223] [cursor=pointer]:
+                - /url: https://wa.me/201060552252
+              - link "" [ref=e225] [cursor=pointer]:
+                - /url: https://x.com/Furniturehubapp?t=OUYUn-wzBYxgAlCzr3b0MQ&s=09
+              - link "" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/furniturehub.eg
+              - link "" [ref=e229] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/74050877
+              - link "" [ref=e231] [cursor=pointer]:
+                - /url: https://www.pinterest.com/furniturehub_eg/
+          - generic [ref=e233]:
+            - link [ref=e235] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=org.furniture.hub.app
+            - link [ref=e252] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/furniture-hub/id1464607582
+        - generic [ref=e279]:
+          - heading "Main Pages" [level=4] [ref=e280]
+          - list [ref=e282]:
+            - listitem [ref=e283]:
+              - link "blogs" [ref=e284] [cursor=pointer]:
+                - /url: https://furniturehubapp.com/en/blog
+            - listitem [ref=e285]:
+              - link "Products" [ref=e286] [cursor=pointer]:
+                - /url: https://furniturehubapp.com/en/shop
+            - listitem [ref=e287]:
+              - link "Contact Us" [ref=e288] [cursor=pointer]:
+                - /url: https://furniturehubapp.com/en/contact-us
+            - listitem [ref=e289]:
+              - link "Return Policy" [ref=e290] [cursor=pointer]:
+                - /url: https://furniturehubapp.com/en/return-policy
+            - listitem [ref=e291]:
+              - link "Privacy Policy" [ref=e292] [cursor=pointer]:
+                - /url: https://furniturehubapp.com/en/privacy-policy
+            - listitem [ref=e293]:
+              - link "FAQs" [ref=e294] [cursor=pointer]:
+                - /url: https://furniturehubapp.com/en/faq
+      - generic [ref=e296]:
+        - generic [ref=e297]: Privacy Policy
+        - generic [ref=e298]: "|"
+        - generic [ref=e299]: Terms and Conditions

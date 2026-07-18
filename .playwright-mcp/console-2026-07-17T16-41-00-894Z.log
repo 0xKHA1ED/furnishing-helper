@@ -1,0 +1,202 @@
+[    2464ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:98590)
+    at lu (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:149631)
+    at uf (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190321)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190166
+    at ud (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190174)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:185314)
+    at uq (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211993)
+    at uB (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:210207)
+    at uE (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:207853)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205279
+    at uv (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205285)
+    at ut (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:188436)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:186672)
+    at uH (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211872)
+    at MessagePort.O (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:60030)
+[    8840ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[    8842ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   34394ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://retail.btech.com/milano/api/v2/regions?localization_code=0:0
+[   34396ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://retail.btech.com/blink/api/v4/carts/cart-total-quantity?localization_code=0:0
+[   35338ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   35340ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   39355ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  121447ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=f3aa1958-814c-4cdd-ab6c-fc93764dbf53&localization_code=0:0
+[  122017ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  122019ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  124104ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=9b906681-b000-4cf7-88bc-5381e3e8a107&localization_code=0:0
+[  125825ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  125826ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  126104ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=9b906681-b000-4cf7-88bc-5381e3e8a107&localization_code=0:0
+[  138588ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=919fb1eb-5775-48e4-9354-e360b179bcec&localization_code=0:0
+[  140806ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=919fb1eb-5775-48e4-9354-e360b179bcec&localization_code=0:0
+[  144515ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=ba3893bc-f141-44ec-b6c5-56d970c9b9e2&localization_code=0:0
+[  152381ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=03f56aa1-115e-4b6c-8c9a-f973c43a8678&localization_code=0:0
+[  154850ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  154851ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  156829ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=71b3255e-c443-40ab-bfb8-db219695cc9a&localization_code=0:0
+[  161910ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=fc7dad60-8ee8-434a-963e-0d4c30b57ba3&localization_code=0:0
+[  163398ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=fc7dad60-8ee8-434a-963e-0d4c30b57ba3&localization_code=0:0
+[  165666ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  165668ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  165850ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=fc7dad60-8ee8-434a-963e-0d4c30b57ba3&localization_code=0:0
+[  170019ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=fc7dad60-8ee8-434a-963e-0d4c30b57ba3&localization_code=0:0
+[  183278ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=b206b627-0b03-4e6d-a93e-9e5d4f68a0c7&localization_code=0:0
+[  183942ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  183944ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  184433ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=b206b627-0b03-4e6d-a93e-9e5d4f68a0c7&localization_code=0:0
+[  186590ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=b206b627-0b03-4e6d-a93e-9e5d4f68a0c7&localization_code=0:0
+[  191073ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=b206b627-0b03-4e6d-a93e-9e5d4f68a0c7&localization_code=0:0
+[  206623ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=b206b627-0b03-4e6d-a93e-9e5d4f68a0c7&localization_code=0:0
+[  207805ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=b206b627-0b03-4e6d-a93e-9e5d4f68a0c7&localization_code=0:0
+[  209200ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=f3aa1958-814c-4cdd-ab6c-fc93764dbf53&localization_code=0:0
+[  210444ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=f3aa1958-814c-4cdd-ab6c-fc93764dbf53&localization_code=0:0
+[  212563ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=9b906681-b000-4cf7-88bc-5381e3e8a107&localization_code=0:0
+[  212984ms] [INFO]  @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  212985ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ct.pinterest.com/user/?tid=2613333365695&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPVlURXlaVGczWkRZdFpHUTVOUzAwWW1KakxXSTJPVGN0WlRjeFpqVXdOVFZoTTJVeQ%22%7D&cb=1784306673340&dep=2%2CPAGE_LOAD:0
+[  212987ms] [INFO]  @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  212987ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613333365695&cb=1784306673341&dep=5%2CEVENT_TAGS_ABSENT:0
+[  212987ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ct.pinterest.com/v3/?tid=2613333365695&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPVlURXlaVGczWkRZdFpHUTVOUzAwWW1KakxXSTJPVGN0WlRjeFpqVXdOVFZoTTJVeQ%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fbtech.com%2Fen%2Fp%2Fzanussi-nofrost-refrigerator-406l-black-zrt41204ba%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A864%2C%22sw%22%3A1536%2C%22mh%22%3A%223c5b736e%22%2C%22is_eu%22%3Afalse%2C%22epikDataSource%22%3Anull%2C%22derivedEpikDataSource%22%3Anull%2C%22unauthIdDataSource%22%3A%22fpc_ls%22%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Not%3BA%3DBrand%22%2C%22version%22%3A%228%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22150%22%7D%2C%7B%22brand%22%3A%22Google%20Chrome%22%2C%22version%22%3A%22150%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2215.0.0%22%2C%22uaFullVersion%22%3A%22150.0.7871.102%22%7D&cb=1784306673342:0
+[  212996ms] TypeError: Failed to fetch (ct.pinterest.com)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:10:1819
+    at https://btech.com/_next/static/chunks/0r0.cd.2be~q~.js:2:35800
+    at https://s.pinimg.com/ct/lib/main.3c5b736e.js:1:72219
+[  213332ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  213334ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  214759ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=7b0e2ed9-c2f5-481a-8351-d5793baec790&localization_code=0:0
+[  215574ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  215576ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  216533ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=919fb1eb-5775-48e4-9354-e360b179bcec&localization_code=0:0
+[  217268ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  217269ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  217757ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=919fb1eb-5775-48e4-9354-e360b179bcec&localization_code=0:0
+[  219686ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=ba3893bc-f141-44ec-b6c5-56d970c9b9e2&localization_code=0:0
+[  220440ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  220441ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  222921ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=0bfa1cf3-857d-4bcc-bf12-9e4e3161fc42&localization_code=0:0
+[  223484ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  223485ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  226271ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=2cc84639-22cd-4a13-9e9d-08b2bbffa049&localization_code=0:0
+[  227024ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  227026ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  229874ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=0f471436-6c14-4edd-98a8-db64d5f19307&localization_code=0:0
+[  230564ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  230566ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  231235ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=0f471436-6c14-4edd-98a8-db64d5f19307&localization_code=0:0
+[  233263ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  233265ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  233287ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=03f56aa1-115e-4b6c-8c9a-f973c43a8678&localization_code=0:0
+[  235573ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  235574ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  235646ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=562e8742-f3fb-40d9-9c0b-a7beca6bb0fe&localization_code=0:0
+[  236814ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=562e8742-f3fb-40d9-9c0b-a7beca6bb0fe&localization_code=0:0
+[  237594ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=71b3255e-c443-40ab-bfb8-db219695cc9a&localization_code=0:0
+[  237769ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  237770ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  240618ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=96ed9c8a-d4f4-41dd-b2ff-a3f3f2fd1b86&localization_code=0:0
+[  240714ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  240716ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  242280ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.googletagmanager.com/a?v=3&t=l&pid=2032505000&rv=67f0&tag_exp=115938465~115938468~118897920~118897930~118981136~119709549&u=AAAAAAAIAAAAACA&ut=AgAAgA&h=Ag&gtm=45be67f0v9127093708za20gzb9228820434zd9228820434&ccid=127093708&cid=AW-11083876654&l=L1218.S20.B18.E22.I1150.TC9.HTC0.F872.C3~gtm.init_consent.S0.V0.E20~gtm.init.S0.TS5ogtadsdatatos.TI14.TE0.TS5ogt1pdatav2.TI7.TE0.TS5ccdpreautopii.TI13.TE0.TS5ccdemform.TI12.TE0.TS5ccdenablecm.TI11.TE0.TS5ccdadd1pdata.TI10.TE0.TS5ccdadslast.TI9.TE0.TS5ccdadsfirst.TI15.TE19~gtm.js.S0.TS5rep.TI5.TE13~gtm.dom.S0.V0.E4~gtm.load.S0.V0.E4:0
+[  242313ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  242314ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  242488ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=f8a795ab-89c6-47f0-8e7f-516ed7ab6d83&localization_code=0:0
+[  244667ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  244668ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  248603ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  248604ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  256517ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=838ca1f8-fe70-4377-80f1-d61f47475fd3&localization_code=0:0
+[  256954ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  256956ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  257986ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=838ca1f8-fe70-4377-80f1-d61f47475fd3&localization_code=0:0
+[  260498ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=838ca1f8-fe70-4377-80f1-d61f47475fd3&localization_code=0:0
+[  264698ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=838ca1f8-fe70-4377-80f1-d61f47475fd3&localization_code=0:0

@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-17",
+  "rooms": [
+    {
+      "id": "living",
+      "name": "Living room",
+      "status": "planning",
+      "approxSize": "375 x 450 cm (~16.9 m²)",
+      "widthCm": 375,
+      "lengthCm": 450,
+      "naturalLight": null,
+      "needs": ["seating", "lighting", "TV setup?", "AC", "curtains"],
+      "notes": "Empty apartment — full setup needed.",
+      "decisions": []
+    },
+    {
+      "id": "master_bedroom",
+      "name": "Master bedroom",
+      "status": "planning",
+      "approxSize": "330 x 475 cm (~15.7 m²)",
+      "widthCm": 330,
+      "lengthCm": 475,
+      "naturalLight": null,
+      "needs": ["bed", "wardrobe", "lighting", "curtains", "AC"],
+      "notes": "",
+      "decisions": []
+    },
+    {
+      "id": "second_bedroom",
+      "name": "Second bedroom",
+      "status": "planning",
+      "approxSize": "380 x 330 cm (~12.5 m²)",
+      "widthCm": 380,
+      "lengthCm": 330,
+      "plannedUse": "hybrid_guest_office",
+      "plannedUseLabel": "Hybrid guest + office",
+      "options": ["guest room", "office / WFH", "hobby room", "storage + multipurpose"],
+      "needs": ["desk + chair", "sleep surface for guests (sofa bed or bed)", "task lighting", "storage", "curtains", "AC if budget allows"],
+      "notes": "No kids — hybrid guest + office confirmed. Phase furniture after big appliances if budget tight.",
+      "decisions": []
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "status": "shopping",
+      "approxSize": "250 x 215 cm (~5.4 m²)",
+      "widthCm": 250,
+      "lengthCm": 215,
+      "layout": "compact_empty",
+      "needs": ["fridge", "stove/oven", "hood", "microwave", "small appliances", "lighting"],
+      "notes": "Fridge still needed. Already have cooker + air fryer, kettle, blender. Check if range hood is needed with existing cooker.",
+      "decisions": []
+    },
+    {
+      "id": "bathrooms",
+      "name": "Bathrooms",
+      "status": "planning",
+      "count": null,
+      "needs": ["water heater plan", "exhaust", "lighting", "mirrors/storage"],
+      "notes": "",
+      "decisions": []
+    },
+    {
+      "id": "balcony",
+      "name": "Balcony / outdoor",
+      "status": "unknown",
+      "needs": [],
+      "notes": "Unknown if present — ask.",
+      "decisions": []
+    },
+    {
+      "id": "entry_hall",
+      "name": "Entry / hall",
+      "status": "planning",
+      "needs": ["shoe storage", "lighting", "mirror?"],
+      "notes": "",
+      "decisions": []
+    }
+  ]
+}

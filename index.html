@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Egypt Apartment Decision Hub</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">Wedding home · Egypt · No kids · 2BR</p>
+          <h1>Apartment Decision Hub</h1>
+          <p class="lead">
+            Interactive workspace for appliances, lighting, rooms, budget, and product
+            comparisons. Your answers live in this browser; export JSON anytime so we can
+            sync into the project <code>data/</code> files.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold"><strong>EGP</strong> pricing</span>
+          <span class="badge">Interactive · long-running</span>
+        </div>
+      </header>
+
+      <nav class="tabs" aria-label="Sections">
+        <button type="button" data-tab="dashboard" class="active">Dashboard</button>
+        <button type="button" data-tab="profile">Profile</button>
+        <button type="button" data-tab="priorities">Priorities</button>
+        <button type="button" data-tab="rooms">Rooms</button>
+        <button type="button" data-tab="categories">Categories</button>
+        <button type="button" data-tab="products">Products</button>
+        <button type="button" data-tab="lighting">Lighting</button>
+        <button type="button" data-tab="budget">Budget</button>
+        <button type="button" data-tab="export">Export / Import</button>
+      </nav>
+
+      <!-- DASHBOARD -->
+      <section id="panel-dashboard" class="panel active">
+        <div class="help-callout">
+          <strong>Today’s focus:</strong>
+          <a href="fridge-gallery.html">Fridge gallery</a> ·
+          <a href="washer-gallery.html">Washer gallery</a> ·
+          <a href="kitchen-gallery.html">Kitchen ≤25k</a> ·
+          <a href="carpet-gallery.html">Carpets</a> ·
+          <a href="tv-gallery.html">TV ≤26k · ≥50″</a> ·
+          <a href="mattress-gallery.html">Mattress 180×200 ≤25k</a> ·
+          <a href="protein-gallery.html">Protein snacks</a> ·
+          <a href="water-heater-gallery.html">Water heater 50–80 L</a> ·
+          <a href="furniture-gallery.html"><strong>Sofa ≤30k · bedroom ≤80k</strong></a>
+          · next: when you pick.
+          Full catalog: <a href="appliances.html">all appliances</a>.
+        </div>
+        <div class="grid-2">
+          <div class="card">
+            <h2>Progress</h2>
+            <div class="stat-row">
+              <div class="stat">
+                <div class="label">Complete</div>
+                <div class="value" id="stat-progress">0%</div>
+              </div>
+              <div class="stat">
+                <div class="label">Tasks</div>
+                <div class="value" id="stat-done">0/0</div>
+              </div>
+              <div class="stat">
+                <div class="label">City</div>
+                <div class="value" id="stat-city" style="font-size: 1.05rem">—</div>
+              </div>
+              <div class="stat">
+                <div class="label">Budget</div>
+                <div class="value" id="stat-budget" style="font-size: 1.05rem">—</div>
+              </div>
+            </div>
+            <div class="progress"><span id="progress-bar" style="width: 0%"></span></div>
+            <div class="stat-row" style="margin-top: 0.85rem">
+              <div class="stat">
+                <div class="label">Open categories</div>
+                <div class="value" id="stat-open-cats">—</div>
+              </div>
+              <div class="stat">
+                <div class="label">Products tracked</div>
+                <div class="value" id="stat-products">0</div>
+              </div>
+            </div>
+            <div class="btn-row">
+              <button type="button" class="btn ghost" id="btn-add-note">+ Session note</button>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Session notes</h2>
+            <ul id="session-notes" class="muted" style="padding-left: 1.1rem; margin: 0"></ul>
+          </div>
+        </div>
+        <div class="card" style="margin-top: 1rem">
+          <h2>Master checklist</h2>
+          <p class="muted">Tick items as you decide. Saved in this browser.</p>
+          <div id="checklist-root"></div>
+        </div>
+      </section>
+
+      <!-- PROFILE -->
+      <section id="panel-profile" class="panel">
+        <div class="card">
+          <h2>Household & apartment profile</h2>
+          <p class="muted">Fill what you know; leave the rest blank. We refine over time.</p>
+          <div class="form-grid" style="margin-top: 1rem">
+            <div class="grid-2">
+              <label class="field"><span class="req">City</span>
+                <input id="f-city" type="text" placeholder="e.g. Cairo, Giza, Alexandria…" />
+              </label>
+              <label class="field">Area / neighborhood
+                <input id="f-area" type="text" placeholder="e.g. Maadi, New Cairo, Smouha…" />
+              </label>
+              <label class="field">Approx. size (m²)
+                <input id="f-sqm" type="number" min="0" placeholder="e.g. 120" />
+              </label>
+              <label class="field">Bathrooms
+                <input id="f-baths" type="number" min="0" step="0.5" placeholder="e.g. 1 or 2" />
+              </label>
+              <label class="field">Furnished status
+                <select id="f-furnished">
+                  <option value="">—</option>
+                  <option value="empty">Empty / unfurnished</option>
+                  <option value="semi">Semi-furnished (kitchen / AC?)</option>
+                  <option value="full">Mostly furnished</option>
+                </select>
+              </label>
+              <label class="field">Balcony
+                <select id="f-balcony">
+                  <option value="">—</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </label>
+              <label class="field">Rough total budget (EGP)
+                <input id="f-budget" type="number" min="0" step="1000" placeholder="All setup costs ballpark" />
+              </label>
+              <label class="field">Prefer buy-once quality?
+                <select id="f-buyonce">
+                  <option value="">—</option>
+                  <option value="yes">Yes — fewer replacements</option>
+                  <option value="no">No — budget-first OK</option>
+                </select>
+              </label>
+              <label class="field">Open to used / refurbished?
+                <select id="f-used">
+                  <option value="">—</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">New only</option>
+                </select>
+              </label>
+              <label class="field">Work from home
+                <select id="f-wfh">
+                  <option value="">—</option>
+                  <option value="none">Rarely</option>
+                  <option value="one">One of us often</option>
+                  <option value="both">Both often</option>
+                </select>
+              </label>
+              <label class="field">Cooking frequency
+                <select id="f-cook">
+                  <option value="">—</option>
+                  <option value="rarely">Rarely / delivery</option>
+                  <option value="few">Few times a week</option>
+                  <option value="daily">Most days</option>
+                  <option value="enthusiast">Love cooking / host often</option>
+                </select>
+              </label>
+              <label class="field">Guests
+                <select id="f-guests">
+                  <option value="">—</option>
+                  <option value="rare">Rare</option>
+                  <option value="monthly">Monthly</option>
+                  <option value="weekly">Weekly / family often</option>
+                </select>
+              </label>
+              <label class="field">Pets
+                <input id="f-pets" type="text" placeholder="None, or cat/dog…" />
+              </label>
+            </div>
+            <label class="field">What already comes with the apartment? (one per line)
+              <textarea id="f-exists" placeholder="e.g. Built-in kitchen cabinets&#10;1 split AC in living&#10;Electric water heater"></textarea>
+            </label>
+            <div>
+              <div class="muted" style="margin-bottom: 0.4rem; font-size: 0.88rem">Style keywords (toggle)</div>
+              <div id="style-chips" class="chip-group"></div>
+            </div>
+            <div>
+              <div class="muted" style="margin-bottom: 0.4rem; font-size: 0.88rem">Color palette leanings</div>
+              <div id="color-chips" class="chip-group"></div>
+            </div>
+            <label class="field">Lighting mood preference
+              <select id="f-lightmood">
+                <option value="">—</option>
+                <option value="warm_cozy">Warm & cozy</option>
+                <option value="bright_clean">Bright & clean</option>
+                <option value="layered_hotel">Layered hotel-like</option>
+                <option value="mixed">Mixed by room</option>
+              </select>
+            </label>
+            <div class="btn-row">
+              <button type="button" class="btn primary" id="btn-save-profile">Save profile</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRIORITIES -->
+      <section id="panel-priorities" class="panel">
+        <div class="card">
+          <h2>Buy-now vs later</h2>
+          <p class="muted">Drag items between columns. This drives research order.</p>
+          <div id="priority-board" class="priority-board" style="margin-top: 1rem"></div>
+        </div>
+      </section>
+
+      <!-- ROOMS -->
+      <section id="panel-rooms" class="panel">
+        <div class="grid-3" id="rooms-grid"></div>
+        <div class="card" id="room-editor" hidden style="margin-top: 1rem">
+          <h2 id="room-editor-title">Room</h2>
+          <div class="form-grid">
+            <label class="field">Status
+              <select id="re-status">
+                <option value="planning">planning</option>
+                <option value="shopping">shopping</option>
+                <option value="mostly_done">mostly done</option>
+                <option value="done">done</option>
+                <option value="unknown">unknown</option>
+              </select>
+            </label>
+            <div id="re-use-wrap">
+              <label class="field">Planned use (second bedroom)
+                <input id="re-use" type="text" placeholder="Guest / office / hybrid…" />
+              </label>
+            </div>
+            <label class="field">Needs (comma-separated)
+              <input id="re-needs" type="text" />
+            </label>
+            <label class="field">Notes
+              <textarea id="re-notes"></textarea>
+            </label>
+            <div class="btn-row">
+              <button type="button" class="btn primary" id="btn-save-room">Save room</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CATEGORIES -->
+      <section id="panel-categories" class="panel">
+        <div class="card">
+          <h2>Purchase categories</h2>
+          <p class="muted">Track research status per category. Egypt-specific notes included where relevant.</p>
+          <div id="categories-list"></div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      <section id="panel-products" class="panel">
+        <div class="grid-2">
+          <div class="card">
+            <h2>Add product</h2>
+            <form id="form-product" class="form-grid">
+              <label class="field"><span class="req">Name</span><input id="p-name" type="text" required /></label>
+              <label class="field">Category
+                <input id="p-cat" type="text" list="cat-list" placeholder="fridge, washer, AC…" />
+                <datalist id="cat-list">
+                  <option value="fridge"></option>
+                  <option value="cooker"></option>
+                  <option value="washer"></option>
+                  <option value="ac"></option>
+                  <option value="water_heater"></option>
+                  <option value="lighting"></option>
+                  <option value="furniture"></option>
+                  <option value="mattress"></option>
+                </datalist>
+              </label>
+              <div class="grid-2">
+                <label class="field">Price (EGP)<input id="p-price" type="number" min="0" step="1" /></label>
+                <label class="field">Score 1–10<input id="p-score" type="number" min="0" max="10" step="0.5" /></label>
+              </div>
+              <label class="field">Retailer<input id="p-retailer" type="text" placeholder="B.TECH, Raneen…" /></label>
+              <label class="field">URL<input id="p-url" type="url" placeholder="https://…" /></label>
+              <label class="field">Energy / efficiency<input id="p-energy" type="text" /></label>
+              <label class="field">Capacity / size<input id="p-capacity" type="text" /></label>
+              <label class="field">Warranty<input id="p-warranty" type="text" /></label>
+              <label class="field">Pros (one per line)<textarea id="p-pros"></textarea></label>
+              <label class="field">Cons (one per line)<textarea id="p-cons"></textarea></label>
+              <label class="field">Notes<textarea id="p-notes"></textarea></label>
+              <div class="btn-row">
+                <button type="submit" class="btn primary">Add to list</button>
+              </div>
+            </form>
+          </div>
+          <div class="card">
+            <h2>Compare selected</h2>
+            <div id="compare-root"></div>
+          </div>
+        </div>
+        <div class="card" style="margin-top: 1rem">
+          <h2>Tracked products</h2>
+          <div id="products-list"></div>
+        </div>
+      </section>
+
+      <!-- LIGHTING -->
+      <section id="panel-lighting" class="panel">
+        <div class="help-callout">
+          Egypt tip: use <strong>LED only</strong>. Warm ~2700–3000K for living/sleep;
+          ~4000K for kitchen and bathroom task light. Layer ambient + task + accent.
+        </div>
+        <div class="grid-2" id="lighting-plan"></div>
+      </section>
+
+      <!-- BUDGET -->
+      <section id="panel-budget" class="panel">
+        <div class="card">
+          <h2>Budget split</h2>
+          <p class="muted">Total: <strong id="budget-total-display">—</strong></p>
+          <p class="muted" id="budget-sum"></p>
+          <div id="budget-sliders" class="form-grid" style="margin-top: 1rem"></div>
+        </div>
+      </section>
+
+      <!-- EXPORT -->
+      <section id="panel-export" class="panel">
+        <div class="card">
+          <h2>Export / import</h2>
+          <p class="muted">
+            Download or copy JSON and send it in chat so I can write updates into
+            <code>data/*.json</code>. You can also re-import a file later.
+          </p>
+          <div class="btn-row">
+            <button type="button" class="btn primary" id="btn-export">Download JSON</button>
+            <button type="button" class="btn ghost" id="btn-copy-export">Copy JSON</button>
+            <label class="btn ghost" style="cursor: pointer">
+              Import JSON
+              <input type="file" id="import-file" accept="application/json,.json" hidden />
+            </label>
+            <button type="button" class="btn danger" id="btn-reset">Reset browser data</button>
+          </div>
+          <pre class="export-box" id="export-json" style="margin-top: 1rem"></pre>
+        </div>
+      </section>
+
+      <footer class="app-footer">
+        Local decision hub · Open this folder via a tiny static server if
+        <code>fetch('data/…')</code> is blocked on <code>file://</code> · Data also persists in
+        localStorage.
+      </footer>
+    </div>
+
+    <div id="toast" class="toast" role="status"></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

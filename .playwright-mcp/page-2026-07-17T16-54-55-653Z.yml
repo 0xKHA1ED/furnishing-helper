@@ -1,0 +1,1137 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "About this item" [ref=e9] [cursor=pointer]:
+          - /url: "#featurebullets_feature_div"
+      - listitem [ref=e10]:
+        - link "Skip to buying options" [ref=e11] [cursor=pointer]:
+          - /url: "#buybox"
+          - text: Buying options
+      - listitem [ref=e12]:
+        - link "Reviews" [ref=e13] [cursor=pointer]:
+          - /url: "#customerReviews"
+    - separator [ref=e14]
+    - heading "Keyboard shortcuts" [level=2] [ref=e15]
+    - list "Keyboard shortcuts" [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Search, ALT, forward slash" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e19]:
+            - generic [ref=e20]: Search
+            - generic [ref=e21]:
+              - generic [ref=e22]: ALT
+              - generic [ref=e23]: +
+              - generic [ref=e24]: /
+      - listitem [ref=e25]:
+        - link "Cart, shift, ALT, c" [ref=e26] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e27]:
+            - generic [ref=e28]: Cart
+            - generic [ref=e29]:
+              - generic [ref=e30]: shift
+              - generic [ref=e31]: +
+              - generic [ref=e32]: ALT
+              - generic [ref=e33]: +
+              - generic [ref=e34]: C
+      - listitem [ref=e35]:
+        - link "Home, shift, ALT, h" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e37]:
+            - generic [ref=e38]: Home
+            - generic [ref=e39]:
+              - generic [ref=e40]: shift
+              - generic [ref=e41]: +
+              - generic [ref=e42]: ALT
+              - generic [ref=e43]: +
+              - generic [ref=e44]: H
+      - listitem [ref=e45]:
+        - link "Your orders, shift, ALT, o" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Orders
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: ALT
+              - generic [ref=e53]: +
+              - generic [ref=e54]: O
+      - listitem [ref=e55]:
+        - button "Add to cart, shift, ALT, K" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Add to cart
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: ALT
+              - generic [ref=e63]: +
+              - generic [ref=e64]: K
+      - listitem [ref=e65]:
+        - button "Show/hide shortcuts, shift, ALT, z" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: Show/Hide shortcuts
+            - generic [ref=e69]:
+              - generic [ref=e70]: shift
+              - generic [ref=e71]: +
+              - generic [ref=e72]: ALT
+              - generic [ref=e73]: +
+              - generic [ref=e74]: Z
+    - generic [ref=e75]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e81]:
+    - navigation "Primary" [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - link "Amazon.eg" [ref=e86] [cursor=pointer]:
+            - /url: /-/en/ref=nav_logo
+            - generic: .eg
+          - button "Delivering to New Cairo... Update location" [ref=e89] [cursor=pointer]:
+            - generic [ref=e91]:
+              - generic [ref=e92]: Delivering to New Cairo...
+              - generic [ref=e93]: Update location
+        - search [ref=e96]:
+          - generic [ref=e99]:
+            - generic [ref=e100]: All
+            - combobox [ref=e103] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Amazon Bazaar"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Resale"
+              - option "Arts, Crafts & Sewing"
+              - option "Automotive Parts & Accessories"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Electronics"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Food"
+              - option "Health, Household & Baby Care"
+              - option "Home & Garden"
+              - option "Home Related"
+              - option "Industrial & Scientific"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Software"
+              - option "Sports"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Video Games"
+          - searchbox "Search Amazon.eg" [ref=e106]
+          - generic "Go" [ref=e109] [cursor=pointer]:
+            - button "Go" [ref=e110]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - link "Choose a language for shopping in Amazon Egypt. The current selection is English (EN)." [ref=e114] [cursor=pointer]:
+              - /url: /-/en/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e117]:
+                - img "Egypt" [ref=e118]
+                - generic [ref=e119]: EN
+            - button "Expand to Change Language or Country" [ref=e120] [cursor=pointer]
+          - generic [ref=e121]:
+            - link "Hello, sign in Account & Lists" [ref=e122] [cursor=pointer]:
+              - /url: https://www.amazon.eg/-/en/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.eg%2Fdp%2FB0DZ2DN66X%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=egflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e123]: Hello, sign in
+              - generic [ref=e125]: Account & Lists
+            - button "Expand Account and Lists" [ref=e126] [cursor=pointer]
+          - link "Orders" [ref=e127] [cursor=pointer]:
+            - /url: /-/en/gp/css/order-history?ref_=nav_orders_first
+          - link "0 items in cart" [ref=e130] [cursor=pointer]:
+            - /url: /-/en/gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e131]: "0"
+            - generic [ref=e134]: Cart
+      - generic [ref=e136]:
+        - button "Open All Categories Menu" [ref=e138] [cursor=pointer]:
+          - generic [ref=e140]: All
+        - list [ref=e144]:
+          - listitem [ref=e145]:
+            - link "Bazaar" [ref=e147] [cursor=pointer]:
+              - /url: /-/en/haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e148]:
+            - link "Today's Deals" [ref=e150] [cursor=pointer]:
+              - /url: /-/en/deals?ref_=nav_cs_gb
+          - listitem [ref=e151]:
+            - link "Mobile Phones" [ref=e153] [cursor=pointer]:
+              - /url: /-/en/%D9%85%D9%88%D8%A8%D8%A7%D9%8A%D9%84%D8%A7%D8%AA/b/?ie=UTF8&node=21832883031&ref_=nav_cs_mobiles
+          - listitem [ref=e154]:
+            - generic [ref=e155]:
+              - link "Prime" [ref=e156] [cursor=pointer]:
+                - /url: /-/en/prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e157] [cursor=pointer]
+          - listitem [ref=e158]:
+            - link "Electronics" [ref=e160] [cursor=pointer]:
+              - /url: /-/en/%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A7%D8%AA/b/?ie=UTF8&node=18018102031&ref_=nav_cs_electronics
+          - listitem [ref=e161]:
+            - link "Home" [ref=e163] [cursor=pointer]:
+              - /url: /-/en/%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D8%AE/b/?ie=UTF8&node=18021933031&ref_=nav_cs_home
+          - listitem [ref=e164]:
+            - link "Fashion" [ref=e166] [cursor=pointer]:
+              - /url: /-/en/%D9%85%D9%88%D8%B6%D8%A9/b/?ie=UTF8&node=18018165031&ref_=nav_cs_fashion
+          - listitem [ref=e167]:
+            - link "Toys & Games" [ref=e169] [cursor=pointer]:
+              - /url: /-/en/%D8%AF%D9%85%D9%89-%D9%88%D8%A3%D9%84%D8%B9%D8%A7%D8%A8/b/?ie=UTF8&node=18022503031&ref_=nav_cs_toys
+          - listitem [ref=e170]:
+            - link "Appliances" [ref=e172] [cursor=pointer]:
+              - /url: /-/en/%D8%A7%D9%84%D8%A3%D8%AC%D9%87%D8%B2%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9/b/?ie=UTF8&node=21863792031&ref_=nav_cs_appliances
+          - listitem [ref=e173]:
+            - link "Video Games" [ref=e175] [cursor=pointer]:
+              - /url: /-/en/%D8%A3%D9%84%D8%B9%D8%A7%D8%A8-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88/b/?ie=UTF8&node=18022560031&ref_=nav_cs_videogames
+          - listitem [ref=e176]:
+            - link "Grocery" [ref=e178] [cursor=pointer]:
+              - /url: /-/en/gp/browse.html?node=26082334031&ref_=nav_cs_supermarket
+          - listitem [ref=e179]:
+            - link "Sell" [ref=e181] [cursor=pointer]:
+              - /url: /-/en/gp/browse.html?node=86421114031&ld=AZEGSOA_pcdisc_C&ref_=nav_cs_sell
+          - listitem [ref=e182]:
+            - link "Gift Cards" [ref=e184] [cursor=pointer]:
+              - /url: /-/en/gp/browse.html?node=18019080031&ref_=nav_cs_gc
+          - listitem [ref=e185]:
+            - link "Perfumes" [ref=e187] [cursor=pointer]:
+              - /url: /-/en/%D8%B9%D8%B7%D9%88%D8%B1/b/?ie=UTF8&node=21826026031&ref_=nav_cs_perfumes
+          - listitem [ref=e188]:
+            - link "Your amazon.eg" [ref=e190] [cursor=pointer]:
+              - /url: /-/en/gp/yourstore/home?ref_=nav_cs_ys
+          - listitem [ref=e191]:
+            - link "Help" [ref=e193] [cursor=pointer]:
+              - /url: /-/en/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help
+        - link [ref=e197] [cursor=pointer]:
+          - /url: /-/en/l/217000405031/?_encoding=UTF8&ref_=nav_swm_swm-en&pf_rd_p=5bab6d70-08f5-4434-b374-0ce5f4dba5cf&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ARBP9OOSHTCHU&pf_rd_r=35BHQ6FP4XVTQSG8KHHH
+      - dialog [ref=e198]
+  - main [ref=e201]:
+    - generic [ref=e202]:
+      - generic [ref=e205]:
+        - iframe [ref=e206]:
+          - generic [ref=f1e4]:
+            - generic [ref=f1e5]: "Click to navigate to product detail page Sponsored Ad. Product image. Branded image. Midea Refrigerator, MDRB424FGN46, Bottom Freezer, Tropical Compressor, Voltage Stability, Dual Tempreture Control, 310 L - Bru Steel Color. Price: EGP 20,489.00."
+            - generic [ref=f1e11]:
+              - img "Product image" [ref=f1e15]
+              - generic [ref=f1e17]:
+                - generic [ref=f1e18]: Midea Refrigerator, MDRB424FGN46, Bottom Freezer, Tropical Compressor, Voltage Stability, Dual Tempreture Control, 310 L - Bru Steel Color
+                - generic [ref=f1e20]:
+                  - generic "with 6% savings" [ref=f1e21]: "-6%"
+                  - generic [ref=f1e22]: "Price: EGP 20,489.00"
+                  - generic [ref=f1e23]:
+                    - generic [ref=f1e24]: EGP
+                    - generic [ref=f1e25]: 20,489
+                    - generic [ref=f1e26]: "00"
+                  - 'generic "List Price: EGP 21,699.00" [ref=f1e28]'
+                - 'link "4 out of 5 stars., 31 customer reviews. Click to navigate to product detail page Sponsored Ad. Product image. Branded image. Midea Refrigerator, MDRB424FGN46, Bottom Freezer, Tropical Compressor, Voltage Stability, Dual Tempreture Control, 310 L - Bru Steel Color. Price: EGP 20,489.00." [ref=f1e29] [cursor=pointer]':
+                  - /url: https://www.amazon.eg/product-reviews/B0DHY73KKJ?aaxitk=b46928e859a9839af6ac0039cf4384a9&language=en_AE
+                  - img "4 out of 5 stars., 31 customer reviews." [ref=f1e30]:
+                    - generic [ref=f1e31]: "4.0"
+                    - generic [ref=f1e57]: "31"
+            - link "Click to navigate to product detail page" [ref=f1e59] [cursor=pointer]:
+              - /url: https://aax-eu.amazon.eg/x/c/RFJu7tHzgqs4MpsHLYhpMsMAAAGfcQCHigMAAAIjAQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICAybb1M/clv1c_ek-Yg4HXFcbaDQE7Iq40HgLZMLLxd8FFxLYsF_bE35uVQsWaJbRZsFBLPsmr1RQt09zdkGoccSOho0pnZTo4EjP6eo1ERaE1dzGLglwbAH4zazHrw5iDfAx19eUYvjp1X7AuNZ381-ikqfoDK-80Icf1UM2clUea4tlAhw7UweR7H_lzFnemncY1wsz2lIgvbfoGQwFl0SPMBs2Qq8lA_3QyFWYkD3ykrP0saDG7icZLKKSvUZ0bDS-YfLHRdHuE9oU5upI6hGfRzTqHqTEQD5ML2nT-3hBJ9zhMY4d55-NVCXQmSE6lsfGn2qWD50iuI7VtoOrkNd3MFWEoAnUHodtzIW7TJ_xRxn_7lf3Y-nRBdNYG4nGo7uycry1093WjDrXfoxXq-UGqqXrAwf5iiINCj_C1qs_mRL3EMQEpeI4Iu278fBp5SIQTbKE-9aFQVlFfi5S1-t0KC57SEkO0Rt6hMqVNSMYJOrc9Tz17xvZRSexGDDW1mROXOzZSlISDEDAHnOIj88PsGIHVezHYr2T9cxxOmH3idWCx6Uzu95Ha35JsKewW5TC-172hyVW9tVgCv26C0tZnKctCFZ-az2vllLAKjnup1XfX_ITy4BQO2_0pv55PXWCi9_FEk8DDvldrBaJtBwOXujBzCQKvYcyaJItBul81YpjLSXoAGC282w86AFJpgXkddm999nW5sXzdqzEKzvYwESl4HbI2_lEPJy-i_PVLYQU6ZWax-_kh1HR9rTjmwV0EFfG0l6OBWO1Q6dT6L4NQAumTNF3pgh14_HCLxkEIvlk14Enxm5u1b06wuBNiNqfSGQKm0l6Ixe4MEO1ls2XmQz4aeMcRBXyLUOO7egyB5LyihbElGsJiMGYNBJtag-TtN0PI0YfgIcT1WEFp7i5bkwD3glXvrAAX67M0UFJoRQQnJuRAlaRAvf7H2DLAxS1nwQ3DGocmRBVw-wCUX3UsD0RERzO8Tur9rb6Fqj9NcoSIcL25BVYewb1weA/http://www.amazon.eg/dp/B0DHY73KKJ/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=jlBQkopE5u
+        - button "Leave feedback on Sponsored ad" [ref=e208] [cursor=pointer]:
+          - generic [ref=e209]: Sponsored
+      - list [ref=e215]:
+        - listitem [ref=e216]:
+          - link "Home & Kitchen" [ref=e218] [cursor=pointer]:
+            - /url: /-/en/Home-and-Kitchen/b/ref=dp_bc_1?ie=UTF8&node=18021933031
+        - listitem [ref=e219]: ›
+        - listitem [ref=e220]:
+          - link "Household Appliances" [ref=e222] [cursor=pointer]:
+            - /url: /-/en/Household-Appliances/b/ref=dp_bc_2?ie=UTF8&node=21863792031
+        - listitem [ref=e223]: ›
+        - listitem [ref=e224]:
+          - link "Refrigerators, Freezers & Ice Cube Makers" [ref=e226] [cursor=pointer]:
+            - /url: /-/en/Refrigerators-Freezers-and-Ice-Cube-Makers/b/ref=dp_bc_3?ie=UTF8&node=21863822031
+        - listitem [ref=e227]: ›
+        - listitem [ref=e228]:
+          - link "Refrigerators" [ref=e230] [cursor=pointer]:
+            - /url: /-/en/Refrigerators/b/ref=dp_bc_4?ie=UTF8&node=21863927031
+        - listitem [ref=e231]: ›
+        - listitem [ref=e232]:
+          - link "Fridge-Freezer Combinations" [ref=e234] [cursor=pointer]:
+            - /url: /-/en/Fridge-Freezer-Combinations/b/ref=dp_bc_5?ie=UTF8&node=21864322031
+    - generic [ref=e235]:
+      - generic [ref=e236]:
+        - generic [ref=e247]:
+          - generic [ref=e254]:
+            - generic [ref=e255]: EGP27,099.00
+            - generic [ref=e256]:
+              - text: EGP
+              - generic [ref=e257]:
+                - text: 27,099
+                - generic [ref=e258]: .
+              - text: "00"
+          - generic [ref=e260]:
+            - generic [ref=e262]:
+              - generic [ref=e267]:
+                - text: FREE delivery Saturday, 25 July.
+                - link "Details about delivery costs and shipping methods" [ref=e268] [cursor=pointer]:
+                  - /url: /-/en/gp/aag/details/?seller=A1RB4IFIRJYSW7&sshmPath=shipping-rates
+                  - text: Details
+              - button "Delivering to New Cairo City - Update location" [ref=e271] [cursor=pointer]
+            - generic [ref=e278]: Only 1 left in stock - order soon.
+            - generic [ref=e286] [cursor=pointer]:
+              - button "Add to cart" [ref=e287]
+              - generic [ref=e288]: Add to cart
+            - generic [ref=e293] [cursor=pointer]:
+              - button "Buy Now" [ref=e294]
+              - generic [ref=e295]: Buy Now
+            - group "Seller, shipping, and buying option details" [ref=e300]:
+              - generic [ref=e301]:
+                - heading "Delivered by" [level=4] [ref=e302]
+                - generic [ref=e304]: Amazon.eg
+              - generic [ref=e307]:
+                - heading "Sold by" [level=4] [ref=e308]
+                - link "Electro.Zone." [ref=e312] [cursor=pointer]:
+                  - /url: /-/en/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A1RB4IFIRJYSW7&asin=B0DZ2DN66X&ref_=dp_merchant_link
+              - generic [ref=e315]:
+                - heading "Payment" [level=4] [ref=e316]
+                - button "Secure transaction" [ref=e320] [cursor=pointer]
+            - group "Include" [ref=e324]:
+              - heading "Add a Protection Plan:" [ref=e326]
+              - generic [ref=e327]:
+                - generic [ref=e330]:
+                  - checkbox "1-Year Extended Warranty by Boxi (Email delivery) for EGP 1,568.00" [ref=e331]
+                  - generic [ref=e332]:
+                    - link "1-Year Extended Warranty by Boxi (Email delivery)" [ref=e333] [cursor=pointer]:
+                      - /url: "#"
+                    - text: for EGP 1,568.00
+                - generic [ref=e336]:
+                  - checkbox "2-Year Extended Warranty by Boxi (E-mail delivery) for EGP 2,492.00" [ref=e337]
+                  - generic [ref=e338]:
+                    - link "2-Year Extended Warranty by Boxi (E-mail delivery)" [ref=e339] [cursor=pointer]:
+                      - /url: "#"
+                    - text: for EGP 2,492.00
+                - generic [ref=e342]:
+                  - checkbox "1-Year Accidental Damage Protection by Boxi (Email Delivery) for EGP 2,716.00" [ref=e343]
+                  - generic [ref=e344]:
+                    - link "1-Year Accidental Damage Protection by Boxi (Email Delivery)" [ref=e345] [cursor=pointer]:
+                      - /url: "#"
+                    - text: for EGP 2,716.00
+          - generic [ref=e346]:
+            - separator [ref=e347]
+            - link "Add to List" [ref=e352] [cursor=pointer]:
+              - /url: https://www.amazon.eg/-/en/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.eg%2Fgp%2Faw%2Fd%2FB0DZ2DN66X&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=egflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+        - generic [ref=e356]:
+          - generic [ref=e357]: Other sellers on Amazon
+          - separator [ref=e358]
+          - button "New (2) from EGP27,099.00 FREE Delivery." [ref=e361] [cursor=pointer]:
+            - text: New (2) from
+            - generic [ref=e362]:
+              - generic [ref=e363]: EGP27,099.00
+              - generic [ref=e364]:
+                - text: EGP
+                - generic [ref=e365]:
+                  - text: 27,099
+                  - generic [ref=e366]: .
+                - text: "00"
+            - generic [ref=e367]: FREE Delivery.
+        - generic [ref=e370]:
+          - iframe [ref=e371]:
+            - generic [ref=f2e4]:
+              - generic [ref=f2e5]: "Sponsored Ad. Product image. Midea Fridge MDRB489FGN46 BMF 2D, Multi Air Flow,Large Capacity, Interior LED Light, Exterior Display, Adjustable Door racks, Total No Frost 330L Fixed Bru steel Price: EGP 21,789.00 Shop now"
+              - link "Click to navigate to product detail page" [ref=f2e8] [cursor=pointer]:
+                - /url: https://aax-eu.amazon.eg/x/c/RHJFye5BE-JC7D9MPdR0e7YAAAGfcQCIcQMAAAIjAQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICA--Pu1/clv1c_ek-Yg4H3LcTCTRHuicv1flt9Qo0Z9OT2SdmmUXDRqVkMarL-K1iJrOjQO_jrfdbzngbARXV--VPjmgB8WQCvjT3rTr_4FrKJbjvHTS44Z3A2nbFoL2qziiKFA71xt8Q7sTJ9F_FF3NHm26Z638pLQqzZmJ0elG9CEtuYv_3qwNh7HnHTTM6v2v_Ytsj8v4GP412JTIcuBK6U-vpiCVLB52KjN-ctEO7Xd9V1aWuXz0kjNhxa01a1o70BLljZzB0-A9FWx3-N-hWeO83MoePB4NZCXUYoY4IdRw6Na4TxBpx8z-bLHyKC1wlKLzPv22aY5rnwZ-sRIri-kknqBaUDo2y3gYW_KZbxZR82GyOBcwPAAsiCpXtZgKiI4vuvPpVF4vxldNWpuOb331ZUNpT_m2STA1_eXvd4A-z6Z_sNy6wuAZiNFiaLeslonUmcYo5x9oOrw4Sv5bRWzblkobNqqY1y7JOq0jRJJx15xfIN2DUNoPXzi3_nKJOkSldrm0SMoacY5Hn29_q3zvsPyRgcyvjT_zgIdyktotRG849rgOSZRbJH_3VdSzqbfbQFIXoEksBcx9h_gSUXp7xRJkdgGxq22y8sFIuLpYK0x0gQV9HO6xJaI7OcChZ_p7w3aep3Dn8bsfgckG7dG3opg9oXauZd3Cg6Ct7CqD5Cq1pQ2idatA4WaajwgNlDta5P4hv2z8S9rHlCnIox1G5f8zcV6gPCNPvBPxoevf37Zy9uyTsoJSEYCXFUe1VyNLZYwXCY5TRbv8vxK3WfER1VW-vrCnJPCzc9GFBdpGSWhTVKzYTXYU5IceXAfBY2cCbrEqULW-2qWpDAKBV5LEaMxVuCYEw2Hvweh_L1iiy3l4Co5wrSp2Ojwucbfl-EPG4KicjYzsF7UQg-ILKvyfTIefdwTBYtsqHdBLqJzOFnCtg9JZwXXoDCSe6wfl7Bl2VI7b0nJHKn6Gz6I7mIbFptVyEsjNM9R0vTPzLwRRN2_bo3QBuDf6DswvFuESOOwbwVeZJWyomcVKLeMI_2ZXA/http://www.amazon.eg/dp/B0FGWF6QQ9/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=eFml2KCq3H
+              - img "Product image" [ref=f2e13]
+          - button "Leave feedback on Sponsored ad" [ref=e373] [cursor=pointer]:
+            - generic [ref=e374]: Sponsored
+      - generic [ref=e376]:
+        - generic [ref=e378]:
+          - button [ref=e379]:
+            - button "Share" [ref=e380] [cursor=pointer]
+          - generic [ref=e383]:
+            - radiogroup "Image thumbnails" [ref=e385]:
+              - listitem [ref=e386]:
+                - radio [ref=e391] [cursor=pointer]
+              - listitem [ref=e393]:
+                - radio [ref=e398] [cursor=pointer]
+              - listitem [ref=e400]:
+                - radio [ref=e405] [cursor=pointer]
+              - listitem [ref=e407]:
+                - radio [ref=e412] [cursor=pointer]
+              - listitem [ref=e414]:
+                - radio [ref=e419] [cursor=pointer]
+              - listitem [ref=e421]:
+                - radio [ref=e426] [cursor=pointer]
+              - listitem [ref=e428]:
+                - generic [ref=e432] [cursor=pointer]:
+                  - radio "2+" [ref=e433]
+                  - generic [ref=e434]: 2+
+            - generic [ref=e436]:
+              - generic [ref=e438]:
+                - list
+                - list [ref=e439]:
+                  - listitem [ref=e440] [cursor=pointer]:
+                    - button [ref=e443]:
+                      - img "BEKOGLOBAL Fridge Freezer, 455L Gross, 406L Net No-Frost, 70cm Width, Black, HarvestFresh Technology - RDNE455M20XBIDB" [ref=e444]
+              - link "Click to see full view" [ref=e448] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e450]:
+          - generic:
+            - button
+      - generic [ref=e451]:
+        - heading "BEKOGLOBAL Fridge Freezer, 455L Gross, 406L Net No-Frost, 70cm Width, Black, HarvestFresh Technology - RDNE455M20XBIDB" [level=1] [ref=e454]
+        - link "Visit the Beko Store" [ref=e457] [cursor=pointer]:
+          - /url: /-/en/stores/BekoEgypt/page/ED1467DF-8D4F-41F3-BB7A-2E92420FB396?lp_asin=B0DZ2DN66X&ref_=ast_bln
+        - separator [ref=e458]
+        - generic [ref=e461]:
+          - generic [ref=e464]:
+            - generic [ref=e465]: EGP 27,099.00
+            - generic [ref=e467]:
+              - text: EGP
+              - generic [ref=e468]:
+                - text: 27,099
+                - generic [ref=e469]: .
+              - text: "00"
+          - generic [ref=e470]:
+            - text: Buy with installments and pay EGP 1,062.62 for 48 months with select banks.
+            - button "Payment Plans" [ref=e472] [cursor=pointer]
+          - generic [ref=e474]: All prices include VAT.
+          - generic:
+            - table
+          - generic [ref=e477]:
+            - generic [ref=e479]:
+              - text: Sign in to redeem.
+              - generic [ref=e480] [cursor=pointer]: 20%
+              - generic [ref=e481]:
+                - text: off with AAIB cards. Enter code AAIB20 at checkout. Discount by Amazon.
+                - link "Terms" [ref=e484] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=e486]:
+              - text: Sign in to redeem.
+              - generic [ref=e487] [cursor=pointer]: 10%
+              - generic [ref=e488]:
+                - text: off NBE Visa Signature Credit Cards. Enter code NBEJUL500 at checkout. Discount by Amazon.
+                - link "Terms" [ref=e491] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=e493]:
+              - text: Sign in to redeem.
+              - generic [ref=e494] [cursor=pointer]: 10%
+              - generic [ref=e495]:
+                - text: off NBE Visa Platinum Credit Cards. Enter code NBEJUL250 at checkout. Discount by Amazon.
+                - link "Terms" [ref=e498] [cursor=pointer]:
+                  - /url: "#"
+        - region [ref=e501]:
+          - generic [ref=e503]:
+            - list [ref=e507]:
+              - listitem [ref=e508] [cursor=pointer]:
+                - button "Electronic Payment Only" [ref=e512]
+              - listitem [ref=e513] [cursor=pointer]:
+                - button "15 days Returnable" [ref=e518]
+              - listitem [ref=e519] [cursor=pointer]:
+                - button "Free Delivery" [ref=e523]
+              - listitem [ref=e524] [cursor=pointer]:
+                - button "Delivered by Amazon" [ref=e528]
+              - listitem [ref=e529] [cursor=pointer]:
+                - button "Secure transaction" [ref=e533]
+            - button "Next page" [ref=e535] [cursor=pointer]
+        - generic [ref=e540]:
+          - generic [ref=e541]:
+            - text: "Add Installation service: Book an in-home service by a professional"
+            - link "Details" [ref=e542] [cursor=pointer]:
+              - /url: /-/en/gp/product/B0DP36RNYW/ref=vas_bundle_sdp_B0DZ2DN66X
+          - generic [ref=e543]: 10% off on service with Prime
+          - radiogroup [ref=e545]:
+            - listitem [ref=e546] [cursor=pointer]:
+              - button "Without installation" [ref=e550]
+            - listitem [ref=e553] [cursor=pointer]:
+              - button "Add professional installation +EGP 243.00 EGP 270.00 per unit" [ref=e558]:
+                - generic [ref=e559]:
+                  - generic [ref=e560]: Add professional installation
+                  - generic [ref=e561]:
+                    - generic [ref=e562]: +EGP 243.00
+                    - generic [ref=e563]: EGP 270.00
+                    - text: per unit
+          - button "See more" [ref=e567] [cursor=pointer]
+        - generic [ref=e571]:
+          - list [ref=e574]:
+            - rowgroup [ref=e575]:
+              - listitem [ref=e576]: Item Dimensions D x W x H 9D x 9W x 9H centimeters
+              - listitem [ref=e577]: Brand Name Beko
+              - listitem [ref=e578]: Capacity 406 liters
+              - listitem [ref=e579]: Configuration Freezer Top
+              - listitem [ref=e580]: Color Black
+              - listitem [ref=e581]: Special Features HarvestFresh, NeoFrost Dual Cooling, ProSmart Inverter Compressor, Reversible Door
+              - listitem [ref=e582]: Installation Type Freestanding
+              - listitem [ref=e583]: Number of Doors 2
+              - listitem [ref=e584]: Defrost System Frost Free
+              - listitem [ref=e585]: Voltage 220 Volts
+          - button "See more" [ref=e588] [cursor=pointer]
+        - generic [ref=e591]:
+          - separator [ref=e592]
+          - heading "About this item" [level=1] [ref=e593]
+          - list [ref=e594]:
+            - listitem [ref=e595]: "DIMENSIONS: Large capacity fridge freezer measuring 70 cm width, 185 cm height, and 66.5 cm depth, with a total volume of 406 litres."
+            - listitem [ref=e596]: "STORAGE CAPACITY: Features 313 litres fresh food compartment and 93 litres freezer compartment, perfect for family needs."
+            - listitem [ref=e597]: "HARVESTFRESH TECHNOLOGY: Advanced lighting system in the crisper maintains vitamin preservation in fruits and vegetables."
+            - listitem [ref=e598]: "NEOFROST DUAL COOLING: Separate cooling systems for fridge and freezer compartments maintain optimal humidity and prevent odour mixing."
+            - listitem [ref=e599]: "PROSMART INVERTER: Energy-efficient compressor with quiet operation and enhanced durability, rated Energy Efficiency Class F."
+            - listitem [ref=e600]: Made in Egypt
+            - listitem [ref=e601]: 5 Years Warranty for the Fridge - 10 Years Warranty for the Inverter Motor - Beko Egypt 16165
+          - generic [ref=e602]:
+            - text: ›
+            - link "See more product details" [ref=e603] [cursor=pointer]:
+              - /url: "#productDetails"
+        - link "Report an issue with this product" [ref=e609] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e611]:
+        - separator [ref=e612]
+        - generic [ref=e615]:
+          - iframe [ref=e616]:
+            - generic [ref=f3e4]:
+              - generic [ref=f3e5]: "Sponsored Ad. Product image. Midea Refrigerator, MDRT723MTN46D, Quattro Inverter, Active C Fresh, Voltage Stability,535 L, Bru Steel Price: EGP 31,799.00 Shop now"
+              - link "Click to navigate to product detail page" [ref=f3e8] [cursor=pointer]:
+                - /url: https://aax-eu.amazon.eg/x/c/RO6lQtEaRsXyXbI77jS1xq4AAAGfcQCIcQMAAAIjAQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICBHeD3T/clv1c_ek-Yg4X2FcTCjBBWpAcz0aDofYH7WXt3gZ2U92-1doLYEbQ6Buae9unK3e5niK-vA_ilTYB8zmHg88elFD13haTxEIlmvr2baDt2HEtaLBINthLpP2xiByrQxODZhB99RwiQTwdCVqzEY-KU0UnasYL_yhQtV1f4xgxQzslK7GekcMlYRtLz2YQzBBB61it8W7ChUUX_F-x4iWEl03IjtqldGV22DGe5l-aCgITUc52KRJyZm4FkyqXoKDGgyIUsBzpmaffjWzeUzbWkPj3r-eVTjv0NeW8y4zMNeTSx3l39RzlGjZRgfLUOB6gxvKrflA7Wi4QRhgMQRBoPkmRp7kwNxIjNkPNfykgFee1MAJp4XIMO-YFEgTlTnRy4wWBXKP6J_R2kMDIdce9XeIHcEkVYtKywfoE8UrIU5D4MElw4PbpV7vYRfeGVTTuLfynQSt9TK2II8L37SpXIev6RMq4wqbrd9tU_vzpU-cU5yBmBkU6sPfE39a7_LwA5BbwY7iqZmOl-NLAplBfTrIl6szEGO2a9ipNaQglXuHZUFFOPvYjC-ulyHOa2hqD58ZPofipVGqWeRaBZp5075R6p5CdPZAi5FnHgFb3fF9lYZaEpupaMV17gDR_d6texNFYG5VDIBOqX7kT5grnPnEPaqXhVpPuk0hWTXlHnMZlmnQD0g14q7AW2pbLV8JW99yn7Z9uzTgoIZsIDPywy98obqquyArUxOxqdnu1543VdYF_T7RrucKxe2A082UNFX9no58fAvZ_g5X70t3a9DdCk57e8YiAdr5ZqSypcz57DbAU7klaMHIoQS2d-VXZXAvVWrLLo1IPFLNxdIDzHwmC6QAsrOJyHBxNnh6vNdyzIKS7CY4zDfN6bWtSN_vaCunGKz_uSAjqcLsT1sGnpIg1ZmeoLtJdYV8S8kVFV5BdZt-oL_PeLGCKh8G_QBlnw4fnwjtfoaH1z-FwCQSxOs2Uguwfq_BKAybiR3J2JCV6ptdGo4tOoIimYEI_Las2SUMVfhKD2YQuvOFRd/http://www.amazon.eg/dp/B0D5HPK58D/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=xhUuu9OcYL
+              - img "Product image" [ref=f3e25]
+          - button "Leave feedback on Sponsored ad" [ref=e618] [cursor=pointer]:
+            - generic [ref=e619]: Sponsored
+    - generic [ref=e624]:
+      - separator [ref=e625]
+      - region "Products related to this item" [ref=e626]:
+        - generic [ref=e628]:
+          - heading "Products related to this item" [level=2] [ref=e629]
+          - link [ref=e633] [cursor=pointer]:
+            - /url: "#sp_detail_feedbackForm"
+        - list [ref=e643]:
+          - listitem [ref=e644]:
+            - generic [ref=e645]:
+              - link "GMC Professional Cooker 60x90 cm, Black Glass, Full Safety System, 5 Gas Burners with Oven" [ref=e646] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDk1MTg1NzY5MTYzMjo6Ojo&url=%2Fdp%2FB0GJR7PFDJ%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0GJR7PFDJ%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DdHgd0ExjGt%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=dHgd0ExjGt&sp_cr=DUB
+                - generic [ref=e650]: GMC Professional Cooker 60x90 cm, Black Glass, Full Safety System, 5 Gas Burners wi...
+              - link "EGP 24,995.00" [ref=e652] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDk1MTg1NzY5MTYzMjo6Ojo&url=%2Fdp%2FB0GJR7PFDJ%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0GJR7PFDJ%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DdHgd0ExjGt%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=dHgd0ExjGt&sp_cr=DUB
+                - generic [ref=e653]:
+                  - generic [ref=e654]: EGP 24,995.00
+                  - generic [ref=e655]:
+                    - text: EGP
+                    - generic [ref=e656]:
+                      - text: 24,995
+                      - generic [ref=e657]: .
+                    - text: "00"
+              - link "FREE delivery Tomorrow 9 AM - 3 PM" [ref=e659] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDk1MTg1NzY5MTYzMjo6Ojo&url=%2Fdp%2FB0GJR7PFDJ%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0GJR7PFDJ%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DdHgd0ExjGt%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=dHgd0ExjGt&sp_cr=DUB
+          - listitem [ref=e665]:
+            - generic [ref=e666]:
+              - link "Iceberg Refrigerator No Frost, 625 Liters, 2 Doors, Digital Display, Stainless - ICEBERG-62XD" [ref=e667] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDk0NTYxOTk3NjMzMjo6Ojo&url=%2Fdp%2FB0CWD2Q32G%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CWD2Q32G%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DvwTui2KgW1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=vwTui2KgW1&sp_cr=DUB
+                - generic [ref=e671]: Iceberg Refrigerator No Frost, 625 Liters, 2 Doors, Digital Display, Stainless - IC...
+              - link "1.0 out of 5 stars 3 ratings" [ref=e673] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDk0NTYxOTk3NjMzMjo6Ojo&url=%2Fdp%2FB0CWD2Q32G%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CWD2Q32G%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DvwTui2KgW1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=vwTui2KgW1&sp_cr=DUB#customerReviews
+                - text: "3"
+              - link "EGP 66,999.00" [ref=e676] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDk0NTYxOTk3NjMzMjo6Ojo&url=%2Fdp%2FB0CWD2Q32G%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CWD2Q32G%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DvwTui2KgW1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=vwTui2KgW1&sp_cr=DUB
+                - generic [ref=e677]:
+                  - generic [ref=e678]: EGP 66,999.00
+                  - generic [ref=e679]:
+                    - text: EGP
+                    - generic [ref=e680]:
+                      - text: 66,999
+                      - generic [ref=e681]: .
+                    - text: "00"
+              - link "FREE delivery 19 - 20 Jul" [ref=e683] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDk0NTYxOTk3NjMzMjo6Ojo&url=%2Fdp%2FB0CWD2Q32G%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CWD2Q32G%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DvwTui2KgW1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=vwTui2KgW1&sp_cr=DUB
+          - listitem [ref=e689]:
+            - generic [ref=e690]:
+              - link "Fulgor 4 Burner Glass Ceramic Electric Hob, Black, 60 cm Length" [ref=e691] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTE5NzkyNjEzOTczMjo6Ojo&url=%2Fdp%2FB0G2YKP6QP%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0G2YKP6QP%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DOmyxuLS7Dx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=OmyxuLS7Dx&sp_cr=DUB
+              - link "4.0 out of 5 stars 2 ratings" [ref=e697] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTE5NzkyNjEzOTczMjo6Ojo&url=%2Fdp%2FB0G2YKP6QP%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0G2YKP6QP%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DOmyxuLS7Dx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=OmyxuLS7Dx&sp_cr=DUB#customerReviews
+                - text: "2"
+              - link "Limited time deal" [ref=e699] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTE5NzkyNjEzOTczMjo6Ojo&url=%2Fdp%2FB0G2YKP6QP%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0G2YKP6QP%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DOmyxuLS7Dx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=OmyxuLS7Dx&sp_cr=DUB
+              - link "EGP 19,599.02" [ref=e703] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTE5NzkyNjEzOTczMjo6Ojo&url=%2Fdp%2FB0G2YKP6QP%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0G2YKP6QP%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DOmyxuLS7Dx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=OmyxuLS7Dx&sp_cr=DUB
+                - generic [ref=e704]:
+                  - generic [ref=e705]: EGP 19,599.02
+                  - generic [ref=e706]:
+                    - text: EGP
+                    - generic [ref=e707]:
+                      - text: 19,599
+                      - generic [ref=e708]: .
+                    - text: "02"
+              - link "FREE delivery 20 - 21 Jul" [ref=e710] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTE5NzkyNjEzOTczMjo6Ojo&url=%2Fdp%2FB0G2YKP6QP%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0G2YKP6QP%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DOmyxuLS7Dx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=OmyxuLS7Dx&sp_cr=DUB
+          - listitem [ref=e716]:
+            - generic [ref=e717]:
+              - link "Ocean Upright Freezer, 195 Liters, 6 Drawers, No Frost, Digital Control, A+ Energy Saver, Country of Origin Turkey, Black Color - CVK316NFBA+" [ref=e718] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEzNjQ1MDg4MzYzMjo6Ojo&url=%2Fdp%2FB0FWBNWNG4%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0FWBNWNG4%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DhuZks04OQM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=huZks04OQM&sp_cr=DUB
+                - generic [ref=e722]: Ocean Upright Freezer, 195 Liters, 6 Drawers, No Frost, Digital Control, A+ Energy ...
+              - link "EGP 26,490.00" [ref=e724] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEzNjQ1MDg4MzYzMjo6Ojo&url=%2Fdp%2FB0FWBNWNG4%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0FWBNWNG4%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DhuZks04OQM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=huZks04OQM&sp_cr=DUB
+                - generic [ref=e725]:
+                  - generic [ref=e726]: EGP 26,490.00
+                  - generic [ref=e727]:
+                    - text: EGP
+                    - generic [ref=e728]:
+                      - text: 26,490
+                      - generic [ref=e729]: .
+                    - text: "00"
+              - link "FREE delivery 25 - 26 Jul" [ref=e731] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEzNjQ1MDg4MzYzMjo6Ojo&url=%2Fdp%2FB0FWBNWNG4%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0FWBNWNG4%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DhuZks04OQM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=huZks04OQM&sp_cr=DUB
+          - listitem [ref=e737]:
+            - generic [ref=e738]:
+              - link "Ocean Upright Freezer, 195 Liters, 6 Drawers, No Frost, Digital Control, A+ Energy Saver, Country of Origin Turkey, Silver Color - CVK316NFSA+" [ref=e739] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEzNjQ1MDg4MzUzMjo6Ojo&url=%2Fdp%2FB0FWBKSC6F%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FWBKSC6F%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DrJ2AR6iOg2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=rJ2AR6iOg2&sp_cr=DUB
+                - generic [ref=e743]: Ocean Upright Freezer, 195 Liters, 6 Drawers, No Frost, Digital Control, A+ Energy ...
+              - link "Limited time deal" [ref=e744] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEzNjQ1MDg4MzUzMjo6Ojo&url=%2Fdp%2FB0FWBKSC6F%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FWBKSC6F%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DrJ2AR6iOg2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=rJ2AR6iOg2&sp_cr=DUB
+              - link "EGP 25,764.20" [ref=e748] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEzNjQ1MDg4MzUzMjo6Ojo&url=%2Fdp%2FB0FWBKSC6F%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FWBKSC6F%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DrJ2AR6iOg2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=rJ2AR6iOg2&sp_cr=DUB
+                - generic [ref=e749]:
+                  - generic [ref=e750]: EGP 25,764.20
+                  - generic [ref=e751]:
+                    - text: EGP
+                    - generic [ref=e752]:
+                      - text: 25,764
+                      - generic [ref=e753]: .
+                    - text: "20"
+              - link "FREE delivery 25 - 26 Jul" [ref=e755] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEzNjQ1MDg4MzUzMjo6Ojo&url=%2Fdp%2FB0FWBKSC6F%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FWBKSC6F%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DrJ2AR6iOg2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=rJ2AR6iOg2&sp_cr=DUB
+          - listitem [ref=e761]:
+            - generic [ref=e762]:
+              - link "Series 6, free-standing fridge-freezer with freezer at top, 186 x 86 cm, inox-easyclean kdn86ai3e9" [ref=e763] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEwMDc3NzYyMDAzMjo6Ojo&url=%2Fdp%2FB0BRB7PZQX%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0BRB7PZQX%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DWTEQojoYQF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=WTEQojoYQF&sp_cr=DUB
+                - generic [ref=e767]: Series 6, free-standing fridge-freezer with freezer at top, 186 x 86 cm, inox-easyc...
+              - link "3.0 out of 5 stars 2 ratings" [ref=e769] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEwMDc3NzYyMDAzMjo6Ojo&url=%2Fdp%2FB0BRB7PZQX%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0BRB7PZQX%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DWTEQojoYQF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=WTEQojoYQF&sp_cr=DUB#customerReviews
+                - text: "2"
+              - link "EGP 63,736.00" [ref=e772] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEwMDc3NzYyMDAzMjo6Ojo&url=%2Fdp%2FB0BRB7PZQX%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0BRB7PZQX%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DWTEQojoYQF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=WTEQojoYQF&sp_cr=DUB
+                - generic [ref=e773]:
+                  - generic [ref=e774]: EGP 63,736.00
+                  - generic [ref=e775]:
+                    - text: EGP
+                    - generic [ref=e776]:
+                      - text: 63,736
+                      - generic [ref=e777]: .
+                    - text: "00"
+              - link "FREE delivery as soon as Mon, 20 Jul, 9 AM - 3 PM" [ref=e779] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMTEwMDc3NzYyMDAzMjo6Ojo&url=%2Fdp%2FB0BRB7PZQX%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0BRB7PZQX%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DWTEQojoYQF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=WTEQojoYQF&sp_cr=DUB
+          - listitem [ref=e785]:
+            - generic [ref=e786]:
+              - link "Black Stainless Steel Nano Undermount/Drop in Waterfall Single Bowl Kitchen Sink With Pull-Out Faucet,Knob Control Workstation Sink Cup Washer,Drainage Basket & Accessories (26.8 * 17.7 * 8.3in)" [ref=e787] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDYwMDM1NDkxNDMzMjo6Ojo&url=%2Fdp%2FB0CF53WX8Z%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0CF53WX8Z%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DAJ1EUfwBwp%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=AJ1EUfwBwp&sp_cr=DUB
+                - generic [ref=e791]: Black Stainless Steel Nano Undermount/Drop in Waterfall Single Bowl Kitchen Sink Wi...
+              - link "4.2 out of 5 stars 33 ratings" [ref=e793] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDYwMDM1NDkxNDMzMjo6Ojo&url=%2Fdp%2FB0CF53WX8Z%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0CF53WX8Z%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DAJ1EUfwBwp%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=AJ1EUfwBwp&sp_cr=DUB#customerReviews
+                - text: "33"
+              - link "EGP 4,700.00" [ref=e796] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDYwMDM1NDkxNDMzMjo6Ojo&url=%2Fdp%2FB0CF53WX8Z%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0CF53WX8Z%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DAJ1EUfwBwp%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=AJ1EUfwBwp&sp_cr=DUB
+                - generic [ref=e797]:
+                  - generic [ref=e798]: EGP 4,700.00
+                  - generic [ref=e799]:
+                    - text: EGP
+                    - generic [ref=e800]:
+                      - text: 4,700
+                      - generic [ref=e801]: .
+                    - text: "00"
+              - link "EGP 26 delivery 19 - 20 Jul" [ref=e803] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MToyNTQ1MDI4MTY2MjAzODA5OjE3ODQzMDcyODc6c3BfZGV0YWlsOjMwMDYwMDM1NDkxNDMzMjo6Ojo&url=%2Fdp%2FB0CF53WX8Z%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0CF53WX8Z%26pd_rd_w%3DPkZAe%26content-id%3Damzn1.sym.bcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_p%3Dbcfd7db0-3103-4d4f-839e-bbe8f40a9804%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DAJ1EUfwBwp%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw&aref=AJ1EUfwBwp&sp_cr=DUB
+    - generic [ref=e813]:
+      - separator [ref=e814]
+      - group [ref=e817]:
+        - heading "Customers who viewed this item also viewed" [level=2] [ref=e822]
+        - group [ref=e827]:
+          - list [ref=e828]:
+            - listitem [ref=e829]:
+              - generic [ref=e831]:
+                - link [ref=e833] [cursor=pointer]:
+                  - /url: /-/en/Beko-rdne448m20b-stainless-refrigerator-liters/dp/B091NXGSGW/ref=pd_sbs_d_sccl_2_1/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B091NXGSGW&psc=1
+                - generic [ref=e836]:
+                  - link "Beko rdne448m20b no frost 2 door stainless steel refrigerator, 408 liters - black" [ref=e837] [cursor=pointer]:
+                    - /url: /-/en/Beko-rdne448m20b-stainless-refrigerator-liters/dp/B091NXGSGW/ref=pd_sbs_d_sccl_2_1/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B091NXGSGW&psc=1
+                  - link "4.0 out of 5 stars, 14 ratings" [ref=e842] [cursor=pointer]:
+                    - /url: /-/en/product-reviews/B091NXGSGW/ref=pd_sbs_d_sccl_2_1_cr/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B091NXGSGW
+                    - generic [ref=e843]: 4.0 out of 5 stars
+                    - text: "14"
+                  - link "EGP27,194.00" [ref=e848] [cursor=pointer]:
+                    - /url: /-/en/Beko-rdne448m20b-stainless-refrigerator-liters/dp/B091NXGSGW/ref=pd_sbs_d_sccl_2_1/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B091NXGSGW&psc=1
+                    - generic [ref=e850]:
+                      - generic [ref=e851]: EGP27,194.00
+                      - generic [ref=e852]:
+                        - text: EGP
+                        - generic [ref=e853]: 27,194.
+                        - text: "00"
+                  - text: EGP 26.00 shipping
+                  - generic [ref=e854]: Only 1 left in stock - order soon.
+            - listitem [ref=e857]:
+              - generic [ref=e859]:
+                - link [ref=e861] [cursor=pointer]:
+                  - /url: /-/en/Beko-Refrigerator-Freezer-Inverter-RDNE420K02DXIPEGB/dp/B0DT4K5MKZ/ref=pd_sbs_d_sccl_2_2/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0DT4K5MKZ&psc=1
+                - generic [ref=e864]:
+                  - link "Beko Refrigerator, 367 Liters, Top Freezer, Inverter, No Frost, Black, RDNE420K02DXIPEGB" [ref=e865] [cursor=pointer]:
+                    - /url: /-/en/Beko-Refrigerator-Freezer-Inverter-RDNE420K02DXIPEGB/dp/B0DT4K5MKZ/ref=pd_sbs_d_sccl_2_2/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0DT4K5MKZ&psc=1
+                  - link "EGP22,389.00" [ref=e871] [cursor=pointer]:
+                    - /url: /-/en/Beko-Refrigerator-Freezer-Inverter-RDNE420K02DXIPEGB/dp/B0DT4K5MKZ/ref=pd_sbs_d_sccl_2_2/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0DT4K5MKZ&psc=1
+                    - generic [ref=e873]:
+                      - generic [ref=e874]: EGP22,389.00
+                      - generic [ref=e875]:
+                        - text: EGP
+                        - generic [ref=e876]: 22,389.
+                        - text: "00"
+                  - text: FREE Shipping
+                  - generic [ref=e877]: Only 1 left in stock - order soon.
+            - listitem [ref=e880]:
+              - generic [ref=e882]:
+                - link [ref=e884] [cursor=pointer]:
+                  - /url: /-/en/Beko-Refrigerator-Capacity-Lighting-Installation/dp/B0FQBWFMPG/ref=pd_sbs_d_sccl_2_3/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0FQBWFMPG&psc=1
+                - generic [ref=e887]:
+                  - link "Beko Top Mount Refrigerator, 440L Net Capacity, 70W x 66.5D x 185H cm, A+ Energy Rating, Fixed Cooling, Glass Shelves, LED Lighting, Standing Installation, Silver - RDSG550M20SEG" [ref=e888] [cursor=pointer]:
+                    - /url: /-/en/Beko-Refrigerator-Capacity-Lighting-Installation/dp/B0FQBWFMPG/ref=pd_sbs_d_sccl_2_3/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0FQBWFMPG&psc=1
+                  - link "4.5 out of 5 stars, 2 ratings" [ref=e893] [cursor=pointer]:
+                    - /url: /-/en/product-reviews/B0FQBWFMPG/ref=pd_sbs_d_sccl_2_3_cr/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0FQBWFMPG
+                    - generic [ref=e894]: 4.5 out of 5 stars
+                    - text: "2"
+                  - link "EGP18,999.00" [ref=e899] [cursor=pointer]:
+                    - /url: /-/en/Beko-Refrigerator-Capacity-Lighting-Installation/dp/B0FQBWFMPG/ref=pd_sbs_d_sccl_2_3/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0FQBWFMPG&psc=1
+                    - generic [ref=e901]:
+                      - generic [ref=e902]: EGP18,999.00
+                      - generic [ref=e903]:
+                        - text: EGP
+                        - generic [ref=e904]: 18,999.
+                        - text: "00"
+                  - text: EGP 26.00 shipping
+                  - generic [ref=e905]: Only 1 left in stock - order soon.
+            - listitem [ref=e908]:
+              - generic [ref=e910]:
+                - link [ref=e912] [cursor=pointer]:
+                  - /url: /-/en/Beko-Refrigerator-Inverter-Freezer-RDNE455M20XBIEG/dp/B0DT4PTK6X/ref=pd_sbs_d_sccl_2_4/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0DT4PTK6X&psc=1
+                - generic [ref=e915]:
+                  - link "Beko Refrigerator, 406 L,Inverter, Top Freezer, Silver, RDNE455M20XBIEG" [ref=e916] [cursor=pointer]:
+                    - /url: /-/en/Beko-Refrigerator-Inverter-Freezer-RDNE455M20XBIEG/dp/B0DT4PTK6X/ref=pd_sbs_d_sccl_2_4/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0DT4PTK6X&psc=1
+                  - link "5.0 out of 5 stars, 2 ratings" [ref=e921] [cursor=pointer]:
+                    - /url: /-/en/product-reviews/B0DT4PTK6X/ref=pd_sbs_d_sccl_2_4_cr/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0DT4PTK6X
+                    - generic [ref=e922]: 5.0 out of 5 stars
+                    - text: "2"
+                  - link "EGP24,294.00" [ref=e927] [cursor=pointer]:
+                    - /url: /-/en/Beko-Refrigerator-Inverter-Freezer-RDNE455M20XBIEG/dp/B0DT4PTK6X/ref=pd_sbs_d_sccl_2_4/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0DT4PTK6X&psc=1
+                    - generic [ref=e929]:
+                      - generic [ref=e930]: EGP24,294.00
+                      - generic [ref=e931]:
+                        - text: EGP
+                        - generic [ref=e932]: 24,294.
+                        - text: "00"
+                  - text: EGP 26.00 shipping
+                  - generic [ref=e933]: Only 1 left in stock - order soon.
+            - listitem [ref=e936]:
+              - generic [ref=e938]:
+                - link [ref=e940] [cursor=pointer]:
+                  - /url: /-/en/Beko-Refrigerator-Dispenser-Harvest-Inverter-Aeroflow/dp/B0CQWBTF1R/ref=pd_sbs_d_sccl_2_5/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0CQWBTF1R&psc=1
+                - generic [ref=e943]:
+                  - link "Beko Refrigerator 2 door 477 liters net Water Dispenser Harvest fresh -Inverter-Aeroflow- Dark Inox" [ref=e944] [cursor=pointer]:
+                    - /url: /-/en/Beko-Refrigerator-Dispenser-Harvest-Inverter-Aeroflow/dp/B0CQWBTF1R/ref=pd_sbs_d_sccl_2_5/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0CQWBTF1R&psc=1
+                  - link "5.0 out of 5 stars, 3 ratings" [ref=e949] [cursor=pointer]:
+                    - /url: /-/en/product-reviews/B0CQWBTF1R/ref=pd_sbs_d_sccl_2_5_cr/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0CQWBTF1R
+                    - generic [ref=e950]: 5.0 out of 5 stars
+                    - text: "3"
+                  - generic [ref=e952]:
+                    - link "EGP40,900.00" [ref=e955] [cursor=pointer]:
+                      - /url: /-/en/Beko-Refrigerator-Dispenser-Harvest-Inverter-Aeroflow/dp/B0CQWBTF1R/ref=pd_sbs_d_sccl_2_5/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0CQWBTF1R&psc=1
+                      - generic [ref=e957]:
+                        - generic [ref=e958]: EGP40,900.00
+                        - generic [ref=e959]:
+                          - text: EGP
+                          - generic [ref=e960]: 40,900.
+                          - text: "00"
+                    - generic [ref=e961]: Get it as soon as Saturday, July 25
+                  - text: Fulfilled by Amazon - FREE Shipping
+                  - generic [ref=e963]: Only 1 left in stock - order soon.
+            - listitem [ref=e966]:
+              - generic [ref=e968]:
+                - link [ref=e970] [cursor=pointer]:
+                  - /url: /-/en/Samsung-Cooling-Double-Refrigirator-Capacity/dp/B0D94RVKZB/ref=pd_sbs_d_sccl_2_6/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0D94RVKZB&psc=1
+                - generic [ref=e973]:
+                  - link "Samsung RT40 Twin Cooling Double Door Refrigirator, 419 Liters Capacity, Black" [ref=e974] [cursor=pointer]:
+                    - /url: /-/en/Samsung-Cooling-Double-Refrigirator-Capacity/dp/B0D94RVKZB/ref=pd_sbs_d_sccl_2_6/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0D94RVKZB&psc=1
+                  - link "5.0 out of 5 stars, 6 ratings" [ref=e979] [cursor=pointer]:
+                    - /url: /-/en/product-reviews/B0D94RVKZB/ref=pd_sbs_d_sccl_2_6_cr/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0D94RVKZB
+                    - generic [ref=e980]: 5.0 out of 5 stars
+                    - text: "6"
+                  - generic [ref=e982]:
+                    - link "EGP29,990.00" [ref=e985] [cursor=pointer]:
+                      - /url: /-/en/Samsung-Cooling-Double-Refrigirator-Capacity/dp/B0D94RVKZB/ref=pd_sbs_d_sccl_2_6/258-1441498-6541426?pd_rd_w=QonEP&content-id=amzn1.sym.9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_p=9dae1e62-b512-48cd-85fa-47787caab40c&pf_rd_r=35BHQ6FP4XVTQSG8KHHH&pd_rd_wg=i346I&pd_rd_r=772cd4c1-2174-4372-b7f2-890e647d8a0c&pd_rd_i=B0D94RVKZB&psc=1
+                      - generic [ref=e987]:
+                        - generic [ref=e988]: EGP29,990.00
+                        - generic [ref=e989]:
+                          - text: EGP
+                          - generic [ref=e990]: 29,990.
+                          - text: "00"
+                    - generic [ref=e991]: Get it as soon as Saturday, July 25
+                  - text: Fulfilled by Amazon - FREE Shipping
+                  - generic [ref=e993]: Only 1 left in stock - order soon.
+    - generic [ref=e996]:
+      - generic [ref=e999]:
+        - heading "Product description" [level=2] [ref=e1002]
+        - paragraph [ref=e1004]: Experience superior food storage with this BEKOGLOBAL fridge freezer, featuring innovative HarvestFresh technology and NeoFrost Dual Cooling system for optimal freshness. The spacious 455-litre capacity, with 313 litres for fresh food and 93 litres for frozen items, makes it perfect for families. Standing at 185 cm tall with a 70 cm width, this appliance combines style with functionality. The ProSmart Inverter Compressor ensures efficient operation, while the reversible door adds flexibility to your kitchen layout. The black finish and membrane display controls offer a modern aesthetic. The no-frost cooling system eliminates the hassle of manual defrosting, keeping your food properly preserved. With its thoughtful design and practical features, this fridge freezer delivers reliable performance for your daily food storage needs. The unit's dimensions (185 cm x 70 cm x 66.5 cm) ensure it fits seamlessly into your kitchen space while providing ample storage capacity.
+      - generic [ref=e1005]:
+        - separator [ref=e1006]
+        - generic [ref=e1008]:
+          - heading "Product information" [level=1] [ref=e1009]
+          - generic [ref=e1013]:
+            - generic [ref=e1014]:
+              - generic [ref=e1016]:
+                - button [ref=e1019] [cursor=pointer]:
+                  - heading "Features & Specs" [level=5] [ref=e1021]
+                - button [ref=e1024] [cursor=pointer]:
+                  - heading "Style" [level=5] [ref=e1026]
+              - generic [ref=e1029]:
+                - heading "Warranty & Support" [level=3] [ref=e1030]
+                - generic [ref=e1031]:
+                  - text: "amazon.eg Return Policy:"
+                  - generic [ref=e1032]:
+                    - text: Regardless of your statutory right of withdrawal, you enjoy a 15-30 day right of return for most products. For exceptions and conditions, see
+                    - link "Return details" [ref=e1033] [cursor=pointer]:
+                      - /url: /-/en/gp/help/customer/display.html/ref=orc_hp_s_retpol?ie=UTF8&nodeId=GKM69DUUYKQWKWX7
+                    - text: .
+            - generic [ref=e1036]:
+              - button [ref=e1039] [cursor=pointer]:
+                - heading "Measurements" [level=5] [ref=e1041]
+              - button [ref=e1044] [cursor=pointer]:
+                - heading "User guide" [level=5] [ref=e1046]
+              - button [ref=e1049] [cursor=pointer]:
+                - heading "Item details" [level=5] [ref=e1051]
+      - generic [ref=e1057]:
+        - heading [level=2] [ref=e1058]:
+          - paragraph [ref=e1060]: Top Brand
+          - paragraph [ref=e1061]: Beko
+        - list [ref=e1062]:
+          - listitem [ref=e1063]:
+            - paragraph [ref=e1064]: 86% positive ratings from 1K+ customers
+          - listitem [ref=e1065]:
+            - paragraph [ref=e1066]: 1K+ recent orders from this brand
+    - generic [ref=e1069]:
+      - separator [ref=e1070]
+      - region "Products related to this item" [ref=e1071]:
+        - generic [ref=e1073]:
+          - heading "Products related to this item" [level=2] [ref=e1074]
+          - link [ref=e1078] [cursor=pointer]:
+            - /url: "#sp_detail2_feedbackForm"
+        - list [ref=e1088]:
+          - listitem [ref=e1089]:
+            - generic [ref=e1090]:
+              - link "Ocean Upright Freezer, 195 Liters, 6 Drawers, No Frost, Digital Control, A+ Energy Saver, Country of Origin Turkey, Silver Color - CVK316NFSA+" [ref=e1091] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMzY0NTA4ODM1MzI6Ojo6&url=%2Fdp%2FB0FWBKSC6F%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FWBKSC6F%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DrJ2AR6iOg2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=rJ2AR6iOg2&sp_cr=DUB
+                - generic [ref=e1095]: Ocean Upright Freezer, 195 Liters, 6 Drawers, No Frost, Digital Control, A+ Energy ...
+              - link "Limited time deal" [ref=e1096] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMzY0NTA4ODM1MzI6Ojo6&url=%2Fdp%2FB0FWBKSC6F%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FWBKSC6F%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DrJ2AR6iOg2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=rJ2AR6iOg2&sp_cr=DUB
+              - link "EGP 25,764.20" [ref=e1100] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMzY0NTA4ODM1MzI6Ojo6&url=%2Fdp%2FB0FWBKSC6F%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FWBKSC6F%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DrJ2AR6iOg2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=rJ2AR6iOg2&sp_cr=DUB
+                - generic [ref=e1101]:
+                  - generic [ref=e1102]: EGP 25,764.20
+                  - generic [ref=e1103]:
+                    - text: EGP
+                    - generic [ref=e1104]:
+                      - text: 25,764
+                      - generic [ref=e1105]: .
+                    - text: "20"
+              - link "FREE delivery 25 - 26 Jul" [ref=e1107] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMzY0NTA4ODM1MzI6Ojo6&url=%2Fdp%2FB0FWBKSC6F%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FWBKSC6F%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DrJ2AR6iOg2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=rJ2AR6iOg2&sp_cr=DUB
+          - listitem [ref=e1113]:
+            - generic [ref=e1114]:
+              - link "Series 6, free-standing fridge-freezer with freezer at top, 186 x 86 cm, inox-easyclean kdn86ai3e9" [ref=e1115] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMDA3Nzc2MjAwMzI6Ojo6&url=%2Fdp%2FB0BRB7PZQX%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0BRB7PZQX%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DWTEQojoYQF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=WTEQojoYQF&sp_cr=DUB
+                - generic [ref=e1119]: Series 6, free-standing fridge-freezer with freezer at top, 186 x 86 cm, inox-easyc...
+              - link "3.0 out of 5 stars 2 ratings" [ref=e1121] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMDA3Nzc2MjAwMzI6Ojo6&url=%2Fdp%2FB0BRB7PZQX%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0BRB7PZQX%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DWTEQojoYQF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=WTEQojoYQF&sp_cr=DUB#customerReviews
+                - text: "2"
+              - link "EGP 63,736.00" [ref=e1124] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMDA3Nzc2MjAwMzI6Ojo6&url=%2Fdp%2FB0BRB7PZQX%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0BRB7PZQX%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DWTEQojoYQF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=WTEQojoYQF&sp_cr=DUB
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]: EGP 63,736.00
+                  - generic [ref=e1127]:
+                    - text: EGP
+                    - generic [ref=e1128]:
+                      - text: 63,736
+                      - generic [ref=e1129]: .
+                    - text: "00"
+              - link "FREE delivery as soon as Mon, 20 Jul, 9 AM - 3 PM" [ref=e1131] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMDA3Nzc2MjAwMzI6Ojo6&url=%2Fdp%2FB0BRB7PZQX%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0BRB7PZQX%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DWTEQojoYQF%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=WTEQojoYQF&sp_cr=DUB
+          - listitem [ref=e1137]:
+            - generic [ref=e1138]:
+              - link "OCEAN Upright Freezer 6 Drawer Silver 210 Liter Digital Control NOVERST CVK 316 NF SA+ CVK316NFSA" [ref=e1139] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExNTA5MzQ3OTMyMzI6Ojo6&url=%2Fdp%2FB0CHP7RFQV%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0CHP7RFQV%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3Dk2OkMkf756%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=k2OkMkf756&sp_cr=DUB
+                - generic [ref=e1143]: OCEAN Upright Freezer 6 Drawer Silver 210 Liter Digital Control NOVERST CVK 316 NF ...
+              - link "EGP 28,999.00" [ref=e1145] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExNTA5MzQ3OTMyMzI6Ojo6&url=%2Fdp%2FB0CHP7RFQV%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0CHP7RFQV%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3Dk2OkMkf756%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=k2OkMkf756&sp_cr=DUB
+                - generic [ref=e1146]:
+                  - generic [ref=e1147]: EGP 28,999.00
+                  - generic [ref=e1148]:
+                    - text: EGP
+                    - generic [ref=e1149]:
+                      - text: 28,999
+                      - generic [ref=e1150]: .
+                    - text: "00"
+              - link "FREE delivery 19 - 20 Jul" [ref=e1152] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExNTA5MzQ3OTMyMzI6Ojo6&url=%2Fdp%2FB0CHP7RFQV%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0CHP7RFQV%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3Dk2OkMkf756%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=k2OkMkf756&sp_cr=DUB
+          - listitem [ref=e1158]:
+            - generic [ref=e1159]:
+              - link "Toshiba Refrigerator No Frost 450 Liters With Inverter Technology, Airfall cooling system - Morandi Grey - GR-RT622WE-PMN(06)" [ref=e1160] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMDA5NTE0NDIxMzI6Ojo6&url=%2Fdp%2FB0F6VC9475%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0F6VC9475%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DCqX3xsPgdl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=CqX3xsPgdl&sp_cr=DUB
+                - generic [ref=e1164]: Toshiba Refrigerator No Frost 450 Liters With Inverter Technology, Airfall cooling ...
+              - link "EGP 33,666.00" [ref=e1166] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMDA5NTE0NDIxMzI6Ojo6&url=%2Fdp%2FB0F6VC9475%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0F6VC9475%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DCqX3xsPgdl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=CqX3xsPgdl&sp_cr=DUB
+                - generic [ref=e1167]:
+                  - generic [ref=e1168]: EGP 33,666.00
+                  - generic [ref=e1169]:
+                    - text: EGP
+                    - generic [ref=e1170]:
+                      - text: 33,666
+                      - generic [ref=e1171]: .
+                    - text: "00"
+              - link "FREE delivery Sun, 19 Jul" [ref=e1173] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExMDA5NTE0NDIxMzI6Ojo6&url=%2Fdp%2FB0F6VC9475%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0F6VC9475%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DCqX3xsPgdl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=CqX3xsPgdl&sp_cr=DUB
+          - listitem [ref=e1179]:
+            - generic [ref=e1180]:
+              - link "GMC Professional Cooker 60x90 cm, Black Glass, Full Safety System, 5 Gas Burners with Oven" [ref=e1181] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDA5NTE4NTc2OTE2MzI6Ojo6&url=%2Fdp%2FB0GJR7PFDJ%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0GJR7PFDJ%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DdHgd0ExjGt%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=dHgd0ExjGt&sp_cr=DUB
+                - generic [ref=e1185]: GMC Professional Cooker 60x90 cm, Black Glass, Full Safety System, 5 Gas Burners wi...
+              - link "EGP 24,995.00" [ref=e1187] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDA5NTE4NTc2OTE2MzI6Ojo6&url=%2Fdp%2FB0GJR7PFDJ%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0GJR7PFDJ%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DdHgd0ExjGt%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=dHgd0ExjGt&sp_cr=DUB
+                - generic [ref=e1188]:
+                  - generic [ref=e1189]: EGP 24,995.00
+                  - generic [ref=e1190]:
+                    - text: EGP
+                    - generic [ref=e1191]:
+                      - text: 24,995
+                      - generic [ref=e1192]: .
+                    - text: "00"
+              - link "FREE delivery Tomorrow 9 AM - 3 PM" [ref=e1194] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDA5NTE4NTc2OTE2MzI6Ojo6&url=%2Fdp%2FB0GJR7PFDJ%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0GJR7PFDJ%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DdHgd0ExjGt%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=dHgd0ExjGt&sp_cr=DUB
+          - listitem [ref=e1200]:
+            - generic [ref=e1201]:
+              - link "Iceberg Refrigerator No Frost, 625 Liters, 2 Doors, Digital Display, Stainless - ICEBERG-62XD" [ref=e1202] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDA5NDU2MTk5NzYzMzI6Ojo6&url=%2Fdp%2FB0CWD2Q32G%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0CWD2Q32G%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DvwTui2KgW1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=vwTui2KgW1&sp_cr=DUB
+                - generic [ref=e1206]: Iceberg Refrigerator No Frost, 625 Liters, 2 Doors, Digital Display, Stainless - IC...
+              - link "1.0 out of 5 stars 3 ratings" [ref=e1208] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDA5NDU2MTk5NzYzMzI6Ojo6&url=%2Fdp%2FB0CWD2Q32G%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0CWD2Q32G%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DvwTui2KgW1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=vwTui2KgW1&sp_cr=DUB#customerReviews
+                - text: "3"
+              - link "EGP 66,999.00" [ref=e1211] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDA5NDU2MTk5NzYzMzI6Ojo6&url=%2Fdp%2FB0CWD2Q32G%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0CWD2Q32G%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DvwTui2KgW1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=vwTui2KgW1&sp_cr=DUB
+                - generic [ref=e1212]:
+                  - generic [ref=e1213]: EGP 66,999.00
+                  - generic [ref=e1214]:
+                    - text: EGP
+                    - generic [ref=e1215]:
+                      - text: 66,999
+                      - generic [ref=e1216]: .
+                    - text: "00"
+              - link "FREE delivery 19 - 20 Jul" [ref=e1218] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDA5NDU2MTk5NzYzMzI6Ojo6&url=%2Fdp%2FB0CWD2Q32G%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0CWD2Q32G%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DvwTui2KgW1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=vwTui2KgW1&sp_cr=DUB
+          - listitem [ref=e1224]:
+            - generic [ref=e1225]:
+              - link "Fulgor 4 Burner Glass Ceramic Electric Hob, Black, 60 cm Length" [ref=e1226] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExOTc5MjYxMzk3MzI6Ojo6&url=%2Fdp%2FB0G2YKP6QP%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0G2YKP6QP%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DOmyxuLS7Dx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=OmyxuLS7Dx&sp_cr=DUB
+              - link "4.0 out of 5 stars 2 ratings" [ref=e1232] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExOTc5MjYxMzk3MzI6Ojo6&url=%2Fdp%2FB0G2YKP6QP%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0G2YKP6QP%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DOmyxuLS7Dx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=OmyxuLS7Dx&sp_cr=DUB#customerReviews
+                - text: "2"
+              - link "Limited time deal" [ref=e1234] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExOTc5MjYxMzk3MzI6Ojo6&url=%2Fdp%2FB0G2YKP6QP%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0G2YKP6QP%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DOmyxuLS7Dx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=OmyxuLS7Dx&sp_cr=DUB
+              - link "EGP 19,599.02" [ref=e1238] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExOTc5MjYxMzk3MzI6Ojo6&url=%2Fdp%2FB0G2YKP6QP%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0G2YKP6QP%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DOmyxuLS7Dx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=OmyxuLS7Dx&sp_cr=DUB
+                - generic [ref=e1239]:
+                  - generic [ref=e1240]: EGP 19,599.02
+                  - generic [ref=e1241]:
+                    - text: EGP
+                    - generic [ref=e1242]:
+                      - text: 19,599
+                      - generic [ref=e1243]: .
+                    - text: "02"
+              - link "FREE delivery 20 - 21 Jul" [ref=e1245] [cursor=pointer]:
+                - /url: /-/en/sspa/click?ie=UTF8&spc=MTo4NjUzNjc5NTIyNjgzMTA3OjE3ODQzMDcyODc6c3BfZGV0YWlsMjozMDExOTc5MjYxMzk3MzI6Ojo6&url=%2Fdp%2FB0G2YKP6QP%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0G2YKP6QP%26pd_rd_w%3DXr5Ly%26content-id%3Damzn1.sym.3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_p%3D3af4a5ba-609d-45e1-93bd-66dcd32bb817%26pf_rd_r%3D35BHQ6FP4XVTQSG8KHHH%26pd_rd_wg%3Di346I%26pd_rd_r%3D772cd4c1-2174-4372-b7f2-890e647d8a0c%26aref%3DOmyxuLS7Dx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=OmyxuLS7Dx&sp_cr=DUB
+    - generic [ref=e1253]:
+      - iframe [ref=e1254]:
+        - generic [ref=f4e4]:
+          - generic [ref=f4e5]: "Sponsored Ad. Product image. Midea Refrigerator, MDRB424FGN46, Bottom Freezer, Tropical Compressor, Voltage Stability, Dual Tempreture Control, 310 L - Bru Steel Color Price: EGP 20,489.00 Shop now"
+          - link "Click to navigate to product detail page" [ref=f4e8] [cursor=pointer]:
+            - /url: https://aax-eu.amazon.eg/x/c/RHw7-TRZhDbv2JNMUPxbkD0AAAGfcQCICgMAAAIjAQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDDyvBt/clv1c_ek-Yg4XXLcTCjRDeRcs1fsBaXFIWQR-0eLaT-rkrvyZNsrhaGCJprrEBlNL9LMetk7FPz8Crn0vy_1HtF-38z5r5m3KJ8WKYqwlBJA1dpMVNZOPpIirkeEzkS5LCbE-p99iObw6TA47PcgokAZwkVrSOrpcSm0P6skf2xVevwP5d3mTTOKy0oUK_q010ukPO9Cs_AwcjGymbxHd0girodMwfTNc2PHK_6I9A-En2_nPoqVYVEOpGRoWgaJOTx0CI-BXvOlNvWpcbrm-4Eva6fq4lcS98ST6tcuGVNPdN94m2ElnlwA9CLM-OX3iAEUy6urQf-aib44_AQTU5oTA2S1YtjOEUD4I0hXgDA4QQ-7i7ZC_M9b9u2Rz1TrmqFxxUHwMnRvXOk27HzfgqaZx6iEo7gixQa6kGLJL_hhrylOUiaW3tubCWIQcYixzPiGTPGLL01WHEvQ0hvTlSz4Pet2plNyunUR1djsY2UzrboOnvG12-xfKLX-UHqBtz675VSeu9xoQkbxl5FkohMWhpe6-d-7euCyUtCvvtCGKeG-hkaV7JSwCRQZvwjzG6uDvP8-JuCqMMKeaHXeoMyX9eN-hWc2JMVT_6lOHjE5z_xZp7E75svfGJuq0GEzfsXAc35Evo-ywzIOys_WgCtclVDugbQ-eAhq9gd7SiCBcdSRh8blaVs-HGKC1GTHwb8KPnjB4fJ3jBxU3audxzE2Z5wKyli5-sufPhroUE5YNVuSzTcaOIrorJ0MlEGTvwctaydy1T4xs1ethT9Sx8yDkV0koKlL7RBUJ6xLgRjhsnQNDx8rrGSGSQ2P7xUIql3OiKOLm0SIqQTpshbGFgfXjYDSaFUFYWQfRWN9FE89bdRGt4XguSTebgIGpZRyFMQLYQEg8oEtHKIZRT07RU6I78Og_nkhhFmoWjIrAB3HCMHsQOV6dmtBjgsVAqeuRveH4dhab3YmiW8ju1cRCEGY0O-nX86y4Yo6KUDUIrW_uMrnLoFYb_4_9Qp-JokPjo5dDwvHTTQOLRe41t5A/http://www.amazon.eg/dp/B0DHY73KKJ/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=jlBQkopE5u
+          - generic [ref=f4e9]:
+            - img "Product image" [ref=f4e13]
+            - generic [ref=f4e17]:
+              - generic [ref=f4e18]: Midea Refrigerator, MDRB424FGN46, Bottom Freezer, Tropical Compressor, Voltage Stability, Dual Tempreture Control, 310 L - Bru Steel Color
+              - generic [ref=f4e19]: (31)
+              - generic [ref=f4e23]:
+                - generic [ref=f4e24]: EGP 20,489.00
+                - generic [ref=f4e25]:
+                  - generic [ref=f4e26]: EGP
+                  - generic [ref=f4e27]: 20,489
+                  - generic [ref=f4e28]: "00"
+                - generic [ref=f4e29]: List price was EGP 21,699.00
+                - generic [ref=f4e30]: EGP 21,699.00
+      - button "Leave feedback on Sponsored ad" [ref=e1256] [cursor=pointer]:
+        - generic [ref=e1257]: Sponsored
+    - generic "Top reviews" [ref=e1261]:
+      - separator [ref=e1262]
+      - generic [ref=e1264]:
+        - generic [ref=e1265]:
+          - generic [ref=e1270]:
+            - heading "Customer Reviews" [level=2] [ref=e1272]
+            - list [ref=e1277]:
+              - listitem [ref=e1278]:
+                - generic "0 percent of reviews have 5 stars" [ref=e1281]:
+                  - generic [ref=e1282]: 5 star
+                  - progressbar [ref=e1284]
+                  - generic [ref=e1285]: 0%
+              - listitem [ref=e1286]:
+                - generic "0 percent of reviews have 4 stars" [ref=e1289]:
+                  - generic [ref=e1290]: 4 star
+                  - progressbar [ref=e1292]
+                  - generic [ref=e1293]: 0%
+              - listitem [ref=e1294]:
+                - generic "0 percent of reviews have 3 stars" [ref=e1297]:
+                  - generic [ref=e1298]: 3 star
+                  - progressbar [ref=e1300]
+                  - generic [ref=e1301]: 0%
+              - listitem [ref=e1302]:
+                - generic "0 percent of reviews have 2 stars" [ref=e1305]:
+                  - generic [ref=e1306]: 2 star
+                  - progressbar [ref=e1308]
+                  - generic [ref=e1309]: 0%
+              - listitem [ref=e1310]:
+                - generic "0 percent of reviews have 1 stars" [ref=e1313]:
+                  - generic [ref=e1314]: 1 star
+                  - progressbar [ref=e1316]
+                  - generic [ref=e1317]: 0%
+            - button "How are ratings calculated?" [ref=e1322] [cursor=pointer]
+          - separator [ref=e1324]
+          - separator [ref=e1325]
+        - generic [ref=e1326]: There are 0 customer reviews.
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1338]:
+    - button "Back to top" [ref=e1339] [cursor=pointer]
+    - generic [ref=e1341]:
+      - generic [ref=e1342]:
+        - heading "Get to Know Us" [level=6] [ref=e1343]
+        - list [ref=e1344]:
+          - listitem [ref=e1345]:
+            - link "About Amazon" [ref=e1346] [cursor=pointer]:
+              - /url: /-/en/b?node=22624915031
+          - listitem [ref=e1347]:
+            - link "Careers" [ref=e1348] [cursor=pointer]:
+              - /url: http://amazon.jobs
+          - listitem [ref=e1349]:
+            - link "Amazon Science" [ref=e1350] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1352]:
+        - heading "Shop with Us" [level=6] [ref=e1353]
+        - list [ref=e1354]:
+          - listitem [ref=e1355]:
+            - link "Your Account" [ref=e1356] [cursor=pointer]:
+              - /url: https://www.amazon.eg/-/en/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1357]:
+            - link "Your Orders" [ref=e1358] [cursor=pointer]:
+              - /url: https://www.amazon.eg/-/en/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=e1359]:
+            - link "Your Addresses" [ref=e1360] [cursor=pointer]:
+              - /url: https://www.amazon.eg/-/en/a/addresses?ref_=footer_yad
+          - listitem [ref=e1361]:
+            - link "Your Lists" [ref=e1362] [cursor=pointer]:
+              - /url: /-/en/gp/registry/wishlist?requiresSignIn=1&ref_=footer_wl
+      - generic [ref=e1364]:
+        - heading "Make Money with Us" [level=6] [ref=e1365]
+        - list [ref=e1366]:
+          - listitem [ref=e1367]:
+            - link "Protect and build your brand" [ref=e1368] [cursor=pointer]:
+              - /url: https://brandservices.amazon.eg/?ref=AOEGABRLGNRFOOT&ld=AOEGABRLGNRFOOT
+          - listitem [ref=e1369]:
+            - link "Advertise Your Products" [ref=e1370] [cursor=pointer]:
+              - /url: https://advertising.amazon.eg/?ref=footer_advtsing_eg
+          - listitem [ref=e1371]:
+            - link "Sell on Amazon" [ref=e1372] [cursor=pointer]:
+              - /url: https://sell.amazon.eg/beginners-guide.html?lang=en-US&ref_=AZEGSOA_footer_sell_EN&ld=AZEGSOA_footer_sell_EN
+          - listitem [ref=e1373]:
+            - link "Fulfillment by Amazon" [ref=e1374] [cursor=pointer]:
+              - /url: https://sell.amazon.eg/fulfillment-by-amazon.html?lang=en-US&ref_=AZEGSOA_footer_FBA_EN&ld=AZEGSOA_footer_FBA_EN
+          - listitem [ref=e1375]:
+            - link "Supply to Amazon" [ref=e1376] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-AE
+      - generic [ref=e1378]:
+        - heading "Let Us Help You" [level=6] [ref=e1379]
+        - list [ref=e1380]:
+          - listitem [ref=e1381]:
+            - link "Help" [ref=e1382] [cursor=pointer]:
+              - /url: /-/en/gp/help/customer/display.html?nodeId=508510
+          - listitem [ref=e1383]:
+            - link "Shipping & Delivery" [ref=e1384] [cursor=pointer]:
+              - /url: /-/en/gp/help/customer/display.html?nodeId=201910060&ref_=footer_shiprates
+          - listitem [ref=e1385]:
+            - link "Returns & Replacements" [ref=e1386] [cursor=pointer]:
+              - /url: /-/en/spr/returns
+          - listitem [ref=e1387]:
+            - link "Recalls and Product Safety Alerts" [ref=e1388] [cursor=pointer]:
+              - /url: https://www.amazon.eg/-/en/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1389]:
+            - link "Amazon App Download" [ref=e1390] [cursor=pointer]:
+              - /url: /-/en/b?node=22624924031
+    - generic [ref=e1392]:
+      - link "Amazon Egypt Home" [ref=e1395] [cursor=pointer]:
+        - /url: /-/en/?ref_=footer_logo
+      - generic [ref=e1398]:
+        - generic [ref=e1399]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e1400] [cursor=pointer]:
+            - /url: /-/en/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1402]: English
+          - button "Expand to Change Language or Country" [ref=e1403] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is Egypt." [ref=e1404] [cursor=pointer]:
+          - generic [ref=e1406]: Egypt
+    - generic "More on Amazon" [ref=e1407]:
+      - generic "More on Amazon" [ref=e1408]:
+        - list [ref=e1409]:
+          - listitem [ref=e1410]:
+            - link [ref=e1411] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_2_eg
+              - heading "Amazon Advertising" [level=5] [ref=e1412]
+              - generic [ref=e1413]: Find, attract, andengage customers
+          - listitem [ref=e1414]
+          - listitem [ref=e1415]:
+            - link "Sell on Amazon Start Selling Online Today!" [ref=e1416] [cursor=pointer]:
+              - /url: https://sell.amazon.eg/?lang=en-US&ref_=AZEGSOA_footer_affiliate_EN&ld=AZEGSOA_footer_affiliate_EN
+              - heading "Sell on Amazon" [level=5] [ref=e1417]
+              - generic [ref=e1418]: Start Selling Online Today!
+          - listitem [ref=e1419]
+          - listitem [ref=e1420]:
+            - link [ref=e1421] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=AE_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e1422]
+              - generic [ref=e1423]: Scalable CloudComputing Services
+          - listitem [ref=e1424]
+          - listitem [ref=e1425]:
+            - link [ref=e1426] [cursor=pointer]:
+              - /url: https://www.goodreads.com/
+              - heading "Goodreads" [level=5] [ref=e1427]
+              - generic [ref=e1428]: Book reviews& recommendations
+        - list [ref=e1429]:
+          - listitem [ref=e1430]:
+            - link [ref=e1431] [cursor=pointer]:
+              - /url: https://www.audible.com/
+              - heading "Audible" [level=5] [ref=e1432]
+              - generic [ref=e1433]: DownloadAudio Books
+          - listitem [ref=e1434]
+          - listitem [ref=e1435]:
+            - link [ref=e1436] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e1437]
+              - generic [ref=e1438]: Movies, TV& Celebrities
+          - listitem [ref=e1439]
+          - listitem [ref=e1440]:
+            - link [ref=e1441] [cursor=pointer]:
+              - /url: http://www.alexa.com/
+              - heading "Alexa" [level=5] [ref=e1442]
+              - generic [ref=e1443]: Actionable Analyticsfor the Web
+          - listitem [ref=e1444]
+          - listitem [ref=e1445]:
+            - link [ref=e1446] [cursor=pointer]:
+              - /url: http://www.shopbop.com/welcome
+              - heading "Shopbop" [level=5] [ref=e1447]
+              - generic [ref=e1448]: DesignerFashion Brands
+    - generic [ref=e1449]:
+      - list [ref=e1450]:
+        - listitem [ref=e1451]:
+          - link "Conditions of Use & Sale" [ref=e1452] [cursor=pointer]:
+            - /url: /-/en/gp/help/customer/display.html?nodeId=201909000&ref_=footer_cou
+        - listitem [ref=e1453]:
+          - link "Privacy Notice" [ref=e1454] [cursor=pointer]:
+            - /url: /-/en/gp/help/customer/display.html?nodeId=201909010&ref_=footer_privacy
+        - listitem [ref=e1455]:
+          - link "Interest-Based Ads" [ref=e1456] [cursor=pointer]:
+            - /url: /-/en/gp/help/customer/display.html?nodeId=202075050&ref_=footer_ads
+      - generic [ref=e1457]: ©1996–2026, Amazon.com, Inc. or its affiliates

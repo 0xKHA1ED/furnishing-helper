@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "title": "Kitchen storage — balanced starter under 25k EGP",
+  "lastUpdated": "2026-07-17",
+  "currency": "EGP",
+  "budgetMax": 25000,
+  "scope": "storage_only_empty_kitchen",
+  "sources": ["IKEA Egypt (primary research)", "other quality OK if better value"],
+  "disclaimer": "IKEA Egypt prices from site scrape 2026-07-17. Re-check stock/delivery to 6th of October. Photos from IKEA CDN.",
+  "designBrief": {
+    "wallDrilling": true,
+    "priority": "balanced — food + containers + cookware/appliance zone",
+    "approach": "KALLAX freestanding pantry + ENHET open frames (wall/base) + boxes/rails"
+  },
+  "kits": [
+    {
+      "id": "kit_balanced_a",
+      "name": "Balanced starter A (recommended)",
+      "totalEGP": 21621,
+      "bufferEGP": 3379,
+      "summary": "One tall KALLAX for pantry, one square KALLAX for prep containers, two ENHET open frames for cookware/appliances, wall cabinet, black DRÖNA boxes, rails/hooks.",
+      "itemIds": [
+        "k_kallax_77x147_white",
+        "k_kallax_77x77_white",
+        "k_enhet_base_shelves_40_white",
+        "k_enhet_base_shelves_40_anth",
+        "k_enhet_wall_cb_60",
+        "k_drona_black_x4",
+        "k_kallax_door_x2",
+        "k_enhet_rail_hooks_swivel"
+      ],
+      "pros": [
+        "Stays under 25k with ~3.4k buffer for tax/delivery/odds",
+        "Works in empty kitchen without full METOD remodel",
+        "Wall + freestanding mix (you can drill)",
+        "Hidden storage (doors/boxes) + open zones for cooker/air-fryer landing"
+      ],
+      "cons": [
+        "Not a full closed kitchen look — more modular/loft storage",
+        "KALLAX particleboard: fine quality for price, not solid wood",
+        "Must wall-anchor tall units for safety"
+      ]
+    },
+    {
+      "id": "kit_pantry_heavy_b",
+      "name": "Pantry-heavy B",
+      "totalEGP": 22986,
+      "bufferEGP": 2014,
+      "summary": "Larger KALLAX 4x4 (promo) as main pantry wall + ENHET open base + boxes — max dry-goods volume.",
+      "itemIds": [
+        "k_kallax_147x147_bb_promo",
+        "k_enhet_base_shelves_60_white",
+        "k_enhet_wall_cb_60",
+        "k_drona_black_x6",
+        "k_kallax_door_x4",
+        "k_enhet_rail_hooks_swivel"
+      ],
+      "pros": [
+        "Max closed-looking cubes for big-shop dry goods",
+        "Promo 4x4 KALLAX is strong liters/EGP",
+        "Still under 25k"
+      ],
+      "cons": [
+        "One big cube wall can dominate a small kitchen",
+        "Less dedicated low open landing for heavy pots unless you use lower cubes"
+      ]
+    },
+    {
+      "id": "kit_enhet_modular_c",
+      "name": "ENHET modular C (more kitchen-like)",
+      "totalEGP": 12465,
+      "bufferEGP": 12535,
+      "summary": "Lean ENHET frames + wall cabinets + drawers — more classic kitchen silhouette, more budget left for later worktop/organizers.",
+      "itemIds": [
+        "k_enhet_base_shelves_60_white",
+        "k_enhet_base_3draw_40",
+        "k_enhet_base_3draw_60",
+        "k_enhet_wall_cb_60",
+        "k_enhet_wall_cb_80",
+        "k_enhet_rail_hooks_swivel",
+        "k_drona_black_x2"
+      ],
+      "pros": [
+        "Feels more like a real kitchen than pure living-room KALLAX",
+        "Drawers great for utensils/containers",
+        "Large budget remaining for worktop piece or more units after measuring"
+      ],
+      "cons": [
+        "Less total bulk pantry volume than KALLAX kits unless you add more cabinets later",
+        "ENHET legs/layout need careful planning to look finished"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "k_kallax_77x147_white",
+      "name": "KALLAX Shelving unit, white, 77x147 cm",
+      "brand": "IKEA",
+      "priceEGP": 7695,
+      "url": "https://www.ikea.com/eg/en/p/kallax-shelving-unit-white-80275887/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/kallax-shelving-unit-white__0644757_pe702939_s5.jpg?f=s",
+      "zone": "pantry_main",
+      "qtyDefault": 1,
+      "pros": ["Proven modular storage", "Tall food + container capacity", "Can add doors/boxes", "Widely stocked EG"],
+      "cons": ["Must anchor to wall", "Open cubes look busy without boxes"],
+      "summary": "Primary freestanding pantry backbone for empty kitchen."
+    },
+    {
+      "id": "k_kallax_77x77_white",
+      "name": "KALLAX Shelving unit, white, 77x77 cm",
+      "brand": "IKEA",
+      "priceEGP": 5395,
+      "url": "https://www.ikea.com/eg/en/p/kallax-shelving-unit-white-20275814/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/kallax-shelving-unit-white__0644753_pe702937_s5.jpg?f=s",
+      "zone": "prep_containers",
+      "qtyDefault": 1,
+      "pros": ["Compact second bank", "Good for meal-prep boxes at counter height-ish", "Same system as tall unit"],
+      "cons": ["Still needs boxes for dust control"],
+      "summary": "Secondary cube unit for containers and daily dry goods."
+    },
+    {
+      "id": "k_kallax_147x147_bb_promo",
+      "name": "KALLAX Shelving unit, black-brown, 147x147 cm (promo)",
+      "brand": "IKEA",
+      "priceEGP": 9495,
+      "url": "https://www.ikea.com/eg/en/p/kallax-shelving-unit-black-brown-10275862/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/kallax-shelving-unit-black-brown__0644545_pe702769_s5.jpg?f=s",
+      "zone": "pantry_main",
+      "qtyDefault": 1,
+      "pros": ["Huge volume", "Promo price ~9.5k", "Dark finish hides scuffs better"],
+      "cons": ["Large footprint", "Can overwhelm small kitchens"],
+      "summary": "Max-cube pantry if you have wall width."
+    },
+    {
+      "id": "k_enhet_base_shelves_40_white",
+      "name": "ENHET Base frame with shelves, white, 40x60x75 cm",
+      "brand": "IKEA",
+      "priceEGP": 995,
+      "url": "https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-white-20448952/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/enhet-base-fr-w-shelves-white__0805496_pe769575_s5.jpg?f=s",
+      "zone": "cookware_open",
+      "qtyDefault": 1,
+      "pros": ["Very cheap open kitchen look", "Holds pots / air-fryer landing", "Easy assemble ENHET system"],
+      "cons": ["Open = dust", "Not closed pantry"],
+      "summary": "Open base landing for cookware and small appliances."
+    },
+    {
+      "id": "k_enhet_base_shelves_40_anth",
+      "name": "ENHET Base frame with shelves, anthracite, 40x60x75 cm",
+      "brand": "IKEA",
+      "priceEGP": 995,
+      "url": "https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-anthracite-00448953/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/enhet-base-fr-w-shelves-anthracite__0805494_pe769574_s5.jpg?f=s",
+      "zone": "cookware_open",
+      "qtyDefault": 1,
+      "pros": ["Same as white base — anthracite matches black appliance aesthetic"],
+      "cons": ["Open storage"],
+      "summary": "Second open base in anthracite for visual balance with black fridge/washer."
+    },
+    {
+      "id": "k_enhet_base_shelves_60_white",
+      "name": "ENHET Base frame with shelves, white, 60x60x75 cm",
+      "brand": "IKEA",
+      "priceEGP": 995,
+      "url": "https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-white-30448975/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/enhet-base-fr-w-shelves-white__0805543_pe769590_s5.jpg?f=s",
+      "zone": "cookware_open",
+      "qtyDefault": 1,
+      "pros": ["Wider open bay", "On heavy promo historically"],
+      "cons": ["Open"],
+      "summary": "Wider ENHET open base."
+    },
+    {
+      "id": "k_enhet_wall_cb_60",
+      "name": "ENHET Wall cabinet with 2 shelves, white, 60x30x75 cm",
+      "brand": "IKEA",
+      "priceEGP": 995,
+      "url": "https://www.ikea.com/eg/en/p/enhet-wall-cb-w-2-shelves-white-50440412/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/enhet-wall-cb-w-2-shelves-white__0784887_pe761925_s5.jpg?f=s",
+      "zone": "wall_closed",
+      "qtyDefault": 1,
+      "pros": ["Closed wall storage for glasses/spices", "Sale price strong", "Uses drilling permission"],
+      "cons": ["Needs solid wall fixings"],
+      "summary": "Closed wall storage for daily kitchenware."
+    },
+    {
+      "id": "k_enhet_wall_cb_80",
+      "name": "ENHET Wall cabinet with 2 shelves, white, 80x30x75 cm",
+      "brand": "IKEA",
+      "priceEGP": 1495,
+      "url": "https://www.ikea.com/eg/en/p/enhet-wall-cb-w-2-shelves-white-60440416/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/enhet-wall-cb-w-2-shelves-white__0784893_pe761931_s5.jpg?f=s",
+      "zone": "wall_closed",
+      "qtyDefault": 1,
+      "pros": ["Wider wall volume"],
+      "cons": ["Heavier install"],
+      "summary": "Wider wall cabinet option."
+    },
+    {
+      "id": "k_enhet_base_3draw_40",
+      "name": "ENHET Base cabinet with 3 drawers, white, 40x60x75 cm",
+      "brand": "IKEA",
+      "priceEGP": 2295,
+      "url": "https://www.ikea.com/eg/en/p/enhet-base-cb-w-3-drawers-white-40440422/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/enhet-base-cb-w-3-drawers-white__0784829_pe761913_s5.jpg?f=s",
+      "zone": "drawers",
+      "qtyDefault": 1,
+      "pros": ["Drawers ideal for utensils/containers", "Closed dust-free"],
+      "cons": ["Less bulk food volume than open pantry"],
+      "summary": "Drawer base for prep tools and small containers."
+    },
+    {
+      "id": "k_enhet_base_3draw_60",
+      "name": "ENHET Base cabinet with 3 drawers, white, 60x60x75 cm",
+      "brand": "IKEA",
+      "priceEGP": 2895,
+      "url": "https://www.ikea.com/eg/en/p/enhet-base-cb-w-3-drawers-white-20440418/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/enhet-base-cb-w-3-drawers-white__0784832_pe761914_s5.jpg?f=s",
+      "zone": "drawers",
+      "qtyDefault": 1,
+      "pros": ["Wider drawers"],
+      "cons": ["Higher price than open frames"],
+      "summary": "Wider drawer base."
+    },
+    {
+      "id": "k_drona_black_x4",
+      "name": "DRÖNA Box, black, 33x38x33 cm (×4 pack line)",
+      "brand": "IKEA",
+      "priceEGP": 1996,
+      "unitPriceEGP": 499,
+      "qty": 4,
+      "url": "https://www.ikea.com/eg/en/p/droena-box-black-30219281/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/droena-box-black__0713065_pe729169_s5.jpg?f=s",
+      "zone": "organizers",
+      "qtyDefault": 4,
+      "pros": ["Perfect KALLAX fit", "Hides clutter", "Black matches appliance aesthetic"],
+      "cons": ["Fabric not moisture-proof — keep dry foods sealed inside"],
+      "summary": "Cube inserts for food packets and containers."
+    },
+    {
+      "id": "k_drona_black_x6",
+      "name": "DRÖNA Box, black ×6",
+      "brand": "IKEA",
+      "priceEGP": 2994,
+      "unitPriceEGP": 499,
+      "qty": 6,
+      "url": "https://www.ikea.com/eg/en/p/droena-box-black-30219281/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/droena-box-black__0713065_pe729169_s5.jpg?f=s",
+      "zone": "organizers",
+      "qtyDefault": 6,
+      "pros": ["More closed cubes for large KALLAX"],
+      "cons": ["Adds up if you overbuy"],
+      "summary": "Six black boxes for pantry-heavy kit."
+    },
+    {
+      "id": "k_drona_black_x2",
+      "name": "DRÖNA Box, black ×2",
+      "brand": "IKEA",
+      "priceEGP": 998,
+      "unitPriceEGP": 499,
+      "qty": 2,
+      "url": "https://www.ikea.com/eg/en/p/droena-box-black-30219281/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/droena-box-black__0713065_pe729169_s5.jpg?f=s",
+      "zone": "organizers",
+      "qtyDefault": 2,
+      "pros": ["Cheap clutter control"],
+      "cons": [],
+      "summary": "Minimal box set."
+    },
+    {
+      "id": "k_kallax_door_x2",
+      "name": "KALLAX Insert with door ×2 (white or black-brown)",
+      "brand": "IKEA",
+      "priceEGP": 1300,
+      "unitPriceEGP": 650,
+      "qty": 2,
+      "url": "https://www.ikea.com/eg/en/p/kallax-insert-with-door-white-20278167/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/kallax-insert-with-door-white__0640668_pe699973_s5.jpg?f=s",
+      "zone": "organizers",
+      "qtyDefault": 2,
+      "pros": ["Hides ugly packaging", "Looks more furniture-like"],
+      "cons": ["Reduces open display space"],
+      "summary": "Doors on key pantry cubes."
+    },
+    {
+      "id": "k_kallax_door_x4",
+      "name": "KALLAX Insert with door ×4",
+      "brand": "IKEA",
+      "priceEGP": 2600,
+      "unitPriceEGP": 650,
+      "qty": 4,
+      "url": "https://www.ikea.com/eg/en/p/kallax-insert-with-door-black-brown-60278170/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/kallax-insert-with-door-black-brown__0624220_pe691690_s5.jpg?f=s",
+      "zone": "organizers",
+      "qtyDefault": 4,
+      "pros": ["More closed pantry look"],
+      "cons": ["Cost scales with count"],
+      "summary": "Four doors for large KALLAX."
+    },
+    {
+      "id": "k_enhet_rail_hooks_swivel",
+      "name": "ENHET rails + hooks + swivel shelf bundle (approx)",
+      "brand": "IKEA",
+      "priceEGP": 350,
+      "url": "https://www.ikea.com/eg/en/cat/accessories-for-enhet-50009/",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/enhet-swivel-shelf-anthracite__0805588_pe769610_s5.jpg?f=s",
+      "zone": "wall_rails",
+      "qtyDefault": 1,
+      "pros": ["Uses wall drilling", "Keeps utensils off scarce counter space", "Very cheap"],
+      "cons": ["Small pieces — easy to forget in cart"],
+      "summary": "Wall rails/hooks/swivel for daily tools near cooker."
+    }
+  ],
+  "shoppingNotes": [
+    "Measure wall length and ceiling height before locking KALLAX 147 cm sizes",
+    "Anchor all tall units — tip-over risk",
+    "Delivery to 6th of October: check IKEA delivery fee against buffer",
+    "Leave buffer for food containers (meal-prep) if not buying cookware yet",
+    "Optional later: thin worktop on ENHET frames if you need prep surface (EKBACKEN ~7k alone — only if buffer allows after core storage)"
+  ],
+  "outOfScopeThisBudget": [
+    "Full METOD kitchen remodel",
+    "Cookware sets (unless leftover)",
+    "Fridge / washer / cooker",
+    "Water heater"
+  ]
+}

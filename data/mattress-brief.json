@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "lastUpdated": "2026-07-17",
+  "status": "catalog_ready",
+  "galleryPage": "mattress-gallery.html",
+  "catalogPath": "data/appliances/mattress_catalog.json",
+  "scope": {
+    "room": "master_bedroom",
+    "onlyMaster": true,
+    "bedWidthCm": 180,
+    "bedLengthCm": 200,
+    "sizeLabel": "180×200 cm"
+  },
+  "answers": {
+    "sizeCm": [
+      180,
+      200
+    ],
+    "budgetMaxEGP": 25000,
+    "firmness": "unknown_default_medium_firm",
+    "firmnessNote": "User chose Other: no idea — default medium-firm; show soft-medium to firm options",
+    "sleepPositions": [
+      "mixed"
+    ],
+    "painIssues": "none_special",
+    "heatPriority": "high_breathable",
+    "motionTransfer": "medium",
+    "typeLean": "pocket_spring_hybrid",
+    "base": "slatted_bed_base",
+    "extras": "mattress_only_protector_later",
+    "shops": [
+      "btech",
+      "major_chains",
+      "amazon_jumia_ok_if_warranty"
+    ]
+  },
+  "filters": {
+    "size": "180x200",
+    "maxPriceEGP": 25000,
+    "prefer": [
+      "pocket spring",
+      "hybrid",
+      "breathable",
+      "medium-firm"
+    ],
+    "deprioritize": [
+      "thick pure memory foam only",
+      "very soft pillow-top only"
+    ]
+  },
+  "countsFromCatalog": {
+    "included": 54,
+    "excludedListed": 52,
+    "total": 106,
+    "withImage": 105,
+    "bySource": {
+      "IKEA Egypt": 25,
+      "Amazon.eg": 74,
+      "Jumia Egypt": 7
+    },
+    "byType": {
+      "pocket_spring": 9,
+      "spring": 14,
+      "latex": 1,
+      "foam": 12,
+      "memory_foam": 4,
+      "unknown": 14
+    }
+  }
+}

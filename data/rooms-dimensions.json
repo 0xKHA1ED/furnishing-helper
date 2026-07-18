@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-17",
+  "unit": "cm",
+  "notes": "User-provided. Kitchen was missing earlier — now recorded.",
+  "rooms": {
+    "living": {
+      "id": "living",
+      "name": "Living room",
+      "widthCm": 375,
+      "lengthCm": 450,
+      "areaM2": 16.875,
+      "carpetFocus": true
+    },
+    "master_bedroom": {
+      "id": "master_bedroom",
+      "name": "Master bedroom",
+      "widthCm": 330,
+      "lengthCm": 475,
+      "areaM2": 15.675,
+      "carpetFocus": true
+    },
+    "second_bedroom": {
+      "id": "second_bedroom",
+      "name": "Second bedroom (guest + office hybrid)",
+      "widthCm": 380,
+      "lengthCm": 330,
+      "areaM2": 12.54,
+      "carpetFocus": true
+    },
+    "kitchen": {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "widthCm": 250,
+      "lengthCm": 215,
+      "areaM2": 5.375,
+      "carpetFocus": false,
+      "notes": "Compact; storage plan was freestanding + wall units under 25k"
+    }
+  }
+}

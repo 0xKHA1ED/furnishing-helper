@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Carpets & rugs — living, bedroom, kitchen, entry</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/appliances.css" />
+    <style>
+      .size-plan {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 0.85rem;
+        margin-bottom: 1.25rem;
+      }
+      .size-card {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 1rem;
+      }
+      .size-card h3 {
+        margin: 0 0 0.35rem;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">
+            <a href="index.html">← Hub</a> ·
+            <a href="fridge-gallery.html">Fridge</a> ·
+            <a href="washer-gallery.html">Washer</a> ·
+            <a href="kitchen-gallery.html">Kitchen</a> ·
+            <a href="tv-gallery.html">TV</a> · Carpets
+          </p>
+          <h1>Carpets & rugs</h1>
+          <p class="lead">
+            Living <strong>375×450</strong>, master bedroom <strong>330×475</strong> (180 bed),
+            kitchen <strong>250×215</strong>, entry + underlays. Playwright bulk scrape:
+            <strong>IKEA Egypt + Amazon.eg + Jumia</strong> (50+ options with photos).
+            Flatweave / low pile preferred · deeper tones · high-pile/cream flagged.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold" id="count-badge">—</span>
+          <span class="badge">Images · Egypt retail</span>
+        </div>
+      </header>
+
+      <div class="help-callout" id="disclaimer">Loading…</div>
+
+      <h2 style="margin: 0 0 0.75rem; font-size: 1.1rem">Size plan</h2>
+      <div class="size-plan" id="size-plan"></div>
+
+      <div class="preset-row">
+        <button type="button" data-preset="all" class="active">All options</button>
+        <button type="button" data-preset="living">Living</button>
+        <button type="button" data-preset="master_bedroom">Bedroom</button>
+        <button type="button" data-preset="kitchen">Kitchen</button>
+        <button type="button" data-preset="entry">Entry</button>
+        <button type="button" data-preset="accessory">Pads / underlay</button>
+        <button type="button" data-preset="flagged">Flagged (shag/cream)</button>
+        <button type="button" data-preset="starred">★ Starred</button>
+      </div>
+      <div class="preset-row" id="source-row" style="margin-top: 0.5rem">
+        <button type="button" data-source="all" class="active">All shops</button>
+        <button type="button" data-source="IKEA">IKEA</button>
+        <button type="button" data-source="Amazon">Amazon.eg</button>
+        <button type="button" data-source="Jumia">Jumia</button>
+      </div>
+
+      <p class="sticky-count" id="result-count"></p>
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="card" style="margin-top: 1.5rem">
+        <h2>Shopping route</h2>
+        <ol id="route" class="muted"></ol>
+      </div>
+
+      <footer class="app-footer">
+        Data: <code>data/appliances/carpet_catalog.json</code> ·
+        <code>data/carpet-brief.json</code>
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal-backdrop">
+      <div class="modal">
+        <div class="modal-head">
+          <div>
+            <h2 id="modal-title">Rug</h2>
+            <p class="muted" id="modal-sub" style="margin: 0.25rem 0 0; font-size: 0.85rem"></p>
+          </div>
+          <button type="button" class="modal-close" id="modal-close">Close</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <img class="main-img" id="modal-main-img" alt="" referrerpolicy="no-referrer" />
+            <div class="ph" id="modal-no-img" style="display: none; color: #9aa6bc; text-align: center; padding: 2rem">
+              No photo — visit showroom / link
+            </div>
+          </div>
+          <div class="modal-info">
+            <div class="price-lg" id="modal-price"></div>
+            <p class="muted" id="modal-summary" style="margin: 0.5rem 0 0"></p>
+            <div class="pc-grid">
+              <div class="pc-box pros"><h4>Pros</h4><ul id="modal-pros"></ul></div>
+              <div class="pc-box cons"><h4>Cons</h4><ul id="modal-cons"></ul></div>
+            </div>
+            <ul class="spec-list" id="modal-specs"></ul>
+            <div class="btn-row" style="margin-top: 1rem">
+              <button type="button" class="btn ghost" id="modal-star">☆ Star</button>
+              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="toast" class="toast"></div>
+    <script>
+      const STAR_KEY = "egypt-apt-carpet-stars-v1";
+      let items = [], data = null, active = null, roomFilter = "all", sourceFilter = "all";
+      let stars = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || "[]"));
+      const $ = (s) => document.querySelector(s);
+      function esc(s) {
+        return String(s || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+      function fmt(n, note) {
+        if (n == null) return note || "Price varies";
+        return Number(n).toLocaleString() + " EGP";
+      }
+      function matchSource(it) {
+        if (sourceFilter === "all") return true;
+        const s = (it.source || it.brand || "").toLowerCase();
+        if (sourceFilter === "IKEA") return s.includes("ikea");
+        if (sourceFilter === "Amazon") return s.includes("amazon");
+        if (sourceFilter === "Jumia") return s.includes("jumia");
+        return true;
+      }
+      function renderGrid() {
+        let list = items.filter((it) => {
+          if (!matchSource(it)) return false;
+          if (roomFilter === "starred") return stars.has(it.id);
+          if (roomFilter === "flagged") return !!it.excluded;
+          if (it.excluded) return false;
+          if (roomFilter === "all") return true;
+          return it.room === roomFilter;
+        });
+        list.sort((a, b) => (a.rank || 999) - (b.rank || 999));
+        $("#result-count").textContent = `Showing ${list.length} · ${stars.size} starred · source: ${sourceFilter}`;
+        $("#product-grid").innerHTML = list
+          .map((it) => {
+            const img = it.imageUrl
+              ? `<img src="${esc(it.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
+              : `<div class="ph">No image</div>`;
+            return `<article class="product-card ${stars.has(it.id) ? "starred" : ""}" data-id="${esc(it.id)}">
+              <div class="thumb">${img}
+                <div class="badge-abs">
+                  ${it.rank && it.rank < 200 ? `<span class="chip-mini hot">#${it.rank}</span>` : ""}
+                  <span class="chip-mini">${esc(it.room)}</span>
+                </div>
+                <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
+              </div>
+              <div class="body">
+                <div class="brand">${esc(it.brand)} · ${esc(it.pile || "")}</div>
+                <h3>${esc(it.name)}</h3>
+                <div class="meta">${it.sizeCm ? it.sizeCm.join("×") + " cm" : "size —"} · ${esc(it.color || "")}</div>
+                <div class="price">${fmt(it.priceEGP, it.priceNote)}</div>
+              </div>
+            </article>`;
+          })
+          .join("");
+        document.querySelectorAll(".product-card").forEach((c) => {
+          c.addEventListener("click", (e) => {
+            if (e.target.closest("[data-star]")) return;
+            openModal(c.dataset.id);
+          });
+        });
+        document.querySelectorAll("[data-star]").forEach((b) => {
+          b.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const id = b.dataset.star;
+            if (stars.has(id)) stars.delete(id);
+            else stars.add(id);
+            localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+            renderGrid();
+          });
+        });
+      }
+      function openModal(id) {
+        active = items.find((i) => i.id === id);
+        if (!active) return;
+        $("#modal-backdrop").classList.add("open");
+        $("#modal-title").textContent = active.name;
+        $("#modal-sub").textContent = `${active.brand} · ${active.room} · ${active.material || ""}`;
+        $("#modal-price").textContent = fmt(active.priceEGP, active.priceNote);
+        $("#modal-summary").textContent = active.summary || "";
+        if (active.imageUrl) {
+          $("#modal-main-img").src = active.imageUrl;
+          $("#modal-main-img").style.display = "block";
+          $("#modal-no-img").style.display = "none";
+        } else {
+          $("#modal-main-img").style.display = "none";
+          $("#modal-no-img").style.display = "block";
+        }
+        $("#modal-pros").innerHTML = (active.pros || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        $("#modal-cons").innerHTML = (active.cons || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        const specs = [
+          ["Room", active.room],
+          ["Size", active.sizeCm ? active.sizeCm.join("×") + " cm" : "—"],
+          ["Pile", active.pile],
+          ["Material", active.material],
+          ["Color", active.color],
+        ];
+        if (active.buyChecklist) {
+          specs.push(["Buy checks", active.buyChecklist.join(" · ")]);
+        }
+        $("#modal-specs").innerHTML = specs
+          .map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v || "—"))}</span></li>`)
+          .join("");
+        $("#modal-link").href = active.url || "#";
+        $("#modal-star").textContent = stars.has(active.id) ? "★ Starred" : "☆ Star";
+      }
+      async function init() {
+        try {
+          data = await (await fetch("data/appliances/carpet_catalog.json")).json();
+          items = data.items || [];
+          const n = items.filter((i) => !i.excluded).length;
+          const imgN = items.filter((i) => i.imageUrl).length;
+          $("#count-badge").textContent = `${n}+ options · ${imgN} images`;
+          $("#disclaimer").textContent = data.disclaimer || "";
+          const sp = data.sizePlanSummary || {};
+          $("#size-plan").innerHTML = Object.entries(sp)
+            .map(
+              ([k, v]) =>
+                `<div class="size-card"><h3>${esc(k.replace(/_/g, " "))}</h3><p class="muted" style="margin:0;font-size:0.9rem">${esc(v)}</p></div>`
+            )
+            .join("");
+          $("#route").innerHTML = (data.shoppingRoute || []).map((s) => `<li>${esc(s)}</li>`).join("");
+          renderGrid();
+        } catch {
+          $("#disclaimer").innerHTML =
+            "Run <code>python -m http.server 8765</code> → http://localhost:8765/carpet-gallery.html";
+        }
+        document.querySelectorAll(".preset-row button[data-preset]").forEach((b) => {
+          b.addEventListener("click", () => {
+            document.querySelectorAll(".preset-row button[data-preset]").forEach((x) => x.classList.remove("active"));
+            b.classList.add("active");
+            roomFilter = b.dataset.preset;
+            renderGrid();
+          });
+        });
+        document.querySelectorAll("#source-row button[data-source]").forEach((b) => {
+          b.addEventListener("click", () => {
+            document.querySelectorAll("#source-row button[data-source]").forEach((x) => x.classList.remove("active"));
+            b.classList.add("active");
+            sourceFilter = b.dataset.source;
+            renderGrid();
+          });
+        });
+        $("#modal-close").onclick = () => $("#modal-backdrop").classList.remove("open");
+        $("#modal-backdrop").addEventListener("click", (e) => {
+          if (e.target.id === "modal-backdrop") $("#modal-backdrop").classList.remove("open");
+        });
+        $("#modal-star").onclick = () => {
+          if (!active) return;
+          if (stars.has(active.id)) stars.delete(active.id);
+          else stars.add(active.id);
+          localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+          openModal(active.id);
+          renderGrid();
+        };
+      }
+      init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "phase": "big_appliances_repository",
+  "lastUpdated": "2026-07-17",
+  "sources": [
+    {
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/c/large-home-appliances/refrigerators",
+      "category": "fridge",
+      "scrapedAt": "2026-07-17"
+    },
+    {
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/c/large-home-appliances/washing-machines-dryers",
+      "category": "washer",
+      "scrapedAt": "2026-07-17"
+    },
+    {
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/c/small-home-appliances/water-heaters/electric-water-heaters",
+      "category": "water_heater",
+      "scrapedAt": "2026-07-17"
+    }
+  ],
+  "excludedFromBuyList": [
+    "cooker",
+    "ac"
+  ],
+  "nextResearchWaves": [
+    "gas_water_heaters",
+    "second_retailer_raneen_or_2b",
+    "range_hood_if_needed"
+  ],
+  "lifestyleHooks": {
+    "fridge": "weekly Friday prep, freeze heavy, rare host, space-first, budget band 20-35k preferred",
+    "washer": "couple, no kids, iron already owned",
+    "water_heater": "empty apt, bathroom count unknown"
+  }
+}

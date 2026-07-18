@@ -1,0 +1,16 @@
+[    1529ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[    1531ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  131492ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=73863a91-2249-45c1-bb5b-f3b0d64bdfe6&localization_code=0:0
+[  132947ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=73863a91-2249-45c1-bb5b-f3b0d64bdfe6&localization_code=0:0
+[  134833ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  134835ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  135484ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=73863a91-2249-45c1-bb5b-f3b0d64bdfe6&localization_code=0:0
+[  139940ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=73863a91-2249-45c1-bb5b-f3b0d64bdfe6&localization_code=0:0

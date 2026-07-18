@@ -1,0 +1,1425 @@
+{
+  "version": 1,
+  "title": "High-protein · low-prep supermarket snacks (Egypt)",
+  "lastUpdated": "2026-07-17",
+  "currency": "EGP",
+  "ranking": {
+    "primary": "egp_per_gram_protein_lower_better",
+    "secondary": "kcal_per_gram_protein_lower_better",
+    "formulaNote": "rankScore ≈ 10×(EGP/g protein) + 0.15×(kcal/g protein); ready snacks slightly boosted"
+  },
+  "scope": {
+    "preferSnacks": true,
+    "minCooking": true,
+    "allowedPrep": [
+      "ready",
+      "open_eat",
+      "boil_once",
+      "microwave_1min",
+      "assemble_no_cook"
+    ],
+    "excludeHeavyCooking": true,
+    "market": "Egypt supermarkets (Carrefour, Hyper One, Spinneys, local)"
+  },
+  "disclaimer": "Prices and macros are approximate Egypt shelf values (2025–2026 band) for ranking — always read the pack label. Brands substitute freely. Ranking optimizes EGP per gram of protein then calories per gram of protein. Not medical advice.",
+  "shoppingRoute": [
+    "Sort by rank (best EGP/g protein first)",
+    "Daily staples: eggs (batch-boil) + tuna in water + plain Greek yogurt",
+    "True grab snacks: turkey slices, cottage/kareish, yogurt cups, tuna pouches",
+    "Skip sweet regular yogurt and most ‘protein cookies’ for this goal",
+    "Recheck weekly promos — eggs and tuna prices move"
+  ],
+  "counts": {
+    "total": 42,
+    "snackOk": 41,
+    "readyOrOpen": 36
+  },
+  "items": [
+    {
+      "id": "whey_1kg_amortized",
+      "name": "Whey protein tub — amortized per 25 g scoop",
+      "brand": "Imported / local whey",
+      "category": "powder",
+      "snackOk": true,
+      "prep": "assemble_no_cook",
+      "prepNote": "Scoop + water shake",
+      "packSize": "Per scoop (from ~1–2 kg tub)",
+      "priceEGP": 18,
+      "proteinG": 24,
+      "caloriesKcal": 120,
+      "servingHint": "1 scoop snack drink",
+      "shop": [
+        "Sports shops",
+        "some Hyper One"
+      ],
+      "where": "Sports / online",
+      "pros": [
+        "Often excellent EGP/g if tub is on promo",
+        "Low cal"
+      ],
+      "cons": [
+        "Upfront tub cost",
+        "Not impulse snack shelf always"
+      ],
+      "priceNote": "Per-scoop estimate; tub prices swing hard",
+      "egpPerGProtein": 0.75,
+      "kcalPerGProtein": 5.0,
+      "proteinCalorieSharePct": 80.0,
+      "rankScore": 7.95,
+      "excluded": false,
+      "summary": "0.75 EGP/g protein · 5.0 kcal/g protein · 24g protein / 120 kcal per pack · prep: assemble_no_cook",
+      "rank": 1
+    },
+    {
+      "id": "eggs_white_30",
+      "name": "White chicken eggs — tray 30",
+      "brand": "Local / farm pack",
+      "category": "eggs",
+      "snackOk": true,
+      "prep": "boil_once",
+      "prepNote": "Boil a batch once; fridge snacks all week (not daily cooking)",
+      "packSize": "30 eggs",
+      "priceEGP": 165,
+      "proteinG": 180,
+      "caloriesKcal": 2100,
+      "servingHint": "2 boiled eggs ≈ 12g protein / 140 kcal",
+      "shop": [
+        "Carrefour",
+        "Hyper One",
+        "local grocer"
+      ],
+      "where": "Eggs fridge / dry tray aisle",
+      "pros": [
+        "Best EGP per gram protein in most weeks",
+        "Portable after boiling",
+        "Filling"
+      ],
+      "cons": [
+        "Need one boil session",
+        "Cholesterol if you eat huge numbers"
+      ],
+      "egpPerGProtein": 0.917,
+      "kcalPerGProtein": 11.67,
+      "proteinCalorieSharePct": 34.3,
+      "rankScore": 10.62,
+      "excluded": false,
+      "summary": "0.917 EGP/g protein · 11.67 kcal/g protein · 180g protein / 2100 kcal per pack · prep: boil_once",
+      "rank": 2
+    },
+    {
+      "id": "eggs_white_10",
+      "name": "White chicken eggs — pack 10",
+      "brand": "Local pack",
+      "category": "eggs",
+      "snackOk": true,
+      "prep": "boil_once",
+      "prepNote": "Boil once; eat cold as snacks",
+      "packSize": "10 eggs",
+      "priceEGP": 60,
+      "proteinG": 60,
+      "caloriesKcal": 700,
+      "servingHint": "2 eggs snack",
+      "shop": [
+        "Any supermarket"
+      ],
+      "where": "Eggs",
+      "pros": [
+        "Smaller pack if fridge space tight"
+      ],
+      "cons": [
+        "Slightly worse unit price than 30s often"
+      ],
+      "egpPerGProtein": 1.0,
+      "kcalPerGProtein": 11.67,
+      "proteinCalorieSharePct": 34.3,
+      "rankScore": 11.45,
+      "excluded": false,
+      "summary": "1.0 EGP/g protein · 11.67 kcal/g protein · 60g protein / 700 kcal per pack · prep: boil_once",
+      "rank": 3
+    },
+    {
+      "id": "lupin_snack",
+      "name": "Lupin beans (termis-style snack) jar/pack",
+      "brand": "Local",
+      "category": "legume_snack",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Rinse salt if needed; eat cold",
+      "packSize": "~200 g drained",
+      "priceEGP": 35,
+      "proteinG": 30,
+      "caloriesKcal": 240,
+      "servingHint": "Small bowl",
+      "shop": [
+        "Hyper One",
+        "local"
+      ],
+      "where": "Pickles/legumes",
+      "pros": [
+        "High protein legume",
+        "Egyptian snack culture fit"
+      ],
+      "cons": [
+        "Salty brine versions"
+      ],
+      "egpPerGProtein": 1.167,
+      "kcalPerGProtein": 8.0,
+      "proteinCalorieSharePct": 50.0,
+      "rankScore": 12.07,
+      "excluded": false,
+      "summary": "1.167 EGP/g protein · 8.0 kcal/g protein · 30g protein / 240 kcal per pack · prep: ready",
+      "rank": 4
+    },
+    {
+      "id": "kareish_lowfat_500",
+      "name": "Kareish cheese (low-fat Egyptian) — 500 g",
+      "brand": "Local dairy",
+      "category": "soft_cheese",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Cube and eat; no cooking",
+      "packSize": "500 g",
+      "priceEGP": 70,
+      "proteinG": 55,
+      "caloriesKcal": 450,
+      "servingHint": "100 g snack",
+      "shop": [
+        "Carrefour",
+        "local dairy"
+      ],
+      "where": "White cheese fridge",
+      "pros": [
+        "Local staple",
+        "Solid protein density",
+        "Cheap-ish"
+      ],
+      "cons": [
+        "Salt content varies — rinse optional"
+      ],
+      "egpPerGProtein": 1.273,
+      "kcalPerGProtein": 8.18,
+      "proteinCalorieSharePct": 48.9,
+      "rankScore": 13.157,
+      "excluded": false,
+      "summary": "1.273 EGP/g protein · 8.18 kcal/g protein · 55g protein / 450 kcal per pack · prep: ready",
+      "rank": 5
+    },
+    {
+      "id": "tuna_water_cheap",
+      "name": "Canned tuna in water — value brand",
+      "brand": "House / value label",
+      "category": "canned_fish",
+      "snackOk": true,
+      "prep": "open_eat",
+      "prepNote": "Drain and eat",
+      "packSize": "1 can",
+      "priceEGP": 38,
+      "proteinG": 28,
+      "caloriesKcal": 130,
+      "servingHint": "1 can",
+      "shop": [
+        "Carrefour",
+        "Hyper One"
+      ],
+      "where": "Canned fish",
+      "pros": [
+        "Often best tuna EGP/g protein",
+        "Ready snack"
+      ],
+      "cons": [
+        "Check drained weight vs oil versions"
+      ],
+      "egpPerGProtein": 1.357,
+      "kcalPerGProtein": 4.64,
+      "proteinCalorieSharePct": 86.2,
+      "rankScore": 13.466,
+      "excluded": false,
+      "summary": "1.357 EGP/g protein · 4.64 kcal/g protein · 28g protein / 130 kcal per pack · prep: open_eat",
+      "rank": 6
+    },
+    {
+      "id": "skim_milk_1l",
+      "name": "Skim / 0% milk — 1 L",
+      "brand": "Juhayna / Lactel",
+      "category": "milk",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Glass as snack/drink",
+      "packSize": "1 L",
+      "priceEGP": 48,
+      "proteinG": 34,
+      "caloriesKcal": 350,
+      "servingHint": "300 ml glass ≈ 10g protein",
+      "shop": [
+        "Any supermarket"
+      ],
+      "where": "Milk fridge",
+      "pros": [
+        "Cheap protein liquid",
+        "No prep"
+      ],
+      "cons": [
+        "Not very filling alone",
+        "Lactose"
+      ],
+      "egpPerGProtein": 1.412,
+      "kcalPerGProtein": 10.29,
+      "proteinCalorieSharePct": 38.9,
+      "rankScore": 14.863,
+      "excluded": false,
+      "summary": "1.412 EGP/g protein · 10.29 kcal/g protein · 34g protein / 350 kcal per pack · prep: ready",
+      "rank": 7
+    },
+    {
+      "id": "sardines_water",
+      "name": "Canned sardines in water/tomato light",
+      "brand": "Various",
+      "category": "canned_fish",
+      "snackOk": true,
+      "prep": "open_eat",
+      "prepNote": "Open and eat; bones edible",
+      "packSize": "1 can ~120g",
+      "priceEGP": 32,
+      "proteinG": 22,
+      "caloriesKcal": 180,
+      "servingHint": "1 can",
+      "shop": [
+        "Any supermarket"
+      ],
+      "where": "Canned fish",
+      "pros": [
+        "Cheap protein",
+        "Omega-3",
+        "No cook"
+      ],
+      "cons": [
+        "Taste polarizing",
+        "Sodium"
+      ],
+      "egpPerGProtein": 1.455,
+      "kcalPerGProtein": 8.18,
+      "proteinCalorieSharePct": 48.9,
+      "rankScore": 14.977,
+      "excluded": false,
+      "summary": "1.455 EGP/g protein · 8.18 kcal/g protein · 22g protein / 180 kcal per pack · prep: open_eat",
+      "rank": 8
+    },
+    {
+      "id": "canned_beans_drain",
+      "name": "Canned beans (white/kidney) — drained snack bowl",
+      "brand": "Chtoura / California Garden",
+      "category": "legume_snack",
+      "snackOk": true,
+      "prep": "open_eat",
+      "prepNote": "Rinse, eat cold with salt/pepper — no cook",
+      "packSize": "1 can drained ~240 g",
+      "priceEGP": 28,
+      "proteinG": 20,
+      "caloriesKcal": 250,
+      "servingHint": "Half–full can",
+      "shop": [
+        "Any supermarket"
+      ],
+      "where": "Canned veg",
+      "pros": [
+        "Very cheap protein",
+        "Shelf stable"
+      ],
+      "cons": [
+        "Not ‘crispy snack’ vibe",
+        "Sodium unless rinsed"
+      ],
+      "egpPerGProtein": 1.4,
+      "kcalPerGProtein": 12.5,
+      "proteinCalorieSharePct": 32.0,
+      "rankScore": 15.075,
+      "excluded": false,
+      "summary": "1.4 EGP/g protein · 12.5 kcal/g protein · 20g protein / 250 kcal per pack · prep: open_eat",
+      "rank": 9
+    },
+    {
+      "id": "tuna_water_160",
+      "name": "Canned tuna in water — 160 g drained approx",
+      "brand": "American Garden / John West / similar",
+      "category": "canned_fish",
+      "snackOk": true,
+      "prep": "open_eat",
+      "prepNote": "Drain, eat with fork; optional squeeze lemon",
+      "packSize": "1 can ~160g drained",
+      "priceEGP": 55,
+      "proteinG": 36,
+      "caloriesKcal": 150,
+      "servingHint": "Whole can as snack/meal ~36g protein",
+      "shop": [
+        "Carrefour",
+        "Spinneys"
+      ],
+      "where": "Canned fish aisle",
+      "pros": [
+        "Very high protein / low calorie",
+        "Zero cook",
+        "Shelf-stable"
+      ],
+      "cons": [
+        "Sodium",
+        "Mercury if daily large cans forever"
+      ],
+      "egpPerGProtein": 1.528,
+      "kcalPerGProtein": 4.17,
+      "proteinCalorieSharePct": 96.0,
+      "rankScore": 15.106,
+      "excluded": false,
+      "summary": "1.528 EGP/g protein · 4.17 kcal/g protein · 36g protein / 150 kcal per pack · prep: open_eat",
+      "rank": 10
+    },
+    {
+      "id": "greek_large_tub_1kg",
+      "name": "Plain Greek yogurt tub ~1 kg (bulk)",
+      "brand": "Various large tubs",
+      "category": "greek_yogurt",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Portion into bowls; no cooking",
+      "packSize": "~1000 g",
+      "priceEGP": 145,
+      "proteinG": 90,
+      "caloriesKcal": 750,
+      "servingHint": "200 g snack ≈ 18g protein",
+      "shop": [
+        "Carrefour",
+        "Hyper One"
+      ],
+      "where": "Large yogurt tubs",
+      "pros": [
+        "Better EGP/g than mini cups often",
+        "Flexible snack portions"
+      ],
+      "cons": [
+        "Must finish before spoilage",
+        "Confirm protein % on label"
+      ],
+      "egpPerGProtein": 1.611,
+      "kcalPerGProtein": 8.33,
+      "proteinCalorieSharePct": 48.0,
+      "rankScore": 16.559,
+      "excluded": false,
+      "summary": "1.611 EGP/g protein · 8.33 kcal/g protein · 90g protein / 750 kcal per pack · prep: ready",
+      "rank": 11
+    },
+    {
+      "id": "whey_single_serve",
+      "name": "Whey protein sachet single-serve (if sold loose)",
+      "brand": "Various",
+      "category": "powder",
+      "snackOk": true,
+      "prep": "assemble_no_cook",
+      "prepNote": "Shake with water only — 30 seconds",
+      "packSize": "1 sachet ~30 g powder",
+      "priceEGP": 40,
+      "proteinG": 24,
+      "caloriesKcal": 120,
+      "servingHint": "1 shake",
+      "shop": [
+        "Spinneys",
+        "pharmacies",
+        "Carrefour sports"
+      ],
+      "where": "Sports nutrition",
+      "pros": [
+        "High protein low cal",
+        "Fast"
+      ],
+      "cons": [
+        "Not always in every supermarket",
+        "Taste"
+      ],
+      "egpPerGProtein": 1.667,
+      "kcalPerGProtein": 5.0,
+      "proteinCalorieSharePct": 80.0,
+      "rankScore": 17.12,
+      "excluded": false,
+      "summary": "1.667 EGP/g protein · 5.0 kcal/g protein · 24g protein / 120 kcal per pack · prep: assemble_no_cook",
+      "rank": 12
+    },
+    {
+      "id": "peanut_butter_natural_tbsp",
+      "name": "Natural peanut butter — per 2 tbsp serving cost",
+      "brand": "Various jars",
+      "category": "nut_butter",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Spoon from jar — no cook",
+      "packSize": "Serving 32 g (from jar)",
+      "priceEGP": 12,
+      "proteinG": 8,
+      "caloriesKcal": 190,
+      "servingHint": "2 tbsp on celery or alone",
+      "shop": [
+        "Any supermarket"
+      ],
+      "where": "Spreads",
+      "pros": [
+        "Cheap-ish protein add-on",
+        "Filling fats"
+      ],
+      "cons": [
+        "High calorie for protein gained — not ‘low-cal’ hero"
+      ],
+      "priceNote": "Amortized from ~150–200 EGP jar",
+      "egpPerGProtein": 1.5,
+      "kcalPerGProtein": 23.75,
+      "proteinCalorieSharePct": 16.8,
+      "rankScore": 17.762,
+      "excluded": false,
+      "summary": "1.5 EGP/g protein · 23.75 kcal/g protein · 8g protein / 190 kcal per pack · prep: ready",
+      "rank": 13
+    },
+    {
+      "id": "cottage_250",
+      "name": "Cottage cheese / low-fat quraish-style — 250 g",
+      "brand": "Al Asdekaa / similar",
+      "category": "soft_cheese",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Eat with spoon; optional cucumber",
+      "packSize": "250 g",
+      "priceEGP": 50,
+      "proteinG": 28,
+      "caloriesKcal": 200,
+      "servingHint": "Half tub snack ~14g protein",
+      "shop": [
+        "Spinneys",
+        "Carrefour"
+      ],
+      "where": "Cheese fridge",
+      "pros": [
+        "High casein protein",
+        "Slow digest snack",
+        "Low-ish cal"
+      ],
+      "cons": [
+        "Sodium",
+        "Availability varies by branch"
+      ],
+      "egpPerGProtein": 1.786,
+      "kcalPerGProtein": 7.14,
+      "proteinCalorieSharePct": 56.0,
+      "rankScore": 18.131,
+      "excluded": false,
+      "summary": "1.786 EGP/g protein · 7.14 kcal/g protein · 28g protein / 200 kcal per pack · prep: ready",
+      "rank": 14
+    },
+    {
+      "id": "light_white_cheese_250",
+      "name": "Light white cheese / feta-style light — 250 g",
+      "brand": "Domty light / similar",
+      "category": "soft_cheese",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Cubes as snack",
+      "packSize": "250 g",
+      "priceEGP": 55,
+      "proteinG": 30,
+      "caloriesKcal": 350,
+      "servingHint": "50–80 g snack",
+      "shop": [
+        "Carrefour"
+      ],
+      "where": "Cheese",
+      "pros": [
+        "Familiar Egyptian snack",
+        "No prep"
+      ],
+      "cons": [
+        "Saltier; cal higher than cottage"
+      ],
+      "egpPerGProtein": 1.833,
+      "kcalPerGProtein": 11.67,
+      "proteinCalorieSharePct": 34.3,
+      "rankScore": 19.28,
+      "excluded": false,
+      "summary": "1.833 EGP/g protein · 11.67 kcal/g protein · 30g protein / 350 kcal per pack · prep: ready",
+      "rank": 15
+    },
+    {
+      "id": "boiled_eggs_ready",
+      "name": "Ready peeled boiled eggs (2-pack) if sold",
+      "brand": "Chilled ready",
+      "category": "eggs",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Zero work",
+      "packSize": "2 eggs",
+      "priceEGP": 25,
+      "proteinG": 12,
+      "caloriesKcal": 140,
+      "servingHint": "Pack",
+      "shop": [
+        "Select Spinneys / gourmet"
+      ],
+      "where": "Ready fridge",
+      "pros": [
+        "True zero-prep egg snack"
+      ],
+      "cons": [
+        "Rare; mark-up vs raw eggs"
+      ],
+      "egpPerGProtein": 2.083,
+      "kcalPerGProtein": 11.67,
+      "proteinCalorieSharePct": 34.3,
+      "rankScore": 21.78,
+      "excluded": false,
+      "summary": "2.083 EGP/g protein · 11.67 kcal/g protein · 12g protein / 140 kcal per pack · prep: ready",
+      "rank": 16
+    },
+    {
+      "id": "egg_whites_carton",
+      "name": "Liquid egg whites carton (if available)",
+      "brand": "Import / specialty",
+      "category": "eggs",
+      "snackOk": false,
+      "prep": "microwave_1min",
+      "prepNote": "Microwave scramble 60–90s — minimal",
+      "packSize": "~500 ml",
+      "priceEGP": 120,
+      "proteinG": 55,
+      "caloriesKcal": 250,
+      "servingHint": "100 ml",
+      "shop": [
+        "Spinneys",
+        "select Carrefour"
+      ],
+      "where": "Chilled eggs",
+      "pros": [
+        "Very high protein low cal"
+      ],
+      "cons": [
+        "Stock rare; light cooking"
+      ],
+      "egpPerGProtein": 2.182,
+      "kcalPerGProtein": 4.55,
+      "proteinCalorieSharePct": 88.0,
+      "rankScore": 22.503,
+      "excluded": false,
+      "summary": "2.182 EGP/g protein · 4.55 kcal/g protein · 55g protein / 250 kcal per pack · prep: microwave_1min",
+      "rank": 17
+    },
+    {
+      "id": "edamame_frozen",
+      "name": "Frozen edamame (microwave bag)",
+      "brand": "Various frozen",
+      "category": "frozen",
+      "snackOk": true,
+      "prep": "microwave_1min",
+      "prepNote": "Steam bag 2–4 min — lightest ‘cook’",
+      "packSize": "300–400 g bag",
+      "priceEGP": 85,
+      "proteinG": 40,
+      "caloriesKcal": 450,
+      "servingHint": "100 g pods",
+      "shop": [
+        "Spinneys",
+        "Carrefour"
+      ],
+      "where": "Frozen veg",
+      "pros": [
+        "Fun snack",
+        "Fiber"
+      ],
+      "cons": [
+        "Needs microwave; availability"
+      ],
+      "egpPerGProtein": 2.125,
+      "kcalPerGProtein": 11.25,
+      "proteinCalorieSharePct": 35.6,
+      "rankScore": 22.637,
+      "excluded": false,
+      "summary": "2.125 EGP/g protein · 11.25 kcal/g protein · 40g protein / 450 kcal per pack · prep: microwave_1min",
+      "rank": 18
+    },
+    {
+      "id": "tuna_oil_avoid_ref",
+      "name": "Canned tuna in oil (reference — worse cal)",
+      "brand": "Various",
+      "category": "canned_fish",
+      "snackOk": true,
+      "prep": "open_eat",
+      "prepNote": "Drain oil well",
+      "packSize": "1 can",
+      "priceEGP": 48,
+      "proteinG": 28,
+      "caloriesKcal": 280,
+      "servingHint": "1 can",
+      "shop": [
+        "Any"
+      ],
+      "where": "Canned fish",
+      "pros": [
+        "Still high protein"
+      ],
+      "cons": [
+        "Much higher calories than water-packed — prefer water"
+      ],
+      "flag": "higher_cal",
+      "egpPerGProtein": 1.714,
+      "kcalPerGProtein": 10.0,
+      "proteinCalorieSharePct": 40.0,
+      "rankScore": 22.84,
+      "excluded": false,
+      "summary": "1.714 EGP/g protein · 10.0 kcal/g protein · 28g protein / 280 kcal per pack · prep: open_eat",
+      "rank": 19
+    },
+    {
+      "id": "high_protein_toast_thin",
+      "name": "High-protein crispbread / thin bread slices pack",
+      "brand": "Various",
+      "category": "crispbread",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Top with kareish/tuna — assemble only",
+      "packSize": "Pack (~10 slices)",
+      "priceEGP": 65,
+      "proteinG": 30,
+      "caloriesKcal": 400,
+      "servingHint": "2 slices + protein top",
+      "shop": [
+        "Spinneys",
+        "Carrefour"
+      ],
+      "where": "Bread/healthy",
+      "pros": [
+        "Vehicle for better proteins"
+      ],
+      "cons": [
+        "Alone not enough protein; check labels"
+      ],
+      "egpPerGProtein": 2.167,
+      "kcalPerGProtein": 13.33,
+      "proteinCalorieSharePct": 30.0,
+      "rankScore": 22.869,
+      "excluded": false,
+      "summary": "2.167 EGP/g protein · 13.33 kcal/g protein · 30g protein / 400 kcal per pack · prep: ready",
+      "rank": 20
+    },
+    {
+      "id": "greek_juhayna_2_180",
+      "name": "Juhayna Greek yogurt 2% — 180 g",
+      "brand": "Juhayna",
+      "category": "greek_yogurt",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Eat cold",
+      "packSize": "180 g",
+      "priceEGP": 34,
+      "proteinG": 15,
+      "caloriesKcal": 125,
+      "servingHint": "1 cup",
+      "shop": [
+        "Carrefour",
+        "Hyper One"
+      ],
+      "where": "Chilled dairy",
+      "pros": [
+        "Local brand availability",
+        "Good snack protein"
+      ],
+      "cons": [
+        "Flavoured lines add sugar/cals"
+      ],
+      "egpPerGProtein": 2.267,
+      "kcalPerGProtein": 8.33,
+      "proteinCalorieSharePct": 48.0,
+      "rankScore": 23.119,
+      "excluded": false,
+      "summary": "2.267 EGP/g protein · 8.33 kcal/g protein · 15g protein / 125 kcal per pack · prep: ready",
+      "rank": 21
+    },
+    {
+      "id": "roasted_chickpeas_100",
+      "name": "Roasted chickpeas snack pack — 100 g",
+      "brand": "Various",
+      "category": "legume_snack",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Open bag",
+      "packSize": "100 g",
+      "priceEGP": 40,
+      "proteinG": 19,
+      "caloriesKcal": 380,
+      "servingHint": "30–40 g handful (not whole bag if cutting cals)",
+      "shop": [
+        "Carrefour",
+        "Spinneys"
+      ],
+      "where": "Nuts/snacks",
+      "pros": [
+        "Crunchy snack",
+        "Fiber + protein"
+      ],
+      "cons": [
+        "Calories climb fast — portion"
+      ],
+      "egpPerGProtein": 2.105,
+      "kcalPerGProtein": 20.0,
+      "proteinCalorieSharePct": 20.0,
+      "rankScore": 23.25,
+      "excluded": false,
+      "summary": "2.105 EGP/g protein · 20.0 kcal/g protein · 19g protein / 380 kcal per pack · prep: ready",
+      "rank": 22
+    },
+    {
+      "id": "chicken_slices_200",
+      "name": "Sliced chicken breast cold cuts — 200 g",
+      "brand": "Various deli",
+      "category": "deli",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Eat cold",
+      "packSize": "200 g",
+      "priceEGP": 90,
+      "proteinG": 38,
+      "caloriesKcal": 210,
+      "servingHint": "Handful of slices",
+      "shop": [
+        "Carrefour"
+      ],
+      "where": "Deli",
+      "pros": [
+        "Snack rolls",
+        "Low cook effort"
+      ],
+      "cons": [
+        "Ultra-processed tier; not every day ideal"
+      ],
+      "egpPerGProtein": 2.368,
+      "kcalPerGProtein": 5.53,
+      "proteinCalorieSharePct": 72.4,
+      "rankScore": 23.709,
+      "excluded": false,
+      "summary": "2.368 EGP/g protein · 5.53 kcal/g protein · 38g protein / 210 kcal per pack · prep: ready",
+      "rank": 23
+    },
+    {
+      "id": "turkey_slices_200",
+      "name": "Sliced smoked turkey breast — 200 g pack",
+      "brand": "Farm Frites deli / Americana / similar",
+      "category": "deli",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Roll and eat cold",
+      "packSize": "200 g",
+      "priceEGP": 95,
+      "proteinG": 40,
+      "caloriesKcal": 220,
+      "servingHint": "4–5 slices snack",
+      "shop": [
+        "Carrefour",
+        "Spinneys"
+      ],
+      "where": "Deli fridge",
+      "pros": [
+        "True grab snack",
+        "High protein low fat cuts"
+      ],
+      "cons": [
+        "Processed meat; sodium; check % turkey"
+      ],
+      "egpPerGProtein": 2.375,
+      "kcalPerGProtein": 5.5,
+      "proteinCalorieSharePct": 72.7,
+      "rankScore": 23.775,
+      "excluded": false,
+      "summary": "2.375 EGP/g protein · 5.5 kcal/g protein · 40g protein / 220 kcal per pack · prep: ready",
+      "rank": 24
+    },
+    {
+      "id": "string_cheese_light",
+      "name": "Light mozzarella sticks / string cheese pack",
+      "brand": "Various",
+      "category": "soft_cheese",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Peel and eat",
+      "packSize": "Pack ~120 g (4 sticks)",
+      "priceEGP": 55,
+      "proteinG": 24,
+      "caloriesKcal": 280,
+      "servingHint": "1–2 sticks",
+      "shop": [
+        "Carrefour",
+        "Spinneys"
+      ],
+      "where": "Cheese snacks",
+      "pros": [
+        "Kid-like snack format for adults"
+      ],
+      "cons": [
+        "Cal higher than cottage; sodium"
+      ],
+      "egpPerGProtein": 2.292,
+      "kcalPerGProtein": 11.67,
+      "proteinCalorieSharePct": 34.3,
+      "rankScore": 23.87,
+      "excluded": false,
+      "summary": "2.292 EGP/g protein · 11.67 kcal/g protein · 24g protein / 280 kcal per pack · prep: ready",
+      "rank": 25
+    },
+    {
+      "id": "canned_chicken",
+      "name": "Canned chicken breast in water",
+      "brand": "Import",
+      "category": "canned_fish",
+      "snackOk": true,
+      "prep": "open_eat",
+      "prepNote": "Drain and fork",
+      "packSize": "1 can ~140 g",
+      "priceEGP": 70,
+      "proteinG": 28,
+      "caloriesKcal": 140,
+      "servingHint": "1 can",
+      "shop": [
+        "Spinneys",
+        "import aisle"
+      ],
+      "where": "Canned meats",
+      "pros": [
+        "Like tuna alternative",
+        "Low cal"
+      ],
+      "cons": [
+        "Pricey / stock limited"
+      ],
+      "egpPerGProtein": 2.5,
+      "kcalPerGProtein": 5.0,
+      "proteinCalorieSharePct": 80.0,
+      "rankScore": 24.95,
+      "excluded": false,
+      "summary": "2.5 EGP/g protein · 5.0 kcal/g protein · 28g protein / 140 kcal per pack · prep: open_eat",
+      "rank": 26
+    },
+    {
+      "id": "greek_danone_170",
+      "name": "Danone / Oiko-style plain Greek — 170 g",
+      "brand": "Danone",
+      "category": "greek_yogurt",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Spoon from cup",
+      "packSize": "170 g",
+      "priceEGP": 32,
+      "proteinG": 13,
+      "caloriesKcal": 115,
+      "servingHint": "1 cup",
+      "shop": [
+        "Carrefour"
+      ],
+      "where": "Chilled yogurt",
+      "pros": [
+        "Easy snack",
+        "Common price band ~30–35 EGP"
+      ],
+      "cons": [
+        "Check label: plain vs sugar bombs"
+      ],
+      "egpPerGProtein": 2.462,
+      "kcalPerGProtein": 8.85,
+      "proteinCalorieSharePct": 45.2,
+      "rankScore": 25.148,
+      "excluded": false,
+      "summary": "2.462 EGP/g protein · 8.85 kcal/g protein · 13g protein / 115 kcal per pack · prep: ready",
+      "rank": 27
+    },
+    {
+      "id": "greek_almarai_2pct_170",
+      "name": "Almarai Greek yogurt 2% — 170 g",
+      "brand": "Almarai",
+      "category": "greek_yogurt",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Eat cold from pot",
+      "packSize": "170 g cup",
+      "priceEGP": 36,
+      "proteinG": 14,
+      "caloriesKcal": 120,
+      "servingHint": "1 cup snack",
+      "shop": [
+        "Carrefour"
+      ],
+      "where": "Chilled yogurt",
+      "pros": [
+        "Widely stocked",
+        "Snack portion",
+        "Moderate fat"
+      ],
+      "cons": [
+        "Sweet flavoured cups worse — pick plain"
+      ],
+      "egpPerGProtein": 2.571,
+      "kcalPerGProtein": 8.57,
+      "proteinCalorieSharePct": 46.7,
+      "rankScore": 26.195,
+      "excluded": false,
+      "summary": "2.571 EGP/g protein · 8.57 kcal/g protein · 14g protein / 120 kcal per pack · prep: ready",
+      "rank": 28
+    },
+    {
+      "id": "ricotta_light_250",
+      "name": "Light ricotta — 250 g",
+      "brand": "Various",
+      "category": "soft_cheese",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Spoon cold",
+      "packSize": "250 g",
+      "priceEGP": 65,
+      "proteinG": 25,
+      "caloriesKcal": 280,
+      "servingHint": "100 g",
+      "shop": [
+        "Spinneys",
+        "Carrefour"
+      ],
+      "where": "Cheese",
+      "pros": [
+        "Mild snack cheese"
+      ],
+      "cons": [
+        "Weaker protein density than cottage/Greek"
+      ],
+      "egpPerGProtein": 2.6,
+      "kcalPerGProtein": 11.2,
+      "proteinCalorieSharePct": 35.7,
+      "rankScore": 26.88,
+      "excluded": false,
+      "summary": "2.6 EGP/g protein · 11.2 kcal/g protein · 25g protein / 280 kcal per pack · prep: ready",
+      "rank": 29
+    },
+    {
+      "id": "yopolis_double_zero_150",
+      "name": "Yopolis Double Zero Greek-style — 150 g",
+      "brand": "Yopolis",
+      "category": "greek_yogurt",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Ready cup",
+      "packSize": "150 g",
+      "priceEGP": 38,
+      "proteinG": 14,
+      "caloriesKcal": 80,
+      "servingHint": "1 cup — lower cal flavoured option",
+      "shop": [
+        "Carrefour"
+      ],
+      "where": "Chilled yogurt",
+      "pros": [
+        "Lower calorie flavoured path",
+        "Snack size"
+      ],
+      "cons": [
+        "Sweeteners; still check sugar line"
+      ],
+      "egpPerGProtein": 2.714,
+      "kcalPerGProtein": 5.71,
+      "proteinCalorieSharePct": 70.0,
+      "rankScore": 27.197,
+      "excluded": false,
+      "summary": "2.714 EGP/g protein · 5.71 kcal/g protein · 14g protein / 80 kcal per pack · prep: ready",
+      "rank": 30
+    },
+    {
+      "id": "high_protein_milk_drink",
+      "name": "High-protein milk drink / yogurt drink bottle",
+      "brand": "Various (check 20g+ labels)",
+      "category": "rtd",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Shake and drink",
+      "packSize": "1 bottle ~250–330 ml",
+      "priceEGP": 55,
+      "proteinG": 20,
+      "caloriesKcal": 150,
+      "servingHint": "1 bottle",
+      "shop": [
+        "Spinneys",
+        "Carrefour"
+      ],
+      "where": "Chilled drinks / sports",
+      "pros": [
+        "True portable snack",
+        "Often 15–25g protein"
+      ],
+      "cons": [
+        "Pricey EGP/g; sugar in some SKUs"
+      ],
+      "egpPerGProtein": 2.75,
+      "kcalPerGProtein": 7.5,
+      "proteinCalorieSharePct": 53.3,
+      "rankScore": 27.825,
+      "excluded": false,
+      "summary": "2.75 EGP/g protein · 7.5 kcal/g protein · 20g protein / 150 kcal per pack · prep: ready",
+      "rank": 31
+    },
+    {
+      "id": "tuna_pouch",
+      "name": "Tuna pouch (no drain)",
+      "brand": "Starkist-style / local pouch",
+      "category": "canned_fish",
+      "snackOk": true,
+      "prep": "open_eat",
+      "prepNote": "Tear open — desk/car friendly",
+      "packSize": "1 pouch ~70–85g",
+      "priceEGP": 45,
+      "proteinG": 16,
+      "caloriesKcal": 80,
+      "servingHint": "1 pouch snack",
+      "shop": [
+        "Spinneys",
+        "Carrefour"
+      ],
+      "where": "Canned/pouch fish",
+      "pros": [
+        "True snack format",
+        "Low cal"
+      ],
+      "cons": [
+        "Higher EGP/g than bulk cans"
+      ],
+      "egpPerGProtein": 2.812,
+      "kcalPerGProtein": 5.0,
+      "proteinCalorieSharePct": 80.0,
+      "rankScore": 28.07,
+      "excluded": false,
+      "summary": "2.812 EGP/g protein · 5.0 kcal/g protein · 16g protein / 80 kcal per pack · prep: open_eat",
+      "rank": 32
+    },
+    {
+      "id": "turkey_pastrami_150",
+      "name": "Turkey pastrami / roast slices — 150 g",
+      "brand": "Deli counter pack",
+      "category": "deli",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "No heat needed",
+      "packSize": "150 g",
+      "priceEGP": 85,
+      "proteinG": 30,
+      "caloriesKcal": 180,
+      "servingHint": "Snack pack",
+      "shop": [
+        "Spinneys",
+        "Carrefour"
+      ],
+      "where": "Deli",
+      "pros": [
+        "Convenient",
+        "Protein dense"
+      ],
+      "cons": [
+        "Pricey EGP/g vs eggs/tuna"
+      ],
+      "egpPerGProtein": 2.833,
+      "kcalPerGProtein": 6.0,
+      "proteinCalorieSharePct": 66.7,
+      "rankScore": 28.43,
+      "excluded": false,
+      "summary": "2.833 EGP/g protein · 6.0 kcal/g protein · 30g protein / 180 kcal per pack · prep: ready",
+      "rank": 33
+    },
+    {
+      "id": "quark_skyr_style",
+      "name": "Skyr / high-protein quark-style yogurt cup",
+      "brand": "Import chilled",
+      "category": "greek_yogurt",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Eat cold",
+      "packSize": "150–200 g",
+      "priceEGP": 55,
+      "proteinG": 18,
+      "caloriesKcal": 100,
+      "servingHint": "1 cup",
+      "shop": [
+        "Spinneys",
+        "Gourmet Egypt"
+      ],
+      "where": "Premium yogurt",
+      "pros": [
+        "Excellent protein/cal ratio",
+        "Snack"
+      ],
+      "cons": [
+        "Premium price; not all branches"
+      ],
+      "egpPerGProtein": 3.056,
+      "kcalPerGProtein": 5.56,
+      "proteinCalorieSharePct": 72.0,
+      "rankScore": 30.594,
+      "excluded": false,
+      "summary": "3.056 EGP/g protein · 5.56 kcal/g protein · 18g protein / 100 kcal per pack · prep: ready",
+      "rank": 34
+    },
+    {
+      "id": "labneh_light_200",
+      "name": "Light labneh — 200 g",
+      "brand": "Various",
+      "category": "soft_cheese",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Spoon or on cucumber rounds",
+      "packSize": "200 g",
+      "priceEGP": 48,
+      "proteinG": 16,
+      "caloriesKcal": 220,
+      "servingHint": "2–3 tbsp",
+      "shop": [
+        "Carrefour",
+        "Spinneys"
+      ],
+      "where": "Chilled dips/cheese",
+      "pros": [
+        "Snackable",
+        "Pairs with veg"
+      ],
+      "cons": [
+        "Lower protein density than Greek/cottage"
+      ],
+      "egpPerGProtein": 3.0,
+      "kcalPerGProtein": 13.75,
+      "proteinCalorieSharePct": 29.1,
+      "rankScore": 31.262,
+      "excluded": false,
+      "summary": "3.0 EGP/g protein · 13.75 kcal/g protein · 16g protein / 220 kcal per pack · prep: ready",
+      "rank": 35
+    },
+    {
+      "id": "protein_bar_cheap",
+      "name": "Budget protein / cereal bar ~10–12 g protein",
+      "brand": "Value brands",
+      "category": "bar",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Unwrap",
+      "packSize": "1 bar",
+      "priceEGP": 35,
+      "proteinG": 11,
+      "caloriesKcal": 180,
+      "servingHint": "1 bar",
+      "shop": [
+        "Carrefour"
+      ],
+      "where": "Snacks",
+      "pros": [
+        "Cheaper bar option"
+      ],
+      "cons": [
+        "Lower protein; more sugar often"
+      ],
+      "egpPerGProtein": 3.182,
+      "kcalPerGProtein": 16.36,
+      "proteinCalorieSharePct": 24.4,
+      "rankScore": 33.474,
+      "excluded": false,
+      "summary": "3.182 EGP/g protein · 16.36 kcal/g protein · 11g protein / 180 kcal per pack · prep: ready",
+      "rank": 36
+    },
+    {
+      "id": "protein_bar_mid",
+      "name": "Protein bar ~20 g protein (mid supermarket brand)",
+      "brand": "Various gym aisle",
+      "category": "bar",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Unwrap",
+      "packSize": "1 bar ~50–60 g",
+      "priceEGP": 75,
+      "proteinG": 20,
+      "caloriesKcal": 200,
+      "servingHint": "1 bar",
+      "shop": [
+        "Spinneys",
+        "Carrefour"
+      ],
+      "where": "Sports / healthy aisle",
+      "pros": [
+        "Maximum convenience",
+        "Portable"
+      ],
+      "cons": [
+        "Usually poor EGP/g protein",
+        "Sugar alcohols / processed"
+      ],
+      "egpPerGProtein": 3.75,
+      "kcalPerGProtein": 10.0,
+      "proteinCalorieSharePct": 40.0,
+      "rankScore": 38.2,
+      "excluded": false,
+      "summary": "3.75 EGP/g protein · 10.0 kcal/g protein · 20g protein / 200 kcal per pack · prep: ready",
+      "rank": 37
+    },
+    {
+      "id": "shrimp_cooked_chilled",
+      "name": "Cooked chilled shrimp pack — 200 g",
+      "brand": "Seafood counter",
+      "category": "deli",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Eat cold",
+      "packSize": "200 g",
+      "priceEGP": 160,
+      "proteinG": 40,
+      "caloriesKcal": 200,
+      "servingHint": "100 g snack",
+      "shop": [
+        "Spinneys",
+        "Carrefour premium"
+      ],
+      "where": "Seafood",
+      "pros": [
+        "High protein low fat",
+        "No cook if pre-cooked"
+      ],
+      "cons": [
+        "Expensive EGP/g"
+      ],
+      "egpPerGProtein": 4.0,
+      "kcalPerGProtein": 5.0,
+      "proteinCalorieSharePct": 80.0,
+      "rankScore": 39.95,
+      "excluded": false,
+      "summary": "4.0 EGP/g protein · 5.0 kcal/g protein · 40g protein / 200 kcal per pack · prep: ready",
+      "rank": 38
+    },
+    {
+      "id": "beef_jerky_small",
+      "name": "Beef jerky mini pack",
+      "brand": "Import snack",
+      "category": "jerky",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Open bag",
+      "packSize": "~40–50 g",
+      "priceEGP": 95,
+      "proteinG": 20,
+      "caloriesKcal": 140,
+      "servingHint": "Half–whole pack",
+      "shop": [
+        "Spinneys",
+        "gourmet"
+      ],
+      "where": "Snacks/import",
+      "pros": [
+        "Ultra portable",
+        "High protein density"
+      ],
+      "cons": [
+        "Expensive EGP/g",
+        "Sodium; processed"
+      ],
+      "egpPerGProtein": 4.75,
+      "kcalPerGProtein": 7.0,
+      "proteinCalorieSharePct": 57.1,
+      "rankScore": 47.75,
+      "excluded": false,
+      "summary": "4.75 EGP/g protein · 7.0 kcal/g protein · 20g protein / 140 kcal per pack · prep: ready",
+      "rank": 39
+    },
+    {
+      "id": "protein_cookies",
+      "name": "‘Protein’ cookies / bakery protein biscuit pack",
+      "brand": "Various",
+      "category": "bar",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Unwrap",
+      "packSize": "1–2 cookies",
+      "priceEGP": 50,
+      "proteinG": 10,
+      "caloriesKcal": 220,
+      "servingHint": "1 cookie",
+      "shop": [
+        "Spinneys"
+      ],
+      "where": "Healthy snacks",
+      "pros": [
+        "Dessert-like"
+      ],
+      "cons": [
+        "Usually bad protein/cal and EGP/g"
+      ],
+      "flag": "marketing",
+      "egpPerGProtein": 5.0,
+      "kcalPerGProtein": 22.0,
+      "proteinCalorieSharePct": 18.2,
+      "rankScore": 72.5,
+      "excluded": false,
+      "summary": "5.0 EGP/g protein · 22.0 kcal/g protein · 10g protein / 220 kcal per pack · prep: ready",
+      "rank": 40
+    },
+    {
+      "id": "smoked_salmon_100",
+      "name": "Smoked salmon pack — 100 g",
+      "brand": "Chilled seafood",
+      "category": "deli",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Eat cold",
+      "packSize": "100 g",
+      "priceEGP": 180,
+      "proteinG": 22,
+      "caloriesKcal": 180,
+      "servingHint": "Half pack snack",
+      "shop": [
+        "Spinneys",
+        "Gourmet"
+      ],
+      "where": "Chilled fish",
+      "pros": [
+        "High quality protein",
+        "No cook"
+      ],
+      "cons": [
+        "Expensive EGP/g",
+        "Not daily budget"
+      ],
+      "egpPerGProtein": 8.182,
+      "kcalPerGProtein": 8.18,
+      "proteinCalorieSharePct": 48.9,
+      "rankScore": 82.247,
+      "excluded": false,
+      "summary": "8.182 EGP/g protein · 8.18 kcal/g protein · 22g protein / 180 kcal per pack · prep: ready",
+      "rank": 41
+    },
+    {
+      "id": "flavoured_yogurt_regular",
+      "name": "Regular sweet flavoured yogurt cup (reference)",
+      "brand": "Mass market",
+      "category": "greek_yogurt",
+      "snackOk": true,
+      "prep": "ready",
+      "prepNote": "Eat cold",
+      "packSize": "105–150 g",
+      "priceEGP": 18,
+      "proteinG": 4,
+      "caloriesKcal": 140,
+      "servingHint": "1 cup",
+      "shop": [
+        "Any"
+      ],
+      "where": "Yogurt",
+      "pros": [
+        "Cheap and tasty"
+      ],
+      "cons": [
+        "Poor protein; sugar — shown as what to skip"
+      ],
+      "flag": "low_protein",
+      "egpPerGProtein": 4.5,
+      "kcalPerGProtein": 35.0,
+      "proteinCalorieSharePct": 11.4,
+      "rankScore": 99.45,
+      "excluded": false,
+      "summary": "4.5 EGP/g protein · 35.0 kcal/g protein · 4g protein / 140 kcal per pack · prep: ready",
+      "rank": 42
+    }
+  ]
+}

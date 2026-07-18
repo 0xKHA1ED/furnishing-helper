@@ -1,0 +1,1183 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - link "Skip to main content":
+      - /url: "#hnf-content"
+    - banner [ref=f9e3]:
+      - generic [ref=f9e5]:
+        - button "Change language or country/region, current language is English" [ref=f9e7] [cursor=pointer]:
+          - generic: EGEnglish
+        - button "Select store" [ref=f9e9] [cursor=pointer]
+      - generic [ref=f9e11]:
+        - link "IKEA logotype, go to start page" [ref=f9e13] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/
+        - search [ref=f9e19]:
+          - generic [ref=f9e20]:
+            - combobox "Search for products, inspiration or new arrivals" [ref=f9e21]
+            - button "Search IKEA products using a photo" [ref=f9e23] [cursor=pointer]
+        - navigation "Shopping links" [ref=f9e24]:
+          - list [ref=f9e25]:
+            - listitem [ref=f9e26]:
+              - link "Hej! Log in or sign up" [ref=f9e28] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/profile/login/
+            - listitem [ref=f9e29]:
+              - link "Shopping list" [ref=f9e31] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/favourites/
+            - listitem [ref=f9e32]:
+              - link "Shopping bag" [ref=f9e34] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cart/
+            - listitem [ref=f9e35]:
+              - button "Menu" [ref=f9e37] [cursor=pointer]
+              - navigation
+    - generic:
+      - complementary "Floating action buttons"
+  - main [ref=f9e38]:
+    - link "Skip to product list" [ref=f9e39] [cursor=pointer]:
+      - /url: "#product-list-skip"
+    - generic [ref=f9e42]:
+      - navigation "Breadcrumbs" [ref=f9e45]:
+        - list [ref=f9e46]:
+          - listitem [ref=f9e47]:
+            - link "Products" [ref=f9e48] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/products-products/
+            - text: ›
+          - listitem [ref=f9e49]:
+            - link "Textiles & rugs" [ref=f9e50] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/textiles-tl001/
+            - text: ›
+          - listitem [ref=f9e51]:
+            - generic [ref=f9e52]: Rugs
+      - link "Free delivery" [ref=f9e55] [cursor=pointer]:
+        - /url: https://www.ikea.com/eg/en/campaigns/free-delivery-pub41912510/?=f-online-sellable=true
+      - heading "Rugs" [level=1] [ref=f9e59]
+      - generic [ref=f9e61]:
+        - link "Skip product categories list" [ref=f9e62] [cursor=pointer]:
+          - /url: "#hnf--carousel__hnf-inpage-nav-skip-btn"
+        - list [ref=f9e64]:
+          - listitem [ref=f9e65]:
+            - link "Textiles & rugs" [ref=f9e66] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/textiles-tl001/
+          - listitem [ref=f9e71]:
+            - link "Large & medium rugs" [ref=f9e72] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/large-medium-rugs-10692/
+          - listitem [ref=f9e75]:
+            - link "Runners & small rugs" [ref=f9e76] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/runners-small-rugs-10689/
+          - listitem [ref=f9e79]:
+            - link "Handmade rugs" [ref=f9e80] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/handmade-rugs-39267/
+          - listitem [ref=f9e83]:
+            - link "Outdoor rugs" [ref=f9e84] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/outdoor-rugs-34204/
+          - listitem [ref=f9e87]:
+            - link "Door mats" [ref=f9e88] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/door-mats-10698/
+          - listitem [ref=f9e91]:
+            - link "Sheepskins & cowhides" [ref=f9e92] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/sheepskins-cowhides-20544/
+          - listitem [ref=f9e95]:
+            - link "Anti-slip & underlays" [ref=f9e96] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/anti-slip-underlays-10699/
+          - listitem [ref=f9e99]:
+            - link "Round rugs" [ref=f9e100] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/round-rugs-20543/
+          - listitem [ref=f9e103]:
+            - link "Children's rugs & curtains" [ref=f9e104] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/childrens-rugs-18774/
+          - listitem [ref=f9e107]:
+            - link "Nursery rugs & curtains" [ref=f9e108] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/nursery-rugs-18699/
+    - generic [ref=f9e111]:
+      - generic [ref=f9e112]:
+        - status [ref=f9e113]: 131 items
+        - heading "Sort and Filter" [level=2] [ref=f9e114]
+        - paragraph [ref=f9e117]:
+          - generic [ref=f9e118]: 131 items
+        - generic [ref=f9e119]:
+          - generic [ref=f9e120]:
+            - link "Skip to results" [ref=f9e121] [cursor=pointer]:
+              - /url: "#product-list"
+            - list [ref=f9e123]:
+              - listitem [ref=f9e124]:
+                - heading [level=3] [ref=f9e125]:
+                  - button "Sort" [ref=f9e126] [cursor=pointer]
+              - listitem [ref=f9e131]:
+                - heading [level=3] [ref=f9e132]:
+                  - button "Size" [ref=f9e133] [cursor=pointer]
+              - listitem [ref=f9e138]:
+                - heading [level=3] [ref=f9e139]:
+                  - button "Colour" [ref=f9e140] [cursor=pointer]
+              - listitem [ref=f9e145]:
+                - heading [level=3] [ref=f9e146]:
+                  - button "Category" [ref=f9e147] [cursor=pointer]
+              - listitem [ref=f9e152]:
+                - heading [level=3] [ref=f9e153]:
+                  - button "Material" [ref=f9e154] [cursor=pointer]
+              - listitem [ref=f9e159]:
+                - heading [level=3] [ref=f9e160]:
+                  - button "Availability" [ref=f9e161] [cursor=pointer]
+              - listitem [ref=f9e166]:
+                - heading [level=3] [ref=f9e167]:
+                  - button "Suitable for" [ref=f9e168] [cursor=pointer]
+              - listitem [ref=f9e173]:
+                - heading [level=3] [ref=f9e174]:
+                  - button "Price" [ref=f9e175] [cursor=pointer]
+              - listitem [ref=f9e180]:
+                - heading [level=3] [ref=f9e181]:
+                  - button "Shape" [ref=f9e182] [cursor=pointer]
+              - listitem [ref=f9e187]:
+                - heading [level=3] [ref=f9e188]:
+                  - button "Type" [ref=f9e189] [cursor=pointer]
+              - listitem [ref=f9e194]:
+                - generic [ref=f9e195] [cursor=pointer]:
+                  - generic [ref=f9e196]:
+                    - generic [ref=f9e197]: Special price
+                    - generic [ref=f9e199]:
+                      - generic [ref=f9e200]: 48 products
+                      - text: "48"
+                  - generic [ref=f9e201]:
+                    - checkbox "Special price 48 products"
+              - listitem [ref=f9e203]:
+                - generic [ref=f9e204] [cursor=pointer]:
+                  - generic [ref=f9e205]:
+                    - generic [ref=f9e206]: Top seller
+                    - generic [ref=f9e208]:
+                      - generic [ref=f9e209]: 42 products
+                      - text: "42"
+                  - generic [ref=f9e210]:
+                    - checkbox "Top seller 42 products"
+              - listitem [ref=f9e212]:
+                - heading [level=3] [ref=f9e213]:
+                  - button "Features" [ref=f9e214] [cursor=pointer]
+              - listitem [ref=f9e219]:
+                - generic [ref=f9e220] [cursor=pointer]:
+                  - generic [ref=f9e221]:
+                    - generic [ref=f9e222]: Last chance
+                    - generic [ref=f9e224]:
+                      - generic [ref=f9e225]: 7 products
+                      - text: "7"
+                  - generic [ref=f9e226]:
+                    - checkbox "Last chance 7 products"
+              - listitem [ref=f9e228]:
+                - heading [level=3] [ref=f9e229]:
+                  - button "Customer rating" [ref=f9e230] [cursor=pointer]
+              - listitem [ref=f9e235]:
+                - generic [ref=f9e236] [cursor=pointer]:
+                  - generic [ref=f9e237]:
+                    - generic [ref=f9e238]: New products
+                    - generic [ref=f9e240]:
+                      - generic [ref=f9e241]: 22 products
+                      - text: "22"
+                  - generic [ref=f9e242]:
+                    - checkbox "New products 22 products"
+              - listitem [ref=f9e244]:
+                - heading [level=3] [ref=f9e245]:
+                  - button "Pattern" [ref=f9e246] [cursor=pointer]
+              - listitem [ref=f9e251]:
+                - generic [ref=f9e252] [cursor=pointer]:
+                  - generic [ref=f9e253]:
+                    - generic [ref=f9e254]: Suitable for business
+                    - generic [ref=f9e256]:
+                      - generic [ref=f9e257]: 4 products
+                      - text: "4"
+                  - generic [ref=f9e258]:
+                    - checkbox "Suitable for business 4 products"
+          - generic [ref=f9e261]:
+            - heading "Results list" [level=2] [ref=f9e262]
+            - link "Show previous products" [ref=f9e264] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/rugs-10653/?#products-page-1
+              - generic: Show previous
+            - generic [ref=f9e266]:
+              - generic [ref=f9e267]:
+                - generic [ref=f9e269]:
+                  - checkbox "Compare - Select for product comparison, Rug, flatwoven, 60x90 cm" [ref=f9e270] [cursor=pointer]
+                  - generic [ref=f9e272]: Compare
+                - link [ref=f9e275] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/tanum-rug-flatwoven-assorted-colours-30212675/
+                  - img "TÅNUM rug, multicoloured stripes, rectangular, handwoven cotton." [ref=f9e276]
+                  - img "Handwoven rug with varied colours and textures; natural cotton fibres, braided edges, fringe ends." [ref=f9e277]
+                - generic [ref=f9e280]:
+                  - heading [level=3] [ref=f9e282]:
+                    - link "TÅNUM, Rug, flatwoven, assorted colours, 60x90 cm" [ref=f9e284] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/tanum-rug-flatwoven-assorted-colours-30212675/
+                      - text: TÅNUM
+                    - generic [ref=f9e285]: Rug, flatwoven, assorted colours, 60x90 cm
+                  - generic [ref=f9e289]:
+                    - generic [ref=f9e290]: EGP899
+                    - generic [ref=f9e292]: Price EGP 899
+                - generic [ref=f9e293]:
+                  - button "Add \"TÅNUM Rug, flatwoven\" to cart" [ref=f9e294] [cursor=pointer]
+                  - button "Save \"TÅNUM Rug, flatwoven\" to shopping list" [ref=f9e295] [cursor=pointer]
+                - generic [ref=f9e296]: Available for delivery
+              - generic [ref=f9e300]:
+                - generic [ref=f9e302]:
+                  - checkbox "Compare - Select for product comparison, Door mat, 40x60 cm" [ref=f9e303] [cursor=pointer]
+                  - generic [ref=f9e305]: Compare
+                - generic [ref=f9e307]:
+                  - paragraph [ref=f9e309]: Top seller
+                  - link [ref=f9e310] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/kontanter-door-mat-coir-natural-style-00612279/
+                    - img "The KONTANTER doormat is natural brown, rectangular, with a 3d leaf pattern on coir fibre." [ref=f9e311]
+                    - img "Brown KONTANTER doormat with leaf pattern near doorway, larger than pink boots." [ref=f9e312]
+                - generic [ref=f9e315]:
+                  - heading [level=3] [ref=f9e317]:
+                    - link "KONTANTER, Door mat, coir/natural style, 40x60 cm" [ref=f9e319] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/kontanter-door-mat-coir-natural-style-00612279/
+                      - text: KONTANTER
+                    - generic [ref=f9e320]: Door mat, coir/natural style, 40x60 cm
+                  - generic [ref=f9e324]:
+                    - generic [ref=f9e325]: EGP999
+                    - generic [ref=f9e327]: Price EGP 999
+                - generic [ref=f9e328]:
+                  - button "Add \"KONTANTER Door mat\" to cart" [ref=f9e329] [cursor=pointer]
+                  - button "Save \"KONTANTER Door mat\" to shopping list" [ref=f9e330] [cursor=pointer]
+                - generic [ref=f9e331]: Available for delivery
+              - generic [ref=f9e335]:
+                - generic [ref=f9e337]:
+                  - checkbox "Compare - Select for product comparison, Rug, flatwoven, 170x240 cm" [ref=f9e338] [cursor=pointer]
+                  - generic [ref=f9e340]: Compare
+                - link [ref=f9e343] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/raklev-rug-flatwoven-handwoven-natural-multicolour-80610889/
+                  - 'img "RAKLEV: natural jute rug with multicoloured wool stripes and tassels, rectangular." [ref=f9e344]'
+                  - img "Handwoven jute rug with colourful stripes & wool tassels in living room, under beige sofa & side table." [ref=f9e345]
+                - generic [ref=f9e348]:
+                  - heading [level=3] [ref=f9e350]:
+                    - link "RAKLEV, Rug, flatwoven, handwoven/natural multicolour, 170x240 cm" [ref=f9e352] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/raklev-rug-flatwoven-handwoven-natural-multicolour-80610889/
+                      - text: RAKLEV
+                    - generic [ref=f9e353]: Rug, flatwoven, handwoven/natural multicolour, 170x240 cm
+                  - generic [ref=f9e357]:
+                    - generic [ref=f9e358]: EGP8,999
+                    - generic [ref=f9e360]: Price EGP 8999
+                - generic [ref=f9e361]:
+                  - button "Add \"RAKLEV Rug, flatwoven\" to cart" [ref=f9e362] [cursor=pointer]
+                  - button "Save \"RAKLEV Rug, flatwoven\" to shopping list" [ref=f9e363] [cursor=pointer]
+                - generic [ref=f9e364]: Available for delivery
+              - generic [ref=f9e368]:
+                - generic [ref=f9e370]:
+                  - checkbox "Compare - Select for product comparison, Rug, low pile, 133x195 cm" [ref=f9e371] [cursor=pointer]
+                  - generic [ref=f9e373]: Compare
+                - link [ref=f9e376] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/elsystem-rug-low-pile-multicolour-30580922/
+                  - img "ELSYSTEM rug by stina lanneskog - multi-colored patchwork in mustard, black, white, grey" [ref=f9e377]
+                  - img "Modern living room with wooden cabinet, vibrant rug, and polka dot chair." [ref=f9e378]
+                - generic [ref=f9e381]:
+                  - heading [level=3] [ref=f9e383]:
+                    - link "ELSYSTEM, Rug, low pile, multicolour, 133x195 cm" [ref=f9e385] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/elsystem-rug-low-pile-multicolour-30580922/
+                      - text: ELSYSTEM
+                    - generic [ref=f9e386]: Rug, low pile, multicolour, 133x195 cm
+                  - generic [ref=f9e390]:
+                    - generic [ref=f9e391]: EGP5,299
+                    - generic [ref=f9e393]: Price EGP 5299
+                - generic [ref=f9e394]:
+                  - button "Add \"ELSYSTEM Rug, low pile\" to cart" [ref=f9e395] [cursor=pointer]
+                  - button "Save \"ELSYSTEM Rug, low pile\" to shopping list" [ref=f9e396] [cursor=pointer]
+                - generic [ref=f9e397]: Available for delivery
+              - generic [ref=f9e401]:
+                - generic [ref=f9e403]:
+                  - checkbox "Compare - Select for product comparison, Rug, flatwoven, 133x195 cm" [ref=f9e404] [cursor=pointer]
+                  - generic [ref=f9e406]: Compare
+                - generic [ref=f9e408]:
+                  - paragraph [ref=f9e410]: Last chance
+                  - link [ref=f9e411] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/klassrum-rug-flatwoven-white-green-00555863/
+                    - img "KLASSRUM orange-green checkerboard rug, vibrant, square, cotton-polyester, flat-weave design." [ref=f9e412]
+                    - img "Colourful rug with woven pattern and felt backing rests on wooden floor." [ref=f9e413]
+                - generic [ref=f9e416]:
+                  - generic [ref=f9e417]:
+                    - generic [ref=f9e418]: Price Lowered
+                    - heading [level=3] [ref=f9e419]:
+                      - link "KLASSRUM, Rug, flatwoven, white/green, 133x195 cm" [ref=f9e421] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/klassrum-rug-flatwoven-white-green-00555863/
+                        - text: KLASSRUM
+                      - generic [ref=f9e422]: Rug, flatwoven, white/green, 133x195 cm
+                  - generic [ref=f9e426]:
+                    - generic [ref=f9e427]: EGP2,599
+                    - generic [ref=f9e429]: Price EGP 2599
+                  - generic [ref=f9e431]:
+                    - text: Previous price
+                    - generic [ref=f9e432]:
+                      - generic [ref=f9e433]: EGP3,499
+                      - generic [ref=f9e435]: Previous price EGP 3499
+                - generic [ref=f9e436]:
+                  - button "Add \"KLASSRUM Rug, flatwoven\" to cart" [ref=f9e437] [cursor=pointer]
+                  - button "Save \"KLASSRUM Rug, flatwoven\" to shopping list" [ref=f9e438] [cursor=pointer]
+                - generic [ref=f9e439]: Available for delivery
+              - generic [ref=f9e443]:
+                - generic [ref=f9e445]:
+                  - checkbox "Compare - Select for product comparison, Rug, flatwoven, 60x90 cm" [ref=f9e446] [cursor=pointer]
+                  - generic [ref=f9e448]: Compare
+                - generic [ref=f9e450]:
+                  - paragraph [ref=f9e452]: Limited edition
+                  - link [ref=f9e453] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/maevinn-rug-flatwoven-multicolour-10615140/
+                    - 'img "MÄVINN handwoven rug: multicoloured stripes on natural jute, rectangular with fringe edges." [ref=f9e454]'
+                    - img "Handwoven MÄVINN rugs in yellow, blue, red on floor. Wool, jute with stripes. Vibrant colours." [ref=f9e455]
+                - generic [ref=f9e458]:
+                  - heading [level=3] [ref=f9e460]:
+                    - link "MÄVINN, Rug, flatwoven, multicolour, 60x90 cm" [ref=f9e462] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/maevinn-rug-flatwoven-multicolour-10615140/
+                      - text: MÄVINN
+                    - generic [ref=f9e463]: Rug, flatwoven, multicolour, 60x90 cm
+                  - generic [ref=f9e467]:
+                    - generic [ref=f9e468]: EGP1,499
+                    - generic [ref=f9e470]: Price EGP 1499
+                - generic [ref=f9e471]:
+                  - button "Add \"MÄVINN Rug, flatwoven\" to cart" [ref=f9e472] [cursor=pointer]
+                  - button "Save \"MÄVINN Rug, flatwoven\" to shopping list" [ref=f9e473] [cursor=pointer]
+                - generic [ref=f9e474]: Available for delivery
+              - generic [ref=f9e478]:
+                - generic [ref=f9e480]:
+                  - checkbox "Compare - Select for product comparison, Rug flatwoven, in/outdoor, 160x230 cm" [ref=f9e481] [cursor=pointer]
+                  - generic [ref=f9e483]: Compare
+                - generic [ref=f9e485]:
+                  - paragraph [ref=f9e487]: Top seller
+                  - link [ref=f9e488] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/lydersholm-rug-flatwoven-in-outdoor-medium-brown-20495415/
+                    - img "The LYDERSHOLM rug is a rectangle, brown, natural-fiber, durable, and easy-to-clean floor mat." [ref=f9e489]
+                    - img "A woven rug with a grey non-slip mat underneath, ideal for durability and easy care, suitable for both indoor and outdoor use." [ref=f9e490]
+                - generic [ref=f9e493]:
+                  - heading [level=3] [ref=f9e495]:
+                    - link "LYDERSHOLM, Rug flatwoven, in/outdoor, medium brown, 160x230 cm" [ref=f9e497] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/lydersholm-rug-flatwoven-in-outdoor-medium-brown-20495415/
+                      - text: LYDERSHOLM
+                    - generic [ref=f9e498]: Rug flatwoven, in/outdoor, medium brown, 160x230 cm
+                  - generic [ref=f9e502]:
+                    - generic [ref=f9e503]: EGP4,999
+                    - generic [ref=f9e505]: Price EGP 4999
+                - 'button "Review: 1 out of 5 stars. Total reviews: (1)" [ref=f9e506] [cursor=pointer]':
+                  - generic [ref=f9e507]: "Review: 1 out of 5 stars. Total reviews:"
+                  - generic [ref=f9e508]: (1)
+                - generic [ref=f9e510]:
+                  - button "Add \"LYDERSHOLM Rug flatwoven, in/outdoor\" to cart" [ref=f9e511] [cursor=pointer]
+                  - button "Save \"LYDERSHOLM Rug flatwoven, in/outdoor\" to shopping list" [ref=f9e512] [cursor=pointer]
+                - generic [ref=f9e513]: Available for delivery
+              - generic [ref=f9e517]:
+                - generic [ref=f9e519]:
+                  - checkbox "Compare - Select for product comparison, Rug, high pile, 80x200 cm" [ref=f9e520] [cursor=pointer]
+                  - generic [ref=f9e522]: Compare
+                - generic [ref=f9e524]:
+                  - paragraph [ref=f9e526]: Last chance
+                  - link [ref=f9e527] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/hotellrum-rug-high-pile-blue-green-yellow-70577654/
+                    - img "A colourful, rectangular gradient rug in shades of blue, green, and yellow, made of polypropylene, with a soft, inviting texture." [ref=f9e528]
+                    - img "Bedroom with white bed, patterned pillows, colourful gradient rug, black side table, grey chair, and window with plant." [ref=f9e529]
+                - generic [ref=f9e532]:
+                  - heading [level=3] [ref=f9e534]:
+                    - link "HOTELLRUM, Rug, high pile, blue/green yellow, 80x200 cm" [ref=f9e536] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/hotellrum-rug-high-pile-blue-green-yellow-70577654/
+                      - text: HOTELLRUM
+                    - generic [ref=f9e537]: Rug, high pile, blue/green yellow, 80x200 cm
+                  - generic [ref=f9e539]:
+                    - generic [ref=f9e541]:
+                      - generic [ref=f9e542]: EGP4,299
+                      - generic [ref=f9e544]: EGP 4299
+                    - generic [ref=f9e546]:
+                      - generic [ref=f9e547]: EGP3,399
+                      - generic [ref=f9e549]: Price EGP 3399
+                  - generic [ref=f9e550]: 20% off, save EGP900
+                  - paragraph [ref=f9e554]: Limited time offer
+                - 'button "Review: 4 out of 5 stars. Total reviews: (1)" [ref=f9e555] [cursor=pointer]':
+                  - generic [ref=f9e556]: "Review: 4 out of 5 stars. Total reviews:"
+                  - generic [ref=f9e557]: (1)
+                - generic [ref=f9e559]:
+                  - button "Add \"HOTELLRUM Rug, high pile\" to cart" [ref=f9e560] [cursor=pointer]
+                  - button "Save \"HOTELLRUM Rug, high pile\" to shopping list" [ref=f9e561] [cursor=pointer]
+                - generic [ref=f9e562]: Available for delivery
+              - generic [ref=f9e566]:
+                - generic [ref=f9e568]:
+                  - checkbox "Compare - Select for product comparison, Door mat, 40x60 cm" [ref=f9e569] [cursor=pointer]
+                  - generic [ref=f9e571]: Compare
+                - link [ref=f9e574] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/vaegskylt-door-mat-pink-orange-40582529/
+                  - img "VÄGSKYLT door mat, orange & pink stripes, cotton, rectangular, machine washable." [ref=f9e575]
+                  - img "Bright orange and white striped VÄGSKYLT mat, small, fits near door, made of cotton, machine washable, backed with glue." [ref=f9e576]
+                - generic [ref=f9e579]:
+                  - heading [level=3] [ref=f9e581]:
+                    - link "VÄGSKYLT, Door mat, pink/orange, 40x60 cm" [ref=f9e583] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vaegskylt-door-mat-pink-orange-40582529/
+                      - text: VÄGSKYLT
+                    - generic [ref=f9e584]: Door mat, pink/orange, 40x60 cm
+                  - generic [ref=f9e586]:
+                    - generic [ref=f9e588]:
+                      - generic [ref=f9e589]: EGP549
+                      - generic [ref=f9e591]: EGP 549
+                    - generic [ref=f9e593]:
+                      - generic [ref=f9e594]: EGP399
+                      - generic [ref=f9e596]: Price EGP 399
+                  - generic [ref=f9e597]: 27% off, save EGP150
+                  - paragraph [ref=f9e601]: Limited time offer
+                - generic [ref=f9e602]:
+                  - button "Add \"VÄGSKYLT Door mat\" to cart" [ref=f9e603] [cursor=pointer]
+                  - button "Save \"VÄGSKYLT Door mat\" to shopping list" [ref=f9e604] [cursor=pointer]
+                - generic [ref=f9e605]: Available for delivery
+                - group "More options VÄGSKYLT" [ref=f9e609]:
+                  - generic [ref=f9e610]:
+                    - text: More options
+                    - generic [ref=f9e611]: VÄGSKYLT
+                  - generic [ref=f9e612] [cursor=pointer]:
+                    - 'radio "Option: VÄGSKYLT, Door mat, pink/orange, 40x60 cm" [checked] [ref=f9e613]'
+                    - 'link "Option: VÄGSKYLT, Door mat, pink/orange, 40x60 cm VÄGSKYLT door mat, orange & pink stripes, cotton, rectangular, machine washable." [ref=f9e614]':
+                      - /url: https://www.ikea.com/eg/en/p/vaegskylt-door-mat-pink-orange-40582529/
+                      - generic [ref=f9e615]: "Option: VÄGSKYLT, Door mat, pink/orange, 40x60 cm"
+                      - img "VÄGSKYLT door mat, orange & pink stripes, cotton, rectangular, machine washable." [ref=f9e616]
+                  - generic [ref=f9e617] [cursor=pointer]:
+                    - 'radio "Option: VÄGSKYLT, Door mat, blue-green/black, 40x60 cm" [ref=f9e618]'
+                    - 'link "Option: VÄGSKYLT, Door mat, blue-green/black, 40x60 cm VÄGSKYLT door mat. Blue-green & black stripes. Rectangle. Cotton material with non-slip backing." [ref=f9e619]':
+                      - /url: https://www.ikea.com/eg/en/p/vaegskylt-door-mat-blue-green-black-60582533/
+                      - generic [ref=f9e620]: "Option: VÄGSKYLT, Door mat, blue-green/black, 40x60 cm"
+                      - img "VÄGSKYLT door mat. Blue-green & black stripes. Rectangle. Cotton material with non-slip backing." [ref=f9e621]
+              - generic [ref=f9e622]:
+                - generic [ref=f9e624]:
+                  - checkbox "Compare - Select for product comparison, Anti-slip underlay, 67.5x200 cm" [ref=f9e625] [cursor=pointer]
+                  - generic [ref=f9e627]: Compare
+                - generic [ref=f9e629]:
+                  - paragraph [ref=f9e631]: Top seller
+                  - link [ref=f9e632] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/stopp-anti-slip-underlay-90549052/
+                    - img "Image shows a white rolled-up STOPP rug underlay made of polyethylene plastic and synthetic rubber, featuring a textured, non-slip design." [ref=f9e633]
+                    - img "A folded textured rug on a mesh anti-slip underlay. The underlay prevents slipping and keeps the rug in place on various types of flooring." [ref=f9e634]
+                - generic [ref=f9e637]:
+                  - heading [level=3] [ref=f9e639]:
+                    - link "STOPP, Anti-slip underlay, 67.5x200 cm" [ref=f9e641] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/stopp-anti-slip-underlay-90549052/
+                      - text: STOPP
+                    - generic [ref=f9e642]: Anti-slip underlay, 67.5x200 cm
+                  - generic [ref=f9e646]:
+                    - generic [ref=f9e647]:
+                      - generic [ref=f9e648]: EGP379
+                      - generic [ref=f9e649]: /package
+                    - generic [ref=f9e650]: Price EGP 379/package
+                - 'button "Review: 2.8 out of 5 stars. Total reviews: (4)" [ref=f9e651] [cursor=pointer]':
+                  - generic [ref=f9e652]: "Review: 2.8 out of 5 stars. Total reviews:"
+                  - generic [ref=f9e653]: (4)
+                - generic [ref=f9e655]:
+                  - button "Add \"STOPP Anti-slip underlay\" to cart" [ref=f9e656] [cursor=pointer]
+                  - button "Save \"STOPP Anti-slip underlay\" to shopping list" [ref=f9e657] [cursor=pointer]
+                - generic [ref=f9e658]: Available for delivery
+              - generic [ref=f9e662]:
+                - generic [ref=f9e664]:
+                  - checkbox "Compare - Select for product comparison, Rug, flatwoven, 55x85 cm" [ref=f9e665] [cursor=pointer]
+                  - generic [ref=f9e667]: Compare
+                - link [ref=f9e670] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/sortsoe-rug-flatwoven-light-blue-60528876/
+                  - img "A light blue rectangular cotton rug with fringe on both ends, ideal for various floors." [ref=f9e671]
+                  - img "Small SORTSÖ rug in blue, made of cotton, rectangular, with fringe. Positioned near a twin bed, smaller than the bed, adding colour and cosiness." [ref=f9e672]
+                - generic [ref=f9e675]:
+                  - heading [level=3] [ref=f9e677]:
+                    - link "SORTSÖ, Rug, flatwoven, light blue, 55x85 cm" [ref=f9e679] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/sortsoe-rug-flatwoven-light-blue-60528876/
+                      - text: SORTSÖ
+                    - generic [ref=f9e680]: Rug, flatwoven, light blue, 55x85 cm
+                  - generic [ref=f9e684]:
+                    - generic [ref=f9e685]: EGP499
+                    - generic [ref=f9e687]: Price EGP 499
+                - 'button "Review: 4 out of 5 stars. Total reviews: (3)" [ref=f9e688] [cursor=pointer]':
+                  - generic [ref=f9e689]: "Review: 4 out of 5 stars. Total reviews:"
+                  - generic [ref=f9e690]: (3)
+                - generic [ref=f9e692]:
+                  - button "Add \"SORTSÖ Rug, flatwoven\" to cart" [ref=f9e693] [cursor=pointer]
+                  - button "Save \"SORTSÖ Rug, flatwoven\" to shopping list" [ref=f9e694] [cursor=pointer]
+                - generic [ref=f9e695]: Available for delivery
+                - group "More options SORTSÖ" [ref=f9e699]:
+                  - generic [ref=f9e700]:
+                    - text: More options
+                    - generic [ref=f9e701]: SORTSÖ
+                  - generic [ref=f9e702] [cursor=pointer]:
+                    - 'radio "Option: SORTSÖ, Rug, flatwoven, light blue, 55x85 cm" [checked] [ref=f9e703]'
+                    - 'link "Option: SORTSÖ, Rug, flatwoven, light blue, 55x85 cm A light blue rectangular cotton rug with fringe on both ends, ideal for various floors." [ref=f9e704]':
+                      - /url: https://www.ikea.com/eg/en/p/sortsoe-rug-flatwoven-light-blue-60528876/
+                      - generic [ref=f9e705]: "Option: SORTSÖ, Rug, flatwoven, light blue, 55x85 cm"
+                      - img "A light blue rectangular cotton rug with fringe on both ends, ideal for various floors." [ref=f9e706]
+                  - generic [ref=f9e707] [cursor=pointer]:
+                    - 'radio "Option: SORTSÖ, Rug, flatwoven, unbleached, 55x85 cm" [ref=f9e708]'
+                    - 'link "Option: SORTSÖ, Rug, flatwoven, unbleached, 55x85 cm A cream-colored SORTSÖ cotton rug with fringe on both ends." [ref=f9e709]':
+                      - /url: https://www.ikea.com/eg/en/p/sortsoe-rug-flatwoven-unbleached-70418518/
+                      - generic [ref=f9e710]: "Option: SORTSÖ, Rug, flatwoven, unbleached, 55x85 cm"
+                      - img "A cream-colored SORTSÖ cotton rug with fringe on both ends." [ref=f9e711]
+              - generic [ref=f9e712]:
+                - generic [ref=f9e714]:
+                  - checkbox "Compare - Select for product comparison, Rug, 133x160 cm" [ref=f9e715] [cursor=pointer]
+                  - generic [ref=f9e717]: Compare
+                - generic [ref=f9e719]:
+                  - paragraph [ref=f9e721]: Top seller
+                  - link [ref=f9e722] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/barndroem-rug-pink-80548208/
+                    - img "Light pink rug with small hearts, soft, made from recycled polyester." [ref=f9e723]
+                    - img "Kids room with pink BARNDRÖM rug, hearts design, large, soft, and eco-friendly, under a small bed." [ref=f9e724]
+                - generic [ref=f9e727]:
+                  - heading [level=3] [ref=f9e729]:
+                    - link "BARNDRÖM, Rug, pink, 133x160 cm" [ref=f9e731] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/barndroem-rug-pink-80548208/
+                      - text: BARNDRÖM
+                    - generic [ref=f9e732]: Rug, pink, 133x160 cm
+                  - generic [ref=f9e736]:
+                    - generic [ref=f9e737]: EGP4,799
+                    - generic [ref=f9e739]: Price EGP 4799
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=f9e740] [cursor=pointer]':
+                  - generic [ref=f9e741]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f9e742]: (1)
+                - generic [ref=f9e744]:
+                  - button "Add \"BARNDRÖM Rug\" to cart" [ref=f9e745] [cursor=pointer]
+                  - button "Save \"BARNDRÖM Rug\" to shopping list" [ref=f9e746] [cursor=pointer]
+                - generic [ref=f9e747]: Available for delivery
+              - generic [ref=f9e751]:
+                - generic [ref=f9e753]:
+                  - checkbox "Compare - Select for product comparison, Door mat, 82x200 cm" [ref=f9e754] [cursor=pointer]
+                  - generic [ref=f9e756]: Compare
+                - generic [ref=f9e758]:
+                  - paragraph [ref=f9e760]: Top seller
+                  - link [ref=f9e761] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/koege-door-mat-grey-black-20296604/
+                    - img "Grey recycled nylon doormat with rubber backing, rectangular shape." [ref=f9e762]
+                    - img "Kids playing in bright entryway with KÖGE mat, shoe rack, and hanging jackets." [ref=f9e763]
+                - generic [ref=f9e766]:
+                  - heading [level=3] [ref=f9e768]:
+                    - link "KÖGE, Door mat, grey/black, 82x200 cm" [ref=f9e770] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/koege-door-mat-grey-black-20296604/
+                      - text: KÖGE
+                    - generic [ref=f9e771]: Door mat, grey/black, 82x200 cm
+                  - generic [ref=f9e773]:
+                    - generic [ref=f9e775]:
+                      - generic [ref=f9e776]: EGP6,999
+                      - generic [ref=f9e778]: EGP 6999
+                    - generic [ref=f9e780]:
+                      - generic [ref=f9e781]: EGP5,499
+                      - generic [ref=f9e783]: Price EGP 5499
+                  - generic [ref=f9e784]: 21% off, save EGP1,500
+                  - paragraph [ref=f9e788]: Limited time offer
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=f9e789] [cursor=pointer]':
+                  - generic [ref=f9e790]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f9e791]: (1)
+                - generic [ref=f9e793]:
+                  - button "Add \"KÖGE Door mat\" to cart" [ref=f9e794] [cursor=pointer]
+                  - button "Save \"KÖGE Door mat\" to shopping list" [ref=f9e795] [cursor=pointer]
+                - generic [ref=f9e796]: Available for delivery
+                - group "More options KÖGE" [ref=f9e800]:
+                  - generic [ref=f9e801]:
+                    - text: More options
+                    - generic [ref=f9e802]: KÖGE
+                  - generic [ref=f9e803] [cursor=pointer]:
+                    - 'radio "Option: KÖGE, Door mat, grey/black, 82x200 cm" [checked] [ref=f9e804]'
+                    - 'link "Option: KÖGE, Door mat, grey/black, 82x200 cm Grey recycled nylon doormat with rubber backing, rectangular shape." [ref=f9e805]':
+                      - /url: https://www.ikea.com/eg/en/p/koege-door-mat-grey-black-20296604/
+                      - generic [ref=f9e806]: "Option: KÖGE, Door mat, grey/black, 82x200 cm"
+                      - img "Grey recycled nylon doormat with rubber backing, rectangular shape." [ref=f9e807]
+                  - generic [ref=f9e808] [cursor=pointer]:
+                    - 'radio "Option: KÖGE, Door mat, grey/black, 69x90 cm" [ref=f9e809]'
+                    - 'link "Option: KÖGE, Door mat, grey/black, 69x90 cm A KÖGE doormat, grey, rectangular, with a grid design, made of recycled polyester and nylon, featuring a non-slip rubber back." [ref=f9e810]':
+                      - /url: https://www.ikea.com/eg/en/p/koege-door-mat-grey-black-30287939/
+                      - generic [ref=f9e811]: "Option: KÖGE, Door mat, grey/black, 69x90 cm"
+                      - img "A KÖGE doormat, grey, rectangular, with a grid design, made of recycled polyester and nylon, featuring a non-slip rubber back." [ref=f9e812]
+              - generic [ref=f9e813]:
+                - generic [ref=f9e815]:
+                  - checkbox "Compare - Select for product comparison, Rug, low pile, 200x300 cm" [ref=f9e816] [cursor=pointer]
+                  - generic [ref=f9e818]: Compare
+                - generic [ref=f9e820]:
+                  - paragraph [ref=f9e822]: Last chance
+                  - link [ref=f9e823] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/ringklocka-rug-low-pile-yellow-off-white-90569196/
+                    - img "A yellow and off-white abstract patterned rug named RINGKLOCKA, made from recycled materials." [ref=f9e824]
+                    - img "Modern living room with yellow & beige rug, sleek furniture, plants, & large windows." [ref=f9e825]
+                - generic [ref=f9e828]:
+                  - heading [level=3] [ref=f9e830]:
+                    - link "RINGKLOCKA, Rug, low pile, yellow/off-white, 200x300 cm" [ref=f9e832] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/ringklocka-rug-low-pile-yellow-off-white-90569196/
+                      - text: RINGKLOCKA
+                    - generic [ref=f9e833]: Rug, low pile, yellow/off-white, 200x300 cm
+                  - generic [ref=f9e835]:
+                    - generic [ref=f9e837]:
+                      - generic [ref=f9e838]: EGP21,999
+                      - generic [ref=f9e840]: EGP 21999
+                    - generic [ref=f9e842]:
+                      - generic [ref=f9e843]: EGP16,999
+                      - generic [ref=f9e845]: Price EGP 16999
+                  - generic [ref=f9e846]: 22% off, save EGP5,000
+                  - paragraph [ref=f9e850]: Limited time offer
+                - generic [ref=f9e851]:
+                  - button "Add \"RINGKLOCKA Rug, low pile\" to cart" [ref=f9e852] [cursor=pointer]
+                  - button "Save \"RINGKLOCKA Rug, low pile\" to shopping list" [ref=f9e853] [cursor=pointer]
+                - generic [ref=f9e854]: Available for delivery
+                - group "More options RINGKLOCKA" [ref=f9e858]:
+                  - generic [ref=f9e859]:
+                    - text: More options
+                    - generic [ref=f9e860]: RINGKLOCKA
+                  - generic [ref=f9e861] [cursor=pointer]:
+                    - 'radio "Option: RINGKLOCKA, Rug, low pile, yellow/off-white, 200x300 cm" [checked] [ref=f9e862]'
+                    - 'link "Option: RINGKLOCKA, Rug, low pile, yellow/off-white, 200x300 cm A yellow and off-white abstract patterned rug named RINGKLOCKA, made from recycled materials." [ref=f9e863]':
+                      - /url: https://www.ikea.com/eg/en/p/ringklocka-rug-low-pile-yellow-off-white-90569196/
+                      - generic [ref=f9e864]: "Option: RINGKLOCKA, Rug, low pile, yellow/off-white, 200x300 cm"
+                      - img "A yellow and off-white abstract patterned rug named RINGKLOCKA, made from recycled materials." [ref=f9e865]
+                  - generic [ref=f9e866] [cursor=pointer]:
+                    - 'radio "Option: RINGKLOCKA, Rug, low pile, green/off-white, 200x300 cm" [ref=f9e867]'
+                    - 'link "Option: RINGKLOCKA, Rug, low pile, green/off-white, 200x300 cm Ringkloka rug: beige-green, abstract, rectangular, textured pattern, recycled materials." [ref=f9e868]':
+                      - /url: https://www.ikea.com/eg/en/p/ringklocka-rug-low-pile-green-off-white-00578015/
+                      - generic [ref=f9e869]: "Option: RINGKLOCKA, Rug, low pile, green/off-white, 200x300 cm"
+                      - 'img "Ringkloka rug: beige-green, abstract, rectangular, textured pattern, recycled materials." [ref=f9e870]'
+              - generic [ref=f9e871]:
+                - generic [ref=f9e873]:
+                  - checkbox "Compare - Select for product comparison, Rug underlay with anti-slip, 70x140 cm" [ref=f9e874] [cursor=pointer]
+                  - generic [ref=f9e876]: Compare
+                - link [ref=f9e879] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-30550213/
+                  - img "STOPP FILT rug underlay, grey recycled polyester & latex, thick, textured." [ref=f9e880]
+                  - img "Rug underlay with non-slip surface, shown protecting hardwood floor." [ref=f9e881]
+                - generic [ref=f9e884]:
+                  - heading [level=3] [ref=f9e886]:
+                    - link "STOPP FILT, Rug underlay with anti-slip, 70x140 cm" [ref=f9e888] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-30550213/
+                      - text: STOPP FILT
+                    - generic [ref=f9e889]: Rug underlay with anti-slip, 70x140 cm
+                  - generic [ref=f9e893]:
+                    - generic [ref=f9e894]:
+                      - generic [ref=f9e895]: EGP279
+                      - generic [ref=f9e896]: /package
+                    - generic [ref=f9e897]: Price EGP 279/package
+                - 'button "Review: 4.4 out of 5 stars. Total reviews: (18)" [ref=f9e898] [cursor=pointer]':
+                  - generic [ref=f9e899]: "Review: 4.4 out of 5 stars. Total reviews:"
+                  - generic [ref=f9e900]: (18)
+                - generic [ref=f9e902]:
+                  - button "Add \"STOPP FILT Rug underlay with anti-slip\" to cart" [ref=f9e903] [cursor=pointer]
+                  - button "Save \"STOPP FILT Rug underlay with anti-slip\" to shopping list" [ref=f9e904] [cursor=pointer]
+                - generic [ref=f9e905]: Available for delivery
+                - group "More options STOPP FILT" [ref=f9e909]:
+                  - generic [ref=f9e910]:
+                    - text: More options
+                    - generic [ref=f9e911]: STOPP FILT
+                  - generic [ref=f9e912] [cursor=pointer]:
+                    - 'radio "Option: STOPP FILT, Rug underlay with anti-slip, 70x140 cm" [checked] [ref=f9e913]'
+                    - 'link "Option: STOPP FILT, Rug underlay with anti-slip, 70x140 cm STOPP FILT rug underlay, grey recycled polyester & latex, thick, textured." [ref=f9e914]':
+                      - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-30550213/
+                      - generic [ref=f9e915]: "Option: STOPP FILT, Rug underlay with anti-slip, 70x140 cm"
+                      - img "STOPP FILT rug underlay, grey recycled polyester & latex, thick, textured." [ref=f9e916]
+                  - generic [ref=f9e917] [cursor=pointer]:
+                    - 'radio "Option: STOPP FILT, Rug underlay with anti-slip, 123x185 cm" [ref=f9e918]'
+                    - 'link "Option: STOPP FILT, Rug underlay with anti-slip, 123x185 cm A grey rectangular rug protection felt mat, folded, made of polyester for dirt collection and floor protection." [ref=f9e919]':
+                      - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-90550210/
+                      - generic [ref=f9e920]: "Option: STOPP FILT, Rug underlay with anti-slip, 123x185 cm"
+                      - img "A grey rectangular rug protection felt mat, folded, made of polyester for dirt collection and floor protection." [ref=f9e921]
+                  - generic [ref=f9e922] [cursor=pointer]:
+                    - 'radio "Option: STOPP FILT, Rug underlay with anti-slip, 190x280 cm" [ref=f9e923]'
+                    - 'link "Option: STOPP FILT, Rug underlay with anti-slip, 190x280 cm Folded grey rug pad, soft felt texture, eco-friendly materials, protects floors, prevents rug sliding." [ref=f9e924]':
+                      - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-20550204/
+                      - generic [ref=f9e925]: "Option: STOPP FILT, Rug underlay with anti-slip, 190x280 cm"
+                      - img "Folded grey rug pad, soft felt texture, eco-friendly materials, protects floors, prevents rug sliding." [ref=f9e926]
+                  - generic [ref=f9e927] [cursor=pointer]:
+                    - 'radio "Option: STOPP FILT, Rug underlay with anti-slip, 165x235 cm" [ref=f9e928]'
+                    - 'link "Option: STOPP FILT, Rug underlay with anti-slip, 165x235 cm Grey rectangular felt rug pad, soft texture, protects floors." [ref=f9e929]':
+                      - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-90132261/
+                      - generic [ref=f9e930]: "Option: STOPP FILT, Rug underlay with anti-slip, 165x235 cm"
+                      - img "Grey rectangular felt rug pad, soft texture, protects floors." [ref=f9e931]
+              - generic [ref=f9e932]:
+                - generic [ref=f9e934]:
+                  - checkbox "Compare - Select for product comparison, Door mat, 40x60 cm" [ref=f9e935] [cursor=pointer]
+                  - generic [ref=f9e937]: Compare
+                - link [ref=f9e940] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/idrottsplats-door-mat-blue-60565393/
+                  - img "Rectangular, dark blue woven cotton door mat with white accents, designed to withstand heavy traffic, machine washable." [ref=f9e941]
+                  - img "Blue woven mat near pink boots, under hanging grey coat." [ref=f9e942]
+                - generic [ref=f9e945]:
+                  - heading [level=3] [ref=f9e947]:
+                    - link "IDROTTSPLATS, Door mat, blue, 40x60 cm" [ref=f9e949] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/idrottsplats-door-mat-blue-60565393/
+                      - text: IDROTTSPLATS
+                    - generic [ref=f9e950]: Door mat, blue, 40x60 cm
+                  - generic [ref=f9e952]:
+                    - generic [ref=f9e954]:
+                      - generic [ref=f9e955]: EGP549
+                      - generic [ref=f9e957]: EGP 549
+                    - generic [ref=f9e959]:
+                      - generic [ref=f9e960]: EGP399
+                      - generic [ref=f9e962]: Price EGP 399
+                  - generic [ref=f9e963]: 27% off, save EGP150
+                  - paragraph [ref=f9e967]: Limited time offer
+                - generic [ref=f9e968]:
+                  - button "Add \"IDROTTSPLATS Door mat\" to cart" [ref=f9e969] [cursor=pointer]
+                  - button "Save \"IDROTTSPLATS Door mat\" to shopping list" [ref=f9e970] [cursor=pointer]
+                - generic [ref=f9e971]: Available for delivery
+              - generic [ref=f9e975]:
+                - generic [ref=f9e977]:
+                  - checkbox "Compare - Select for product comparison, Rug, low pile, 160x230 cm" [ref=f9e978] [cursor=pointer]
+                  - generic [ref=f9e980]: Compare
+                - link [ref=f9e983] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/pelarkoersbaer-rug-low-pile-light-beige-leaf-pattern-90625772/
+                  - img "PELARKÖRSBÄR Rug, low pile, light beige/leaf pattern, 160x230 cm" [ref=f9e984]
+                  - img "PELARKÖRSBÄR Rug, low pile, light beige/leaf pattern, 160x230 cm" [ref=f9e985]
+                - generic [ref=f9e988]:
+                  - generic [ref=f9e989]:
+                    - generic [ref=f9e990]: New
+                    - heading [level=3] [ref=f9e991]:
+                      - link "PELARKÖRSBÄR, Rug, low pile, light beige/leaf pattern, 160x230 cm" [ref=f9e993] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/pelarkoersbaer-rug-low-pile-light-beige-leaf-pattern-90625772/
+                        - text: PELARKÖRSBÄR
+                      - generic [ref=f9e994]: Rug, low pile, light beige/leaf pattern, 160x230 cm
+                  - generic [ref=f9e998]:
+                    - generic [ref=f9e999]: EGP9,999
+                    - generic [ref=f9e1001]: Price EGP 9999
+                - generic [ref=f9e1002]:
+                  - button "Add \"PELARKÖRSBÄR Rug, low pile\" to cart" [ref=f9e1003] [cursor=pointer]
+                  - button "Save \"PELARKÖRSBÄR Rug, low pile\" to shopping list" [ref=f9e1004] [cursor=pointer]
+                - generic [ref=f9e1005]: Available for delivery
+              - generic [ref=f9e1009]:
+                - generic [ref=f9e1011]:
+                  - checkbox "Compare - Select for product comparison, Runner, flatwoven, 70x200 cm" [ref=f9e1012] [cursor=pointer]
+                  - generic [ref=f9e1014]: Compare
+                - generic [ref=f9e1016]:
+                  - paragraph [ref=f9e1018]: Top seller
+                  - link [ref=f9e1019] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/maevinn-runner-flatwoven-beige-blue-stripe-80601012/
+                    - img "MÄVINN rug, blue and cream stripes, woven jute and wool." [ref=f9e1020]
+                    - img "MÄVINN jute-gray-blue runner with colourful stripes, large, handwoven, oversized." [ref=f9e1021]
+                - generic [ref=f9e1024]:
+                  - heading [level=3] [ref=f9e1026]:
+                    - link "MÄVINN, Runner, flatwoven, beige blue/stripe, 70x200 cm" [ref=f9e1028] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/maevinn-runner-flatwoven-beige-blue-stripe-80601012/
+                      - text: MÄVINN
+                    - generic [ref=f9e1029]: Runner, flatwoven, beige blue/stripe, 70x200 cm
+                  - generic [ref=f9e1031]:
+                    - generic [ref=f9e1033]:
+                      - generic [ref=f9e1034]: EGP2,299
+                      - generic [ref=f9e1036]: EGP 2299
+                    - generic [ref=f9e1038]:
+                      - generic [ref=f9e1039]: EGP1,799
+                      - generic [ref=f9e1041]: Price EGP 1799
+                  - generic [ref=f9e1042]: 21% off, save EGP500
+                  - paragraph [ref=f9e1046]: Limited time offer
+                - generic [ref=f9e1047]:
+                  - button "Add \"MÄVINN Runner, flatwoven\" to cart" [ref=f9e1048] [cursor=pointer]
+                  - button "Save \"MÄVINN Runner, flatwoven\" to shopping list" [ref=f9e1049] [cursor=pointer]
+                - generic [ref=f9e1050]: Available for delivery
+              - generic [ref=f9e1054]:
+                - generic [ref=f9e1056]:
+                  - checkbox "Compare - Select for product comparison, Rug flatwoven, in/outdoor, 160x230 cm" [ref=f9e1057] [cursor=pointer]
+                  - generic [ref=f9e1059]: Compare
+                - generic [ref=f9e1061]:
+                  - paragraph [ref=f9e1063]: Limited edition
+                  - link [ref=f9e1064] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/laettbetong-rug-flatwoven-in-outdoor-beige-light-brown-10595712/
+                    - img "Beige LÄTTBETONG flatwoven outdoor rug, rectangular, simple weave." [ref=f9e1065]
+                    - img "Modern dining area with LÄTTBETONG rug, wooden table and chairs, grey armchair, black bookshelf. Warm and cosy, light tones." [ref=f9e1066]
+                - generic [ref=f9e1069]:
+                  - heading [level=3] [ref=f9e1071]:
+                    - link "LÄTTBETONG, Rug flatwoven, in/outdoor, beige/light brown, 160x230 cm" [ref=f9e1073] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/laettbetong-rug-flatwoven-in-outdoor-beige-light-brown-10595712/
+                      - text: LÄTTBETONG
+                    - generic [ref=f9e1074]: Rug flatwoven, in/outdoor, beige/light brown, 160x230 cm
+                  - generic [ref=f9e1078]:
+                    - generic [ref=f9e1079]: EGP5,999
+                    - generic [ref=f9e1081]: Price EGP 5999
+                - generic [ref=f9e1082]:
+                  - button "Add \"LÄTTBETONG Rug flatwoven, in/outdoor\" to cart" [ref=f9e1083] [cursor=pointer]
+                  - button "Save \"LÄTTBETONG Rug flatwoven, in/outdoor\" to shopping list" [ref=f9e1084] [cursor=pointer]
+                - generic [ref=f9e1085]: Available for delivery
+              - generic [ref=f9e1089]:
+                - generic [ref=f9e1091]:
+                  - checkbox "Compare - Select for product comparison, Rug, low pile, 80x200 cm" [ref=f9e1092] [cursor=pointer]
+                  - generic [ref=f9e1094]: Compare
+                - link [ref=f9e1097] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/elsystem-rug-low-pile-black-white-stripe-90597321/
+                  - img "Black and white striped rug - rectangular, soft, recycled polyester." [ref=f9e1098]
+                  - img "Bedroom with polka dot bed, wooden bedside table, and black/white striped rug." [ref=f9e1099]
+                - generic [ref=f9e1102]:
+                  - heading [level=3] [ref=f9e1104]:
+                    - link "ELSYSTEM, Rug, low pile, black/white/stripe, 80x200 cm" [ref=f9e1106] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/elsystem-rug-low-pile-black-white-stripe-90597321/
+                      - text: ELSYSTEM
+                    - generic [ref=f9e1107]: Rug, low pile, black/white/stripe, 80x200 cm
+                  - generic [ref=f9e1111]:
+                    - generic [ref=f9e1112]: EGP2,599
+                    - generic [ref=f9e1114]: Price EGP 2599
+                - generic [ref=f9e1115]:
+                  - button "Add \"ELSYSTEM Rug, low pile\" to cart" [ref=f9e1116] [cursor=pointer]
+                  - button "Save \"ELSYSTEM Rug, low pile\" to shopping list" [ref=f9e1117] [cursor=pointer]
+                - generic [ref=f9e1118]: Available for delivery
+              - generic [ref=f9e1122]:
+                - generic [ref=f9e1124]:
+                  - checkbox "Compare - Select for product comparison, Rug, 74x100 cm" [ref=f9e1125] [cursor=pointer]
+                  - generic [ref=f9e1127]: Compare
+                - link [ref=f9e1130] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/markkrypare-rug-dark-grey-20558573/
+                  - img "MARKKRYPARE Rug, dark grey, 74x100 cm" [ref=f9e1131]
+                  - img "Kids room with MARKKRYPARE black & grey play rug featuring toy vehicles. Rug fits under small bed, wooden stools nearby." [ref=f9e1132]
+                - generic [ref=f9e1135]:
+                  - heading [level=3] [ref=f9e1137]:
+                    - link "MARKKRYPARE, Rug, dark grey, 74x100 cm" [ref=f9e1139] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/markkrypare-rug-dark-grey-20558573/
+                      - text: MARKKRYPARE
+                    - generic [ref=f9e1140]: Rug, dark grey, 74x100 cm
+                  - emphasis [ref=f9e1144]:
+                    - generic [ref=f9e1145]: EGP799
+                    - generic [ref=f9e1147]: Price EGP 799
+                - generic [ref=f9e1148]:
+                  - button "Add \"MARKKRYPARE Rug\" to cart" [ref=f9e1149] [cursor=pointer]
+                  - button "Save \"MARKKRYPARE Rug\" to shopping list" [ref=f9e1150] [cursor=pointer]
+                - generic [ref=f9e1151]: Available for delivery
+              - generic [ref=f9e1155]:
+                - generic [ref=f9e1157]:
+                  - checkbox "Compare - Select for product comparison, Rug, flatwoven, 80x150 cm" [ref=f9e1158] [cursor=pointer]
+                  - generic [ref=f9e1160]: Compare
+                - link [ref=f9e1163] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/vaegskylt-rug-flatwoven-blue-green-black-40587032/
+                  - img "Blue-green & black striped rug, cotton" [ref=f9e1164]
+                  - img "Modern entryway with large blue-green plaid rug, smaller matching mat, red kids chair, and green backpack near white doors." [ref=f9e1165]
+                - generic [ref=f9e1168]:
+                  - heading [level=3] [ref=f9e1170]:
+                    - link "VÄGSKYLT, Rug, flatwoven, blue-green/black, 80x150 cm" [ref=f9e1172] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vaegskylt-rug-flatwoven-blue-green-black-40587032/
+                      - text: VÄGSKYLT
+                    - generic [ref=f9e1173]: Rug, flatwoven, blue-green/black, 80x150 cm
+                  - generic [ref=f9e1175]:
+                    - generic [ref=f9e1177]:
+                      - generic [ref=f9e1178]: EGP2,799
+                      - generic [ref=f9e1180]: EGP 2799
+                    - generic [ref=f9e1182]:
+                      - generic [ref=f9e1183]: EGP1,999
+                      - generic [ref=f9e1185]: Price EGP 1999
+                  - generic [ref=f9e1186]: 28% off, save EGP800
+                  - paragraph [ref=f9e1190]: Limited time offer
+                - generic [ref=f9e1191]:
+                  - button "Add \"VÄGSKYLT Rug, flatwoven\" to cart" [ref=f9e1192] [cursor=pointer]
+                  - button "Save \"VÄGSKYLT Rug, flatwoven\" to shopping list" [ref=f9e1193] [cursor=pointer]
+                - generic [ref=f9e1194]: Available for delivery
+                - group "More options VÄGSKYLT" [ref=f9e1198]:
+                  - generic [ref=f9e1199]:
+                    - text: More options
+                    - generic [ref=f9e1200]: VÄGSKYLT
+                  - generic [ref=f9e1201] [cursor=pointer]:
+                    - 'radio "Option: VÄGSKYLT, Rug, flatwoven, blue-green/black, 80x150 cm" [checked] [ref=f9e1202]'
+                    - 'link "Option: VÄGSKYLT, Rug, flatwoven, blue-green/black, 80x150 cm Blue-green & black striped rug, cotton" [ref=f9e1203]':
+                      - /url: https://www.ikea.com/eg/en/p/vaegskylt-rug-flatwoven-blue-green-black-40587032/
+                      - generic [ref=f9e1204]: "Option: VÄGSKYLT, Rug, flatwoven, blue-green/black, 80x150 cm"
+                      - img "Blue-green & black striped rug, cotton" [ref=f9e1205]
+                  - generic [ref=f9e1206] [cursor=pointer]:
+                    - 'radio "Option: VÄGSKYLT, Rug, flatwoven, pink/orange, 80x150 cm" [ref=f9e1207]'
+                    - 'link "Option: VÄGSKYLT, Rug, flatwoven, pink/orange, 80x150 cm A rectangular rug named VÄGSKYLT with pink and orange vertical stripes, made of cotton." [ref=f9e1208]':
+                      - /url: https://www.ikea.com/eg/en/p/vaegskylt-rug-flatwoven-pink-orange-80587006/
+                      - generic [ref=f9e1209]: "Option: VÄGSKYLT, Rug, flatwoven, pink/orange, 80x150 cm"
+                      - img "A rectangular rug named VÄGSKYLT with pink and orange vertical stripes, made of cotton." [ref=f9e1210]
+              - generic [ref=f9e1211]:
+                - generic [ref=f9e1213]:
+                  - checkbox "Compare - Select for product comparison, Rug, flatwoven, 170x240 cm" [ref=f9e1214] [cursor=pointer]
+                  - generic [ref=f9e1216]: Compare
+                - link [ref=f9e1219] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/ridstig-rug-flatwoven-off-white-red-90575300/
+                  - img "A RIDSTIG rug with off-white and red stripes, made of cotton." [ref=f9e1220]
+                  - img "Modern living room with red-striped rug, grey sofa, plants, and open balcony." [ref=f9e1221]
+                - generic [ref=f9e1224]:
+                  - heading [level=3] [ref=f9e1226]:
+                    - link "RIDSTIG, Rug, flatwoven, off-white/red, 170x240 cm" [ref=f9e1228] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/ridstig-rug-flatwoven-off-white-red-90575300/
+                      - text: RIDSTIG
+                    - generic [ref=f9e1229]: Rug, flatwoven, off-white/red, 170x240 cm
+                  - generic [ref=f9e1231]:
+                    - generic [ref=f9e1233]:
+                      - generic [ref=f9e1234]: EGP4,499
+                      - generic [ref=f9e1236]: EGP 4499
+                    - generic [ref=f9e1238]:
+                      - generic [ref=f9e1239]: EGP3,499
+                      - generic [ref=f9e1241]: Price EGP 3499
+                  - generic [ref=f9e1242]: 22% off, save EGP1,000
+                  - paragraph [ref=f9e1246]: Limited time offer
+                - generic [ref=f9e1247]:
+                  - button "Add \"RIDSTIG Rug, flatwoven\" to cart" [ref=f9e1248] [cursor=pointer]
+                  - button "Save \"RIDSTIG Rug, flatwoven\" to shopping list" [ref=f9e1249] [cursor=pointer]
+                - generic [ref=f9e1250]: Available for delivery
+              - generic [ref=f9e1254]:
+                - generic [ref=f9e1256]:
+                  - checkbox "Compare - Select for product comparison, Rug, high pile, 200x300 cm" [ref=f9e1257] [cursor=pointer]
+                  - generic [ref=f9e1259]: Compare
+                - link [ref=f9e1262] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/hotellrum-rug-high-pile-blue-green-yellow-90577648/
+                  - img "HOTELLRUM rug, yellow-green-blue gradient, soft high pile, rectangular." [ref=f9e1263]
+                  - img "Modern living room with colourful rug, coffee table, sofa, and armchair." [ref=f9e1264]
+                - generic [ref=f9e1267]:
+                  - generic [ref=f9e1268]:
+                    - generic [ref=f9e1269]: Price Lowered
+                    - heading [level=3] [ref=f9e1270]:
+                      - link "HOTELLRUM, Rug, high pile, blue/green yellow, 200x300 cm" [ref=f9e1272] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/hotellrum-rug-high-pile-blue-green-yellow-90577648/
+                        - text: HOTELLRUM
+                      - generic [ref=f9e1273]: Rug, high pile, blue/green yellow, 200x300 cm
+                  - generic [ref=f9e1277]:
+                    - generic [ref=f9e1278]: EGP12,999
+                    - generic [ref=f9e1280]: Price EGP 12999
+                  - generic [ref=f9e1282]:
+                    - text: Previous price
+                    - generic [ref=f9e1283]:
+                      - generic [ref=f9e1284]: EGP19,999
+                      - generic [ref=f9e1286]: Previous price EGP 19999
+                - 'button "Review: 5 out of 5 stars. Total reviews: (5)" [ref=f9e1287] [cursor=pointer]':
+                  - generic [ref=f9e1288]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f9e1289]: (5)
+                - generic [ref=f9e1291]:
+                  - button "Add \"HOTELLRUM Rug, high pile\" to cart" [ref=f9e1292] [cursor=pointer]
+                  - button "Save \"HOTELLRUM Rug, high pile\" to shopping list" [ref=f9e1293] [cursor=pointer]
+                - generic [ref=f9e1294]: Available for delivery
+                - group "More options HOTELLRUM" [ref=f9e1298]:
+                  - generic [ref=f9e1299]:
+                    - text: More options
+                    - generic [ref=f9e1300]: HOTELLRUM
+                  - generic [ref=f9e1301] [cursor=pointer]:
+                    - 'radio "Option: HOTELLRUM, Rug, high pile, blue/green yellow, 200x300 cm" [checked] [ref=f9e1302]'
+                    - 'link "Option: HOTELLRUM, Rug, high pile, blue/green yellow, 200x300 cm HOTELLRUM rug, yellow-green-blue gradient, soft high pile, rectangular." [ref=f9e1303]':
+                      - /url: https://www.ikea.com/eg/en/p/hotellrum-rug-high-pile-blue-green-yellow-90577648/
+                      - generic [ref=f9e1304]: "Option: HOTELLRUM, Rug, high pile, blue/green yellow, 200x300 cm"
+                      - img "HOTELLRUM rug, yellow-green-blue gradient, soft high pile, rectangular." [ref=f9e1305]
+                  - generic [ref=f9e1306] [cursor=pointer]:
+                    - 'radio "Option: HOTELLRUM, Rug, high pile, blue/green yellow, 160x230 cm" [ref=f9e1307]'
+                    - 'link "Option: HOTELLRUM, Rug, high pile, blue/green yellow, 160x230 cm HOTELLRUM rug: gradient blue-green-yellow, soft pile, rectangular, varsity colours." [ref=f9e1308]':
+                      - /url: https://www.ikea.com/eg/en/p/hotellrum-rug-high-pile-blue-green-yellow-40571154/
+                      - generic [ref=f9e1309]: "Option: HOTELLRUM, Rug, high pile, blue/green yellow, 160x230 cm"
+                      - 'img "HOTELLRUM rug: gradient blue-green-yellow, soft pile, rectangular, varsity colours." [ref=f9e1310]'
+            - generic [ref=f9e1311]:
+              - paragraph [ref=f9e1312]: Showing 48 of 131 results
+              - progressbar [ref=f9e1313]
+              - link "Show more products" [ref=f9e1314] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/rugs-10653/?page=3#products-page-3
+                - generic: Show more
+      - generic [ref=f9e1317]:
+        - generic [ref=f9e1322]:
+          - generic [ref=f9e1323]:
+            - generic [ref=f9e1324]:
+              - heading "Favourite games with an extra soft landing" [level=2] [ref=f9e1325]
+              - paragraph
+              - generic [ref=f9e1326]:
+                - paragraph [ref=f9e1327]: Here’s a fluffy, soft rug that can create both a physical play zone and a chill-out area anywhere in the home. With outdoor play written into its DNA, the new STÄPPSPARV rug is ready for energy and movement as well as more quiet moments. That might mean doing a round of hopscotch or two to take a break from difficult homework tasks, or playing a quiet board game on the floor before bed.
+                - paragraph [ref=f9e1328]: It’s also a great way to encourage physical play if kids can’t get outside as movement-based games like hopscotch can help to develop balance and coordination.
+              - paragraph
+            - link "See all children's rugs & curtains" [ref=f9e1329] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/childrens-rugs-18774/
+          - generic [ref=f9e1339]:
+            - button "Hide price tags on image 1" [ref=f9e1340] [cursor=pointer]:
+              - img "A child is hopping on a beige STÄPPSPARV rug in a sunny bedroom with a light white stained pine TROFAST storage unit nearby." [ref=f9e1342]
+            - generic:
+              - list "Products shown in image"
+        - generic [ref=f9e1347]:
+          - generic [ref=f9e1352]:
+            - button "Hide price tags on image 1" [ref=f9e1353] [cursor=pointer]:
+              - img "A beige STÄPPSPARV rug on the floor of a sunny children’s bedroom in front of a beige armchair and a basket of toys." [ref=f9e1355]
+            - generic:
+              - list "Products shown in image"
+          - generic [ref=f9e1360]:
+            - button "Hide price tags on image 2" [ref=f9e1361] [cursor=pointer]:
+              - img "A child is playing hopscotch on a beige STÄPPSPARV rug in a sunny bedroom with a TROFAST storage nearby." [ref=f9e1363]
+            - generic:
+              - list "Products shown in image"
+        - generic [ref=f9e1368]:
+          - generic [ref=f9e1370]:
+            - heading "A handwoven jute rug with a lot of heart" [level=2] [ref=f9e1371]
+            - paragraph
+            - paragraph [ref=f9e1373]: In partnership with the social business Karupannya, this rug was designed to help create work for people living on the riverbanks of Bangladesh, a region heavily affected by global warming. The rug is handwoven from undyed jute and cotton with details in coloured wool, making it both decorative and durable.
+            - paragraph
+          - generic [ref=f9e1376]:
+            - generic [ref=f9e1381]:
+              - button "Hide price tags on image 1" [ref=f9e1382] [cursor=pointer]:
+                - img "A MÄVINN rug in jute and coloured wool is draped over white stairs in front of a window. Another rug is rolled up beside it." [ref=f9e1384]
+              - generic:
+                - list "Products shown in image"
+            - generic [ref=f9e1389]:
+              - button "Hide price tags on image 2" [ref=f9e1390] [cursor=pointer]:
+                - img "A MÄVINN rug in undyed jute and cotton with stripes in black and white coloured wool with details in green, pink and orange." [ref=f9e1392]
+              - generic:
+                - list "Products shown in image"
+      - heading "Recommended for you" [level=2] [ref=f9e1394]
+    - list [ref=f9e1399]:
+      - listitem [ref=f9e1400]:
+        - link "Checkered rugs" [ref=f9e1401] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/checkered-rugs-f-pattern--48355/
+      - listitem [ref=f9e1403]:
+        - link "Flatwoven rugs" [ref=f9e1404] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/flatwoven-rugs-f-type--51780/
+      - listitem [ref=f9e1406]:
+        - link "Floral rugs" [ref=f9e1407] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/floral-rugs-f-pattern--48353/
+      - listitem [ref=f9e1409]:
+        - link "Geometric rugs" [ref=f9e1410] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/geometric-rugs-f-pattern--48354/
+      - listitem [ref=f9e1412]:
+        - link "Graphic rugs" [ref=f9e1413] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/graphic-rugs-f-pattern--48164/
+      - listitem [ref=f9e1415]:
+        - link "High pile rugs" [ref=f9e1416] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/high-pile-rugs-f-type--51776/
+      - listitem [ref=f9e1418]:
+        - link "Low pile rugs" [ref=f9e1419] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/low-pile-rugs-f-type--51778/
+      - listitem [ref=f9e1421]:
+        - link "Machine washable rugs" [ref=f9e1422] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/machine-washable-rugs-f-feature--60959/
+      - listitem [ref=f9e1424]:
+        - link "Natural fibres rugs" [ref=f9e1425] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/natural-fibres-rugs-f-materials--47477/
+      - listitem [ref=f9e1427]:
+        - link "Orange rugs" [ref=f9e1428] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/orange-rugs-f-colors--10112/
+      - listitem [ref=f9e1430]:
+        - link "Oriental rugs" [ref=f9e1431] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/oriental-rugs-f-pattern--51768/
+      - listitem [ref=f9e1433]:
+        - link "Rectangular rugs" [ref=f9e1434] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/rectangular-rugs-f-shape--44838/
+      - listitem [ref=f9e1436]:
+        - link "Rugs, size 0 - 49 cm" [ref=f9e1437] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/rugs-size-0-49-cm-f-measurement-buckets--WIDTH_0_50/
+      - listitem [ref=f9e1439]:
+        - link "Rugs, size 0 - 99 cm" [ref=f9e1440] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/rugs-size-0-99-cm-f-measurement-buckets--LENGTH_0_100/
+      - listitem [ref=f9e1442]:
+        - link "Rugs, size 100 - 149 cm" [ref=f9e1443] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/rugs-size-100-149-cm-f-measurement-buckets--WIDTH_100_150/
+      - listitem [ref=f9e1445]:
+        - link "Rugs, size 100 - 199 cm" [ref=f9e1446] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/rugs-size-100-199-cm-f-measurement-buckets--LENGTH_100_200/
+      - listitem [ref=f9e1448]:
+        - link "Rugs, size 150 - 199 cm" [ref=f9e1449] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/rugs-size-150-199-cm-f-measurement-buckets--WIDTH_150_200/
+      - listitem [ref=f9e1451]:
+        - link "Rugs, size 200 - 299 cm" [ref=f9e1452] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/rugs-size-200-299-cm-f-measurement-buckets--LENGTH_200_300/
+      - listitem [ref=f9e1454]:
+        - link "Rugs, size 200+ cm" [ref=f9e1455] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/rugs-size-200-cm-f-measurement-buckets--WIDTH_200_9223372036854775807/
+      - listitem [ref=f9e1457]:
+        - link "Rugs, size 300 - 399 cm" [ref=f9e1458] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/rugs-size-300-399-cm-f-measurement-buckets--LENGTH_300_400/
+      - listitem [ref=f9e1460]:
+        - link "Rugs, size 50 - 99 cm" [ref=f9e1461] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/rugs-size-50-99-cm-f-measurement-buckets--WIDTH_50_100/
+      - listitem [ref=f9e1463]:
+        - link "Striped rugs" [ref=f9e1464] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/rugs-10653/f/striped-rugs-f-pattern--48352/
+  - generic [ref=f9e1466]:
+    - generic:
+      - complementary
+    - contentinfo [ref=f9e1467]:
+      - generic [ref=f9e1468]:
+        - heading "Footer" [level=2] [ref=f9e1469]
+        - generic [ref=f9e1470]:
+          - list [ref=f9e1472]:
+            - listitem [ref=f9e1473]:
+              - heading "Useful links" [level=3] [ref=f9e1474]
+              - list "Useful links Brochures IKEA shopping app Planning tools Stores IKEA restaurant IKEA Family" [ref=f9e1475]:
+                - listitem [ref=f9e1476]:
+                  - link "Brochures" [ref=f9e1477] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/brochures/
+                - listitem [ref=f9e1478]:
+                  - link "IKEA shopping app" [ref=f9e1479] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/free-ikea-apps-pubc9ac6ea1/
+                - listitem [ref=f9e1480]:
+                  - link "Planning tools" [ref=f9e1481] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/planners/
+                - listitem [ref=f9e1482]:
+                  - link "Stores" [ref=f9e1483] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/
+                - listitem [ref=f9e1484]:
+                  - link "IKEA restaurant" [ref=f9e1485] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/restaurant/
+                - listitem [ref=f9e1486]:
+                  - link "IKEA Family" [ref=f9e1487] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/ikea-family/
+            - listitem [ref=f9e1488]:
+              - heading "Customer service" [level=3] [ref=f9e1489]
+              - list "Customer service Terms and conditions Guarantees & warranties Spare parts About services About shopping Return policy Contact us FAQ" [ref=f9e1490]:
+                - listitem [ref=f9e1491]:
+                  - link "Terms and conditions" [ref=f9e1492] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+                - listitem [ref=f9e1493]:
+                  - link "Guarantees & warranties" [ref=f9e1494] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/guarantee/
+                - listitem [ref=f9e1495]:
+                  - link "Spare parts" [ref=f9e1496] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/spareparts/
+                - listitem [ref=f9e1497]:
+                  - link "About services" [ref=f9e1498] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/
+                - listitem [ref=f9e1499]:
+                  - link "About shopping" [ref=f9e1500] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/
+                - listitem [ref=f9e1501]:
+                  - link "Return policy" [ref=f9e1502] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/
+                - listitem [ref=f9e1503]:
+                  - link "Contact us" [ref=f9e1504] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/contact-us/
+                - listitem [ref=f9e1505]:
+                  - link "FAQ" [ref=f9e1506] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/faq/
+            - listitem [ref=f9e1507]:
+              - heading "This is IKEA" [level=3] [ref=f9e1508]
+              - list "This is IKEA About IKEA Democratic design Sustainable everyday Community engagement Working at IKEA" [ref=f9e1509]:
+                - listitem [ref=f9e1510]:
+                  - link "About IKEA" [ref=f9e1511] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/
+                - listitem [ref=f9e1512]:
+                  - link "Democratic design" [ref=f9e1513] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/design/
+                - listitem [ref=f9e1514]:
+                  - link "Sustainable everyday" [ref=f9e1515] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/sustainable-everyday/
+                - listitem [ref=f9e1516]:
+                  - link "Community engagement" [ref=f9e1517] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/community-engagement/
+                - listitem [ref=f9e1518]:
+                  - link "Working at IKEA" [ref=f9e1519] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/work-with-us/
+            - listitem [ref=f9e1520]:
+              - heading "General information" [level=3] [ref=f9e1521]
+              - list "General information Newsroom Product recalls" [ref=f9e1522]:
+                - listitem [ref=f9e1523]:
+                  - link "Newsroom" [ref=f9e1524] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/newsroom/
+                - listitem [ref=f9e1525]:
+                  - link "Product recalls" [ref=f9e1526] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/product-support/recalls/
+          - generic [ref=f9e1527]:
+            - generic [ref=f9e1528]:
+              - list [ref=f9e1529]:
+                - listitem [ref=f9e1530]:
+                  - link "Follow IKEA on Facebook" [ref=f9e1531] [cursor=pointer]:
+                    - /url: https://www.facebook.com/IKEAEgypt/
+                - listitem [ref=f9e1534]:
+                  - link "Follow IKEA on Instagram" [ref=f9e1535] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ikeaegypt/
+                - listitem [ref=f9e1538]:
+                  - link "Follow IKEA on Youtube" [ref=f9e1539] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/IKEAegypt
+                - listitem [ref=f9e1542]:
+                  - link "Follow IKEA on X" [ref=f9e1543] [cursor=pointer]:
+                    - /url: https://x.com/IKEAEgypt
+              - list [ref=f9e1546]:
+                - listitem [ref=f9e1547]:
+                  - img "AMEX" [ref=f9e1549]
+                - listitem [ref=f9e1550]:
+                  - img "visa" [ref=f9e1552]
+                - listitem [ref=f9e1553]:
+                  - img "mastercard" [ref=f9e1555]
+            - generic [ref=f9e1556]:
+              - button "Cookie settings" [ref=f9e1558] [cursor=pointer]
+              - button "Change language or country/region, current language is English" [ref=f9e1560] [cursor=pointer]:
+                - generic: EGEnglish
+        - generic [ref=f9e1561]:
+          - paragraph [ref=f9e1563]: © Inter IKEA Systems B.V. 1999-2026
+          - list [ref=f9e1565]:
+            - listitem [ref=f9e1566]:
+              - link "Privacy policy" [ref=f9e1567] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/privacy-policy/
+            - listitem [ref=f9e1568]:
+              - link "Cookie policy" [ref=f9e1569] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/cookie-policy/
+            - listitem [ref=f9e1570]:
+              - link "Terms and conditions" [ref=f9e1571] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+  - region "Cookie consent banner" [active] [ref=f9e1572]:
+    - dialog "Privacy" [ref=f9e1573]:
+      - generic [ref=f9e1575]:
+        - generic [ref=f9e1576]: IKEA.eg and our digital partners use cookies on this site. Some are strictly necessary to run the site and others are used for measuring site usage, enabling personalisation and for advertising, marketing and social media.
+        - generic [ref=f9e1580]:
+          - button "Cookies settings, Opens the preference center dialog" [ref=f9e1581] [cursor=pointer]: Cookies settings
+          - button "Ok" [ref=f9e1582] [cursor=pointer]
+  - dialog [ref=f9e1584]:
+    - generic [ref=f9e1587] [cursor=pointer]:
+      - link [ref=f9e1595]:
+        - /url: https://www.ikea.com/eg/en/search/?group=Sale&filters=f-availability%3AAVAILABLE_ONLINE&sort=MOST_POPULAR
+      - generic [ref=f9e1597]: ×

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-17",
+  "status": "catalog_ready",
+  "galleryPage": "water-heater-gallery.html",
+  "catalogPath": "data/appliances/water_heater_catalog.json",
+  "answers": {
+    "fuel": "electric",
+    "household": "two_people",
+    "preferredCapacityL": [50, 80],
+    "typePrefer": "storage_tank"
+  },
+  "sizeGuide": {
+    "50L": "Default for couple + one main bathroom",
+    "80L": "Buffer if showers often back-to-back",
+    "40L": "Adjacent only — can feel tight",
+    "100L": "Usually more than needed for two"
+  },
+  "scrape": {
+    "sources": ["B.TECH water heaters category", "Amazon.eg 50L and 80L", "Jumia"],
+    "date": "2026-07-17"
+  }
+}

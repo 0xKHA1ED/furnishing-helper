@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TV gallery — ≥50″ · ≤26k · no 4K priority</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/appliances.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">
+            <a href="index.html">← Hub</a> ·
+            <a href="fridge-gallery.html">Fridge</a> ·
+            <a href="washer-gallery.html">Washer</a> ·
+            <a href="carpet-gallery.html">Carpets</a> · TV
+          </p>
+          <h1>TV gallery</h1>
+          <p class="lead">
+            Hard filters: <strong>≥ 50 inches</strong>,
+            <strong>≤ 26,000 EGP</strong>.
+            <strong>4K is not ranked higher</strong>; NanoCell / QLED / OLED are not treated as upgrades.
+            Focus: size, brand service path, built-in receiver when useful, simple LED value.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold" id="count-badge">—</span>
+          <span class="badge">No gimmick priority</span>
+        </div>
+      </header>
+
+      <div class="help-callout" id="disclaimer">Loading…</div>
+
+      <div class="preset-row">
+        <button type="button" data-preset="main" class="active">Main (in budget)</button>
+        <button type="button" data-preset="recommended">Recommended brands</button>
+        <button type="button" data-preset="55">55″+</button>
+        <button type="button" data-preset="65">65″</button>
+        <button type="button" data-preset="simple">Simple LED / FHD</button>
+        <button type="button" data-preset="starred">★ Starred</button>
+        <button type="button" data-preset="excluded">Out of filter</button>
+      </div>
+
+      <div class="gallery-toolbar">
+        <label>Search
+          <input id="f-q" type="search" placeholder="Samsung, Hisense, model…" />
+        </label>
+        <label>Max EGP
+          <input id="f-max" type="number" value="26000" />
+        </label>
+        <label>Min inches
+          <input id="f-inch" type="number" value="50" />
+        </label>
+        <label>Brand
+          <select id="f-brand">
+            <option value="any">Any</option>
+          </select>
+        </label>
+        <label>Sort
+          <select id="f-sort">
+            <option value="rank">Our rank</option>
+            <option value="price_asc">Price ↑</option>
+            <option value="price_desc">Price ↓</option>
+            <option value="size_desc">Size ↓</option>
+          </select>
+        </label>
+        <label>Shop
+          <select id="f-shop">
+            <option value="any">Any</option>
+            <option value="B.TECH">B.TECH</option>
+            <option value="Amazon">Amazon.eg</option>
+            <option value="Jumia">Jumia</option>
+          </select>
+        </label>
+      </div>
+
+      <p class="sticky-count" id="result-count"></p>
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="card" style="margin-top: 1.5rem">
+        <h2>Shopping route</h2>
+        <ol id="route" class="muted"></ol>
+      </div>
+
+      <div class="card" style="margin-top: 1rem">
+        <h2>Excluded examples</h2>
+        <p class="muted" id="excluded-list">—</p>
+      </div>
+
+      <footer class="app-footer">
+        Data: <code>data/appliances/tv_catalog.json</code> ·
+        <code>data/tv-brief.json</code>
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal-backdrop">
+      <div class="modal">
+        <div class="modal-head">
+          <div>
+            <h2 id="modal-title">TV</h2>
+            <p class="muted" id="modal-sub" style="margin: 0.25rem 0 0; font-size: 0.85rem"></p>
+          </div>
+          <button type="button" class="modal-close" id="modal-close">Close</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <img class="main-img" id="modal-main-img" alt="" referrerpolicy="no-referrer" />
+            <div class="ph" id="modal-no-img" style="display: none; color: #9aa6bc; text-align: center; padding: 2rem">
+              No photo
+            </div>
+          </div>
+          <div class="modal-info">
+            <div class="price-lg" id="modal-price"></div>
+            <p class="muted" id="modal-summary" style="margin: 0.5rem 0 0"></p>
+            <div class="pc-grid">
+              <div class="pc-box pros"><h4>Pros</h4><ul id="modal-pros"></ul></div>
+              <div class="pc-box cons"><h4>Cons</h4><ul id="modal-cons"></ul></div>
+            </div>
+            <ul class="spec-list" id="modal-specs"></ul>
+            <div class="btn-row" style="margin-top: 1rem">
+              <button type="button" class="btn ghost" id="modal-star">☆ Star</button>
+              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="toast" class="toast"></div>
+    <script>
+      const STAR_KEY = "egypt-apt-tv-stars-v1";
+      let items = [], data = null, active = null, preset = "main";
+      let stars = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || "[]"));
+      const $ = (s) => document.querySelector(s);
+      const recBrands = new Set(["Samsung", "LG", "Hisense", "Sharp", "Toshiba", "Sony", "Haier"]);
+      function esc(s) {
+        return String(s || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+      function fmt(n) {
+        if (n == null) return "Price varies";
+        return Number(n).toLocaleString() + " EGP";
+      }
+      function list() {
+        const q = ($("#f-q").value || "").toLowerCase();
+        const maxP = Number($("#f-max").value) || 26000;
+        const minI = Number($("#f-inch").value) || 50;
+        const brand = $("#f-brand").value;
+        const shop = $("#f-shop").value;
+        const sort = $("#f-sort").value;
+        let out = items.filter((it) => {
+          if (preset === "starred") return stars.has(it.id);
+          if (preset === "excluded") return !!it.excluded;
+          if (it.excluded) return false;
+          if (it.priceEGP != null && it.priceEGP > maxP) return false;
+          if (it.sizeInches != null && it.sizeInches < minI) return false;
+          if (preset === "recommended") {
+            if (!recBrands.has(it.brand)) return false;
+          }
+          if (preset === "55" && (it.sizeInches || 0) < 55) return false;
+          if (preset === "65" && (it.sizeInches || 0) < 65) return false;
+          if (preset === "simple") {
+            const simplePanel = it.panel === "LED";
+            const simpleRes = it.resolution === "FHD" || it.resolution === "HD" || it.resolution === "unspecified";
+            // also allow 4K LED as "simple enough" if not QLED/Nano
+            if (!simplePanel && it.panel !== "LED") return false;
+            if (it.panel !== "LED") return false;
+          }
+          if (brand !== "any" && it.brand !== brand) return false;
+          if (shop !== "any") {
+            const s = (it.source || "").toLowerCase();
+            if (shop === "B.TECH" && !s.includes("b.tech") && !s.includes("btech")) return false;
+            if (shop === "Amazon" && !s.includes("amazon")) return false;
+            if (shop === "Jumia" && !s.includes("jumia")) return false;
+          }
+          if (q && !`${it.name} ${it.brand}`.toLowerCase().includes(q)) return false;
+          return true;
+        });
+        out.sort((a, b) => {
+          if (sort === "price_asc") return (a.priceEGP || 9e9) - (b.priceEGP || 9e9);
+          if (sort === "price_desc") return (b.priceEGP || 0) - (a.priceEGP || 0);
+          if (sort === "size_desc") return (b.sizeInches || 0) - (a.sizeInches || 0);
+          return (a.rank || 99) - (b.rank || 99);
+        });
+        return out;
+      }
+      function renderGrid() {
+        const rows = list();
+        $("#result-count").textContent = `Showing ${rows.length} · ${stars.size} starred`;
+        $("#product-grid").innerHTML = rows
+          .map((it) => {
+            const img = it.imageUrl
+              ? `<img src="${esc(it.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
+              : `<div class="ph">No image</div>`;
+            const rec = (data.recommendedIds || []).includes(it.id);
+            return `<article class="product-card ${stars.has(it.id) ? "starred" : ""}" data-id="${esc(it.id)}">
+              <div class="thumb">${img}
+                <div class="badge-abs">
+                  ${it.rank && it.rank < 200 ? `<span class="chip-mini hot">#${it.rank}</span>` : ""}
+                  ${rec ? `<span class="chip-mini">rec</span>` : ""}
+                  <span class="chip-mini">${it.sizeInches || "?"}″</span>
+                </div>
+                <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
+              </div>
+              <div class="body">
+                <div class="brand">${esc(it.brand)} · ${esc(it.panel)} · ${esc(it.resolution)}</div>
+                <h3>${esc(it.name)}</h3>
+                <div class="meta">${esc(it.source || "")}</div>
+                <div class="price">${fmt(it.priceEGP)}</div>
+              </div>
+            </article>`;
+          })
+          .join("");
+        document.querySelectorAll(".product-card").forEach((c) => {
+          c.addEventListener("click", (e) => {
+            if (e.target.closest("[data-star]")) return;
+            openModal(c.dataset.id);
+          });
+        });
+        document.querySelectorAll("[data-star]").forEach((b) => {
+          b.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const id = b.dataset.star;
+            if (stars.has(id)) stars.delete(id);
+            else stars.add(id);
+            localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+            renderGrid();
+          });
+        });
+      }
+      function openModal(id) {
+        active = items.find((i) => i.id === id);
+        if (!active) return;
+        $("#modal-backdrop").classList.add("open");
+        $("#modal-title").textContent = active.name;
+        $("#modal-sub").textContent = `${active.brand} · ${active.sizeInches || "?"}″ · ${active.panel} · ${active.resolution}`;
+        $("#modal-price").textContent = fmt(active.priceEGP);
+        $("#modal-summary").textContent = active.summary || "";
+        if (active.imageUrl) {
+          $("#modal-main-img").src = active.imageUrl;
+          $("#modal-main-img").style.display = "block";
+          $("#modal-no-img").style.display = "none";
+        } else {
+          $("#modal-main-img").style.display = "none";
+          $("#modal-no-img").style.display = "block";
+        }
+        $("#modal-pros").innerHTML = (active.pros || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        $("#modal-cons").innerHTML = (active.cons || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        const specs = [
+          ["Size", active.sizeInches ? active.sizeInches + " inches" : "—"],
+          ["Panel", active.panel],
+          ["Resolution", active.resolution],
+          ["Brand", active.brand],
+          ["Shop", active.source],
+          ["Budget fit", active.priceEGP != null && active.priceEGP <= 26000 ? "≤ 26k" : "check"],
+        ];
+        $("#modal-specs").innerHTML = specs
+          .map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v || "—"))}</span></li>`)
+          .join("");
+        $("#modal-link").href = active.url || "#";
+        $("#modal-star").textContent = stars.has(active.id) ? "★ Starred" : "☆ Star";
+      }
+      async function init() {
+        try {
+          data = await (await fetch("data/appliances/tv_catalog.json")).json();
+          items = data.items || [];
+          const n = items.filter((i) => !i.excluded).length;
+          $("#count-badge").textContent = `${n} in budget`;
+          $("#disclaimer").textContent = data.disclaimer || "";
+          $("#route").innerHTML = (data.shoppingRoute || []).map((s) => `<li>${esc(s)}</li>`).join("");
+          const ex = data.excludedExamples || [];
+          $("#excluded-list").textContent = ex.length
+            ? ex.slice(0, 12).map((e) => `${e.name} (${e.price || "?"} EGP, ${e.sizeInches || "?"}″) — ${e.reason}`).join(" · ")
+            : "—";
+          const brands = [...new Set(items.filter((i) => !i.excluded).map((i) => i.brand))].sort();
+          $("#f-brand").innerHTML =
+            `<option value="any">Any</option>` + brands.map((b) => `<option value="${esc(b)}">${esc(b)}</option>`).join("");
+          renderGrid();
+        } catch {
+          $("#disclaimer").innerHTML =
+            "Run <code>python -m http.server 8765</code> → http://localhost:8765/tv-gallery.html";
+        }
+        document.querySelectorAll(".preset-row button[data-preset]").forEach((b) => {
+          b.addEventListener("click", () => {
+            document.querySelectorAll(".preset-row button[data-preset]").forEach((x) => x.classList.remove("active"));
+            b.classList.add("active");
+            preset = b.dataset.preset;
+            renderGrid();
+          });
+        });
+        ["f-q", "f-max", "f-inch", "f-brand", "f-sort", "f-shop"].forEach((id) => {
+          $(`#${id}`).addEventListener("input", renderGrid);
+          $(`#${id}`).addEventListener("change", renderGrid);
+        });
+        $("#modal-close").onclick = () => $("#modal-backdrop").classList.remove("open");
+        $("#modal-backdrop").addEventListener("click", (e) => {
+          if (e.target.id === "modal-backdrop") $("#modal-backdrop").classList.remove("open");
+        });
+        $("#modal-star").onclick = () => {
+          if (!active) return;
+          if (stars.has(active.id)) stars.delete(active.id);
+          else stars.add(active.id);
+          localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+          openModal(active.id);
+          renderGrid();
+        };
+      }
+      init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+[    1121ms] TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.
+    at y (https://www.ikea.com/eg/en/cookieconsent/scripts/cookieconsent-onetrust-js.js?v=mpqkvzo3:1:1060)
+    at A.i.onload (https://www.ikea.com/eg/en/cookieconsent/scripts/cookieconsent-onetrust-js.js?v=mpqkvzo3:1:2120)
+[    1376ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'prototype')
+    at r (https://www.ikea.com/eg/en/javascripts/main.e5a9886d5c92168391aa.js:1:190)
+    at https://www.ikea.com/eg/en/javascripts/main.e5a9886d5c92168391aa.js:1:46163 @ https://www.ikea.com/eg/en/javascripts/main.e5a9886d5c92168391aa.js:0
+[    1401ms] ReferenceError: _satellite is not defined
+    at Object.initPageBottom (https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:2094)
+    at Object.init (https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:1588)
+    at https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:3056
+    at https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:3064
+[    6402ms] [LOG] secondary key value eg_en @ https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1
+[   13279ms] [LOG] ERROR: Function not defined! @ :1
+[   13383ms] [WARNING] CarouselAnswerListFieldset not found - revealing without sync @ :1053

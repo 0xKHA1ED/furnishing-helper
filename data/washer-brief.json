@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "lastUpdated": "2026-07-17",
+  "status": "ready_to_buy_tomorrow",
+  "galleryPage": "washer-gallery.html",
+  "catalogPath": "data/appliances/washer_catalog.json",
+  "filters": {
+    "loading": "top_load",
+    "automation": "full_auto",
+    "color": "all_colors_included_black_filter_in_ui",
+    "capacityKg": [7, 9],
+    "adjacentCapacityKg": [11, 13]
+  },
+  "marketFinding": "B.TECH has very few black fully-auto top-load washers in true 7-9 kg; most black inventory is 11-20 kg. Main shortlist is 3 models; adjacent list for size flex.",
+  "researchBatch2": {
+    "status": "completed_wave2_buy_tomorrow",
+    "completedAt": "2026-07-17",
+    "reportPath": "notes/research/fridge-washer-second-pass-2026-07-17.md",
+    "retailersChecked": ["B.TECH", "Amazon.eg", "Jumia", "2B"],
+    "livePricesEGP": {
+      "sharp_ES_TN09GDSP_9_black": { "B.TECH": 13549, "Amazon": 13500 },
+      "fresh_FTM_09F12B_9_black": { "B.TECH": 12999, "Jumia": 13500 },
+      "lg_T1388NEHGB_13_black_inv": { "B.TECH": 19490 },
+      "sharp_ES_TD11GBKP_11_black_inv": { "B.TECH": 22931, "Jumia": 18990 },
+      "lg_T11V1TEHGX_11_black": { "Jumia": 17500 }
+    }
+  },
+  "workingRecommendation": {
+    "strict_7_9_black": "Sharp ES-TN09GDSP 9kg black ~13.5k — still #1 when black preferred",
+    "strict_7_9_any_color": "Toshiba AW-M801 / AW-J900 silver ~9.7–12.4k strong value if color flex",
+    "value_black": "Fresh FTM-09F12B 9kg black ~13k",
+    "if_flex_size_for_inverter": "LG 13kg black inverter T1388 ~19.5k or Toshiba 13kg silver inv ~18.2k",
+    "ui": "washer-gallery.html — Black only preset + Color dropdown"
+  },
+  "expandPass": {
+    "completedAt": "2026-07-17",
+    "retailer": "B.TECH only",
+    "total": 87,
+    "main79": 19,
+    "adjacent1013": 52,
+    "oversized1415": 16,
+    "black": 20,
+    "inverter": 23,
+    "note": "Deep top-load category scrape (~138 sitewide); 87 full-auto 7–15kg kept. Gallery defaults to All."
+  }
+}

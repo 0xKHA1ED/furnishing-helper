@@ -1,0 +1,1029 @@
+- generic [ref=e2]:
+  - link [ref=e5] [cursor=pointer]:
+    - /url: https://www.jumia.com.eg/flash-sales/
+    - img "Desktop - Flash Sale" [ref=e6]
+  - generic [ref=e7]:
+    - link "Sell on Jumia" [ref=e9] [cursor=pointer]:
+      - /url: /sp-sell-on-jumia/
+    - generic [ref=e12]:
+      - generic "Jumia" [ref=e13]
+      - link "Jumia Pay" [ref=e16] [cursor=pointer]:
+        - /url: https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar
+    - generic [ref=e19]:
+      - generic [ref=e20]: English
+      - link [ref=e24] [cursor=pointer]:
+        - /url: /ar/catalog/?q=electric+water+heater+50
+  - banner [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - checkbox "Navigate Categories" [ref=e32]
+        - link [ref=e37] [cursor=pointer]:
+          - /url: /
+          - img "Start Online Shopping For Fashion, Electronics & More - Discover Your Onlinestore | Jumia Egypt" [ref=e38]
+      - generic [ref=e40]:
+        - search [ref=e41]:
+          - textbox "Search" [ref=e44]:
+            - /placeholder: Search products, brands and categories
+            - text: electric water heater 50
+          - button "Reset" [ref=e45]
+          - button "Search" [ref=e48] [cursor=pointer]
+        - button [ref=e49] [cursor=pointer]:
+          - img "header_ai_assistant-cta" [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - checkbox "Account" [ref=e53]
+          - generic [ref=e54] [cursor=pointer]: Account
+        - generic [ref=e61]:
+          - checkbox "Help" [ref=e62]
+          - generic [ref=e63] [cursor=pointer]: Help
+        - link "Cart" [ref=e70] [cursor=pointer]:
+          - /url: /cart/
+  - article [ref=e74]:
+    - heading "This website uses cookies" [level=2] [ref=e75]
+    - paragraph [ref=e76]:
+      - text: This website uses cookies. For further information on how we use cookies you can read our
+      - link "Privacy and Cookie notice" [ref=e77] [cursor=pointer]:
+        - /url: /sp-privacy/
+    - button "Accept cookies" [ref=e78] [cursor=pointer]
+  - main [ref=e80]:
+    - generic [ref=e82]:
+      - link "Home>" [ref=e83] [cursor=pointer]:
+        - /url: /
+      - link "All Products>" [ref=e84] [cursor=pointer]:
+        - /url: /all-products/
+      - text: electric water heater 50
+    - generic [ref=e85]:
+      - generic [ref=e87]:
+        - article [ref=e88]:
+          - heading "Category" [level=2] [ref=e89]
+          - link "Home & Office" [ref=e90] [cursor=pointer]:
+            - /url: /home-office/?q=electric+water+heater+50#catalog-listing
+          - link "Automobile" [ref=e91] [cursor=pointer]:
+            - /url: /automobile/?q=electric+water+heater+50#catalog-listing
+        - article [ref=e92]:
+          - heading "Express Delivery" [level=2] [ref=e94]
+          - generic [ref=e96]:
+            - link "Jumia Express" [ref=e97] [cursor=pointer]:
+              - /url: /catalog/?q=electric+water+heater+50&shop_premium_services=shop_express#catalog-listing
+            - button "Details" [ref=e100] [cursor=pointer]
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - heading "Price (EGP)" [level=2] [ref=e105]
+            - button "Apply" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - slider "Min": "3040"
+            - slider "Max": "50000"
+          - generic [ref=e109]:
+            - spinbutton "Min" [ref=e111]: "3040"
+            - generic [ref=e112]: "-"
+            - spinbutton "Max" [ref=e114]: "50000"
+        - article [ref=e115]:
+          - heading "Discount Percentage" [level=2] [ref=e117]
+          - link "50% or more" [ref=e119] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&price_discount=50-100#catalog-listing
+          - link "40% or more" [ref=e121] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&price_discount=40-100#catalog-listing
+          - link "30% or more" [ref=e123] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&price_discount=30-100#catalog-listing
+          - link "20% or more" [ref=e125] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&price_discount=20-100#catalog-listing
+          - link "10% or more" [ref=e127] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&price_discount=10-100#catalog-listing
+        - article [ref=e128]:
+          - heading "Brand" [level=2] [ref=e130]
+          - generic [ref=e131]:
+            - link "Ariston" [ref=e132] [cursor=pointer]:
+              - /url: /ariston/?q=electric+water+heater+50#catalog-listing
+            - link "Atlantic" [ref=e133] [cursor=pointer]:
+              - /url: /atlantic/?q=electric+water+heater+50#catalog-listing
+            - link "Castle" [ref=e134] [cursor=pointer]:
+              - /url: /castle/?q=electric+water+heater+50#catalog-listing
+            - link "Ferroli" [ref=e135] [cursor=pointer]:
+              - /url: /ferroli/?q=electric+water+heater+50#catalog-listing
+            - link "Fresh" [ref=e136] [cursor=pointer]:
+              - /url: /fresh/?q=electric+water+heater+50#catalog-listing
+            - link "Freshie" [ref=e137] [cursor=pointer]:
+              - /url: /freshie/?q=electric+water+heater+50#catalog-listing
+            - link "Levon" [ref=e138] [cursor=pointer]:
+              - /url: /levon/?q=electric+water+heater+50#catalog-listing
+            - link "Olympic" [ref=e139] [cursor=pointer]:
+              - /url: /olympic/?q=electric+water+heater+50#catalog-listing
+            - link "Unionaire" [ref=e140] [cursor=pointer]:
+              - /url: /unionaire/?q=electric+water+heater+50#catalog-listing
+            - link "Zanussi" [ref=e141] [cursor=pointer]:
+              - /url: /zanussi/?q=electric+water+heater+50#catalog-listing
+        - article [ref=e142]:
+          - heading "Official Stores" [level=2] [ref=e144]
+          - link "Only Official Store" [ref=e146] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&official_store=1#catalog-listing
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - paragraph [ref=e151]: (82 products found)
+            - generic [ref=e152]:
+              - checkbox "Popularity" [ref=e153]
+              - generic [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]: "Sort by:"
+                - generic [ref=e156]: Popularity
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - generic [ref=e161]: "Related results:"
+              - link "electric log heater" [ref=e163] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-log-heater
+              - link "mechanical control heater" [ref=e165] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mechanical-control-heater
+              - link "electric heater silver" [ref=e167] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-heater-silver
+              - link "digital electric heater" [ref=e169] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/digital-electric-heater
+              - link "hookah heater electric" [ref=e171] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/hookah-heater-electric
+              - link "halogen heater grey" [ref=e173] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/halogen-heater-grey
+              - link "halogen heater black" [ref=e175] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/halogen-heater-black
+              - link "black water heater" [ref=e177] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/black-water-heater
+              - link "electric water heater" [ref=e179] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-water-heater
+              - link "electric 50 liter" [ref=e181] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-50-liter
+              - link "black gas heater" [ref=e183] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/black-gas-heater
+              - link "electric shock wristband" [ref=e185] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-shock-wristband
+              - link "electric stove white" [ref=e187] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-stove-white
+              - link "electric stove silver" [ref=e189] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-stove-silver
+              - link "multicolour electric cooker" [ref=e191] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/multicolour-electric-cooker
+              - link "waterproof electric shaver" [ref=e193] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/waterproof-electric-shaver
+              - link "electric bakhoor burner" [ref=e195] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-bakhoor-burner
+              - link "halogen heater multi" [ref=e197] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/halogen-heater-multi
+              - link "electric car charger" [ref=e199] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-car-charger
+              - link "quartz heater red" [ref=e201] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/quartz-heater-red
+              - link "electrical tape yellow" [ref=e203] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electrical-tape-yellow
+              - link "print 50x70" [ref=e205] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/print-50x70
+              - link "toddler electric pink" [ref=e207] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/toddler-electric-pink
+              - link "bionime 50 strips" [ref=e209] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/bionime-50-strips
+              - link "electric motorcycle chopper" [ref=e211] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-motorcycle-chopper
+              - link "room electric kettle" [ref=e213] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/room-electric-kettle
+              - link "7 oils 50ml" [ref=e215] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/7-oils-50ml
+              - link "electric kettle" [ref=e217] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-kettle
+              - link "r50i true wireless" [ref=e219] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/r50i-true-wireless
+              - link "antibacterial wipes 50" [ref=e221] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/antibacterial-wipes-50
+              - link "white water heater" [ref=e223] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/white-water-heater
+              - link "electric water heater 80 liter" [ref=e225] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/electric-water-heater-80-liter
+              - link "freshie electric 50 liter" [ref=e227] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/freshie-electric-50-liter
+              - link "gas hot water heater 50 gallon" [ref=e229] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/gas-hot-water-heater-50-gallon
+              - link "wall hung tankless water heater" [ref=e231] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/wall-hung-tankless-water-heater
+              - link "water heater with warranty" [ref=e233] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/water-heater-with-warranty
+              - link "digital touch water heater" [ref=e235] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/digital-touch-water-heater
+              - link "vevor electric mini tank water heater" [ref=e237] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/vevor-electric-mini-tank-water-heater
+              - link "water heater gas 40 gallon" [ref=e239] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/water-heater-gas-40-gallon
+              - link "instant water heater 8 5 kw" [ref=e241] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/instant-water-heater-8-5-kw
+              - link "kitchen instant water heater" [ref=e243] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/kitchen-instant-water-heater
+              - link "water heater e2f50rd045v heating element" [ref=e245] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/water-heater-e2f50rd045v-heating-element
+              - link "gallon gas fired water heater" [ref=e247] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/gallon-gas-fired-water-heater
+              - link "camco 02412 water heater element" [ref=e249] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/camco-02412-water-heater-element
+              - link "water vapor fireplace with heater" [ref=e251] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/water-vapor-fireplace-with-heater
+            - button "previous" [ref=e252]
+            - button "next" [ref=e255] [cursor=pointer]
+        - generic [ref=e258]:
+          - link [ref=e259] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&shop_premium_services=shop_express#catalog-listing
+            - img "Jumia Express" [ref=e260]
+          - generic [ref=e262]:
+            - checkbox "Brand" [ref=e263]
+            - generic [ref=e264] [cursor=pointer]: Brand
+          - generic [ref=e268]:
+            - checkbox "Price" [ref=e269]
+            - generic [ref=e270] [cursor=pointer]: Price
+        - generic [ref=e274]:
+          - article [ref=e275]:
+            - button [ref=e276] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e277]
+            - link "Fresh Electric Water Heater Relax 50 Liters Fresh Electric Water Heater Relax 50 Liters EGP 3,050.00 EGP 3,899.00 - 22% 3.8 out of 5 (24) Express Shipping" [ref=e279] [cursor=pointer]:
+              - /url: /fresh-electric-water-heater-relax-50-liters-133987534.html
+              - img "Fresh Electric Water Heater Relax 50 Liters" [ref=e281]
+              - generic [ref=e282]:
+                - heading "Fresh Electric Water Heater Relax 50 Liters" [level=3] [ref=e283]
+                - generic [ref=e284]: EGP 3,050.00
+                - generic [ref=e285]:
+                  - generic [ref=e286]: EGP 3,899.00
+                  - generic [ref=e287]: "- 22%"
+                - generic [ref=e288]:
+                  - generic [ref=e289]: 3.8 out of 5
+                  - text: (24)
+                - img "Express Shipping" [ref=e291]
+          - article [ref=e295]:
+            - button [ref=e296] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e297]
+            - link "Olympic Electric Hero Water Heater 50 Liters,White-945105411 Olympic Electric Hero Water Heater 50 Liters,White-945105411 EGP 4,027.00 EGP 5,000.00 - 20% 3.1 out of 5 (8)" [ref=e299] [cursor=pointer]:
+              - /url: /olympic-electric-hero-water-heater-50-literswhite-945105411-133933977.html
+              - img "Olympic Electric Hero Water Heater 50 Liters,White-945105411" [ref=e301]
+              - generic [ref=e302]:
+                - heading "Olympic Electric Hero Water Heater 50 Liters,White-945105411" [level=3] [ref=e303]
+                - generic [ref=e304]: EGP 4,027.00
+                - generic [ref=e305]:
+                  - generic [ref=e306]: EGP 5,000.00
+                  - generic [ref=e307]: "- 20%"
+                - generic [ref=e308]:
+                  - generic [ref=e309]: 3.1 out of 5
+                  - text: (8)
+          - article [ref=e313]:
+            - button [ref=e314] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e315]
+            - link "Olympic Hero Mechanical Electric Water Heater, 50 Liter Capacity, OYE05061WN Olympic Hero Mechanical Electric Water Heater, 50 Liter Capacity, OYE05061WN EGP 3,999.00 EGP 4,695.90 - 15% 5 out of 5 (4)" [ref=e317] [cursor=pointer]:
+              - /url: /olympic-hero-mechanical-electric-water-heater-50-liter-capacity-oye05061wn-134175317.html
+              - img "Olympic Hero Mechanical Electric Water Heater, 50 Liter Capacity, OYE05061WN" [ref=e319]
+              - generic [ref=e320]:
+                - heading "Olympic Hero Mechanical Electric Water Heater, 50 Liter Capacity, OYE05061WN" [level=3] [ref=e321]
+                - generic [ref=e322]: EGP 3,999.00
+                - generic [ref=e323]:
+                  - generic [ref=e324]: EGP 4,695.90
+                  - generic [ref=e325]: "- 15%"
+                - generic [ref=e326]:
+                  - generic [ref=e327]: 5 out of 5
+                  - text: (4)
+          - article [ref=e331]:
+            - button [ref=e332] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e333]
+            - link "Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG EGP 4,099.00 EGP 5,500.00 - 26% 3.3 out of 5 (7)" [ref=e335] [cursor=pointer]:
+              - /url: /ariston-electric-water-heater-50-liters-white-rubis-pro-50-v-eg-132775265.html
+              - img "Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG" [ref=e337]
+              - generic [ref=e338]:
+                - heading "Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG" [level=3] [ref=e339]
+                - generic [ref=e340]: EGP 4,099.00
+                - generic [ref=e341]:
+                  - generic [ref=e342]: EGP 5,500.00
+                  - generic [ref=e343]: "- 26%"
+                - generic [ref=e344]:
+                  - generic [ref=e345]: 3.3 out of 5
+                  - text: (7)
+          - article [ref=e349]:
+            - button [ref=e350] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e351]
+            - link "Fresh Electric Water Heater - 50 L Fresh Electric Water Heater - 50 L EGP 3,262.00 4.6 out of 5 (15)" [ref=e353] [cursor=pointer]:
+              - /url: /fresh-electric-water-heater-50-l-30404588.html
+              - img "Fresh Electric Water Heater - 50 L" [ref=e355]
+              - generic [ref=e356]:
+                - heading "Fresh Electric Water Heater - 50 L" [level=3] [ref=e357]
+                - generic [ref=e358]: EGP 3,262.00
+                - generic [ref=e359]:
+                  - generic [ref=e360]: 4.6 out of 5
+                  - text: (15)
+          - article [ref=e364]:
+            - button [ref=e365] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e366]
+            - link "Ariston Andris Electric Water Heater, 50 Liters, White - RUBIS PRO 50 V EG Ariston Andris Electric Water Heater, 50 Liters, White - RUBIS PRO 50 V EG EGP 3,739.00" [ref=e368] [cursor=pointer]:
+              - /url: /ariston-andris-electric-water-heater-50-liters-white-rubis-pro-50-v-eg-130264711.html
+              - img "Ariston Andris Electric Water Heater, 50 Liters, White - RUBIS PRO 50 V EG" [ref=e370]
+              - generic [ref=e371]:
+                - heading "Ariston Andris Electric Water Heater, 50 Liters, White - RUBIS PRO 50 V EG" [level=3] [ref=e372]
+                - generic [ref=e373]: EGP 3,739.00
+          - article [ref=e376]:
+            - button [ref=e377] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e378]
+            - link "Unionaire Signature Digital Electric Water Heater 50 Liters - White - EWH50C310VPR3 Unionaire Signature Digital Electric Water Heater 50 Liters - White - EWH50C310VPR3 EGP 3,249.00 EGP 4,999.00 - 35% 5 out of 5 (1)" [ref=e380] [cursor=pointer]:
+              - /url: /unionaire-signature-digital-electric-water-heater-50-liters-white-ewh50c310vpr3-134026439.html
+              - img "Unionaire Signature Digital Electric Water Heater 50 Liters - White - EWH50C310VPR3" [ref=e382]
+              - generic [ref=e383]:
+                - heading "Unionaire Signature Digital Electric Water Heater 50 Liters - White - EWH50C310VPR3" [level=3] [ref=e384]
+                - generic [ref=e385]: EGP 3,249.00
+                - generic [ref=e386]:
+                  - generic [ref=e387]: EGP 4,999.00
+                  - generic [ref=e388]: "- 35%"
+                - generic [ref=e389]:
+                  - generic [ref=e390]: 5 out of 5
+                  - text: (1)
+          - article [ref=e394]:
+            - button [ref=e395] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e396]
+            - link "Fresh Electric Water Heater Relax 50 Liters Fresh Electric Water Heater Relax 50 Liters EGP 3,203.00 EGP 3,999.00 - 20% 2.5 out of 5 (2)" [ref=e398] [cursor=pointer]:
+              - /url: /fresh-electric-water-heater-relax-50-liters-134082308.html
+              - img "Fresh Electric Water Heater Relax 50 Liters" [ref=e400]
+              - generic [ref=e401]:
+                - heading "Fresh Electric Water Heater Relax 50 Liters" [level=3] [ref=e402]
+                - generic [ref=e403]: EGP 3,203.00
+                - generic [ref=e404]:
+                  - generic [ref=e405]: EGP 3,999.00
+                  - generic [ref=e406]: "- 20%"
+                - generic [ref=e407]:
+                  - generic [ref=e408]: 2.5 out of 5
+                  - text: (2)
+          - article [ref=e412]:
+            - button [ref=e413] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e414]
+            - link "Fresh Electric Water Heater - 50 L Fresh Electric Water Heater - 50 L EGP 3,200.00" [ref=e416] [cursor=pointer]:
+              - /url: /fresh-electric-water-heater-50-l-134516931.html
+              - img "Fresh Electric Water Heater - 50 L" [ref=e418]
+              - generic [ref=e419]:
+                - heading "Fresh Electric Water Heater - 50 L" [level=3] [ref=e420]
+                - generic [ref=e421]: EGP 3,200.00
+          - article [ref=e424]:
+            - button [ref=e425] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e426]
+            - link "Ariston Electric Water Heater, 50 Liters, White - RUBIS PRO 50 V EG Ariston Electric Water Heater, 50 Liters, White - RUBIS PRO 50 V EG EGP 3,850.00 EGP 6,593.50 - 42%" [ref=e428] [cursor=pointer]:
+              - /url: /ariston-electric-water-heater-50-liters-white-rubis-pro-50-v-eg-134221461.html
+              - img "Ariston Electric Water Heater, 50 Liters, White - RUBIS PRO 50 V EG" [ref=e430]
+              - generic [ref=e431]:
+                - heading "Ariston Electric Water Heater, 50 Liters, White - RUBIS PRO 50 V EG" [level=3] [ref=e432]
+                - generic [ref=e433]: EGP 3,850.00
+                - generic [ref=e434]:
+                  - generic [ref=e435]: EGP 6,593.50
+                  - generic [ref=e436]: "- 42%"
+          - article [ref=e439]:
+            - button [ref=e440] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e441]
+            - link "Olympic Electric Mechanical Water Heater - 50 Litre - White Olympic Electric Mechanical Water Heater - 50 Litre - White EGP 4,399.00 EGP 4,999.00 - 12% 4.5 out of 5 (6)" [ref=e443] [cursor=pointer]:
+              - /url: /olympic-electric-mechanical-water-heater-50-litre-white-29673522.html
+              - img "Olympic Electric Mechanical Water Heater - 50 Litre - White" [ref=e445]
+              - generic [ref=e446]:
+                - heading "Olympic Electric Mechanical Water Heater - 50 Litre - White" [level=3] [ref=e447]
+                - generic [ref=e448]: EGP 4,399.00
+                - generic [ref=e449]:
+                  - generic [ref=e450]: EGP 4,999.00
+                  - generic [ref=e451]: "- 12%"
+                - generic [ref=e452]:
+                  - generic [ref=e453]: 4.5 out of 5
+                  - text: (6)
+          - article [ref=e457]:
+            - button [ref=e458] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e459]
+            - link "Fresh Electric Water Heater - 50 L Fresh Electric Water Heater - 50 L EGP 3,333.00 EGP 4,398.90 - 24% 4.4 out of 5 (87)" [ref=e461] [cursor=pointer]:
+              - /url: /fresh-electric-water-heater-50-l-36035446.html
+              - img "Fresh Electric Water Heater - 50 L" [ref=e463]
+              - generic [ref=e464]:
+                - heading "Fresh Electric Water Heater - 50 L" [level=3] [ref=e465]
+                - generic [ref=e466]: EGP 3,333.00
+                - generic [ref=e467]:
+                  - generic [ref=e468]: EGP 4,398.90
+                  - generic [ref=e469]: "- 24%"
+                - generic [ref=e470]:
+                  - generic [ref=e471]: 4.4 out of 5
+                  - text: (87)
+          - article [ref=e475]:
+            - button [ref=e476] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e477]
+            - link "Olympic Electric water heater, 50 liters, digital, turbo - white Olympic Electric water heater, 50 liters, digital, turbo - white EGP 4,750.00 EGP 5,100.00 - 7% 2 offers from EGP 4,750.00 3.7 out of 5 (3)" [ref=e479] [cursor=pointer]:
+              - /url: /electric-water-heater-50-liters-digital-turbo-white-olympic-mpg3899455.html
+              - img "Olympic Electric water heater, 50 liters, digital, turbo - white" [ref=e481]
+              - generic [ref=e482]:
+                - heading "Olympic Electric water heater, 50 liters, digital, turbo - white" [level=3] [ref=e483]
+                - generic [ref=e484]: EGP 4,750.00
+                - generic [ref=e485]:
+                  - generic [ref=e486]: EGP 5,100.00
+                  - generic [ref=e487]: "- 7%"
+                - paragraph [ref=e488]: 2 offers from EGP 4,750.00
+                - generic [ref=e489]:
+                  - generic [ref=e490]: 3.7 out of 5
+                  - text: (3)
+          - article [ref=e494]:
+            - button [ref=e495] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e496]
+            - link "Olympic Electric/Mechanical Water Heater, 50 Liters, White - 945105411 Olympic Electric/Mechanical Water Heater, 50 Liters, White - 945105411 EGP 4,000.00 EGP 4,800.00 - 17%" [ref=e498] [cursor=pointer]:
+              - /url: /olympic-electricmechanical-water-heater-50-liters-white-945105411-134058243.html
+              - img "Olympic Electric/Mechanical Water Heater, 50 Liters, White - 945105411" [ref=e500]
+              - generic [ref=e501]:
+                - heading "Olympic Electric/Mechanical Water Heater, 50 Liters, White - 945105411" [level=3] [ref=e502]
+                - generic [ref=e503]: EGP 4,000.00
+                - generic [ref=e504]:
+                  - generic [ref=e505]: EGP 4,800.00
+                  - generic [ref=e506]: "- 17%"
+          - article [ref=e509]:
+            - button [ref=e510] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e511]
+            - link "Fresh Electric Water Heater - 50 L RELAX Fresh Electric Water Heater - 50 L RELAX EGP 3,434.00 EGP 3,999.00 - 14% 5 out of 5 (2)" [ref=e513] [cursor=pointer]:
+              - /url: /fresh-electric-water-heater-50-l-relax-53230171.html
+              - img "Fresh Electric Water Heater - 50 L RELAX" [ref=e515]
+              - generic [ref=e516]:
+                - heading "Fresh Electric Water Heater - 50 L RELAX" [level=3] [ref=e517]
+                - generic [ref=e518]: EGP 3,434.00
+                - generic [ref=e519]:
+                  - generic [ref=e520]: EGP 3,999.00
+                  - generic [ref=e521]: "- 14%"
+                - generic [ref=e522]:
+                  - generic [ref=e523]: 5 out of 5
+                  - text: (2)
+          - article [ref=e527]:
+            - button [ref=e528] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e529]
+            - link "Zanussi Electric Heater 50 Liters Digital / Termo Plus ZYE05031WN-422 Zanussi Electric Heater 50 Liters Digital / Termo Plus ZYE05031WN-422 EGP 4,815.00 EGP 6,000.00 - 20% 4.3 out of 5 (3)" [ref=e531] [cursor=pointer]:
+              - /url: /zanussi-electric-heater-50-liters-digital-termo-plus-zye05031wn-422-53891857.html
+              - img "Zanussi Electric Heater 50 Liters Digital / Termo Plus ZYE05031WN-422" [ref=e533]
+              - generic [ref=e534]:
+                - heading "Zanussi Electric Heater 50 Liters Digital / Termo Plus ZYE05031WN-422" [level=3] [ref=e535]
+                - generic [ref=e536]: EGP 4,815.00
+                - generic [ref=e537]:
+                  - generic [ref=e538]: EGP 6,000.00
+                  - generic [ref=e539]: "- 20%"
+                - generic [ref=e540]:
+                  - generic [ref=e541]: 4.3 out of 5
+                  - text: (3)
+          - article [ref=e545]:
+            - button [ref=e546] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e547]
+            - link "Ariston Electric Water Heater 50 Liters – Vertical – White (RUBIS PRO 50 V EG) Ariston Electric Water Heater 50 Liters – Vertical – White (RUBIS PRO 50 V EG) EGP 4,903.00" [ref=e549] [cursor=pointer]:
+              - /url: /ariston-electric-water-heater-50-liters-vertical-white-rubis-pro-50-v-eg-134660568.html
+              - img "Ariston Electric Water Heater 50 Liters – Vertical – White (RUBIS PRO 50 V EG)" [ref=e551]
+              - generic [ref=e552]:
+                - heading "Ariston Electric Water Heater 50 Liters – Vertical – White (RUBIS PRO 50 V EG)" [level=3] [ref=e553]
+                - generic [ref=e554]: EGP 4,903.00
+          - article [ref=e557]:
+            - button [ref=e558] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e559]
+            - link "Ariston Electric Water Heater ECO ENERGY SAVING - PRO1 ECO 50 V Ariston Electric Water Heater ECO ENERGY SAVING - PRO1 ECO 50 V EGP 13,000.00 5 out of 5 (1)" [ref=e561] [cursor=pointer]:
+              - /url: /ariston-electric-water-heater-eco-energy-saving-pro1-eco-50-v-131436089.html
+              - img "Ariston Electric Water Heater ECO ENERGY SAVING - PRO1 ECO 50 V" [ref=e563]
+              - generic [ref=e564]:
+                - heading "Ariston Electric Water Heater ECO ENERGY SAVING - PRO1 ECO 50 V" [level=3] [ref=e565]
+                - generic [ref=e566]: EGP 13,000.00
+                - generic [ref=e567]:
+                  - generic [ref=e568]: 5 out of 5
+                  - text: (1)
+          - article [ref=e572]:
+            - button [ref=e573] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e574]
+            - link "Ariston Electric Water Heater 50 Liter White - PRO ECO 50 V Ariston Electric Water Heater 50 Liter White - PRO ECO 50 V EGP 7,999.00 EGP 9,999.00 - 20%" [ref=e576] [cursor=pointer]:
+              - /url: /ariston-electric-water-heater-50-liter-white-pro-eco-50-v-133746674.html
+              - img "Ariston Electric Water Heater 50 Liter White - PRO ECO 50 V" [ref=e578]
+              - generic [ref=e579]:
+                - heading "Ariston Electric Water Heater 50 Liter White - PRO ECO 50 V" [level=3] [ref=e580]
+                - generic [ref=e581]: EGP 7,999.00
+                - generic [ref=e582]:
+                  - generic [ref=e583]: EGP 9,999.00
+                  - generic [ref=e584]: "- 20%"
+          - article [ref=e587]:
+            - button [ref=e588] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e589]
+            - link "Zanussi Electric Water Heater Termo Flat 50 Liter, Mechanical Horizontal Design Zanussi Electric Water Heater Termo Flat 50 Liter, Mechanical Horizontal Design EGP 6,889.00 EGP 9,000.00 - 24% 2 offers from EGP 6,889.00" [ref=e591] [cursor=pointer]:
+              - /url: /electric-water-heater-termo-flat-50-liter-mechanical-horizontal-space-saver-easy-to-control-full-safety-945105451-zanussi-mpg3804805.html
+              - img "Zanussi Electric Water Heater Termo Flat 50 Liter, Mechanical Horizontal Design" [ref=e593]
+              - generic [ref=e594]:
+                - heading "Zanussi Electric Water Heater Termo Flat 50 Liter, Mechanical Horizontal Design" [level=3] [ref=e595]
+                - generic [ref=e596]: EGP 6,889.00
+                - generic [ref=e597]:
+                  - generic [ref=e598]: EGP 9,000.00
+                  - generic [ref=e599]: "- 24%"
+                - paragraph [ref=e600]: 2 offers from EGP 6,889.00
+          - article [ref=e603]:
+            - button [ref=e604] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e605]
+            - link "Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG EGP 4,208.00 EGP 5,500.00 - 24% 2 offers from EGP 4,208.00 5 out of 5 (2)" [ref=e607] [cursor=pointer]:
+              - /url: /electric-water-heater-50-liters-white-rubis-pro-50-v-eg-ariston-mpg3859002.html
+              - img "Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG" [ref=e609]
+              - generic [ref=e610]:
+                - heading "Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG" [level=3] [ref=e611]
+                - generic [ref=e612]: EGP 4,208.00
+                - generic [ref=e613]:
+                  - generic [ref=e614]: EGP 5,500.00
+                  - generic [ref=e615]: "- 24%"
+                - paragraph [ref=e616]: 2 offers from EGP 4,208.00
+                - generic [ref=e617]:
+                  - generic [ref=e618]: 5 out of 5
+                  - text: (2)
+          - article [ref=e622]:
+            - button [ref=e623] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e624]
+            - link "Atlantic Concept electric water heater, 50-liter capacity, white Atlantic Concept electric water heater, 50-liter capacity, white EGP 3,700.00 5 out of 5 (1)" [ref=e626] [cursor=pointer]:
+              - /url: /atlantic-concept-electric-water-heater-50-liter-capacity-white-134014094.html
+              - img "Atlantic Concept electric water heater, 50-liter capacity, white" [ref=e628]
+              - generic [ref=e629]:
+                - heading "Atlantic Concept electric water heater, 50-liter capacity, white" [level=3] [ref=e630]
+                - generic [ref=e631]: EGP 3,700.00
+                - generic [ref=e632]:
+                  - generic [ref=e633]: 5 out of 5
+                  - text: (1)
+          - article [ref=e637]:
+            - button [ref=e638] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e639]
+            - link "Fresh Electric Water Heater - 50 L Fresh Electric Water Heater - 50 L EGP 3,202.00 EGP 4,100.00 - 22% 5 out of 5 (1)" [ref=e641] [cursor=pointer]:
+              - /url: /fresh-electric-water-heater-50-l-134181457.html
+              - img "Fresh Electric Water Heater - 50 L" [ref=e643]
+              - generic [ref=e644]:
+                - heading "Fresh Electric Water Heater - 50 L" [level=3] [ref=e645]
+                - generic [ref=e646]: EGP 3,202.00
+                - generic [ref=e647]:
+                  - generic [ref=e648]: EGP 4,100.00
+                  - generic [ref=e649]: "- 22%"
+                - generic [ref=e650]:
+                  - generic [ref=e651]: 5 out of 5
+                  - text: (1)
+          - article [ref=e655]:
+            - button [ref=e656] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e657]
+            - link "Ariston Electric Water Italy Heater 50 Liters - White - PRO1 R50 V EG Ariston Electric Water Italy Heater 50 Liters - White - PRO1 R50 V EG EGP 6,299.00 EGP 8,499.00 - 26% 5 out of 5 (1)" [ref=e659] [cursor=pointer]:
+              - /url: /ariston-electric-water-italy-heater-50-liters-white-pro1-r50-v-eg-134452262.html
+              - img "Ariston Electric Water Italy Heater 50 Liters - White - PRO1 R50 V EG" [ref=e661]
+              - generic [ref=e662]:
+                - heading "Ariston Electric Water Italy Heater 50 Liters - White - PRO1 R50 V EG" [level=3] [ref=e663]
+                - generic [ref=e664]: EGP 6,299.00
+                - generic [ref=e665]:
+                  - generic [ref=e666]: EGP 8,499.00
+                  - generic [ref=e667]: "- 26%"
+                - generic [ref=e668]:
+                  - generic [ref=e669]: 5 out of 5
+                  - text: (1)
+          - article [ref=e673]:
+            - button [ref=e674] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e675]
+            - link "Fresh Electric Water Heater Relax LED 50 Liters Fresh Electric Water Heater Relax LED 50 Liters EGP 3,725.00 EGP 11,000.00 - 66%" [ref=e677] [cursor=pointer]:
+              - /url: /fresh-electric-water-heater-relax-led-50-liters-134271585.html
+              - img "Fresh Electric Water Heater Relax LED 50 Liters" [ref=e679]
+              - generic [ref=e680]:
+                - heading "Fresh Electric Water Heater Relax LED 50 Liters" [level=3] [ref=e681]
+                - generic [ref=e682]: EGP 3,725.00
+                - generic [ref=e683]:
+                  - generic [ref=e684]: EGP 11,000.00
+                  - generic [ref=e685]: "- 66%"
+          - article [ref=e688]:
+            - button [ref=e689] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e690]
+            - link "Olympic Electric water heater, digital, 50 liters, Plus - White Olympic Electric water heater, digital, 50 liters, Plus - White EGP 4,449.00 EGP 5,100.00 - 13% 5 out of 5 (1)" [ref=e692] [cursor=pointer]:
+              - /url: /olympic-electric-water-heater-digital-50-liters-plus-white-134058253.html
+              - img "Olympic Electric water heater, digital, 50 liters, Plus - White" [ref=e694]
+              - generic [ref=e695]:
+                - heading "Olympic Electric water heater, digital, 50 liters, Plus - White" [level=3] [ref=e696]
+                - generic [ref=e697]: EGP 4,449.00
+                - generic [ref=e698]:
+                  - generic [ref=e699]: EGP 5,100.00
+                  - generic [ref=e700]: "- 13%"
+                - generic [ref=e701]:
+                  - generic [ref=e702]: 5 out of 5
+                  - text: (1)
+          - article [ref=e706]:
+            - button [ref=e707] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e708]
+            - link "Atlantic AtlanticVertigo Flat Digital Electric Water Heater 50-Liters - Slim Design Atlantic AtlanticVertigo Flat Digital Electric Water Heater 50-Liters - Slim Design EGP 10,150.00" [ref=e710] [cursor=pointer]:
+              - /url: /atlantic-atlanticvertigo-flat-digital-electric-water-heater-50-liters-slim-design-134663488.html
+              - img "Atlantic AtlanticVertigo Flat Digital Electric Water Heater 50-Liters - Slim Design" [ref=e712]
+              - generic [ref=e713]:
+                - heading "Atlantic AtlanticVertigo Flat Digital Electric Water Heater 50-Liters - Slim Design" [level=3] [ref=e714]
+                - generic [ref=e715]: EGP 10,150.00
+          - article [ref=e718]:
+            - button [ref=e719] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e720]
+            - link "Ariston Electric Water Heater 50 Liter White - PRO ECO 50 V Ariston Electric Water Heater 50 Liter White - PRO ECO 50 V EGP 9,999.00 EGP 10,999.00 - 9%" [ref=e722] [cursor=pointer]:
+              - /url: /ariston-electric-water-heater-50-liter-white-pro-eco-50-v-134240406.html
+              - img "Ariston Electric Water Heater 50 Liter White - PRO ECO 50 V" [ref=e724]
+              - generic [ref=e725]:
+                - heading "Ariston Electric Water Heater 50 Liter White - PRO ECO 50 V" [level=3] [ref=e726]
+                - generic [ref=e727]: EGP 9,999.00
+                - generic [ref=e728]:
+                  - generic [ref=e729]: EGP 10,999.00
+                  - generic [ref=e730]: "- 9%"
+          - article [ref=e733]:
+            - button [ref=e734] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e735]
+            - link "Olympic Electric Mechanical Water Heater Hero 50 L Olympic Electric Mechanical Water Heater Hero 50 L EGP 4,999.00 EGP 5,300.00 - 6%" [ref=e737] [cursor=pointer]:
+              - /url: /olympic-electric-mechanical-water-heater-hero-50-l-30492280.html
+              - img "Olympic Electric Mechanical Water Heater Hero 50 L" [ref=e739]
+              - generic [ref=e740]:
+                - heading "Olympic Electric Mechanical Water Heater Hero 50 L" [level=3] [ref=e741]
+                - generic [ref=e742]: EGP 4,999.00
+                - generic [ref=e743]:
+                  - generic [ref=e744]: EGP 5,300.00
+                  - generic [ref=e745]: "- 6%"
+          - article [ref=e748]:
+            - button [ref=e749] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e750]
+            - link "Fresh Relax Electric Water Heater, 50 Liters - White Fresh Relax Electric Water Heater, 50 Liters - White EGP 3,450.00 EGP 3,850.00 - 10%" [ref=e752] [cursor=pointer]:
+              - /url: /fresh-relax-electric-water-heater-50-liters-white-134058238.html
+              - img "Fresh Relax Electric Water Heater, 50 Liters - White" [ref=e754]
+              - generic [ref=e755]:
+                - heading "Fresh Relax Electric Water Heater, 50 Liters - White" [level=3] [ref=e756]
+                - generic [ref=e757]: EGP 3,450.00
+                - generic [ref=e758]:
+                  - generic [ref=e759]: EGP 3,850.00
+                  - generic [ref=e760]: "- 10%"
+          - article [ref=e763]:
+            - button [ref=e764] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e765]
+            - link "Ariston Electric Water Heater, 50 Liters,White - RUBIS PRO 50 V EG Ariston Electric Water Heater, 50 Liters,White - RUBIS PRO 50 V EG EGP 4,999.00" [ref=e767] [cursor=pointer]:
+              - /url: /ariston-electric-water-heater-50-literswhite-rubis-pro-50-v-eg-134168120.html
+              - img "Ariston Electric Water Heater, 50 Liters,White - RUBIS PRO 50 V EG" [ref=e769]
+              - generic [ref=e770]:
+                - heading "Ariston Electric Water Heater, 50 Liters,White - RUBIS PRO 50 V EG" [level=3] [ref=e771]
+                - generic [ref=e772]: EGP 4,999.00
+          - article [ref=e775]:
+            - button [ref=e776] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e777]
+            - link "Olympic Electric Water Heater, 50 Liters, Hero Plus Digital Display Olympic Electric Water Heater, 50 Liters, Hero Plus Digital Display EGP 4,925.00 EGP 5,000.00 - 2% 5 out of 5 (3)" [ref=e779] [cursor=pointer]:
+              - /url: /olympic-electric-water-heater-50-liters-hero-plus-digital-display-61602928.html
+              - img "Olympic Electric Water Heater, 50 Liters, Hero Plus Digital Display" [ref=e781]
+              - generic [ref=e782]:
+                - heading "Olympic Electric Water Heater, 50 Liters, Hero Plus Digital Display" [level=3] [ref=e783]
+                - generic [ref=e784]: EGP 4,925.00
+                - generic [ref=e785]:
+                  - generic [ref=e786]: EGP 5,000.00
+                  - generic [ref=e787]: "- 2%"
+                - generic [ref=e788]:
+                  - generic [ref=e789]: 5 out of 5
+                  - text: (3)
+          - article [ref=e793]:
+            - button [ref=e794] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e795]
+            - link "Levon Electric Water Heater, 50 Liters, 1500 Watt - White Levon Electric Water Heater, 50 Liters, 1500 Watt - White EGP 5,100.00 EGP 5,500.00 - 7%" [ref=e797] [cursor=pointer]:
+              - /url: /levon-electric-water-heater-50-liters-1500-watt-white-130946158.html
+              - img "Levon Electric Water Heater, 50 Liters, 1500 Watt - White" [ref=e799]
+              - generic [ref=e800]:
+                - heading "Levon Electric Water Heater, 50 Liters, 1500 Watt - White" [level=3] [ref=e801]
+                - generic [ref=e802]: EGP 5,100.00
+                - generic [ref=e803]:
+                  - generic [ref=e804]: EGP 5,500.00
+                  - generic [ref=e805]: "- 7%"
+          - article [ref=e808]:
+            - button [ref=e809] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e810]
+            - link "Fresh Relax 50 Liter Electric Water Heater Fresh Relax 50 Liter Electric Water Heater EGP 3,108.00 EGP 3,999.00 - 22%" [ref=e812] [cursor=pointer]:
+              - /url: /fresh-relax-50-liter-electric-water-heater-134176719.html
+              - img "Fresh Relax 50 Liter Electric Water Heater" [ref=e814]
+              - generic [ref=e815]:
+                - heading "Fresh Relax 50 Liter Electric Water Heater" [level=3] [ref=e816]
+                - generic [ref=e817]: EGP 3,108.00
+                - generic [ref=e818]:
+                  - generic [ref=e819]: EGP 3,999.00
+                  - generic [ref=e820]: "- 22%"
+          - article [ref=e823]:
+            - button [ref=e824] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e825]
+            - link "Fresh Electric Water Heater Relax 50 Liters Fresh Electric Water Heater Relax 50 Liters EGP 3,250.00 EGP 4,100.00 - 21%" [ref=e827] [cursor=pointer]:
+              - /url: /fresh-electric-water-heater-relax-50-liters-134641490.html
+              - img "Fresh Electric Water Heater Relax 50 Liters" [ref=e829]
+              - generic [ref=e830]:
+                - heading "Fresh Electric Water Heater Relax 50 Liters" [level=3] [ref=e831]
+                - generic [ref=e832]: EGP 3,250.00
+                - generic [ref=e833]:
+                  - generic [ref=e834]: EGP 4,100.00
+                  - generic [ref=e835]: "- 21%"
+          - article [ref=e838]:
+            - button [ref=e839] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e840]
+            - link "Ariston Ariston-Water Heater 50 Liters - White - RUBIS PRO 50 V EG Electric Ariston Ariston-Water Heater 50 Liters - White - RUBIS PRO 50 V EG Electric EGP 4,999.00" [ref=e842] [cursor=pointer]:
+              - /url: /ariston-ariston-water-heater-50-liters-white-rubis-pro-50-v-eg-electric-134153052.html
+              - img "Ariston Ariston-Water Heater 50 Liters - White - RUBIS PRO 50 V EG Electric" [ref=e844]
+              - generic [ref=e845]:
+                - heading "Ariston Ariston-Water Heater 50 Liters - White - RUBIS PRO 50 V EG Electric" [level=3] [ref=e846]
+                - generic [ref=e847]: EGP 4,999.00
+          - article [ref=e850]:
+            - button [ref=e851] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e852]
+            - link "Olympic Hero Mechanical Electric Water Heater, 50 Liter Capacity, OYE05061WN Olympic Hero Mechanical Electric Water Heater, 50 Liter Capacity, OYE05061WN EGP 4,050.00 EGP 4,499.00 - 10%" [ref=e854] [cursor=pointer]:
+              - /url: /olympic-hero-mechanical-electric-water-heater-50-liter-capacity-oye05061wn-134452889.html
+              - img "Olympic Hero Mechanical Electric Water Heater, 50 Liter Capacity, OYE05061WN" [ref=e856]
+              - generic [ref=e857]:
+                - heading "Olympic Hero Mechanical Electric Water Heater, 50 Liter Capacity, OYE05061WN" [level=3] [ref=e858]
+                - generic [ref=e859]: EGP 4,050.00
+                - generic [ref=e860]:
+                  - generic [ref=e861]: EGP 4,499.00
+                  - generic [ref=e862]: "- 10%"
+          - article [ref=e865]:
+            - button [ref=e866] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e867]
+            - link "Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG EGP 3,988.00 EGP 5,100.00 - 22%" [ref=e869] [cursor=pointer]:
+              - /url: /ariston-electric-water-heater-50-liters-white-rubis-pro-50-v-eg-134219725.html
+              - img "Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG" [ref=e871]
+              - generic [ref=e872]:
+                - heading "Ariston Electric Water Heater, 50 Liters, White- RUBIS PRO 50 V EG" [level=3] [ref=e873]
+                - generic [ref=e874]: EGP 3,988.00
+                - generic [ref=e875]:
+                  - generic [ref=e876]: EGP 5,100.00
+                  - generic [ref=e877]: "- 22%"
+          - article [ref=e880]:
+            - button [ref=e881] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e882]
+            - link "Ariston Electric Water Italy Heater 50 Liters - White - PRO1 R50 V EG Ariston Electric Water Italy Heater 50 Liters - White - PRO1 R50 V EG EGP 6,749.00 EGP 7,500.00 - 10%" [ref=e884] [cursor=pointer]:
+              - /url: /ariston-electric-water-italy-heater-50-liters-white-pro1-r50-v-eg-133746673.html
+              - img "Ariston Electric Water Italy Heater 50 Liters - White - PRO1 R50 V EG" [ref=e886]
+              - generic [ref=e887]:
+                - heading "Ariston Electric Water Italy Heater 50 Liters - White - PRO1 R50 V EG" [level=3] [ref=e888]
+                - generic [ref=e889]: EGP 6,749.00
+                - generic [ref=e890]:
+                  - generic [ref=e891]: EGP 7,500.00
+                  - generic [ref=e892]: "- 10%"
+          - article [ref=e895]:
+            - button [ref=e896] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e897]
+            - link "Olympic Electric - electric water heater - digital - hero turbo - 50 litres - 945105437 Olympic Electric - electric water heater - digital - hero turbo - 50 litres - 945105437 EGP 5,100.00" [ref=e899] [cursor=pointer]:
+              - /url: /olympic-electric-electric-water-heater-digital-hero-turbo-50-litres-945105437-134607634.html
+              - img "Olympic Electric - electric water heater - digital - hero turbo - 50 litres - 945105437" [ref=e901]
+              - generic [ref=e902]:
+                - heading "Olympic Electric - electric water heater - digital - hero turbo - 50 litres - 945105437" [level=3] [ref=e903]
+                - generic [ref=e904]: EGP 5,100.00
+        - generic [ref=e907]:
+          - generic [ref=e914]: "1"
+          - link "Page 2" [ref=e915] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&page=2#catalog-listing
+            - text: "2"
+          - link "Page 3" [ref=e916] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&page=3#catalog-listing
+            - text: "3"
+          - link "Next Page" [ref=e917] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&page=2#catalog-listing
+          - link "Last Page" [ref=e920] [cursor=pointer]:
+            - /url: /catalog/?q=electric+water+heater+50&page=3#catalog-listing
+    - link "BACK TO TOP" [ref=e924] [cursor=pointer]:
+      - /url: "#top"
+  - contentinfo [ref=e927]:
+    - generic [ref=e929]:
+      - generic [ref=e933]:
+        - generic [ref=e934]:
+          - generic [ref=e935]: New to Jumia?
+          - text: Subscribe to our newsletter to get updates on our latest offers, you can unsubscribe at any time as described in Privacy Policy.
+          - generic [ref=e936]:
+            - text: To subscribe to our newsletter, you must first read and agree to Jumia's
+            - link "I accept the Legal Terms" [ref=e937] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-privacy/
+        - generic [ref=e938]:
+          - generic [ref=e939]:
+            - checkbox "I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time." [ref=e940]
+            - generic [ref=e941] [cursor=pointer]: I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time.
+          - generic [ref=e942]:
+            - textbox "E-mail" [ref=e944]:
+              - /placeholder: Enter E-mail Address
+            - button "Subscribe"
+        - generic [ref=e947]: You can unsubscribe at any time as described in Privacy Policy
+      - generic [ref=e948]:
+        - generic [ref=e952]:
+          - generic [ref=e953]: DOWNLOAD JUMIA FREE APP
+          - text: Get access to exclusive offers!
+        - generic [ref=e954]:
+          - link "Get it on the App Store" [ref=e955] [cursor=pointer]:
+            - /url: https://app.adjust.io/k4hu4w
+          - link "Get it on Google Play" [ref=e958] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.jumia.android&referrer=adjust_reftag%3DcdTxOjM
+    - generic [ref=e961]:
+      - generic [ref=e962]:
+        - generic [ref=e963]: Need Help?
+        - button "Chat with us" [ref=e964] [cursor=pointer]
+        - list [ref=e965]:
+          - listitem [ref=e966]:
+            - link "Help Center" [ref=e967] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/
+          - listitem [ref=e968]:
+            - link "Contact us" [ref=e969] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-contact/
+        - generic [ref=e970]: "Useful Links:"
+        - list [ref=e971]:
+          - listitem [ref=e972]:
+            - link "How to shop on Jumia?" [ref=e973] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/?page=place+an+order
+          - listitem [ref=e974]:
+            - link "How to pay on Jumia?" [ref=e975] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/?page=pay+for+your+order
+          - listitem [ref=e976]:
+            - link "Delivery timelines" [ref=e977] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-delivery-timelines/
+          - listitem [ref=e978]:
+            - link "Dispute Resolution Policy" [ref=e979] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-dispute-resolution-policy/
+          - listitem [ref=e980]:
+            - link "Return Policy" [ref=e981] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-return-policy-cp/
+          - listitem [ref=e982]:
+            - link "Refund Policy" [ref=e983] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-refund-policy-cp/
+          - listitem [ref=e984]:
+            - link "Black Friday" [ref=e985] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/mlp-black-friday/
+          - listitem [ref=e986]:
+            - link "Jumia Anniversary 2026" [ref=e987] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/ar/mlp-anniversary/
+      - generic [ref=e988]:
+        - generic [ref=e989]: ABOUT JUMIA EGYPT
+        - list [ref=e990]:
+          - listitem [ref=e991]:
+            - link "Jumia Careers" [ref=e992] [cursor=pointer]:
+              - /url: https://group.jumia.com/careers?location=egypt
+          - listitem [ref=e993]:
+            - link "Terms and Conditions" [ref=e994] [cursor=pointer]:
+              - /url: /terms-of-use/?internal=footer
+          - listitem [ref=e995]:
+            - link "Privacy Policy" [ref=e996] [cursor=pointer]:
+              - /url: /privacy/?internal=footer
+          - listitem [ref=e997]:
+            - link "Cookies Policy" [ref=e998] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-cookie/
+          - listitem [ref=e999]:
+            - link "Free Shipping" [ref=e1000] [cursor=pointer]:
+              - /url: /mlp-free-shipping/?internal=footer
+          - listitem [ref=e1001]:
+            - link "Flash Sales" [ref=e1002] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/flash-sales/
+      - generic [ref=e1003]:
+        - generic [ref=e1004]: MAKE MONEY WITH JUMIA
+        - list [ref=e1005]:
+          - listitem [ref=e1006]:
+            - link "Sell on Jumia" [ref=e1007] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-sell-on-jumia/
+          - listitem [ref=e1008]:
+            - link "Vendor Hub" [ref=e1009] [cursor=pointer]:
+              - /url: https://vendorhub.jumia.com.eg/
+          - listitem [ref=e1010]:
+            - link "Become a Sales Consultant (J-Force )" [ref=e1011] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-jforce-consultant/
+      - generic [ref=e1012]:
+        - generic [ref=e1013]: JUMIA INTERNATIONAL
+        - list [ref=e1014]:
+          - listitem [ref=e1015]:
+            - link "Ivory Coast" [ref=e1016] [cursor=pointer]:
+              - /url: https://www.jumia.ci/
+          - listitem [ref=e1017]:
+            - link "Ghana" [ref=e1018] [cursor=pointer]:
+              - /url: https://www.jumia.com.gh/
+          - listitem [ref=e1019]:
+            - link "Kenya" [ref=e1020] [cursor=pointer]:
+              - /url: https://www.jumia.co.ke/
+          - listitem [ref=e1021]:
+            - link "Morocco" [ref=e1022] [cursor=pointer]:
+              - /url: https://www.jumia.ma/
+        - list [ref=e1023]:
+          - listitem [ref=e1024]:
+            - link "Nigeria" [ref=e1025] [cursor=pointer]:
+              - /url: https://www.jumia.com.ng/
+          - listitem [ref=e1026]:
+            - link "Senegal" [ref=e1027] [cursor=pointer]:
+              - /url: https://www.jumia.sn/
+          - listitem [ref=e1028]:
+            - link "Uganda" [ref=e1029] [cursor=pointer]:
+              - /url: https://www.jumia.ug/
+    - generic [ref=e1031]:
+      - generic [ref=e1032]: Contact us
+      - generic [ref=e1033]:
+        - generic [ref=e1034]:
+          - generic [ref=e1035]: Business Name
+          - generic [ref=e1036]: Jumia Egypt
+        - generic [ref=e1037]:
+          - generic [ref=e1038]: Address
+          - generic [ref=e1039]: 272 /273 El Tesaeen El Shamaly St., Sector 2, 5th Compound, New Cairo, Behind Dusit Thani Lakeview, Cairo
+        - generic [ref=e1040]:
+          - generic [ref=e1041]: Phone Number
+          - generic [ref=e1042]:
+            - link "19586" [ref=e1043] [cursor=pointer]:
+              - /url: tel:+2019586
+            - text: ","
+            - link "17269" [ref=e1044] [cursor=pointer]:
+              - /url: tel:+2017269
+        - generic [ref=e1045]:
+          - generic [ref=e1046]: WhatsApp
+          - link "201011958600" [ref=e1048] [cursor=pointer]:
+            - /url: https://wa.me/20201011958600
+    - generic [ref=e1049]:
+      - generic [ref=e1050]:
+        - generic [ref=e1051]: JOIN US ON
+        - generic [ref=e1052]:
+          - link "Facebook Jumia Egypt" [ref=e1053] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/Jumia/100068403391761/
+          - link "Twitter Jumia Egypt" [ref=e1056] [cursor=pointer]:
+            - /url: https://twitter.com/JUMIAEgypt/
+          - link "Instagram Jumia Egypt" [ref=e1059] [cursor=pointer]:
+            - /url: https://www.instagram.com/jumiaegypt/
+          - link "YouTube Jumia Egypt" [ref=e1062] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/JumiaEgypt/
+          - link "Tik Tok" [ref=e1065] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@jumia.egypt?_t=8rJ4NeuPbzr&_r=1
+      - generic [ref=e1068]:
+        - generic [ref=e1069]: PAYMENT METHODS
+        - generic [ref=e1070]:
+          - link "Payment on delivery" [ref=e1071] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Mastercard" [ref=e1074] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Visa" [ref=e1077] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Jumia Pay" [ref=e1080] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Fawry" [ref=e1081] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+    - generic [ref=e1084]:
+      - list [ref=e1085]:
+        - listitem [ref=e1086]:
+          - link "Activ" [ref=e1087] [cursor=pointer]:
+            - /url: /activ/
+        - listitem [ref=e1088]:
+          - link "ADIDAS" [ref=e1089] [cursor=pointer]:
+            - /url: /adidas/
+        - listitem [ref=e1090]:
+          - link "American Eagle" [ref=e1091] [cursor=pointer]:
+            - /url: /american-eagle/
+        - listitem [ref=e1092]:
+          - link "Andora" [ref=e1093] [cursor=pointer]:
+            - /url: /andora/
+      - list [ref=e1094]:
+        - listitem [ref=e1095]:
+          - link "Apple" [ref=e1096] [cursor=pointer]:
+            - /url: /apple/
+        - listitem [ref=e1097]:
+          - link "Braun" [ref=e1098] [cursor=pointer]:
+            - /url: /braun/
+        - listitem [ref=e1099]:
+          - link "Casio" [ref=e1100] [cursor=pointer]:
+            - /url: /casio-edifice/
+        - listitem [ref=e1101]:
+          - link "Cottonil" [ref=e1102] [cursor=pointer]:
+            - /url: /cottonil/
+      - list [ref=e1103]:
+        - listitem [ref=e1104]:
+          - link "Defacto" [ref=e1105] [cursor=pointer]:
+            - /url: /defacto/
+        - listitem [ref=e1106]:
+          - link "Dice" [ref=e1107] [cursor=pointer]:
+            - /url: /dice/
+        - listitem [ref=e1108]:
+          - link "Fresh" [ref=e1109] [cursor=pointer]:
+            - /url: /fresh/
+        - listitem [ref=e1110]:
+          - link "Garnier" [ref=e1111] [cursor=pointer]:
+            - /url: /garnier/
+      - list [ref=e1112]:
+        - listitem [ref=e1113]:
+          - link "HP" [ref=e1114] [cursor=pointer]:
+            - /url: /hp/
+        - listitem [ref=e1115]:
+          - link "Izor" [ref=e1116] [cursor=pointer]:
+            - /url: /izor/
+        - listitem [ref=e1117]:
+          - link "Kady" [ref=e1118] [cursor=pointer]:
+            - /url: /kady/
+        - listitem [ref=e1119]:
+          - link "L'Oreal Paris" [ref=e1120] [cursor=pointer]:
+            - /url: /l-oreal/
+      - list [ref=e1121]:
+        - listitem [ref=e1122]:
+          - link "LC Waikiki" [ref=e1123] [cursor=pointer]:
+            - /url: /lc-waikiki/
+        - listitem [ref=e1124]:
+          - link "Lenovo" [ref=e1125] [cursor=pointer]:
+            - /url: /lenovo/
+        - listitem [ref=e1126]:
+          - link "Maybelline New York" [ref=e1127] [cursor=pointer]:
+            - /url: /maybelline/
+      - list [ref=e1128]:
+        - listitem [ref=e1129]:
+          - link "Mesery" [ref=e1130] [cursor=pointer]:
+            - /url: /mesery/
+        - listitem [ref=e1131]:
+          - link "NIVEA" [ref=e1132] [cursor=pointer]:
+            - /url: /nivea/
+        - listitem [ref=e1133]:
+          - link "Nokia" [ref=e1134] [cursor=pointer]:
+            - /url: /nokia/
+      - list [ref=e1135]:
+        - listitem [ref=e1136]:
+          - link "OPPO" [ref=e1137] [cursor=pointer]:
+            - /url: /oppo/
+        - listitem [ref=e1138]:
+          - link "Samsung" [ref=e1139] [cursor=pointer]:
+            - /url: /samsung/
+        - listitem [ref=e1140]:
+          - link "SHEIN" [ref=e1141] [cursor=pointer]:
+            - /url: /shein/
+      - list [ref=e1142]:
+        - listitem [ref=e1143]:
+          - link "Sokany" [ref=e1144] [cursor=pointer]:
+            - /url: /sokany/
+        - listitem [ref=e1145]:
+          - link "TORNADO" [ref=e1146] [cursor=pointer]:
+            - /url: /tornado/
+        - listitem [ref=e1147]:
+          - link "XIAOMI" [ref=e1148] [cursor=pointer]:
+            - /url: /xiaomi/
+    - generic [ref=e1149]:
+      - link "Jumia Pay" [ref=e1151] [cursor=pointer]:
+        - /url: https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar
+      - generic [ref=e1154]:
+        - generic [ref=e1155]: English
+        - link [ref=e1159] [cursor=pointer]:
+          - /url: /ar/catalog/?q=electric+water+heater+50

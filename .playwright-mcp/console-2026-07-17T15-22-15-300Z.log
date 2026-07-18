@@ -1,0 +1,12 @@
+[    1450ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'prototype')
+    at r (https://www.ikea.com/eg/en/javascripts/main.e5a9886d5c92168391aa.js:1:190)
+    at https://www.ikea.com/eg/en/javascripts/main.e5a9886d5c92168391aa.js:1:46163 @ https://www.ikea.com/eg/en/javascripts/main.e5a9886d5c92168391aa.js:0
+[    1463ms] ReferenceError: _satellite is not defined
+    at Object.initPageBottom (https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:2094)
+    at Object.init (https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:1588)
+    at https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:3056
+    at https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:3064
+[    9571ms] [LOG] secondary key value eg_en @ https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1
+[   10106ms] [ERROR] GA error: Configuration and pageview not sent @ https://www.ikea.com/eg/en/analytics/scripts/ga-main.f1672bc1.js:0
+[   15368ms] [LOG] ERROR: Function not defined! @ :1
+[   15469ms] [WARNING] CarouselAnswerListFieldset not found - revealing without sync @ :1053

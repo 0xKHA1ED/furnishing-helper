@@ -1,0 +1,1168 @@
+- generic [active] [ref=f22e1]:
+  - generic [ref=f22e2]:
+    - link "Skip to main content":
+      - /url: "#hnf-content"
+    - banner [ref=f22e3]:
+      - generic [ref=f22e5]:
+        - button "Change language or country/region, current language is English" [ref=f22e7] [cursor=pointer]:
+          - generic: EGEnglish
+        - button "Select store" [ref=f22e9] [cursor=pointer]
+      - generic [ref=f22e11]:
+        - link "IKEA logotype, go to start page" [ref=f22e13] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/
+        - search [ref=f22e19]:
+          - combobox "Search for products, inspiration or new arrivals" [ref=f22e21]
+        - navigation "Shopping links" [ref=f22e22]:
+          - list [ref=f22e23]:
+            - listitem [ref=f22e24]:
+              - link "Hej! Log in or sign up" [ref=f22e26] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/profile/login/
+            - listitem [ref=f22e27]:
+              - link "Shopping list" [ref=f22e29] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/favourites/
+            - listitem [ref=f22e30]:
+              - link "Shopping bag" [ref=f22e32] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cart/
+            - listitem [ref=f22e33]:
+              - button "Menu" [ref=f22e35] [cursor=pointer]
+              - navigation
+    - generic:
+      - complementary "Floating action buttons"
+  - main [ref=f22e36]:
+    - link "Skip to product list" [ref=f22e37] [cursor=pointer]:
+      - /url: "#product-list-skip"
+    - generic [ref=f22e40]:
+      - navigation "Breadcrumbs" [ref=f22e43]:
+        - list [ref=f22e44]:
+          - listitem [ref=f22e45]:
+            - link "Products" [ref=f22e46] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/products-products/
+            - text: ›
+          - listitem [ref=f22e47]:
+            - link "Storage furniture" [ref=f22e48] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/storage-organisation-st001/
+            - text: ›
+          - listitem [ref=f22e49]:
+            - generic [ref=f22e50]: Chests of drawers & bedside tables
+      - link "IKEA Shopping App" [ref=f22e53] [cursor=pointer]:
+        - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/ikea-shopping-app-pubc9ac6ea1/
+      - heading "Chests of drawers & bedside tables" [level=1] [ref=f22e58]
+      - generic [ref=f22e60]:
+        - link "Skip product categories list" [ref=f22e61] [cursor=pointer]:
+          - /url: "#hnf--carousel__hnf-inpage-nav-skip-btn"
+        - list [ref=f22e63]:
+          - listitem [ref=f22e64]:
+            - link "Storage furniture" [ref=f22e65] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/storage-organisation-st001/
+          - listitem [ref=f22e70]:
+            - link "Chests of drawers" [ref=f22e71] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/chests-of-drawers-10451/
+          - listitem [ref=f22e74]:
+            - link "Bedside tables" [ref=f22e75] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/bedside-tables-20656/
+          - listitem [ref=f22e78]:
+            - link "Children's chests of drawers" [ref=f22e79] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/childrens-chests-of-drawers-18708/
+          - listitem [ref=f22e82]:
+            - link "Basket drawer units" [ref=f22e83] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/basket-drawer-units-46081/
+          - listitem [ref=f22e86]:
+            - link "Dressing tables" [ref=f22e87] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/dressing-tables-20657/
+    - generic [ref=f22e90]:
+      - generic [ref=f22e91]:
+        - status [ref=f22e92]: 202 items
+        - heading "Sort and Filter" [level=2] [ref=f22e93]
+        - paragraph [ref=f22e96]:
+          - generic [ref=f22e97]: 202 items
+        - generic [ref=f22e98]:
+          - generic [ref=f22e99]:
+            - link "Skip to results" [ref=f22e100] [cursor=pointer]:
+              - /url: "#product-list"
+            - list [ref=f22e102]:
+              - listitem [ref=f22e103]:
+                - heading [level=3] [ref=f22e104]:
+                  - button "Sort" [ref=f22e105] [cursor=pointer]
+              - listitem [ref=f22e110]:
+                - heading [level=3] [ref=f22e111]:
+                  - button "Size" [ref=f22e112] [cursor=pointer]
+              - listitem [ref=f22e117]:
+                - heading [level=3] [ref=f22e118]:
+                  - button "Colour" [ref=f22e119] [cursor=pointer]
+              - listitem [ref=f22e124]:
+                - heading [level=3] [ref=f22e125]:
+                  - button "Category" [ref=f22e126] [cursor=pointer]
+              - listitem [ref=f22e131]:
+                - heading [level=3] [ref=f22e132]:
+                  - button "Price" [ref=f22e133] [cursor=pointer]
+              - listitem [ref=f22e138]:
+                - heading [level=3] [ref=f22e139]:
+                  - button "Type" [ref=f22e140] [cursor=pointer]
+              - listitem [ref=f22e145]:
+                - heading [level=3] [ref=f22e146]:
+                  - button "Material" [ref=f22e147] [cursor=pointer]
+              - listitem [ref=f22e152]:
+                - heading [level=3] [ref=f22e153]:
+                  - button "Availability" [ref=f22e154] [cursor=pointer]
+              - listitem [ref=f22e159]:
+                - generic [ref=f22e160] [cursor=pointer]:
+                  - generic [ref=f22e161]:
+                    - generic [ref=f22e162]: Special price
+                    - generic [ref=f22e164]:
+                      - generic [ref=f22e165]: 38 products
+                      - text: "38"
+                  - generic [ref=f22e166]:
+                    - checkbox "Special price 38 products"
+              - listitem [ref=f22e168]:
+                - heading [level=3] [ref=f22e169]:
+                  - button "Features" [ref=f22e170] [cursor=pointer]
+              - listitem [ref=f22e175]:
+                - generic [ref=f22e176] [cursor=pointer]:
+                  - generic [ref=f22e177]:
+                    - generic [ref=f22e178]: Last chance
+                    - generic [ref=f22e180]:
+                      - generic [ref=f22e181]: 12 products
+                      - text: "12"
+                  - generic [ref=f22e182]:
+                    - checkbox "Last chance 12 products"
+              - listitem [ref=f22e184]:
+                - generic [ref=f22e185] [cursor=pointer]:
+                  - generic [ref=f22e186]:
+                    - generic [ref=f22e187]: Top seller
+                    - generic [ref=f22e189]:
+                      - generic [ref=f22e190]: 49 products
+                      - text: "49"
+                  - generic [ref=f22e191]:
+                    - checkbox "Top seller 49 products"
+              - listitem [ref=f22e193]:
+                - heading [level=3] [ref=f22e194]:
+                  - button "Shape" [ref=f22e195] [cursor=pointer]
+              - listitem [ref=f22e200]:
+                - heading [level=3] [ref=f22e201]:
+                  - button "Series" [ref=f22e202] [cursor=pointer]
+              - listitem [ref=f22e207]:
+                - heading [level=3] [ref=f22e208]:
+                  - button "Customer rating" [ref=f22e209] [cursor=pointer]
+              - listitem [ref=f22e214]:
+                - generic [ref=f22e215] [cursor=pointer]:
+                  - generic [ref=f22e216]:
+                    - generic [ref=f22e217]: New products
+                    - generic [ref=f22e219]:
+                      - generic [ref=f22e220]: 29 products
+                      - text: "29"
+                  - generic [ref=f22e221]:
+                    - checkbox "New products 29 products"
+              - listitem [ref=f22e223]:
+                - heading [level=3] [ref=f22e224]:
+                  - button "Appearance" [ref=f22e225] [cursor=pointer]
+              - listitem [ref=f22e230]:
+                - generic [ref=f22e231] [cursor=pointer]:
+                  - generic [ref=f22e232]:
+                    - generic [ref=f22e233]: Suitable for business
+                    - generic [ref=f22e235]:
+                      - generic [ref=f22e236]: 8 products
+                      - text: "8"
+                  - generic [ref=f22e237]:
+                    - checkbox "Suitable for business 8 products"
+              - listitem [ref=f22e239]:
+                - heading [level=3] [ref=f22e240]:
+                  - button "Number of drawers" [ref=f22e241] [cursor=pointer]
+              - listitem [ref=f22e246]:
+                - heading [level=3] [ref=f22e247]:
+                  - button "Form" [ref=f22e248] [cursor=pointer]
+              - listitem [ref=f22e253]:
+                - heading [level=3] [ref=f22e254]:
+                  - button "Front" [ref=f22e255] [cursor=pointer]
+          - generic [ref=f22e261]:
+            - heading "Results list" [level=2] [ref=f22e262]
+            - generic [ref=f22e264]:
+              - generic [ref=f22e265]:
+                - generic [ref=f22e267]:
+                  - checkbox "Compare - Select for product comparison, Chest of 3 drawers, 69x67 cm" [ref=f22e268] [cursor=pointer]
+                  - generic [ref=f22e270]: Compare
+                - generic [ref=f22e272]:
+                  - paragraph [ref=f22e274]: Top seller
+                  - link [ref=f22e275] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/gursken-chest-of-3-drawers-light-beige-00486327/
+                    - img "A GURSKEN beige chest of drawers with three drawers, simple design, and circle knobs." [ref=f22e276]
+                    - img "Modern white GURSKEN chest in bedroom, ideal for small spaces. Tall, next to window with lamp and plant." [ref=f22e277]
+                - generic [ref=f22e280]:
+                  - heading [level=3] [ref=f22e282]:
+                    - link "GURSKEN, Chest of 3 drawers, light beige, 69x67 cm" [ref=f22e284] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/gursken-chest-of-3-drawers-light-beige-00486327/
+                      - text: GURSKEN
+                    - generic [ref=f22e285]: Chest of 3 drawers, light beige, 69x67 cm
+                  - generic [ref=f22e289]:
+                    - generic [ref=f22e290]: EGP2,795
+                    - generic [ref=f22e292]: Price EGP 2795
+                - 'button "Review: 3.8 out of 5 stars. Total reviews: (10)" [ref=f22e293] [cursor=pointer]':
+                  - generic [ref=f22e294]: "Review: 3.8 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e295]: (10)
+                - generic [ref=f22e297]:
+                  - button "Add \"GURSKEN Chest of 3 drawers\" to cart" [ref=f22e298] [cursor=pointer]
+                  - button "Save \"GURSKEN Chest of 3 drawers\" to shopping list" [ref=f22e299] [cursor=pointer]
+                - generic [ref=f22e300]: Available for delivery
+              - generic [ref=f22e304]:
+                - generic [ref=f22e306]:
+                  - checkbox "Compare - Select for product comparison, Chest of 4 drawers, 60x42x100 cm" [ref=f22e307] [cursor=pointer]
+                  - generic [ref=f22e309]: Compare
+                - link [ref=f22e312] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/lastare-chest-of-4-drawers-white-40599351/
+                  - img "LASTARE Chest of 4 drawers, white, 60x42x100 cm" [ref=f22e313]
+                  - img "Nursery with LASTARE drawer unit, toys, and wooden changer." [ref=f22e314]
+                - generic [ref=f22e317]:
+                  - generic [ref=f22e318]:
+                    - generic [ref=f22e319]: New
+                    - heading [level=3] [ref=f22e320]:
+                      - link "LASTARE, Chest of 4 drawers, white, 60x42x100 cm" [ref=f22e322] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/lastare-chest-of-4-drawers-white-40599351/
+                        - text: LASTARE
+                      - generic [ref=f22e323]: Chest of 4 drawers, white, 60x42x100 cm
+                  - generic [ref=f22e327]:
+                    - generic [ref=f22e328]: EGP4,995
+                    - generic [ref=f22e330]: Price EGP 4995
+                - generic [ref=f22e331]:
+                  - button "Add \"LASTARE Chest of 4 drawers\" to cart" [ref=f22e332] [cursor=pointer]
+                  - button "Save \"LASTARE Chest of 4 drawers\" to shopping list" [ref=f22e333] [cursor=pointer]
+                - generic [ref=f22e334]: Available for delivery
+              - generic [ref=f22e338]:
+                - generic [ref=f22e340]:
+                  - checkbox "Compare - Select for product comparison, Chest of 6 drawers, 144x78 cm" [ref=f22e341] [cursor=pointer]
+                  - generic [ref=f22e343]: Compare
+                - generic [ref=f22e345]:
+                  - paragraph [ref=f22e347]: Top seller
+                  - link [ref=f22e348] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/kilberget-chest-of-6-drawers-white-20609916/
+                    - img "A white KILBERGET 6-drawer chest with a minimalist design and safety feature." [ref=f22e349]
+                    - img "KILBERGET white chest, roomy & safe, six drawers, large, wooden, modern." [ref=f22e350]
+                - generic [ref=f22e353]:
+                  - generic [ref=f22e354]:
+                    - generic [ref=f22e355]: New
+                    - heading [level=3] [ref=f22e356]:
+                      - link "KILBERGET, Chest of 6 drawers, white, 144x78 cm" [ref=f22e358] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/kilberget-chest-of-6-drawers-white-20609916/
+                        - text: KILBERGET
+                      - generic [ref=f22e359]: Chest of 6 drawers, white, 144x78 cm
+                  - generic [ref=f22e363]:
+                    - generic [ref=f22e364]: EGP9,995
+                    - generic [ref=f22e366]: Price EGP 9995
+                - generic [ref=f22e367]:
+                  - button "Add \"KILBERGET Chest of 6 drawers\" to cart" [ref=f22e368] [cursor=pointer]
+                  - button "Save \"KILBERGET Chest of 6 drawers\" to shopping list" [ref=f22e369] [cursor=pointer]
+                - generic [ref=f22e370]: Available for delivery
+              - generic [ref=f22e374]:
+                - generic [ref=f22e376]:
+                  - checkbox "Compare - Select for product comparison, Chest of 6 drawers, 140x50x75 cm" [ref=f22e377] [cursor=pointer]
+                  - generic [ref=f22e379]: Compare
+                - link [ref=f22e382] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/storklinta-chest-of-6-drawers-white-70627550/
+                  - img "Depicts a white STORKLINTA dresser with six drawers. It has a sleek, modern design." [ref=f22e383]
+                  - img "STORKLINTA Chest of 6 drawers, white, 140x50x75 cm" [ref=f22e384]
+                - generic [ref=f22e387]:
+                  - generic [ref=f22e388]:
+                    - generic [ref=f22e389]: New
+                    - heading [level=3] [ref=f22e390]:
+                      - link "STORKLINTA, Chest of 6 drawers, white, 140x50x75 cm" [ref=f22e392] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/storklinta-chest-of-6-drawers-white-70627550/
+                        - text: STORKLINTA
+                      - generic [ref=f22e393]: Chest of 6 drawers, white, 140x50x75 cm
+                  - generic [ref=f22e397]:
+                    - generic [ref=f22e398]: EGP8,995
+                    - generic [ref=f22e400]: Price EGP 8995
+                - generic [ref=f22e401]:
+                  - button "Add \"STORKLINTA Chest of 6 drawers\" to cart" [ref=f22e402] [cursor=pointer]
+                  - button "Save \"STORKLINTA Chest of 6 drawers\" to shopping list" [ref=f22e403] [cursor=pointer]
+                - generic [ref=f22e404]: Available for delivery
+                - generic [ref=f22e408]: Large capacity
+                - group "More options STORKLINTA" [ref=f22e413]:
+                  - generic [ref=f22e414]:
+                    - text: More options
+                    - generic [ref=f22e415]: STORKLINTA
+                  - generic [ref=f22e416] [cursor=pointer]:
+                    - 'radio "Option: STORKLINTA, Chest of 6 drawers, white, 140x50x75 cm" [checked] [ref=f22e417]'
+                    - 'link "Option: STORKLINTA, Chest of 6 drawers, white, 140x50x75 cm Depicts a white STORKLINTA dresser with six drawers. It has a sleek, modern design." [ref=f22e418]':
+                      - /url: https://www.ikea.com/eg/en/p/storklinta-chest-of-6-drawers-white-70627550/
+                      - generic [ref=f22e419]: "Option: STORKLINTA, Chest of 6 drawers, white, 140x50x75 cm"
+                      - img "Depicts a white STORKLINTA dresser with six drawers. It has a sleek, modern design." [ref=f22e420]
+                  - generic [ref=f22e421] [cursor=pointer]:
+                    - 'radio "Option: STORKLINTA, Chest of 6 drawers, oak effect, 140x50x75 cm" [ref=f22e422]'
+                    - 'link "Option: STORKLINTA, Chest of 6 drawers, oak effect, 140x50x75 cm A STORKLINTA light wood dresser with six drawers in a rectangular shape. The dresser a simple, modern design." [ref=f22e423]':
+                      - /url: https://www.ikea.com/eg/en/p/storklinta-chest-of-6-drawers-oak-effect-30627547/
+                      - generic [ref=f22e424]: "Option: STORKLINTA, Chest of 6 drawers, oak effect, 140x50x75 cm"
+                      - img "A STORKLINTA light wood dresser with six drawers in a rectangular shape. The dresser a simple, modern design." [ref=f22e425]
+                  - generic [ref=f22e426] [cursor=pointer]:
+                    - 'radio "Option: STORKLINTA, Chest of 6 drawers, dark brown/oak effect, 140x50x75 cm" [ref=f22e427]'
+                    - 'link "Option: STORKLINTA, Chest of 6 drawers, dark brown/oak effect, 140x50x75 cm A STORKLINTA wooden dresser in brown. It has six drawers and a rectangular shape." [ref=f22e428]':
+                      - /url: https://www.ikea.com/eg/en/p/storklinta-chest-of-6-drawers-dark-brown-oak-effect-80627559/
+                      - generic [ref=f22e429]: "Option: STORKLINTA, Chest of 6 drawers, dark brown/oak effect, 140x50x75 cm"
+                      - img "A STORKLINTA wooden dresser in brown. It has six drawers and a rectangular shape." [ref=f22e430]
+              - generic [ref=f22e431]:
+                - generic [ref=f22e433]:
+                  - checkbox "Compare - Select for product comparison, Chest of 6 drawers, 160x78 cm" [ref=f22e434] [cursor=pointer]
+                  - generic [ref=f22e436]: Compare
+                - generic [ref=f22e438]:
+                  - paragraph [ref=f22e440]: Top seller
+                  - link [ref=f22e441] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/malm-chest-of-6-drawers-black-brown-60403579/
+                    - img "Ikea MALM black chest, six drawers, rectangular, smooth finish." [ref=f22e442]
+                    - img "Modern bedroom with MALM black-brown chest of drawers near window, sleek design, mirror, lamp, and plant." [ref=f22e443]
+                - generic [ref=f22e446]:
+                  - heading [level=3] [ref=f22e448]:
+                    - link "MALM, Chest of 6 drawers, black-brown, 160x78 cm" [ref=f22e450] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-chest-of-6-drawers-black-brown-60403579/
+                      - text: MALM
+                    - generic [ref=f22e451]: Chest of 6 drawers, black-brown, 160x78 cm
+                  - generic [ref=f22e455]:
+                    - generic [ref=f22e456]: EGP15,995
+                    - generic [ref=f22e458]: Price EGP 15995
+                - 'button "Review: 4.8 out of 5 stars. Total reviews: (61)" [ref=f22e459] [cursor=pointer]':
+                  - generic [ref=f22e460]: "Review: 4.8 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e461]: (61)
+                - generic [ref=f22e463]:
+                  - button "Add \"MALM Chest of 6 drawers\" to cart" [ref=f22e464] [cursor=pointer]
+                  - button "Save \"MALM Chest of 6 drawers\" to shopping list" [ref=f22e465] [cursor=pointer]
+                - generic [ref=f22e466]: Available for delivery
+                - generic [ref=f22e470]:
+                  - generic [ref=f22e471]: Wood veneer
+                  - generic [ref=f22e475]: Additional colours available
+                  - generic [ref=f22e479]: Large drawers
+              - generic [ref=f22e483]:
+                - generic [ref=f22e485]:
+                  - checkbox "Compare - Select for product comparison, Chest of 6 drawers, 140x40x72 cm" [ref=f22e486] [cursor=pointer]
+                  - generic [ref=f22e488]: Compare
+                - generic [ref=f22e490]:
+                  - paragraph [ref=f22e492]: Top seller
+                  - link [ref=f22e493] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/kullen-chest-of-6-drawers-black-brown-00309235/
+                    - img "Dark wood 6-drawer dresser. Rectangular shape, simple design." [ref=f22e494]
+                    - img "Dark brown dresser with mirror and drawers. Lamp, books, plant on top. Rug, safe, anchored." [ref=f22e495]
+                - generic [ref=f22e498]:
+                  - heading [level=3] [ref=f22e500]:
+                    - link "KULLEN, Chest of 6 drawers, black-brown, 140x40x72 cm" [ref=f22e502] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/kullen-chest-of-6-drawers-black-brown-00309235/
+                      - text: KULLEN
+                    - generic [ref=f22e503]: Chest of 6 drawers, black-brown, 140x40x72 cm
+                  - generic [ref=f22e507]:
+                    - generic [ref=f22e508]: EGP9,495
+                    - generic [ref=f22e510]: Price EGP 9495
+                - 'button "Review: 4 out of 5 stars. Total reviews: (84)" [ref=f22e511] [cursor=pointer]':
+                  - generic [ref=f22e512]: "Review: 4 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e513]: (84)
+                - generic [ref=f22e515]:
+                  - button "Add \"KULLEN Chest of 6 drawers\" to cart" [ref=f22e516] [cursor=pointer]
+                  - button "Save \"KULLEN Chest of 6 drawers\" to shopping list" [ref=f22e517] [cursor=pointer]
+                - generic [ref=f22e518]: Available for delivery
+                - group "More options KULLEN" [ref=f22e522]:
+                  - generic [ref=f22e523]:
+                    - text: More options
+                    - generic [ref=f22e524]: KULLEN
+                  - generic [ref=f22e525] [cursor=pointer]:
+                    - 'radio "Option: KULLEN, Chest of 6 drawers, black-brown, 140x40x72 cm" [checked] [ref=f22e526]'
+                    - 'link "Option: KULLEN, Chest of 6 drawers, black-brown, 140x40x72 cm Dark wood 6-drawer dresser. Rectangular shape, simple design." [ref=f22e527]':
+                      - /url: https://www.ikea.com/eg/en/p/kullen-chest-of-6-drawers-black-brown-00309235/
+                      - generic [ref=f22e528]: "Option: KULLEN, Chest of 6 drawers, black-brown, 140x40x72 cm"
+                      - img "Dark wood 6-drawer dresser. Rectangular shape, simple design." [ref=f22e529]
+                  - generic [ref=f22e530] [cursor=pointer]:
+                    - 'radio "Option: KULLEN, Chest of 6 drawers, white, 140x40x72 cm" [ref=f22e531]'
+                    - 'link "Option: KULLEN, Chest of 6 drawers, white, 140x40x72 cm A KULLEN white chest of drawers with six compartments. Its rectangular, sleek, and modern, ideal for storing clothes and bedding." [ref=f22e532]':
+                      - /url: https://www.ikea.com/eg/en/p/kullen-chest-of-6-drawers-white-90309245/
+                      - generic [ref=f22e533]: "Option: KULLEN, Chest of 6 drawers, white, 140x40x72 cm"
+                      - img "A KULLEN white chest of drawers with six compartments. Its rectangular, sleek, and modern, ideal for storing clothes and bedding." [ref=f22e534]
+              - generic [ref=f22e535]:
+                - generic [ref=f22e537]:
+                  - checkbox "Compare - Select for product comparison, Chest of 8 drawers, 168x48x100 cm" [ref=f22e538] [cursor=pointer]
+                  - generic [ref=f22e540]: Compare
+                - link [ref=f22e543] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/gullaberg-chest-of-8-drawers-white-20609902/
+                  - img "White gullaberchest, 6 drawers, rounded knobs, 4 legs. Minimalist style." [ref=f22e544]
+                  - img "White GULLABERG dresser with lamp, mirror, flowers. Under angled ceiling, between window & bed. Slippers, art, light wood floor." [ref=f22e545]
+                - generic [ref=f22e548]:
+                  - generic [ref=f22e549]:
+                    - generic [ref=f22e550]: New
+                    - heading [level=3] [ref=f22e551]:
+                      - link "GULLABERG, Chest of 8 drawers, white, 168x48x100 cm" [ref=f22e553] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/gullaberg-chest-of-8-drawers-white-20609902/
+                        - text: GULLABERG
+                      - generic [ref=f22e554]: Chest of 8 drawers, white, 168x48x100 cm
+                  - generic [ref=f22e558]:
+                    - generic [ref=f22e559]: EGP14,995
+                    - generic [ref=f22e561]: Price EGP 14995
+                - generic [ref=f22e562]:
+                  - button "Add \"GULLABERG Chest of 8 drawers\" to cart" [ref=f22e563] [cursor=pointer]
+                  - button "Save \"GULLABERG Chest of 8 drawers\" to shopping list" [ref=f22e564] [cursor=pointer]
+                - generic [ref=f22e565]: Available for delivery
+                - generic [ref=f22e569]:
+                  - generic [ref=f22e570]: Adjustable feet
+                  - generic [ref=f22e574]: Large capacity
+                - group "More options GULLABERG" [ref=f22e578]:
+                  - generic [ref=f22e579]:
+                    - text: More options
+                    - generic [ref=f22e580]: GULLABERG
+                  - generic [ref=f22e581] [cursor=pointer]:
+                    - 'radio "Option: GULLABERG, Chest of 8 drawers, white, 168x48x100 cm" [checked] [ref=f22e582]'
+                    - 'link "Option: GULLABERG, Chest of 8 drawers, white, 168x48x100 cm White gullaberchest, 6 drawers, rounded knobs, 4 legs. Minimalist style." [ref=f22e583]':
+                      - /url: https://www.ikea.com/eg/en/p/gullaberg-chest-of-8-drawers-white-20609902/
+                      - generic [ref=f22e584]: "Option: GULLABERG, Chest of 8 drawers, white, 168x48x100 cm"
+                      - img "White gullaberchest, 6 drawers, rounded knobs, 4 legs. Minimalist style." [ref=f22e585]
+                  - generic [ref=f22e586] [cursor=pointer]:
+                    - 'radio "Option: GULLABERG, Chest of 8 drawers, grey, 168x48x100 cm" [ref=f22e587]'
+                    - 'link "Option: GULLABERG, Chest of 8 drawers, grey, 168x48x100 cm Grey GULLABERG dresser with six large drawers. Modern and minimalist design, made of particleboard and acrylic paint." [ref=f22e588]':
+                      - /url: https://www.ikea.com/eg/en/p/gullaberg-chest-of-8-drawers-grey-40609901/
+                      - generic [ref=f22e589]: "Option: GULLABERG, Chest of 8 drawers, grey, 168x48x100 cm"
+                      - img "Grey GULLABERG dresser with six large drawers. Modern and minimalist design, made of particleboard and acrylic paint." [ref=f22e590]
+              - generic [ref=f22e591]:
+                - generic [ref=f22e593]:
+                  - checkbox "Compare - Select for product comparison, Chest of 4 drawers, 78x46x124 cm" [ref=f22e594] [cursor=pointer]
+                  - generic [ref=f22e596]: Compare
+                - link [ref=f22e599] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/brimnes-chest-of-4-drawers-white-frosted-glass-90392046/
+                  - img "White BRIMNES chest of drawers with frosted glass top drawer. Sleek, rectangular design with four drawers and smooth-running mechanism." [ref=f22e600]
+                  - img "White BRIMNES chest with glass top, between mirror and bed, modern bedroom decor." [ref=f22e601]
+                - generic [ref=f22e604]:
+                  - heading [level=3] [ref=f22e606]:
+                    - link "BRIMNES, Chest of 4 drawers, white/frosted glass, 78x46x124 cm" [ref=f22e608] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/brimnes-chest-of-4-drawers-white-frosted-glass-90392046/
+                      - text: BRIMNES
+                    - generic [ref=f22e609]: Chest of 4 drawers, white/frosted glass, 78x46x124 cm
+                  - generic [ref=f22e613]:
+                    - generic [ref=f22e614]: EGP9,995
+                    - generic [ref=f22e616]: Price EGP 9995
+                - 'button "Review: 4.8 out of 5 stars. Total reviews: (13)" [ref=f22e617] [cursor=pointer]':
+                  - generic [ref=f22e618]: "Review: 4.8 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e619]: (13)
+                - generic [ref=f22e621]:
+                  - button "Add \"BRIMNES Chest of 4 drawers\" to cart" [ref=f22e622] [cursor=pointer]
+                  - button "Save \"BRIMNES Chest of 4 drawers\" to shopping list" [ref=f22e623] [cursor=pointer]
+                - generic [ref=f22e624]: Available for delivery
+              - generic [ref=f22e628]:
+                - generic [ref=f22e630]:
+                  - checkbox "Compare - Select for product comparison, Chest of 3 drawers, 60x35x59 cm" [ref=f22e631] [cursor=pointer]
+                  - generic [ref=f22e633]: Compare
+                - generic [ref=f22e635]:
+                  - paragraph [ref=f22e637]: Top seller
+                  - link [ref=f22e638] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/rast-chest-of-3-drawers-pine-20609860/
+                    - img "RAST Chest of 3 drawers, pine, 60x35x59 cm" [ref=f22e639]
+                    - img "Bedroom with black-striped bedding, blue stool, RAST wooden chest, colourful fruit art, shoe hooks, and a full-length mirror." [ref=f22e640]
+                - generic [ref=f22e643]:
+                  - heading [level=3] [ref=f22e645]:
+                    - link "RAST, Chest of 3 drawers, pine, 60x35x59 cm" [ref=f22e647] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/rast-chest-of-3-drawers-pine-20609860/
+                      - text: RAST
+                    - generic [ref=f22e648]: Chest of 3 drawers, pine, 60x35x59 cm
+                  - generic [ref=f22e652]:
+                    - generic [ref=f22e653]: EGP2,995
+                    - generic [ref=f22e655]: Price EGP 2995
+                - generic [ref=f22e656]:
+                  - button "Add \"RAST Chest of 3 drawers\" to cart" [ref=f22e657] [cursor=pointer]
+                  - button "Save \"RAST Chest of 3 drawers\" to shopping list" [ref=f22e658] [cursor=pointer]
+                - generic [ref=f22e659]: Available for delivery
+                - generic [ref=f22e663]: Solid wood
+              - generic [ref=f22e668]:
+                - generic [ref=f22e670]:
+                  - checkbox "Compare - Select for product comparison, Chest of 6 drawers, 162x95 cm" [ref=f22e671] [cursor=pointer]
+                  - generic [ref=f22e673]: Compare
+                - link [ref=f22e676] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/idanaes-chest-of-6-drawers-white-10458710/
+                  - img "White IDANÄS dresser with six drawers and sleek design." [ref=f22e677]
+                  - img "Minimalist IDANÄS chest with 6 drawers, lamp, and vase. Mirror reflects room decor. Wooden floors and curtains." [ref=f22e678]
+                - generic [ref=f22e681]:
+                  - heading [level=3] [ref=f22e683]:
+                    - link "IDANÄS, Chest of 6 drawers, white, 162x95 cm" [ref=f22e685] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/idanaes-chest-of-6-drawers-white-10458710/
+                      - text: IDANÄS
+                    - generic [ref=f22e686]: Chest of 6 drawers, white, 162x95 cm
+                  - generic [ref=f22e690]:
+                    - generic [ref=f22e691]: EGP21,995
+                    - generic [ref=f22e693]: Price EGP 21995
+                - 'button "Review: 5 out of 5 stars. Total reviews: (2)" [ref=f22e694] [cursor=pointer]':
+                  - generic [ref=f22e695]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e696]: (2)
+                - generic [ref=f22e698]:
+                  - button "Add \"IDANÄS Chest of 6 drawers\" to cart" [ref=f22e699] [cursor=pointer]
+                  - button "Save \"IDANÄS Chest of 6 drawers\" to shopping list" [ref=f22e700] [cursor=pointer]
+                - generic [ref=f22e701]: Available for delivery
+                - generic [ref=f22e705]:
+                  - generic [ref=f22e706]: Adjustable feet
+                  - generic [ref=f22e710]: Soft-closing
+              - generic [ref=f22e715]:
+                - generic [ref=f22e717]:
+                  - checkbox "Compare - Select for product comparison, Chest of 6 drawers, 82x126 cm" [ref=f22e718] [cursor=pointer]
+                  - generic [ref=f22e720]: Compare
+                - generic [ref=f22e722]:
+                  - paragraph [ref=f22e724]: Top seller
+                  - link [ref=f22e725] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/songesand-chest-of-6-drawers-brown-70366784/
+                    - img "Dark brown wooden dresser with 7 drawers, sleek handles, classic design, smooth finish." [ref=f22e726]
+                    - img "Dark brown SONGESAND chest with 6 drawers, decor items, fits by bed and curtains." [ref=f22e727]
+                - generic [ref=f22e730]:
+                  - heading [level=3] [ref=f22e732]:
+                    - link "SONGESAND, Chest of 6 drawers, brown, 82x126 cm" [ref=f22e734] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/songesand-chest-of-6-drawers-brown-70366784/
+                      - text: SONGESAND
+                    - generic [ref=f22e735]: Chest of 6 drawers, brown, 82x126 cm
+                  - generic [ref=f22e737]:
+                    - generic [ref=f22e739]:
+                      - generic [ref=f22e740]: EGP17,995
+                      - generic [ref=f22e742]: EGP 17995
+                    - generic [ref=f22e744]:
+                      - generic [ref=f22e745]: EGP13,995
+                      - generic [ref=f22e747]: Price EGP 13995
+                  - generic [ref=f22e748]: 22% off, save EGP4,000
+                  - paragraph [ref=f22e752]: Limited time offer
+                - 'button "Review: 2.5 out of 5 stars. Total reviews: (2)" [ref=f22e753] [cursor=pointer]':
+                  - generic [ref=f22e754]: "Review: 2.5 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e755]: (2)
+                - generic [ref=f22e757]:
+                  - button "Add \"SONGESAND Chest of 6 drawers\" to cart" [ref=f22e758] [cursor=pointer]
+                  - button "Save \"SONGESAND Chest of 6 drawers\" to shopping list" [ref=f22e759] [cursor=pointer]
+                - generic [ref=f22e760]: Available for delivery
+              - generic [ref=f22e764]:
+                - generic [ref=f22e766]:
+                  - checkbox "Compare - Select for product comparison, Chest of 6 drawers, 160x51x78 cm" [ref=f22e767] [cursor=pointer]
+                  - generic [ref=f22e769]: Compare
+                - link [ref=f22e772] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-6-drawers-off-white-00611642/
+                  - img "FÅGELFJÄLLET Chest of 6 drawers, off-white, 160x51x78 cm" [ref=f22e773]
+                  - img "FÅGELFJÄLLET Chest of 6 drawers, off-white, 160x51x78 cm" [ref=f22e774]
+                - generic [ref=f22e777]:
+                  - generic [ref=f22e778]:
+                    - generic [ref=f22e779]: New
+                    - heading [level=3] [ref=f22e780]:
+                      - link "FÅGELFJÄLLET, Chest of 6 drawers, off-white, 160x51x78 cm" [ref=f22e782] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-6-drawers-off-white-00611642/
+                        - text: FÅGELFJÄLLET
+                      - generic [ref=f22e783]: Chest of 6 drawers, off-white, 160x51x78 cm
+                  - generic [ref=f22e787]:
+                    - generic [ref=f22e788]: EGP11,995
+                    - generic [ref=f22e790]: Price EGP 11995
+                - generic [ref=f22e791]:
+                  - button "Add \"FÅGELFJÄLLET Chest of 6 drawers\" to cart" [ref=f22e792] [cursor=pointer]
+                  - button "Save \"FÅGELFJÄLLET Chest of 6 drawers\" to shopping list" [ref=f22e793] [cursor=pointer]
+                - generic [ref=f22e794]: Available for delivery
+                - group "More options FÅGELFJÄLLET" [ref=f22e798]:
+                  - generic [ref=f22e799]:
+                    - text: More options
+                    - generic [ref=f22e800]: FÅGELFJÄLLET
+                  - generic [ref=f22e801] [cursor=pointer]:
+                    - 'radio "Option: FÅGELFJÄLLET, Chest of 6 drawers, off-white, 160x51x78 cm" [checked] [ref=f22e802]'
+                    - 'link "Option: FÅGELFJÄLLET, Chest of 6 drawers, off-white, 160x51x78 cm FÅGELFJÄLLET Chest of 6 drawers, off-white, 160x51x78 cm" [ref=f22e803]':
+                      - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-6-drawers-off-white-00611642/
+                      - generic [ref=f22e804]: "Option: FÅGELFJÄLLET, Chest of 6 drawers, off-white, 160x51x78 cm"
+                      - img "FÅGELFJÄLLET Chest of 6 drawers, off-white, 160x51x78 cm" [ref=f22e805]
+                  - generic [ref=f22e806] [cursor=pointer]:
+                    - 'radio "Option: FÅGELFJÄLLET, Chest of 6 drawers, dark grey-blue, 160x51x78 cm" [ref=f22e807]'
+                    - 'link "Option: FÅGELFJÄLLET, Chest of 6 drawers, dark grey-blue, 160x51x78 cm FÅGELFJÄLLET Chest of 6 drawers, dark grey-blue, 160x51x78 cm" [ref=f22e808]':
+                      - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-6-drawers-dark-grey-blue-10611646/
+                      - generic [ref=f22e809]: "Option: FÅGELFJÄLLET, Chest of 6 drawers, dark grey-blue, 160x51x78 cm"
+                      - img "FÅGELFJÄLLET Chest of 6 drawers, dark grey-blue, 160x51x78 cm" [ref=f22e810]
+              - generic [ref=f22e811]:
+                - generic [ref=f22e813]:
+                  - checkbox "Compare - Select for product comparison, Chest of 6 drawers, 138x46x84 cm" [ref=f22e814] [cursor=pointer]
+                  - generic [ref=f22e816]: Compare
+                - generic [ref=f22e818]:
+                  - paragraph [ref=f22e820]: Top seller
+                  - link [ref=f22e821] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/hauga-chest-of-6-drawers-white-00581536/
+                    - img "HAUGA white dresser, 6 drawers, grey knobs, modern minimalist design for bedroom." [ref=f22e822]
+                    - img "Beautiful bedroom featuring white HAUGA dresser with six drawers, round mirror, lamps, and pink walls." [ref=f22e823]
+                - generic [ref=f22e826]:
+                  - heading [level=3] [ref=f22e828]:
+                    - link "HAUGA, Chest of 6 drawers, white, 138x46x84 cm" [ref=f22e830] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/hauga-chest-of-6-drawers-white-00581536/
+                      - text: HAUGA
+                    - generic [ref=f22e831]: Chest of 6 drawers, white, 138x46x84 cm
+                  - generic [ref=f22e835]:
+                    - generic [ref=f22e836]: EGP14,995
+                    - generic [ref=f22e838]: Price EGP 14995
+                - 'button "Review: 5 out of 5 stars. Total reviews: (2)" [ref=f22e839] [cursor=pointer]':
+                  - generic [ref=f22e840]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e841]: (2)
+                - generic [ref=f22e843]:
+                  - button "Add \"HAUGA Chest of 6 drawers\" to cart" [ref=f22e844] [cursor=pointer]
+                  - button "Save \"HAUGA Chest of 6 drawers\" to shopping list" [ref=f22e845] [cursor=pointer]
+                - generic [ref=f22e846]: Available for delivery
+                - group "More options HAUGA" [ref=f22e850]:
+                  - generic [ref=f22e851]:
+                    - text: More options
+                    - generic [ref=f22e852]: HAUGA
+                  - generic [ref=f22e853] [cursor=pointer]:
+                    - 'radio "Option: HAUGA, Chest of 6 drawers, white, 138x46x84 cm" [checked] [ref=f22e854]'
+                    - 'link "Option: HAUGA, Chest of 6 drawers, white, 138x46x84 cm HAUGA white dresser, 6 drawers, grey knobs, modern minimalist design for bedroom." [ref=f22e855]':
+                      - /url: https://www.ikea.com/eg/en/p/hauga-chest-of-6-drawers-white-00581536/
+                      - generic [ref=f22e856]: "Option: HAUGA, Chest of 6 drawers, white, 138x46x84 cm"
+                      - img "HAUGA white dresser, 6 drawers, grey knobs, modern minimalist design for bedroom." [ref=f22e857]
+                  - generic [ref=f22e858] [cursor=pointer]:
+                    - 'radio "Option: HAUGA, Chest of 6 drawers, grey, 138x46x84 cm" [ref=f22e859]'
+                    - 'link "Option: HAUGA, Chest of 6 drawers, grey, 138x46x84 cm Grey HAUGA chest with six drawers, modern, minimalist design. Ideal for bedrooms, versatile, safe, wall-mountable." [ref=f22e860]':
+                      - /url: https://www.ikea.com/eg/en/p/hauga-chest-of-6-drawers-grey-70581533/
+                      - generic [ref=f22e861]: "Option: HAUGA, Chest of 6 drawers, grey, 138x46x84 cm"
+                      - img "Grey HAUGA chest with six drawers, modern, minimalist design. Ideal for bedrooms, versatile, safe, wall-mountable." [ref=f22e862]
+              - generic [ref=f22e863]:
+                - generic [ref=f22e865]:
+                  - checkbox "Compare - Select for product comparison, Chest of 3 drawers, 99x48x100 cm" [ref=f22e866] [cursor=pointer]
+                  - generic [ref=f22e868]: Compare
+                - link [ref=f22e871] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/gullaberg-chest-of-3-drawers-grey-10609894/
+                  - img "Grey GULLABERG chest of drawers, 3 drawers, simple design." [ref=f22e872]
+                  - img "GULLABERG 3-drawer chest in bedroom with top decor. Traditional design." [ref=f22e873]
+                - generic [ref=f22e876]:
+                  - generic [ref=f22e877]:
+                    - generic [ref=f22e878]: New
+                    - heading [level=3] [ref=f22e879]:
+                      - link "GULLABERG, Chest of 3 drawers, grey, 99x48x100 cm" [ref=f22e881] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/gullaberg-chest-of-3-drawers-grey-10609894/
+                        - text: GULLABERG
+                      - generic [ref=f22e882]: Chest of 3 drawers, grey, 99x48x100 cm
+                  - generic [ref=f22e886]:
+                    - generic [ref=f22e887]: EGP9,995
+                    - generic [ref=f22e889]: Price EGP 9995
+                - generic [ref=f22e890]:
+                  - button "Add \"GULLABERG Chest of 3 drawers\" to cart" [ref=f22e891] [cursor=pointer]
+                  - button "Save \"GULLABERG Chest of 3 drawers\" to shopping list" [ref=f22e892] [cursor=pointer]
+                - generic [ref=f22e893]: Available for delivery
+                - generic [ref=f22e897]:
+                  - generic [ref=f22e898]: Adjustable feet
+                  - generic [ref=f22e902]: Large capacity
+                - group "More options GULLABERG" [ref=f22e906]:
+                  - generic [ref=f22e907]:
+                    - text: More options
+                    - generic [ref=f22e908]: GULLABERG
+                  - generic [ref=f22e909] [cursor=pointer]:
+                    - 'radio "Option: GULLABERG, Chest of 3 drawers, grey, 99x48x100 cm" [checked] [ref=f22e910]'
+                    - 'link "Option: GULLABERG, Chest of 3 drawers, grey, 99x48x100 cm Grey GULLABERG chest of drawers, 3 drawers, simple design." [ref=f22e911]':
+                      - /url: https://www.ikea.com/eg/en/p/gullaberg-chest-of-3-drawers-grey-10609894/
+                      - generic [ref=f22e912]: "Option: GULLABERG, Chest of 3 drawers, grey, 99x48x100 cm"
+                      - img "Grey GULLABERG chest of drawers, 3 drawers, simple design." [ref=f22e913]
+                  - generic [ref=f22e914] [cursor=pointer]:
+                    - 'radio "Option: GULLABERG, Chest of 3 drawers, white, 99x48x100 cm" [ref=f22e915]'
+                    - 'link "Option: GULLABERG, Chest of 3 drawers, white, 99x48x100 cm GULLABERG white chest, 3 drawers, sleek design, wood & fibre, practical & safe." [ref=f22e916]':
+                      - /url: https://www.ikea.com/eg/en/p/gullaberg-chest-of-3-drawers-white-80609895/
+                      - generic [ref=f22e917]: "Option: GULLABERG, Chest of 3 drawers, white, 99x48x100 cm"
+                      - img "GULLABERG white chest, 3 drawers, sleek design, wood & fibre, practical & safe." [ref=f22e918]
+              - generic [ref=f22e919]:
+                - generic [ref=f22e921]:
+                  - checkbox "Compare - Select for product comparison, Chest of 3 drawers, 86x78 cm" [ref=f22e922] [cursor=pointer]
+                  - generic [ref=f22e924]: Compare
+                - link [ref=f22e927] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/kilberget-chest-of-3-drawers-white-70609914/
+                  - img "KILBERGET white dresser, 3 drawers, modern design, wooden, safety feature." [ref=f22e928]
+                  - img "Modern bedroom with white KILBERGET chest, mirror, grey bed, wicker chair, small lamp, plant, and white-wall art." [ref=f22e929]
+                - generic [ref=f22e932]:
+                  - generic [ref=f22e933]:
+                    - generic [ref=f22e934]: New
+                    - heading [level=3] [ref=f22e935]:
+                      - link "KILBERGET, Chest of 3 drawers, white, 86x78 cm" [ref=f22e937] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/kilberget-chest-of-3-drawers-white-70609914/
+                        - text: KILBERGET
+                      - generic [ref=f22e938]: Chest of 3 drawers, white, 86x78 cm
+                  - generic [ref=f22e942]:
+                    - generic [ref=f22e943]: EGP7,995
+                    - generic [ref=f22e945]: Price EGP 7995
+                - generic [ref=f22e946]:
+                  - button "Add \"KILBERGET Chest of 3 drawers\" to cart" [ref=f22e947] [cursor=pointer]
+                  - button "Save \"KILBERGET Chest of 3 drawers\" to shopping list" [ref=f22e948] [cursor=pointer]
+                - generic [ref=f22e949]: Available for delivery
+              - generic [ref=f22e953]:
+                - generic [ref=f22e955]:
+                  - checkbox "Compare - Select for product comparison, Chest of 4 drawers, 82x51x101 cm" [ref=f22e956] [cursor=pointer]
+                  - generic [ref=f22e958]: Compare
+                - link [ref=f22e961] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-4-drawers-dark-grey-blue-20598606/
+                  - img "FÅGELFJÄLLET Chest of 4 drawers, dark grey-blue, 82x51x101 cm" [ref=f22e962]
+                  - img "FÅGELFJÄLLET Chest of 4 drawers, dark grey-blue, 82x51x101 cm" [ref=f22e963]
+                - generic [ref=f22e966]:
+                  - generic [ref=f22e967]:
+                    - generic [ref=f22e968]: New
+                    - heading [level=3] [ref=f22e969]:
+                      - link "FÅGELFJÄLLET, Chest of 4 drawers, dark grey-blue, 82x51x101 cm" [ref=f22e971] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-4-drawers-dark-grey-blue-20598606/
+                        - text: FÅGELFJÄLLET
+                      - generic [ref=f22e972]: Chest of 4 drawers, dark grey-blue, 82x51x101 cm
+                  - generic [ref=f22e976]:
+                    - generic [ref=f22e977]: EGP7,995
+                    - generic [ref=f22e979]: Price EGP 7995
+                - generic [ref=f22e980]:
+                  - button "Add \"FÅGELFJÄLLET Chest of 4 drawers\" to cart" [ref=f22e981] [cursor=pointer]
+                  - button "Save \"FÅGELFJÄLLET Chest of 4 drawers\" to shopping list" [ref=f22e982] [cursor=pointer]
+                - generic [ref=f22e983]: Available for delivery
+                - group "More options FÅGELFJÄLLET" [ref=f22e987]:
+                  - generic [ref=f22e988]:
+                    - text: More options
+                    - generic [ref=f22e989]: FÅGELFJÄLLET
+                  - generic [ref=f22e990] [cursor=pointer]:
+                    - 'radio "Option: FÅGELFJÄLLET, Chest of 4 drawers, dark grey-blue, 82x51x101 cm" [checked] [ref=f22e991]'
+                    - 'link "Option: FÅGELFJÄLLET, Chest of 4 drawers, dark grey-blue, 82x51x101 cm FÅGELFJÄLLET Chest of 4 drawers, dark grey-blue, 82x51x101 cm" [ref=f22e992]':
+                      - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-4-drawers-dark-grey-blue-20598606/
+                      - generic [ref=f22e993]: "Option: FÅGELFJÄLLET, Chest of 4 drawers, dark grey-blue, 82x51x101 cm"
+                      - img "FÅGELFJÄLLET Chest of 4 drawers, dark grey-blue, 82x51x101 cm" [ref=f22e994]
+                  - generic [ref=f22e995] [cursor=pointer]:
+                    - 'radio "Option: FÅGELFJÄLLET, Chest of 4 drawers, off-white, 82x51x101 cm" [ref=f22e996]'
+                    - 'link "Option: FÅGELFJÄLLET, Chest of 4 drawers, off-white, 82x51x101 cm FÅGELFJÄLLET Chest of 4 drawers, off-white, 82x51x101 cm" [ref=f22e997]':
+                      - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-4-drawers-off-white-60611639/
+                      - generic [ref=f22e998]: "Option: FÅGELFJÄLLET, Chest of 4 drawers, off-white, 82x51x101 cm"
+                      - img "FÅGELFJÄLLET Chest of 4 drawers, off-white, 82x51x101 cm" [ref=f22e999]
+              - generic [ref=f22e1000]:
+                - generic [ref=f22e1002]:
+                  - checkbox "Compare - Select for product comparison, Chest of 3 drawers with shelf, 70x46x116 cm" [ref=f22e1003] [cursor=pointer]
+                  - generic [ref=f22e1005]: Compare
+                - generic [ref=f22e1007]:
+                  - paragraph [ref=f22e1009]: Top seller
+                  - link [ref=f22e1010] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/hauga-chest-of-3-drawers-with-shelf-white-50581529/
+                    - img "White HAUGA furniture, three-drawer & open shelf storage, wall-safe, versatile design." [ref=f22e1011]
+                    - img "Cosy bedroom with white HAUGA chest, light wood floor, grey curtains, and plants." [ref=f22e1012]
+                - generic [ref=f22e1015]:
+                  - heading [level=3] [ref=f22e1017]:
+                    - link "HAUGA, Chest of 3 drawers with shelf, white, 70x46x116 cm" [ref=f22e1019] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/hauga-chest-of-3-drawers-with-shelf-white-50581529/
+                      - text: HAUGA
+                    - generic [ref=f22e1020]: Chest of 3 drawers with shelf, white, 70x46x116 cm
+                  - generic [ref=f22e1024]:
+                    - generic [ref=f22e1025]: EGP9,995
+                    - generic [ref=f22e1027]: Price EGP 9995
+                - generic [ref=f22e1028]:
+                  - button "Add \"HAUGA Chest of 3 drawers with shelf\" to cart" [ref=f22e1029] [cursor=pointer]
+                  - button "Save \"HAUGA Chest of 3 drawers with shelf\" to shopping list" [ref=f22e1030] [cursor=pointer]
+                - generic [ref=f22e1031]: Available for delivery
+                - group "More options HAUGA" [ref=f22e1035]:
+                  - generic [ref=f22e1036]:
+                    - text: More options
+                    - generic [ref=f22e1037]: HAUGA
+                  - generic [ref=f22e1038] [cursor=pointer]:
+                    - 'radio "Option: HAUGA, Chest of 3 drawers with shelf, white, 70x46x116 cm" [checked] [ref=f22e1039]'
+                    - 'link "Option: HAUGA, Chest of 3 drawers with shelf, white, 70x46x116 cm White HAUGA furniture, three-drawer & open shelf storage, wall-safe, versatile design." [ref=f22e1040]':
+                      - /url: https://www.ikea.com/eg/en/p/hauga-chest-of-3-drawers-with-shelf-white-50581529/
+                      - generic [ref=f22e1041]: "Option: HAUGA, Chest of 3 drawers with shelf, white, 70x46x116 cm"
+                      - img "White HAUGA furniture, three-drawer & open shelf storage, wall-safe, versatile design." [ref=f22e1042]
+                  - generic [ref=f22e1043] [cursor=pointer]:
+                    - 'radio "Option: HAUGA, Chest of 3 drawers with shelf, grey, 70x46x116 cm" [ref=f22e1044]'
+                    - 'link "Option: HAUGA, Chest of 3 drawers with shelf, grey, 70x46x116 cm Grey HAUGA chest, 3 drawers, top open shelf, wall-mountable, modern design." [ref=f22e1045]':
+                      - /url: https://www.ikea.com/eg/en/p/hauga-chest-of-3-drawers-with-shelf-grey-30581525/
+                      - generic [ref=f22e1046]: "Option: HAUGA, Chest of 3 drawers with shelf, grey, 70x46x116 cm"
+                      - img "Grey HAUGA chest, 3 drawers, top open shelf, wall-mountable, modern design." [ref=f22e1047]
+              - generic [ref=f22e1048]:
+                - generic [ref=f22e1050]:
+                  - checkbox "Compare - Select for product comparison, Chest of 3 drawers, 80x78 cm" [ref=f22e1051] [cursor=pointer]
+                  - generic [ref=f22e1053]: Compare
+                - generic [ref=f22e1055]:
+                  - paragraph [ref=f22e1057]: Top seller
+                  - link [ref=f22e1058] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/malm-chest-of-3-drawers-black-brown-20403557/
+                    - img "MALM black chest, 3 drawers, smooth fronts, rectangular." [ref=f22e1059]
+                    - img "Modern bedroom with MALM 3-drawer dresser in black, round mirror, white lamps, and bed." [ref=f22e1060]
+                - generic [ref=f22e1063]:
+                  - heading [level=3] [ref=f22e1065]:
+                    - link "MALM, Chest of 3 drawers, black-brown, 80x78 cm" [ref=f22e1067] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-chest-of-3-drawers-black-brown-20403557/
+                      - text: MALM
+                    - generic [ref=f22e1068]: Chest of 3 drawers, black-brown, 80x78 cm
+                  - generic [ref=f22e1072]:
+                    - generic [ref=f22e1073]: EGP9,995
+                    - generic [ref=f22e1075]: Price EGP 9995
+                - 'button "Review: 4.5 out of 5 stars. Total reviews: (11)" [ref=f22e1076] [cursor=pointer]':
+                  - generic [ref=f22e1077]: "Review: 4.5 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e1078]: (11)
+                - generic [ref=f22e1080]:
+                  - button "Add \"MALM Chest of 3 drawers\" to cart" [ref=f22e1081] [cursor=pointer]
+                  - button "Save \"MALM Chest of 3 drawers\" to shopping list" [ref=f22e1082] [cursor=pointer]
+                - generic [ref=f22e1083]: Available for delivery
+                - generic [ref=f22e1087]: Wood veneer
+              - generic [ref=f22e1092]:
+                - generic [ref=f22e1094]:
+                  - checkbox "Compare - Select for product comparison, Storage table, 44 cm" [ref=f22e1095] [cursor=pointer]
+                  - generic [ref=f22e1097]: Compare
+                - generic [ref=f22e1099]:
+                  - paragraph [ref=f22e1101]: Top seller
+                  - link [ref=f22e1102] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/kvistbro-storage-table-black-90480401/
+                    - img "KVISTBRO storage table, wire mesh, flat top, multifunctional design." [ref=f22e1103]
+                    - img "Small black wire side table with diamond pattern, holding clock, water glass, and reading lamp beside bed." [ref=f22e1104]
+                - generic [ref=f22e1107]:
+                  - heading [level=3] [ref=f22e1109]:
+                    - link "KVISTBRO, Storage table, black, 44 cm" [ref=f22e1111] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/kvistbro-storage-table-black-90480401/
+                      - text: KVISTBRO
+                    - generic [ref=f22e1112]: Storage table, black, 44 cm
+                  - generic [ref=f22e1116]:
+                    - generic [ref=f22e1117]: EGP2,995
+                    - generic [ref=f22e1119]: Price EGP 2995
+                - 'button "Review: 5 out of 5 stars. Total reviews: (10)" [ref=f22e1120] [cursor=pointer]':
+                  - generic [ref=f22e1121]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e1122]: (10)
+                - generic [ref=f22e1124]:
+                  - button "Add \"KVISTBRO Storage table\" to cart" [ref=f22e1125] [cursor=pointer]
+                  - button "Save \"KVISTBRO Storage table\" to shopping list" [ref=f22e1126] [cursor=pointer]
+                - generic [ref=f22e1127]: Available for delivery
+                - group "More options KVISTBRO" [ref=f22e1131]:
+                  - generic [ref=f22e1132]:
+                    - text: More options
+                    - generic [ref=f22e1133]: KVISTBRO
+                  - generic [ref=f22e1134] [cursor=pointer]:
+                    - 'radio "Option: KVISTBRO, Storage table, black, 44 cm" [checked] [ref=f22e1135]'
+                    - 'link "Option: KVISTBRO, Storage table, black, 44 cm KVISTBRO storage table, wire mesh, flat top, multifunctional design." [ref=f22e1136]':
+                      - /url: https://www.ikea.com/eg/en/p/kvistbro-storage-table-black-90480401/
+                      - generic [ref=f22e1137]: "Option: KVISTBRO, Storage table, black, 44 cm"
+                      - img "KVISTBRO storage table, wire mesh, flat top, multifunctional design." [ref=f22e1138]
+                  - generic [ref=f22e1139] [cursor=pointer]:
+                    - 'radio "Option: KVISTBRO, Storage table, white, 44 cm" [ref=f22e1140]'
+                    - 'link "Option: KVISTBRO, Storage table, white, 44 cm KVISTBRO white storage table, round with diamond pattern, light metal and fiberboard." [ref=f22e1141]':
+                      - /url: https://www.ikea.com/eg/en/p/kvistbro-storage-table-white-30349452/
+                      - generic [ref=f22e1142]: "Option: KVISTBRO, Storage table, white, 44 cm"
+                      - img "KVISTBRO white storage table, round with diamond pattern, light metal and fiberboard." [ref=f22e1143]
+              - generic [ref=f22e1144]:
+                - generic [ref=f22e1146]:
+                  - checkbox "Compare - Select for product comparison, Chest of 6 drawers, 82x51x123 cm" [ref=f22e1147] [cursor=pointer]
+                  - generic [ref=f22e1149]: Compare
+                - link [ref=f22e1152] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-6-drawers-off-white-70611648/
+                  - img "FÅGELFJÄLLET Chest of 6 drawers, off-white, 82x51x123 cm" [ref=f22e1153]
+                  - img "FÅGELFJÄLLET Chest of 6 drawers, off-white, 82x51x123 cm" [ref=f22e1154]
+                - generic [ref=f22e1157]:
+                  - generic [ref=f22e1158]:
+                    - generic [ref=f22e1159]: New
+                    - heading [level=3] [ref=f22e1160]:
+                      - link "FÅGELFJÄLLET, Chest of 6 drawers, off-white, 82x51x123 cm" [ref=f22e1162] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-6-drawers-off-white-70611648/
+                        - text: FÅGELFJÄLLET
+                      - generic [ref=f22e1163]: Chest of 6 drawers, off-white, 82x51x123 cm
+                  - generic [ref=f22e1167]:
+                    - generic [ref=f22e1168]: EGP9,995
+                    - generic [ref=f22e1170]: Price EGP 9995
+                - generic [ref=f22e1171]:
+                  - button "Add \"FÅGELFJÄLLET Chest of 6 drawers\" to cart" [ref=f22e1172] [cursor=pointer]
+                  - button "Save \"FÅGELFJÄLLET Chest of 6 drawers\" to shopping list" [ref=f22e1173] [cursor=pointer]
+                - generic [ref=f22e1174]: Available for delivery
+                - group "More options FÅGELFJÄLLET" [ref=f22e1178]:
+                  - generic [ref=f22e1179]:
+                    - text: More options
+                    - generic [ref=f22e1180]: FÅGELFJÄLLET
+                  - generic [ref=f22e1181] [cursor=pointer]:
+                    - 'radio "Option: FÅGELFJÄLLET, Chest of 6 drawers, off-white, 82x51x123 cm" [checked] [ref=f22e1182]'
+                    - 'link "Option: FÅGELFJÄLLET, Chest of 6 drawers, off-white, 82x51x123 cm FÅGELFJÄLLET Chest of 6 drawers, off-white, 82x51x123 cm" [ref=f22e1183]':
+                      - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-6-drawers-off-white-70611648/
+                      - generic [ref=f22e1184]: "Option: FÅGELFJÄLLET, Chest of 6 drawers, off-white, 82x51x123 cm"
+                      - img "FÅGELFJÄLLET Chest of 6 drawers, off-white, 82x51x123 cm" [ref=f22e1185]
+                  - generic [ref=f22e1186] [cursor=pointer]:
+                    - 'radio "Option: FÅGELFJÄLLET, Chest of 6 drawers, dark grey-blue, 82x51x123 cm" [ref=f22e1187]'
+                    - 'link "Option: FÅGELFJÄLLET, Chest of 6 drawers, dark grey-blue, 82x51x123 cm FÅGELFJÄLLET Chest of 6 drawers, dark grey-blue, 82x51x123 cm" [ref=f22e1188]':
+                      - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-chest-of-6-drawers-dark-grey-blue-80611638/
+                      - generic [ref=f22e1189]: "Option: FÅGELFJÄLLET, Chest of 6 drawers, dark grey-blue, 82x51x123 cm"
+                      - img "FÅGELFJÄLLET Chest of 6 drawers, dark grey-blue, 82x51x123 cm" [ref=f22e1190]
+              - generic [ref=f22e1191]:
+                - generic [ref=f22e1193]:
+                  - checkbox "Compare - Select for product comparison, Chest of 8 drawers, 160x96 cm" [ref=f22e1194] [cursor=pointer]
+                  - generic [ref=f22e1196]: Compare
+                - generic [ref=f22e1198]:
+                  - paragraph [ref=f22e1200]: Top seller
+                  - link [ref=f22e1201] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/hemnes-chest-of-8-drawers-white-stain-10239280/
+                    - img "White wooden HEMNES dresser, 6 drawers, classic style." [ref=f22e1202]
+                    - img "Calm bedroom with white HEMNES chest, large mirror, grey bed and chair. Wooden, six-drawer dresser dominates space." [ref=f22e1203]
+                - generic [ref=f22e1206]:
+                  - heading [level=3] [ref=f22e1208]:
+                    - link "HEMNES, Chest of 8 drawers, white stain, 160x96 cm" [ref=f22e1210] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/hemnes-chest-of-8-drawers-white-stain-10239280/
+                      - text: HEMNES
+                    - generic [ref=f22e1211]: Chest of 8 drawers, white stain, 160x96 cm
+                  - generic [ref=f22e1213]:
+                    - generic [ref=f22e1215]:
+                      - generic [ref=f22e1216]: EGP22,995
+                      - generic [ref=f22e1218]: EGP 22995
+                    - generic [ref=f22e1220]:
+                      - generic [ref=f22e1221]: EGP17,995
+                      - generic [ref=f22e1223]: Price EGP 17995
+                  - generic [ref=f22e1224]: 21% off, save EGP5,000
+                  - paragraph [ref=f22e1228]: Limited time offer
+                - 'button "Review: 4.4 out of 5 stars. Total reviews: (21)" [ref=f22e1229] [cursor=pointer]':
+                  - generic [ref=f22e1230]: "Review: 4.4 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e1231]: (21)
+                - generic [ref=f22e1233]:
+                  - button "Add \"HEMNES Chest of 8 drawers\" to cart" [ref=f22e1234] [cursor=pointer]
+                  - button "Save \"HEMNES Chest of 8 drawers\" to shopping list" [ref=f22e1235] [cursor=pointer]
+                - generic [ref=f22e1236]: Available for delivery
+                - generic [ref=f22e1240]:
+                  - generic [ref=f22e1241]: Solid wood
+                  - generic [ref=f22e1245]: Large capacity
+              - generic [ref=f22e1249]:
+                - generic [ref=f22e1251]:
+                  - checkbox "Compare - Select for product comparison, Tray table, 45x53 cm" [ref=f22e1252] [cursor=pointer]
+                  - generic [ref=f22e1254]: Compare
+                - link [ref=f22e1257] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/gladom-tray-table-light-blue-10534002/
+                  - img "GLADOM Tray table, light blue, 45x53 cm" [ref=f22e1258]
+                  - img "GLADOM Tray table, light blue, 45x53 cm" [ref=f22e1259]
+                - generic [ref=f22e1262]:
+                  - generic [ref=f22e1263]:
+                    - generic [ref=f22e1264]: New
+                    - heading [level=3] [ref=f22e1265]:
+                      - link "GLADOM, Tray table, light blue, 45x53 cm" [ref=f22e1267] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/gladom-tray-table-light-blue-10534002/
+                        - text: GLADOM
+                      - generic [ref=f22e1268]: Tray table, light blue, 45x53 cm
+                  - generic [ref=f22e1272]:
+                    - generic [ref=f22e1273]: EGP2,495
+                    - generic [ref=f22e1275]: Price EGP 2495
+                - 'button "Review: 4.8 out of 5 stars. Total reviews: (29)" [ref=f22e1276] [cursor=pointer]':
+                  - generic [ref=f22e1277]: "Review: 4.8 out of 5 stars. Total reviews:"
+                  - generic [ref=f22e1278]: (29)
+                - generic [ref=f22e1280]:
+                  - button "Add \"GLADOM Tray table\" to cart" [ref=f22e1281] [cursor=pointer]
+                  - button "Save \"GLADOM Tray table\" to shopping list" [ref=f22e1282] [cursor=pointer]
+                - generic [ref=f22e1283]: Available for delivery
+                - group "More options GLADOM" [ref=f22e1287]:
+                  - generic [ref=f22e1288]:
+                    - text: More options
+                    - generic [ref=f22e1289]: GLADOM
+                  - generic [ref=f22e1290] [cursor=pointer]:
+                    - 'radio "Option: GLADOM, Tray table, light blue, 45x53 cm" [checked] [ref=f22e1291]'
+                    - 'link "Option: GLADOM, Tray table, light blue, 45x53 cm GLADOM Tray table, light blue, 45x53 cm" [ref=f22e1292]':
+                      - /url: https://www.ikea.com/eg/en/p/gladom-tray-table-light-blue-10534002/
+                      - generic [ref=f22e1293]: "Option: GLADOM, Tray table, light blue, 45x53 cm"
+                      - img "GLADOM Tray table, light blue, 45x53 cm" [ref=f22e1294]
+                  - generic [ref=f22e1295] [cursor=pointer]:
+                    - 'radio "Option: GLADOM, Tray table, white, 45x53 cm" [ref=f22e1296]'
+                    - 'link "Option: GLADOM, Tray table, white, 45x53 cm White GLADOM side table with removable tray, modern steel frame." [ref=f22e1297]':
+                      - /url: https://www.ikea.com/eg/en/p/gladom-tray-table-white-70337819/
+                      - generic [ref=f22e1298]: "Option: GLADOM, Tray table, white, 45x53 cm"
+                      - img "White GLADOM side table with removable tray, modern steel frame." [ref=f22e1299]
+                  - generic [ref=f22e1300] [cursor=pointer]:
+                    - 'radio "Option: GLADOM, Tray table, black, 45x53 cm" [ref=f22e1301]'
+                    - 'link "Option: GLADOM, Tray table, black, 45x53 cm A black, circular GLADOM serving table with a removable tray, supported by a metal frame with crossed legs for stability." [ref=f22e1302]':
+                      - /url: https://www.ikea.com/eg/en/p/gladom-tray-table-black-50411990/
+                      - generic [ref=f22e1303]: "Option: GLADOM, Tray table, black, 45x53 cm"
+                      - img "A black, circular GLADOM serving table with a removable tray, supported by a metal frame with crossed legs for stability." [ref=f22e1304]
+                  - link "+2 more options are available." [ref=f22e1305] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/gladom-tray-table-light-blue-10534002/
+                    - generic [ref=f22e1306]: "+2"
+              - generic [ref=f22e1307]:
+                - generic [ref=f22e1309]:
+                  - checkbox "Compare - Select for product comparison, Chest of 4 drawers, 70x50x98 cm" [ref=f22e1310] [cursor=pointer]
+                  - generic [ref=f22e1312]: Compare
+                - link [ref=f22e1315] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/storklinta-chest-of-4-drawers-white-40627537/
+                  - img "White 4-drawer modern chest of drawers with clean lines and minimalist design." [ref=f22e1316]
+                  - img "STORKLINTA Chest of 4 drawers, white, 70x50x98 cm" [ref=f22e1317]
+                - generic [ref=f22e1320]:
+                  - generic [ref=f22e1321]:
+                    - generic [ref=f22e1322]: New
+                    - heading [level=3] [ref=f22e1323]:
+                      - link "STORKLINTA, Chest of 4 drawers, white, 70x50x98 cm" [ref=f22e1325] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/storklinta-chest-of-4-drawers-white-40627537/
+                        - text: STORKLINTA
+                      - generic [ref=f22e1326]: Chest of 4 drawers, white, 70x50x98 cm
+                  - generic [ref=f22e1330]:
+                    - generic [ref=f22e1331]: EGP6,995
+                    - generic [ref=f22e1333]: Price EGP 6995
+                - generic [ref=f22e1334]:
+                  - button "Add \"STORKLINTA Chest of 4 drawers\" to cart" [ref=f22e1335] [cursor=pointer]
+                  - button "Save \"STORKLINTA Chest of 4 drawers\" to shopping list" [ref=f22e1336] [cursor=pointer]
+                - generic [ref=f22e1337]: Available for delivery
+                - group "More options STORKLINTA" [ref=f22e1341]:
+                  - generic [ref=f22e1342]:
+                    - text: More options
+                    - generic [ref=f22e1343]: STORKLINTA
+                  - generic [ref=f22e1344] [cursor=pointer]:
+                    - 'radio "Option: STORKLINTA, Chest of 4 drawers, white, 70x50x98 cm" [checked] [ref=f22e1345]'
+                    - 'link "Option: STORKLINTA, Chest of 4 drawers, white, 70x50x98 cm White 4-drawer modern chest of drawers with clean lines and minimalist design." [ref=f22e1346]':
+                      - /url: https://www.ikea.com/eg/en/p/storklinta-chest-of-4-drawers-white-40627537/
+                      - generic [ref=f22e1347]: "Option: STORKLINTA, Chest of 4 drawers, white, 70x50x98 cm"
+                      - img "White 4-drawer modern chest of drawers with clean lines and minimalist design." [ref=f22e1348]
+                  - generic [ref=f22e1349] [cursor=pointer]:
+                    - 'radio "Option: STORKLINTA, Chest of 4 drawers, oak effect, 70x50x98 cm" [ref=f22e1350]'
+                    - 'link "Option: STORKLINTA, Chest of 4 drawers, oak effect, 70x50x98 cm The STORKLINTA chest of drawers is a brown, wooden, vertical unit with four drawers, perfect for bedroom storage." [ref=f22e1351]':
+                      - /url: https://www.ikea.com/eg/en/p/storklinta-chest-of-4-drawers-oak-effect-80627535/
+                      - generic [ref=f22e1352]: "Option: STORKLINTA, Chest of 4 drawers, oak effect, 70x50x98 cm"
+                      - img "The STORKLINTA chest of drawers is a brown, wooden, vertical unit with four drawers, perfect for bedroom storage." [ref=f22e1353]
+                  - generic [ref=f22e1354] [cursor=pointer]:
+                    - 'radio "Option: STORKLINTA, Chest of 4 drawers, dark brown/oak effect, 70x50x98 cm" [ref=f22e1355]'
+                    - 'link "Option: STORKLINTA, Chest of 4 drawers, dark brown/oak effect, 70x50x98 cm Displays a dark brown 4-drawer chest with a sleek design, made from engineered wood." [ref=f22e1356]':
+                      - /url: https://www.ikea.com/eg/en/p/storklinta-chest-of-4-drawers-dark-brown-oak-effect-10627553/
+                      - generic [ref=f22e1357]: "Option: STORKLINTA, Chest of 4 drawers, dark brown/oak effect, 70x50x98 cm"
+                      - img "Displays a dark brown 4-drawer chest with a sleek design, made from engineered wood." [ref=f22e1358]
+              - generic [ref=f22e1359]:
+                - generic [ref=f22e1361]:
+                  - checkbox "Compare - Select for product comparison, Chest of 5 drawers, 70x48x132 cm" [ref=f22e1362] [cursor=pointer]
+                  - generic [ref=f22e1364]: Compare
+                - generic [ref=f22e1366]:
+                  - paragraph [ref=f22e1368]: Top seller
+                  - link [ref=f22e1369] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/radmansoe-chest-of-5-drawers-brown-walnut-effect-40593603/
+                    - img "Brown wooden chest with 5 drawers and metal legs. Modern mid-century style for bedroom." [ref=f22e1370]
+                    - img "Bedroom with wooden dresser, four drawers, metal legs, and mirror. Soft curtains by window, rug on floor." [ref=f22e1371]
+                - generic [ref=f22e1374]:
+                  - heading [level=3] [ref=f22e1376]:
+                    - link "RÅDMANSÖ, Chest of 5 drawers, brown walnut effect, 70x48x132 cm" [ref=f22e1378] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/radmansoe-chest-of-5-drawers-brown-walnut-effect-40593603/
+                      - text: RÅDMANSÖ
+                    - generic [ref=f22e1379]: Chest of 5 drawers, brown walnut effect, 70x48x132 cm
+                  - generic [ref=f22e1383]:
+                    - generic [ref=f22e1384]: EGP11,995
+                    - generic [ref=f22e1386]: Price EGP 11995
+                - generic [ref=f22e1387]:
+                  - button "Add \"RÅDMANSÖ Chest of 5 drawers\" to cart" [ref=f22e1388] [cursor=pointer]
+                  - button "Save \"RÅDMANSÖ Chest of 5 drawers\" to shopping list" [ref=f22e1389] [cursor=pointer]
+                - generic [ref=f22e1390]: Available for delivery
+                - generic [ref=f22e1394]: Adjustable feet
+            - generic [ref=f22e1399]:
+              - paragraph [ref=f22e1400]: Showing 24 of 202 results
+              - progressbar [ref=f22e1401]
+              - link "Show more products" [ref=f22e1402] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/chests-of-drawers-drawer-units-st004/?page=2#products-page-2
+                - generic: Show more
+      - generic [ref=f22e1405]:
+        - generic [ref=f22e1410]:
+          - generic [ref=f22e1412]:
+            - heading "A square classic with a rich inner life" [level=2] [ref=f22e1413]
+            - paragraph
+            - paragraph [ref=f22e1415]: Whatever your true inner passion, MALM will store your wardrobe with a clean look (and a straight face). A sleek, classic design that works with any style in any home. On the practical side, MALM also offers generous space, smooth running drawers and a handy pull-out stop.
+            - paragraph
+          - generic [ref=f22e1418]:
+            - img "A white MALM chest of 4 drawers. The drawers are open, showing a pink tutu, ballerina shoes and a gold masquerade mask." [ref=f22e1421]
+            - img "Close-up of a white MALM chest of 4 drawers. A drawer is open, showing a silver sequin dress and a gold masquerade mask." [ref=f22e1424]
+        - generic [ref=f22e1425]:
+          - heading "Choose furniture from the same series for a coordinated look" [level=2] [ref=f22e1428]
+          - generic [ref=f22e1431]:
+            - group "HAUGA bedroom series – Versatile, traditional-style storage and furniture with a price that’s easy to love" [ref=f22e1435]:
+              - link [ref=f22e1438] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/hauga-bedroom-series-48958/
+                - generic [ref=f22e1440]:
+                  - img "HAUGA bedroom series."
+            - group "BRIMNES bedroom series – Modern style with lots of clever storage ideas, perfect for smaller spaces" [ref=f22e1445]:
+              - link [ref=f22e1448] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/brimnes-bedroom-series-18125/
+                - generic [ref=f22e1450]:
+                  - img "BRIMNES bedroom series."
+            - group "VIHALS series – Low-price, easy-to-combine storage units with a simple, modern and seamless design" [ref=f22e1455]:
+              - link [ref=f22e1458] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/vihals-series-57167/
+                - generic [ref=f22e1460]:
+                  - img "VIHALS series."
+        - generic [ref=f22e1470]:
+          - heading "Secure your furniture to the wall" [level=2] [ref=f22e1471]
+          - generic [ref=f22e1472]:
+            - paragraph [ref=f22e1474]: Make sure you properly fasten all large and tall furniture with the included wall-attachment devices. This is to prevent it from tipping over. Find out more about possible risk factors in the home and how you can avoid accidents.
+            - link "See more about furniture safety" [ref=f22e1475] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/safety-at-home/
+      - heading "Recommended for you" [level=2] [ref=f22e1479]
+  - generic [ref=f22e1483]:
+    - generic:
+      - complementary
+    - contentinfo [ref=f22e1484]:
+      - generic [ref=f22e1485]:
+        - heading "Footer" [level=2] [ref=f22e1486]
+        - generic [ref=f22e1487]:
+          - list [ref=f22e1489]:
+            - listitem [ref=f22e1490]:
+              - heading "Useful links" [level=3] [ref=f22e1491]
+              - list "Useful links Brochures IKEA shopping app Planning tools Stores IKEA restaurant IKEA Family" [ref=f22e1492]:
+                - listitem [ref=f22e1493]:
+                  - link "Brochures" [ref=f22e1494] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/brochures/
+                - listitem [ref=f22e1495]:
+                  - link "IKEA shopping app" [ref=f22e1496] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/free-ikea-apps-pubc9ac6ea1/
+                - listitem [ref=f22e1497]:
+                  - link "Planning tools" [ref=f22e1498] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/planners/
+                - listitem [ref=f22e1499]:
+                  - link "Stores" [ref=f22e1500] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/
+                - listitem [ref=f22e1501]:
+                  - link "IKEA restaurant" [ref=f22e1502] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/restaurant/
+                - listitem [ref=f22e1503]:
+                  - link "IKEA Family" [ref=f22e1504] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/ikea-family/
+            - listitem [ref=f22e1505]:
+              - heading "Customer service" [level=3] [ref=f22e1506]
+              - list "Customer service Terms and conditions Guarantees & warranties Spare parts About services About shopping Return policy Contact us FAQ" [ref=f22e1507]:
+                - listitem [ref=f22e1508]:
+                  - link "Terms and conditions" [ref=f22e1509] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+                - listitem [ref=f22e1510]:
+                  - link "Guarantees & warranties" [ref=f22e1511] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/guarantee/
+                - listitem [ref=f22e1512]:
+                  - link "Spare parts" [ref=f22e1513] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/spareparts/
+                - listitem [ref=f22e1514]:
+                  - link "About services" [ref=f22e1515] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/
+                - listitem [ref=f22e1516]:
+                  - link "About shopping" [ref=f22e1517] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/
+                - listitem [ref=f22e1518]:
+                  - link "Return policy" [ref=f22e1519] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/
+                - listitem [ref=f22e1520]:
+                  - link "Contact us" [ref=f22e1521] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/contact-us/
+                - listitem [ref=f22e1522]:
+                  - link "FAQ" [ref=f22e1523] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/faq/
+            - listitem [ref=f22e1524]:
+              - heading "This is IKEA" [level=3] [ref=f22e1525]
+              - list "This is IKEA About IKEA Democratic design Sustainable everyday Community engagement Working at IKEA" [ref=f22e1526]:
+                - listitem [ref=f22e1527]:
+                  - link "About IKEA" [ref=f22e1528] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/
+                - listitem [ref=f22e1529]:
+                  - link "Democratic design" [ref=f22e1530] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/design/
+                - listitem [ref=f22e1531]:
+                  - link "Sustainable everyday" [ref=f22e1532] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/sustainable-everyday/
+                - listitem [ref=f22e1533]:
+                  - link "Community engagement" [ref=f22e1534] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/community-engagement/
+                - listitem [ref=f22e1535]:
+                  - link "Working at IKEA" [ref=f22e1536] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/work-with-us/
+            - listitem [ref=f22e1537]:
+              - heading "General information" [level=3] [ref=f22e1538]
+              - list "General information Newsroom Product recalls" [ref=f22e1539]:
+                - listitem [ref=f22e1540]:
+                  - link "Newsroom" [ref=f22e1541] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/newsroom/
+                - listitem [ref=f22e1542]:
+                  - link "Product recalls" [ref=f22e1543] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/product-support/recalls/
+          - generic [ref=f22e1544]:
+            - generic [ref=f22e1545]:
+              - list [ref=f22e1546]:
+                - listitem [ref=f22e1547]:
+                  - link "Follow IKEA on Facebook" [ref=f22e1548] [cursor=pointer]:
+                    - /url: https://www.facebook.com/IKEAEgypt/
+                - listitem [ref=f22e1551]:
+                  - link "Follow IKEA on Instagram" [ref=f22e1552] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ikeaegypt/
+                - listitem [ref=f22e1555]:
+                  - link "Follow IKEA on Youtube" [ref=f22e1556] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/IKEAegypt
+                - listitem [ref=f22e1559]:
+                  - link "Follow IKEA on X" [ref=f22e1560] [cursor=pointer]:
+                    - /url: https://x.com/IKEAEgypt
+              - list [ref=f22e1563]:
+                - listitem [ref=f22e1564]:
+                  - img "AMEX" [ref=f22e1566]
+                - listitem [ref=f22e1567]:
+                  - img "visa" [ref=f22e1569]
+                - listitem [ref=f22e1570]:
+                  - img "mastercard" [ref=f22e1572]
+            - generic [ref=f22e1573]:
+              - button "Cookie settings" [ref=f22e1575] [cursor=pointer]
+              - button "Change language or country/region, current language is English" [ref=f22e1577] [cursor=pointer]:
+                - generic: EGEnglish
+        - generic [ref=f22e1578]:
+          - paragraph [ref=f22e1580]: © Inter IKEA Systems B.V. 1999-2026
+          - list [ref=f22e1582]:
+            - listitem [ref=f22e1583]:
+              - link "Privacy policy" [ref=f22e1584] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/privacy-policy/
+            - listitem [ref=f22e1585]:
+              - link "Cookie policy" [ref=f22e1586] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/cookie-policy/
+            - listitem [ref=f22e1587]:
+              - link "Terms and conditions" [ref=f22e1588] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/

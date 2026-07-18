@@ -1,0 +1,4251 @@
+{
+  "version": 1,
+  "title": "Mattress shortlist — master 180×200 · ≤25,000 EGP · pocket/hybrid · cool lean",
+  "lastUpdated": "2026-07-17",
+  "currency": "EGP",
+  "filtersApplied": {
+    "room": "master_bedroom_only",
+    "sizeCm": [
+      180,
+      200
+    ],
+    "maxPriceEGP": 25000,
+    "typePrefer": [
+      "pocket_spring",
+      "hybrid"
+    ],
+    "firmnessDefault": "medium_firm (user had no idea)",
+    "heat": "high_priority_breathable",
+    "motion": "medium",
+    "base": "slatted",
+    "extras": "mattress_only"
+  },
+  "answers": {
+    "sizeCm": [
+      180,
+      200
+    ],
+    "budgetMaxEGP": 25000,
+    "firmness": "unknown_default_medium_firm",
+    "firmnessNote": "User chose Other: no idea — default medium-firm; show soft-medium to firm options",
+    "sleepPositions": [
+      "mixed"
+    ],
+    "painIssues": "none_special",
+    "heatPriority": "high_breathable",
+    "motionTransfer": "medium",
+    "typeLean": "pocket_spring_hybrid",
+    "base": "slatted_bed_base",
+    "extras": "mattress_only_protector_later",
+    "shops": [
+      "btech",
+      "major_chains",
+      "amazon_jumia_ok_if_warranty"
+    ]
+  },
+  "counts": {
+    "included": 54,
+    "excludedListed": 52,
+    "total": 106,
+    "withImage": 105,
+    "bySource": {
+      "IKEA Egypt": 25,
+      "Amazon.eg": 74,
+      "Jumia Egypt": 7
+    },
+    "byType": {
+      "pocket_spring": 9,
+      "spring": 14,
+      "latex": 1,
+      "foam": 12,
+      "memory_foam": 4,
+      "unknown": 14
+    }
+  },
+  "recommendedIds": [
+    "mat_vesteroey_pocket_sprung_mattress_firm_light_blue",
+    "mat_valevag_pocket_sprung_mattress_firm_light_blue_8",
+    "mat_b0bl1szq5y",
+    "mat_b0drkt37dr",
+    "mat_b091bnwbjl",
+    "mat_b0gmcxtmsq",
+    "mat_b091cxw2f5",
+    "mat_b0bsfp24vz"
+  ],
+  "shoppingRoute": [
+    "Filter Main (180×200 ≤25k)",
+    "Prefer pocket spring / hybrid for Egypt heat + medium motion isolation",
+    "Because firmness was “no idea”: start with firm / medium-firm; avoid ultra-soft first buy",
+    "Lie-test 10–15 minutes (back + side) at IKEA or a local mattress hall if possible",
+    "Confirm slatted base gap for warranty",
+    "Mattress only now — add waterproof breathable protector next trip",
+    "Re-check price/stock day of purchase"
+  ],
+  "kits": [
+    {
+      "id": "kit_ikea_pocket",
+      "name": "IKEA pocket path",
+      "note": "VESTERÖY / VALEVÅG 180×200 firm under 25k when in stock",
+      "items": [
+        "180×200 pocket sprung firm",
+        "slatted bed base compatible",
+        "protector later"
+      ]
+    },
+    {
+      "id": "kit_local_value",
+      "name": "Local value pocket spring",
+      "note": "Amazon/Jumia Habitat, Janssen etc. — verify 180×200 and warranty",
+      "items": [
+        "Pocket spring 180×200 ≤25k",
+        "check return window"
+      ]
+    }
+  ],
+  "excludedExamples": [
+    {
+      "name": "ÅGOTNES Foam mattress, firm/li",
+      "price": 2995,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "reason": "Too narrow (80 cm) for 180 bed; Price too low for real 180×200 mattress — likely accessory/error"
+    },
+    {
+      "name": "ÅFJÄLL Foam mattress, firm/whit",
+      "price": 5495,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "reason": "Too narrow (80 cm) for 180 bed"
+    },
+    {
+      "name": "VADSÖ Sprung mattress,",
+      "price": 7995,
+      "sizeCm": [
+        140,
+        200
+      ],
+      "reason": "Too narrow (140 cm) for 180 bed"
+    },
+    {
+      "name": "VATNESTRÖM Pocket sprung mattress, firm/natural, 160x200 cm",
+      "price": 49995,
+      "sizeCm": [
+        160,
+        200
+      ],
+      "reason": "160×200 — narrower than 180 bed; 49,995 EGP over 25k budget"
+    },
+    {
+      "name": "VANNAREID Pocket sprung mattress,",
+      "price": 7995,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "reason": "Too narrow (80 cm) for 180 bed"
+    },
+    {
+      "name": "PLUTTIG Foam mattress for cot, 60x120x5 cm",
+      "price": 1300,
+      "sizeCm": [
+        60,
+        120
+      ],
+      "reason": "Too narrow (60 cm) for 180 bed; Price too low for real 180×200 mattress — likely accessory/error"
+    },
+    {
+      "name": "VALEVÅG Mattress and mattress",
+      "price": 18490,
+      "sizeCm": [
+        90,
+        200
+      ],
+      "reason": "Too narrow (90 cm) for 180 bed"
+    },
+    {
+      "name": "NISSEHOLM Mattress",
+      "price": 6495,
+      "sizeCm": [
+        90,
+        200
+      ],
+      "reason": "Too narrow (90 cm) for 180 bed"
+    },
+    {
+      "name": "VESTERÖY Mattress and mattress",
+      "price": 16490,
+      "sizeCm": [
+        90,
+        200
+      ],
+      "reason": "Too narrow (90 cm) for 180 bed"
+    },
+    {
+      "name": "VIMSIG Foam mattress for",
+      "price": 8000,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "reason": "Too narrow (80 cm) for 180 bed"
+    },
+    {
+      "name": "PLUTTEN Foam mattress for",
+      "price": 3900,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "reason": "Too narrow (80 cm) for 180 bed"
+    },
+    {
+      "name": "KRUMMELUR Foam mattress for cot, 60x120x8 cm",
+      "price": 5000,
+      "sizeCm": [
+        60,
+        120
+      ],
+      "reason": "Too narrow (60 cm) for 180 bed"
+    },
+    {
+      "name": "SKÖNAST Foam mattress for cot, 60x120x8 cm",
+      "price": 8000,
+      "sizeCm": [
+        60,
+        120
+      ],
+      "reason": "Too narrow (60 cm) for 180 bed"
+    },
+    {
+      "name": "PELLEPLUTT Foam mattress for cot, 60x120x6 cm",
+      "price": 2500,
+      "sizeCm": [
+        60,
+        120
+      ],
+      "reason": "Too narrow (60 cm) for 180 bed; Price too low for real 180×200 mattress — likely accessory/error"
+    },
+    {
+      "name": "ÄLSKVÄRD Mattress for bassin",
+      "price": 1400,
+      "sizeCm": [
+        40,
+        73
+      ],
+      "reason": "Too narrow (40 cm) for 180 bed; Price too low for real 180×200 mattress — likely accessory/error"
+    },
+    {
+      "name": "ÖMSINT Pocket spring mattress for",
+      "price": 15000,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "reason": "Too narrow (80 cm) for 180 bed"
+    },
+    {
+      "name": "Last chance Price Lowered NATTSMYG Foam mattress for",
+      "price": 7000,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "reason": "Too narrow (80 cm) for 180 bed"
+    },
+    {
+      "name": "VESTMARKA Sprung mattress,",
+      "price": 9995,
+      "sizeCm": [
+        140,
+        200
+      ],
+      "reason": "Too narrow (140 cm) for 180 bed"
+    },
+    {
+      "name": "VITHÄLL Mattress/",
+      "price": 7295,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "reason": "Too narrow (80 cm) for 180 bed"
+    },
+    {
+      "name": "VÅGSTRANDA Pocket sprung mattress, firm/li",
+      "price": 13995,
+      "sizeCm": [
+        90,
+        200
+      ],
+      "reason": "Too narrow (90 cm) for 180 bed"
+    }
+  ],
+  "disclaimer": "Scraped IKEA Egypt mattresses (incl. 180×200 spring filter), Amazon.eg pocket spring / 180×200, Jumia مرتبة 180×200. B.TECH search returned no mattress hits. Prices 2026-07-17 PLP — re-verify. Main list: full mattresses ~180×200 ≤25k. Firmness defaulted to medium-firm/firm because user selected “no idea”.",
+  "items": [
+    {
+      "id": "mat_vesteroey_pocket_sprung_mattress_firm_light_blue",
+      "rank": 1,
+      "name": "VESTERÖY Pocket sprung mattress, firm/li",
+      "brand": "IKEA / VESTERÖY",
+      "priceEGP": 16995,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vesteroey-pocket-sprung-mattress-firm-light-blue-90470119",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/vesteroey-pocket-sprung-mattress-firm-light-blue__1150852_pe884907_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "180×200 cm · pocket spring · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "Leaves ~8,005 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Lie on it 10–15 min in store if possible; firmness is personal"
+      ],
+      "tags": [
+        "pocket_spring",
+        "firm",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_valevag_pocket_sprung_mattress_firm_light_blue_8",
+      "rank": 2,
+      "name": "VALEVÅG Pocket sprung mattress, firm/li",
+      "brand": "IKEA / VALEVÅG",
+      "priceEGP": 19995,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/valevag-pocket-sprung-mattress-firm-light-blue-80470011",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/valevag-pocket-sprung-mattress-firm-light-blue__1150857_pe884903_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "180×200 cm · pocket spring · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Lie on it 10–15 min in store if possible; firmness is personal"
+      ],
+      "tags": [
+        "pocket_spring",
+        "firm",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bl1szq5y",
+      "rank": 3,
+      "name": "DEUTSCHE MATRATZEN | Konig Mattress | Pocket Springs | Medium Softness | 25cm Thickness | Sleep Contouring | Comfort Sleep | 200 * 180 * 25 cm",
+      "brand": "DEUTSCHE",
+      "priceEGP": 12388,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "medium",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BL1SZQ5Y",
+      "imageUrl": "https://m.media-amazon.com/images/I/51GN8jlEB6L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · pocket spring · medium. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Firmness band “medium” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "Leaves ~12,612 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "medium",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0drkt37dr",
+      "rank": 4,
+      "name": "Lognik Pocketed Coil Spring Mattress, 27 cm Approx. Height, Fiber Filling Comfort House (180 * 200)",
+      "brand": "Lognik",
+      "priceEGP": 12718,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0DRKT37DR",
+      "imageUrl": "https://m.media-amazon.com/images/I/51EJmfn4GbL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · pocket spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Exact 180×200 for your bed",
+        "Leaves ~12,282 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b091bnwbjl",
+      "rank": 5,
+      "name": "Janssen Pocket Cotton Innerspring Mattress Height 27 cm - 180 x 200 cm",
+      "brand": "Janssen",
+      "priceEGP": 13680,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B091BNWBJL",
+      "imageUrl": "https://m.media-amazon.com/images/I/61eheymQ+LL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · pocket spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Exact 180×200 for your bed",
+        "Leaves ~11,320 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0gmcxtmsq",
+      "rank": 6,
+      "name": "Pocket Memory Mattress 30 cm — Memory Foam Layer & Individual Pocket Springs — Dual-Sided Winter/Summer — Ventilated Design with Reinforced Anti-Sag Frame (200 * 180)",
+      "brand": "Pocket",
+      "priceEGP": 14490,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0GMCXTMSQ",
+      "imageUrl": "https://m.media-amazon.com/images/I/517ezVe7P5L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · pocket spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Exact 180×200 for your bed",
+        "Leaves ~10,510 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b091cxw2f5",
+      "rank": 7,
+      "name": "Janssen Pocket Cotton Innerspring Mattress Height 30 cm - 180 x 200 cm",
+      "brand": "Janssen",
+      "priceEGP": 15030,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B091CXW2F5",
+      "imageUrl": "https://m.media-amazon.com/images/I/61eheymQ+LL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · pocket spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Exact 180×200 for your bed",
+        "Leaves ~9,970 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfp24vz",
+      "rank": 8,
+      "name": "Habitat Pillowtop Pocket Spring Mattress | Individual Coil Support with Plush Top | 180x200x32 cm",
+      "brand": "Habitat",
+      "priceEGP": 10684,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "soft_or_pillowtop",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFP24VZ",
+      "imageUrl": "https://m.media-amazon.com/images/I/512jFkj6dsL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · pocket spring · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Exact 180×200 for your bed",
+        "Leaves ~14,316 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0dr876c8d",
+      "rank": 9,
+      "name": "Home Gallery Pillowtop Mattress pocket spring 180 x 200 Height 33 cm 10 years warranty",
+      "brand": "Home",
+      "priceEGP": 19645,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "soft_or_pillowtop",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0DR876C8D",
+      "imageUrl": "https://m.media-amazon.com/images/I/51OZ3mpFpXL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · pocket spring · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bl1w2ys9",
+      "rank": 10,
+      "name": "DEUTSCHE MATRATZEN | Traum Mattress | Coil Springs | Medium Firmness | 25cm Thickness | Air Circulation and Ventilation | Comfort Sleep | 200 * 180 * 25 cm",
+      "brand": "DEUTSCHE",
+      "priceEGP": 8023,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "medium_firm",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BL1W2YS9",
+      "imageUrl": "https://m.media-amazon.com/images/I/51wV9M0vRvL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · medium firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Firmness band “medium firm” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "Leaves ~16,977 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "medium_firm",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bl1t4xxk",
+      "rank": 11,
+      "name": "DEUTSCHE MATRATZEN | Traum Mattress | Coil Springs | Medium Firmness | 30cm Thickness | Air Circulation and Ventilation | Comfort Sleep | 200 * 180 * 30 cm",
+      "brand": "DEUTSCHE",
+      "priceEGP": 9698,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "medium_firm",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BL1T4XXK",
+      "imageUrl": "https://m.media-amazon.com/images/I/51GN8jlEB6L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · medium firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Firmness band “medium firm” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "Leaves ~15,302 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "medium_firm",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0g5qrh911",
+      "rank": 12,
+      "name": "Orchid 27 cm Dual-Sided Mattress – Connected Spring System – High-Density Foam – Breathable Ventilated Fabric – Durable Metal Frame – Premium Comfort (200 * 180)",
+      "brand": "Orchid",
+      "priceEGP": 6300,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0G5QRH911",
+      "imageUrl": "https://m.media-amazon.com/images/I/518PPcVSAvL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~18,700 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0g65md4pq",
+      "rank": 13,
+      "name": "Clemence 30 cm Connected Spring Mattress – High-Density Foam, Dual-Sided Winter & Summer, Luxury Fabric, Ventilated Design (200 * 180)",
+      "brand": "Clemence",
+      "priceEGP": 6950,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0G65MD4PQ",
+      "imageUrl": "https://m.media-amazon.com/images/I/51VlZp6AACL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~18,050 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b091bnrwrc",
+      "rank": 14,
+      "name": "Janssen Extra Gold Innerspring Mattress Height 24 cm - 180 x 200 cm",
+      "brand": "Janssen",
+      "priceEGP": 8260,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B091BNRWRC",
+      "imageUrl": "https://m.media-amazon.com/images/I/61u+jlMXtFL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~16,740 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b091d5drtd",
+      "rank": 15,
+      "name": "Janssen Cleopatra Innerspring Mattress Height 24 cm - 180 x 200 cm",
+      "brand": "Janssen",
+      "priceEGP": 8510,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B091D5DRTD",
+      "imageUrl": "https://m.media-amazon.com/images/I/6105ee2zWVL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~16,490 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b091bhg5sb",
+      "rank": 16,
+      "name": "Janssen Almany Innerspring Mattress Height 25 cm, 180 x 200 cm",
+      "brand": "Janssen",
+      "priceEGP": 9200,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B091BHG5SB",
+      "imageUrl": "https://m.media-amazon.com/images/I/51zxHTQV8-L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~15,800 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0gd594mz1",
+      "rank": 17,
+      "name": "مرتبة MIVIDA سوست متصلة 200×180×25 سم – دعم صحي وراحة متوازنة",
+      "brand": "مرتبة",
+      "priceEGP": 9375,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0GD594MZ1",
+      "imageUrl": "https://m.media-amazon.com/images/I/41xNeq+rUzL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~15,625 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b091dc9z6m",
+      "rank": 18,
+      "name": "Janssen Cataract Innerspring Mattress Height 27 cm - 180 x 200 cm",
+      "brand": "Janssen",
+      "priceEGP": 10390,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B091DC9Z6M",
+      "imageUrl": "https://m.media-amazon.com/images/I/61-IoywWzoL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~14,610 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b091ctd95h",
+      "rank": 19,
+      "name": "Janssen Plumas Innerspring Mattress Height 20 cm - 180 x 200 cm",
+      "brand": "Janssen",
+      "priceEGP": 10650,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B091CTD95H",
+      "imageUrl": "https://m.media-amazon.com/images/I/61gGVpUD3IL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~14,350 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b091cb4t1p",
+      "rank": 20,
+      "name": "Janssen Cataract Innerspring Mattress Height 31 cm - 180 x 200 cm",
+      "brand": "Janssen",
+      "priceEGP": 11480,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B091CB4T1P",
+      "imageUrl": "https://m.media-amazon.com/images/I/61-IoywWzoL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~13,520 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0h6kz3y6r",
+      "rank": 21,
+      "name": "MIVIDA Split Spring Mattress 200x180x26cm – Healthy Support and Balanced Spine Comfort, Superior Ventilation, Hypoallergenic",
+      "brand": "MIVIDA",
+      "priceEGP": 12018,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0H6KZ3Y6R",
+      "imageUrl": "https://m.media-amazon.com/images/I/41efTx9v8fL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~12,982 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0g5ypsyk1",
+      "rank": 22,
+      "name": "Cecil Mattress 32 cm – Connected Spring System – Pillow Top Comfort – High-Density Foam Layers – Premium Anti-Bacterial Fabric – Durable Supportive Mattress (200 * 180)",
+      "brand": "Cecil",
+      "priceEGP": 7600,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "soft_or_pillowtop",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0G5YPSYK1",
+      "imageUrl": "https://m.media-amazon.com/images/I/51anHzup6ML._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~17,400 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0g5yrrg9y",
+      "rank": 23,
+      "name": "Laurette Pillow Top Mattress – 35 cm Height – Connected Spring System – High-Density Foam Layers – Dual Winter & Summer Sides – Super Soft Pillow Top – Ventilated Design with 4 Handles. (200 * 180)",
+      "brand": "Laurette",
+      "priceEGP": 8300,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "spring",
+      "firmness": "soft_or_pillowtop",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0G5YRRG9Y",
+      "imageUrl": "https://m.media-amazon.com/images/I/519C1nH5hlL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · spring · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Exact 180×200 for your bed",
+        "Leaves ~16,700 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfp2zpw",
+      "rank": 24,
+      "name": "Habitat Breeze Natural Latex Mattress | Breathable Cooling Comfort | Hypoallergenic Sleep | 180x200x28 cm",
+      "brand": "Habitat",
+      "priceEGP": 13765,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "latex",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFP2ZPW",
+      "imageUrl": "https://m.media-amazon.com/images/I/41l16Lq8-jL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · latex · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Latex often resilient and cooler than memory foam",
+        "Exact 180×200 for your bed",
+        "Leaves ~11,235 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "latex",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0g5zsc5cq",
+      "rank": 25,
+      "name": "High-Density Foam Mattress 15 cm – Premium Comfort Support – Durable High-Quality Fabric – Breathable, firm and Long-Lasting Mattress – Factory Fresh Design (Fabric Pattern May Vary) (200 * 180)",
+      "brand": "High-Density",
+      "priceEGP": 4680,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0G5ZSC5CQ",
+      "imageUrl": "https://m.media-amazon.com/images/I/51vGShsPI8L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "Leaves ~20,320 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "firm",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfvht7s",
+      "rank": 26,
+      "name": "Habitat Contract Mattress | Firm Durable Commercial Grade Foam Mattress | 180x200x26 cm",
+      "brand": "Habitat",
+      "priceEGP": 7058,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFVHT7S",
+      "imageUrl": "https://m.media-amazon.com/images/I/61aZeRMuJiL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "Leaves ~17,942 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "firm",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfnh9l9",
+      "rank": 27,
+      "name": "Habitat Comfort Mattress | Medium-Firm Supportive Foam | Everyday Sleep Comfort | 180x200x29 cm",
+      "brand": "Habitat",
+      "priceEGP": 8150,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "medium_firm",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFNH9L9",
+      "imageUrl": "https://m.media-amazon.com/images/I/81ZsT4U+YwL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · medium firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Firmness band “medium firm” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "Leaves ~16,850 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "medium_firm",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfn8pfp",
+      "rank": 28,
+      "name": "Habitat Foamy Foam Mattress Density 10 | Lightweight Comfortable Everyday Mattress | 180x200x20 cm",
+      "brand": "Habitat",
+      "priceEGP": 5877,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFN8PFP",
+      "imageUrl": "https://m.media-amazon.com/images/I/51aCeHLZNRL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~19,123 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfmx89t",
+      "rank": 29,
+      "name": "Habitat Medical Rodan Orthopedic Mattress Density 75 | High-Density Foam for Back & Joint Support | 180x200x15 cm",
+      "brand": "Habitat",
+      "priceEGP": 6863,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFMX89T",
+      "imageUrl": "https://m.media-amazon.com/images/I/61XCUdvSTEL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~18,137 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0drlj6f5v",
+      "rank": 30,
+      "name": "Comfort House Rebound Medical Mattress – Available in 4 Heights (15 cm, 20 cm, 25 cm, 30 cm) | Layered Foam with Fiber Filling (W, 180 * 200, 15, 15, Centimeters)",
+      "brand": "Comfort",
+      "priceEGP": 8826,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0DRLJ6F5V",
+      "imageUrl": "https://m.media-amazon.com/images/I/51C-68O9tRL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~16,174 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfnvqxr",
+      "rank": 31,
+      "name": "Habitat Medical Rodan Orthopedic Mattress Density 75 | High-Density Foam for Back & Joint Support | 180x200x20 cm",
+      "brand": "Habitat",
+      "priceEGP": 9590,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFNVQXR",
+      "imageUrl": "https://m.media-amazon.com/images/I/613V+EXcmEL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~15,410 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0drln3qfy",
+      "rank": 32,
+      "name": "Comfort House Rebound Medical Mattress – Available in 4 Heights (15 cm, 20 cm, 25 cm, 30 cm) | Layered Foam with Fiber Filling (W, 180 * 200, 25, 25, Centimeters)",
+      "brand": "Comfort",
+      "priceEGP": 12718,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0DRLN3QFY",
+      "imageUrl": "https://m.media-amazon.com/images/I/51C-68O9tRL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~12,282 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0cvmvxdx8",
+      "rank": 33,
+      "name": "Foamy By Schlaf Meister King Ranch Mattress 180 * 200 * 23cm",
+      "brand": "Foamy",
+      "priceEGP": 14915,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0CVMVXDX8",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Oz2ODZMnL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~10,085 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfnj39h",
+      "rank": 34,
+      "name": "Habitat Body Rest Plus Mattress | Full Body Pressure Relief Foam | Comfortable Sleep Support | 180x200x27 cm",
+      "brand": "Habitat",
+      "priceEGP": null,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFNJ39H",
+      "imageUrl": "https://m.media-amazon.com/images/I/61Ep2gfFzBL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Price missing — re-check",
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0drkhkl8k",
+      "rank": 35,
+      "name": "Comfort House Pillow Top Mattress, 29 cm Height, European Sprung Chassis, Fiber and Foam Layers (180 * 200)",
+      "brand": "Comfort",
+      "priceEGP": 9690,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "soft_or_pillowtop",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0DRKHKL8K",
+      "imageUrl": "https://m.media-amazon.com/images/I/51EJmfn4GbL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~15,310 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0g6xdcz68",
+      "rank": 36,
+      "name": "Medical Mattress 30cm – High-Density Compressed Foam, Orthopedic Support, Quilted Soft Cover, Hygienic Antibacterial Fabric (200 * 180)",
+      "brand": "Medical",
+      "priceEGP": 9900,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "foam",
+      "firmness": "soft_or_pillowtop",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0G6XDCZ68",
+      "imageUrl": "https://m.media-amazon.com/images/I/5139lhyQafL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · foam · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~15,100 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "foam",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_akrehamn_foam_mattress_firm_white_90481655",
+      "rank": 37,
+      "name": "ÅKREHAMN Foam mattress, firm/whit",
+      "brand": "IKEA / ÅKREHAMN",
+      "priceEGP": 23995,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "memory_foam",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/akrehamn-foam-mattress-firm-white-90481655",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/akrehamn-foam-mattress-firm-white__1015271_pe829965_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "180×200 cm · memory foam · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Memory foam can sleep warmer (heat is high priority for you)"
+      ],
+      "tags": [
+        "memory_foam",
+        "firm",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfpjqtq",
+      "rank": 38,
+      "name": "Habitat Heaven Memory Foam Mattress | Pressure Relief Comfort & Spine Alignment | 180x200x28 cm",
+      "brand": "Habitat",
+      "priceEGP": 12750,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "memory_foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFPJQTQ",
+      "imageUrl": "https://m.media-amazon.com/images/I/41l16Lq8-jL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · memory foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~12,250 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Memory foam can sleep warmer (heat is high priority for you)",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "memory_foam",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfns88m",
+      "rank": 39,
+      "name": "Habitat Super Heaven Memory Foam Mattress | Premium Pressure Relief & Spine Support | 180x200x32 cm",
+      "brand": "Habitat",
+      "priceEGP": 13053,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "memory_foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFNS88M",
+      "imageUrl": "https://m.media-amazon.com/images/I/912ECsyIV1L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · memory foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~11,947 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Memory foam can sleep warmer (heat is high priority for you)",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "memory_foam",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0gg77hkj1",
+      "rank": 40,
+      "name": "Royal Foam Mexico Medical Mattress, 23cm Thickness, Memory Foam, Orthopedic Support, Medical Rebond Foam Construction. (180/200/23)",
+      "brand": "Royal",
+      "priceEGP": 13150,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "memory_foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0GG77HKJ1",
+      "imageUrl": "https://m.media-amazon.com/images/I/51XWHqTmHxL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · memory foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~11,850 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Memory foam can sleep warmer (heat is high priority for you)",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "memory_foam",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bl1wv2rm",
+      "rank": 41,
+      "name": "DEUTSCHE MATRATZEN | Medical Mattress| Firm Feel | 20cm Thickness | Pressure Relieving | 200 * 180 * 20 cm",
+      "brand": "DEUTSCHE",
+      "priceEGP": 9196,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BL1WV2RM",
+      "imageUrl": "https://m.media-amazon.com/images/I/51GN8jlEB6L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "Leaves ~15,804 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "firm",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w4mr84",
+      "rank": 42,
+      "name": "Englander Classic Mattress 180cm Wide And 200cm Long 24cm High",
+      "brand": "Englander",
+      "priceEGP": 8610,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W4MR84",
+      "imageUrl": "https://m.media-amazon.com/images/I/51NZ64JJMXL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~16,390 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w63v64",
+      "rank": 43,
+      "name": "Englander-seasonal mattress 180cm wide by 200cm tall 10cm high",
+      "brand": "Englander-seasonal",
+      "priceEGP": 9520,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W63V64",
+      "imageUrl": "https://m.media-amazon.com/images/I/51RAlcfuycL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~15,480 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w52pjz",
+      "rank": 44,
+      "name": "Englander Super Classic Mattress 180cm Wide And 200cm Long 28cm High",
+      "brand": "Englander",
+      "priceEGP": 10510,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W52PJZ",
+      "imageUrl": "https://m.media-amazon.com/images/I/51x9evNyMfL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~14,490 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w5yvm2",
+      "rank": 45,
+      "name": "Englandcaress Mattress 180cm Wide By 200cm Long 27cm High",
+      "brand": "Englandcaress",
+      "priceEGP": 11350,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W5YVM2",
+      "imageUrl": "https://m.media-amazon.com/images/I/31CnoxRWh6L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~13,650 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w58ljk",
+      "rank": 46,
+      "name": "Englander-seasonal Extra Mattress 180cm Wide By 200cm High 30cm",
+      "brand": "Englander-seasonal",
+      "priceEGP": 11510,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W58LJK",
+      "imageUrl": "https://m.media-amazon.com/images/I/510krDAy5IL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~13,490 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0h666trv7",
+      "rank": 47,
+      "name": "MIVIDA Medical Mattress, 200 x 180 x 30 cm, Orthopedic Support, Optimal Ventilation, Hypoallergenic",
+      "brand": "MIVIDA",
+      "priceEGP": 12471,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0H666TRV7",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Z-m6AFlKL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~12,529 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w4mbc2",
+      "rank": 48,
+      "name": "Englandmarvy Mattress 180cm Wide By 200cm High 20cm",
+      "brand": "Englandmarvy",
+      "priceEGP": 12900,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W4MBC2",
+      "imageUrl": "https://m.media-amazon.com/images/I/51xJEEhyOYL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~12,100 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0dr84v1x3",
+      "rank": 49,
+      "name": "Home Gallery Mattress 180 x 200 Height 32 cm 10 years warranty",
+      "brand": "Home",
+      "priceEGP": 12952,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0DR84V1X3",
+      "imageUrl": "https://m.media-amazon.com/images/I/517OT1NR-qL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~12,048 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w447cm",
+      "rank": 50,
+      "name": "Englandcaress pillow-top mattress 180cm wide by 200cm high 30cm",
+      "brand": "Englandcaress",
+      "priceEGP": 13330,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W447CM",
+      "imageUrl": "https://m.media-amazon.com/images/I/61+2Awt9ZxL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~11,670 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w4n6j6",
+      "rank": 51,
+      "name": "Englandervictoria Mattress 180cm Wide By 200cm High 10cm",
+      "brand": "Englandervictoria",
+      "priceEGP": 14870,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W4N6J6",
+      "imageUrl": "https://m.media-amazon.com/images/I/519zKIPsGWL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~10,130 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0dr85vhyj",
+      "rank": 52,
+      "name": "Home Gallery Medical Mattress 180 x 200 Height 25 cm 10 years warranty",
+      "brand": "Home",
+      "priceEGP": 15100,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0DR85VHYJ",
+      "imageUrl": "https://m.media-amazon.com/images/I/517OT1NR-qL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~9,900 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w6bdgn",
+      "rank": 53,
+      "name": "Englanderviscopedic Mattress 180cm Wide By 200cm Tall 27cm High",
+      "brand": "Englanderviscopedic",
+      "priceEGP": 21390,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W6BDGN",
+      "imageUrl": "https://m.media-amazon.com/images/I/511nROAIAGL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w5wg1m",
+      "rank": 54,
+      "name": "Englander American spirit Mattress 180cm Wide By 200cm Long 34cm High",
+      "brand": "Englander",
+      "priceEGP": 24870,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W5WG1M",
+      "imageUrl": "https://m.media-amazon.com/images/I/51MO-vKw4rL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": false,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_agotnes_foam_mattress_firm_light_blue_60480855",
+      "rank": 801,
+      "name": "ÅGOTNES Foam mattress, firm/li",
+      "brand": "IKEA / ÅGOTNES",
+      "priceEGP": 2995,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "type": "foam",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/agotnes-foam-mattress-firm-light-blue-60480855",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/agotnes-foam-mattress-firm-light-blue__0986609_pe818096_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "80×200 cm · foam · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Leaves ~22,005 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (80 cm) for 180 bed",
+        "Price too low for real 180×200 mattress — likely accessory/error",
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Size 80×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "foam",
+        "firm",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_afjaell_foam_mattress_firm_white_40568632",
+      "rank": 802,
+      "name": "ÅFJÄLL Foam mattress, firm/whit",
+      "brand": "IKEA / ÅFJÄLL",
+      "priceEGP": 5495,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "type": "foam",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/afjaell-foam-mattress-firm-white-40568632",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/afjaell-foam-mattress-firm-white__0986620_pe818094_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "80×200 cm · foam · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Leaves ~19,505 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (80 cm) for 180 bed",
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Size 80×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "foam",
+        "firm",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_vadsoe_sprung_mattress_extra_firm_light_blue_504",
+      "rank": 803,
+      "name": "VADSÖ Sprung mattress,",
+      "brand": "IKEA / VADSÖ",
+      "priceEGP": 7995,
+      "sizeCm": [
+        140,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "extra_firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vadsoe-sprung-mattress-extra-firm-light-blue-50453584",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/vadsoe-sprung-mattress-extra-firm-light-blue__1077761_pe856998_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "140×200 cm · unknown · extra firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Extra firm — good if you like support; may feel hard for side sleep segments",
+        "Leaves ~17,005 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (140 cm) for 180 bed",
+        "If you later prefer plush, this may feel too firm",
+        "Size 140×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "unknown",
+        "extra_firm",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_vatnestroem_pocket_sprung_mattress_firm_natural_",
+      "rank": 804,
+      "name": "VATNESTRÖM Pocket sprung mattress, firm/natural, 160x200 cm",
+      "brand": "IKEA / VATNESTRÖM",
+      "priceEGP": 49995,
+      "sizeCm": [
+        160,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vatnestroem-pocket-sprung-mattress-firm-natural-50517755",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/vatnestroem-pocket-sprung-mattress-firm-natural__1298620_pe936249_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "160×200 cm · pocket spring · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "160×200 — narrower than 180 bed",
+        "49,995 EGP over 25k budget",
+        "Size 160×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "pocket_spring",
+        "firm",
+        "over_budget",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_vannareid_pocket_sprung_mattress_extra_firm_beig",
+      "rank": 805,
+      "name": "VANNAREID Pocket sprung mattress,",
+      "brand": "IKEA / VANNAREID",
+      "priceEGP": 7995,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "extra_firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vannareid-pocket-sprung-mattress-extra-firm-beige-50486730",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/vannareid-pocket-sprung-mattress-extra-firm-beige__0962751_pe817171_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "80×200 cm · pocket spring · extra firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Extra firm — good if you like support; may feel hard for side sleep segments",
+        "Leaves ~17,005 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (80 cm) for 180 bed",
+        "If you later prefer plush, this may feel too firm",
+        "Size 80×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "pocket_spring",
+        "extra_firm",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_pluttig_foam_mattress_for_cot_70399157",
+      "rank": 806,
+      "name": "PLUTTIG Foam mattress for cot, 60x120x5 cm",
+      "brand": "IKEA / PLUTTIG",
+      "priceEGP": 1300,
+      "sizeCm": [
+        60,
+        120
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/pluttig-foam-mattress-for-cot-70399157",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/pluttig-foam-mattress-for-cot__0748979_pe745367_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "60×120 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Leaves ~23,700 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (60 cm) for 180 bed",
+        "Price too low for real 180×200 mattress — likely accessory/error",
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Size 60×120 — narrower than 180 bed"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_valevag_mattress_and_mattress_pad_firm_light_blu",
+      "rank": 807,
+      "name": "VALEVÅG Mattress and mattress",
+      "brand": "IKEA / VALEVÅG",
+      "priceEGP": 18490,
+      "sizeCm": [
+        90,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/valevag-mattress-and-mattress-pad-firm-light-blue-nisseholm-white-s59572375",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/valevag-mattress-and-mattress-pad-firm-light-blue-nisseholm-white__1372284_pe959397_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "90×200 cm · pocket spring · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (90 cm) for 180 bed",
+        "Size 90×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "pocket_spring",
+        "firm",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_nisseholm_mattress_pad_white_00574263",
+      "rank": 808,
+      "name": "NISSEHOLM Mattress",
+      "brand": "IKEA / NISSEHOLM",
+      "priceEGP": 6495,
+      "sizeCm": [
+        90,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/nisseholm-mattress-pad-white-00574263",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/nisseholm-mattress-pad-white__1257450_pe925827_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "90×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Leaves ~18,505 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (90 cm) for 180 bed",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Size 90×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_vesteroey_mattress_and_mattress_pad_firm_light_b",
+      "rank": 809,
+      "name": "VESTERÖY Mattress and mattress",
+      "brand": "IKEA / VESTERÖY",
+      "priceEGP": 16490,
+      "sizeCm": [
+        90,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vesteroey-mattress-and-mattress-pad-firm-light-blue-nisseholm-white-s09572330",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/vesteroey-mattress-and-mattress-pad-firm-light-blue-nisseholm-white__1372276_pe959389_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "90×200 cm · pocket spring · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Leaves ~8,510 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (90 cm) for 180 bed",
+        "Size 90×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "pocket_spring",
+        "firm",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_vimsig_foam_mattress_for_extendable_bed_10593746",
+      "rank": 810,
+      "name": "VIMSIG Foam mattress for",
+      "brand": "IKEA / VIMSIG",
+      "priceEGP": 8000,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vimsig-foam-mattress-for-extendable-bed-10593746",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/vimsig-foam-mattress-for-extendable-bed__1451374_pe990707_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "80×200 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Leaves ~17,000 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (80 cm) for 180 bed",
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Size 80×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_plutten_foam_mattress_for_extendable_bed_7039916",
+      "rank": 811,
+      "name": "PLUTTEN Foam mattress for",
+      "brand": "IKEA / PLUTTEN",
+      "priceEGP": 3900,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/plutten-foam-mattress-for-extendable-bed-70399162",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/plutten-foam-mattress-for-extendable-bed__0748963_pe745359_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "80×200 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Leaves ~21,100 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (80 cm) for 180 bed",
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Size 80×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_krummelur_foam_mattress_for_cot_40399154",
+      "rank": 812,
+      "name": "KRUMMELUR Foam mattress for cot, 60x120x8 cm",
+      "brand": "IKEA / KRUMMELUR",
+      "priceEGP": 5000,
+      "sizeCm": [
+        60,
+        120
+      ],
+      "type": "foam",
+      "firmness": "medium_firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/krummelur-foam-mattress-for-cot-40399154",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/krummelur-foam-mattress-for-cot__0544454_pe655554_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "60×120 cm · foam · medium firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Firmness band “medium firm” suits mixed sleepers when you said “no idea”",
+        "Leaves ~20,000 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (60 cm) for 180 bed",
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Size 60×120 — narrower than 180 bed"
+      ],
+      "tags": [
+        "foam",
+        "medium_firm",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_skoenast_foam_mattress_for_cot_50593589",
+      "rank": 813,
+      "name": "SKÖNAST Foam mattress for cot, 60x120x8 cm",
+      "brand": "IKEA / SKÖNAST",
+      "priceEGP": 8000,
+      "sizeCm": [
+        60,
+        120
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/skoenast-foam-mattress-for-cot-50593589",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/skoenast-foam-mattress-for-cot__1451304_pe990672_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "60×120 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Leaves ~17,000 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (60 cm) for 180 bed",
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Size 60×120 — narrower than 180 bed"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_pelleplutt_foam_mattress_for_cot_20593581",
+      "rank": 814,
+      "name": "PELLEPLUTT Foam mattress for cot, 60x120x6 cm",
+      "brand": "IKEA / PELLEPLUTT",
+      "priceEGP": 2500,
+      "sizeCm": [
+        60,
+        120
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/pelleplutt-foam-mattress-for-cot-20593581",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/pelleplutt-foam-mattress-for-cot__1451291_pe990667_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "60×120 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Leaves ~22,500 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (60 cm) for 180 bed",
+        "Price too low for real 180×200 mattress — likely accessory/error",
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Size 60×120 — narrower than 180 bed"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_aelskvaerd_mattress_for_bassinet_50516874",
+      "rank": 815,
+      "name": "ÄLSKVÄRD Mattress for bassin",
+      "brand": "IKEA / ÄLSKVÄRD",
+      "priceEGP": 1400,
+      "sizeCm": [
+        40,
+        73
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/aelskvaerd-mattress-for-bassinet-50516874",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/aelskvaerd-mattress-for-bassinet__1054881_pe847907_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "40×73 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Leaves ~23,600 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (40 cm) for 180 bed",
+        "Price too low for real 180×200 mattress — likely accessory/error",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Size 40×73 — narrower than 180 bed"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_oemsint_pocket_spring_mattress_for_ext_bed_70593",
+      "rank": 816,
+      "name": "ÖMSINT Pocket spring mattress for",
+      "brand": "IKEA / ÖMSINT",
+      "priceEGP": 15000,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/oemsint-pocket-spring-mattress-for-ext-bed-70593753",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/oemsint-pocket-spring-mattress-for-ext-bed__1451398_pe990716_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "80×200 cm · pocket spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Leaves ~10,000 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (80 cm) for 180 bed",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Size 80×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "pocket_spring",
+        "unspecified",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_nattsmyg_foam_mattress_for_extendable_bed_903991",
+      "rank": 817,
+      "name": "Last chance Price Lowered NATTSMYG Foam mattress for",
+      "brand": "IKEA / Last",
+      "priceEGP": 7000,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "type": "foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/nattsmyg-foam-mattress-for-extendable-bed-90399161",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/nattsmyg-foam-mattress-for-extendable-bed__0748961_pe745351_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "80×200 cm · foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Leaves ~18,000 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (80 cm) for 180 bed",
+        "Foam-only — OK if budget, less ideal for Egypt heat vs pocket spring",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Size 80×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "foam",
+        "unspecified",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_vestmarka_sprung_mattress_extra_firm_light_blue_",
+      "rank": 818,
+      "name": "VESTMARKA Sprung mattress,",
+      "brand": "IKEA / VESTMARKA",
+      "priceEGP": 9995,
+      "sizeCm": [
+        140,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "extra_firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vestmarka-sprung-mattress-extra-firm-light-blue-70470163",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/vestmarka-sprung-mattress-extra-firm-light-blue__1150828_pe884909_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "140×200 cm · unknown · extra firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Extra firm — good if you like support; may feel hard for side sleep segments",
+        "Leaves ~15,005 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (140 cm) for 180 bed",
+        "If you later prefer plush, this may feel too firm",
+        "Size 140×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "unknown",
+        "extra_firm",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_vithaell_mattress_pouffe_extra_firm_vissle_grey_",
+      "rank": 819,
+      "name": "VITHÄLL Mattress/",
+      "brand": "IKEA / VITHÄLL",
+      "priceEGP": 7295,
+      "sizeCm": [
+        80,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "extra_firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vithaell-mattress-pouffe-extra-firm-vissle-grey-70596624",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/vithaell-mattress-pouffe-extra-firm-vissle-grey__1248545_pe923165_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "80×200 cm · pocket spring · extra firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Extra firm — good if you like support; may feel hard for side sleep segments",
+        "Leaves ~17,705 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (80 cm) for 180 bed",
+        "If you later prefer plush, this may feel too firm",
+        "Size 80×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "pocket_spring",
+        "extra_firm",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_vagstranda_pocket_sprung_mattress_firm_light_blu",
+      "rank": 820,
+      "name": "VÅGSTRANDA Pocket sprung mattress, firm/li",
+      "brand": "IKEA / VÅGSTRANDA",
+      "priceEGP": 13995,
+      "sizeCm": [
+        90,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vagstranda-pocket-sprung-mattress-firm-light-blue-40470391",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/vagstranda-pocket-sprung-mattress-firm-light-blue__1150861_pe884901_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "90×200 cm · pocket spring · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Leaves ~11,005 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Too narrow (90 cm) for 180 bed",
+        "Size 90×200 — narrower than 180 bed"
+      ],
+      "tags": [
+        "pocket_spring",
+        "firm",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_vesteroey_pocket_sprung_mattress_firm_light_blue",
+      "rank": 821,
+      "name": "VESTERÖY Pocket sprung mattress",
+      "brand": "IKEA / VESTERÖY",
+      "priceEGP": 9995,
+      "sizeCm": null,
+      "type": "pocket_spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vesteroey-pocket-sprung-mattress-firm-light-blue-70450508",
+      "imageUrl": "",
+      "source": "IKEA Egypt",
+      "summary": "?×? cm · pocket spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Leaves ~15,005 EGP under 25k (protector later)",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "Size not 180×200 / unclear",
+        "Firmness not clear on listing — test in store or check return policy"
+      ],
+      "tags": [
+        "pocket_spring",
+        "unspecified",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_vatnestroem_pocket_sprung_mattress_firm_natural_",
+      "rank": 822,
+      "name": "Top seller VATNESTRÖM Pocket sprung mattress, firm/natural, 180x200 cm",
+      "brand": "IKEA / Top",
+      "priceEGP": 52995,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "firm",
+      "category": "mattress",
+      "url": "https://www.ikea.com/eg/en/p/vatnestroem-pocket-sprung-mattress-firm-natural-10517757",
+      "imageUrl": "https://www.ikea.com/eg/en/images/products/vatnestroem-pocket-sprung-mattress-firm-natural__1298620_pe936249_s5.jpg?f=s",
+      "source": "IKEA Egypt",
+      "summary": "180×200 cm · pocket spring · firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Firmness band “firm” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed",
+        "IKEA Egypt — clear size variants, delivery, returns path",
+        "Works on slatted bases when slat gap meets IKEA guidance"
+      ],
+      "cons": [
+        "52,995 EGP over 25k budget",
+        "Lie on it 10–15 min in store if possible; firmness is personal"
+      ],
+      "tags": [
+        "pocket_spring",
+        "firm",
+        "180x200",
+        "over_budget",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0c4jtt663",
+      "rank": 823,
+      "name": "SLEEP STATION Supreme Fabric Super Mattress 180x200cm",
+      "brand": "SLEEP",
+      "priceEGP": 1750,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0C4JTT663",
+      "imageUrl": "https://m.media-amazon.com/images/I/61SMom9CzkL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~23,250 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Price too low for real 180×200 mattress — likely accessory/error",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w6ggl6",
+      "rank": 824,
+      "name": "Englander Brilliant Mattress 180cm Wide By 200cm Long 15\" High",
+      "brand": "Englander",
+      "priceEGP": 40810,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W6GGL6",
+      "imageUrl": "https://m.media-amazon.com/images/I/51rvD68Q4lL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "40,810 EGP over 25k budget",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bgm2jljt",
+      "rank": 825,
+      "name": "England Matrix 900g Microfiber Soft Mattress, 180 x 200cm, 10cm High, Plush, White",
+      "brand": "England",
+      "priceEGP": 1140,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "soft_or_pillowtop",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BGM2JLJT",
+      "imageUrl": "https://m.media-amazon.com/images/I/71sFn5f-VdL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~23,860 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Price too low for real 180×200 mattress — likely accessory/error",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfnyxw8",
+      "rank": 826,
+      "name": "Habitat Pillowtop Pocket Spring Mattress | Individual Coil Support with Plush Top | 120x200x32 cm",
+      "brand": "Habitat",
+      "priceEGP": 7870,
+      "sizeCm": [
+        120,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "soft_or_pillowtop",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BSFNYXW8",
+      "imageUrl": "https://m.media-amazon.com/images/I/41l16Lq8-jL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "120×200 cm · pocket spring · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Leaves ~17,130 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Too narrow (120 cm) for 180 bed",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Size 120×200 — narrower than 180 bed",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "soft_or_pillowtop",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0c4jw6g5k",
+      "rank": 827,
+      "name": "SLEEP STATION 180x200cm Micro Grain Fleece Insert Mattress",
+      "brand": "SLEEP",
+      "priceEGP": 1850,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0C4JW6G5K",
+      "imageUrl": "https://m.media-amazon.com/images/I/61LpVQ8xtOL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~23,150 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Price too low for real 180×200 mattress — likely accessory/error",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0drpdsrnp",
+      "rank": 828,
+      "name": "King Koil Nile 25 CM Pocketed Spring Mattress 180x200, Medium King Mattress",
+      "brand": "King",
+      "priceEGP": 26317,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "pocket_spring",
+      "firmness": "medium",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0DRPDSRNP",
+      "imageUrl": "https://m.media-amazon.com/images/I/71aAXH99SEL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · pocket spring · medium. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Firmness band “medium” suits mixed sleepers when you said “no idea”",
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "26,317 EGP over 25k budget",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "medium",
+        "180x200",
+        "over_budget",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0h65xz5s9",
+      "rank": 829,
+      "name": "MIVIDA Medical Pocket Spring Mattress, White, 180 x 190 x 30 cm, Spine Support, Anti-Allergy, Ultra Ventilation",
+      "brand": "MIVIDA",
+      "priceEGP": 12209,
+      "sizeCm": [
+        180,
+        190
+      ],
+      "type": "pocket_spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0H65XZ5S9",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Z-m6AFlKL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×190 cm · pocket spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Size 180×190 — verify fits 180 frame",
+        "Leaves ~12,791 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Length 190 cm short of 200 — wrong for standard 180×200 sheets/frame",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "unspecified",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0cgq5l2g5",
+      "rank": 830,
+      "name": "SLEEP ART | Sleep Mattress | Bonnell Springs | Medium Firmness | 30 cm Thickness | Air Circulation and Ventilation | Comfort Sleep 200 * 100 * 30 cm",
+      "brand": "SLEEP",
+      "priceEGP": 3562,
+      "sizeCm": [
+        100,
+        200
+      ],
+      "type": "spring",
+      "firmness": "medium_firm",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0CGQ5L2G5",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Z94qSx0JL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "100×200 cm · spring · medium firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Firmness band “medium firm” suits mixed sleepers when you said “no idea”",
+        "Leaves ~21,438 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Too narrow (100 cm) for 180 bed",
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Size 100×200 — narrower than 180 bed",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "medium_firm",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bl1sk3rr",
+      "rank": 831,
+      "name": "DEUTSCHE MATRATZEN | Traum Mattress | Coil Springs | Medium Firmness | 30cm Thickness | Air Circulation and Ventilation | Comfort Sleep | 200 * 110 * 30 cm",
+      "brand": "DEUTSCHE",
+      "priceEGP": 5152,
+      "sizeCm": [
+        110,
+        200
+      ],
+      "type": "spring",
+      "firmness": "medium_firm",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BL1SK3RR",
+      "imageUrl": "https://m.media-amazon.com/images/I/51wV9M0vRvL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "110×200 cm · spring · medium firm. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Spring core — cooler than dense foam-only",
+        "Firmness band “medium firm” suits mixed sleepers when you said “no idea”",
+        "Leaves ~19,848 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Too narrow (110 cm) for 180 bed",
+        "Confirm pocket vs open coil if motion isolation matters",
+        "Size 110×200 — narrower than 180 bed",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "spring",
+        "medium_firm",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b3w4b985",
+      "rank": 832,
+      "name": "Englanderhoneymoon Mattress 180cm Wide By 200cm Tall 27cm Height",
+      "brand": "Englanderhoneymoon",
+      "priceEGP": 31370,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0B3W4B985",
+      "imageUrl": "https://m.media-amazon.com/images/I/51mMxGb6x+L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "31,370 EGP over 25k budget",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0ftxrj111",
+      "rank": 833,
+      "name": "Panda Mattress/Suste Separate Layer Tetrah Memory Foam Size 180 * 200cm Height 33cm",
+      "brand": "Panda",
+      "priceEGP": 48879,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "memory_foam",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0FTXRJ111",
+      "imageUrl": "https://m.media-amazon.com/images/I/61lIojMm7cL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · memory foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "48,879 EGP over 25k budget",
+        "Memory foam can sleep warmer (heat is high priority for you)",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "memory_foam",
+        "unspecified",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0g64vvw9l",
+      "rank": 834,
+      "name": "Pocket Memory Mattress 30 cm — Memory Foam Layer & Individual Pocket Springs — Dual-Sided Winter/Summer — Ventilated Design with Reinforced Anti-Sag Frame (190 * 180)",
+      "brand": "Pocket",
+      "priceEGP": 14490,
+      "sizeCm": [
+        180,
+        190
+      ],
+      "type": "pocket_spring",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0G64VVW9L",
+      "imageUrl": "https://m.media-amazon.com/images/I/51F8mvXyCsL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×190 cm · pocket spring · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Pocket spring / hybrid — airflow + motion isolation (matches heat + couple brief)",
+        "Size 180×190 — verify fits 180 frame",
+        "Leaves ~10,510 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Length 190 cm short of 200 — wrong for standard 180×200 sheets/frame",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "pocket_spring",
+        "unspecified",
+        "under_25k",
+        "cool_lean"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0cqwb2gbx",
+      "rank": 835,
+      "name": "Line Sleep Topper Mattress (Maroon, 180 * 200 cm)",
+      "brand": "Line",
+      "priceEGP": 1239,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.amazon.eg/dp/B0CQWB2GBX",
+      "imageUrl": "https://m.media-amazon.com/images/I/61j3rLDiMTL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~23,761 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0f5zm2lw4",
+      "rank": 836,
+      "name": "Venus Fiber Hotel Topper Mattress (180x200)",
+      "brand": "Venus",
+      "priceEGP": 1245,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.amazon.eg/dp/B0F5ZM2LW4",
+      "imageUrl": "https://m.media-amazon.com/images/I/51mF6yWvsuL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~23,755 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b09prxkl54",
+      "rank": 837,
+      "name": "Scheherezade Mattress (180cm x 200cm, Height 3oz, 650g, White)",
+      "brand": "Scheherezade",
+      "priceEGP": 1410,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B09PRXKL54",
+      "imageUrl": "https://m.media-amazon.com/images/I/61IaWn-TU-L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~23,590 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Price too low for real 180×200 mattress — likely accessory/error",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bqrxg9dv",
+      "rank": 838,
+      "name": "England Mattress Soft Fiber Mattress 180 * 200cm High 12cm",
+      "brand": "England",
+      "priceEGP": 1170,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "soft_or_pillowtop",
+      "category": "mattress",
+      "url": "https://www.amazon.eg/dp/B0BQRXG9DV",
+      "imageUrl": "https://m.media-amazon.com/images/I/61D63q5bv7L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~23,830 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Price too low for real 180×200 mattress — likely accessory/error",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0fp9v3zsv",
+      "rank": 839,
+      "name": "Princess Fiber Hotel Mattress Topper (180x200)",
+      "brand": "Princess",
+      "priceEGP": 1245,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.amazon.eg/dp/B0FP9V3ZSV",
+      "imageUrl": "https://m.media-amazon.com/images/I/51jWhTqxJGL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~23,755 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0h2btgkk5",
+      "rank": 840,
+      "name": "Ocra Hotel Collection Soft Mattress Topper, White, Plush Quilted Design for Comfortable Sleep (White, 180x200)",
+      "brand": "Ocra",
+      "priceEGP": 1490,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "soft_or_pillowtop",
+      "category": "topper",
+      "url": "https://www.amazon.eg/dp/B0H2BTGKK5",
+      "imageUrl": "https://m.media-amazon.com/images/I/61o6ASAjpPL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~23,510 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0b8xhszs8",
+      "rank": 841,
+      "name": "Line Aslep Mattress Topper Size 180 * 200 cm - Thickness 7 cm",
+      "brand": "Line",
+      "priceEGP": 1053,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.amazon.eg/dp/B0B8XHSZS8",
+      "imageUrl": "https://m.media-amazon.com/images/I/61EqpWobE8L._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~23,947 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0f7fgp1mj",
+      "rank": 842,
+      "name": "SleepyTech Memory Foam Mattress Topper for Sleep Improvement – 5cm Thick | Spinal Support & Pressure Relief – Soft Top Layer for Bedding & Mattresses – Washable & Breathable (180cm*200cm)",
+      "brand": "SleepyTech",
+      "priceEGP": 7000,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "memory_foam",
+      "firmness": "soft_or_pillowtop",
+      "category": "topper",
+      "url": "https://www.amazon.eg/dp/B0F7FGP1MJ",
+      "imageUrl": "https://m.media-amazon.com/images/I/41hQxBYK7tL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · memory foam · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~18,000 EGP under 25k (protector later)",
+        "Listing mentions breathability/airflow"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "Memory foam can sleep warmer (heat is high priority for you)",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "memory_foam",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0fmqcb86h",
+      "rank": 843,
+      "name": "Supreme Fibre Mattress Topper, 8 cm Thick, White (180x200cm)",
+      "brand": "Supreme",
+      "priceEGP": null,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.amazon.eg/dp/B0FMQCB86H",
+      "imageUrl": "https://m.media-amazon.com/images/I/51fT61BierL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "Price missing — re-check",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0dr887jfh",
+      "rank": 844,
+      "name": "Home Gallery super soft Mattress Topper 7 cm 180x200 cm",
+      "brand": "Home",
+      "priceEGP": 7315,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "soft_or_pillowtop",
+      "category": "topper",
+      "url": "https://www.amazon.eg/dp/B0DR887JFH",
+      "imageUrl": "https://m.media-amazon.com/images/I/51WyDn-vdgL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · unknown · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~17,685 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "soft_or_pillowtop",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_b0bsfnn4s7",
+      "rank": 845,
+      "name": "Habitat Medical Mattress Topper | Orthopedic Memory Foam Bed Pad | Pressure Relief Sleep Support | 180x200x6 cm",
+      "brand": "Habitat",
+      "priceEGP": 5200,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "memory_foam",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.amazon.eg/dp/B0BSFNN4S7",
+      "imageUrl": "https://m.media-amazon.com/images/I/51nv1GZIZqL._AC_SL500_.jpg",
+      "source": "Amazon.eg",
+      "summary": "180×200 cm · memory foam · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed",
+        "Leaves ~19,800 EGP under 25k (protector later)"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "Memory foam can sleep warmer (heat is high priority for you)",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "memory_foam",
+        "unspecified",
+        "180x200",
+        "under_25k",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_yarlin_black_mattress_topper_180200_cm_134011040",
+      "rank": 846,
+      "name": "YARLIN Black , Mattress topper 180*200 cm",
+      "brand": "YARLIN",
+      "priceEGP": 167400,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.jumia.com.eg/yarlin-black-mattress-topper-180200-cm-134011040.html",
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/04/0110431/1.jpg?7803",
+      "source": "Jumia Egypt",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "167,400 EGP over 25k budget",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_yarlin_red_mattress_topper_180200_cm_134019813_h",
+      "rank": 847,
+      "name": "YARLIN Red , Mattress topper 180*200 cm",
+      "brand": "YARLIN",
+      "priceEGP": 167400,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.jumia.com.eg/yarlin-red-mattress-topper-180200-cm-134019813.html",
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/31/8910431/1.jpg?0550",
+      "source": "Jumia Egypt",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "167,400 EGP over 25k budget",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_yarlin_dark_gray_mattress_topper_180200_cm_13401",
+      "rank": 848,
+      "name": "YARLIN Dark Gray, Mattress topper 180*200 cm",
+      "brand": "YARLIN",
+      "priceEGP": 167400,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.jumia.com.eg/yarlin-dark-gray-mattress-topper-180200-cm-134019818.html",
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/81/8910431/1.jpg?0553",
+      "source": "Jumia Egypt",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "167,400 EGP over 25k budget",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_yarlin_light_gray_mattress_topper_180200_cm_1340",
+      "rank": 849,
+      "name": "YARLIN Light Gray , Mattress topper 180*200 cm",
+      "brand": "YARLIN",
+      "priceEGP": 167400,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.jumia.com.eg/yarlin-light-gray-mattress-topper-180200-cm-134011044.html",
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/44/0110431/1.jpg?7804",
+      "source": "Jumia Egypt",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "167,400 EGP over 25k budget",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_yarlin_white_mattress_topper_180200_cm_134011046",
+      "rank": 850,
+      "name": "YARLIN White , Mattress topper 180*200 cm",
+      "brand": "YARLIN",
+      "priceEGP": 167400,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "unspecified",
+      "category": "topper",
+      "url": "https://www.jumia.com.eg/yarlin-white-mattress-topper-180200-cm-134011046.html",
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/64/0110431/1.jpg?7805",
+      "source": "Jumia Egypt",
+      "summary": "180×200 cm · unknown · unspecified. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "167,400 EGP over 25k budget",
+        "Firmness not clear on listing — test in store or check return policy",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "unspecified",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_generic_orchid_white_quilted_mattress_topper_180",
+      "rank": 851,
+      "name": "Orchid White Quilted Mattress Topper – 180*200 – Soft Fiber Filling",
+      "brand": "Orchid",
+      "priceEGP": 190000,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "soft_or_pillowtop",
+      "category": "topper",
+      "url": "https://www.jumia.com.eg/generic-orchid-white-quilted-mattress-topper-180200-soft-fiber-filling-134220867.html",
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/76/8022431/1.jpg?5648",
+      "source": "Jumia Egypt",
+      "summary": "180×200 cm · unknown · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "190,000 EGP over 25k budget",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "soft_or_pillowtop",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    },
+    {
+      "id": "mat_generic_orchid_black_quilted_mattress_topper_180",
+      "rank": 852,
+      "name": "Orchid Black Quilted Mattress Topper – 180*200 – Soft Fiber Filling",
+      "brand": "Orchid",
+      "priceEGP": 174600,
+      "sizeCm": [
+        180,
+        200
+      ],
+      "type": "unknown",
+      "firmness": "soft_or_pillowtop",
+      "category": "topper",
+      "url": "https://www.jumia.com.eg/generic-orchid-black-quilted-mattress-topper-180200-soft-fiber-filling-134221750.html",
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/05/7122431/1.jpg?6026",
+      "source": "Jumia Egypt",
+      "summary": "180×200 cm · unknown · soft or pillowtop. Master bedroom only · ≤25,000 EGP · heat-friendly lean · slatted base.",
+      "pros": [
+        "Exact 180×200 for your bed"
+      ],
+      "cons": [
+        "Topper — not full mattress (you said mattress only now)",
+        "174,600 EGP over 25k budget",
+        "Softer/pillow-top — can sleep warmer; still list for choice",
+        "Marketplace — verify true size, spring type, and warranty stamp"
+      ],
+      "tags": [
+        "unknown",
+        "soft_or_pillowtop",
+        "180x200",
+        "over_budget",
+        "foam"
+      ],
+      "excluded": true,
+      "baseNote": "Use on slatted base; check max slat gap (often ≤3–6 cm depending on brand warranty)",
+      "scrapeNote": "Playwright PLP 2026-07-17 — re-verify size variant, firmness, stock"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-17",
+  "status": "scoping_done_research_next",
+  "budgetEGP": { "max": 25000, "currency": "EGP", "ceilingType": "hard" },
+  "scope": {
+    "include": ["storage", "shelves", "pantry", "organizers", "wall_or_freestanding_units"],
+    "exclude": [
+      "full_kitchen_cabinetry_remodel",
+      "fridge",
+      "washer",
+      "cooker_already_owned",
+      "water_heater_deferred",
+      "dining_not_in_this_budget_unless_leftover",
+      "cookware_not_selected_this_round"
+    ]
+  },
+  "apartmentKitchen": {
+    "comesWith": ["plumbing", "electric points"],
+    "furniture": "none",
+    "cabinets": false,
+    "counters": false,
+    "widthCm": 250,
+    "lengthCm": 215,
+    "areaM2": 5.375,
+    "note": "Compact kitchen — storage plan must stay shallow/footprint-aware"
+  },
+  "shopping": {
+    "preference": "best_quality_under_25k_cairo_oct6",
+    "ikeaPreferredButNotRequired": true,
+    "otherOk": true
+  },
+  "lifestyleHooks": {
+    "mealPrepFriday": true,
+    "freezeHeavy": true,
+    "ownedAppliances": ["cooker", "air_fryer", "kettle", "blender"],
+    "storageNeedsImplied": [
+      "dry goods from big shop",
+      "meal-prep containers",
+      "pots/pans space later",
+      "vertical storage (empty kitchen)"
+    ]
+  },
+  "openDesignChoices": [],
+  "wallDrilling": true,
+  "storagePriority": "balanced_starter_everything",
+  "designApproach": "freestanding_pantry_plus_wall_shelves_plus_organizers_under_25k"
+}

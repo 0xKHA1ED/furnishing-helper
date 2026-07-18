@@ -1,0 +1,880 @@
+- generic [active] [ref=f317e1]:
+  - region "Notifications alt+T"
+  - main [ref=f317e2]:
+    - navigation [ref=f317e4]:
+      - generic [ref=f317e5]:
+        - generic [ref=f317e6]:
+          - link [ref=f317e7] [cursor=pointer]:
+            - /url: /en
+            - img "btech logo" [ref=f317e8]
+          - button [ref=f317e10] [cursor=pointer]:
+            - img "delivery address" [ref=f317e11]
+            - paragraph [ref=f317e13]: "Delivering to:"
+        - generic [ref=f317e16]:
+          - img "search" [ref=f317e18]
+          - textbox "What are you looking for?" [ref=f317e19]
+        - generic [ref=f317e20]:
+          - link [ref=f317e21] [cursor=pointer]:
+            - /url: /ar/c/large-home-appliances/washing-machines-dryers
+            - img "change language" [ref=f317e22]
+            - paragraph [ref=f317e23]: عربي
+          - button [ref=f317e24] [cursor=pointer]:
+            - img "wishlist" [ref=f317e25]
+            - paragraph [ref=f317e26]: Wishlist
+          - link [ref=f317e27] [cursor=pointer]:
+            - /url: /en/account
+            - img "my account" [ref=f317e28]
+            - paragraph [ref=f317e29]: Account
+          - link [ref=f317e30] [cursor=pointer]:
+            - /url: /en/cart
+            - img "cart" [ref=f317e32]
+            - paragraph [ref=f317e33]: Cart
+      - generic [ref=f317e34]:
+        - button "menu All categories" [ref=f317e35] [cursor=pointer]:
+          - img "menu" [ref=f317e36]
+          - generic [ref=f317e37]: All categories
+        - generic [ref=f317e38]:
+          - link "Electronics" [ref=f317e39] [cursor=pointer]:
+            - /url: /en/c/electronics
+          - link "Large Home Appliances" [ref=f317e40] [cursor=pointer]:
+            - /url: /en/c/large-home-appliances
+          - link "Mobiles, Tablets & Accessories" [ref=f317e41] [cursor=pointer]:
+            - /url: /en/c/mobiles-tablets
+          - link "Small Home Appliances" [ref=f317e42] [cursor=pointer]:
+            - /url: /en/c/small-home-appliances
+          - link "Laptops, PCs & accessories" [ref=f317e43] [cursor=pointer]:
+            - /url: /en/c/laptop-pc
+          - link "TVs" [ref=f317e44] [cursor=pointer]:
+            - /url: /en/c/tvs-projectors
+    - generic [ref=f317e49]:
+      - navigation "breadcrumb" [ref=f317e50]:
+        - list [ref=f317e51]:
+          - listitem [ref=f317e53]:
+            - link "Home" [ref=f317e54] [cursor=pointer]:
+              - /url: ""
+          - generic [ref=f317e55]:
+            - listitem [ref=f317e56]
+            - listitem [ref=f317e59]:
+              - link "Large Home Appliances" [ref=f317e60] [cursor=pointer]:
+                - /url: c/large-home-appliances
+          - generic [ref=f317e61]:
+            - listitem [ref=f317e62]
+            - listitem [ref=f317e65]:
+              - generic [ref=f317e66]: Washing Machines & Dryers
+      - heading "Washing Machines & Dryers" [level=1] [ref=f317e67]
+      - generic [ref=f317e70]:
+        - button "All" [pressed] [ref=f317e71] [cursor=pointer]
+        - link "Front load washing Machines" [ref=f317e72] [cursor=pointer]:
+          - /url: /en/c/large-home-appliances/washing-machines-dryers/front-load-washing-machines
+        - link "Top load washing Machines" [ref=f317e73] [cursor=pointer]:
+          - /url: /en/c/large-home-appliances/washing-machines-dryers/top-load-washing-machines
+        - link "All-in-one washer dryer combos" [ref=f317e74] [cursor=pointer]:
+          - /url: /en/c/large-home-appliances/washing-machines-dryers/all-in-one-washer-dryer-combos
+        - link "Dryers" [ref=f317e75] [cursor=pointer]:
+          - /url: /en/c/large-home-appliances/washing-machines-dryers/dryers
+      - generic [ref=f317e77]:
+        - generic [ref=f317e80]:
+          - generic [ref=f317e81]:
+            - heading "All filters" [level=2] [ref=f317e82]
+            - button "Clear all" [ref=f317e83] [cursor=pointer]
+          - generic [ref=f317e85]:
+            - generic [ref=f317e86]:
+              - button "Brand" [expanded] [ref=f317e88] [cursor=pointer]
+              - generic [ref=f317e95]:
+                - textbox "Search all brands" [ref=f317e102]
+                - generic [ref=f317e103]:
+                  - generic [ref=f317e104]:
+                    - checkbox "Ariston (6)" [ref=f317e105] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e106] [cursor=pointer]: Ariston (6)
+                  - generic [ref=f317e107]:
+                    - checkbox "Armadillo (2)" [ref=f317e108] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e109] [cursor=pointer]: Armadillo (2)
+                  - generic [ref=f317e110]:
+                    - checkbox "Beko (14)" [ref=f317e111] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e112] [cursor=pointer]: Beko (14)
+                  - generic [ref=f317e113]:
+                    - checkbox "Bosch (8)" [ref=f317e114] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e115] [cursor=pointer]: Bosch (8)
+                  - generic [ref=f317e116]:
+                    - checkbox "Candy (3)" [ref=f317e117] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e118] [cursor=pointer]: Candy (3)
+                  - generic [ref=f317e119]:
+                    - checkbox "Castle (3)" [ref=f317e120] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e121] [cursor=pointer]: Castle (3)
+                  - generic [ref=f317e122]:
+                    - checkbox "Fresh (55)" [ref=f317e123] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e124] [cursor=pointer]: Fresh (55)
+                  - generic [ref=f317e125]:
+                    - checkbox "Haier (21)" [ref=f317e126] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e127] [cursor=pointer]: Haier (21)
+                  - generic [ref=f317e128]:
+                    - checkbox "Hisense (1)" [ref=f317e129] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e130] [cursor=pointer]: Hisense (1)
+                  - generic [ref=f317e131]:
+                    - checkbox "Hitachi (4)" [ref=f317e132] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e133] [cursor=pointer]: Hitachi (4)
+                  - generic [ref=f317e134]:
+                    - checkbox "Hoover (18)" [ref=f317e135] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e136] [cursor=pointer]: Hoover (18)
+                  - generic [ref=f317e137]:
+                    - checkbox "Indesit (1)" [ref=f317e138] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e139] [cursor=pointer]: Indesit (1)
+                  - generic [ref=f317e140]:
+                    - checkbox "Kiriazi (2)" [ref=f317e141] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e142] [cursor=pointer]: Kiriazi (2)
+                  - generic [ref=f317e143]:
+                    - checkbox "LG (43)" [ref=f317e144] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e145] [cursor=pointer]: LG (43)
+                  - generic [ref=f317e146]:
+                    - checkbox "Midea (7)" [ref=f317e147] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e148] [cursor=pointer]: Midea (7)
+                  - generic [ref=f317e149]:
+                    - checkbox "Ocean (1)" [ref=f317e150] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e151] [cursor=pointer]: Ocean (1)
+                  - generic [ref=f317e152]:
+                    - checkbox "Panasonic (1)" [ref=f317e153] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e154] [cursor=pointer]: Panasonic (1)
+                  - generic [ref=f317e155]:
+                    - checkbox "Prifix (2)" [ref=f317e156] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e157] [cursor=pointer]: Prifix (2)
+                  - generic [ref=f317e158]:
+                    - checkbox "Samsung (9)" [ref=f317e159] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e160] [cursor=pointer]: Samsung (9)
+                  - generic [ref=f317e161]:
+                    - checkbox "Sharp (20)" [ref=f317e162] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e163] [cursor=pointer]: Sharp (20)
+                  - generic [ref=f317e164]:
+                    - checkbox "Tornado (14)" [ref=f317e165] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e166] [cursor=pointer]: Tornado (14)
+                  - generic [ref=f317e167]:
+                    - checkbox "Toshiba (31)" [ref=f317e168] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e169] [cursor=pointer]: Toshiba (31)
+                  - generic [ref=f317e170]:
+                    - checkbox "Unionaire (1)" [ref=f317e171] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e172] [cursor=pointer]: Unionaire (1)
+                  - generic [ref=f317e173]:
+                    - checkbox "White Point (28)" [ref=f317e174] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e175] [cursor=pointer]: White Point (28)
+                  - generic [ref=f317e176]:
+                    - checkbox "Zanussi (28)" [ref=f317e177] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e178] [cursor=pointer]: Zanussi (28)
+            - generic [ref=f317e180]:
+              - button "Price" [ref=f317e182] [cursor=pointer]
+              - generic [ref=f317e189]:
+                - generic [ref=f317e194]:
+                  - generic [ref=f317e195]:
+                    - generic [ref=f317e196]: Min.
+                    - textbox "Min." [ref=f317e198]: "2129"
+                  - generic [ref=f317e199]:
+                    - generic [ref=f317e200]: Max.
+                    - textbox "Max." [ref=f317e202]: "260091"
+                - button "Apply price" [disabled] [ref=f317e203]
+            - generic [ref=f317e205]:
+              - button "Color" [ref=f317e207] [cursor=pointer]
+              - generic [ref=f317e214]:
+                - generic [ref=f317e215] [cursor=pointer]:
+                  - checkbox "Black (54)" [ref=f317e216]
+                  - radio [ref=f317e217]
+                  - generic [ref=f317e218]: Black (54)
+                - generic [ref=f317e219] [cursor=pointer]:
+                  - checkbox "Black Caviar (1)" [ref=f317e220]
+                  - radio [ref=f317e221]
+                  - generic [ref=f317e222]: Black Caviar (1)
+                - generic [ref=f317e223] [cursor=pointer]:
+                  - checkbox "Blue (3)" [ref=f317e224]
+                  - radio [ref=f317e225]
+                  - generic [ref=f317e226]: Blue (3)
+                - generic [ref=f317e227] [cursor=pointer]:
+                  - checkbox "Blue Silver (1)" [ref=f317e228]
+                  - radio [ref=f317e229]
+                  - generic [ref=f317e230]: Blue Silver (1)
+                - generic [ref=f317e231] [cursor=pointer]:
+                  - checkbox "Cast Iron Grey (1)" [ref=f317e232]
+                  - radio [ref=f317e233]
+                  - generic [ref=f317e234]: Cast Iron Grey (1)
+                - generic [ref=f317e235] [cursor=pointer]:
+                  - checkbox "Cyan (1)" [ref=f317e236]
+                  - radio [ref=f317e237]
+                  - generic [ref=f317e238]: Cyan (1)
+                - generic [ref=f317e239] [cursor=pointer]:
+                  - checkbox "Dark Gray (4)" [ref=f317e240]
+                  - radio [ref=f317e241]
+                  - generic [ref=f317e242]: Dark Gray (4)
+                - generic [ref=f317e243] [cursor=pointer]:
+                  - checkbox "Dark Grey (8)" [ref=f317e244]
+                  - radio [ref=f317e245]
+                  - generic [ref=f317e246]: Dark Grey (8)
+                - generic [ref=f317e247] [cursor=pointer]:
+                  - checkbox "Dark Silver (22)" [ref=f317e248]
+                  - radio [ref=f317e249]
+                  - generic [ref=f317e250]: Dark Silver (22)
+                - generic [ref=f317e251] [cursor=pointer]:
+                  - checkbox "Essence Graphite (6)" [ref=f317e252]
+                  - radio [ref=f317e253]
+                  - generic [ref=f317e254]: Essence Graphite (6)
+                - generic [ref=f317e255] [cursor=pointer]:
+                  - checkbox "Essence Silver (1)" [ref=f317e256]
+                  - radio [ref=f317e257]
+                  - generic [ref=f317e258]: Essence Silver (1)
+                - generic [ref=f317e259] [cursor=pointer]:
+                  - checkbox "Graphite (7)" [ref=f317e260]
+                  - radio [ref=f317e261]
+                  - generic [ref=f317e262]: Graphite (7)
+                - generic [ref=f317e263] [cursor=pointer]:
+                  - checkbox "Graphite Gray (1)" [ref=f317e264]
+                  - radio [ref=f317e265]
+                  - generic [ref=f317e266]: Graphite Gray (1)
+                - generic [ref=f317e267] [cursor=pointer]:
+                  - checkbox "Gray (7)" [ref=f317e268]
+                  - radio [ref=f317e269]
+                  - generic [ref=f317e270]: Gray (7)
+                - generic [ref=f317e271] [cursor=pointer]:
+                  - checkbox "Grey (31)" [ref=f317e272]
+                  - radio [ref=f317e273]
+                  - generic [ref=f317e274]: Grey (31)
+                - generic [ref=f317e275] [cursor=pointer]:
+                  - checkbox "Inox (1)" [ref=f317e276]
+                  - radio [ref=f317e277]
+                  - generic [ref=f317e278]: Inox (1)
+                - generic [ref=f317e279] [cursor=pointer]:
+                  - checkbox "Jade Ink Silver (2)" [ref=f317e280]
+                  - radio [ref=f317e281]
+                  - generic [ref=f317e282]: Jade Ink Silver (2)
+                - generic [ref=f317e283] [cursor=pointer]:
+                  - checkbox "Manhattan Grey (3)" [ref=f317e284]
+                  - radio [ref=f317e285]
+                  - generic [ref=f317e286]: Manhattan Grey (3)
+                - generic [ref=f317e287] [cursor=pointer]:
+                  - checkbox "Middle Black (3)" [ref=f317e288]
+                  - radio [ref=f317e289]
+                  - generic [ref=f317e290]: Middle Black (3)
+                - generic [ref=f317e291] [cursor=pointer]:
+                  - checkbox "Morandi Grey (4)" [ref=f317e292]
+                  - radio [ref=f317e293]
+                  - generic [ref=f317e294]: Morandi Grey (4)
+                - generic [ref=f317e295] [cursor=pointer]:
+                  - checkbox "Morandy Grey (2)" [ref=f317e296]
+                  - radio [ref=f317e297]
+                  - generic [ref=f317e298]: Morandy Grey (2)
+                - generic [ref=f317e299] [cursor=pointer]:
+                  - checkbox "Multi Color (4)" [ref=f317e300]
+                  - radio [ref=f317e301]
+                  - generic [ref=f317e302]: Multi Color (4)
+                - generic [ref=f317e303] [cursor=pointer]:
+                  - checkbox "Onyx Black (3)" [ref=f317e304]
+                  - radio [ref=f317e305]
+                  - generic [ref=f317e306]: Onyx Black (3)
+                - generic [ref=f317e307] [cursor=pointer]:
+                  - checkbox "Pink (1)" [ref=f317e308]
+                  - radio [ref=f317e309]
+                  - generic [ref=f317e310]: Pink (1)
+                - generic [ref=f317e311] [cursor=pointer]:
+                  - checkbox "Platinum (1)" [ref=f317e312]
+                  - radio [ref=f317e313]
+                  - generic [ref=f317e314]: Platinum (1)
+                - generic [ref=f317e315] [cursor=pointer]:
+                  - checkbox "Platinum Black (5)" [ref=f317e316]
+                  - radio [ref=f317e317]
+                  - generic [ref=f317e318]: Platinum Black (5)
+                - generic [ref=f317e319] [cursor=pointer]:
+                  - checkbox "Platinum Silver (4)" [ref=f317e320]
+                  - radio [ref=f317e321]
+                  - generic [ref=f317e322]: Platinum Silver (4)
+                - generic [ref=f317e323] [cursor=pointer]:
+                  - checkbox "Silver (99)" [ref=f317e324]
+                  - radio [ref=f317e325]
+                  - generic [ref=f317e326]: Silver (99)
+                - generic [ref=f317e327] [cursor=pointer]:
+                  - checkbox "Silver Black (1)" [ref=f317e328]
+                  - radio [ref=f317e329]
+                  - generic [ref=f317e330]: Silver Black (1)
+                - generic [ref=f317e331] [cursor=pointer]:
+                  - checkbox "Silver Inox (2)" [ref=f317e332]
+                  - radio [ref=f317e333]
+                  - generic [ref=f317e334]: Silver Inox (2)
+                - generic [ref=f317e335] [cursor=pointer]:
+                  - checkbox "Silver Titanium (1)" [ref=f317e336]
+                  - radio [ref=f317e337]
+                  - generic [ref=f317e338]: Silver Titanium (1)
+                - generic [ref=f317e339] [cursor=pointer]:
+                  - checkbox "Stainless Steel (3)" [ref=f317e340]
+                  - radio [ref=f317e341]
+                  - generic [ref=f317e342]: Stainless Steel (3)
+                - generic [ref=f317e343] [cursor=pointer]:
+                  - checkbox "Titanium Grey (1)" [ref=f317e344]
+                  - radio [ref=f317e345]
+                  - generic [ref=f317e346]: Titanium Grey (1)
+                - generic [ref=f317e347] [cursor=pointer]:
+                  - checkbox "Volcanic Grey (1)" [ref=f317e348]
+                  - radio [ref=f317e349]
+                  - generic [ref=f317e350]: Volcanic Grey (1)
+                - generic [ref=f317e351] [cursor=pointer]:
+                  - checkbox "White (29)" [ref=f317e352]
+                  - radio [ref=f317e353]
+                  - generic [ref=f317e354]: White (29)
+                - generic [ref=f317e355] [cursor=pointer]:
+                  - checkbox "White Black (5)" [ref=f317e356]
+                  - radio [ref=f317e357]
+                  - generic [ref=f317e358]: White Black (5)
+            - generic [ref=f317e361]:
+              - generic [ref=f317e362]:
+                - generic [ref=f317e363]: Sold by
+                - img "B.Tech" [ref=f317e364]
+              - switch [ref=f317e365] [cursor=pointer]
+              - checkbox
+            - generic [ref=f317e368]:
+              - generic [ref=f317e369]: Fulfilled By B.Tech
+              - switch [ref=f317e371] [cursor=pointer]
+              - checkbox
+            - generic [ref=f317e373]:
+              - button "Capacity" [ref=f317e375] [cursor=pointer]
+              - generic [ref=f317e382]:
+                - textbox "Search all brands" [ref=f317e389]
+                - generic [ref=f317e390]:
+                  - generic [ref=f317e391]:
+                    - checkbox "3.0000 kg (2)" [ref=f317e392] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e393] [cursor=pointer]: 3.0000 kg (2)
+                  - generic [ref=f317e394]:
+                    - checkbox "4.0000 kg (6)" [ref=f317e395] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e396] [cursor=pointer]: 4.0000 kg (6)
+                  - generic [ref=f317e397]:
+                    - checkbox "5.0000 kg (2)" [ref=f317e398] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e399] [cursor=pointer]: 5.0000 kg (2)
+                  - generic [ref=f317e400]:
+                    - checkbox "6.0000 kg (7)" [ref=f317e401] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e402] [cursor=pointer]: 6.0000 kg (7)
+                  - generic [ref=f317e403]:
+                    - checkbox "7.0000 kg (38)" [ref=f317e404] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e405] [cursor=pointer]: 7.0000 kg (38)
+                  - generic [ref=f317e406]:
+                    - checkbox "7.5000 kg (1)" [ref=f317e407] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e408] [cursor=pointer]: 7.5000 kg (1)
+                  - generic [ref=f317e409]:
+                    - checkbox "8.0000 kg (66)" [ref=f317e410] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e411] [cursor=pointer]: 8.0000 kg (66)
+                  - generic [ref=f317e412]:
+                    - checkbox "8.0000 Liter (1)" [ref=f317e413] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e414] [cursor=pointer]: 8.0000 Liter (1)
+                  - generic [ref=f317e415]:
+                    - checkbox "8.5000 kg (3)" [ref=f317e416] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e417] [cursor=pointer]: 8.5000 kg (3)
+                  - generic [ref=f317e418]:
+                    - checkbox "8.5000 Liter (1)" [ref=f317e419] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e420] [cursor=pointer]: 8.5000 Liter (1)
+                  - generic [ref=f317e421]:
+                    - checkbox "9.0000 kg (49)" [ref=f317e422] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e423] [cursor=pointer]: 9.0000 kg (49)
+                  - generic [ref=f317e424]:
+                    - checkbox "10.0000 kg (39)" [ref=f317e425] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e426] [cursor=pointer]: 10.0000 kg (39)
+                  - generic [ref=f317e427]:
+                    - checkbox "10.1000 Liter (1)" [ref=f317e428] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e429] [cursor=pointer]: 10.1000 Liter (1)
+                  - generic [ref=f317e430]:
+                    - checkbox "10.5000 kg (7)" [ref=f317e431] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e432] [cursor=pointer]: 10.5000 kg (7)
+                  - generic [ref=f317e433]:
+                    - checkbox "10.5000 Liter (1)" [ref=f317e434] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e435] [cursor=pointer]: 10.5000 Liter (1)
+                  - generic [ref=f317e436]:
+                    - checkbox "11.0000 kg (19)" [ref=f317e437] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e438] [cursor=pointer]: 11.0000 kg (19)
+                  - generic [ref=f317e439]:
+                    - checkbox "11.0000 Liter (2)" [ref=f317e440] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e441] [cursor=pointer]: 11.0000 Liter (2)
+                  - generic [ref=f317e442]:
+                    - checkbox "12.0000 kg (19)" [ref=f317e443] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e444] [cursor=pointer]: 12.0000 kg (19)
+                  - generic [ref=f317e445]:
+                    - checkbox "13.0000 kg (16)" [ref=f317e446] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e447] [cursor=pointer]: 13.0000 kg (16)
+                  - generic [ref=f317e448]:
+                    - checkbox "13.0000 Liter (2)" [ref=f317e449] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e450] [cursor=pointer]: 13.0000 Liter (2)
+                  - generic [ref=f317e451]:
+                    - checkbox "14.0000 kg (14)" [ref=f317e452] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e453] [cursor=pointer]: 14.0000 kg (14)
+                  - generic [ref=f317e454]:
+                    - checkbox "14.0000 Liter (1)" [ref=f317e455] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e456] [cursor=pointer]: 14.0000 Liter (1)
+                  - generic [ref=f317e457]:
+                    - checkbox "15.0000 kg (11)" [ref=f317e458] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e459] [cursor=pointer]: 15.0000 kg (11)
+                  - generic [ref=f317e460]:
+                    - checkbox "17.0000 kg (2)" [ref=f317e461] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e462] [cursor=pointer]: 17.0000 kg (2)
+                  - generic [ref=f317e463]:
+                    - checkbox "18.5000 kg (1)" [ref=f317e464] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e465] [cursor=pointer]: 18.5000 kg (1)
+                  - generic [ref=f317e466]:
+                    - checkbox "19.0000 kg (2)" [ref=f317e467] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e468] [cursor=pointer]: 19.0000 kg (2)
+                  - generic [ref=f317e469]:
+                    - checkbox "20.0000 kg (3)" [ref=f317e470] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e471] [cursor=pointer]: 20.0000 kg (3)
+                  - generic [ref=f317e472]:
+                    - checkbox "21.0000 kg (2)" [ref=f317e473] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e474] [cursor=pointer]: 21.0000 kg (2)
+                  - generic [ref=f317e475]:
+                    - checkbox "22.0000 kg (1)" [ref=f317e476] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e477] [cursor=pointer]: 22.0000 kg (1)
+                  - generic [ref=f317e478]:
+                    - checkbox "23.0000 kg (2)" [ref=f317e479] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e480] [cursor=pointer]: 23.0000 kg (2)
+                  - generic [ref=f317e481]:
+                    - checkbox "25.0000 kg (2)" [ref=f317e482] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f317e483] [cursor=pointer]: 25.0000 kg (2)
+        - generic [ref=f317e484]:
+          - generic [ref=f317e485]:
+            - paragraph [ref=f317e486]: 323 results
+            - 'button "Sort by: Default" [ref=f317e487] [cursor=pointer]':
+              - generic [ref=f317e488]: Sort by
+              - generic [ref=f317e489]: Default
+          - generic [ref=f317e492]:
+            - article [ref=f317e493]:
+              - generic [ref=f317e495]:
+                - button "Add to favorites" [ref=f317e497] [cursor=pointer]
+                - img "Toshiba Inverter Top Load Washing Machine , 13 kg , Silver - AW-DUK1300KUPEG(MK)" [ref=f317e501]
+                - generic [ref=f317e504]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e505] [cursor=pointer]
+              - generic [ref=f317e508]:
+                - generic [ref=f317e509]: 17,799 LE
+                - generic [ref=f317e513]:
+                  - generic [ref=f317e514]:
+                    - heading "Toshiba" [level=4] [ref=f317e516]
+                    - link [ref=f317e517] [cursor=pointer]:
+                      - /url: /en/p/toshiba-top-load-inverter-washing-machine-13kg-silver-aw-duk1300kupeg?offering_id=aa650205-dc9f-4293-b11d-3501e1bfc941
+                      - heading "Toshiba Inverter Top Load Washing Machine , 13 kg , Silver - AW-DUK1300KUPEG(MK)" [level=3] [ref=f317e518]
+                  - radio [checked] [ref=f317e520] [cursor=pointer]
+            - article [ref=f317e521]:
+              - generic [ref=f317e523]:
+                - button "Add to favorites" [ref=f317e525] [cursor=pointer]
+                - img "Zanussi Perlamax Front Load Washing Machine , 8 kg , Silver - ZWF8240SS6" [ref=f317e529]
+                - generic [ref=f317e532]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e533] [cursor=pointer]
+              - generic [ref=f317e536]:
+                - generic [ref=f317e537]: 17,900 LE
+                - generic [ref=f317e541]:
+                  - generic [ref=f317e542]:
+                    - heading "Zanussi" [level=4] [ref=f317e544]
+                    - link [ref=f317e545] [cursor=pointer]:
+                      - /url: /en/p/zanussi-perlamax-washing-machine-8-kg-silver-zwf8240ss6?offering_id=e6454909-5741-4f9d-a68f-d0c4e17c44a2
+                      - heading "Zanussi Perlamax Front Load Washing Machine , 8 kg , Silver - ZWF8240SS6" [level=3] [ref=f317e546]
+                  - radio [checked] [ref=f317e548] [cursor=pointer]
+            - article [ref=f317e549]:
+              - generic [ref=f317e551]:
+                - button "Add to favorites" [ref=f317e553] [cursor=pointer]
+                - img "Toshiba Top Load washing Machine , 9 kg , Silver - AW-J900DUPEG" [ref=f317e557]
+                - generic [ref=f317e560]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e561] [cursor=pointer]
+              - generic [ref=f317e564]:
+                - generic [ref=f317e565]: 12,439 LE
+                - generic [ref=f317e569]:
+                  - generic [ref=f317e570]:
+                    - heading "Toshiba" [level=4] [ref=f317e572]
+                    - link [ref=f317e573] [cursor=pointer]:
+                      - /url: /en/p/toshiba-tl-wm-9kg-aw-j900dupeg?offering_id=2b78cbc1-ec37-45a3-8530-68a1ec123c17
+                      - heading "Toshiba Top Load washing Machine , 9 kg , Silver - AW-J900DUPEG" [level=3] [ref=f317e574]
+                  - radio [checked] [ref=f317e576] [cursor=pointer]
+            - article [ref=f317e577]:
+              - generic [ref=f317e579]:
+                - button "Add to favorites" [ref=f317e581] [cursor=pointer]
+                - img "White Point Top Load washing Machine , 9 kg , Dark Grey - WPTL9DBTEA" [ref=f317e585]
+                - generic [ref=f317e588]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e589] [cursor=pointer]
+              - generic [ref=f317e592]:
+                - generic [ref=f317e593]:
+                  - generic [ref=f317e594]: 10,199 LE
+                  - paragraph [ref=f317e597]: Extra 510 LE off at checkout
+                - generic [ref=f317e598]:
+                  - generic [ref=f317e599]:
+                    - heading "White Point" [level=4] [ref=f317e601]
+                    - link [ref=f317e602] [cursor=pointer]:
+                      - /url: /en/p/white-point-top-load-washing-machine-9kg-darkgrey-wptl9dbtea?offering_id=e731af44-ea35-4f9f-b064-f954070c6fd6
+                      - heading "White Point Top Load washing Machine , 9 kg , Dark Grey - WPTL9DBTEA" [level=3] [ref=f317e603]
+                  - radio "Dark Grey" [checked] [ref=f317e605] [cursor=pointer]
+            - article [ref=f317e606]:
+              - generic [ref=f317e608]:
+                - button "Add to favorites" [ref=f317e610] [cursor=pointer]
+                - img "Zanussi SteamMax Inverter Front Load Washing Machine , 7 kg , Dark Grey - ZWF7221DS7" [ref=f317e614]
+                - generic [ref=f317e617]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e618] [cursor=pointer]
+              - generic [ref=f317e621]:
+                - generic [ref=f317e622]: 19,999 LE
+                - generic [ref=f317e626]:
+                  - generic [ref=f317e627]:
+                    - heading "Zanussi" [level=4] [ref=f317e629]
+                    - link [ref=f317e630] [cursor=pointer]:
+                      - /url: /en/p/zanussi-steammax-inverter-washingmachine-7kg-grey-zwf7221ds7?offering_id=f49d7058-c545-4636-8c72-acedc5220089
+                      - heading "Zanussi SteamMax Inverter Front Load Washing Machine , 7 kg , Dark Grey - ZWF7221DS7" [level=3] [ref=f317e631]
+                  - radio "Dark Grey" [checked] [ref=f317e633] [cursor=pointer]
+            - article [ref=f317e634]:
+              - generic [ref=f317e636]:
+                - button "Add to favorites" [ref=f317e638] [cursor=pointer]
+                - img "Toshiba Inverter Top Load Washing Machine , 13 kg , Silver - AW-DK1300KUPEG" [ref=f317e642]
+                - generic [ref=f317e645]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e646] [cursor=pointer]
+              - generic [ref=f317e649]:
+                - generic [ref=f317e650]: 18,249 LE
+                - generic [ref=f317e654]:
+                  - generic [ref=f317e655]:
+                    - heading "Toshiba" [level=4] [ref=f317e657]
+                    - link [ref=f317e658] [cursor=pointer]:
+                      - /url: /en/p/toshiba-washingmachine-13kg-inverter-dk1300kupeg?offering_id=0571e7d2-35b0-4902-8ab8-9e1a803f0ad9
+                      - heading "Toshiba Inverter Top Load Washing Machine , 13 kg , Silver - AW-DK1300KUPEG" [level=3] [ref=f317e659]
+                  - radio [checked] [ref=f317e661] [cursor=pointer]
+            - article [ref=f317e662]:
+              - generic [ref=f317e664]:
+                - button "Add to favorites" [ref=f317e666] [cursor=pointer]
+                - img "Zanussi Inverter Front Load Washing Machine , 9 kg , Dark Gray - TC2ZWF9221SD7" [ref=f317e670]
+                - generic [ref=f317e673]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e674] [cursor=pointer]
+              - generic [ref=f317e677]:
+                - generic [ref=f317e678]: 22,699 LE
+                - generic [ref=f317e682]:
+                  - generic [ref=f317e683]:
+                    - heading "Zanussi" [level=4] [ref=f317e685]
+                    - link [ref=f317e686] [cursor=pointer]:
+                      - /url: /en/p/923c4259-58d2-4081-bb09-64baab277a9a?offering_id=3833c6d3-9865-46a7-ab62-5a12657a248c
+                      - heading "Zanussi Inverter Front Load Washing Machine , 9 kg , Dark Gray - TC2ZWF9221SD7" [level=3] [ref=f317e687]
+                  - generic [ref=f317e688]:
+                    - radio "Dark Gray" [checked] [ref=f317e689] [cursor=pointer]
+                    - radio "Black" [ref=f317e690] [cursor=pointer]
+                    - radio "Silver" [ref=f317e691] [cursor=pointer]
+            - article [ref=f317e692]:
+              - generic [ref=f317e694]:
+                - button "Add to favorites" [ref=f317e696] [cursor=pointer]
+                - img "Fresh Jumbo Elegant Top Load Half Automatic Washing Machine , 10 kg , White - FWS1000NA - 500002004" [ref=f317e700]
+                - generic [ref=f317e703]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e704] [cursor=pointer]
+              - generic [ref=f317e707]:
+                - generic [ref=f317e708]: 3,929 LE
+                - generic [ref=f317e712]:
+                  - generic [ref=f317e713]:
+                    - heading "Fresh" [level=4] [ref=f317e715]
+                    - link [ref=f317e716] [cursor=pointer]:
+                      - /url: /en/p/fresh-top-load-washing-machine-10kg-fws1000na?offering_id=937e952a-ee20-46be-939f-4c07a87b4c2e
+                      - heading "Fresh Jumbo Elegant Top Load Half Automatic Washing Machine , 10 kg , White - FWS1000NA - 500002004" [level=3] [ref=f317e717]
+                  - radio [checked] [ref=f317e719] [cursor=pointer]
+            - article [ref=f317e720]:
+              - generic [ref=f317e722]:
+                - button "Add to favorites" [ref=f317e724] [cursor=pointer]
+                - img "Midea Inverter Front Load Washing Machine , 8 kg , Silver Titanium - MF110W80B\\TT" [ref=f317e728]
+                - generic [ref=f317e731]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e732] [cursor=pointer]
+              - generic [ref=f317e735]:
+                - generic [ref=f317e736]: 14,399 LE
+                - generic [ref=f317e740]:
+                  - generic [ref=f317e741]:
+                    - heading "Midea" [level=4] [ref=f317e743]
+                    - link [ref=f317e744] [cursor=pointer]:
+                      - /url: /en/p/cfc0d860-1c24-409c-95c2-22e9e5d4f619?offering_id=806663d1-1946-4ec5-9a53-23e51944e7eb
+                      - heading "Midea Inverter Front Load Washing Machine , 8 kg , Silver Titanium - MF110W80B\\TT" [level=3] [ref=f317e745]
+                  - radio "Silver Titanium" [checked] [ref=f317e747] [cursor=pointer]
+            - article [ref=f317e748]:
+              - generic [ref=f317e750]:
+                - button "Add to favorites" [ref=f317e752] [cursor=pointer]
+                - img "Toshiba Inverter Front Load Washing Machine , 8.5 kg , Silver - TW-T21BU95UWEG(MG)" [ref=f317e756]
+                - generic [ref=f317e759]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e760] [cursor=pointer]
+              - generic [ref=f317e763]:
+                - generic [ref=f317e764]: 18,149 LE
+                - generic [ref=f317e768]:
+                  - generic [ref=f317e769]:
+                    - heading "Toshiba" [level=4] [ref=f317e771]
+                    - link [ref=f317e772] [cursor=pointer]:
+                      - /url: /en/p/toshiba-t21-invrter-washingmachine-8-5kg-silver-twbl90a4egss?offering_id=e4a14ace-a397-4a2f-89e1-87954f88c631
+                      - heading "Toshiba Inverter Front Load Washing Machine , 8.5 kg , Silver - TW-T21BU95UWEG(MG)" [level=3] [ref=f317e773]
+                  - radio [checked] [ref=f317e775] [cursor=pointer]
+            - article [ref=f317e776]:
+              - generic [ref=f317e778]:
+                - button "Add to favorites" [ref=f317e780] [cursor=pointer]
+                - img "Beko All-in-One Washer Dryer Combo , 8 kg , Manhattan Grey - BWD08520MCI" [ref=f317e784]
+                - generic [ref=f317e787]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e788] [cursor=pointer]
+              - generic [ref=f317e791]:
+                - generic [ref=f317e792]: 21,999 LE
+                - generic [ref=f317e796]:
+                  - generic [ref=f317e797]:
+                    - heading "Beko" [level=4] [ref=f317e799]
+                    - link [ref=f317e800] [cursor=pointer]:
+                      - /url: /en/p/30d2446e-014d-4439-9d81-7e7ff2f4dc3a?offering_id=a19d41f1-feea-4f18-9712-7e869592e565
+                      - heading "Beko All-in-One Washer Dryer Combo , 8 kg , Manhattan Grey - BWD08520MCI" [level=3] [ref=f317e801]
+                  - radio "Manhattan Grey" [checked] [ref=f317e803] [cursor=pointer]
+            - article [ref=f317e804]:
+              - generic [ref=f317e806]:
+                - button "Add to favorites" [ref=f317e808] [cursor=pointer]
+                - img "LG Inverter Front Load Washing Machine , 7 kg , Platinum Silver - F4Y2QYG6P" [ref=f317e812]
+                - generic [ref=f317e815]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e816] [cursor=pointer]
+              - generic [ref=f317e819]:
+                - generic [ref=f317e820]: 19,899 LE
+                - generic [ref=f317e824]:
+                  - generic [ref=f317e825]:
+                    - heading "LG" [level=4] [ref=f317e827]
+                    - link [ref=f317e828] [cursor=pointer]:
+                      - /url: /en/p/lg-inverterwashing-machine-7kg-platinum-silver-f4y2qyg6p?offering_id=9f68f418-b4ab-4555-9219-bccd6f6d8006
+                      - heading "LG Inverter Front Load Washing Machine , 7 kg , Platinum Silver - F4Y2QYG6P" [level=3] [ref=f317e829]
+                  - radio "Platinum Silver" [checked] [ref=f317e831] [cursor=pointer]
+            - article [ref=f317e832]:
+              - generic [ref=f317e834]:
+                - button "Add to favorites" [ref=f317e836] [cursor=pointer]
+                - img "Zanussi SteamMax Inverter Front Load Washing Machine , 8 kg , Silver - ZWF8221SL8" [ref=f317e840]
+                - generic [ref=f317e843]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e844] [cursor=pointer]
+              - generic [ref=f317e847]:
+                - generic [ref=f317e848]: 21,500 LE
+                - generic [ref=f317e852]:
+                  - generic [ref=f317e853]:
+                    - heading "Zanussi" [level=4] [ref=f317e855]
+                    - link [ref=f317e856] [cursor=pointer]:
+                      - /url: /en/p/zanussi-steammax-washing-machine-8kg-silver-zwf8221sl8?offering_id=65dffe3f-2e17-42c1-8860-114bad6f19f2
+                      - heading "Zanussi SteamMax Inverter Front Load Washing Machine , 8 kg , Silver - ZWF8221SL8" [level=3] [ref=f317e857]
+                  - radio [checked] [ref=f317e859] [cursor=pointer]
+            - article [ref=f317e860]:
+              - generic [ref=f317e862]:
+                - button "Add to favorites" [ref=f317e864] [cursor=pointer]
+                - img "Zanussi Perlamax Front Load Washing Machine , 8 kg , Black - ZWF8240BS5" [ref=f317e868]
+                - generic [ref=f317e871]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e872] [cursor=pointer]
+              - generic [ref=f317e875]:
+                - generic [ref=f317e876]: 18,199 LE
+                - generic [ref=f317e880]:
+                  - generic [ref=f317e881]:
+                    - heading "Zanussi" [level=4] [ref=f317e883]
+                    - link [ref=f317e884] [cursor=pointer]:
+                      - /url: /en/p/zanussi-perlamax-washing-machine-8-kg-black-zwf8240bs5?offering_id=a3d790ff-d620-4d3c-a29b-c574edfb7983
+                      - heading "Zanussi Perlamax Front Load Washing Machine , 8 kg , Black - ZWF8240BS5" [level=3] [ref=f317e885]
+                  - radio [checked] [ref=f317e887] [cursor=pointer]
+            - article [ref=f317e888]:
+              - generic [ref=f317e890]:
+                - button "Add to favorites" [ref=f317e892] [cursor=pointer]
+                - img "Zanussi Perlamax Front Load Washing Machine , 7 kg , Silver - ZWF7240SS6" [ref=f317e896]
+                - generic [ref=f317e899]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e900] [cursor=pointer]
+              - generic [ref=f317e903]:
+                - generic [ref=f317e904]: 16,499 LE
+                - generic [ref=f317e908]:
+                  - generic [ref=f317e909]:
+                    - heading "Zanussi" [level=4] [ref=f317e911]
+                    - link [ref=f317e912] [cursor=pointer]:
+                      - /url: /en/p/zanussi-perlamax-washing-machine-7-kg-silver-zwf7240ss6?offering_id=33fbe390-958f-44f3-bb10-343931909988
+                      - heading "Zanussi Perlamax Front Load Washing Machine , 7 kg , Silver - ZWF7240SS6" [level=3] [ref=f317e913]
+                  - radio [checked] [ref=f317e915] [cursor=pointer]
+            - article [ref=f317e916]:
+              - generic [ref=f317e918]:
+                - button "Add to favorites" [ref=f317e920] [cursor=pointer]
+                - img "Toshiba T04 Series Top Load washing Machine , 8 kg , Silver - AW-M801APEGSG" [ref=f317e924]
+                - generic [ref=f317e927]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e928] [cursor=pointer]
+              - generic [ref=f317e931]:
+                - generic [ref=f317e932]: 9,749 LE
+                - generic [ref=f317e936]:
+                  - generic [ref=f317e937]:
+                    - heading "Toshiba" [level=4] [ref=f317e939]
+                    - link [ref=f317e940] [cursor=pointer]:
+                      - /url: /en/p/toshiba-top-washing-machine-8kg-silver-aw-m801apegsg?offering_id=e26006db-c3f4-41ba-a19e-834537e6eca7
+                      - heading "Toshiba T04 Series Top Load washing Machine , 8 kg , Silver - AW-M801APEGSG" [level=3] [ref=f317e941]
+                  - radio [checked] [ref=f317e943] [cursor=pointer]
+            - article [ref=f317e944]:
+              - generic [ref=f317e946]:
+                - button "Add to favorites" [ref=f317e948] [cursor=pointer]
+                - img "LG Inverter Front Load Washing Machine , 10 kg , Essence Silver - F4X5RYG23" [ref=f317e952]
+                - generic [ref=f317e955]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e956] [cursor=pointer]
+              - generic [ref=f317e959]:
+                - generic [ref=f317e960]: 31,899 LE
+                - generic [ref=f317e964]:
+                  - generic [ref=f317e965]:
+                    - heading "LG" [level=4] [ref=f317e967]
+                    - link [ref=f317e968] [cursor=pointer]:
+                      - /url: /en/p/c305fbd7-e533-49f5-ba18-e46bfe1aa3ed?offering_id=87c0b770-e5d5-41ce-82f4-b41b4f789321
+                      - heading "LG Inverter Front Load Washing Machine , 10 kg , Essence Silver - F4X5RYG23" [level=3] [ref=f317e969]
+                  - radio "Essence Silver" [checked] [ref=f317e971] [cursor=pointer]
+            - article [ref=f317e972]:
+              - generic [ref=f317e974]:
+                - button "Add to favorites" [ref=f317e976] [cursor=pointer]
+                - img "Sharp ES-TD15GBKP Inverter Top Load Washing Machine , 15 kg , Black" [ref=f317e980]
+                - generic [ref=f317e983]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e984] [cursor=pointer]
+              - generic [ref=f317e987]:
+                - generic [ref=f317e988]: 23,499 LE
+                - generic [ref=f317e992]:
+                  - generic [ref=f317e993]:
+                    - heading "Sharp" [level=4] [ref=f317e995]
+                    - link [ref=f317e996] [cursor=pointer]:
+                      - /url: /en/p/sharp-top-load-washing-machine-15kg-es-td15gbkp?offering_id=4460c84c-90b4-415e-bcea-5a117c07b2cd
+                      - heading "Sharp ES-TD15GBKP Inverter Top Load Washing Machine , 15 kg , Black" [level=3] [ref=f317e997]
+                  - radio [checked] [ref=f317e999] [cursor=pointer]
+            - article [ref=f317e1000]:
+              - generic [ref=f317e1002]:
+                - generic [ref=f317e1003]:
+                  - generic [ref=f317e1004]: Price drop
+                  - button "Add to favorites" [ref=f317e1005] [cursor=pointer]
+                - img "Fresh Top Load Half Automatic Washing Machine , 4 kg , White - FWS400ND" [ref=f317e1009]
+                - generic [ref=f317e1012]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e1013] [cursor=pointer]
+              - generic [ref=f317e1016]:
+                - generic [ref=f317e1017]: 2,661 LE
+                - generic [ref=f317e1021]:
+                  - generic [ref=f317e1022]:
+                    - heading "Fresh" [level=4] [ref=f317e1024]
+                    - link [ref=f317e1025] [cursor=pointer]:
+                      - /url: /en/p/04816292-7658-4159-845f-0af6740d57cd?offering_id=b70b8b67-e034-4bdb-8f68-84daddadd9f9
+                      - heading "Fresh Top Load Half Automatic Washing Machine , 4 kg , White - FWS400ND" [level=3] [ref=f317e1026]
+                  - radio [checked] [ref=f317e1028] [cursor=pointer]
+            - article [ref=f317e1029]:
+              - generic [ref=f317e1031]:
+                - button "Add to favorites" [ref=f317e1033] [cursor=pointer]
+                - img "Zanussi Inverter Front Load Washing Machine , 9 kg , Black - TC2ZWF9221SD7" [ref=f317e1037]
+                - generic [ref=f317e1040]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f317e1041] [cursor=pointer]
+              - generic [ref=f317e1044]:
+                - generic [ref=f317e1045]: 22,799 LE
+                - generic [ref=f317e1049]:
+                  - generic [ref=f317e1050]:
+                    - heading "Zanussi" [level=4] [ref=f317e1052]
+                    - link [ref=f317e1053] [cursor=pointer]:
+                      - /url: /en/p/af27f330-bd4e-47a3-a65e-3700a166dd2e?offering_id=c150a7c7-1e88-43b1-bb40-aeef558652c2
+                      - heading "Zanussi Inverter Front Load Washing Machine , 9 kg , Black - TC2ZWF9221SD7" [level=3] [ref=f317e1054]
+                  - generic [ref=f317e1055]:
+                    - radio [checked] [ref=f317e1056] [cursor=pointer]
+                    - radio [ref=f317e1057] [cursor=pointer]
+    - generic [ref=f317e1059]:
+      - generic [ref=f317e1060]:
+        - generic [ref=f317e1061]:
+          - img "phone Icon" [ref=f317e1063]
+          - generic [ref=f317e1064]:
+            - paragraph [ref=f317e1065]: Call us
+            - paragraph [ref=f317e1066]:
+              - link "19966" [ref=f317e1067] [cursor=pointer]:
+                - /url: tel:19966
+        - generic [ref=f317e1068]:
+          - generic [ref=f317e1069]:
+            - heading "Trending right now" [level=3] [ref=f317e1070]
+            - generic [ref=f317e1071]:
+              - link "Electronics" [ref=f317e1072] [cursor=pointer]:
+                - /url: /en/c/electronics
+              - link "Large Home Appliances" [ref=f317e1073] [cursor=pointer]:
+                - /url: /en/c/large-home-appliances
+              - link "Mobiles, Tablets & Accessories" [ref=f317e1074] [cursor=pointer]:
+                - /url: /en/c/mobiles-tablets
+              - link "Small Home Appliances" [ref=f317e1075] [cursor=pointer]:
+                - /url: /en/c/small-home-appliances
+              - link "Laptops, PCs & accessories" [ref=f317e1076] [cursor=pointer]:
+                - /url: /en/c/laptop-pc
+              - link "TVs" [ref=f317e1077] [cursor=pointer]:
+                - /url: /en/c/tvs-projectors
+          - generic [ref=f317e1078]:
+            - heading "B.TECH blog" [level=3] [ref=f317e1079]
+            - paragraph [ref=f317e1080]:
+              - text: Your ultimate guide to smarter buying decision
+              - link [ref=f317e1081] [cursor=pointer]:
+                - /url: https://blog.btech.com/
+                - text: Discover our blog
+                - img "B.TECH blog" [ref=f317e1082]
+        - generic [ref=f317e1083]:
+          - generic [ref=f317e1084]:
+            - heading "Follow us" [level=3] [ref=f317e1085]
+            - generic [ref=f317e1086]:
+              - link [ref=f317e1087] [cursor=pointer]:
+                - /url: https://www.facebook.com/mybtech/
+                - img "Facebook Icon" [ref=f317e1088]
+              - link [ref=f317e1089] [cursor=pointer]:
+                - /url: https://www.instagram.com/mybtech/
+                - img "Instagram Icon" [ref=f317e1090]
+              - link [ref=f317e1091] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCb38BG_mMf7BUumTVc10gAw/videos
+                - img "YouTube Icon" [ref=f317e1092]
+          - generic [ref=f317e1093]:
+            - heading "Download B.TECH App" [level=3] [ref=f317e1094]
+            - generic [ref=f317e1095]:
+              - link [ref=f317e1096] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.btechapp
+                - img "playStore Icon" [ref=f317e1097]
+              - link [ref=f317e1098] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/b-tech/id1258773067
+                - img "appStore Icon" [ref=f317e1099]
+              - link [ref=f317e1100] [cursor=pointer]:
+                - /url: https://appgallery.huawei.com/#/app/C101532561
+                - img "appGallery Icon" [ref=f317e1101]
+      - generic [ref=f317e1102]:
+        - paragraph [ref=f317e1103]: © B.TECH, all rights reserved.
+        - link "Terms & Conditions" [ref=f317e1104] [cursor=pointer]:
+          - /url: /en/terms-and-conditions

@@ -1,0 +1,1548 @@
+- generic [ref=f29e1]:
+  - generic [ref=f29e2]:
+    - link "Skip to main content":
+      - /url: "#hnf-content"
+    - banner [ref=f29e3]:
+      - generic [ref=f29e5]:
+        - button "Change language or country/region, current language is English" [ref=f29e7] [cursor=pointer]:
+          - generic: EGEnglish
+        - button "Select store" [ref=f29e9] [cursor=pointer]
+      - generic [ref=f29e11]:
+        - link "IKEA logotype, go to start page" [ref=f29e13] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/
+        - search [ref=f29e19]:
+          - generic [ref=f29e20]:
+            - combobox "Search for products, inspiration or new arrivals" [ref=f29e21]
+            - button "Search IKEA products using a photo" [ref=f29e23] [cursor=pointer]
+        - navigation "Shopping links" [ref=f29e24]:
+          - list [ref=f29e25]:
+            - listitem [ref=f29e26]:
+              - link "Hej! Log in or sign up" [ref=f29e28] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/profile/login/
+            - listitem [ref=f29e29]:
+              - link "Shopping list" [ref=f29e31] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/favourites/
+            - listitem [ref=f29e32]:
+              - link "Shopping bag" [ref=f29e34] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cart/
+            - listitem [ref=f29e35]:
+              - button "Menu" [ref=f29e37] [cursor=pointer]
+              - navigation
+    - generic:
+      - complementary "Floating action buttons"
+  - main [ref=f29e38]:
+    - link "Skip to product list" [ref=f29e39] [cursor=pointer]:
+      - /url: "#product-list-skip"
+    - generic [ref=f29e42]:
+      - navigation "Breadcrumbs" [ref=f29e45]:
+        - list [ref=f29e46]:
+          - listitem [ref=f29e47]:
+            - link "Products" [ref=f29e48] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/products-products/
+            - text: ›
+          - listitem [ref=f29e49]:
+            - link "Kitchen & appliances" [ref=f29e50] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/kitchen-appliances-ka001/
+            - text: ›
+          - listitem [ref=f29e51]:
+            - link "Kitchen systems" [ref=f29e52] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/kitchens-ka003/
+            - text: ›
+          - listitem [ref=f29e53]:
+            - generic [ref=f29e54]: ENHET kitchen
+      - link "IKEA Shopping App" [ref=f29e57] [cursor=pointer]:
+        - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/ikea-shopping-app-pubc9ac6ea1/
+      - heading "ENHET kitchen" [level=1] [ref=f29e62]
+      - generic [ref=f29e64]:
+        - link "Skip product categories list" [ref=f29e65] [cursor=pointer]:
+          - /url: "#hnf--carousel__hnf-inpage-nav-skip-btn"
+        - list [ref=f29e67]:
+          - listitem [ref=f29e68]:
+            - link "Kitchen systems" [ref=f29e69] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/kitchens-ka003/
+          - listitem [ref=f29e74]:
+            - link "ENHET storage combinations" [ref=f29e75] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/enhet-kitchen-storage-combinations-55006/
+          - listitem [ref=f29e78]:
+            - link "Accessories for ENHET" [ref=f29e79] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/accessories-for-enhet-50009/
+          - listitem [ref=f29e82]:
+            - link "Worktops for ENHET" [ref=f29e83] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/worktops-for-enhet-50010/
+          - listitem [ref=f29e86]:
+            - link "Appliances for ENHET" [ref=f29e87] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/appliances-for-enhet-50374/
+          - listitem [ref=f29e90]:
+            - link "ENHET kitchen all parts" [ref=f29e91] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/enhet-kitchen-all-parts-48991/
+          - listitem [ref=f29e94]:
+            - link "Lighting for ENHET" [ref=f29e95] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/lighting-for-enhet-50008/
+          - listitem [ref=f29e98]:
+            - link "Sinks & taps for ENHET" [ref=f29e99] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/sinks-taps-for-enhet-50011/
+          - listitem [ref=f29e102]:
+            - link "Kitchen taps" [ref=f29e103] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/mixer-taps-10482/
+    - generic [ref=f29e106]:
+      - paragraph [ref=f29e108]: Organizing your kitchen will be easier with ENHET kitchen system. You'll find everything you wish for, from sinks and taps to kitchen accessories, matching your space's theme and rendering life much easier. Check out ENHET kitchen collection in different categories, and get ready for more cooking!
+      - button "Read more" [ref=f29e109] [cursor=pointer]
+    - generic [ref=f29e112]:
+      - generic [ref=f29e117]:
+        - generic [ref=f29e118]:
+          - generic [ref=f29e119]:
+            - heading "A kitchen built to last" [level=2] [ref=f29e120]
+            - paragraph
+            - generic [ref=f29e121]: An ENHET kitchen lets you create a more flexible solution that is easy to assemble, disassemble, and customise to show a little more of your personality. Change doors, mix colours, and combine open and closed storage to create a kitchen that is uniquely you. The ENHET kitchen comes with a 10-year guarantee.
+            - paragraph
+          - link "Start planning your ENHET kitchen - Opens in a new tab or window" [ref=f29e122] [cursor=pointer]:
+            - /url: https://www.ikea.com/addon-app/coro3/planner/latest/eg/en/
+            - generic [ref=f29e123]: Start planning your ENHET kitchen
+        - generic [ref=f29e132]:
+          - button "Hide price tags on image 1" [ref=f29e133] [cursor=pointer]:
+            - img "An ENHET kitchen with a wall-mounted extractor hood in stainless steel, open wall storage in white and a white ladder." [ref=f29e135]
+          - generic:
+            - list "Products shown in image":
+              - listitem:
+                - link "RYTMISK Wall mounted extractor hood Price EGP 6995 Product information page" [ref=f29e136] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/rytmisk-wall-mounted-extractor-hood-stainless-steel-60443212/
+                - tooltip "RYTMISK Wall mounted extractor hood Price EGP 6995 Product information page" [ref=f29e137]:
+                  - generic [ref=f29e138]:
+                    - link "RYTMISK Wall mounted extractor hood Price EGP 6995" [ref=f29e141] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/rytmisk-wall-mounted-extractor-hood-stainless-steel-60443212/
+                      - generic [ref=f29e142]:
+                        - heading "RYTMISK Wall mounted extractor hood" [level=3] [ref=f29e144]:
+                          - text: RYTMISK
+                          - generic [ref=f29e145]: Wall mounted extractor hood
+                        - generic [ref=f29e149]:
+                          - generic [ref=f29e150]: EGP6,995
+                          - generic [ref=f29e152]: Price EGP 6995
+                    - generic [ref=f29e156]: Product information page
+              - listitem:
+                - link "NISSAFORS Trolley EGP3,495 Price EGP 3495 Product information page" [ref=f29e157] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/nissafors-trolley-white-40465733/
+              - listitem:
+                - link "STORÅ Loft bed frame EGP34,995 Price EGP 34995 Product information page" [ref=f29e158] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/stora-loft-bed-frame-white-stain-70242086/
+              - listitem:
+                - link "SKURUP Ceiling track, 3-spots EGP3,399 Price EGP 3399 Product information page" [ref=f29e159] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/skurup-ceiling-track-3-spots-black-10395925/
+              - listitem:
+                - link "MATÄLSKARE Forced air oven EGP21,995 Price EGP 21995 Product information page" [ref=f29e160] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/mataelskare-forced-air-oven-ikea-300-stainless-steel-20443073/
+      - generic [ref=f29e165]:
+        - generic [ref=f29e166]:
+          - generic [ref=f29e167]:
+            - heading "ENHET kitchen combinations – designed so you don’t have to" [level=2] [ref=f29e168]
+            - paragraph
+            - generic [ref=f29e169]: Designing a kitchen can be hard work. Trust us, we know. That’s why we have created combinations that are easy to buy, assemble and enjoy for many years to come.
+            - paragraph
+          - link "See all ENHET kitchen combinations" [ref=f29e170] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/enhet-kitchen-combinations-50007/
+        - generic [ref=f29e175]:
+          - generic [ref=f29e180]:
+            - button "Hide price tags on image 1" [ref=f29e181] [cursor=pointer]:
+              - img "An ENHET kitchen with various kitchen appliances and wall storage, a mat on the floor and a hanging lamp above open storage." [ref=f29e183]
+            - generic:
+              - list "Products shown in image":
+                - listitem:
+                  - link "ENHET Wall frame with shelves Price EGP 2995 Product information page" [ref=f29e184] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/enhet-wall-frame-with-shelves-white-90448944/
+                  - tooltip "ENHET Wall frame with shelves Price EGP 2995 Product information page" [ref=f29e185]:
+                    - generic [ref=f29e186]:
+                      - link "ENHET Wall frame with shelves Price EGP 2995" [ref=f29e189] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/enhet-wall-frame-with-shelves-white-90448944/
+                        - generic [ref=f29e190]:
+                          - heading "ENHET Wall frame with shelves" [level=3] [ref=f29e192]:
+                            - text: ENHET
+                            - generic [ref=f29e193]: Wall frame with shelves
+                          - generic [ref=f29e197]:
+                            - generic [ref=f29e198]: EGP2,995
+                            - generic [ref=f29e200]: Price EGP 2995
+                      - generic [ref=f29e204]: Product information page
+                - listitem:
+                  - link "MATÄLSKARE Forced air oven EGP21,995 Price EGP 21995 Product information page" [ref=f29e205] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/mataelskare-forced-air-oven-ikea-300-stainless-steel-20443073/
+                - listitem:
+                  - 'link "RINNIG Tea towel EGP349 /4 pack Price EGP 349/4 pack Unit price: EGP87.25/pack Product information page" [ref=f29e206] [cursor=pointer]':
+                    - /url: https://www.ikea.com/eg/en/p/rinnig-tea-towel-white-dark-grey-patterned-20476346/
+                - listitem:
+                  - link "SKYDRAG LED wrktp/ward lghtng strp w sensor EGP2,199 Price EGP 2199 Product information page" [ref=f29e207] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/skydrag-led-wrktp-ward-lghtng-strp-w-sensor-dimmable-white-10439590/
+          - generic [ref=f29e212]:
+            - button "Hide price tags on image 2" [ref=f29e213] [cursor=pointer]:
+              - img "An ENHET base frame with shelves in white, with ENHET legs in white, holding a KNAGGLIG box in pine and various other items." [ref=f29e215]
+            - generic:
+              - list "Products shown in image":
+                - listitem:
+                  - 'link "Price Lowered ENHET Base fr w shelves Price EGP 995 Previous price: EGP 2295 Product information page" [ref=f29e216] [cursor=pointer]':
+                    - /url: https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-white-20448952/
+                  - 'tooltip "Price Lowered ENHET Base fr w shelves Price EGP 995 Previous price: EGP 2295 Product information page" [ref=f29e217]':
+                    - generic [ref=f29e218]:
+                      - 'link "Price Lowered ENHET Base fr w shelves Price EGP 995 Previous price: EGP 2295" [ref=f29e221] [cursor=pointer]':
+                        - /url: https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-white-20448952/
+                        - generic [ref=f29e222]:
+                          - generic [ref=f29e223]:
+                            - generic [ref=f29e224]: Price Lowered
+                            - heading "ENHET Base fr w shelves" [level=3] [ref=f29e225]:
+                              - text: ENHET
+                              - generic [ref=f29e226]: Base fr w shelves
+                          - generic [ref=f29e230]:
+                            - generic [ref=f29e231]: EGP995
+                            - generic [ref=f29e233]: Price EGP 995
+                          - generic [ref=f29e236]:
+                            - text: "Previous price:"
+                            - generic [ref=f29e237]:
+                              - generic [ref=f29e238]: EGP2,295
+                              - generic [ref=f29e240]: EGP 2295
+                      - generic [ref=f29e244]: Product information page
+                - listitem:
+                  - link "KNAGGLIG Box EGP799 Price EGP 799 Product information page" [ref=f29e245] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/knagglig-box-pine-10292357/
+                - listitem:
+                  - 'link "Price Lowered ENHET Rail for hooks EGP75 Price EGP 75 Previous price: EGP145 EGP 145 Product information page" [ref=f29e246] [cursor=pointer]':
+                    - /url: https://www.ikea.com/eg/en/p/enhet-rail-for-hooks-white-10465739/
+                - listitem:
+                  - link "IKEA 365+ GUNSTIG Pot stand, magnetic EGP479 Price EGP 479 Product information page" [ref=f29e247] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/ikea-365-gunstig-pot-stand-magnetic-red-dark-grey-50175276/
+                - listitem:
+                  - 'link "ENHET Legs f cabinet EGP295 /2 pack Price EGP 295/2 pack Unit price: EGP147.50/pack Product information page" [ref=f29e248] [cursor=pointer]':
+                    - /url: https://www.ikea.com/eg/en/p/enhet-legs-f-cabinet-white-10449018/
+                - listitem:
+                  - link "TACKAN Soap dispenser EGP99 Price EGP 99 Product information page" [ref=f29e249] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/tackan-soap-dispenser-white-90322303/
+                - listitem:
+                  - link "LAGAN Single-lever kitchen mixer tap EGP3,995 Price EGP 3995 Product information page" [ref=f29e250] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/lagan-single-lever-kitchen-mixer-tap-chrome-plated-20494005/
+      - generic [ref=f29e254]:
+        - generic [ref=f29e255]:
+          - generic [ref=f29e256]:
+            - heading "Accessories for ENHET kitchen – instant extra storage" [level=2] [ref=f29e257]
+            - paragraph [ref=f29e258]: Using these accessories for ENHET kitchens is a quick and easy way to get extra storage. Easy to attach, they keep ingredients and utensils close at hand while keeping your worktop free from clutter.
+          - link "See all accessories for ENHET" [ref=f29e259] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/accessories-for-enhet-50009/
+        - generic [ref=f29e266]:
+          - link "Skip listing" [ref=f29e267] [cursor=pointer]:
+            - /url: "#listing--carousel__product-id-carousel-74921e-skip-btn"
+          - list [ref=f29e269]:
+            - listitem [ref=f29e270]:
+              - generic [ref=f29e271]:
+                - link [ref=f29e273] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-swivel-shelf-anthracite-20465734/
+                  - img "A black ENHET 2-tier rotating storage shelf with round trays and a central support rod. Modern and practical for organising kitchen or bathroom items." [ref=f29e274]
+                  - img "Rotating bathroom shelf with bottles and towels." [ref=f29e275]
+                - generic [ref=f29e278]:
+                  - generic [ref=f29e279]:
+                    - generic [ref=f29e280]: Price Lowered
+                    - heading [level=3] [ref=f29e281]:
+                      - link "ENHET, Swivel shelf, anthracite, 40x21 cm" [ref=f29e283] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/enhet-swivel-shelf-anthracite-20465734/
+                        - text: ENHET
+                      - generic [ref=f29e284]: Swivel shelf, anthracite, 40x21 cm
+                  - generic [ref=f29e288]:
+                    - generic [ref=f29e289]: EGP195
+                    - generic [ref=f29e291]: Price EGP 195
+                  - generic [ref=f29e293]:
+                    - text: Previous price
+                    - generic [ref=f29e294]:
+                      - generic [ref=f29e295]: EGP445
+                      - generic [ref=f29e297]: Previous price EGP 445
+                - generic [ref=f29e298]:
+                  - button "Add \"ENHET Swivel shelf\" to cart" [ref=f29e299] [cursor=pointer]
+                  - button "Save \"ENHET Swivel shelf\" to shopping list" [ref=f29e300] [cursor=pointer]
+                - generic [ref=f29e301]: Available for delivery
+            - listitem [ref=f29e305]:
+              - generic [ref=f29e306]:
+                - generic [ref=f29e307]:
+                  - paragraph [ref=f29e309]: Last chance
+                  - link [ref=f29e310] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/skattan-container-30465757/
+                    - img "Black plastic container with handle, cylindrical shape, for storage." [ref=f29e311]
+                    - img "Black SKATTÅN container hangs on wall hook, holding items like a hairbrush and grey towel. Suitable for bathroom or kitchen storage." [ref=f29e312]
+                - generic [ref=f29e315]:
+                  - heading [level=3] [ref=f29e317]:
+                    - link "SKATTÅN, Container" [ref=f29e319] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/skattan-container-30465757/
+                      - text: SKATTÅN
+                    - generic [ref=f29e320]: Container
+                  - generic [ref=f29e322]:
+                    - generic [ref=f29e324]:
+                      - generic [ref=f29e325]: EGP229
+                      - generic [ref=f29e327]: EGP 229
+                    - generic [ref=f29e329]:
+                      - generic [ref=f29e330]: EGP179
+                      - generic [ref=f29e332]: Price EGP 179
+                  - generic [ref=f29e333]: 21% off, save EGP50
+                  - paragraph [ref=f29e337]: Limited time offer
+                - generic [ref=f29e338]:
+                  - button "Add \"SKATTÅN Container\" to cart" [ref=f29e339] [cursor=pointer]
+                  - button "Save \"SKATTÅN Container\" to shopping list" [ref=f29e340] [cursor=pointer]
+                - generic [ref=f29e341]: Available for delivery
+            - listitem [ref=f29e345]:
+              - generic [ref=f29e346]:
+                - link [ref=f29e348] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-hook-anthracite-60465751/
+                  - img "Two black ENHET hooks, designed for hanging items, crafted from stainless steel with a sleek, minimalistic shape." [ref=f29e349]
+                  - img "Black ENHET hooks hold utensils on kitchen shelf for easy access and organisation." [ref=f29e350]
+                - generic [ref=f29e353]:
+                  - heading [level=3] [ref=f29e355]:
+                    - link "ENHET, Hook, anthracite, 6x24 mm" [ref=f29e357] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/enhet-hook-anthracite-60465751/
+                      - text: ENHET
+                    - generic [ref=f29e358]: Hook, anthracite, 6x24 mm
+                  - generic [ref=f29e362]:
+                    - generic [ref=f29e363]:
+                      - generic [ref=f29e364]: EGP29
+                      - generic [ref=f29e365]: /2 pack
+                    - generic [ref=f29e366]: Price EGP 29/2 pack
+                - button "Save \"ENHET Hook\" to shopping list" [ref=f29e368] [cursor=pointer]
+                - generic [ref=f29e369]: Currently unavailable for delivery
+            - listitem [ref=f29e373]:
+              - generic [ref=f29e374]:
+                - link [ref=f29e376] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-rail-for-hooks-white-10465739/
+                  - img "An ENHET storage rail, white, made of powder-coated steel, ideal for organising kitchen and bathroom items under open shelves." [ref=f29e377]
+                  - img "Kitchen storage system with hanging cutlery holders under open cabinet, utilising space efficiently." [ref=f29e378]
+                - generic [ref=f29e381]:
+                  - generic [ref=f29e382]:
+                    - generic [ref=f29e383]: Price Lowered
+                    - heading [level=3] [ref=f29e384]:
+                      - link "ENHET, Rail for hooks, white, 37 cm" [ref=f29e386] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/enhet-rail-for-hooks-white-10465739/
+                        - text: ENHET
+                      - generic [ref=f29e387]: Rail for hooks, white, 37 cm
+                  - generic [ref=f29e391]:
+                    - generic [ref=f29e392]: EGP75
+                    - generic [ref=f29e394]: Price EGP 75
+                  - generic [ref=f29e396]:
+                    - text: Previous price
+                    - generic [ref=f29e397]:
+                      - generic [ref=f29e398]: EGP145
+                      - generic [ref=f29e400]: Previous price EGP 145
+                - generic [ref=f29e401]:
+                  - button "Add \"ENHET Rail for hooks\" to cart" [ref=f29e402] [cursor=pointer]
+                  - button "Save \"ENHET Rail for hooks\" to shopping list" [ref=f29e403] [cursor=pointer]
+                - generic [ref=f29e404]: Available for delivery
+            - listitem [ref=f29e408]:
+              - generic [ref=f29e409]:
+                - link [ref=f29e411] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-rail-for-hooks-anthracite-70465736/
+                  - img "Black ENHET storage rail, rectangular, powder-coated steel, fits under shelves for organising." [ref=f29e412]
+                  - img "Modern kitchen with ENHET organisation. Cutlery and plates in glass cabinet. Sink and chopping board visible." [ref=f29e413]
+                - generic [ref=f29e416]:
+                  - generic [ref=f29e417]:
+                    - generic [ref=f29e418]: Price Lowered
+                    - heading [level=3] [ref=f29e419]:
+                      - link "ENHET, Rail for hooks, anthracite, 37 cm" [ref=f29e421] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/enhet-rail-for-hooks-anthracite-70465736/
+                        - text: ENHET
+                      - generic [ref=f29e422]: Rail for hooks, anthracite, 37 cm
+                  - generic [ref=f29e426]:
+                    - generic [ref=f29e427]: EGP75
+                    - generic [ref=f29e429]: Price EGP 75
+                  - generic [ref=f29e431]:
+                    - text: Previous price
+                    - generic [ref=f29e432]:
+                      - generic [ref=f29e433]: EGP145
+                      - generic [ref=f29e435]: Previous price EGP 145
+                - generic [ref=f29e436]:
+                  - button "Add \"ENHET Rail for hooks\" to cart" [ref=f29e437] [cursor=pointer]
+                  - button "Save \"ENHET Rail for hooks\" to shopping list" [ref=f29e438] [cursor=pointer]
+                - generic [ref=f29e439]: Available for delivery
+      - generic [ref=f29e451]:
+        - generic [ref=f29e453]:
+          - heading "Finally, a kitchen series even a grown up can assemble" [level=2] [ref=f29e454]
+          - paragraph
+          - generic [ref=f29e455]: Installing a kitchen is anything but child’s play. With the ENHET kitchen series, all parts are easy to assemble, just using your two hands. The ENHET cabinets, drawers and metal frames use a dowel that lets you assemble with just a click. It took innovation from different teams at IKEA, but we got there.
+          - paragraph
+        - generic [ref=f29e463]:
+          - button "Hide price tags on image 1" [ref=f29e464] [cursor=pointer]:
+            - img "Two hands of a person are assembling an anthracite ENHET kitchen frame, putting a piece of the frame in place." [ref=f29e466]
+          - generic:
+            - list "Products shown in image":
+              - listitem:
+                - 'link "Price Lowered ENHET Base fr w shelves Price EGP 995 Previous price: EGP 2295 Product information page" [ref=f29e467] [cursor=pointer]':
+                  - /url: https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-anthracite-00448953/
+                - 'tooltip "Price Lowered ENHET Base fr w shelves Price EGP 995 Previous price: EGP 2295 Product information page" [ref=f29e468]':
+                  - generic [ref=f29e469]:
+                    - 'link "Price Lowered ENHET Base fr w shelves Price EGP 995 Previous price: EGP 2295" [ref=f29e472] [cursor=pointer]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-anthracite-00448953/
+                      - generic [ref=f29e473]:
+                        - generic [ref=f29e474]:
+                          - generic [ref=f29e475]: Price Lowered
+                          - heading "ENHET Base fr w shelves" [level=3] [ref=f29e476]:
+                            - text: ENHET
+                            - generic [ref=f29e477]: Base fr w shelves
+                        - generic [ref=f29e481]:
+                          - generic [ref=f29e482]: EGP995
+                          - generic [ref=f29e484]: Price EGP 995
+                        - generic [ref=f29e487]:
+                          - text: "Previous price:"
+                          - generic [ref=f29e488]:
+                            - generic [ref=f29e489]: EGP2,295
+                            - generic [ref=f29e491]: EGP 2295
+                    - generic [ref=f29e495]: Product information page
+      - generic [ref=f29e499]:
+        - link "Start planning your ENHET kitchen" [ref=f29e502] [cursor=pointer]:
+          - /url: https://www.ikea.com/addon-app/coro3/planner/latest/eg/en/
+          - img "Start planning your ENHET kitchen" [ref=f29e504]
+        - generic [ref=f29e506]:
+          - heading "Start planning your ENHET kitchen from home" [level=2] [ref=f29e507]
+          - generic [ref=f29e508]:
+            - paragraph [ref=f29e510]: Do you have grand plans for your kitchen? Use the kitchen configurator to find the solution and design that best suits your kitchen and personality.
+            - link "Start planning your ENHET kitchen - Opens in a new tab or window" [ref=f29e511] [cursor=pointer]:
+              - /url: https://www.ikea.com/addon-app/coro3/planner/latest/eg/en/
+              - generic [ref=f29e512]: Start planning your ENHET kitchen
+    - generic [ref=f29e514]:
+      - generic [ref=f29e515]:
+        - status [ref=f29e516]: 169 items
+        - heading "Sort and Filter" [level=2] [ref=f29e517]
+        - paragraph [ref=f29e520]:
+          - generic [ref=f29e521]: 169 items
+        - generic [ref=f29e522]:
+          - generic [ref=f29e523]:
+            - link "Skip to results" [ref=f29e524] [cursor=pointer]:
+              - /url: "#product-list"
+            - list [ref=f29e526]:
+              - listitem [ref=f29e527]:
+                - heading [level=3] [ref=f29e528]:
+                  - button "Sort" [ref=f29e529] [cursor=pointer]
+              - listitem [ref=f29e534]:
+                - heading [level=3] [ref=f29e535]:
+                  - button "Category" [ref=f29e536] [cursor=pointer]
+              - listitem [ref=f29e541]:
+                - heading [level=3] [ref=f29e542]:
+                  - button "Type" [ref=f29e543] [cursor=pointer]
+              - listitem [ref=f29e548]:
+                - heading [level=3] [ref=f29e549]:
+                  - button "Size" [ref=f29e550] [cursor=pointer]
+              - listitem [ref=f29e555]:
+                - heading [level=3] [ref=f29e556]:
+                  - button "Material" [ref=f29e557] [cursor=pointer]
+              - listitem [ref=f29e562]:
+                - heading [level=3] [ref=f29e563]:
+                  - button "Colour" [ref=f29e564] [cursor=pointer]
+              - listitem [ref=f29e569]:
+                - heading [level=3] [ref=f29e570]:
+                  - button "Price" [ref=f29e571] [cursor=pointer]
+              - listitem [ref=f29e576]:
+                - heading [level=3] [ref=f29e577]:
+                  - button "Availability" [ref=f29e578] [cursor=pointer]
+              - listitem [ref=f29e583]:
+                - generic [ref=f29e584] [cursor=pointer]:
+                  - generic [ref=f29e585]:
+                    - generic [ref=f29e586]: Top seller
+                    - generic [ref=f29e588]:
+                      - generic [ref=f29e589]: 18 products
+                      - text: "18"
+                  - generic [ref=f29e590]:
+                    - checkbox "Top seller 18 products"
+              - listitem [ref=f29e592]:
+                - heading [level=3] [ref=f29e593]:
+                  - button "Features" [ref=f29e594] [cursor=pointer]
+              - listitem [ref=f29e599]:
+                - generic [ref=f29e600] [cursor=pointer]:
+                  - generic [ref=f29e601]:
+                    - generic [ref=f29e602]: Special price
+                    - generic [ref=f29e604]:
+                      - generic [ref=f29e605]: 57 products
+                      - text: "57"
+                  - generic [ref=f29e606]:
+                    - checkbox "Special price 57 products"
+              - listitem [ref=f29e608]:
+                - heading [level=3] [ref=f29e609]:
+                  - button "Shape" [ref=f29e610] [cursor=pointer]
+              - listitem [ref=f29e615]:
+                - generic [ref=f29e616] [cursor=pointer]:
+                  - generic [ref=f29e617]:
+                    - generic [ref=f29e618]: Last chance
+                    - generic [ref=f29e620]:
+                      - generic [ref=f29e621]: 8 products
+                      - text: "8"
+                  - generic [ref=f29e622]:
+                    - checkbox "Last chance 8 products"
+              - listitem [ref=f29e624]:
+                - heading [level=3] [ref=f29e625]:
+                  - button "Series" [ref=f29e626] [cursor=pointer]
+              - listitem [ref=f29e631]:
+                - heading [level=3] [ref=f29e632]:
+                  - button "Customer rating" [ref=f29e633] [cursor=pointer]
+              - listitem [ref=f29e638]:
+                - generic [ref=f29e639] [cursor=pointer]:
+                  - generic [ref=f29e640]:
+                    - generic [ref=f29e641]: New products
+                    - generic [ref=f29e643]:
+                      - generic [ref=f29e644]: 6 products
+                      - text: "6"
+                  - generic [ref=f29e645]:
+                    - checkbox "New products 6 products"
+              - listitem [ref=f29e647]:
+                - heading [level=3] [ref=f29e648]:
+                  - button "Appearance" [ref=f29e649] [cursor=pointer]
+              - listitem [ref=f29e654]:
+                - generic [ref=f29e655] [cursor=pointer]:
+                  - generic [ref=f29e656]:
+                    - generic [ref=f29e657]: Suitable for business
+                    - generic [ref=f29e659]:
+                      - generic [ref=f29e660]: 22 products
+                      - text: "22"
+                  - generic [ref=f29e661]:
+                    - checkbox "Suitable for business 22 products"
+              - listitem [ref=f29e663]:
+                - heading [level=3] [ref=f29e664]:
+                  - button "Function" [ref=f29e665] [cursor=pointer]
+              - listitem [ref=f29e670]:
+                - generic [ref=f29e671] [cursor=pointer]:
+                  - generic [ref=f29e672]:
+                    - generic [ref=f29e673]: Smart home
+                    - generic [ref=f29e675]:
+                      - generic [ref=f29e676]: 5 products
+                      - text: "5"
+                  - generic [ref=f29e677]:
+                    - checkbox "Smart home 5 products"
+              - listitem [ref=f29e679]:
+                - heading [level=3] [ref=f29e680]:
+                  - button "Front" [ref=f29e681] [cursor=pointer]
+          - generic [ref=f29e687]:
+            - heading "Results list" [level=2] [ref=f29e688]
+            - generic [ref=f29e690]:
+              - generic [ref=f29e691]:
+                - generic [ref=f29e693]:
+                  - checkbox "Compare - Select for product comparison, Swivel shelf, 40x21 cm" [ref=f29e694] [cursor=pointer]
+                  - generic [ref=f29e696]: Compare
+                - link [ref=f29e699] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-swivel-shelf-anthracite-20465734/
+                  - img "A black ENHET 2-tier rotating storage shelf with round trays and a central support rod. Modern and practical for organising kitchen or bathroom items." [ref=f29e700]
+                  - img "Rotating bathroom shelf with bottles and towels." [ref=f29e701]
+                - generic [ref=f29e704]:
+                  - generic [ref=f29e705]:
+                    - generic [ref=f29e706]: Price Lowered
+                    - heading [level=3] [ref=f29e707]:
+                      - link "ENHET, Swivel shelf, anthracite, 40x21 cm" [ref=f29e709] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/enhet-swivel-shelf-anthracite-20465734/
+                        - text: ENHET
+                      - generic [ref=f29e710]: Swivel shelf, anthracite, 40x21 cm
+                  - generic [ref=f29e714]:
+                    - generic [ref=f29e715]: EGP195
+                    - generic [ref=f29e717]: Price EGP 195
+                  - generic [ref=f29e719]:
+                    - text: Previous price
+                    - generic [ref=f29e720]:
+                      - generic [ref=f29e721]: EGP445
+                      - generic [ref=f29e723]: Previous price EGP 445
+                - generic [ref=f29e724]:
+                  - button "Add \"ENHET Swivel shelf\" to cart" [ref=f29e725] [cursor=pointer]
+                  - button "Save \"ENHET Swivel shelf\" to shopping list" [ref=f29e726] [cursor=pointer]
+                - generic [ref=f29e727]: Available for delivery
+              - generic [ref=f29e731]:
+                - generic [ref=f29e733]:
+                  - checkbox "Compare - Select for product comparison, Base fr w shelves, 40x60x75 cm" [ref=f29e734] [cursor=pointer]
+                  - generic [ref=f29e736]: Compare
+                - link [ref=f29e739] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-white-20448952/
+                  - img "White ENHET storage frame with 2 shelves, modern design, durable powder-coated steel." [ref=f29e740]
+                  - img "Kitchen shelf with microwave, hanging utensil caddies, pots, maintaining items visible and organised." [ref=f29e741]
+                - generic [ref=f29e744]:
+                  - generic [ref=f29e745]:
+                    - generic [ref=f29e746]: Price Lowered
+                    - heading [level=3] [ref=f29e747]:
+                      - link "ENHET, Base fr w shelves, white, 40x60x75 cm" [ref=f29e749] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-white-20448952/
+                        - text: ENHET
+                      - generic [ref=f29e750]: Base fr w shelves, white, 40x60x75 cm
+                  - generic [ref=f29e754]:
+                    - generic [ref=f29e755]: EGP995
+                    - generic [ref=f29e757]: Price EGP 995
+                  - generic [ref=f29e759]:
+                    - text: Previous price
+                    - generic [ref=f29e760]:
+                      - generic [ref=f29e761]: EGP2,295
+                      - generic [ref=f29e763]: Previous price EGP 2295
+                - generic [ref=f29e764]:
+                  - button "Add \"ENHET Base fr w shelves\" to cart" [ref=f29e765] [cursor=pointer]
+                  - button "Save \"ENHET Base fr w shelves\" to shopping list" [ref=f29e766] [cursor=pointer]
+                - generic [ref=f29e767]: Available for delivery
+                - group "More options ENHET" [ref=f29e771]:
+                  - generic [ref=f29e772]:
+                    - text: More options
+                    - generic [ref=f29e773]: ENHET
+                  - generic [ref=f29e774] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Base fr w shelves, white, 40x60x75 cm" [checked] [ref=f29e775]'
+                    - 'link "Option: ENHET, Base fr w shelves, white, 40x60x75 cm White ENHET storage frame with 2 shelves, modern design, durable powder-coated steel." [ref=f29e776]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-white-20448952/
+                      - generic [ref=f29e777]: "Option: ENHET, Base fr w shelves, white, 40x60x75 cm"
+                      - img "White ENHET storage frame with 2 shelves, modern design, durable powder-coated steel." [ref=f29e778]
+                  - generic [ref=f29e779] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Base fr w shelves, anthracite, 40x60x75 cm" [ref=f29e780]'
+                    - 'link "Option: ENHET, Base fr w shelves, anthracite, 40x60x75 cm An ikea ENHET black metal shelving unit. It two open shelves and a minimalist frame design, perfect for displaying items." [ref=f29e781]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-anthracite-00448953/
+                      - generic [ref=f29e782]: "Option: ENHET, Base fr w shelves, anthracite, 40x60x75 cm"
+                      - img "An ikea ENHET black metal shelving unit. It two open shelves and a minimalist frame design, perfect for displaying items." [ref=f29e783]
+                  - generic [ref=f29e784] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Base fr w shelves, anthracite, 60x60x75 cm" [ref=f29e785]'
+                    - 'link "Option: ENHET, Base fr w shelves, anthracite, 60x60x75 cm ENHET black metal kitchen storage unit. Square design with two shelves." [ref=f29e786]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-anthracite-10448976/
+                      - generic [ref=f29e787]: "Option: ENHET, Base fr w shelves, anthracite, 60x60x75 cm"
+                      - img "ENHET black metal kitchen storage unit. Square design with two shelves." [ref=f29e788]
+                  - generic [ref=f29e789] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Base fr w shelves, white, 60x60x75 cm" [ref=f29e790]'
+                    - 'link "Option: ENHET, Base fr w shelves, white, 60x60x75 cm ENHET white metal shelf unit, square design, 2 open shelves." [ref=f29e791]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-fr-w-shelves-white-30448975/
+                      - generic [ref=f29e792]: "Option: ENHET, Base fr w shelves, white, 60x60x75 cm"
+                      - img "ENHET white metal shelf unit, square design, 2 open shelves." [ref=f29e793]
+              - generic [ref=f29e794]:
+                - generic [ref=f29e796]:
+                  - checkbox "Compare - Select for product comparison, Wall cb w 2 shelves, 60x30x75 cm" [ref=f29e797] [cursor=pointer]
+                  - generic [ref=f29e799]: Compare
+                - link [ref=f29e802] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-wall-cb-w-2-shelves-white-50440412/
+                  - img "White ENHET wall cabinet, three-square shelves, simple modern design, ideal for bottles and jars." [ref=f29e803]
+                  - img "Organised kitchen cabinet with white dishes, mugs, and jars stacked neatly on shelves." [ref=f29e804]
+                - generic [ref=f29e807]:
+                  - heading [level=3] [ref=f29e809]:
+                    - link "ENHET, Wall cb w 2 shelves, white, 60x30x75 cm" [ref=f29e811] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/enhet-wall-cb-w-2-shelves-white-50440412/
+                      - text: ENHET
+                    - generic [ref=f29e812]: Wall cb w 2 shelves, white, 60x30x75 cm
+                  - generic [ref=f29e814]:
+                    - generic [ref=f29e816]:
+                      - generic [ref=f29e817]: EGP1,495
+                      - generic [ref=f29e819]: EGP 1495
+                    - generic [ref=f29e821]:
+                      - generic [ref=f29e822]: EGP995
+                      - generic [ref=f29e824]: Price EGP 995
+                  - generic [ref=f29e825]: 33% off, save EGP500
+                  - paragraph [ref=f29e829]: Limited time offer
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=f29e830] [cursor=pointer]':
+                  - generic [ref=f29e831]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e832]: (1)
+                - generic [ref=f29e834]:
+                  - button "Add \"ENHET Wall cb w 2 shelves\" to cart" [ref=f29e835] [cursor=pointer]
+                  - button "Save \"ENHET Wall cb w 2 shelves\" to shopping list" [ref=f29e836] [cursor=pointer]
+                - generic [ref=f29e837]: Available for delivery
+                - group "More options ENHET" [ref=f29e841]:
+                  - generic [ref=f29e842]:
+                    - text: More options
+                    - generic [ref=f29e843]: ENHET
+                  - generic [ref=f29e844] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Wall cb w 2 shelves, white, 60x30x75 cm" [checked] [ref=f29e845]'
+                    - 'link "Option: ENHET, Wall cb w 2 shelves, white, 60x30x75 cm White ENHET wall cabinet, three-square shelves, simple modern design, ideal for bottles and jars." [ref=f29e846]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-wall-cb-w-2-shelves-white-50440412/
+                      - generic [ref=f29e847]: "Option: ENHET, Wall cb w 2 shelves, white, 60x30x75 cm"
+                      - img "White ENHET wall cabinet, three-square shelves, simple modern design, ideal for bottles and jars." [ref=f29e848]
+                  - generic [ref=f29e849] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Wall cb w 2 shelves, white, 80x30x75 cm" [ref=f29e850]'
+                    - 'link "Option: ENHET, Wall cb w 2 shelves, white, 80x30x75 cm White ENHET wall cabinet with two shelves, fiberboard & particleboard, rectangular design, metal hinges." [ref=f29e851]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-wall-cb-w-2-shelves-white-60440416/
+                      - generic [ref=f29e852]: "Option: ENHET, Wall cb w 2 shelves, white, 80x30x75 cm"
+                      - img "White ENHET wall cabinet with two shelves, fiberboard & particleboard, rectangular design, metal hinges." [ref=f29e853]
+                  - generic [ref=f29e854] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Wall cb w 2 shelves, white, 40x30x75 cm" [ref=f29e855]'
+                    - 'link "Option: ENHET, Wall cb w 2 shelves, white, 40x30x75 cm A white ENHET wall cabinet with two open shelves and metal hinges." [ref=f29e856]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-wall-cb-w-2-shelves-white-10440428/
+                      - generic [ref=f29e857]: "Option: ENHET, Wall cb w 2 shelves, white, 40x30x75 cm"
+                      - img "A white ENHET wall cabinet with two open shelves and metal hinges." [ref=f29e858]
+              - generic [ref=f29e859]:
+                - generic [ref=f29e861]:
+                  - checkbox "Compare - Select for product comparison, Base cb w shelf, 80x60x75 cm" [ref=f29e862] [cursor=pointer]
+                  - generic [ref=f29e864]: Compare
+                - link [ref=f29e867] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-w-shelf-white-80440420/
+                  - img "A white ENHET kitchen cabinet with one shelf, featuring clean lines and a modern design." [ref=f29e868]
+                  - img "Modern kitchen cabinet with pots, pans, and appliances. Open door reveals organisational storage." [ref=f29e869]
+                - generic [ref=f29e872]:
+                  - heading [level=3] [ref=f29e874]:
+                    - link "ENHET, Base cb w shelf, white, 80x60x75 cm" [ref=f29e876] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-w-shelf-white-80440420/
+                      - text: ENHET
+                    - generic [ref=f29e877]: Base cb w shelf, white, 80x60x75 cm
+                  - generic [ref=f29e879]:
+                    - generic [ref=f29e881]:
+                      - generic [ref=f29e882]: EGP2,595
+                      - generic [ref=f29e884]: EGP 2595
+                    - generic [ref=f29e886]:
+                      - generic [ref=f29e887]: EGP1,995
+                      - generic [ref=f29e889]: Price EGP 1995
+                  - generic [ref=f29e890]: 23% off, save EGP600
+                  - paragraph [ref=f29e894]: Limited time offer
+                - generic [ref=f29e895]:
+                  - button "Add \"ENHET Base cb w shelf\" to cart" [ref=f29e896] [cursor=pointer]
+                  - button "Save \"ENHET Base cb w shelf\" to shopping list" [ref=f29e897] [cursor=pointer]
+                - generic [ref=f29e898]: Available for delivery
+                - group "More options ENHET" [ref=f29e902]:
+                  - generic [ref=f29e903]:
+                    - text: More options
+                    - generic [ref=f29e904]: ENHET
+                  - generic [ref=f29e905] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Base cb w shelf, white, 80x60x75 cm" [checked] [ref=f29e906]'
+                    - 'link "Option: ENHET, Base cb w shelf, white, 80x60x75 cm A white ENHET kitchen cabinet with one shelf, featuring clean lines and a modern design." [ref=f29e907]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-w-shelf-white-80440420/
+                      - generic [ref=f29e908]: "Option: ENHET, Base cb w shelf, white, 80x60x75 cm"
+                      - img "A white ENHET kitchen cabinet with one shelf, featuring clean lines and a modern design." [ref=f29e909]
+                  - generic [ref=f29e910] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Base cb w shelf, white, 40x60x75 cm" [ref=f29e911]'
+                    - 'link "Option: ENHET, Base cb w shelf, white, 40x60x75 cm A white ENHET kitchen cabinet with one shelf, equipped with metal brackets and designed for storing kitchen items." [ref=f29e912]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-w-shelf-white-10440414/
+                      - generic [ref=f29e913]: "Option: ENHET, Base cb w shelf, white, 40x60x75 cm"
+                      - img "A white ENHET kitchen cabinet with one shelf, equipped with metal brackets and designed for storing kitchen items." [ref=f29e914]
+              - generic [ref=f29e915]:
+                - generic [ref=f29e917]:
+                  - checkbox "Compare - Select for product comparison, Plinth, 180x12 cm" [ref=f29e918] [cursor=pointer]
+                  - generic [ref=f29e920]: Compare
+                - link [ref=f29e923] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-plinth-white-70456355/
+                  - img "White ENHET plinth covering floor-to-cabinet gap." [ref=f29e924]
+                - generic [ref=f29e927]:
+                  - generic [ref=f29e928]:
+                    - generic [ref=f29e929]: Price Lowered
+                    - heading [level=3] [ref=f29e930]:
+                      - link "ENHET, Plinth, white, 180x12 cm" [ref=f29e932] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/enhet-plinth-white-70456355/
+                        - text: ENHET
+                      - generic [ref=f29e933]: Plinth, white, 180x12 cm
+                  - generic [ref=f29e937]:
+                    - generic [ref=f29e938]:
+                      - generic [ref=f29e939]: EGP195
+                      - generic [ref=f29e940]: /1.8 m
+                    - generic [ref=f29e941]: Price EGP 195/1.8 m
+                  - generic [ref=f29e943]:
+                    - text: Previous price
+                    - generic [ref=f29e944]:
+                      - generic [ref=f29e945]:
+                        - generic [ref=f29e946]: EGP295
+                        - generic [ref=f29e947]: /1.8 m
+                      - generic [ref=f29e948]: Previous price EGP 295/1.8 m
+                - generic [ref=f29e949]:
+                  - button "Add \"ENHET Plinth\" to cart" [ref=f29e950] [cursor=pointer]
+                  - button "Save \"ENHET Plinth\" to shopping list" [ref=f29e951] [cursor=pointer]
+                - generic [ref=f29e952]: Available for delivery
+              - generic [ref=f29e956]:
+                - generic [ref=f29e958]:
+                  - checkbox "Compare - Select for product comparison, Worktop, 246x2.8 cm" [ref=f29e959] [cursor=pointer]
+                  - generic [ref=f29e961]: Compare
+                - link [ref=f29e964] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/ekbacken-worktop-black-laminate-20589678/
+                  - img "EKBACKEN black rectangular worktop, smooth finish, flat surface." [ref=f29e965]
+                  - img "EKBACKEN Worktop, black/laminate, 246x2.8 cm" [ref=f29e966]
+                - generic [ref=f29e969]:
+                  - heading [level=3] [ref=f29e971]:
+                    - link "EKBACKEN, Worktop, black/laminate, 246x2.8 cm" [ref=f29e973] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/ekbacken-worktop-black-laminate-20589678/
+                      - text: EKBACKEN
+                    - generic [ref=f29e974]: Worktop, black/laminate, 246x2.8 cm
+                  - generic [ref=f29e978]:
+                    - generic [ref=f29e979]:
+                      - generic [ref=f29e980]: EGP6,995
+                      - generic [ref=f29e981]: /2.46 m
+                    - generic [ref=f29e982]: Price EGP 6995/2.46 m
+                - 'button "Review: 5 out of 5 stars. Total reviews: (2)" [ref=f29e983] [cursor=pointer]':
+                  - generic [ref=f29e984]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e985]: (2)
+                - generic [ref=f29e987]:
+                  - button "Add \"EKBACKEN Worktop\" to cart" [ref=f29e988] [cursor=pointer]
+                  - button "Save \"EKBACKEN Worktop\" to shopping list" [ref=f29e989] [cursor=pointer]
+                - generic [ref=f29e990]: Available for delivery
+                - group "More options EKBACKEN" [ref=f29e994]:
+                  - generic [ref=f29e995]:
+                    - text: More options
+                    - generic [ref=f29e996]: EKBACKEN
+                  - generic [ref=f29e997] [cursor=pointer]:
+                    - 'radio "Option: EKBACKEN, Worktop, black/laminate, 246x2.8 cm" [checked] [ref=f29e998]'
+                    - 'link "Option: EKBACKEN, Worktop, black/laminate, 246x2.8 cm EKBACKEN black rectangular worktop, smooth finish, flat surface." [ref=f29e999]':
+                      - /url: https://www.ikea.com/eg/en/p/ekbacken-worktop-black-laminate-20589678/
+                      - generic [ref=f29e1000]: "Option: EKBACKEN, Worktop, black/laminate, 246x2.8 cm"
+                      - img "EKBACKEN black rectangular worktop, smooth finish, flat surface." [ref=f29e1001]
+                  - generic [ref=f29e1002] [cursor=pointer]:
+                    - 'radio "Option: EKBACKEN, Worktop, black/laminate, 186x2.8 cm" [ref=f29e1003]'
+                    - 'link "Option: EKBACKEN, Worktop, black/laminate, 186x2.8 cm Black EKBACKEN laminate worktop, sleek, easy-clean." [ref=f29e1004]':
+                      - /url: https://www.ikea.com/eg/en/p/ekbacken-worktop-black-laminate-10589674/
+                      - generic [ref=f29e1005]: "Option: EKBACKEN, Worktop, black/laminate, 186x2.8 cm"
+                      - img "Black EKBACKEN laminate worktop, sleek, easy-clean." [ref=f29e1006]
+              - generic [ref=f29e1007]:
+                - generic [ref=f29e1009]:
+                  - checkbox "Compare - Select for product comparison, Door, 60x135 cm" [ref=f29e1010] [cursor=pointer]
+                  - generic [ref=f29e1012]: Compare
+                - link [ref=f29e1015] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-door-grey-frame-10516060/
+                  - img "A grey ENHET cabinet door with a modern, rectangular design made of fibreboard and plastic foil." [ref=f29e1016]
+                  - img "Close-up of grey cabinet door with smooth finish, showcasing quality design and clean edges." [ref=f29e1017]
+                - generic [ref=f29e1020]:
+                  - generic [ref=f29e1021]:
+                    - generic [ref=f29e1022]: Price Lowered
+                    - heading [level=3] [ref=f29e1023]:
+                      - link "ENHET, Door, grey frame, 60x135 cm" [ref=f29e1025] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/enhet-door-grey-frame-10516060/
+                        - text: ENHET
+                      - generic [ref=f29e1026]: Door, grey frame, 60x135 cm
+                  - generic [ref=f29e1030]:
+                    - generic [ref=f29e1031]: EGP495
+                    - generic [ref=f29e1033]: Price EGP 495
+                  - generic [ref=f29e1035]:
+                    - text: Previous price
+                    - generic [ref=f29e1036]:
+                      - generic [ref=f29e1037]: EGP795
+                      - generic [ref=f29e1039]: Previous price EGP 795
+                - generic [ref=f29e1040]:
+                  - button "Add \"ENHET Door\" to cart" [ref=f29e1041] [cursor=pointer]
+                  - button "Save \"ENHET Door\" to shopping list" [ref=f29e1042] [cursor=pointer]
+                - generic [ref=f29e1043]: Available for delivery
+                - group "More options ENHET" [ref=f29e1047]:
+                  - generic [ref=f29e1048]:
+                    - text: More options
+                    - generic [ref=f29e1049]: ENHET
+                  - generic [ref=f29e1050] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Door, grey frame, 60x135 cm" [checked] [ref=f29e1051]'
+                    - 'link "Option: ENHET, Door, grey frame, 60x135 cm A grey ENHET cabinet door with a modern, rectangular design made of fibreboard and plastic foil." [ref=f29e1052]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-door-grey-frame-10516060/
+                      - generic [ref=f29e1053]: "Option: ENHET, Door, grey frame, 60x135 cm"
+                      - img "A grey ENHET cabinet door with a modern, rectangular design made of fibreboard and plastic foil." [ref=f29e1054]
+                  - generic [ref=f29e1055] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Door, white, 60x135 cm" [ref=f29e1056]'
+                    - 'link "Option: ENHET, Door, white, 60x135 cm ENHET white cabinet door, plastic-covered, rectangular, modern style." [ref=f29e1057]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-door-white-10516017/
+                      - generic [ref=f29e1058]: "Option: ENHET, Door, white, 60x135 cm"
+                      - img "ENHET white cabinet door, plastic-covered, rectangular, modern style." [ref=f29e1059]
+                  - generic [ref=f29e1060] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Door, oak effect, 30x180 cm" [ref=f29e1061]'
+                    - 'link "Option: ENHET, Door, oak effect, 30x180 cm A vertical ENHET cabinet panel in a light wood finish with a smooth, foil surface." [ref=f29e1062]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-door-oak-effect-30457644/
+                      - generic [ref=f29e1063]: "Option: ENHET, Door, oak effect, 30x180 cm"
+                      - img "A vertical ENHET cabinet panel in a light wood finish with a smooth, foil surface." [ref=f29e1064]
+              - generic [ref=f29e1065]:
+                - generic [ref=f29e1067]:
+                  - checkbox "Compare - Select for product comparison, Hob separator for drawer, 60 cm" [ref=f29e1068] [cursor=pointer]
+                  - generic [ref=f29e1070]: Compare
+                - link [ref=f29e1073] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/nyttig-hob-separator-for-drawer-white-10243296/
+                  - img "NYTTIG white rectangular shelf. Simple, minimalist design made from fibreboard and melamine foil. Suitable for drawers or shelves." [ref=f29e1074]
+                - generic [ref=f29e1077]:
+                  - heading [level=3] [ref=f29e1079]:
+                    - link "NYTTIG, Hob separator for drawer, white, 60 cm" [ref=f29e1081] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/nyttig-hob-separator-for-drawer-white-10243296/
+                      - text: NYTTIG
+                    - generic [ref=f29e1082]: Hob separator for drawer, white, 60 cm
+                  - generic [ref=f29e1086]:
+                    - generic [ref=f29e1087]: EGP895
+                    - generic [ref=f29e1089]: Price EGP 895
+                - generic [ref=f29e1090]:
+                  - button "Add \"NYTTIG Hob separator for drawer\" to cart" [ref=f29e1091] [cursor=pointer]
+                  - button "Save \"NYTTIG Hob separator for drawer\" to shopping list" [ref=f29e1092] [cursor=pointer]
+                - generic [ref=f29e1093]: Available for delivery
+              - generic [ref=f29e1097]:
+                - generic [ref=f29e1099]:
+                  - checkbox "Compare - Select for product comparison, Base cb f sink, 60x60x75 cm" [ref=f29e1100] [cursor=pointer]
+                  - generic [ref=f29e1102]: Compare
+                - link [ref=f29e1105] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-f-sink-white-50440426/
+                  - img "White ENHET kitchen cabinet with sink space. Modern design, metal fittings, square shape." [ref=f29e1106]
+                  - img "Under-sink cabinet with integrated waste sorting and space for plumbing. Adequate for organising recycling and saving counter space." [ref=f29e1107]
+                - generic [ref=f29e1110]:
+                  - heading [level=3] [ref=f29e1112]:
+                    - link "ENHET, Base cb f sink, white, 60x60x75 cm" [ref=f29e1114] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-f-sink-white-50440426/
+                      - text: ENHET
+                    - generic [ref=f29e1115]: Base cb f sink, white, 60x60x75 cm
+                  - generic [ref=f29e1117]:
+                    - generic [ref=f29e1119]:
+                      - generic [ref=f29e1120]: EGP1,695
+                      - generic [ref=f29e1122]: EGP 1695
+                    - generic [ref=f29e1124]:
+                      - generic [ref=f29e1125]: EGP1,295
+                      - generic [ref=f29e1127]: Price EGP 1295
+                  - generic [ref=f29e1128]: 23% off, save EGP400
+                  - paragraph [ref=f29e1132]: Limited time offer
+                - generic [ref=f29e1133]:
+                  - button "Add \"ENHET Base cb f sink\" to cart" [ref=f29e1134] [cursor=pointer]
+                  - button "Save \"ENHET Base cb f sink\" to shopping list" [ref=f29e1135] [cursor=pointer]
+                - generic [ref=f29e1136]: Available for delivery
+              - generic [ref=f29e1140]:
+                - generic [ref=f29e1142]:
+                  - checkbox "Compare - Select for product comparison, Base cb w 3 drawers, 40x60x75 cm" [ref=f29e1143] [cursor=pointer]
+                  - generic [ref=f29e1145]: Compare
+                - link [ref=f29e1148] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-w-3-drawers-white-40440422/
+                  - img "White ENHET storage cabinet, three open shelves. Minimalist design, metallic brackets." [ref=f29e1149]
+                  - img "Silverware organiser with multiple slots in a white drawer. Forks, knives, and spoons are neatly arranged and easily accessible." [ref=f29e1150]
+                - generic [ref=f29e1153]:
+                  - heading [level=3] [ref=f29e1155]:
+                    - link "ENHET, Base cb w 3 drawers, white, 40x60x75 cm" [ref=f29e1157] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-w-3-drawers-white-40440422/
+                      - text: ENHET
+                    - generic [ref=f29e1158]: Base cb w 3 drawers, white, 40x60x75 cm
+                  - generic [ref=f29e1160]:
+                    - generic [ref=f29e1162]:
+                      - generic [ref=f29e1163]: EGP2,895
+                      - generic [ref=f29e1165]: EGP 2895
+                    - generic [ref=f29e1167]:
+                      - generic [ref=f29e1168]: EGP2,295
+                      - generic [ref=f29e1170]: Price EGP 2295
+                  - generic [ref=f29e1171]: 20% off, save EGP600
+                  - paragraph [ref=f29e1175]: Limited time offer
+                - generic [ref=f29e1176]:
+                  - button "Add \"ENHET Base cb w 3 drawers\" to cart" [ref=f29e1177] [cursor=pointer]
+                  - button "Save \"ENHET Base cb w 3 drawers\" to shopping list" [ref=f29e1178] [cursor=pointer]
+                - generic [ref=f29e1179]: Available for delivery
+                - group "More options ENHET" [ref=f29e1183]:
+                  - generic [ref=f29e1184]:
+                    - text: More options
+                    - generic [ref=f29e1185]: ENHET
+                  - generic [ref=f29e1186] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Base cb w 3 drawers, white, 40x60x75 cm" [checked] [ref=f29e1187]'
+                    - 'link "Option: ENHET, Base cb w 3 drawers, white, 40x60x75 cm White ENHET storage cabinet, three open shelves. Minimalist design, metallic brackets." [ref=f29e1188]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-w-3-drawers-white-40440422/
+                      - generic [ref=f29e1189]: "Option: ENHET, Base cb w 3 drawers, white, 40x60x75 cm"
+                      - img "White ENHET storage cabinet, three open shelves. Minimalist design, metallic brackets." [ref=f29e1190]
+                  - generic [ref=f29e1191] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Base cb w 3 drawers, white, 80x60x75 cm" [ref=f29e1192]'
+                    - 'link "Option: ENHET, Base cb w 3 drawers, white, 80x60x75 cm An ENHET white kitchen cabinet with three drawers. Its sleek design edge-to-edge drawer fronts for a modern look." [ref=f29e1193]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-w-3-drawers-white-30440427/
+                      - generic [ref=f29e1194]: "Option: ENHET, Base cb w 3 drawers, white, 80x60x75 cm"
+                      - img "An ENHET white kitchen cabinet with three drawers. Its sleek design edge-to-edge drawer fronts for a modern look." [ref=f29e1195]
+                  - generic [ref=f29e1196] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Base cb w 3 drawers, white, 60x60x75 cm" [ref=f29e1197]'
+                    - 'link "Option: ENHET, Base cb w 3 drawers, white, 60x60x75 cm A white ENHET storage cabinet with three open shelves for organising items." [ref=f29e1198]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-base-cb-w-3-drawers-white-20440418/
+                      - generic [ref=f29e1199]: "Option: ENHET, Base cb w 3 drawers, white, 60x60x75 cm"
+                      - img "A white ENHET storage cabinet with three open shelves for organising items." [ref=f29e1200]
+              - generic [ref=f29e1201]:
+                - generic [ref=f29e1203]:
+                  - checkbox "Compare - Select for product comparison, Corner panel, 40x75 cm" [ref=f29e1204] [cursor=pointer]
+                  - generic [ref=f29e1206]: Compare
+                - link [ref=f29e1209] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/enhet-corner-panel-white-80440415/
+                  - img "ENHET cabinet door in white, made from particleboard and plastic edging, with visible hinges, rectangular shape." [ref=f29e1210]
+                - generic [ref=f29e1213]:
+                  - generic [ref=f29e1214]:
+                    - generic [ref=f29e1215]: Price Lowered
+                    - heading [level=3] [ref=f29e1216]:
+                      - link "ENHET, Corner panel, white, 40x75 cm" [ref=f29e1218] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/enhet-corner-panel-white-80440415/
+                        - text: ENHET
+                      - generic [ref=f29e1219]: Corner panel, white, 40x75 cm
+                  - generic [ref=f29e1223]:
+                    - generic [ref=f29e1224]: EGP395
+                    - generic [ref=f29e1226]: Price EGP 395
+                  - generic [ref=f29e1228]:
+                    - text: Previous price
+                    - generic [ref=f29e1229]:
+                      - generic [ref=f29e1230]: EGP695
+                      - generic [ref=f29e1232]: Previous price EGP 695
+                - generic [ref=f29e1233]:
+                  - button "Add \"ENHET Corner panel\" to cart" [ref=f29e1234] [cursor=pointer]
+                  - button "Save \"ENHET Corner panel\" to shopping list" [ref=f29e1235] [cursor=pointer]
+                - generic [ref=f29e1236]: Available for delivery
+                - group "More options ENHET" [ref=f29e1240]:
+                  - generic [ref=f29e1241]:
+                    - text: More options
+                    - generic [ref=f29e1242]: ENHET
+                  - generic [ref=f29e1243] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Corner panel, white, 40x75 cm" [checked] [ref=f29e1244]'
+                    - 'link "Option: ENHET, Corner panel, white, 40x75 cm ENHET cabinet door in white, made from particleboard and plastic edging, with visible hinges, rectangular shape." [ref=f29e1245]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-corner-panel-white-80440415/
+                      - generic [ref=f29e1246]: "Option: ENHET, Corner panel, white, 40x75 cm"
+                      - img "ENHET cabinet door in white, made from particleboard and plastic edging, with visible hinges, rectangular shape." [ref=f29e1247]
+                  - generic [ref=f29e1248] [cursor=pointer]:
+                    - 'radio "Option: ENHET, Corner panel, grey, 40x75 cm" [ref=f29e1249]'
+                    - 'link "Option: ENHET, Corner panel, grey, 40x75 cm Grey ENHET cabinet door with metallic hinges, rectangular shape." [ref=f29e1250]':
+                      - /url: https://www.ikea.com/eg/en/p/enhet-corner-panel-grey-60481181/
+                      - generic [ref=f29e1251]: "Option: ENHET, Corner panel, grey, 40x75 cm"
+                      - img "Grey ENHET cabinet door with metallic hinges, rectangular shape." [ref=f29e1252]
+              - generic [ref=f29e1253]:
+                - generic [ref=f29e1255]:
+                  - checkbox "Compare - Select for product comparison, Worktop, 186x3.8 cm" [ref=f29e1256] [cursor=pointer]
+                  - generic [ref=f29e1258]: Compare
+                - link [ref=f29e1261] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/saeljan-worktop-oak-effect-laminate-60439173/
+                  - img "SÄLJAN Worktop, oak effect/laminate, 186x3.8 cm" [ref=f29e1262]
+                  - img "Modern laminate countertop with wood grain, easy to clean." [ref=f29e1263]
+                - generic [ref=f29e1266]:
+                  - heading [level=3] [ref=f29e1268]:
+                    - link "SÄLJAN, Worktop, oak effect/laminate, 186x3.8 cm" [ref=f29e1270] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/saeljan-worktop-oak-effect-laminate-60439173/
+                      - text: SÄLJAN
+                    - generic [ref=f29e1271]: Worktop, oak effect/laminate, 186x3.8 cm
+                  - generic [ref=f29e1275]:
+                    - generic [ref=f29e1276]:
+                      - generic [ref=f29e1277]: EGP5,995
+                      - generic [ref=f29e1278]: /1.86 m
+                    - generic [ref=f29e1279]: Price EGP 5995/1.86 m
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=f29e1280] [cursor=pointer]':
+                  - generic [ref=f29e1281]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e1282]: (1)
+                - generic [ref=f29e1284]:
+                  - button "Add \"SÄLJAN Worktop\" to cart" [ref=f29e1285] [cursor=pointer]
+                  - button "Save \"SÄLJAN Worktop\" to shopping list" [ref=f29e1286] [cursor=pointer]
+                - generic [ref=f29e1287]: Available for delivery
+                - group "More options SÄLJAN" [ref=f29e1291]:
+                  - generic [ref=f29e1292]:
+                    - text: More options
+                    - generic [ref=f29e1293]: SÄLJAN
+                  - generic [ref=f29e1294] [cursor=pointer]:
+                    - 'radio "Option: SÄLJAN, Worktop, oak effect/laminate, 186x3.8 cm" [checked] [ref=f29e1295]'
+                    - 'link "Option: SÄLJAN, Worktop, oak effect/laminate, 186x3.8 cm SÄLJAN Worktop, oak effect/laminate, 186x3.8 cm" [ref=f29e1296]':
+                      - /url: https://www.ikea.com/eg/en/p/saeljan-worktop-oak-effect-laminate-60439173/
+                      - generic [ref=f29e1297]: "Option: SÄLJAN, Worktop, oak effect/laminate, 186x3.8 cm"
+                      - img "SÄLJAN Worktop, oak effect/laminate, 186x3.8 cm" [ref=f29e1298]
+                  - generic [ref=f29e1299] [cursor=pointer]:
+                    - 'radio "Option: SÄLJAN, Worktop, oak effect/laminate, 246x3.8 cm" [ref=f29e1300]'
+                    - 'link "Option: SÄLJAN, Worktop, oak effect/laminate, 246x3.8 cm A rectangular, light brown SÄLJAN laminate countertop with a smooth, straight edge." [ref=f29e1301]':
+                      - /url: https://www.ikea.com/eg/en/p/saeljan-worktop-oak-effect-laminate-80439209/
+                      - generic [ref=f29e1302]: "Option: SÄLJAN, Worktop, oak effect/laminate, 246x3.8 cm"
+                      - img "A rectangular, light brown SÄLJAN laminate countertop with a smooth, straight edge." [ref=f29e1303]
+              - generic [ref=f29e1304]:
+                - generic [ref=f29e1306]:
+                  - checkbox "Compare - Select for product comparison, Microwave oven" [ref=f29e1307] [cursor=pointer]
+                  - generic [ref=f29e1309]: Compare
+                - link [ref=f29e1312] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/tillreda-microwave-oven-white-40495377/
+                  - img "Small white microwave oven, rectangular shape, black door panel, simple design, freestanding." [ref=f29e1313]
+                  - img "Modern compact kitchen with black metal and light wood shelves, small appliances, grey microwave, white dishes, pots, and cleaning supplies." [ref=f29e1314]
+                - generic [ref=f29e1317]:
+                  - heading [level=3] [ref=f29e1319]:
+                    - link "TILLREDA, Microwave oven, white" [ref=f29e1321] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/tillreda-microwave-oven-white-40495377/
+                      - text: TILLREDA
+                    - generic [ref=f29e1322]: Microwave oven, white
+                  - emphasis [ref=f29e1326]:
+                    - generic [ref=f29e1327]: EGP4,995
+                    - generic [ref=f29e1329]: Price EGP 4995
+                - generic [ref=f29e1330]:
+                  - button "Add \"TILLREDA Microwave oven\" to cart" [ref=f29e1331] [cursor=pointer]
+                  - button "Save \"TILLREDA Microwave oven\" to shopping list" [ref=f29e1332] [cursor=pointer]
+                - generic [ref=f29e1333]: Available for delivery
+              - generic [ref=f29e1337]:
+                - generic [ref=f29e1339]:
+                  - checkbox "Compare - Select for product comparison, Flexible pipe for fan" [ref=f29e1340] [cursor=pointer]
+                  - generic [ref=f29e1342]: Compare
+                - link [ref=f29e1345] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/nyttig-tub-150-flexible-pipe-for-fan-90250259/
+                  - 'img "NYTTIG TUB 150: tall, silver, cylindrical aluminium. Intricate wire mesh design." [ref=f29e1346]'
+                - generic [ref=f29e1349]:
+                  - heading [level=3] [ref=f29e1351]:
+                    - link "NYTTIG TUB 150, Flexible pipe for fan" [ref=f29e1353] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/nyttig-tub-150-flexible-pipe-for-fan-90250259/
+                      - text: NYTTIG TUB 150
+                    - generic [ref=f29e1354]: Flexible pipe for fan
+                  - generic [ref=f29e1356]:
+                    - generic [ref=f29e1358]:
+                      - generic [ref=f29e1359]:
+                        - generic [ref=f29e1360]: EGP1,000
+                        - generic [ref=f29e1361]: /3 m
+                      - generic [ref=f29e1362]: EGP 1000/3 m
+                    - generic [ref=f29e1364]:
+                      - generic [ref=f29e1365]:
+                        - generic [ref=f29e1366]: EGP800
+                        - generic [ref=f29e1367]: /3 m
+                      - generic [ref=f29e1368]: Price EGP 800/3 m
+                  - generic [ref=f29e1369]: 20% off, save EGP200
+                  - paragraph [ref=f29e1373]: Limited time offer
+                - generic [ref=f29e1374]:
+                  - button "Add \"NYTTIG TUB 150 Flexible pipe for fan\" to cart" [ref=f29e1375] [cursor=pointer]
+                  - button "Save \"NYTTIG TUB 150 Flexible pipe for fan\" to shopping list" [ref=f29e1376] [cursor=pointer]
+                - generic [ref=f29e1377]: Available for delivery
+              - generic [ref=f29e1381]:
+                - generic [ref=f29e1383]:
+                  - checkbox "Compare - Select for product comparison, Oven" [ref=f29e1384] [cursor=pointer]
+                  - generic [ref=f29e1386]: Compare
+                - generic [ref=f29e1388]:
+                  - paragraph [ref=f29e1390]: Top seller
+                  - link [ref=f29e1391] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/lagan-oven-stainless-steel-90547915/
+                    - img "Black and stainless steel oven with silver knobs; large glass door." [ref=f29e1392]
+                    - img "Modern kitchen with stainless steel oven and white cabinets" [ref=f29e1393]
+                - generic [ref=f29e1396]:
+                  - heading [level=3] [ref=f29e1398]:
+                    - link "LAGAN, Oven, stainless steel" [ref=f29e1400] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/lagan-oven-stainless-steel-90547915/
+                      - text: LAGAN
+                    - generic [ref=f29e1401]: Oven, stainless steel
+                  - generic [ref=f29e1405]:
+                    - generic [ref=f29e1406]: EGP15,995
+                    - generic [ref=f29e1408]: Price EGP 15995
+                - generic [ref=f29e1409]:
+                  - button "Add \"LAGAN Oven\" to cart" [ref=f29e1410] [cursor=pointer]
+                  - button "Save \"LAGAN Oven\" to shopping list" [ref=f29e1411] [cursor=pointer]
+                - generic [ref=f29e1412]: Available for delivery
+              - generic [ref=f29e1416]:
+                - generic [ref=f29e1418]:
+                  - checkbox "Compare - Select for product comparison, Slider for box size 50x12" [ref=f29e1419] [cursor=pointer]
+                  - generic [ref=f29e1421]: Compare
+                - link [ref=f29e1424] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/uppdatera-slider-for-box-size-50x12-anthracite-40580506/
+                  - img "Black UPPDATERA recycled guide rail for under-sink storage with multiple slots." [ref=f29e1425]
+                  - 'img "White laundry room: washing machine with towels, open cabinet with cleaning supplies, blue basket, vacuum." [ref=f29e1426]'
+                - generic [ref=f29e1429]:
+                  - heading [level=3] [ref=f29e1431]:
+                    - link "UPPDATERA, Slider for box size 50x12, anthracite" [ref=f29e1433] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/uppdatera-slider-for-box-size-50x12-anthracite-40580506/
+                      - text: UPPDATERA
+                    - generic [ref=f29e1434]: Slider for box size 50x12, anthracite
+                  - generic [ref=f29e1438]:
+                    - generic [ref=f29e1439]: EGP649
+                    - generic [ref=f29e1441]: Price EGP 649
+                - generic [ref=f29e1442]:
+                  - button "Add \"UPPDATERA Slider for box size 50x12\" to cart" [ref=f29e1443] [cursor=pointer]
+                  - button "Save \"UPPDATERA Slider for box size 50x12\" to shopping list" [ref=f29e1444] [cursor=pointer]
+                - generic [ref=f29e1445]: Available for delivery
+              - generic [ref=f29e1449]:
+                - generic [ref=f29e1451]:
+                  - checkbox "Compare - Select for product comparison, Knob, 21 mm" [ref=f29e1452] [cursor=pointer]
+                  - generic [ref=f29e1454]: Compare
+                - link [ref=f29e1457] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/gubbarp-knob-white-80336433/
+                  - img "Two white GUBBARP knobs, cylindrical with smooth rounded tips, simple and modern design, made of polypropylene plastic." [ref=f29e1458]
+                  - img "Kitchen drawer with GUBBARP knobs, limes, green plant." [ref=f29e1459]
+                - generic [ref=f29e1462]:
+                  - heading [level=3] [ref=f29e1464]:
+                    - link "GUBBARP, Knob, white, 21 mm" [ref=f29e1466] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/gubbarp-knob-white-80336433/
+                      - text: GUBBARP
+                    - generic [ref=f29e1467]: Knob, white, 21 mm
+                  - emphasis [ref=f29e1471]:
+                    - generic [ref=f29e1472]:
+                      - generic [ref=f29e1473]: EGP40
+                      - generic [ref=f29e1474]: /2 pack
+                    - generic [ref=f29e1475]: Price EGP 40/2 pack
+                - 'button "Review: 5 out of 5 stars. Total reviews: (5)" [ref=f29e1476] [cursor=pointer]':
+                  - generic [ref=f29e1477]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e1478]: (5)
+                - generic [ref=f29e1480]:
+                  - button "Add \"GUBBARP Knob\" to cart" [ref=f29e1481] [cursor=pointer]
+                  - button "Save \"GUBBARP Knob\" to shopping list" [ref=f29e1482] [cursor=pointer]
+                - generic [ref=f29e1483]: Available for delivery
+              - generic [ref=f29e1487]:
+                - generic [ref=f29e1489]:
+                  - checkbox "Compare - Select for product comparison, Handle, 116 mm" [ref=f29e1490] [cursor=pointer]
+                  - generic [ref=f29e1492]: Compare
+                - link [ref=f29e1495] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/gubbarp-handle-white-00336432/
+                  - img "Two white plastic cabinet handles, one horizontal, one slightly angled, minimalist design." [ref=f29e1496]
+                  - img "White kitchen cabinet with three drawers, simple knobs, green plant, limes, and cutting board on countertop." [ref=f29e1497]
+                - generic [ref=f29e1500]:
+                  - heading [level=3] [ref=f29e1502]:
+                    - link "GUBBARP, Handle, white, 116 mm" [ref=f29e1504] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/gubbarp-handle-white-00336432/
+                      - text: GUBBARP
+                    - generic [ref=f29e1505]: Handle, white, 116 mm
+                  - emphasis [ref=f29e1509]:
+                    - generic [ref=f29e1510]:
+                      - generic [ref=f29e1511]: EGP50
+                      - generic [ref=f29e1512]: /2 pack
+                    - generic [ref=f29e1513]: Price EGP 50/2 pack
+                - 'button "Review: 5 out of 5 stars. Total reviews: (2)" [ref=f29e1514] [cursor=pointer]':
+                  - generic [ref=f29e1515]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e1516]: (2)
+                - generic [ref=f29e1518]:
+                  - button "Add \"GUBBARP Handle\" to cart" [ref=f29e1519] [cursor=pointer]
+                  - button "Save \"GUBBARP Handle\" to shopping list" [ref=f29e1520] [cursor=pointer]
+                - generic [ref=f29e1521]: Available for delivery
+              - generic [ref=f29e1525]:
+                - generic [ref=f29e1527]:
+                  - checkbox "Compare - Select for product comparison, Knob, 15 mm" [ref=f29e1528] [cursor=pointer]
+                  - generic [ref=f29e1530]: Compare
+                - link [ref=f29e1533] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/hackas-knob-anthracite-80339790/
+                  - img "Two sleek black HACKÅS knobs, one t-shaped, one rectangular, smooth and modern." [ref=f29e1534]
+                  - img "Modern kitchen cabinets with black HACKÅS knobs, smooth to touch, on white drawers with black countertop." [ref=f29e1535]
+                - generic [ref=f29e1538]:
+                  - heading [level=3] [ref=f29e1540]:
+                    - link "HACKÅS, Knob, anthracite, 15 mm" [ref=f29e1542] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/hackas-knob-anthracite-80339790/
+                      - text: HACKÅS
+                    - generic [ref=f29e1543]: Knob, anthracite, 15 mm
+                  - generic [ref=f29e1547]:
+                    - generic [ref=f29e1548]:
+                      - generic [ref=f29e1549]: EGP250
+                      - generic [ref=f29e1550]: /2 pack
+                    - generic [ref=f29e1551]: Price EGP 250/2 pack
+                - 'button "Review: 5 out of 5 stars. Total reviews: (3)" [ref=f29e1552] [cursor=pointer]':
+                  - generic [ref=f29e1553]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e1554]: (3)
+                - generic [ref=f29e1556]:
+                  - button "Add \"HACKÅS Knob\" to cart" [ref=f29e1557] [cursor=pointer]
+                  - button "Save \"HACKÅS Knob\" to shopping list" [ref=f29e1558] [cursor=pointer]
+                - generic [ref=f29e1559]: Available for delivery
+              - generic [ref=f29e1563]:
+                - generic [ref=f29e1565]:
+                  - checkbox "Compare - Select for product comparison, Knob, 21 mm" [ref=f29e1566] [cursor=pointer]
+                  - generic [ref=f29e1568]: Compare
+                - link [ref=f29e1571] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/bagganaes-knob-stainless-steel-90338422/
+                  - img "Two BAGGANÄS knobs, sleek and silver, modern design with smooth, rounded tops and cylindrical stems." [ref=f29e1572]
+                  - img "Modern kitchen with white cabinets featuring BAGGANÄS stainless steel knobs. Countertop has tomatoes and condiments." [ref=f29e1573]
+                - generic [ref=f29e1576]:
+                  - heading [level=3] [ref=f29e1578]:
+                    - link "BAGGANÄS, Knob, stainless steel, 21 mm" [ref=f29e1580] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/bagganaes-knob-stainless-steel-90338422/
+                      - text: BAGGANÄS
+                    - generic [ref=f29e1581]: Knob, stainless steel, 21 mm
+                  - generic [ref=f29e1585]:
+                    - generic [ref=f29e1586]:
+                      - generic [ref=f29e1587]: EGP480
+                      - generic [ref=f29e1588]: /2 pack
+                    - generic [ref=f29e1589]: Price EGP 480/2 pack
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=f29e1590] [cursor=pointer]':
+                  - generic [ref=f29e1591]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e1592]: (1)
+                - generic [ref=f29e1594]:
+                  - button "Add \"BAGGANÄS Knob\" to cart" [ref=f29e1595] [cursor=pointer]
+                  - button "Save \"BAGGANÄS Knob\" to shopping list" [ref=f29e1596] [cursor=pointer]
+                - generic [ref=f29e1597]: Available for delivery
+                - group "More options BAGGANÄS" [ref=f29e1601]:
+                  - generic [ref=f29e1602]:
+                    - text: More options
+                    - generic [ref=f29e1603]: BAGGANÄS
+                  - generic [ref=f29e1604] [cursor=pointer]:
+                    - 'radio "Option: BAGGANÄS, Knob, stainless steel, 21 mm" [checked] [ref=f29e1605]'
+                    - 'link "Option: BAGGANÄS, Knob, stainless steel, 21 mm Two BAGGANÄS knobs, sleek and silver, modern design with smooth, rounded tops and cylindrical stems." [ref=f29e1606]':
+                      - /url: https://www.ikea.com/eg/en/p/bagganaes-knob-stainless-steel-90338422/
+                      - generic [ref=f29e1607]: "Option: BAGGANÄS, Knob, stainless steel, 21 mm"
+                      - img "Two BAGGANÄS knobs, sleek and silver, modern design with smooth, rounded tops and cylindrical stems." [ref=f29e1608]
+                  - generic [ref=f29e1609] [cursor=pointer]:
+                    - 'radio "Option: BAGGANÄS, Knob, black, 21 mm" [ref=f29e1610]'
+                    - 'link "Option: BAGGANÄS, Knob, black, 21 mm Two black, round, modern cabinet knobs with clean lines." [ref=f29e1611]':
+                      - /url: https://www.ikea.com/eg/en/p/bagganaes-knob-black-90338417/
+                      - generic [ref=f29e1612]: "Option: BAGGANÄS, Knob, black, 21 mm"
+                      - img "Two black, round, modern cabinet knobs with clean lines." [ref=f29e1613]
+                  - generic [ref=f29e1614] [cursor=pointer]:
+                    - 'radio "Option: BAGGANÄS, Knob, brass-colour, 21 mm" [ref=f29e1615]'
+                    - 'link "Option: BAGGANÄS, Knob, brass-colour, 21 mm Two brass BAGGANÄS knobs, one round, one flared, clean design." [ref=f29e1616]':
+                      - /url: https://www.ikea.com/eg/en/p/bagganaes-knob-brass-colour-00338412/
+                      - generic [ref=f29e1617]: "Option: BAGGANÄS, Knob, brass-colour, 21 mm"
+                      - img "Two brass BAGGANÄS knobs, one round, one flared, clean design." [ref=f29e1618]
+              - generic [ref=f29e1619]:
+                - generic [ref=f29e1621]:
+                  - checkbox "Compare - Select for product comparison, Knob, 20 mm" [ref=f29e1622] [cursor=pointer]
+                  - generic [ref=f29e1624]: Compare
+                - link [ref=f29e1627] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/bagganaes-knob-black-10338416/
+                  - img "Two black, round BAGGANÄS knobs; sleek, modern design. Powder-coated steel, ideal for cabinet handles." [ref=f29e1628]
+                  - img "White kitchen drawers with black BAGGANÄS knobs. On counter, sliced tomatoes and oils." [ref=f29e1629]
+                - generic [ref=f29e1632]:
+                  - heading [level=3] [ref=f29e1634]:
+                    - link "BAGGANÄS, Knob, black, 20 mm" [ref=f29e1636] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/bagganaes-knob-black-10338416/
+                      - text: BAGGANÄS
+                    - generic [ref=f29e1637]: Knob, black, 20 mm
+                  - generic [ref=f29e1641]:
+                    - generic [ref=f29e1642]:
+                      - generic [ref=f29e1643]: EGP400
+                      - generic [ref=f29e1644]: /2 pack
+                    - generic [ref=f29e1645]: Price EGP 400/2 pack
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=f29e1646] [cursor=pointer]':
+                  - generic [ref=f29e1647]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e1648]: (1)
+                - generic [ref=f29e1650]:
+                  - button "Add \"BAGGANÄS Knob\" to cart" [ref=f29e1651] [cursor=pointer]
+                  - button "Save \"BAGGANÄS Knob\" to shopping list" [ref=f29e1652] [cursor=pointer]
+                - generic [ref=f29e1653]: Available for delivery
+                - group "More options BAGGANÄS" [ref=f29e1657]:
+                  - generic [ref=f29e1658]:
+                    - text: More options
+                    - generic [ref=f29e1659]: BAGGANÄS
+                  - generic [ref=f29e1660] [cursor=pointer]:
+                    - 'radio "Option: BAGGANÄS, Knob, black, 20 mm" [checked] [ref=f29e1661]'
+                    - 'link "Option: BAGGANÄS, Knob, black, 20 mm Two black, round BAGGANÄS knobs; sleek, modern design. Powder-coated steel, ideal for cabinet handles." [ref=f29e1662]':
+                      - /url: https://www.ikea.com/eg/en/p/bagganaes-knob-black-10338416/
+                      - generic [ref=f29e1663]: "Option: BAGGANÄS, Knob, black, 20 mm"
+                      - img "Two black, round BAGGANÄS knobs; sleek, modern design. Powder-coated steel, ideal for cabinet handles." [ref=f29e1664]
+                  - generic [ref=f29e1665] [cursor=pointer]:
+                    - 'radio "Option: BAGGANÄS, Knob, brass-colour, 20 mm" [ref=f29e1666]'
+                    - 'link "Option: BAGGANÄS, Knob, brass-colour, 20 mm Two shiny gold, spherical BAGGANÄS knobs, one with a stem, one without, brass-plated stainless steel." [ref=f29e1667]':
+                      - /url: https://www.ikea.com/eg/en/p/bagganaes-knob-brass-colour-80338408/
+                      - generic [ref=f29e1668]: "Option: BAGGANÄS, Knob, brass-colour, 20 mm"
+                      - img "Two shiny gold, spherical BAGGANÄS knobs, one with a stem, one without, brass-plated stainless steel." [ref=f29e1669]
+                  - generic [ref=f29e1670] [cursor=pointer]:
+                    - 'radio "Option: BAGGANÄS, Knob, stainless steel, 20 mm" [ref=f29e1671]'
+                    - 'link "Option: BAGGANÄS, Knob, stainless steel, 20 mm Stainless steel BAGGANÄS knobs, round and sleek, modern design ideal for cabinet handles and drawer pulls." [ref=f29e1672]':
+                      - /url: https://www.ikea.com/eg/en/p/bagganaes-knob-stainless-steel-10338421/
+                      - generic [ref=f29e1673]: "Option: BAGGANÄS, Knob, stainless steel, 20 mm"
+                      - img "Stainless steel BAGGANÄS knobs, round and sleek, modern design ideal for cabinet handles and drawer pulls." [ref=f29e1674]
+              - generic [ref=f29e1675]:
+                - generic [ref=f29e1677]:
+                  - checkbox "Compare - Select for product comparison, Knob, 27 mm" [ref=f29e1678] [cursor=pointer]
+                  - generic [ref=f29e1680]: Compare
+                - link [ref=f29e1683] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/odlingsgraens-knob-grey-00596533/
+                  - 'img "Two ceramic knobs: one round, one cylindrical with wide top." [ref=f29e1684]'
+                  - img "White dresser with six drawers and grey knobs, topped with a lamp, books, and a vase." [ref=f29e1685]
+                - generic [ref=f29e1688]:
+                  - generic [ref=f29e1689]:
+                    - generic [ref=f29e1690]: Price Lowered
+                    - heading [level=3] [ref=f29e1691]:
+                      - link "ODLINGSGRÄNS, Knob, grey, 27 mm" [ref=f29e1693] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/odlingsgraens-knob-grey-00596533/
+                        - text: ODLINGSGRÄNS
+                      - generic [ref=f29e1694]: Knob, grey, 27 mm
+                  - generic [ref=f29e1698]:
+                    - generic [ref=f29e1699]:
+                      - generic [ref=f29e1700]: EGP129
+                      - generic [ref=f29e1701]: /2 pack
+                    - generic [ref=f29e1702]: Price EGP 129/2 pack
+                  - generic [ref=f29e1704]:
+                    - text: Previous price
+                    - generic [ref=f29e1705]:
+                      - generic [ref=f29e1706]:
+                        - generic [ref=f29e1707]: EGP300
+                        - generic [ref=f29e1708]: /2 pack
+                      - generic [ref=f29e1709]: Previous price EGP 300/2 pack
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=f29e1710] [cursor=pointer]':
+                  - generic [ref=f29e1711]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e1712]: (1)
+                - generic [ref=f29e1714]:
+                  - button "Add \"ODLINGSGRÄNS Knob\" to cart" [ref=f29e1715] [cursor=pointer]
+                  - button "Save \"ODLINGSGRÄNS Knob\" to shopping list" [ref=f29e1716] [cursor=pointer]
+                - generic [ref=f29e1717]: Available for delivery
+                - group "More options ODLINGSGRÄNS" [ref=f29e1721]:
+                  - generic [ref=f29e1722]:
+                    - text: More options
+                    - generic [ref=f29e1723]: ODLINGSGRÄNS
+                  - generic [ref=f29e1724] [cursor=pointer]:
+                    - 'radio "Option: ODLINGSGRÄNS, Knob, grey, 27 mm" [checked] [ref=f29e1725]'
+                    - 'link "Option: ODLINGSGRÄNS, Knob, grey, 27 mm Two ceramic knobs: one round, one cylindrical with wide top." [ref=f29e1726]':
+                      - /url: https://www.ikea.com/eg/en/p/odlingsgraens-knob-grey-00596533/
+                      - generic [ref=f29e1727]: "Option: ODLINGSGRÄNS, Knob, grey, 27 mm"
+                      - 'img "Two ceramic knobs: one round, one cylindrical with wide top." [ref=f29e1728]'
+                  - generic [ref=f29e1729] [cursor=pointer]:
+                    - 'radio "Option: ODLINGSGRÄNS, Knob, white, 27 mm" [ref=f29e1730]'
+                    - 'link "Option: ODLINGSGRÄNS, Knob, white, 27 mm Two wooden knobs: cylindrical, bulbous. Matt finish, beech wood." [ref=f29e1731]':
+                      - /url: https://www.ikea.com/eg/en/p/odlingsgraens-knob-white-40596531/
+                      - generic [ref=f29e1732]: "Option: ODLINGSGRÄNS, Knob, white, 27 mm"
+                      - 'img "Two wooden knobs: cylindrical, bulbous. Matt finish, beech wood." [ref=f29e1733]'
+              - generic [ref=f29e1734]:
+                - generic [ref=f29e1736]:
+                  - checkbox "Compare - Select for product comparison, Handle, 40 mm" [ref=f29e1737] [cursor=pointer]
+                  - generic [ref=f29e1739]: Compare
+                - link [ref=f29e1742] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/billsbro-handle-white-20334314/
+                  - img "Two minimalist, white, curved handles; one mounted, one isolated. Modern design, made of powder-coated aluminium. Ideal for kitchen cabinets." [ref=f29e1743]
+                  - img "White cabinets with minimalist handles, candles, and stacked books on top, against a light wall with framed photos, and a green plant nearby." [ref=f29e1744]
+                - generic [ref=f29e1747]:
+                  - heading [level=3] [ref=f29e1749]:
+                    - link "BILLSBRO, Handle, white, 40 mm" [ref=f29e1751] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/billsbro-handle-white-20334314/
+                      - text: BILLSBRO
+                    - generic [ref=f29e1752]: Handle, white, 40 mm
+                  - generic [ref=f29e1756]:
+                    - generic [ref=f29e1757]:
+                      - generic [ref=f29e1758]: EGP250
+                      - generic [ref=f29e1759]: /2 pack
+                    - generic [ref=f29e1760]: Price EGP 250/2 pack
+                - 'button "Review: 5 out of 5 stars. Total reviews: (2)" [ref=f29e1761] [cursor=pointer]':
+                  - generic [ref=f29e1762]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e1763]: (2)
+                - generic [ref=f29e1765]:
+                  - button "Add \"BILLSBRO Handle\" to cart" [ref=f29e1766] [cursor=pointer]
+                  - button "Save \"BILLSBRO Handle\" to shopping list" [ref=f29e1767] [cursor=pointer]
+                - generic [ref=f29e1768]: Available for delivery
+                - group "More options BILLSBRO" [ref=f29e1772]:
+                  - generic [ref=f29e1773]:
+                    - text: More options
+                    - generic [ref=f29e1774]: BILLSBRO
+                  - generic [ref=f29e1775] [cursor=pointer]:
+                    - 'radio "Option: BILLSBRO, Handle, white, 40 mm" [checked] [ref=f29e1776]'
+                    - 'link "Option: BILLSBRO, Handle, white, 40 mm Two minimalist, white, curved handles; one mounted, one isolated. Modern design, made of powder-coated aluminium. Ideal for kitchen cabinets." [ref=f29e1777]':
+                      - /url: https://www.ikea.com/eg/en/p/billsbro-handle-white-20334314/
+                      - generic [ref=f29e1778]: "Option: BILLSBRO, Handle, white, 40 mm"
+                      - img "Two minimalist, white, curved handles; one mounted, one isolated. Modern design, made of powder-coated aluminium. Ideal for kitchen cabinets." [ref=f29e1779]
+                  - generic [ref=f29e1780] [cursor=pointer]:
+                    - 'radio "Option: BILLSBRO, Handle, stainless steel colour, 40 mm" [ref=f29e1781]'
+                    - 'link "Option: BILLSBRO, Handle, stainless steel colour, 40 mm Silver screws-on handle pair with sleek curved design; suits modern kitchen decor." [ref=f29e1782]':
+                      - /url: https://www.ikea.com/eg/en/p/billsbro-handle-stainless-steel-colour-60323592/
+                      - generic [ref=f29e1783]: "Option: BILLSBRO, Handle, stainless steel colour, 40 mm"
+                      - img "Silver screws-on handle pair with sleek curved design; suits modern kitchen decor." [ref=f29e1784]
+                  - generic [ref=f29e1785] [cursor=pointer]:
+                    - 'radio "Option: BILLSBRO, Handle, anthracite, 40 mm" [ref=f29e1786]'
+                    - 'link "Option: BILLSBRO, Handle, anthracite, 40 mm Two sleek, black, curved BILLSBRO handles made of aluminium with powder coating, shown from different angles." [ref=f29e1787]':
+                      - /url: https://www.ikea.com/eg/en/p/billsbro-handle-anthracite-80576183/
+                      - generic [ref=f29e1788]: "Option: BILLSBRO, Handle, anthracite, 40 mm"
+                      - img "Two sleek, black, curved BILLSBRO handles made of aluminium with powder coating, shown from different angles." [ref=f29e1789]
+              - generic [ref=f29e1790]:
+                - generic [ref=f29e1792]:
+                  - checkbox "Compare - Select for product comparison, Waste sorting solution, 20 l" [ref=f29e1793] [cursor=pointer]
+                  - generic [ref=f29e1795]: Compare
+                - link [ref=f29e1798] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/hallbar-waste-sorting-solution-with-pull-out-light-grey-s79308803/
+                  - img "White dual-compartment HÅLLBAR recycling bin for kitchen waste sorting." [ref=f29e1799]
+                  - img "A white HÅLLBAR waste sorting bin with a lid, mounted under a kitchen counter with a wooden top. The bin contains empty plastic bottles." [ref=f29e1800]
+                - generic [ref=f29e1803]:
+                  - heading [level=3] [ref=f29e1805]:
+                    - link "HÅLLBAR, Waste sorting solution, with pull-out/light grey, 20 l" [ref=f29e1807] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/hallbar-waste-sorting-solution-with-pull-out-light-grey-s79308803/
+                      - text: HÅLLBAR
+                    - generic [ref=f29e1808]: Waste sorting solution, with pull-out/light grey, 20 l
+                  - generic [ref=f29e1812]:
+                    - generic [ref=f29e1813]: EGP3,793
+                    - generic [ref=f29e1815]: Price EGP 3793
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=f29e1816] [cursor=pointer]':
+                  - generic [ref=f29e1817]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f29e1818]: (1)
+                - generic [ref=f29e1820]:
+                  - button "Add \"HÅLLBAR Waste sorting solution\" to cart" [ref=f29e1821] [cursor=pointer]
+                  - button "Save \"HÅLLBAR Waste sorting solution\" to shopping list" [ref=f29e1822] [cursor=pointer]
+                - generic [ref=f29e1823]: Available for delivery
+                - group "More options HÅLLBAR" [ref=f29e1827]:
+                  - generic [ref=f29e1828]:
+                    - text: More options
+                    - generic [ref=f29e1829]: HÅLLBAR
+                  - generic [ref=f29e1830] [cursor=pointer]:
+                    - 'radio "Option: HÅLLBAR, Waste sorting solution, with pull-out/light grey, 20 l" [checked] [ref=f29e1831]'
+                    - 'link "Option: HÅLLBAR, Waste sorting solution, with pull-out/light grey, 20 l White dual-compartment HÅLLBAR recycling bin for kitchen waste sorting." [ref=f29e1832]':
+                      - /url: https://www.ikea.com/eg/en/p/hallbar-waste-sorting-solution-with-pull-out-light-grey-s79308803/
+                      - generic [ref=f29e1833]: "Option: HÅLLBAR, Waste sorting solution, with pull-out/light grey, 20 l"
+                      - img "White dual-compartment HÅLLBAR recycling bin for kitchen waste sorting." [ref=f29e1834]
+                  - generic [ref=f29e1835] [cursor=pointer]:
+                    - 'radio "Option: HÅLLBAR, Waste sorting solution, with pull-out/light grey, 22 l" [ref=f29e1836]'
+                    - 'link "Option: HÅLLBAR, Waste sorting solution, with pull-out/light grey, 22 l White HÅLLBAR waste sorting bin with clear lid, square shape, and pull-out frame, made from recycled plastic." [ref=f29e1837]':
+                      - /url: https://www.ikea.com/eg/en/p/hallbar-waste-sorting-solution-with-pull-out-light-grey-s09308825/
+                      - generic [ref=f29e1838]: "Option: HÅLLBAR, Waste sorting solution, with pull-out/light grey, 22 l"
+                      - img "White HÅLLBAR waste sorting bin with clear lid, square shape, and pull-out frame, made from recycled plastic." [ref=f29e1839]
+                  - generic [ref=f29e1840] [cursor=pointer]:
+                    - 'radio "Option: HÅLLBAR, Waste sorting solution, with pull-out ventilated/light grey, 20 l" [ref=f29e1841]'
+                    - 'link "Option: HÅLLBAR, Waste sorting solution, with pull-out ventilated/light grey, 20 l A white HÅLLBAR dual waste sorting bin with lids. It has ventilation holes and a foldable handle." [ref=f29e1842]':
+                      - /url: https://www.ikea.com/eg/en/p/hallbar-waste-sorting-solution-with-pull-out-ventilated-light-grey-s99308816/
+                      - generic [ref=f29e1843]: "Option: HÅLLBAR, Waste sorting solution, with pull-out ventilated/light grey, 20 l"
+                      - img "A white HÅLLBAR dual waste sorting bin with lids. It has ventilation holes and a foldable handle." [ref=f29e1844]
+                  - link "+6 more options are available." [ref=f29e1845] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/hallbar-waste-sorting-solution-with-pull-out-light-grey-s79308803/
+                    - generic [ref=f29e1846]: "+6"
+            - generic [ref=f29e1847]:
+              - paragraph [ref=f29e1848]: Showing 24 of 169 results
+              - progressbar [ref=f29e1849]
+              - link "Show more products" [ref=f29e1850] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/enhet-kitchen-ka004/?page=2#products-page-2
+                - generic: Show more
+      - heading "Recommended for you" [level=2] [ref=f29e1852]
+  - generic [ref=f29e1856]:
+    - generic:
+      - complementary
+    - contentinfo [ref=f29e1857]:
+      - generic [ref=f29e1858]:
+        - heading "Footer" [level=2] [ref=f29e1859]
+        - generic [ref=f29e1860]:
+          - list [ref=f29e1862]:
+            - listitem [ref=f29e1863]:
+              - heading "Useful links" [level=3] [ref=f29e1864]
+              - list "Useful links Brochures IKEA shopping app Planning tools Stores IKEA restaurant IKEA Family" [ref=f29e1865]:
+                - listitem [ref=f29e1866]:
+                  - link "Brochures" [ref=f29e1867] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/brochures/
+                - listitem [ref=f29e1868]:
+                  - link "IKEA shopping app" [ref=f29e1869] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/free-ikea-apps-pubc9ac6ea1/
+                - listitem [ref=f29e1870]:
+                  - link "Planning tools" [ref=f29e1871] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/planners/
+                - listitem [ref=f29e1872]:
+                  - link "Stores" [ref=f29e1873] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/
+                - listitem [ref=f29e1874]:
+                  - link "IKEA restaurant" [ref=f29e1875] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/restaurant/
+                - listitem [ref=f29e1876]:
+                  - link "IKEA Family" [ref=f29e1877] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/ikea-family/
+            - listitem [ref=f29e1878]:
+              - heading "Customer service" [level=3] [ref=f29e1879]
+              - list "Customer service Terms and conditions Guarantees & warranties Spare parts About services About shopping Return policy Contact us FAQ" [ref=f29e1880]:
+                - listitem [ref=f29e1881]:
+                  - link "Terms and conditions" [ref=f29e1882] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+                - listitem [ref=f29e1883]:
+                  - link "Guarantees & warranties" [ref=f29e1884] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/guarantee/
+                - listitem [ref=f29e1885]:
+                  - link "Spare parts" [ref=f29e1886] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/spareparts/
+                - listitem [ref=f29e1887]:
+                  - link "About services" [ref=f29e1888] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/
+                - listitem [ref=f29e1889]:
+                  - link "About shopping" [ref=f29e1890] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/
+                - listitem [ref=f29e1891]:
+                  - link "Return policy" [ref=f29e1892] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/
+                - listitem [ref=f29e1893]:
+                  - link "Contact us" [ref=f29e1894] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/contact-us/
+                - listitem [ref=f29e1895]:
+                  - link "FAQ" [ref=f29e1896] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/faq/
+            - listitem [ref=f29e1897]:
+              - heading "This is IKEA" [level=3] [ref=f29e1898]
+              - list "This is IKEA About IKEA Democratic design Sustainable everyday Community engagement Working at IKEA" [ref=f29e1899]:
+                - listitem [ref=f29e1900]:
+                  - link "About IKEA" [ref=f29e1901] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/
+                - listitem [ref=f29e1902]:
+                  - link "Democratic design" [ref=f29e1903] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/design/
+                - listitem [ref=f29e1904]:
+                  - link "Sustainable everyday" [ref=f29e1905] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/sustainable-everyday/
+                - listitem [ref=f29e1906]:
+                  - link "Community engagement" [ref=f29e1907] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/community-engagement/
+                - listitem [ref=f29e1908]:
+                  - link "Working at IKEA" [ref=f29e1909] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/work-with-us/
+            - listitem [ref=f29e1910]:
+              - heading "General information" [level=3] [ref=f29e1911]
+              - list "General information Newsroom Product recalls" [ref=f29e1912]:
+                - listitem [ref=f29e1913]:
+                  - link "Newsroom" [ref=f29e1914] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/newsroom/
+                - listitem [ref=f29e1915]:
+                  - link "Product recalls" [ref=f29e1916] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/product-support/recalls/
+          - generic [ref=f29e1917]:
+            - generic [ref=f29e1918]:
+              - list [ref=f29e1919]:
+                - listitem [ref=f29e1920]:
+                  - link "Follow IKEA on Facebook" [ref=f29e1921] [cursor=pointer]:
+                    - /url: https://www.facebook.com/IKEAEgypt/
+                - listitem [ref=f29e1924]:
+                  - link "Follow IKEA on Instagram" [ref=f29e1925] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ikeaegypt/
+                - listitem [ref=f29e1928]:
+                  - link "Follow IKEA on Youtube" [ref=f29e1929] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/IKEAegypt
+                - listitem [ref=f29e1932]:
+                  - link "Follow IKEA on X" [ref=f29e1933] [cursor=pointer]:
+                    - /url: https://x.com/IKEAEgypt
+              - list [ref=f29e1936]:
+                - listitem [ref=f29e1937]:
+                  - img "AMEX" [ref=f29e1939]
+                - listitem [ref=f29e1940]:
+                  - img "visa" [ref=f29e1942]
+                - listitem [ref=f29e1943]:
+                  - img "mastercard" [ref=f29e1945]
+            - generic [ref=f29e1946]:
+              - button "Cookie settings" [ref=f29e1948] [cursor=pointer]
+              - button "Change language or country/region, current language is English" [ref=f29e1950] [cursor=pointer]:
+                - generic: EGEnglish
+        - generic [ref=f29e1951]:
+          - paragraph [ref=f29e1953]: © Inter IKEA Systems B.V. 1999-2026
+          - list [ref=f29e1955]:
+            - listitem [ref=f29e1956]:
+              - link "Privacy policy" [ref=f29e1957] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/privacy-policy/
+            - listitem [ref=f29e1958]:
+              - link "Cookie policy" [ref=f29e1959] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/cookie-policy/
+            - listitem [ref=f29e1960]:
+              - link "Terms and conditions" [ref=f29e1961] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+  - region "Cookie consent banner" [active] [ref=f29e1962]:
+    - dialog "Privacy" [ref=f29e1963]:
+      - generic [ref=f29e1965]:
+        - generic [ref=f29e1966]: IKEA.eg and our digital partners use cookies on this site. Some are strictly necessary to run the site and others are used for measuring site usage, enabling personalisation and for advertising, marketing and social media.
+        - generic [ref=f29e1970]:
+          - button "Cookies settings, Opens the preference center dialog" [ref=f29e1971] [cursor=pointer]: Cookies settings
+          - button "Ok" [ref=f29e1972] [cursor=pointer]
+  - dialog [ref=f29e1973]:
+    - generic [ref=f29e1976] [cursor=pointer]:
+      - link [ref=f29e1984]:
+        - /url: https://www.ikea.com/eg/en/search/?group=Sale&filters=f-availability%3AAVAILABLE_ONLINE&sort=MOST_POPULAR
+      - generic [ref=f29e1986]: ×

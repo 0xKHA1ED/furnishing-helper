@@ -1,0 +1,1170 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content":
+      - /url: "#hnf-content"
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Change language or country/region, current language is English" [ref=e7] [cursor=pointer]:
+          - generic: EGEnglish
+        - button "Select store" [ref=e9] [cursor=pointer]
+      - generic [ref=e11]:
+        - link "IKEA logotype, go to start page" [ref=e13] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/
+        - search [ref=e19]:
+          - generic [ref=e20]:
+            - combobox "Search for products, inspiration or new arrivals" [ref=e21]
+            - button "Search IKEA products using a photo" [ref=e23] [cursor=pointer]
+        - navigation "Shopping links" [ref=e24]:
+          - list [ref=e25]:
+            - listitem [ref=e26]:
+              - link "Hej! Log in or sign up" [ref=e28] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/profile/login/
+            - listitem [ref=e29]:
+              - link "Shopping list" [ref=e31] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/favourites/
+            - listitem [ref=e32]:
+              - link "Shopping bag" [ref=e34] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cart/
+            - listitem [ref=e35]:
+              - button "Menu" [ref=e37] [cursor=pointer]
+              - navigation
+    - generic:
+      - complementary "Floating action buttons"
+  - main [ref=e38]:
+    - link "Skip to product list" [ref=e39] [cursor=pointer]:
+      - /url: "#product-list-skip"
+    - generic [ref=e42]:
+      - navigation "Breadcrumbs" [ref=e45]:
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "Products" [ref=e48] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/products-products/
+            - text: ›
+          - listitem [ref=e49]:
+            - link "Beds & mattresses" [ref=e50] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/beds-mattresses-bm001/
+            - text: ›
+          - listitem [ref=e51]:
+            - generic [ref=e52]: Mattresses
+      - link "Free delivery" [ref=e55] [cursor=pointer]:
+        - /url: https://www.ikea.com/eg/en/campaigns/free-delivery-pub41912510/?=f-online-sellable=true
+      - heading "Mattresses" [level=1] [ref=e59]
+      - generic [ref=e61]:
+        - link "Skip product categories list" [ref=e62] [cursor=pointer]:
+          - /url: "#hnf--carousel__hnf-inpage-nav-skip-btn"
+        - list [ref=e64]:
+          - listitem [ref=e65]:
+            - link "Beds & mattresses" [ref=e66] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/beds-mattresses-bm001/
+          - listitem [ref=e71]:
+            - link "Spring mattresses" [ref=e72] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/spring-mattresses-24828/
+          - listitem [ref=e75]:
+            - link "Foam & latex mattresses" [ref=e76] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/foam-latex-mattresses-24823/
+          - listitem [ref=e79]:
+            - link "Mattress toppers" [ref=e80] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/mattress-toppers-24826/
+          - listitem [ref=e83]:
+            - link "Children's mattresses" [ref=e84] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/childrens-mattresses-18724/
+          - listitem [ref=e87]:
+            - link "Cot mattresses" [ref=e88] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/cot-mattresses-45855/
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - paragraph [ref=e93]:
+          - text: Dive into the world of sleep comfort with IKEA's mattresses. Whether you seek the plush embrace of memory foam or the reliable support of innerspring, there's a diverse range of mattress options to cater to your unique needs. Elevate your
+          - link "bedroom" [ref=e94] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/rooms/bedroom/
+          - text: effortlessly with IKEA's stylish mattress choices.
+        - paragraph [ref=e95]:
+          - strong [ref=e96]: Shop by size
+        - paragraph [ref=e97]:
+          - strong [ref=e98]:
+            - text: Single |
+            - link "80x200 CM" [ref=e99] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/80x200-mattress-si026/
+            - text: "-"
+            - link "90x200 CM" [ref=e100] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/90x200-mattress-si027/
+        - paragraph [ref=e101]:
+          - strong [ref=e102]:
+            - text: Double |
+            - link "140x200 CM" [ref=e103] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/140x200-mattress-si022/?f/140x200-mattress-si022/
+        - paragraph [ref=e104]:
+          - strong [ref=e105]:
+            - text: Queen |
+            - link "160x200 CM" [ref=e106] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/160x200-mattress-si024/
+        - paragraph [ref=e107]:
+          - strong [ref=e108]:
+            - text: King |
+            - link "180x200 CM" [ref=e109] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/mattress-180x200-si025/
+      - button "Read more" [ref=e110] [cursor=pointer]
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - heading "Supporting decades of dreams" [level=2] [ref=e121]
+          - paragraph [ref=e123]: We’ve spent more than 50 years studying sleep, so we know what makes a great mattress. Our comfort lab engineers ensure that every layer is designed to provide comfort and support, so you can wake up rested. And with science, real-life testing and a 10-year guarantee behind it, you can relax and focus on chasing your dreams.
+        - link "See all mattresses" [ref=e125] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/
+      - generic [ref=e129]:
+        - link "Skip listing" [ref=e130] [cursor=pointer]:
+          - /url: "#pub__-carousel__carousel-16b8ef10-327f-11f1-8c1e-a93430554fae-skip-btn"
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - generic [ref=e135]:
+              - button "Hide price tags on image 1" [ref=e136] [cursor=pointer]:
+                - img "An uncovered VÅGSTRANDA pocket sprung mattress with light bedding placed on top in a clean studio setting." [ref=e138]
+              - generic:
+                - list "Products shown on image":
+                  - listitem:
+                    - link "VÅGSTRANDA Pocket sprung mattress EGP17,995 Previous price EGP 17995 EGP13,995 Price EGP 13995 22% off, save EGP4,000 Limited time offer Product information page" [ref=e139] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vagstranda-pocket-sprung-mattress-firm-light-blue-40470391/
+                  - listitem:
+                    - link "New PILTANDVINGE Duvet cover and pillowcase EGP999 Price EGP 999 Product information page" [ref=e140] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/piltandvinge-duvet-cover-and-pillowcase-light-blue-70623774/
+          - listitem [ref=e141]:
+            - generic [ref=e143]:
+              - button "Hide price tags on image 2" [ref=e144] [cursor=pointer]:
+                - img "A person covering a VÅGSTRANDA pocket sprung mattress with a bedsheet in a store setting." [ref=e146]
+              - generic:
+                - list "Products shown on image":
+                  - listitem:
+                    - link "VÅGSTRANDA Pocket sprung mattress EGP17,995 Previous price EGP 17995 EGP13,995 Price EGP 13995 22% off, save EGP4,000 Limited time offer Product information page" [ref=e147] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vagstranda-pocket-sprung-mattress-firm-light-blue-40470391/
+                  - listitem:
+                    - link "NATTJASMIN Flat sheet EGP2,299 Previous price EGP 2299 EGP1,799 Price EGP 1799 21% off, save EGP500 Limited time offer Product information page" [ref=e148] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/nattjasmin-flat-sheet-white-00343692/
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - status [ref=e151]: 33 items
+        - heading "Sort and Filter" [level=2] [ref=e152]
+        - paragraph [ref=e155]:
+          - generic [ref=e156]: 33 items
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - link "Skip to results" [ref=e159] [cursor=pointer]:
+              - /url: "#product-list"
+            - list [ref=e161]:
+              - listitem [ref=e162]:
+                - heading [level=3] [ref=e163]:
+                  - button "Sort" [ref=e164] [cursor=pointer]
+              - listitem [ref=e169]:
+                - heading [level=3] [ref=e170]:
+                  - button "Size" [ref=e171] [cursor=pointer]
+              - listitem [ref=e176]:
+                - heading [level=3] [ref=e177]:
+                  - button "Category" [ref=e178] [cursor=pointer]
+              - listitem [ref=e183]:
+                - heading [level=3] [ref=e184]:
+                  - button "Mattress material" [ref=e185] [cursor=pointer]
+              - listitem [ref=e190]:
+                - heading [level=3] [ref=e191]:
+                  - button "Firmness" [ref=e192] [cursor=pointer]
+              - listitem [ref=e197]:
+                - heading [level=3] [ref=e198]:
+                  - button "Price" [ref=e199] [cursor=pointer]
+              - listitem [ref=e204]:
+                - heading [level=3] [ref=e205]:
+                  - button "Type" [ref=e206] [cursor=pointer]
+              - listitem [ref=e211]:
+                - heading [level=3] [ref=e212]:
+                  - button "Colour" [ref=e213] [cursor=pointer]
+              - listitem [ref=e218]:
+                - heading [level=3] [ref=e219]:
+                  - button "Customer rating" [ref=e220] [cursor=pointer]
+              - listitem [ref=e225]:
+                - generic [ref=e226] [cursor=pointer]:
+                  - generic [ref=e227]:
+                    - generic [ref=e228]: Top seller
+                    - generic [ref=e230]:
+                      - generic [ref=e231]: 19 products
+                      - text: "19"
+                  - generic [ref=e232]:
+                    - checkbox "Top seller 19 products"
+              - listitem [ref=e234]:
+                - heading [level=3] [ref=e235]:
+                  - button "Features" [ref=e236] [cursor=pointer]
+              - listitem [ref=e241]:
+                - heading [level=3] [ref=e242]:
+                  - button "Sleeping position" [ref=e243] [cursor=pointer]
+              - listitem [ref=e248]:
+                - generic [ref=e249] [cursor=pointer]:
+                  - generic [ref=e250]:
+                    - generic [ref=e251]: Special price
+                    - generic [ref=e253]:
+                      - generic [ref=e254]: 7 products
+                      - text: "7"
+                  - generic [ref=e255]:
+                    - checkbox "Special price 7 products"
+              - listitem [ref=e257]:
+                - generic [ref=e258] [cursor=pointer]:
+                  - generic [ref=e259]:
+                    - generic [ref=e260]: Last chance
+                    - generic [ref=e262]:
+                      - generic [ref=e263]: 3 products
+                      - text: "3"
+                  - generic [ref=e264]:
+                    - checkbox "Last chance 3 products"
+              - listitem [ref=e266]:
+                - heading [level=3] [ref=e267]:
+                  - button "Series" [ref=e268] [cursor=pointer]
+          - generic [ref=e274]:
+            - heading "Results list" [level=2] [ref=e275]
+            - generic [ref=e277]:
+              - generic [ref=e278]:
+                - generic [ref=e280]:
+                  - checkbox "Compare - Select for product comparison, Foam mattress, 80x200 cm" [ref=e281] [cursor=pointer]
+                  - generic [ref=e283]: Compare
+                - generic [ref=e285]:
+                  - paragraph [ref=e287]: Top seller
+                  - link [ref=e288] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/agotnes-foam-mattress-firm-light-blue-60480855/
+                    - 'img "ÅGOTNES: grey mat, foam core, wadding top. Rectangular, firm, zippered." [ref=e289]'
+                    - img "Small white bed with grey mattress, two pillows, side table, and art." [ref=e290]
+                - generic [ref=e293]:
+                  - heading [level=3] [ref=e295]:
+                    - link "ÅGOTNES, Foam mattress, firm/light blue, 80x200 cm" [ref=e297] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/agotnes-foam-mattress-firm-light-blue-60480855/
+                      - text: ÅGOTNES
+                    - generic [ref=e298]: Foam mattress, firm/light blue, 80x200 cm
+                  - emphasis [ref=e302]:
+                    - generic [ref=e303]: EGP2,995
+                    - generic [ref=e305]: Price EGP 2995
+                - 'button "Review: 3.8 out of 5 stars. Total reviews: (64)" [ref=e306] [cursor=pointer]':
+                  - generic [ref=e307]: "Review: 3.8 out of 5 stars. Total reviews:"
+                  - generic [ref=e308]: (64)
+                - generic [ref=e310]:
+                  - button "Add \"ÅGOTNES Foam mattress\" to cart" [ref=e311] [cursor=pointer]
+                  - button "Save \"ÅGOTNES Foam mattress\" to shopping list" [ref=e312] [cursor=pointer]
+                - generic [ref=e313]: Currently unavailable for delivery
+                - generic [ref=e317]:
+                  - generic [ref=e318]: Foam
+                  - generic [ref=e323]: Firm
+                - generic [ref=e327]:
+                  - heading "More options" [level=4] [ref=e328]
+                  - paragraph [ref=e329]:
+                    - link "3 sizes" [ref=e330] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/agotnes-foam-mattress-firm-light-blue-60480855/
+              - generic [ref=e331]:
+                - generic [ref=e333]:
+                  - checkbox "Compare - Select for product comparison, Pocket sprung mattress, 180x200 cm" [ref=e334] [cursor=pointer]
+                  - generic [ref=e336]: Compare
+                - generic [ref=e338]:
+                  - paragraph [ref=e340]: Top seller
+                  - link [ref=e341] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/valevag-pocket-sprung-mattress-firm-light-blue-80470011/
+                    - img "An IKEA valevag mattress, white and grey, rectangular, with individual pocket springs and a quilted top." [ref=e342]
+                    - img "Modern bedroom with beige, light wood, and blue mattress. Hanging light, side lamp, plant by window." [ref=e343]
+                - generic [ref=e346]:
+                  - heading [level=3] [ref=e348]:
+                    - link "VALEVÅG, Pocket sprung mattress, firm/light blue, 180x200 cm" [ref=e350] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/valevag-pocket-sprung-mattress-firm-light-blue-80470011/
+                      - text: VALEVÅG
+                    - generic [ref=e351]: Pocket sprung mattress, firm/light blue, 180x200 cm
+                  - generic [ref=e355]:
+                    - generic [ref=e356]: EGP19,995
+                    - generic [ref=e358]: Price EGP 19995
+                - 'button "Review: 4 out of 5 stars. Total reviews: (47)" [ref=e359] [cursor=pointer]':
+                  - generic [ref=e360]: "Review: 4 out of 5 stars. Total reviews:"
+                  - generic [ref=e361]: (47)
+                - generic [ref=e363]:
+                  - button "Add \"VALEVÅG Pocket sprung mattress\" to cart" [ref=e364] [cursor=pointer]
+                  - button "Save \"VALEVÅG Pocket sprung mattress\" to shopping list" [ref=e365] [cursor=pointer]
+                - generic [ref=e366]: Currently unavailable for delivery
+                - generic [ref=e370]:
+                  - generic [ref=e371]: Pocket springs
+                  - generic [ref=e376]: Firm
+                - generic [ref=e380]:
+                  - heading "More options" [level=4] [ref=e381]
+                  - paragraph [ref=e382]:
+                    - link "4 sizes, 2 levels of firmness" [ref=e383] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/valevag-pocket-sprung-mattress-firm-light-blue-80470011/
+              - generic [ref=e384]:
+                - generic [ref=e386]:
+                  - checkbox "Compare - Select for product comparison, Foam mattress, 180x200 cm" [ref=e387] [cursor=pointer]
+                  - generic [ref=e389]: Compare
+                - generic [ref=e391]:
+                  - paragraph [ref=e393]: Top seller
+                  - link [ref=e394] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/akrehamn-foam-mattress-firm-white-90481655/
+                    - 'img "ÅKREHAMN: white foam mattress, 3 comfort layers, memory foam, rectangular." [ref=e395]'
+                    - img "Modern bedroom with light-colored wooden floor, large bed, side table, and window with curtains." [ref=e396]
+                - generic [ref=e399]:
+                  - heading [level=3] [ref=e401]:
+                    - link "ÅKREHAMN, Foam mattress, firm/white, 180x200 cm" [ref=e403] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/akrehamn-foam-mattress-firm-white-90481655/
+                      - text: ÅKREHAMN
+                    - generic [ref=e404]: Foam mattress, firm/white, 180x200 cm
+                  - generic [ref=e408]:
+                    - generic [ref=e409]: EGP23,995
+                    - generic [ref=e411]: Price EGP 23995
+                - 'button "Review: 2.8 out of 5 stars. Total reviews: (6)" [ref=e412] [cursor=pointer]':
+                  - generic [ref=e413]: "Review: 2.8 out of 5 stars. Total reviews:"
+                  - generic [ref=e414]: (6)
+                - generic [ref=e416]:
+                  - button "Add \"ÅKREHAMN Foam mattress\" to cart" [ref=e417] [cursor=pointer]
+                  - button "Save \"ÅKREHAMN Foam mattress\" to shopping list" [ref=e418] [cursor=pointer]
+                - generic [ref=e419]: Currently unavailable for delivery
+                - generic [ref=e423]:
+                  - generic [ref=e424]: Memory foam
+                  - generic [ref=e430]: Firm
+                - generic [ref=e434]:
+                  - heading "More options" [level=4] [ref=e435]
+                  - paragraph [ref=e436]:
+                    - link "3 sizes" [ref=e437] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/akrehamn-foam-mattress-firm-white-90481655/
+              - generic [ref=e438]:
+                - generic [ref=e440]:
+                  - checkbox "Compare - Select for product comparison, Foam mattress, 80x200 cm" [ref=e441] [cursor=pointer]
+                  - generic [ref=e443]: Compare
+                - generic [ref=e445]:
+                  - paragraph [ref=e447]: Top seller
+                  - link [ref=e448] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/afjaell-foam-mattress-firm-white-40568632/
+                    - img "A white ÅFJÄLL foam mattress, rectangular, with a quilted textured cover." [ref=e449]
+                    - img "Modern bedroom with light grey mattress, grey and peach pillows, pink lamps, plant, and large window." [ref=e450]
+                - generic [ref=e453]:
+                  - heading [level=3] [ref=e455]:
+                    - link "ÅFJÄLL, Foam mattress, firm/white, 80x200 cm" [ref=e457] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/afjaell-foam-mattress-firm-white-40568632/
+                      - text: ÅFJÄLL
+                    - generic [ref=e458]: Foam mattress, firm/white, 80x200 cm
+                  - generic [ref=e462]:
+                    - generic [ref=e463]: EGP5,495
+                    - generic [ref=e465]: Price EGP 5495
+                - 'button "Review: 3.9 out of 5 stars. Total reviews: (22)" [ref=e466] [cursor=pointer]':
+                  - generic [ref=e467]: "Review: 3.9 out of 5 stars. Total reviews:"
+                  - generic [ref=e468]: (22)
+                - generic [ref=e470]:
+                  - button "Add \"ÅFJÄLL Foam mattress\" to cart" [ref=e471] [cursor=pointer]
+                  - button "Save \"ÅFJÄLL Foam mattress\" to shopping list" [ref=e472] [cursor=pointer]
+                - generic [ref=e473]: Currently unavailable for delivery
+                - generic [ref=e477]:
+                  - generic [ref=e478]: Foam
+                  - generic [ref=e483]: Firm
+                - generic [ref=e487]:
+                  - heading "More options" [level=4] [ref=e488]
+                  - paragraph [ref=e489]:
+                    - link "3 sizes, 2 levels of firmness" [ref=e490] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/afjaell-foam-mattress-firm-white-40568632/
+              - generic [ref=e491]:
+                - generic [ref=e493]:
+                  - checkbox "Compare - Select for product comparison, Pocket sprung mattress, 180x200 cm" [ref=e494] [cursor=pointer]
+                  - generic [ref=e496]: Compare
+                - generic [ref=e498]:
+                  - paragraph [ref=e500]: Top seller
+                  - link [ref=e501] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/vesteroey-pocket-sprung-mattress-firm-light-blue-90470119/
+                    - img "A grey, rectangular VESTERÖY mattress with a quilted cover on a white background." [ref=e502]
+                    - img "Serene bedroom with white VESTERÖY bed, yellow bedding, blue curtains, and large window." [ref=e503]
+                - generic [ref=e506]:
+                  - heading [level=3] [ref=e508]:
+                    - link "VESTERÖY, Pocket sprung mattress, firm/light blue, 180x200 cm" [ref=e510] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vesteroey-pocket-sprung-mattress-firm-light-blue-90470119/
+                      - text: VESTERÖY
+                    - generic [ref=e511]: Pocket sprung mattress, firm/light blue, 180x200 cm
+                  - generic [ref=e515]:
+                    - generic [ref=e516]: EGP16,995
+                    - generic [ref=e518]: Price EGP 16995
+                - 'button "Review: 3.7 out of 5 stars. Total reviews: (48)" [ref=e519] [cursor=pointer]':
+                  - generic [ref=e520]: "Review: 3.7 out of 5 stars. Total reviews:"
+                  - generic [ref=e521]: (48)
+                - generic [ref=e523]:
+                  - button "Add \"VESTERÖY Pocket sprung mattress\" to cart" [ref=e524] [cursor=pointer]
+                  - button "Save \"VESTERÖY Pocket sprung mattress\" to shopping list" [ref=e525] [cursor=pointer]
+                - generic [ref=e526]: Currently unavailable for delivery
+                - generic [ref=e530]:
+                  - generic [ref=e531]: Pocket springs
+                  - generic [ref=e536]: Firm
+                - generic [ref=e540]:
+                  - heading "More options" [level=4] [ref=e541]
+                  - paragraph [ref=e542]:
+                    - link "4 sizes, 2 levels of firmness" [ref=e543] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vesteroey-pocket-sprung-mattress-firm-light-blue-90470119/
+              - generic [ref=e544]:
+                - generic [ref=e546]:
+                  - checkbox "Compare - Select for product comparison, Sprung mattress, 140x200 cm" [ref=e547] [cursor=pointer]
+                  - generic [ref=e549]: Compare
+                - generic [ref=e551]:
+                  - paragraph [ref=e553]: Top seller
+                  - link [ref=e554] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/vadsoe-sprung-mattress-extra-firm-light-blue-50453584/
+                    - img "A blue VADSÖ mattress, rectangular, firm with bonnell springs, light grey zip detail." [ref=e555]
+                    - img "Minimalist bedroom with white bed, grey mattress, side tables, and abstract art." [ref=e556]
+                - generic [ref=e559]:
+                  - heading [level=3] [ref=e561]:
+                    - link "VADSÖ, Sprung mattress, extra firm/light blue, 140x200 cm" [ref=e563] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vadsoe-sprung-mattress-extra-firm-light-blue-50453584/
+                      - text: VADSÖ
+                    - generic [ref=e564]: Sprung mattress, extra firm/light blue, 140x200 cm
+                  - generic [ref=e568]:
+                    - generic [ref=e569]: EGP7,995
+                    - generic [ref=e571]: Price EGP 7995
+                - 'button "Review: 4 out of 5 stars. Total reviews: (34)" [ref=e572] [cursor=pointer]':
+                  - generic [ref=e573]: "Review: 4 out of 5 stars. Total reviews:"
+                  - generic [ref=e574]: (34)
+                - generic [ref=e576]:
+                  - button "Add \"VADSÖ Sprung mattress\" to cart" [ref=e577] [cursor=pointer]
+                  - button "Save \"VADSÖ Sprung mattress\" to shopping list" [ref=e578] [cursor=pointer]
+                - generic [ref=e579]: Currently unavailable for delivery
+                - generic [ref=e583]: Extra firm
+                - generic [ref=e588]:
+                  - heading "More options" [level=4] [ref=e589]
+                  - paragraph [ref=e590]:
+                    - link "2 sizes" [ref=e591] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vadsoe-sprung-mattress-extra-firm-light-blue-50453584/
+              - generic [ref=e592]:
+                - generic [ref=e594]:
+                  - checkbox "Compare - Select for product comparison, Pocket sprung mattress, 160x200 cm" [ref=e595] [cursor=pointer]
+                  - generic [ref=e597]: Compare
+                - generic [ref=e599]:
+                  - paragraph [ref=e601]: Top seller
+                  - link [ref=e602] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/vatnestroem-pocket-sprung-mattress-firm-natural-50517755/
+                    - img "VATNESTRÖM white foam mattress, rectangular, tufted design, firm support." [ref=e603]
+                    - img "Modern bedroom with beige mattress, four pillows, abstract artwork, and bedside table plant." [ref=e604]
+                - generic [ref=e607]:
+                  - heading [level=3] [ref=e609]:
+                    - link "VATNESTRÖM, Pocket sprung mattress, firm/natural, 160x200 cm" [ref=e611] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vatnestroem-pocket-sprung-mattress-firm-natural-50517755/
+                      - text: VATNESTRÖM
+                    - generic [ref=e612]: Pocket sprung mattress, firm/natural, 160x200 cm
+                  - generic [ref=e616]:
+                    - generic [ref=e617]: EGP49,995
+                    - generic [ref=e619]: Price EGP 49995
+                - 'button "Review: 4.2 out of 5 stars. Total reviews: (11)" [ref=e620] [cursor=pointer]':
+                  - generic [ref=e621]: "Review: 4.2 out of 5 stars. Total reviews:"
+                  - generic [ref=e622]: (11)
+                - generic [ref=e624]:
+                  - button "Add \"VATNESTRÖM Pocket sprung mattress\" to cart" [ref=e625] [cursor=pointer]
+                  - button "Save \"VATNESTRÖM Pocket sprung mattress\" to shopping list" [ref=e626] [cursor=pointer]
+                - generic [ref=e627]: Currently unavailable for delivery
+                - generic [ref=e631]:
+                  - generic [ref=e632]: Pocket springs
+                  - generic [ref=e637]: Firm
+                - generic [ref=e641]:
+                  - heading "More options" [level=4] [ref=e642]
+                  - paragraph [ref=e643]:
+                    - link "2 sizes, 2 levels of firmness" [ref=e644] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vatnestroem-pocket-sprung-mattress-firm-natural-50517755/
+              - generic [ref=e645]:
+                - generic [ref=e647]:
+                  - checkbox "Compare - Select for product comparison, Pocket sprung mattress, 80x200 cm" [ref=e648] [cursor=pointer]
+                  - generic [ref=e650]: Compare
+                - generic [ref=e652]:
+                  - paragraph [ref=e654]: Top seller
+                  - link [ref=e655] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/vannareid-pocket-sprung-mattress-extra-firm-beige-50486730/
+                    - img "Vanareid rolled mattress, beige, firm, foam top, zip cover." [ref=e656]
+                    - img "Modern bedroom with VANNAREID green mattress on light wooden bed, white linen, grey blanket, and side table with lamp." [ref=e657]
+                - generic [ref=e660]:
+                  - heading [level=3] [ref=e662]:
+                    - link "VANNAREID, Pocket sprung mattress, extra firm/beige, 80x200 cm" [ref=e664] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vannareid-pocket-sprung-mattress-extra-firm-beige-50486730/
+                      - text: VANNAREID
+                    - generic [ref=e665]: Pocket sprung mattress, extra firm/beige, 80x200 cm
+                  - generic [ref=e669]:
+                    - generic [ref=e670]: EGP7,995
+                    - generic [ref=e672]: Price EGP 7995
+                - 'button "Review: 3.8 out of 5 stars. Total reviews: (5)" [ref=e673] [cursor=pointer]':
+                  - generic [ref=e674]: "Review: 3.8 out of 5 stars. Total reviews:"
+                  - generic [ref=e675]: (5)
+                - generic [ref=e677]:
+                  - button "Add \"VANNAREID Pocket sprung mattress\" to cart" [ref=e678] [cursor=pointer]
+                  - button "Save \"VANNAREID Pocket sprung mattress\" to shopping list" [ref=e679] [cursor=pointer]
+                - generic [ref=e680]: Currently unavailable for delivery
+                - generic [ref=e684]:
+                  - generic [ref=e685]: Pocket springs
+                  - generic [ref=e690]: Extra firm
+              - link "Guiding Looking for the perfect mattress? Try our comfort guide!" [ref=e694] [cursor=pointer]:
+                - /url: https://www.ikea.com/addon-app/guida/comfort-guide/web/latest/eg/en/
+                - generic [ref=e696]:
+                  - paragraph [ref=e697]: Guiding
+                  - paragraph [ref=e698]: Looking for the perfect mattress? Try our comfort guide!
+              - generic [ref=e703]:
+                - generic [ref=e705]:
+                  - checkbox "Compare - Select for product comparison, Foam mattress for cot, 60x120x5 cm" [ref=e706] [cursor=pointer]
+                  - generic [ref=e708]: Compare
+                - generic [ref=e710]:
+                  - paragraph [ref=e712]: Top seller
+                  - link [ref=e713] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/pluttig-foam-mattress-for-cot-70399157/
+                    - img "A white PLUTTIG reversible baby mattress. It is rectangular with smooth surfaces on both sides. Made from polyurethane foam and polypropylene ticking." [ref=e714]
+                    - img "Close-up of a simple, reversible foam mattress with smooth, wipeable surface. Shows thin edge detail." [ref=e715]
+                - generic [ref=e718]:
+                  - heading [level=3] [ref=e720]:
+                    - link "PLUTTIG, Foam mattress for cot, 60x120x5 cm" [ref=e722] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/pluttig-foam-mattress-for-cot-70399157/
+                      - text: PLUTTIG
+                    - generic [ref=e723]: Foam mattress for cot, 60x120x5 cm
+                  - generic [ref=e725]:
+                    - generic [ref=e727]:
+                      - generic [ref=e728]: EGP1,800
+                      - generic [ref=e730]: EGP 1800
+                    - generic [ref=e732]:
+                      - generic [ref=e733]: EGP1,300
+                      - generic [ref=e735]: Price EGP 1300
+                  - generic [ref=e736]: 27% off, save EGP500
+                  - paragraph [ref=e740]: Limited time offer
+                - generic [ref=e741]:
+                  - button "Add \"PLUTTIG Foam mattress for cot\" to cart" [ref=e742] [cursor=pointer]
+                  - button "Save \"PLUTTIG Foam mattress for cot\" to shopping list" [ref=e743] [cursor=pointer]
+                - generic [ref=e744]: Currently unavailable for delivery
+                - generic [ref=e748]: Foam
+              - generic [ref=e754]:
+                - generic [ref=e756]:
+                  - checkbox "Compare - Select for product comparison, Mattress and mattress pad, 90x200 cm" [ref=e757] [cursor=pointer]
+                  - generic [ref=e759]: Compare
+                - generic [ref=e761]:
+                  - paragraph [ref=e763]: Top seller
+                  - link [ref=e764] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/valevag-mattress-and-mattress-pad-firm-light-blue-nisseholm-white-s59572375/
+                    - img "IKEA VALEVÅG mattress, white, rectangular, with pocket springs and grey sides." [ref=e765]
+                    - img "Minimalist white bedroom compact VALEVÅG bed, framed art, soft lighting, and small plants." [ref=e766]
+                - generic [ref=e769]:
+                  - heading [level=3] [ref=e771]:
+                    - link "VALEVÅG, Mattress and mattress pad, firm light blue/Nisseholm white, 90x200 cm" [ref=e773] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/valevag-mattress-and-mattress-pad-firm-light-blue-nisseholm-white-s59572375/
+                      - text: VALEVÅG
+                    - generic [ref=e774]: Mattress and mattress pad, firm light blue/Nisseholm white, 90x200 cm
+                  - generic [ref=e778]:
+                    - generic [ref=e779]: EGP18,490
+                    - generic [ref=e781]: Price EGP 18490
+                - 'button "Review: 5 out of 5 stars. Total reviews: (2)" [ref=e782] [cursor=pointer]':
+                  - generic [ref=e783]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=e784]: (2)
+                - generic [ref=e786]:
+                  - button "Add \"VALEVÅG Mattress and mattress pad\" to cart" [ref=e787] [cursor=pointer]
+                  - button "Save \"VALEVÅG Mattress and mattress pad\" to shopping list" [ref=e788] [cursor=pointer]
+                - generic [ref=e789]: Currently unavailable for delivery
+                - generic [ref=e793]:
+                  - generic [ref=e794]: Pocket springs
+                  - generic [ref=e799]: Firm
+                - generic [ref=e803]:
+                  - heading "More options" [level=4] [ref=e804]
+                  - paragraph [ref=e805]:
+                    - link "3 sizes, 2 levels of firmness" [ref=e806] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/valevag-mattress-and-mattress-pad-firm-light-blue-nisseholm-white-s59572375/
+              - generic [ref=e807]:
+                - generic [ref=e809]:
+                  - checkbox "Compare - Select for product comparison, Mattress pad, 90x200 cm" [ref=e810] [cursor=pointer]
+                  - generic [ref=e812]: Compare
+                - generic [ref=e814]:
+                  - paragraph [ref=e816]: Top seller
+                  - link [ref=e817] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/nisseholm-mattress-pad-white-00574263/
+                    - img "NISSEHOLM mattress pad, white, rectangular, firm, foam, zip closure." [ref=e818]
+                    - img "Minimalist bedroom with NISSEHOLM mattress, white linens, plant, and nightstands." [ref=e819]
+                - generic [ref=e822]:
+                  - heading [level=3] [ref=e824]:
+                    - link "NISSEHOLM, Mattress pad, white, 90x200 cm" [ref=e826] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/nisseholm-mattress-pad-white-00574263/
+                      - text: NISSEHOLM
+                    - generic [ref=e827]: Mattress pad, white, 90x200 cm
+                  - generic [ref=e831]:
+                    - generic [ref=e832]: EGP6,495
+                    - generic [ref=e834]: Price EGP 6495
+                - 'button "Review: 5 out of 5 stars. Total reviews: (2)" [ref=e835] [cursor=pointer]':
+                  - generic [ref=e836]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=e837]: (2)
+                - generic [ref=e839]:
+                  - button "Add \"NISSEHOLM Mattress pad\" to cart" [ref=e840] [cursor=pointer]
+                  - button "Save \"NISSEHOLM Mattress pad\" to shopping list" [ref=e841] [cursor=pointer]
+                - generic [ref=e842]: Currently unavailable for delivery
+                - generic [ref=e846]:
+                  - heading "More options" [level=4] [ref=e847]
+                  - paragraph [ref=e848]:
+                    - link "3 sizes" [ref=e849] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/nisseholm-mattress-pad-white-00574263/
+              - generic [ref=e850]:
+                - generic [ref=e852]:
+                  - checkbox "Compare - Select for product comparison, Mattress and mattress pad, 90x200 cm" [ref=e853] [cursor=pointer]
+                  - generic [ref=e855]: Compare
+                - generic [ref=e857]:
+                  - paragraph [ref=e859]: Top seller
+                  - link [ref=e860] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/vesteroey-mattress-and-mattress-pad-firm-light-blue-nisseholm-white-s09572330/
+                    - img "Grey IKEA VESTERÖY pocket spring mattress with cushioning and breathable fabric." [ref=e861]
+                    - img "Modern minimalist bedroom with white bed, pendant light, art, plant, and cosy decor." [ref=e862]
+                - generic [ref=e865]:
+                  - heading [level=3] [ref=e867]:
+                    - link "VESTERÖY, Mattress and mattress pad, firm light blue/Nisseholm white, 90x200 cm" [ref=e869] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vesteroey-mattress-and-mattress-pad-firm-light-blue-nisseholm-white-s09572330/
+                      - text: VESTERÖY
+                    - generic [ref=e870]: Mattress and mattress pad, firm light blue/Nisseholm white, 90x200 cm
+                  - generic [ref=e874]:
+                    - generic [ref=e875]: EGP16,490
+                    - generic [ref=e877]: Price EGP 16490
+                - 'button "Review: 5 out of 5 stars. Total reviews: (3)" [ref=e878] [cursor=pointer]':
+                  - generic [ref=e879]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=e880]: (3)
+                - generic [ref=e882]:
+                  - button "Add \"VESTERÖY Mattress and mattress pad\" to cart" [ref=e883] [cursor=pointer]
+                  - button "Save \"VESTERÖY Mattress and mattress pad\" to shopping list" [ref=e884] [cursor=pointer]
+                - generic [ref=e885]: Currently unavailable for delivery
+                - generic [ref=e889]:
+                  - generic [ref=e890]: Pocket springs
+                  - generic [ref=e895]: Firm
+                - generic [ref=e899]:
+                  - heading "More options" [level=4] [ref=e900]
+                  - paragraph [ref=e901]:
+                    - link "3 sizes, 2 levels of firmness, 2 mattress pads" [ref=e902] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vesteroey-mattress-and-mattress-pad-firm-light-blue-nisseholm-white-s09572330/
+              - generic [ref=e903]:
+                - generic [ref=e905]:
+                  - checkbox "Compare - Select for product comparison, Foam mattress for extendable bed, 80x200 cm" [ref=e906] [cursor=pointer]
+                  - generic [ref=e908]: Compare
+                - link [ref=e911] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/vimsig-foam-mattress-for-extendable-bed-10593746/
+                  - img "VIMSIG Foam mattress for extendable bed, 80x200 cm" [ref=e912]
+                  - img "VIMSIG Foam mattress for extendable bed, 80x200 cm" [ref=e913]
+                - generic [ref=e916]:
+                  - heading [level=3] [ref=e918]:
+                    - link "VIMSIG, Foam mattress for extendable bed, 80x200 cm" [ref=e920] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vimsig-foam-mattress-for-extendable-bed-10593746/
+                      - text: VIMSIG
+                    - generic [ref=e921]: Foam mattress for extendable bed, 80x200 cm
+                  - generic [ref=e925]:
+                    - generic [ref=e926]: EGP8,000
+                    - generic [ref=e928]: Price EGP 8000
+                - generic [ref=e929]:
+                  - button "Add \"VIMSIG Foam mattress for extendable bed\" to cart" [ref=e930] [cursor=pointer]
+                  - button "Save \"VIMSIG Foam mattress for extendable bed\" to shopping list" [ref=e931] [cursor=pointer]
+                - generic [ref=e932]: Currently unavailable for delivery
+              - generic [ref=e936]:
+                - generic [ref=e938]:
+                  - checkbox "Compare - Select for product comparison, Foam mattress for extendable bed, 80x200 cm" [ref=e939] [cursor=pointer]
+                  - generic [ref=e941]: Compare
+                - generic [ref=e943]:
+                  - paragraph [ref=e945]: Top seller
+                  - link [ref=e946] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/plutten-foam-mattress-for-extendable-bed-70399162/
+                    - img "White, 3-part, reversible foam mattress for kids, zippered, soft surface." [ref=e947]
+                    - img "Close-up shot of a white mattress corner, showcasing its smooth texture and quality." [ref=e948]
+                - generic [ref=e951]:
+                  - heading [level=3] [ref=e953]:
+                    - link "PLUTTEN, Foam mattress for extendable bed, 80x200 cm" [ref=e955] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/plutten-foam-mattress-for-extendable-bed-70399162/
+                      - text: PLUTTEN
+                    - generic [ref=e956]: Foam mattress for extendable bed, 80x200 cm
+                  - emphasis [ref=e960]:
+                    - generic [ref=e961]: EGP3,900
+                    - generic [ref=e963]: Price EGP 3900
+                - 'button "Review: 4.8 out of 5 stars. Total reviews: (6)" [ref=e964] [cursor=pointer]':
+                  - generic [ref=e965]: "Review: 4.8 out of 5 stars. Total reviews:"
+                  - generic [ref=e966]: (6)
+                - generic [ref=e968]:
+                  - button "Add \"PLUTTEN Foam mattress for extendable bed\" to cart" [ref=e969] [cursor=pointer]
+                  - button "Save \"PLUTTEN Foam mattress for extendable bed\" to shopping list" [ref=e970] [cursor=pointer]
+                - generic [ref=e971]: Currently unavailable for delivery
+                - generic [ref=e975]: Foam
+              - generic [ref=e981]:
+                - generic [ref=e983]:
+                  - checkbox "Compare - Select for product comparison, Foam mattress for cot, 60x120x8 cm" [ref=e984] [cursor=pointer]
+                  - generic [ref=e986]: Compare
+                - generic [ref=e988]:
+                  - paragraph [ref=e990]: Top seller
+                  - link [ref=e991] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/krummelur-foam-mattress-for-cot-40399154/
+                    - img "White KRUMMELUR cot mattress, rectangular, quilted surface, polyester, safe for kids." [ref=e992]
+                    - img "Person unzips white mattress cover, demonstrating easy removal for washing. Zip hides in small pocket for safety." [ref=e993]
+                - generic [ref=e996]:
+                  - heading [level=3] [ref=e998]:
+                    - link "KRUMMELUR, Foam mattress for cot, 60x120x8 cm" [ref=e1000] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/krummelur-foam-mattress-for-cot-40399154/
+                      - text: KRUMMELUR
+                    - generic [ref=e1001]: Foam mattress for cot, 60x120x8 cm
+                  - generic [ref=e1003]:
+                    - generic [ref=e1005]:
+                      - generic [ref=e1006]: EGP7,000
+                      - generic [ref=e1008]: EGP 7000
+                    - generic [ref=e1010]:
+                      - generic [ref=e1011]: EGP5,000
+                      - generic [ref=e1013]: Price EGP 5000
+                  - generic [ref=e1014]: 28% off, save EGP2,000
+                  - paragraph [ref=e1018]: Limited time offer
+                - 'button "Review: 5 out of 5 stars. Total reviews: (2)" [ref=e1019] [cursor=pointer]':
+                  - generic [ref=e1020]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=e1021]: (2)
+                - generic [ref=e1023]:
+                  - button "Add \"KRUMMELUR Foam mattress for cot\" to cart" [ref=e1024] [cursor=pointer]
+                  - button "Save \"KRUMMELUR Foam mattress for cot\" to shopping list" [ref=e1025] [cursor=pointer]
+                - generic [ref=e1026]: Currently unavailable for delivery
+                - generic [ref=e1030]:
+                  - generic [ref=e1031]: Foam
+                  - generic [ref=e1036]: Medium firm
+              - generic [ref=e1040]:
+                - generic [ref=e1042]:
+                  - checkbox "Compare - Select for product comparison, Foam mattress for cot, 60x120x8 cm" [ref=e1043] [cursor=pointer]
+                  - generic [ref=e1045]: Compare
+                - link [ref=e1048] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/skoenast-foam-mattress-for-cot-50593589/
+                  - img "SKÖNAST Foam mattress for cot, 60x120x8 cm" [ref=e1049]
+                  - img "Hands zip white mattress cover, showing easy removal and child-safe design." [ref=e1050]
+                - generic [ref=e1053]:
+                  - heading [level=3] [ref=e1055]:
+                    - link "SKÖNAST, Foam mattress for cot, 60x120x8 cm" [ref=e1057] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/skoenast-foam-mattress-for-cot-50593589/
+                      - text: SKÖNAST
+                    - generic [ref=e1058]: Foam mattress for cot, 60x120x8 cm
+                  - generic [ref=e1062]:
+                    - generic [ref=e1063]: EGP8,000
+                    - generic [ref=e1065]: Price EGP 8000
+                - generic [ref=e1066]:
+                  - button "Add \"SKÖNAST Foam mattress for cot\" to cart" [ref=e1067] [cursor=pointer]
+                  - button "Save \"SKÖNAST Foam mattress for cot\" to shopping list" [ref=e1068] [cursor=pointer]
+                - generic [ref=e1069]: Currently unavailable for delivery
+              - generic [ref=e1073]:
+                - generic [ref=e1075]:
+                  - checkbox "Compare - Select for product comparison, Foam mattress for cot, 60x120x6 cm" [ref=e1076] [cursor=pointer]
+                  - generic [ref=e1078]: Compare
+                - link [ref=e1081] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/pelleplutt-foam-mattress-for-cot-20593581/
+                  - img "PELLEPLUTT Foam mattress for cot, 60x120x6 cm" [ref=e1082]
+                  - img "Beige crib with rug & toy." [ref=e1083]
+                - generic [ref=e1086]:
+                  - heading [level=3] [ref=e1088]:
+                    - link "PELLEPLUTT, Foam mattress for cot, 60x120x6 cm" [ref=e1090] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/pelleplutt-foam-mattress-for-cot-20593581/
+                      - text: PELLEPLUTT
+                    - generic [ref=e1091]: Foam mattress for cot, 60x120x6 cm
+                  - generic [ref=e1095]:
+                    - generic [ref=e1096]: EGP2,500
+                    - generic [ref=e1098]: Price EGP 2500
+                - generic [ref=e1099]:
+                  - button "Add \"PELLEPLUTT Foam mattress for cot\" to cart" [ref=e1100] [cursor=pointer]
+                  - button "Save \"PELLEPLUTT Foam mattress for cot\" to shopping list" [ref=e1101] [cursor=pointer]
+                - generic [ref=e1102]: Currently unavailable for delivery
+              - generic [ref=e1106]:
+                - generic [ref=e1108]:
+                  - checkbox "Compare - Select for product comparison, Mattress for bassinet, 40x73x3.5 cm" [ref=e1109] [cursor=pointer]
+                  - generic [ref=e1111]: Compare
+                - link [ref=e1114] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/aelskvaerd-mattress-for-bassinet-50516874/
+                  - img "The ÄLSKVÄRD white baby mattress is oval-shaped with a smooth surface, made of polyester and cotton blend for comfort." [ref=e1115]
+                  - img "Hands placing fitted sheet on mattress, demonstrating easy setup for babys comfort." [ref=e1116]
+                - generic [ref=e1119]:
+                  - heading [level=3] [ref=e1121]:
+                    - link "ÄLSKVÄRD, Mattress for bassinet, 40x73x3.5 cm" [ref=e1123] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/aelskvaerd-mattress-for-bassinet-50516874/
+                      - text: ÄLSKVÄRD
+                    - generic [ref=e1124]: Mattress for bassinet, 40x73x3.5 cm
+                  - generic [ref=e1126]:
+                    - generic [ref=e1128]:
+                      - generic [ref=e1129]: EGP1,900
+                      - generic [ref=e1131]: EGP 1900
+                    - generic [ref=e1133]:
+                      - generic [ref=e1134]: EGP1,400
+                      - generic [ref=e1136]: Price EGP 1400
+                  - generic [ref=e1137]: 26% off, save EGP500
+                  - paragraph [ref=e1141]: Limited time offer
+                - generic [ref=e1142]:
+                  - button "Add \"ÄLSKVÄRD Mattress for bassinet\" to cart" [ref=e1143] [cursor=pointer]
+                  - button "Save \"ÄLSKVÄRD Mattress for bassinet\" to shopping list" [ref=e1144] [cursor=pointer]
+                - generic [ref=e1145]: Currently unavailable for delivery
+              - generic [ref=e1149]:
+                - generic [ref=e1151]:
+                  - checkbox "Compare - Select for product comparison, Pocket spring mattress for ext bed, 80x200 cm" [ref=e1152] [cursor=pointer]
+                  - generic [ref=e1154]: Compare
+                - link [ref=e1157] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/oemsint-pocket-spring-mattress-for-ext-bed-70593753/
+                  - img "ÖMSINT Pocket spring mattress for ext bed, 80x200 cm" [ref=e1158]
+                  - img "ÖMSINT Pocket spring mattress for ext bed, 80x200 cm" [ref=e1159]
+                - generic [ref=e1162]:
+                  - heading [level=3] [ref=e1164]:
+                    - link "ÖMSINT, Pocket spring mattress for ext bed, 80x200 cm" [ref=e1166] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/oemsint-pocket-spring-mattress-for-ext-bed-70593753/
+                      - text: ÖMSINT
+                    - generic [ref=e1167]: Pocket spring mattress for ext bed, 80x200 cm
+                  - generic [ref=e1171]:
+                    - generic [ref=e1172]: EGP15,000
+                    - generic [ref=e1174]: Price EGP 15000
+                - generic [ref=e1175]:
+                  - button "Add \"ÖMSINT Pocket spring mattress for ext bed\" to cart" [ref=e1176] [cursor=pointer]
+                  - button "Save \"ÖMSINT Pocket spring mattress for ext bed\" to shopping list" [ref=e1177] [cursor=pointer]
+                - generic [ref=e1178]: Currently unavailable for delivery
+              - generic [ref=e1182]:
+                - generic [ref=e1184]:
+                  - checkbox "Compare - Select for product comparison, Foam mattress for extendable bed, 80x200 cm" [ref=e1185] [cursor=pointer]
+                  - generic [ref=e1187]: Compare
+                - generic [ref=e1189]:
+                  - paragraph [ref=e1191]: Last chance
+                  - link [ref=e1192] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/nattsmyg-foam-mattress-for-extendable-bed-90399161/
+                    - img "White, expandable kids mattress, quilted foam, 3 sections." [ref=e1193]
+                    - img "A hand opens a child-safe zip on a white mattress, showcasing its easy-clean cover feature." [ref=e1194]
+                - generic [ref=e1197]:
+                  - generic [ref=e1198]:
+                    - generic [ref=e1199]: Price Lowered
+                    - heading [level=3] [ref=e1200]:
+                      - link "NATTSMYG, Foam mattress for extendable bed, 80x200 cm" [ref=e1202] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/nattsmyg-foam-mattress-for-extendable-bed-90399161/
+                        - text: NATTSMYG
+                      - generic [ref=e1203]: Foam mattress for extendable bed, 80x200 cm
+                  - generic [ref=e1207]:
+                    - generic [ref=e1208]: EGP7,000
+                    - generic [ref=e1210]: Price EGP 7000
+                  - generic [ref=e1212]:
+                    - text: Previous price
+                    - generic [ref=e1213]:
+                      - generic [ref=e1214]: EGP10,000
+                      - generic [ref=e1216]: Previous price EGP 10000
+                - generic [ref=e1217]:
+                  - button "Add \"NATTSMYG Foam mattress for extendable bed\" to cart" [ref=e1218] [cursor=pointer]
+                  - button "Save \"NATTSMYG Foam mattress for extendable bed\" to shopping list" [ref=e1219] [cursor=pointer]
+                - generic [ref=e1220]: Currently unavailable for delivery
+                - generic [ref=e1224]: Foam
+              - generic [ref=e1230]:
+                - generic [ref=e1232]:
+                  - checkbox "Compare - Select for product comparison, Sprung mattress, 140x200 cm" [ref=e1233] [cursor=pointer]
+                  - generic [ref=e1235]: Compare
+                - generic [ref=e1237]:
+                  - paragraph [ref=e1239]: Top seller
+                  - link [ref=e1240] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/vestmarka-sprung-mattress-extra-firm-light-blue-70470163/
+                    - img "Grey VESTMARKA mattress, rectangular, firm, white top, quilted sides, 10-yr guarantee." [ref=e1241]
+                    - img "Bedroom with VESTMARKA bed, yellow blanket, grey sheets, nightstands, blue curtains, pendant light, plant." [ref=e1242]
+                - generic [ref=e1245]:
+                  - heading [level=3] [ref=e1247]:
+                    - link "VESTMARKA, Sprung mattress, extra firm/light blue, 140x200 cm" [ref=e1249] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vestmarka-sprung-mattress-extra-firm-light-blue-70470163/
+                      - text: VESTMARKA
+                    - generic [ref=e1250]: Sprung mattress, extra firm/light blue, 140x200 cm
+                  - generic [ref=e1254]:
+                    - generic [ref=e1255]: EGP9,995
+                    - generic [ref=e1257]: Price EGP 9995
+                - 'button "Review: 4 out of 5 stars. Total reviews: (24)" [ref=e1258] [cursor=pointer]':
+                  - generic [ref=e1259]: "Review: 4 out of 5 stars. Total reviews:"
+                  - generic [ref=e1260]: (24)
+                - button "Save \"VESTMARKA Sprung mattress\" to shopping list" [ref=e1263] [cursor=pointer]
+                - generic [ref=e1264]: Currently unavailable for delivery
+                - generic [ref=e1268]: Extra firm
+                - generic [ref=e1273]:
+                  - heading "More options" [level=4] [ref=e1274]
+                  - paragraph [ref=e1275]:
+                    - link "2 sizes, 2 levels of firmness" [ref=e1276] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vestmarka-sprung-mattress-extra-firm-light-blue-70470163/
+              - generic [ref=e1277]:
+                - generic [ref=e1279]:
+                  - checkbox "Compare - Select for product comparison, Mattress/pouffe, 80x200 cm" [ref=e1280] [cursor=pointer]
+                  - generic [ref=e1282]: Compare
+                - generic [ref=e1284]:
+                  - paragraph [ref=e1286]: Top seller
+                  - link [ref=e1287] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/vithaell-mattress-pouffe-extra-firm-vissle-grey-70596624/
+                    - img "Grey VITHÄLL multi-use couch pouffe/footstool with handle for easy transport." [ref=e1288]
+                    - 'img "Cosy reading scene: person lies on grey VITHÄLL ottoman, which fits under foot, with book." [ref=e1289]'
+                - generic [ref=e1292]:
+                  - heading [level=3] [ref=e1294]:
+                    - link "VITHÄLL, Mattress/pouffe, extra firm/Vissle grey, 80x200 cm" [ref=e1296] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vithaell-mattress-pouffe-extra-firm-vissle-grey-70596624/
+                      - text: VITHÄLL
+                    - generic [ref=e1297]: Mattress/pouffe, extra firm/Vissle grey, 80x200 cm
+                  - generic [ref=e1301]:
+                    - generic [ref=e1302]: EGP7,295
+                    - generic [ref=e1304]: Price EGP 7295
+                - 'button "Review: 4.2 out of 5 stars. Total reviews: (5)" [ref=e1305] [cursor=pointer]':
+                  - generic [ref=e1306]: "Review: 4.2 out of 5 stars. Total reviews:"
+                  - generic [ref=e1307]: (5)
+                - button "Save \"VITHÄLL Mattress/pouffe\" to shopping list" [ref=e1310] [cursor=pointer]
+                - generic [ref=e1311]: Currently unavailable for delivery
+                - generic [ref=e1315]:
+                  - generic [ref=e1316]: Pocket springs
+                  - generic [ref=e1321]: Extra firm
+              - generic [ref=e1325]:
+                - generic [ref=e1327]:
+                  - checkbox "Compare - Select for product comparison, Pocket sprung mattress, 90x200 cm" [ref=e1328] [cursor=pointer]
+                  - generic [ref=e1330]: Compare
+                - generic [ref=e1332]:
+                  - paragraph [ref=e1334]: Top seller
+                  - link [ref=e1335] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/vagstranda-pocket-sprung-mattress-firm-light-blue-40470391/
+                    - 'img "IKEA VÅGSTRANDA: blue foam mattress with wave-shaped pocket springs for comfort and support." [ref=e1336]'
+                    - img "Modern bedroom with VÅGSTRANDA bed, wooden frame, white bedding, blue mattress, hanging lamp, side table, lamp, rug." [ref=e1337]
+                - generic [ref=e1340]:
+                  - heading [level=3] [ref=e1342]:
+                    - link "VÅGSTRANDA, Pocket sprung mattress, firm/light blue, 90x200 cm" [ref=e1344] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vagstranda-pocket-sprung-mattress-firm-light-blue-40470391/
+                      - text: VÅGSTRANDA
+                    - generic [ref=e1345]: Pocket sprung mattress, firm/light blue, 90x200 cm
+                  - generic [ref=e1347]:
+                    - generic [ref=e1349]:
+                      - generic [ref=e1350]: EGP17,995
+                      - generic [ref=e1352]: EGP 17995
+                    - generic [ref=e1354]:
+                      - generic [ref=e1355]: EGP13,995
+                      - generic [ref=e1357]: Price EGP 13995
+                  - generic [ref=e1358]: 22% off, save EGP4,000
+                  - paragraph [ref=e1362]: Limited time offer
+                - 'button "Review: 3.9 out of 5 stars. Total reviews: (17)" [ref=e1363] [cursor=pointer]':
+                  - generic [ref=e1364]: "Review: 3.9 out of 5 stars. Total reviews:"
+                  - generic [ref=e1365]: (17)
+                - button "Save \"VÅGSTRANDA Pocket sprung mattress\" to shopping list" [ref=e1368] [cursor=pointer]
+                - generic [ref=e1369]: Currently unavailable for delivery
+                - generic [ref=e1373]:
+                  - generic [ref=e1374]: Pocket springs
+                  - generic [ref=e1379]: Firm
+                - generic [ref=e1383]:
+                  - heading "More options" [level=4] [ref=e1384]
+                  - paragraph [ref=e1385]:
+                    - link "3 sizes, 2 levels of firmness" [ref=e1386] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vagstranda-pocket-sprung-mattress-firm-light-blue-40470391/
+            - generic [ref=e1387]:
+              - paragraph [ref=e1388]: Showing 24 of 33 results
+              - progressbar [ref=e1389]
+              - link "Show more products" [ref=e1390] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/?page=2#products-page-2
+                - generic: Show more
+      - generic [ref=e1393]:
+        - generic [ref=e1398]:
+          - generic [ref=e1399]:
+            - generic [ref=e1400]:
+              - heading "Pocket spring mattresses – for motion-free slumber" [level=2] [ref=e1401]
+              - paragraph
+              - generic [ref=e1402]:
+                - paragraph [ref=e1403]: Experience true comfort with our pocket spring mattresses. Individually pocketed springs move independently, minimizing motion transfer and evenly distributing weight for pressure relief. Topped with foam, they offer optimal support.
+                - paragraph [ref=e1404]: "Some other benefits of our pocket spring mattresses:"
+                - list [ref=e1405]:
+                  - listitem [ref=e1406]:
+                    - strong [ref=e1407]: "Tailored support:"
+                    - text: they feature tailored comfort zones, offering targeted support for hips and shoulders, encouraging natural spinal alignment for a more relaxed sleep.
+                  - listitem [ref=e1408]:
+                    - strong [ref=e1409]: "Sleep harmony:"
+                    - text: say goodbye to sleep disturbances from tossing and turning partners.
+                  - listitem [ref=e1410]:
+                    - strong [ref=e1411]: "Breathable design:"
+                    - text: enjoy a fresh sleep environment thanks to enhanced air circulation.
+                  - listitem [ref=e1412]:
+                    - strong [ref=e1413]: "Easy care:"
+                    - text: the removable top cover makes it simple to keep your sleep sanctuary clean.
+                  - listitem [ref=e1414]:
+                    - strong [ref=e1415]: "Assured quality:"
+                    - text: rest easy knowing that our mattresses come with a 10-year guarantee.
+              - paragraph
+            - link "See all spring mattresses" [ref=e1416] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/spring-mattresses-24828/
+          - generic [ref=e1426]:
+            - button "Hide price tags on image 1" [ref=e1427] [cursor=pointer]:
+              - img "The foot end of a bed, with the corner of the pocket spring mattress cut out to show the layers and spring pockets inside." [ref=e1429]
+            - generic:
+              - list "Products shown in image"
+        - generic [ref=e1434]:
+          - generic [ref=e1435]:
+            - generic [ref=e1436]:
+              - heading "Foam mattresses – soft, body-conforming comfort" [level=2] [ref=e1437]
+              - paragraph
+              - generic [ref=e1438]:
+                - paragraph [ref=e1439]: Our foam mattresses combine memory foam, Plush foam, and high-resilience foam for the perfect blend of comfort. Each layer supports, conforms, and relieves pressure, starting with a sturdy base and topped with soft memory foam for a unique comfort experience.
+                - paragraph [ref=e1440]: "Some other benefits of our foam mattresses:"
+                - list [ref=e1441]:
+                  - listitem [ref=e1442]:
+                    - strong [ref=e1443]: "Targeted support:"
+                    - text: tailored with five comfort zones, designed to alleviate stress on your body’s most pressured areas, promoting a naturally aligned spine.
+                  - listitem [ref=e1444]:
+                    - strong [ref=e1445]: "Quilted for quality:"
+                    - text: the soft, quilted cover is generously padded for extra comfort and designed to flex with you as you move.
+                  - listitem [ref=e1446]:
+                    - strong [ref=e1447]: "Assured quality:"
+                    - text: rest easy knowing that our mattresses come with a 10-year guarantee.
+              - paragraph
+            - link "See all foam mattresses" [ref=e1448] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/foam-latex-mattresses-24823/
+          - img "The foot end of a bed, with the corner of the foam mattress cut out to show the layers of different types of foam inside." [ref=e1456]
+        - generic [ref=e1461]:
+          - generic [ref=e1463]:
+            - heading "Get 3,650 good sleeps (at least)" [level=2] [ref=e1464]
+            - paragraph
+            - paragraph [ref=e1466]: The VESTERÖY pocket spring mattress offers comfortable support with a 10-year guarantee. That means, you can look forward to thousands of reliably sweet dreams, and that’s not including naps.
+            - paragraph
+          - generic [ref=e1469]:
+            - generic [ref=e1474]:
+              - button "Hide price tags on image 1" [ref=e1475] [cursor=pointer]:
+                - img "A close-up of the corners of 2 stacked VESTERÖY pocket spring mattresses with an orange throw draped over an edge." [ref=e1477]
+              - generic:
+                - list "Products shown in image"
+            - generic [ref=e1482]:
+              - button "Hide price tags on image 2" [ref=e1483] [cursor=pointer]:
+                - img "The end of a bedframe with a VESERÖY pocket spring mattress. Socked feet are propped up on a duvet on the mattress." [ref=e1485]
+              - generic:
+                - list "Products shown in image"
+        - generic [ref=e1490]:
+          - heading "Comfort guide – find the mattress of your dreams" [level=2] [ref=e1493]
+          - link "Opens in a new tab or window" [ref=e1495] [cursor=pointer]:
+            - /url: https://www.ikea.com/addon-app/guida/comfort-guide/web/latest/eg/en/
+            - generic [ref=e1496]:
+              - generic [ref=e1501]:
+                - generic [ref=e1502]: 3 simple questions to quality sleep
+                - generic [ref=e1503]: Every body, sleep style and sleep environment are different. That’s why we’ve developed a planning tool to provide you with a mattress based on your unique preferences.
+              - img "Close-up of beige bed frame with blue and white mattress, light blue sheets in a pile on top of it and a window behind." [ref=e1510]
+      - heading "Recommended for you" [level=2] [ref=e1512]
+    - generic [ref=e1516]:
+      - paragraph [ref=e1517]: A good night’s sleep is essential for your overall health and productivity, influencing everything from your mood to your physical well-being. Even the smallest unimportant details can prevent you from achieving the deep sleep you need. With overwhelming mattress choices available today, selecting the right one can feel like a challenge.
+      - paragraph [ref=e1518]: At IKEA, we have invested years in crafting a diverse range of high-quality mattresses designed to meet your unique requirements. This guide will help you navigate through various options, discussing everything from materials to how to match your mattress with your sleep style and body type. Let us accompany you on your quest for the perfect mattress that promises both comfort and durability, ensuring you wake up refreshed each morning.
+      - paragraph [ref=e1519]: IKEA’s selection of mattresses is distinguished by several factors. Customers enjoy a 10-year warranty and the chance to test their choice for 90 days. Our range includes mattresses that cater to various body types and weights, specifically designed to relieve lower back pain. Choose from hybrid models, pocket spring mattresses, memory foam, latex options, and even specialized mattresses for children.
+      - paragraph [ref=e1520]: Pocket spring mattresses are engineered to evenly distribute body weight while enhancing airflow, providing a revitalizing sleep experience. Available in multiple sizes and thicknesses, you can select between firm and medium-firm levels for optimal support. These mattresses adapt seamlessly to your movements during the night, ensuring consistent comfort. Foam mattresses, known for their softness, help in evenly distributing body weight and promoting healthy blood circulation.
+      - paragraph [ref=e1521]: "No matter the type you choose, every IKEA mattress is crafted from durable materials built to last. We provide a wide variety of mattresses in single, double, queen, and king sizes to suit your diverse bed frames. Additionally, our collection includes foam and latex mattresses, made from various types of foam such as memory foam, which provides exceptional support by gently corresponding to your body. This feature minimizes motion transfer, ensuring you have a peaceful sleep experience. Our selection also includes mattresses for children that are specifically designed for cots and kids' beds, featuring secure designs and removable covers for easy washing. It’s important to choose a mattress that offers long-lasting comfort for your little ones. If you’re wondering how to choose the ideal mattress for optimal comfort, consider that your choice can significantly influence the quality of your sleep. Keep the following key factors in mind during your decision-making process—there’s no definitive answer here, as it ultimately depends on your personal preferences:"
+      - list [ref=e1522]:
+        - listitem [ref=e1523]: "How firm you like mattress: Mattresses come in a range of firmness levels, from soft to extra-firm, allowing you to find the ideal comfort and support balance."
+        - listitem [ref=e1524]: "Size and Dimension: Available in sizes ranging from compact singles to spacious kings, you can find mattresses that fit your bedroom and lifestyle."
+        - listitem [ref=e1525]: "Budget: Mattress prices can vary significantly, so there are options available for every budget while maintaining quality and comfort. Remember, these aspects are subjective and based on your tastes and preferences! With IKEA’s vast selection of mattresses, you’re sure to land on the perfect fit for your comfort, style, and budget."
+      - paragraph [ref=e1526]: Your mattress shopping is never complete without adding a couple of mattress protectors. These protectors guarantee a smooth, clean mattress almost all the time. Designed for convenience, they’re easy to put on, remove, and wash, offering the perfect finishing touch to your bed.
+    - list [ref=e1528]:
+      - listitem [ref=e1529]:
+        - link "140x200 cm mattresses" [ref=e1530] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/140x200-mattress-f-typed-reference-measurement--140x200-mattresses/
+      - listitem [ref=e1532]:
+        - link "160x200 cm mattresses" [ref=e1533] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/160x200-mattress-f-typed-reference-measurement--160x200-mattresses/
+      - listitem [ref=e1535]:
+        - link "180x200 cm mattresses" [ref=e1536] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/mattress-180x200-f-typed-reference-measurement--180x200-mattresses/
+      - listitem [ref=e1538]:
+        - link "80x200 cm mattresses" [ref=e1539] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/80x200-mattress-f-typed-reference-measurement--80x200-mattresses/
+      - listitem [ref=e1541]:
+        - link "90x200 cm mattresses" [ref=e1542] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/90x200-mattress-f-typed-reference-measurement--90x200-mattresses/
+      - listitem [ref=e1544]:
+        - link "Firm Mattresses" [ref=e1545] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/firm-mattress-f-firmness--47465/
+      - listitem [ref=e1547]:
+        - link "Medium Firm Mattresses" [ref=e1548] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/f/medium-firm-mattress-f-firmness--47473/
+  - generic [ref=e1550]:
+    - generic:
+      - complementary
+    - contentinfo [ref=e1551]:
+      - generic [ref=e1552]:
+        - heading "Footer" [level=2] [ref=e1553]
+        - generic [ref=e1554]:
+          - list [ref=e1556]:
+            - listitem [ref=e1557]:
+              - heading "Useful links" [level=3] [ref=e1558]
+              - list "Useful links Brochures IKEA shopping app Planning tools Stores IKEA restaurant IKEA Family" [ref=e1559]:
+                - listitem [ref=e1560]:
+                  - link "Brochures" [ref=e1561] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/brochures/
+                - listitem [ref=e1562]:
+                  - link "IKEA shopping app" [ref=e1563] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/free-ikea-apps-pubc9ac6ea1/
+                - listitem [ref=e1564]:
+                  - link "Planning tools" [ref=e1565] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/planners/
+                - listitem [ref=e1566]:
+                  - link "Stores" [ref=e1567] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/
+                - listitem [ref=e1568]:
+                  - link "IKEA restaurant" [ref=e1569] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/restaurant/
+                - listitem [ref=e1570]:
+                  - link "IKEA Family" [ref=e1571] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/ikea-family/
+            - listitem [ref=e1572]:
+              - heading "Customer service" [level=3] [ref=e1573]
+              - list "Customer service Terms and conditions Guarantees & warranties Spare parts About services About shopping Return policy Contact us FAQ" [ref=e1574]:
+                - listitem [ref=e1575]:
+                  - link "Terms and conditions" [ref=e1576] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+                - listitem [ref=e1577]:
+                  - link "Guarantees & warranties" [ref=e1578] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/guarantee/
+                - listitem [ref=e1579]:
+                  - link "Spare parts" [ref=e1580] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/spareparts/
+                - listitem [ref=e1581]:
+                  - link "About services" [ref=e1582] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/
+                - listitem [ref=e1583]:
+                  - link "About shopping" [ref=e1584] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/
+                - listitem [ref=e1585]:
+                  - link "Return policy" [ref=e1586] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/
+                - listitem [ref=e1587]:
+                  - link "Contact us" [ref=e1588] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/contact-us/
+                - listitem [ref=e1589]:
+                  - link "FAQ" [ref=e1590] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/faq/
+            - listitem [ref=e1591]:
+              - heading "This is IKEA" [level=3] [ref=e1592]
+              - list "This is IKEA About IKEA Democratic design Sustainable everyday Community engagement Working at IKEA" [ref=e1593]:
+                - listitem [ref=e1594]:
+                  - link "About IKEA" [ref=e1595] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/
+                - listitem [ref=e1596]:
+                  - link "Democratic design" [ref=e1597] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/design/
+                - listitem [ref=e1598]:
+                  - link "Sustainable everyday" [ref=e1599] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/sustainable-everyday/
+                - listitem [ref=e1600]:
+                  - link "Community engagement" [ref=e1601] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/community-engagement/
+                - listitem [ref=e1602]:
+                  - link "Working at IKEA" [ref=e1603] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/work-with-us/
+            - listitem [ref=e1604]:
+              - heading "General information" [level=3] [ref=e1605]
+              - list "General information Newsroom Product recalls" [ref=e1606]:
+                - listitem [ref=e1607]:
+                  - link "Newsroom" [ref=e1608] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/newsroom/
+                - listitem [ref=e1609]:
+                  - link "Product recalls" [ref=e1610] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/product-support/recalls/
+          - generic [ref=e1611]:
+            - generic [ref=e1612]:
+              - list [ref=e1613]:
+                - listitem [ref=e1614]:
+                  - link "Follow IKEA on Facebook" [ref=e1615] [cursor=pointer]:
+                    - /url: https://www.facebook.com/IKEAEgypt/
+                - listitem [ref=e1618]:
+                  - link "Follow IKEA on Instagram" [ref=e1619] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ikeaegypt/
+                - listitem [ref=e1622]:
+                  - link "Follow IKEA on Youtube" [ref=e1623] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/IKEAegypt
+                - listitem [ref=e1626]:
+                  - link "Follow IKEA on X" [ref=e1627] [cursor=pointer]:
+                    - /url: https://x.com/IKEAEgypt
+              - list [ref=e1630]:
+                - listitem [ref=e1631]:
+                  - img "AMEX" [ref=e1633]
+                - listitem [ref=e1634]:
+                  - img "visa" [ref=e1636]
+                - listitem [ref=e1637]:
+                  - img "mastercard" [ref=e1639]
+            - generic [ref=e1640]:
+              - button "Cookie settings" [ref=e1642] [cursor=pointer]
+              - button "Change language or country/region, current language is English" [ref=e1644] [cursor=pointer]:
+                - generic: EGEnglish
+        - generic [ref=e1645]:
+          - paragraph [ref=e1647]: © Inter IKEA Systems B.V. 1999-2026
+          - list [ref=e1649]:
+            - listitem [ref=e1650]:
+              - link "Privacy policy" [ref=e1651] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/privacy-policy/
+            - listitem [ref=e1652]:
+              - link "Cookie policy" [ref=e1653] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/cookie-policy/
+            - listitem [ref=e1654]:
+              - link "Terms and conditions" [ref=e1655] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+  - region "Cookie consent banner" [active] [ref=e1656]:
+    - dialog "Privacy" [ref=e1657]:
+      - generic [ref=e1659]:
+        - generic [ref=e1660]: IKEA.eg and our digital partners use cookies on this site. Some are strictly necessary to run the site and others are used for measuring site usage, enabling personalisation and for advertising, marketing and social media.
+        - generic [ref=e1664]:
+          - button "Cookies settings, Opens the preference center dialog" [ref=e1665] [cursor=pointer]: Cookies settings
+          - button "Ok" [ref=e1666] [cursor=pointer]
+  - dialog [ref=e1667]:
+    - generic [ref=e1670] [cursor=pointer]:
+      - link [ref=e1678]:
+        - /url: https://www.ikea.com/eg/en/search/?group=Sale&filters=f-availability%3AAVAILABLE_ONLINE&sort=MOST_POPULAR
+      - generic [ref=e1680]: ×

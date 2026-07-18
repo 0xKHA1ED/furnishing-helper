@@ -1,0 +1,1028 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content":
+      - /url: "#hnf-content"
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Change language or country/region, current language is English" [ref=e7] [cursor=pointer]:
+          - generic: EGEnglish
+        - button "Select store" [ref=e9] [cursor=pointer]
+      - generic [ref=e11]:
+        - link "IKEA logotype, go to start page" [ref=e13] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/
+        - search [ref=e19]:
+          - generic [ref=e20]:
+            - combobox "Search for products, inspiration or new arrivals" [ref=e21]
+            - button "Search IKEA products using a photo" [ref=e23] [cursor=pointer]
+        - navigation "Shopping links" [ref=e24]:
+          - list [ref=e25]:
+            - listitem [ref=e26]:
+              - link "Hej! Log in or sign up" [ref=e28] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/profile/login/
+            - listitem [ref=e29]:
+              - link "Shopping list" [ref=e31] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/favourites/
+            - listitem [ref=e32]:
+              - link "Shopping bag" [ref=e34] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cart/
+            - listitem [ref=e35]:
+              - button "Menu" [ref=e37] [cursor=pointer]
+              - navigation
+    - generic:
+      - complementary "Floating action buttons"
+  - main [ref=e38]:
+    - link "Skip to product list" [ref=e39] [cursor=pointer]:
+      - /url: "#product-list-skip"
+    - generic [ref=e42]:
+      - link "Free delivery" [ref=e45] [cursor=pointer]:
+        - /url: https://www.ikea.com/eg/en/campaigns/free-delivery-pub41912510/?=f-online-sellable=true
+      - heading "Products" [level=1] [ref=e49]
+      - navigation [ref=e51]:
+        - generic [ref=e52]:
+          - link [ref=e53] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/storage-organisation-st001/
+            - img "Storage furniture" [ref=e55]
+          - heading "Storage furniture" [level=2] [ref=e56]:
+            - button "Storage furniture"
+          - list "Storage furniture" [ref=e57]:
+            - listitem [ref=e58]:
+              - link "Shop all" [ref=e59] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/storage-organisation-st001/
+            - listitem [ref=e60]:
+              - link "Bookcases & shelving units" [ref=e61] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bookcases-shelving-units-st002/
+            - listitem [ref=e62]:
+              - link "Storage solution systems" [ref=e63] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/storage-solution-systems-46052/
+            - listitem [ref=e64]:
+              - link "Cabinets & cupboards" [ref=e65] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cabinets-cupboards-st003/
+            - listitem [ref=e66]:
+              - link "TV & media furniture" [ref=e67] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/tv-media-furniture-10475/
+            - listitem [ref=e68]:
+              - link "Chests of drawers & bedside tables" [ref=e69] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/chests-of-drawers-drawer-units-st004/
+            - listitem [ref=e70]:
+              - link "Wardrobes" [ref=e71] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/wardrobes-19053/
+            - listitem [ref=e72]:
+              - link "Garage storage" [ref=e73] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/garage-storage-700440/
+            - listitem [ref=e74]:
+              - link "Sideboards, buffets & console tables" [ref=e75] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/sideboards-buffets-console-tables-30454/
+            - listitem [ref=e76]:
+              - link "Outdoor storage" [ref=e77] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-storage-21958/
+            - listitem [ref=e78]:
+              - link "Trolleys" [ref=e79] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/trolleys-fu005/
+            - listitem [ref=e80]:
+              - link "Room dividers" [ref=e81] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/room-dividers-46080/
+            - listitem [ref=e82]:
+              - link "Hallway furniture sets" [ref=e83] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/hallway-furniture-sets-700411/
+            - listitem [ref=e84]:
+              - link "Filing cabinets & storage drawers" [ref=e85] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/storage-units-cabinets-10385/
+            - listitem [ref=e86]:
+              - link "Shoe cabinets" [ref=e87] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/shoe-cabinets-10456/
+            - listitem [ref=e88]:
+              - link "Children's storage & organisation" [ref=e89] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/childrens-storage-organisation-18706/
+        - generic [ref=e90]:
+          - link [ref=e91] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/tables-desks-fu004/
+            - img "Desk & desk chairs" [ref=e93]
+          - heading "Desk & desk chairs" [level=2] [ref=e94]:
+            - button "Desk & desk chairs"
+          - list "Desk & desk chairs" [ref=e95]:
+            - listitem [ref=e96]:
+              - link "Shop all" [ref=e97] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/tables-desks-fu004/
+            - listitem [ref=e98]:
+              - link "Desks & computer desks" [ref=e99] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/desks-computer-desks-20649/
+            - listitem [ref=e100]:
+              - link "Desk chairs" [ref=e101] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/desk-chairs-20652/
+            - listitem [ref=e102]:
+              - link "Gaming furniture" [ref=e103] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/gaming-furniture-55002/
+            - listitem [ref=e104]:
+              - link "Conference tables" [ref=e105] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bekant-conference-meeting-tables-54173/
+            - listitem [ref=e106]:
+              - link "Conference table & chair sets" [ref=e107] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/conference-table-chair-sets-700424/
+            - listitem [ref=e108]:
+              - link "Desk & chair sets" [ref=e109] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/desk-chair-sets-53249/
+            - listitem [ref=e110]:
+              - link "Conference chairs" [ref=e111] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/conference-chairs-47068/
+        - generic [ref=e112]:
+          - link [ref=e113] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/outdoor-products-od001/
+            - img "Outdoor products" [ref=e115]
+          - heading "Outdoor products" [level=2] [ref=e116]:
+            - button "Outdoor products"
+          - list "Outdoor products" [ref=e117]:
+            - listitem [ref=e118]:
+              - link "Shop all" [ref=e119] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-products-od001/
+            - listitem [ref=e120]:
+              - link "Outdoor furniture" [ref=e121] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-furniture-od003/
+            - listitem [ref=e122]:
+              - link "Outdoor storage" [ref=e123] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-storage-21958/
+            - listitem [ref=e124]:
+              - link "Outdoor Umbrellas" [ref=e125] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-umbrellas-17887/
+            - listitem [ref=e126]:
+              - link "Outdoor kitchen & accessories" [ref=e127] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-kitchen-accessories-700349/
+            - listitem [ref=e128]:
+              - link "Outdoor pots & accessories" [ref=e129] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-pots-accessories-31787/
+            - listitem [ref=e130]:
+              - link "Outdoor accessories" [ref=e131] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-accessories-34203/
+            - listitem [ref=e132]:
+              - link "Outdoor lighting" [ref=e133] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-lighting-17897/
+            - listitem [ref=e134]:
+              - link "Outdoor rugs" [ref=e135] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-rugs-34204/
+            - listitem [ref=e136]:
+              - link "Outdoor flooring" [ref=e137] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-flooring-21957/
+        - generic [ref=e138]:
+          - link [ref=e139] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/kitchenware-tableware-kt001/
+            - img "Kitchenware & tableware" [ref=e141]
+          - heading "Kitchenware & tableware" [level=2] [ref=e142]:
+            - button "Kitchenware & tableware"
+          - list "Kitchenware & tableware" [ref=e143]:
+            - listitem [ref=e144]:
+              - link "Shop all" [ref=e145] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchenware-tableware-kt001/
+            - listitem [ref=e146]:
+              - link "Food storage & organising" [ref=e147] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/food-storage-organising-15937/
+            - listitem [ref=e148]:
+              - link "Dinnerware" [ref=e149] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/dinnerware-18860/
+            - listitem [ref=e150]:
+              - link "Serveware" [ref=e151] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/serveware-16043/
+            - listitem [ref=e152]:
+              - link "Coffee & tea" [ref=e153] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/coffee-tea-16044/
+            - listitem [ref=e154]:
+              - link "Table linen" [ref=e155] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/table-linen-20538/
+            - listitem [ref=e156]:
+              - link "Cookware" [ref=e157] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cookware-kt003/
+            - listitem [ref=e158]:
+              - link "Glassware & jugs" [ref=e159] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/glassware-jugs-18868/
+            - listitem [ref=e160]:
+              - link "Cooking & baking utensils" [ref=e161] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cooking-baking-utensils-kt002/
+            - listitem [ref=e162]:
+              - link "Dishwashing accessories" [ref=e163] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/dishwashing-accessories-15938/
+            - listitem [ref=e164]:
+              - link "Cutlery" [ref=e165] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cutlery-18865/
+            - listitem [ref=e166]:
+              - link "Knives & chopping boards" [ref=e167] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/knives-chopping-boards-15934/
+            - listitem [ref=e168]:
+              - link "Bakeware" [ref=e169] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bakeware-20636/
+            - listitem [ref=e170]:
+              - link "Kitchen textiles" [ref=e171] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchen-textiles-18850/
+            - listitem [ref=e172]:
+              - link "Napkins & napkin holders" [ref=e173] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/napkins-napkin-holders-20560/
+            - listitem [ref=e174]:
+              - link "Children's cutlery, plates & cups" [ref=e175] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/childrens-kitchenware-tableware-18714/
+            - listitem [ref=e176]:
+              - link "Picnic & on-the-go" [ref=e177] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/picnic-outdoor-recreation-42924/
+            - listitem [ref=e178]:
+              - link "Nursing, feeding & eating" [ref=e179] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/nursing-feeding-eating-31772/
+        - generic [ref=e180]:
+          - link [ref=e181] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/decoration-de001/
+            - img "Decoration" [ref=e183]
+          - heading "Decoration" [level=2] [ref=e184]:
+            - button "Decoration"
+          - list "Decoration" [ref=e185]:
+            - listitem [ref=e186]:
+              - link "Shop all" [ref=e187] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/decoration-de001/
+            - listitem [ref=e188]:
+              - link "Frames & pictures" [ref=e189] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/frames-pictures-10757/
+            - listitem [ref=e190]:
+              - link "Plants & flowers" [ref=e191] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/plants-flowers-pp003/
+            - listitem [ref=e192]:
+              - link "Storage boxes & baskets" [ref=e193] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/storage-boxes-baskets-10550/
+            - listitem [ref=e194]:
+              - link "Flower pots & planters" [ref=e195] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/flower-pots-planters-pp004/
+            - listitem [ref=e196]:
+              - link "Mirrors" [ref=e197] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/mirrors-20489/
+            - listitem [ref=e198]:
+              - link "Candle holders, candles & tealights" [ref=e199] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/candle-holders-candles-10760/
+            - listitem [ref=e200]:
+              - link "Vases & bowls" [ref=e201] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/vases-bowls-10769/
+            - listitem [ref=e202]:
+              - link "Noticeboards" [ref=e203] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/noticeboards-10574/
+            - listitem [ref=e204]:
+              - link "Decorative accessories" [ref=e205] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/decorative-accessories-24924/
+            - listitem [ref=e206]:
+              - link "Wrapping paper, gift bags & accessories" [ref=e207] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/wrapping-paper-gift-bags-accessories-25227/
+            - listitem [ref=e208]:
+              - link "Clocks" [ref=e209] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/clocks-10759/
+            - listitem [ref=e210]:
+              - link "Home fragrance" [ref=e211] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/home-fragrance-42926/
+            - listitem [ref=e212]:
+              - link "Holiday decoration" [ref=e213] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/holiday-decoration-49149/
+        - generic [ref=e214]:
+          - link [ref=e215] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/sofas-armchairs-700640/
+            - img "Sofas & armchairs" [ref=e217]
+          - heading "Sofas & armchairs" [level=2] [ref=e218]:
+            - button "Sofas & armchairs"
+          - list "Sofas & armchairs" [ref=e219]:
+            - listitem [ref=e220]:
+              - link "Shop all" [ref=e221] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/sofas-armchairs-700640/
+            - listitem [ref=e222]:
+              - link "Sofa & armchair cushions & headrests" [ref=e223] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/sofa-cushions-57536/
+            - listitem [ref=e224]:
+              - link "Sofa & armchair legs" [ref=e225] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/extra-legs-31785/
+            - listitem [ref=e226]:
+              - link "Sofa & armchair covers" [ref=e227] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/sofa-armchair-covers-10664/
+            - listitem [ref=e228]:
+              - link "Footstools & pouffes" [ref=e229] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/footstools-pouffes-20926/
+            - listitem [ref=e230]:
+              - link "Chaise longues" [ref=e231] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/chaise-longues-57527/
+            - listitem [ref=e232]:
+              - link "Armchairs" [ref=e233] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/armchairs-chaise-longues-fu006/
+            - listitem [ref=e234]:
+              - link "Sofa-beds" [ref=e235] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/sofa-beds-10663/
+            - listitem [ref=e236]:
+              - link "Sofas" [ref=e237] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/sofas-armchairs-fu003/
+            - listitem [ref=e238]:
+              - link "Modular sofas" [ref=e239] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/sofa-modules-31786/
+        - generic [ref=e240]:
+          - link [ref=e241] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/chairs-fu002/
+            - img "Tables & chairs" [ref=e243]
+          - heading "Tables & chairs" [level=2] [ref=e244]:
+            - button "Tables & chairs"
+          - list "Tables & chairs" [ref=e245]:
+            - listitem [ref=e246]:
+              - link "Shop all" [ref=e247] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/chairs-fu002/
+            - listitem [ref=e248]:
+              - link "Dining furniture" [ref=e249] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/dining-furniture-700417/
+            - listitem [ref=e250]:
+              - link "Bar furniture" [ref=e251] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bar-furniture-16244/
+            - listitem [ref=e252]:
+              - link "Café furniture" [ref=e253] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cafe-furniture-19141/
+            - listitem [ref=e254]:
+              - link "Benches" [ref=e255] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/benches-700319/
+            - listitem [ref=e256]:
+              - link "Living Room Tables" [ref=e257] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/living-room-tables-10705/
+            - listitem [ref=e258]:
+              - link "Stools" [ref=e259] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/stools-22659/
+            - listitem [ref=e260]:
+              - link "Step stools & step ladders" [ref=e261] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/step-stools-step-ladders-20611/
+            - listitem [ref=e262]:
+              - link "Children's tables" [ref=e263] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/childrens-tables-18768/
+            - listitem [ref=e264]:
+              - link "Children's chairs" [ref=e265] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/childrens-chairs-bc004/
+            - listitem [ref=e266]:
+              - link "Baby chairs & highchairs" [ref=e267] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/baby-chairs-highchairs-45782/
+            - listitem [ref=e268]:
+              - link "Dressing table chairs & stools" [ref=e269] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/dressing-table-chairs-stools-59250/
+            - listitem [ref=e270]:
+              - link "Tables" [ref=e271] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/tables-700675/
+            - listitem [ref=e272]:
+              - link "Chairs" [ref=e273] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/chairs-700676/
+        - generic [ref=e274]:
+          - link [ref=e275] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/beds-mattresses-bm001/
+            - img "Beds & mattresses" [ref=e277]
+          - heading "Beds & mattresses" [level=2] [ref=e278]:
+            - button "Beds & mattresses"
+          - list "Beds & mattresses" [ref=e279]:
+            - listitem [ref=e280]:
+              - link "Shop all" [ref=e281] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/beds-mattresses-bm001/
+            - listitem [ref=e282]:
+              - link "Beds" [ref=e283] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/beds-bm003/
+            - listitem [ref=e284]:
+              - link "Bedding" [ref=e285] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bedding-tl004/
+            - listitem [ref=e286]:
+              - link "Mattresses" [ref=e287] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/mattresses-bm002/
+            - listitem [ref=e288]:
+              - link "Bedside tables" [ref=e289] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bedside-tables-20656/
+            - listitem [ref=e290]:
+              - link "Mattress bases" [ref=e291] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/mattress-bases-24825/
+            - listitem [ref=e292]:
+              - link "Headboards" [ref=e293] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/headboards-19064/
+            - listitem [ref=e294]:
+              - link "Under bed storage" [ref=e295] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/under-bed-storage-19059/
+            - listitem [ref=e296]:
+              - link "Bed slats" [ref=e297] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bed-slats-24827/
+            - listitem [ref=e298]:
+              - link "Bed legs" [ref=e299] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bed-legs-24822/
+            - listitem [ref=e300]:
+              - link "Beds with mattresses included" [ref=e301] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/beds-with-mattresses-included-700513/
+            - listitem [ref=e302]:
+              - link "Bed & headboard covers" [ref=e303] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bed-headboard-covers-57280/
+            - listitem [ref=e304]:
+              - link "Bedroom furniture sets" [ref=e305] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bedroom-furniture-sets-54992/
+        - generic [ref=e306]:
+          - link [ref=e307] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/textiles-tl001/
+            - img "Textiles & rugs" [ref=e309]
+          - heading "Textiles & rugs" [level=2] [ref=e310]:
+            - button "Textiles & rugs"
+          - list "Textiles & rugs" [ref=e311]:
+            - listitem [ref=e312]:
+              - link "Shop all" [ref=e313] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/textiles-tl001/
+            - listitem [ref=e314]:
+              - link "Bedding" [ref=e315] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bedding-tl004/
+            - listitem [ref=e316]:
+              - link "Cushions & cushion covers" [ref=e317] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cushions-cushion-covers-10659/
+            - listitem [ref=e318]:
+              - link "Children's textiles" [ref=e319] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/childrens-textiles-18730/
+            - listitem [ref=e320]:
+              - link "Outdoor cushions" [ref=e321] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-cushions-17893/
+            - listitem [ref=e322]:
+              - link "Blankets & throws" [ref=e323] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/blankets-throws-20528/
+            - listitem [ref=e324]:
+              - link "Table linen" [ref=e325] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/table-linen-20538/
+            - listitem [ref=e326]:
+              - link "Bath textiles" [ref=e327] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bath-textiles-tl003/
+            - listitem [ref=e328]:
+              - link "Fabrics & sewing" [ref=e329] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/fabrics-sewing-10655/
+            - listitem [ref=e330]:
+              - link "Kitchen textiles" [ref=e331] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchen-textiles-18850/
+            - listitem [ref=e332]:
+              - link "Baby textiles" [ref=e333] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/baby-textiles-18690/
+            - listitem [ref=e334]:
+              - link "Clothing & accessories" [ref=e335] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/clothing-accessories-42925/
+            - listitem [ref=e336]:
+              - link "Chair pads" [ref=e337] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/chair-pads-20542/
+            - listitem [ref=e338]:
+              - link "Rugs" [ref=e339] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/rugs-10653/
+            - listitem [ref=e340]:
+              - link "Lumbar support" [ref=e341] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/lumbar-support-700528/
+        - generic [ref=e342]:
+          - link [ref=e343] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/lighting-li001/
+            - img "Lighting" [ref=e345]
+          - heading "Lighting" [level=2] [ref=e346]:
+            - button "Lighting"
+          - list "Lighting" [ref=e347]:
+            - listitem [ref=e348]:
+              - link "Shop all" [ref=e349] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/lighting-li001/
+            - listitem [ref=e350]:
+              - link "Lamps" [ref=e351] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/lamps-li002/
+            - listitem [ref=e352]:
+              - link "Decorative lighting" [ref=e353] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/decorative-lighting-14971/
+            - listitem [ref=e354]:
+              - link "Integrated lighting" [ref=e355] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/integrated-lighting-16280/
+            - listitem [ref=e356]:
+              - link "Smart lighting" [ref=e357] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/smart-lighting-36812/
+            - listitem [ref=e358]:
+              - link "Outdoor lighting" [ref=e359] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-lighting-17897/
+            - listitem [ref=e360]:
+              - link "Bathroom lighting" [ref=e361] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-lighting-10736/
+            - listitem [ref=e362]:
+              - link "LED bulbs" [ref=e363] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/led-bulbs-20514/
+        - generic [ref=e364]:
+          - link [ref=e365] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/baby-children-bc001/
+            - img "Baby & children" [ref=e367]
+          - heading "Baby & children" [level=2] [ref=e368]:
+            - button "Baby & children"
+          - list "Baby & children" [ref=e369]:
+            - listitem [ref=e370]:
+              - link "Shop all" [ref=e371] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/baby-children-bc001/
+            - listitem [ref=e372]:
+              - link "Children" [ref=e373] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/children-bc003/
+            - listitem [ref=e374]:
+              - link "Baby" [ref=e375] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/baby-bc002/
+        - generic [ref=e376]:
+          - link [ref=e377] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/laundry-cleaning-lc001/
+            - img "Laundry & cleaning" [ref=e379]
+          - heading "Laundry & cleaning" [level=2] [ref=e380]:
+            - button "Laundry & cleaning"
+          - list "Laundry & cleaning" [ref=e381]:
+            - listitem [ref=e382]:
+              - link "Shop all" [ref=e383] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/laundry-cleaning-lc001/
+            - listitem [ref=e384]:
+              - link "Waste bins & bags" [ref=e385] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/waste-bins-bags-16213/
+            - listitem [ref=e386]:
+              - link "Dishwashing accessories" [ref=e387] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/dishwashing-accessories-15938/
+            - listitem [ref=e388]:
+              - link "Laundry cabinets & shelving" [ref=e389] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/laundry-cabinets-shelving-48925/
+            - listitem [ref=e390]:
+              - link "Laundry baskets" [ref=e391] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/laundry-baskets-20601/
+            - listitem [ref=e392]:
+              - link "Laundry accessories" [ref=e393] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/laundry-accessories-55004/
+            - listitem [ref=e394]:
+              - link "Cleaning accessories" [ref=e395] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cleaning-accessories-20609/
+            - listitem [ref=e396]:
+              - link "Drying racks" [ref=e397] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/drying-racks-20602/
+            - listitem [ref=e398]:
+              - link "Ironing boards" [ref=e399] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/ironing-boards-20608/
+            - listitem [ref=e400]:
+              - link "Washing machines & tumble dryers" [ref=e401] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/washing-machines-tumble-dryers-20826/
+        - generic [ref=e402]:
+          - link [ref=e403] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/bathroom-products-ba001/
+            - img "Bathroom products" [ref=e405]
+          - heading "Bathroom products" [level=2] [ref=e406]:
+            - button "Bathroom products"
+          - list "Bathroom products" [ref=e407]:
+            - listitem [ref=e408]:
+              - link "Shop all" [ref=e409] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-products-ba001/
+            - listitem [ref=e410]:
+              - link "Bathroom systems" [ref=e411] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-systems-700450/
+            - listitem [ref=e412]:
+              - link "Bathroom vanities" [ref=e413] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-vanities-20719/
+            - listitem [ref=e414]:
+              - link "Bathroom tall cabinets & shelving units" [ref=e415] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-shelving-units-20804/
+            - listitem [ref=e416]:
+              - link "Bathroom wall cabinets" [ref=e417] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-wall-cabinets-20808/
+            - listitem [ref=e418]:
+              - link "Bathroom storage baskets & make-up organisers" [ref=e419] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-boxes-baskets-16233/
+            - listitem [ref=e420]:
+              - link "Bathroom stools & benches" [ref=e421] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-stools-benches-20859/
+            - listitem [ref=e422]:
+              - link "Bathroom trolleys" [ref=e423] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-trolleys-20858/
+            - listitem [ref=e424]:
+              - link "Bathroom shelves & towel rails" [ref=e425] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-shelves-20615/
+            - listitem [ref=e426]:
+              - link "Bathroom mirrors" [ref=e427] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-mirrors-20490/
+            - listitem [ref=e428]:
+              - link "Bathroom accessories" [ref=e429] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-accessories-10555/
+            - listitem [ref=e430]:
+              - link "Bathroom laundry" [ref=e431] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-laundry-ba003/
+            - listitem [ref=e432]:
+              - link "Bath textiles" [ref=e433] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bath-textiles-tl003/
+            - listitem [ref=e434]:
+              - link "Bathroom lighting" [ref=e435] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-lighting-10736/
+            - listitem [ref=e436]:
+              - link "Bathroom countertops" [ref=e437] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-countertops-30565/
+            - listitem [ref=e438]:
+              - link "Bathroom sinks" [ref=e439] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-sinks-20723/
+            - listitem [ref=e440]:
+              - link "Bathroom taps" [ref=e441] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-taps-20724/
+            - listitem [ref=e442]:
+              - link "Showers" [ref=e443] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/showers-40690/
+        - generic [ref=e444]:
+          - link [ref=e445] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/small-storage-organisers-st007/
+            - img "Small storage & organisers" [ref=e447]
+          - heading "Small storage & organisers" [level=2] [ref=e448]:
+            - button "Small storage & organisers"
+          - list "Small storage & organisers" [ref=e449]:
+            - listitem [ref=e450]:
+              - link "Shop all" [ref=e451] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/small-storage-organisers-st007/
+            - listitem [ref=e452]:
+              - link "Storage boxes & baskets" [ref=e453] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/storage-boxes-baskets-10550/
+            - listitem [ref=e454]:
+              - link "Paper & media organisers" [ref=e455] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/paper-media-organisers-10551/
+            - listitem [ref=e456]:
+              - link "Clothes storage & organisers" [ref=e457] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/clothes-organisers-10452/
+            - listitem [ref=e458]:
+              - link "Sorting bins" [ref=e459] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/recycling-bins-34470/
+            - listitem [ref=e460]:
+              - link "Cable management & accessories" [ref=e461] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cable-management-accessories-16195/
+            - listitem [ref=e462]:
+              - link "Desk organisers & accessories" [ref=e463] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/desk-accessories-10573/
+            - listitem [ref=e464]:
+              - link "Hooks & wall organisation" [ref=e465] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/hooks-wall-organisation-st006/
+            - listitem [ref=e466]:
+              - link "Bags" [ref=e467] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bags-16248/
+            - listitem [ref=e468]:
+              - link "Moving supplies" [ref=e469] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/moving-supplies-46078/
+            - listitem [ref=e470]:
+              - link "Bathroom accessories" [ref=e471] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bathroom-accessories-10555/
+            - listitem [ref=e472]:
+              - link "Food storage & organising" [ref=e473] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/food-storage-organising-15937/
+        - generic [ref=e474]:
+          - link [ref=e475] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/kitchen-appliances-ka001/
+            - img "Kitchen & appliances" [ref=e477]
+          - heading "Kitchen & appliances" [level=2] [ref=e478]:
+            - button "Kitchen & appliances"
+          - list "Kitchen & appliances" [ref=e479]:
+            - listitem [ref=e480]:
+              - link "Shop all" [ref=e481] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchen-appliances-ka001/
+            - listitem [ref=e482]:
+              - link "Kitchen doors & drawer fronts" [ref=e483] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchen-doors-drawer-fronts-700293/
+            - listitem [ref=e484]:
+              - link "Kitchen cabinets" [ref=e485] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchen-cabinets-700292/
+            - listitem [ref=e486]:
+              - link "Kitchen systems" [ref=e487] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchens-ka003/
+            - listitem [ref=e488]:
+              - link "Interior fittings" [ref=e489] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/interior-fittings-24255/
+            - listitem [ref=e490]:
+              - link "Pantry" [ref=e491] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/pantry-16200/
+            - listitem [ref=e492]:
+              - link "Kitchen wall storage" [ref=e493] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchen-wall-storage-20676/
+            - listitem [ref=e494]:
+              - link "Kitchen worktops" [ref=e495] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchen-worktops-24264/
+            - listitem [ref=e496]:
+              - link "Appliances" [ref=e497] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/appliances-ka002/
+            - listitem [ref=e498]:
+              - link "Kitchen islands & trolleys" [ref=e499] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchen-islands-trolleys-10471/
+            - listitem [ref=e500]:
+              - link "Knobs & handles" [ref=e501] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/knobs-handles-16298/
+            - listitem [ref=e502]:
+              - link "Kitchen lighting" [ref=e503] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchen-lighting-16282/
+            - listitem [ref=e504]:
+              - link "Splashbacks & wall panels" [ref=e505] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/splashbacks-wall-panels-19121/
+            - listitem [ref=e506]:
+              - link "Kitchenettes" [ref=e507] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/unit-kitchens-22957/
+            - listitem [ref=e508]:
+              - link "METOD shelves & drawers" [ref=e509] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/metod-shelves-drawers-49117/
+            - listitem [ref=e510]:
+              - link "Kitchen sinks" [ref=e511] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/kitchen-sinks-24263/
+            - listitem [ref=e512]:
+              - link "Kitchen taps" [ref=e513] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/mixer-taps-10482/
+        - generic [ref=e514]:
+          - link [ref=e515] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/smart-home-hs001/
+            - img "Smart home" [ref=e517]
+          - heading "Smart home" [level=2] [ref=e518]:
+            - button "Smart home"
+          - list "Smart home" [ref=e519]:
+            - listitem [ref=e520]:
+              - link "Shop all" [ref=e521] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/smart-home-hs001/
+            - listitem [ref=e522]:
+              - link "Smart air purifiers, filters & accessories" [ref=e523] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/smart-air-purifiers-56472/
+            - listitem [ref=e524]:
+              - link "Smart lighting" [ref=e525] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/smart-lighting-36812/
+            - listitem [ref=e526]:
+              - link "Smart hub & remote control light switch" [ref=e527] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/steering-devices-accessories-36814/
+        - generic [ref=e528]:
+          - link [ref=e529] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/pet-products-pt001/
+            - img "Pet products" [ref=e531]
+          - heading "Pet products" [level=2] [ref=e532]:
+            - button "Pet products"
+          - list "Pet products" [ref=e533]:
+            - listitem [ref=e534]:
+              - link "Shop all" [ref=e535] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/pet-products-pt001/
+            - listitem [ref=e536]:
+              - link "Cats" [ref=e537] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cats-39569/
+            - listitem [ref=e538]:
+              - link "Dogs" [ref=e539] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/dogs-39570/
+        - generic [ref=e540]:
+          - link [ref=e541] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/pots-plants-pp001/
+            - img "Pots & plants" [ref=e543]
+          - heading "Pots & plants" [level=2] [ref=e544]:
+            - button "Pots & plants"
+          - list "Pots & plants" [ref=e545]:
+            - listitem [ref=e546]:
+              - link "Shop all" [ref=e547] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/pots-plants-pp001/
+            - listitem [ref=e548]:
+              - link "Plants & flowers" [ref=e549] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/plants-flowers-pp003/
+            - listitem [ref=e550]:
+              - link "Flower pots & planters" [ref=e551] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/flower-pots-planters-pp004/
+            - listitem [ref=e552]:
+              - link "Plant stands & movers" [ref=e553] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/plant-stands-movers-20494/
+            - listitem [ref=e554]:
+              - link "Growing accessories" [ref=e555] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/growing-accessories-24887/
+            - listitem [ref=e556]:
+              - link "Watering cans" [ref=e557] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/watering-cans-20493/
+            - listitem [ref=e558]:
+              - link "Spray bottles & misters" [ref=e559] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/spray-bottles-misters-700778/
+        - generic [ref=e560]:
+          - link [ref=e561] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/home-improvement-hi001/
+            - img "Home improvement" [ref=e563]
+          - heading "Home improvement" [level=2] [ref=e564]:
+            - button "Home improvement"
+          - list "Home improvement" [ref=e565]:
+            - listitem [ref=e566]:
+              - link "Shop all" [ref=e567] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/home-improvement-hi001/
+            - listitem [ref=e568]:
+              - link "SKYTTA sliding door system" [ref=e569] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/skytta-sliding-door-system-55984/
+            - listitem [ref=e570]:
+              - link "Knobs & handles" [ref=e571] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/knobs-handles-16298/
+            - listitem [ref=e572]:
+              - link "Outdoor flooring" [ref=e573] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/outdoor-flooring-21957/
+            - listitem [ref=e574]:
+              - link "Tools & fittings" [ref=e575] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/tools-fittings-16292/
+            - listitem [ref=e576]:
+              - link "Moving supplies" [ref=e577] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/moving-supplies-46078/
+            - listitem [ref=e578]:
+              - link "Splashbacks & wall panels" [ref=e579] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/splashbacks-wall-panels-19121/
+            - listitem [ref=e580]:
+              - link "Oils, stains & product care" [ref=e581] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/oils-stains-product-care-42948/
+            - listitem [ref=e582]:
+              - link "Noise reducing products" [ref=e583] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/acoustic-panels-46077/
+            - listitem [ref=e584]:
+              - link "Safety products" [ref=e585] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/safety-products-sp001/
+            - listitem [ref=e586]:
+              - link "Taps" [ref=e587] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/taps-700718/
+        - generic [ref=e588]:
+          - link [ref=e589] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/home-electronics-he001/
+            - img "Home electronics" [ref=e591]
+          - heading "Home electronics" [level=2] [ref=e592]:
+            - button "Home electronics"
+          - list "Home electronics" [ref=e593]:
+            - listitem [ref=e594]:
+              - link "Shop all" [ref=e595] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/home-electronics-he001/
+            - listitem [ref=e596]:
+              - link "Appliances" [ref=e597] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/appliances-ka002/
+            - listitem [ref=e598]:
+              - link "Smart lighting" [ref=e599] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/smart-lighting-36812/
+            - listitem [ref=e600]:
+              - link "Cables & chargers" [ref=e601] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cables-chargers-40845/
+            - listitem [ref=e602]:
+              - link "Mobile & tablet accessories" [ref=e603] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/mobile-tablet-accessories-40843/
+            - listitem [ref=e604]:
+              - link "Air purifiers & accessories" [ref=e605] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/air-quality-products-49081/
+            - listitem [ref=e606]:
+              - link "Cable management & accessories" [ref=e607] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cable-management-accessories-16195/
+            - listitem [ref=e608]:
+              - link "Smart hub & remote control light switch" [ref=e609] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/steering-devices-accessories-36814/
+        - generic [ref=e610]:
+          - link [ref=e611] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/winter-collections-wt001/
+            - img "Winter Collections" [ref=e613]
+          - heading "Winter Collections" [level=2] [ref=e614]:
+            - button "Winter Collections"
+          - list "Winter Collections" [ref=e615]:
+            - listitem [ref=e616]:
+              - link "Shop all" [ref=e617] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/winter-collections-wt001/
+            - listitem [ref=e618]:
+              - link "Holiday lights" [ref=e619] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/holiday-lights-49150/
+            - listitem [ref=e620]:
+              - link "Holiday pots & plants" [ref=e621] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/holiday-pots-plants-49151/
+            - listitem [ref=e622]:
+              - link "Holiday decoration" [ref=e623] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/holiday-decoration-49149/
+            - listitem [ref=e624]:
+              - link "Holiday foods" [ref=e625] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/holiday-foods-49227/
+            - listitem [ref=e626]:
+              - link "Winter textiles" [ref=e627] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/winter-textiles-49152/
+            - listitem [ref=e628]:
+              - link "Holiday tableware" [ref=e629] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/holiday-tableware-49153/
+            - listitem [ref=e630]:
+              - link "Winter cooking & baking" [ref=e631] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/winter-cooking-baking-49154/
+            - listitem [ref=e632]:
+              - link "Wrapping paper, gift bags & accessories" [ref=e633] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/wrapping-paper-gift-bags-accessories-25227/
+        - generic [ref=e634]:
+          - link [ref=e635] [cursor=pointer]:
+            - /url: https://www.ikea.com/eg/en/cat/drapes-curtains-blinds-tl002/
+            - img "Curtains & blinds" [ref=e637]
+          - heading "Curtains & blinds" [level=2] [ref=e638]:
+            - button "Curtains & blinds"
+          - list "Curtains & blinds" [ref=e639]:
+            - listitem [ref=e640]:
+              - link "Shop all" [ref=e641] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/drapes-curtains-blinds-tl002/
+            - listitem [ref=e642]:
+              - link "Curtains" [ref=e643] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/curtains-10700/
+            - listitem [ref=e644]:
+              - link "Blinds" [ref=e645] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/blinds-10701/
+            - listitem [ref=e646]:
+              - link "Curtain rods & rails" [ref=e647] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/curtain-rods-rails-18891/
+            - listitem [ref=e648]:
+              - link "Sewing accessories" [ref=e649] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/sewing-accessories-14350/
+            - listitem [ref=e650]:
+              - link "Window films & accessories" [ref=e651] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/window-films-accessories-700628/
+    - paragraph [ref=e654]: Get inspired with our wide range of home products in different styles, from vintage dressing tables to modern kitchens. We also take care of the little details - that’s why our home accessories range includes rugs, candles and photo frames to help you give the final touch to your décor.
+    - generic [ref=e655]:
+      - heading "Recommended for you" [level=2] [ref=e657]
+      - heading "Recently viewed" [level=2] [ref=e662]
+  - generic [ref=e666]:
+    - generic:
+      - complementary
+    - contentinfo [ref=e667]:
+      - generic [ref=e668]:
+        - heading "Footer" [level=2] [ref=e669]
+        - generic [ref=e670]:
+          - list [ref=e672]:
+            - listitem [ref=e673]:
+              - heading "Useful links" [level=3] [ref=e674]
+              - list "Useful links Brochures IKEA shopping app Planning tools Stores IKEA restaurant IKEA Family" [ref=e675]:
+                - listitem [ref=e676]:
+                  - link "Brochures" [ref=e677] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/brochures/
+                - listitem [ref=e678]:
+                  - link "IKEA shopping app" [ref=e679] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/free-ikea-apps-pubc9ac6ea1/
+                - listitem [ref=e680]:
+                  - link "Planning tools" [ref=e681] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/planners/
+                - listitem [ref=e682]:
+                  - link "Stores" [ref=e683] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/
+                - listitem [ref=e684]:
+                  - link "IKEA restaurant" [ref=e685] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/restaurant/
+                - listitem [ref=e686]:
+                  - link "IKEA Family" [ref=e687] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/ikea-family/
+            - listitem [ref=e688]:
+              - heading "Customer service" [level=3] [ref=e689]
+              - list "Customer service Terms and conditions Guarantees & warranties Spare parts About services About shopping Return policy Contact us FAQ" [ref=e690]:
+                - listitem [ref=e691]:
+                  - link "Terms and conditions" [ref=e692] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+                - listitem [ref=e693]:
+                  - link "Guarantees & warranties" [ref=e694] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/guarantee/
+                - listitem [ref=e695]:
+                  - link "Spare parts" [ref=e696] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/spareparts/
+                - listitem [ref=e697]:
+                  - link "About services" [ref=e698] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/
+                - listitem [ref=e699]:
+                  - link "About shopping" [ref=e700] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/
+                - listitem [ref=e701]:
+                  - link "Return policy" [ref=e702] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/
+                - listitem [ref=e703]:
+                  - link "Contact us" [ref=e704] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/contact-us/
+                - listitem [ref=e705]:
+                  - link "FAQ" [ref=e706] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/faq/
+            - listitem [ref=e707]:
+              - heading "This is IKEA" [level=3] [ref=e708]
+              - list "This is IKEA About IKEA Democratic design Sustainable everyday Community engagement Working at IKEA" [ref=e709]:
+                - listitem [ref=e710]:
+                  - link "About IKEA" [ref=e711] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/
+                - listitem [ref=e712]:
+                  - link "Democratic design" [ref=e713] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/design/
+                - listitem [ref=e714]:
+                  - link "Sustainable everyday" [ref=e715] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/sustainable-everyday/
+                - listitem [ref=e716]:
+                  - link "Community engagement" [ref=e717] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/community-engagement/
+                - listitem [ref=e718]:
+                  - link "Working at IKEA" [ref=e719] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/work-with-us/
+            - listitem [ref=e720]:
+              - heading "General information" [level=3] [ref=e721]
+              - list "General information Newsroom Product recalls" [ref=e722]:
+                - listitem [ref=e723]:
+                  - link "Newsroom" [ref=e724] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/newsroom/
+                - listitem [ref=e725]:
+                  - link "Product recalls" [ref=e726] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/product-support/recalls/
+          - generic [ref=e727]:
+            - generic [ref=e728]:
+              - list [ref=e729]:
+                - listitem [ref=e730]:
+                  - link "Follow IKEA on Facebook" [ref=e731] [cursor=pointer]:
+                    - /url: https://www.facebook.com/IKEAEgypt/
+                - listitem [ref=e734]:
+                  - link "Follow IKEA on Instagram" [ref=e735] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ikeaegypt/
+                - listitem [ref=e738]:
+                  - link "Follow IKEA on Youtube" [ref=e739] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/IKEAegypt
+                - listitem [ref=e742]:
+                  - link "Follow IKEA on X" [ref=e743] [cursor=pointer]:
+                    - /url: https://x.com/IKEAEgypt
+              - list [ref=e746]:
+                - listitem [ref=e747]:
+                  - img "AMEX" [ref=e749]
+                - listitem [ref=e750]:
+                  - img "visa" [ref=e752]
+                - listitem [ref=e753]:
+                  - img "mastercard" [ref=e755]
+            - generic [ref=e756]:
+              - button "Cookie settings" [ref=e758] [cursor=pointer]
+              - button "Change language or country/region, current language is English" [ref=e760] [cursor=pointer]:
+                - generic: EGEnglish
+        - generic [ref=e761]:
+          - paragraph [ref=e763]: © Inter IKEA Systems B.V. 1999-2026
+          - list [ref=e765]:
+            - listitem [ref=e766]:
+              - link "Privacy policy" [ref=e767] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/privacy-policy/
+            - listitem [ref=e768]:
+              - link "Cookie policy" [ref=e769] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/cookie-policy/
+            - listitem [ref=e770]:
+              - link "Terms and conditions" [ref=e771] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+  - region "Cookie consent banner" [active] [ref=e772]:
+    - dialog "Privacy" [ref=e773]:
+      - generic [ref=e775]:
+        - generic [ref=e776]: IKEA.eg and our digital partners use cookies on this site. Some are strictly necessary to run the site and others are used for measuring site usage, enabling personalisation and for advertising, marketing and social media.
+        - generic [ref=e780]:
+          - button "Cookies settings, Opens the preference center dialog" [ref=e781] [cursor=pointer]: Cookies settings
+          - button "Ok" [ref=e782] [cursor=pointer]

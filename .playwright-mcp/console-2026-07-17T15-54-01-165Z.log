@@ -1,0 +1,10 @@
+[     703ms] ReferenceError: _satellite is not defined
+    at Object.initPageBottom (https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:2094)
+    at Object.init (https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:1588)
+    at https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:3056
+    at https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:3064
+[    2502ms] [ERROR] GA error: Configuration and pageview not sent @ https://www.ikea.com/eg/en/analytics/scripts/ga-main.f1672bc1.js:0
+[    2536ms] [LOG] secondary key value eg_en @ https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1
+[    7163ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://feedback.ikea.com/jfe/themes/base-css/basestyles-lfe/version-1757022014191-805822/files/external-link-icon.woff @ https://feedback.ikea.com/jfe/static/dist/c/prototype.6dd26e42a6bd6438b7cd.min.js:1
+[    8662ms] [LOG] ERROR: Function not defined! @ :1
+[    8776ms] [WARNING] CarouselAnswerListFieldset not found - revealing without sync @ :1053

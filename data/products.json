@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-17",
+  "currency": "EGP",
+  "products": [
+    {
+      "id": "fridge_ariston_420_art70",
+      "name": "Ariston ART70 F1422D XDI NoFrost Top Freezer",
+      "category": "fridge",
+      "price": 25999,
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/c/large-home-appliances/refrigerators",
+      "energy": "Inverter motor",
+      "capacity": "420 L top freezer",
+      "warranty": "Check at purchase (authorized dealer)",
+      "pros": [
+        "Strong total capacity for weekly prep + bulk shop",
+        "Inverter in ~26k band",
+        "Within budget mid-band"
+      ],
+      "cons": [
+        "Top freezer — crouch for frozen meal-prep",
+        "Confirm exact freezer liters in-store"
+      ],
+      "score": 8.5,
+      "notes": "Lifestyle fit: Friday prep + big shop. Capacity wins vs smaller bottom-freezer options.",
+      "status": "finalist",
+      "fitForLifestyle": "high",
+      "scrapedAt": "2026-07-17",
+      "priceNote": "B.TECH listing price; re-verify before buy (checkout extras may apply)"
+    },
+    {
+      "id": "fridge_samsung_rb34_340",
+      "name": "Samsung RB34C672EB1 NoFrost Bottom Freezer Inverter",
+      "category": "fridge",
+      "price": 30999,
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/c/large-home-appliances/refrigerators",
+      "energy": "Inverter motor",
+      "capacity": "340 L bottom freezer",
+      "warranty": "Check at purchase",
+      "pros": [
+        "Bottom freezer — fridge at eye level for daily prep containers",
+        "Inverter + brand service network in Egypt",
+        "Listing mentions extra checkout discount"
+      ],
+      "cons": [
+        "Only 340 L — tighter for week-long prep + bulk shop",
+        "Near top of 20–35k band"
+      ],
+      "score": 7.5,
+      "notes": "Best ergonomics for organized leftovers; capacity is the tradeoff for batch freezers.",
+      "status": "deferred",
+      "fitForLifestyle": "medium_high",
+      "scrapedAt": "2026-07-17",
+      "notes2": "Deferred: user chose max space over bottom-freezer ergonomics"
+    },
+    {
+      "id": "fridge_fresh_397_fnt",
+      "name": "Fresh FNT-BS470KT NoFrost Top Freezer",
+      "category": "fridge",
+      "price": 21319,
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/c/large-home-appliances/refrigerators",
+      "energy": "NoFrost (confirm inverter on exact SKU)",
+      "capacity": "397 L top freezer",
+      "warranty": "Check at purchase — Fresh is common local brand",
+      "pros": [
+        "Lots of liters per EGP",
+        "Near bottom of budget band — frees money for AC/washer",
+        "Listing mentions extra checkout off"
+      ],
+      "cons": [
+        "Service/resale perception vs Samsung/LG/Ariston",
+        "Confirm inverter + noise in showroom"
+      ],
+      "score": 7.8,
+      "notes": "Value pick if you want max space and save budget for climate (Oct 6 summers).",
+      "status": "backup",
+      "fitForLifestyle": "high_value",
+      "scrapedAt": "2026-07-17"
+    },
+    {
+      "id": "fridge_beko_367_bottom",
+      "name": "Beko RCNE367E30XBRI NoFrost Bottom Freezer",
+      "category": "fridge",
+      "price": 28863,
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/c/large-home-appliances/refrigerators",
+      "energy": "Confirm on SKU",
+      "capacity": "367 L bottom freezer",
+      "warranty": "Check at purchase",
+      "pros": [
+        "Bottom freezer ergonomics for meal-prep",
+        "Mid capacity compromise",
+        "Dark inox finish"
+      ],
+      "cons": [
+        "Less total space than Ariston 420 in similar money",
+        "Freezer volume still limited vs bulk freezers"
+      ],
+      "score": 7.6,
+      "notes": "Middle path: better daily fridge access than top-freezer, more L than Samsung 340.",
+      "status": "deferred",
+      "fitForLifestyle": "medium_high",
+      "scrapedAt": "2026-07-17"
+    },
+    {
+      "id": "fridge_beko_rdne430_367",
+      "name": "Beko RDNE430K02DX NoFrost Top Freezer",
+      "category": "fridge",
+      "price": 24000,
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/c/large-home-appliances/refrigerators",
+      "energy": "Confirm on SKU",
+      "capacity": "367 L top freezer stainless",
+      "warranty": "Check at purchase",
+      "pros": [
+        "Solid mid price",
+        "Beko widely sold in Egypt",
+        "Stainless look"
+      ],
+      "cons": [
+        "367 L is OK not great for heavy freeze + weekly prep",
+        "Top freezer"
+      ],
+      "score": 7.2,
+      "notes": "Safe mid option; Ariston 420 offers more space for ~2k more.",
+      "status": "research",
+      "fitForLifestyle": "medium",
+      "scrapedAt": "2026-07-17"
+    },
+    {
+      "id": "fridge_lg_401_gtf402",
+      "name": "LG GTF402SBAN NoFrost Top Freezer",
+      "category": "fridge",
+      "price": 31300,
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/c/large-home-appliances/refrigerators",
+      "energy": "Confirm inverter on this exact black SKU",
+      "capacity": "401 L top freezer",
+      "warranty": "LG network — usually strong",
+      "pros": [
+        "Brand service reputation",
+        "401 L suits prep lifestyle",
+        "Within upper budget"
+      ],
+      "cons": [
+        "Pricier liters than Ariston 420 / Fresh 397",
+        "Top freezer"
+      ],
+      "score": 7.7,
+      "notes": "If brand warranty peace of mind > max liters/EGP.",
+      "status": "finalist",
+      "fitForLifestyle": "high",
+      "scrapedAt": "2026-07-17"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "fridge_round1",
+      "category": "fridge",
+      "date": "2026-07-17",
+      "productIds": [
+        "fridge_ariston_420_art70",
+        "fridge_samsung_rb34_340",
+        "fridge_fresh_397_fnt",
+        "fridge_beko_367_bottom",
+        "fridge_lg_401_gtf402"
+      ],
+      "recommendationDraft": "For Friday meal-prep + heavy freezing + rare hosting: lean Ariston 420L (space) or Fresh 397L (save money). Pick Samsung/Beko bottom-freezer only if eye-level fridge organization matters more than total/freezer volume.",
+      "source": "B.TECH category listing 2026-07-17"
+    }
+  ],
+  "researchLog": [
+    {
+      "date": "2026-07-17",
+      "action": "Scraped B.TECH refrigerators EN listing; filtered ~20–35k EGP, no dispenser, lifestyle = weekly prep + freeze heavy"
+    }
+  ]
+}

@@ -1,0 +1,1157 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content":
+      - /url: "#hnf-content"
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Change language or country/region, current language is English" [ref=e7] [cursor=pointer]:
+          - generic: EGEnglish
+        - button "Select store" [ref=e9] [cursor=pointer]
+      - generic [ref=e11]:
+        - link "IKEA logotype, go to start page" [ref=e13] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/
+        - search [ref=e19]:
+          - generic [ref=e20]:
+            - combobox "Search for products, inspiration or new arrivals" [ref=e21]
+            - button "Search IKEA products using a photo" [ref=e23] [cursor=pointer]
+        - navigation "Shopping links" [ref=e24]:
+          - list [ref=e25]:
+            - listitem [ref=e26]:
+              - link "Hej! Log in or sign up" [ref=e28] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/profile/login/
+            - listitem [ref=e29]:
+              - link "Shopping list" [ref=e31] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/favourites/
+            - listitem [ref=e32]:
+              - link "Shopping bag" [ref=e34] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cart/
+            - listitem [ref=e35]:
+              - button "Menu" [ref=e37] [cursor=pointer]
+              - navigation
+    - generic:
+      - complementary "Floating action buttons"
+  - main [ref=e38]:
+    - link "Skip to product list" [ref=e39] [cursor=pointer]:
+      - /url: "#product-list-skip"
+    - generic [ref=e42]:
+      - navigation "Breadcrumbs" [ref=e45]:
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "Products" [ref=e48] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/products-products/
+            - text: ›
+          - listitem [ref=e49]:
+            - link "Beds & mattresses" [ref=e50] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/beds-mattresses-bm001/
+            - text: ›
+          - listitem [ref=e51]:
+            - generic [ref=e52]: Beds
+      - link "Free delivery" [ref=e55] [cursor=pointer]:
+        - /url: https://www.ikea.com/eg/en/campaigns/free-delivery-pub41912510/?=f-online-sellable=true
+      - heading "Beds" [level=1] [ref=e59]
+      - generic [ref=e61]:
+        - link "Skip product categories list" [ref=e62] [cursor=pointer]:
+          - /url: "#hnf--carousel__hnf-inpage-nav-skip-btn"
+        - list [ref=e64]:
+          - listitem [ref=e65]:
+            - link "Beds & mattresses" [ref=e66] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/beds-mattresses-bm001/
+          - listitem [ref=e71]:
+            - link "Double beds" [ref=e72] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/double-beds-16284/
+          - listitem [ref=e75]:
+            - link "Sofa-beds" [ref=e76] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/sofa-beds-10663/
+          - listitem [ref=e79]:
+            - link "Beds with storage" [ref=e80] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/beds-with-storage-25205/
+          - listitem [ref=e83]:
+            - link "Divan beds" [ref=e84] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/divan-beds-28433/
+          - listitem [ref=e87]:
+            - link "Single beds" [ref=e88] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/single-beds-16285/
+          - listitem [ref=e91]:
+            - link "Guest beds & day beds" [ref=e92] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/guest-beds-day-beds-19037/
+          - listitem [ref=e95]:
+            - link "Upholstered beds" [ref=e96] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/upholstered-beds-49096/
+          - listitem [ref=e99]:
+            - link "Children's beds" [ref=e100] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/childrens-beds-18723/
+          - listitem [ref=e103]:
+            - link "Loft beds & bunk beds" [ref=e104] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/loft-beds-bunk-beds-19039/
+          - listitem [ref=e107]:
+            - link "Baby cribs & crib mattresses" [ref=e108] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/baby-cribs-crib-mattresses-18755/
+    - generic [ref=e118]:
+      - generic [ref=e120]:
+        - heading "A minimalist’s dream" [level=2] [ref=e121]
+        - paragraph
+        - paragraph [ref=e123]: With timeless design and clean lines, the sleek SLATTUM bedframe is designed to be minimalist in almost every way, even when it comes to the price. It also has a softer, secretly maximalist side, in the form of a nicely padded headboard, a generous 140 cm of sleeping space and tall legs for plenty of storage space underneath.
+        - paragraph
+      - generic [ref=e126]:
+        - generic [ref=e131]:
+          - button "Hide price tags on image 1" [ref=e132] [cursor=pointer]:
+            - img "A black SLATTUM bed, neatly made with white bed linen. Behind the bed is a rack with colour-coordinated shirts and shoes." [ref=e134]
+          - generic:
+            - list "Products shown in image":
+              - listitem:
+                - link "SLATTUM Upholstered bed frame Price EGP 14995 Product information page" [ref=e135] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-40571248/
+                - tooltip "SLATTUM Upholstered bed frame Price EGP 14995 Product information page" [ref=e136]:
+                  - generic [ref=e137]:
+                    - link "SLATTUM Upholstered bed frame Price EGP 14995" [ref=e140] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-40571248/
+                      - generic [ref=e141]:
+                        - heading "SLATTUM Upholstered bed frame" [level=3] [ref=e143]:
+                          - text: SLATTUM
+                          - generic [ref=e144]: Upholstered bed frame
+                        - emphasis [ref=e148]:
+                          - generic [ref=e149]: EGP14,995
+                          - generic [ref=e151]: Price EGP 14995
+                    - generic [ref=e155]: Product information page
+        - generic [ref=e160]:
+          - button "Hide price tags on image 2" [ref=e161] [cursor=pointer]:
+            - img "Close-up of a black SLATTUM bed, neatly made with white bed linen. A pair of blue dress shoes is underneath the bed." [ref=e163]
+          - generic:
+            - list "Products shown in image":
+              - listitem:
+                - link "SLATTUM Upholstered bed frame Price EGP 14995 Product information page" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-40571248/
+                - tooltip "SLATTUM Upholstered bed frame Price EGP 14995 Product information page" [ref=e165]:
+                  - generic [ref=e166]:
+                    - link "SLATTUM Upholstered bed frame Price EGP 14995" [ref=e169] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-40571248/
+                      - generic [ref=e170]:
+                        - heading "SLATTUM Upholstered bed frame" [level=3] [ref=e172]:
+                          - text: SLATTUM
+                          - generic [ref=e173]: Upholstered bed frame
+                        - emphasis [ref=e177]:
+                          - generic [ref=e178]: EGP14,995
+                          - generic [ref=e180]: Price EGP 14995
+                    - generic [ref=e184]: Product information page
+    - generic [ref=e185]:
+      - generic [ref=e186]:
+        - status [ref=e187]: 199 items
+        - heading "Sort and Filter" [level=2] [ref=e188]
+        - paragraph [ref=e191]:
+          - generic [ref=e192]: 199 items
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - link "Skip to results" [ref=e195] [cursor=pointer]:
+              - /url: "#product-list"
+            - list [ref=e197]:
+              - listitem [ref=e198]:
+                - heading [level=3] [ref=e199]:
+                  - button "Sort" [ref=e200] [cursor=pointer]
+              - listitem [ref=e205]:
+                - heading [level=3] [ref=e206]:
+                  - button "Size" [ref=e207] [cursor=pointer]
+              - listitem [ref=e212]:
+                - heading [level=3] [ref=e213]:
+                  - button "Category" [ref=e214] [cursor=pointer]
+              - listitem [ref=e219]:
+                - heading [level=3] [ref=e220]:
+                  - button "Colour" [ref=e221] [cursor=pointer]
+              - listitem [ref=e226]:
+                - heading [level=3] [ref=e227]:
+                  - button "Material" [ref=e228] [cursor=pointer]
+              - listitem [ref=e233]:
+                - heading [level=3] [ref=e234]:
+                  - button "Price" [ref=e235] [cursor=pointer]
+              - listitem [ref=e240]:
+                - heading [level=3] [ref=e241]:
+                  - button "Type" [ref=e242] [cursor=pointer]
+              - listitem [ref=e247]:
+                - heading [level=3] [ref=e248]:
+                  - button "Availability" [ref=e249] [cursor=pointer]
+              - listitem [ref=e254]:
+                - generic [ref=e255] [cursor=pointer]:
+                  - generic [ref=e256]:
+                    - generic [ref=e257]: Special price
+                    - generic [ref=e259]:
+                      - generic [ref=e260]: 58 products
+                      - text: "58"
+                  - generic [ref=e261]:
+                    - checkbox "Special price 58 products"
+              - listitem [ref=e263]:
+                - heading [level=3] [ref=e264]:
+                  - button "Features" [ref=e265] [cursor=pointer]
+              - listitem [ref=e270]:
+                - generic [ref=e271] [cursor=pointer]:
+                  - generic [ref=e272]:
+                    - generic [ref=e273]: Top seller
+                    - generic [ref=e275]:
+                      - generic [ref=e276]: 37 products
+                      - text: "37"
+                  - generic [ref=e277]:
+                    - checkbox "Top seller 37 products"
+              - listitem [ref=e279]:
+                - generic [ref=e280] [cursor=pointer]:
+                  - generic [ref=e281]:
+                    - generic [ref=e282]: Last chance
+                    - generic [ref=e284]:
+                      - generic [ref=e285]: 11 products
+                      - text: "11"
+                  - generic [ref=e286]:
+                    - checkbox "Last chance 11 products"
+              - listitem [ref=e288]:
+                - heading [level=3] [ref=e289]:
+                  - button "Series" [ref=e290] [cursor=pointer]
+              - listitem [ref=e295]:
+                - heading [level=3] [ref=e296]:
+                  - button "Customer rating" [ref=e297] [cursor=pointer]
+              - listitem [ref=e302]:
+                - generic [ref=e303] [cursor=pointer]:
+                  - generic [ref=e304]:
+                    - generic [ref=e305]: New products
+                    - generic [ref=e307]:
+                      - generic [ref=e308]: 24 products
+                      - text: "24"
+                  - generic [ref=e309]:
+                    - checkbox "New products 24 products"
+              - listitem [ref=e311]:
+                - generic [ref=e312] [cursor=pointer]:
+                  - generic [ref=e313]:
+                    - generic [ref=e314]: Suitable for business
+                    - generic [ref=e316]:
+                      - generic [ref=e317]: 5 products
+                      - text: "5"
+                  - generic [ref=e318]:
+                    - checkbox "Suitable for business 5 products"
+          - generic [ref=e321]:
+            - heading "Results list" [level=2] [ref=e322]
+            - generic [ref=e324]:
+              - generic [ref=e325]:
+                - generic [ref=e327]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, 140x200 cm" [ref=e328] [cursor=pointer]
+                  - generic [ref=e330]: Compare
+                - link [ref=e333] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/neiden-bed-frame-pine-70395239/
+                  - img "NEIDEN natural wood bed with white mattress" [ref=e334]
+                  - img "Modern minimalist bedroom with grid-patterned bed, wooden frames, and large mirror." [ref=e335]
+                - generic [ref=e338]:
+                  - heading [level=3] [ref=e340]:
+                    - link "NEIDEN, Bed frame, pine, 140x200 cm" [ref=e342] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/neiden-bed-frame-pine-70395239/
+                      - text: NEIDEN
+                    - generic [ref=e343]: Bed frame, pine, 140x200 cm
+                  - emphasis [ref=e347]:
+                    - generic [ref=e348]: EGP4,395
+                    - generic [ref=e350]: Price EGP 4395
+                - 'button "Review: 3.9 out of 5 stars. Total reviews: (7)" [ref=e351] [cursor=pointer]':
+                  - generic [ref=e352]: "Review: 3.9 out of 5 stars. Total reviews:"
+                  - generic [ref=e353]: (7)
+                - generic [ref=e355]:
+                  - button "Add \"NEIDEN Bed frame\" to cart" [ref=e356] [cursor=pointer]
+                  - button "Save \"NEIDEN Bed frame\" to shopping list" [ref=e357] [cursor=pointer]
+                - generic [ref=e358]: Available for delivery
+                - generic [ref=e362]:
+                  - heading "More options" [level=4] [ref=e363]
+                  - paragraph [ref=e364]:
+                    - link "2 slatted bed base types" [ref=e365] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/neiden-bed-frame-pine-70395239/
+              - generic [ref=e366]:
+                - generic [ref=e368]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, 90x200 cm" [ref=e369] [cursor=pointer]
+                  - generic [ref=e371]: Compare
+                - link [ref=e374] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/vihals-bed-frame-white-40602424/
+                  - img "White VIHALS bed frame, simple, minimalist design with clean lines." [ref=e375]
+                  - img "Modern minimalist bedroom with VIHALS bed, white linens, jute rug, beige bedside table, light floors, large window, white lamp, and wall art." [ref=e376]
+                - generic [ref=e379]:
+                  - heading [level=3] [ref=e381]:
+                    - link "VIHALS, Bed frame, white, 90x200 cm" [ref=e383] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vihals-bed-frame-white-40602424/
+                      - text: VIHALS
+                    - generic [ref=e384]: Bed frame, white, 90x200 cm
+                  - generic [ref=e388]:
+                    - generic [ref=e389]: EGP4,995
+                    - generic [ref=e391]: Price EGP 4995
+                - generic [ref=e392]:
+                  - button "Add \"VIHALS Bed frame\" to cart" [ref=e393] [cursor=pointer]
+                  - button "Save \"VIHALS Bed frame\" to shopping list" [ref=e394] [cursor=pointer]
+                - generic [ref=e395]: Available for delivery
+                - generic [ref=e399]:
+                  - heading "More options" [level=4] [ref=e400]
+                  - paragraph [ref=e401]:
+                    - link "2 slatted bed base types" [ref=e402] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vihals-bed-frame-white-40602424/
+              - generic [ref=e403]:
+                - generic [ref=e405]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, 160x200 cm" [ref=e406] [cursor=pointer]
+                  - generic [ref=e408]: Compare
+                - link [ref=e411] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/tarva-bed-frame-white-stained-s09553973/
+                  - 'img "TARVA bed: white-stained pine frame, metal screws, simple design, ideal for minimalist rooms." [ref=e412]'
+                  - img "Minimalist bedroom with TARVA white-stained pine bed, sleek headboard, & light wood stacked nightstands. Woven pendant lamp & cosy linens." [ref=e413]
+                - generic [ref=e416]:
+                  - heading [level=3] [ref=e418]:
+                    - link "TARVA, Bed frame, white stained, 160x200 cm" [ref=e420] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/tarva-bed-frame-white-stained-s09553973/
+                      - text: TARVA
+                    - generic [ref=e421]: Bed frame, white stained, 160x200 cm
+                  - generic [ref=e423]:
+                    - generic [ref=e425]:
+                      - generic [ref=e426]: EGP9,395
+                      - generic [ref=e428]: EGP 9395
+                    - generic [ref=e430]:
+                      - generic [ref=e431]: EGP7,395
+                      - generic [ref=e433]: Price EGP 7395
+                  - generic [ref=e434]: 21% off, save EGP2,000
+                  - paragraph [ref=e438]: Limited time offer
+                - 'button "Review: 4.4 out of 5 stars. Total reviews: (5)" [ref=e439] [cursor=pointer]':
+                  - generic [ref=e440]: "Review: 4.4 out of 5 stars. Total reviews:"
+                  - generic [ref=e441]: (5)
+                - generic [ref=e443]:
+                  - button "Add \"TARVA Bed frame\" to cart" [ref=e444] [cursor=pointer]
+                  - button "Save \"TARVA Bed frame\" to shopping list" [ref=e445] [cursor=pointer]
+                - generic [ref=e446]: Available for delivery
+                - generic [ref=e450]:
+                  - heading "More options" [level=4] [ref=e451]
+                  - paragraph [ref=e452]:
+                    - link "2 sizes, 2 colours, 2 slatted bed base types" [ref=e453] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/tarva-bed-frame-white-stained-s09553973/
+              - generic [ref=e454]:
+                - generic [ref=e456]:
+                  - checkbox "Compare - Select for product comparison, Upholstered bed frame, 140x200 cm" [ref=e457] [cursor=pointer]
+                  - generic [ref=e459]: Compare
+                - generic [ref=e461]:
+                  - paragraph [ref=e463]: Top seller
+                  - link [ref=e464] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-00571245/
+                    - img "Modern black bed with upholstered headboard" [ref=e465]
+                    - img "Modern bedroom with SLATTUM bed, polka dot bedding, rug, chair, pendant light, dresser, grey walls." [ref=e466]
+                - generic [ref=e469]:
+                  - heading [level=3] [ref=e471]:
+                    - link "SLATTUM, Upholstered bed frame, Vissle dark grey, 140x200 cm" [ref=e473] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-00571245/
+                      - text: SLATTUM
+                    - generic [ref=e474]: Upholstered bed frame, Vissle dark grey, 140x200 cm
+                  - emphasis [ref=e478]:
+                    - generic [ref=e479]: EGP13,495
+                    - generic [ref=e481]: Price EGP 13495
+                - 'button "Review: 4.3 out of 5 stars. Total reviews: (9)" [ref=e482] [cursor=pointer]':
+                  - generic [ref=e483]: "Review: 4.3 out of 5 stars. Total reviews:"
+                  - generic [ref=e484]: (9)
+                - generic [ref=e486]:
+                  - button "Add \"SLATTUM Upholstered bed frame\" to cart" [ref=e487] [cursor=pointer]
+                  - button "Save \"SLATTUM Upholstered bed frame\" to shopping list" [ref=e488] [cursor=pointer]
+                - generic [ref=e489]: Available for delivery
+                - generic [ref=e493]:
+                  - heading "More options" [level=4] [ref=e494]
+                  - paragraph [ref=e495]:
+                    - link "2 sizes" [ref=e496] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-00571245/
+              - generic [ref=e497]:
+                - generic [ref=e499]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, 160x200 cm" [ref=e500] [cursor=pointer]
+                  - generic [ref=e502]: Compare
+                - link [ref=e505] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/songesand-bed-frame-brown-s39241046/
+                  - img "A modern SONGESAND bed frame in brown, featuring sleek edges and high legs, perfect for modern bedrooms." [ref=e506]
+                  - img "Modern bedroom with pink walls, SONGESAND bed, large windows, and hanging lamp. Dark wood bed, white linens, two black lamps on nightstands." [ref=e507]
+                - generic [ref=e510]:
+                  - heading [level=3] [ref=e512]:
+                    - link "SONGESAND, Bed frame, brown, 160x200 cm" [ref=e514] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/songesand-bed-frame-brown-s39241046/
+                      - text: SONGESAND
+                    - generic [ref=e515]: Bed frame, brown, 160x200 cm
+                  - generic [ref=e519]:
+                    - generic [ref=e520]: EGP13,195
+                    - generic [ref=e522]: Price EGP 13195
+                - 'button "Review: 4.9 out of 5 stars. Total reviews: (7)" [ref=e523] [cursor=pointer]':
+                  - generic [ref=e524]: "Review: 4.9 out of 5 stars. Total reviews:"
+                  - generic [ref=e525]: (7)
+                - generic [ref=e527]:
+                  - button "Add \"SONGESAND Bed frame\" to cart" [ref=e528] [cursor=pointer]
+                  - button "Save \"SONGESAND Bed frame\" to shopping list" [ref=e529] [cursor=pointer]
+                - generic [ref=e530]: Available for delivery
+                - generic [ref=e534]:
+                  - heading "More options" [level=4] [ref=e535]
+                  - paragraph [ref=e536]:
+                    - link "2 sizes, 2 colours, 3 slatted bed base types" [ref=e537] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/songesand-bed-frame-brown-s39241046/
+              - generic [ref=e538]:
+                - generic [ref=e540]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, 160x200 cm" [ref=e541] [cursor=pointer]
+                  - generic [ref=e543]: Compare
+                - link [ref=e546] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/radmansoe-bed-frame-brown-walnut-effect-luroey-s29598640/
+                  - img "The RÅDMANSÖ bed a sleek, mid-century design with a warm walnut wood frame and black metal legs, showcasing a minimalist and functional aesthetic." [ref=e547]
+                  - img "RÅDMANSÖ Bed frame, brown walnut effect/Luröy, 160x200 cm" [ref=e548]
+                - generic [ref=e551]:
+                  - generic [ref=e552]:
+                    - generic [ref=e553]: New
+                    - heading [level=3] [ref=e554]:
+                      - link "RÅDMANSÖ, Bed frame, brown walnut effect/Luröy, 160x200 cm" [ref=e556] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/radmansoe-bed-frame-brown-walnut-effect-luroey-s29598640/
+                        - text: RÅDMANSÖ
+                      - generic [ref=e557]: Bed frame, brown walnut effect/Luröy, 160x200 cm
+                  - generic [ref=e561]:
+                    - generic [ref=e562]: EGP14,895
+                    - generic [ref=e564]: Price EGP 14895
+                - generic [ref=e565]:
+                  - button "Add \"RÅDMANSÖ Bed frame\" to cart" [ref=e566] [cursor=pointer]
+                  - button "Save \"RÅDMANSÖ Bed frame\" to shopping list" [ref=e567] [cursor=pointer]
+                - generic [ref=e568]: Available for delivery
+                - generic [ref=e572]:
+                  - heading "More options" [level=4] [ref=e573]
+                  - paragraph [ref=e574]:
+                    - link "2 sizes, 3 slatted bed base types" [ref=e575] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/radmansoe-bed-frame-brown-walnut-effect-luroey-s29598640/
+              - generic [ref=e576]:
+                - generic [ref=e578]:
+                  - checkbox "Compare - Select for product comparison, Bed frame with 2 storage boxes, 160x200 cm" [ref=e579] [cursor=pointer]
+                  - generic [ref=e581]: Compare
+                - link [ref=e584] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-bed-frame-with-2-storage-boxes-off-white-s49630899/
+                  - img "FÅGELFJÄLLET bed, off-white. Practical storage, classic style with timeless off-white panel design." [ref=e585]
+                  - img "FÅGELFJÄLLET Bed frame with 2 storage boxes, off-white, 160x200 cm" [ref=e586]
+                - generic [ref=e589]:
+                  - generic [ref=e590]:
+                    - generic [ref=e591]: New
+                    - heading [level=3] [ref=e592]:
+                      - link "FÅGELFJÄLLET, Bed frame with 2 storage boxes, off-white, 160x200 cm" [ref=e594] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-bed-frame-with-2-storage-boxes-off-white-s49630899/
+                        - text: FÅGELFJÄLLET
+                      - generic [ref=e595]: Bed frame with 2 storage boxes, off-white, 160x200 cm
+                  - generic [ref=e599]:
+                    - generic [ref=e600]: EGP13,595
+                    - generic [ref=e602]: Price EGP 13595
+                - generic [ref=e603]:
+                  - button "Add \"FÅGELFJÄLLET Bed frame with 2 storage boxes\" to cart" [ref=e604] [cursor=pointer]
+                  - button "Save \"FÅGELFJÄLLET Bed frame with 2 storage boxes\" to shopping list" [ref=e605] [cursor=pointer]
+                - generic [ref=e606]: Available for delivery
+                - generic [ref=e610]:
+                  - heading "More options" [level=4] [ref=e611]
+                  - paragraph [ref=e612]:
+                    - link "2 sizes, 3 slatted bed base types" [ref=e613] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-bed-frame-with-2-storage-boxes-off-white-s49630899/
+              - generic [ref=e614]:
+                - generic [ref=e616]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, 160x200 cm" [ref=e617] [cursor=pointer]
+                  - generic [ref=e619]: Compare
+                - link [ref=e622] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/vihals-bed-frame-white-60602442/
+                  - img "White VIHALS minimalist bed frame with acrylic paint and particleboard." [ref=e623]
+                  - img "Bedroom with white VIHALS bed, crisp linens, wooden chair, and woven pendant light." [ref=e624]
+                - generic [ref=e627]:
+                  - heading [level=3] [ref=e629]:
+                    - link "VIHALS, Bed frame, white, 160x200 cm" [ref=e631] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vihals-bed-frame-white-60602442/
+                      - text: VIHALS
+                    - generic [ref=e632]: Bed frame, white, 160x200 cm
+                  - generic [ref=e636]:
+                    - generic [ref=e637]: EGP8,395
+                    - generic [ref=e639]: Price EGP 8395
+                - generic [ref=e640]:
+                  - button "Add \"VIHALS Bed frame\" to cart" [ref=e641] [cursor=pointer]
+                  - button "Save \"VIHALS Bed frame\" to shopping list" [ref=e642] [cursor=pointer]
+                - generic [ref=e643]: Available for delivery
+                - generic [ref=e647]:
+                  - heading "More options" [level=4] [ref=e648]
+                  - paragraph [ref=e649]:
+                    - link "3 sizes, 2 slatted bed base types" [ref=e650] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vihals-bed-frame-white-60602442/
+              - generic [ref=e651]:
+                - generic [ref=e653]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, high, w 2 storage boxes, 90x200 cm" [ref=e654] [cursor=pointer]
+                  - generic [ref=e656]: Compare
+                - link [ref=e659] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey-s69011505/
+                  - img "Modern black bed with white mattress, sleek headboard, and under-storage drawers." [ref=e660]
+                  - img "Modern bedroom with black MALM bed, minimal bedside table, art, and large window." [ref=e661]
+                - generic [ref=e664]:
+                  - heading [level=3] [ref=e666]:
+                    - link "MALM, Bed frame, high, w 2 storage boxes, black-brown/Luröy, 90x200 cm" [ref=e668] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey-s69011505/
+                      - text: MALM
+                    - generic [ref=e669]: Bed frame, high, w 2 storage boxes, black-brown/Luröy, 90x200 cm
+                  - generic [ref=e673]:
+                    - generic [ref=e674]: EGP17,795
+                    - generic [ref=e676]: Price EGP 17795
+                - 'button "Review: 4.6 out of 5 stars. Total reviews: (9)" [ref=e677] [cursor=pointer]':
+                  - generic [ref=e678]: "Review: 4.6 out of 5 stars. Total reviews:"
+                  - generic [ref=e679]: (9)
+                - generic [ref=e681]:
+                  - button "Add \"MALM Bed frame, high, w 2 storage boxes\" to cart" [ref=e682] [cursor=pointer]
+                  - button "Save \"MALM Bed frame, high, w 2 storage boxes\" to shopping list" [ref=e683] [cursor=pointer]
+                - generic [ref=e684]: Available for delivery
+                - generic [ref=e688]:
+                  - heading "More options" [level=4] [ref=e689]
+                  - paragraph [ref=e690]:
+                    - link "2 colours, 3 slatted bed base types" [ref=e691] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey-s69011505/
+              - generic [ref=e692]:
+                - generic [ref=e694]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, 90x200 cm" [ref=e695] [cursor=pointer]
+                  - generic [ref=e697]: Compare
+                - link [ref=e700] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/neiden-bed-frame-pine-40395245/
+                  - img "NEIDEN wooden bed in natural finish, rectangular shape, simple design, with white mattress." [ref=e701]
+                  - img "Minimalist bedroom with light grey walls, a white single bed made of natural solid pine, a small black chair, and open window showing greenery." [ref=e702]
+                - generic [ref=e705]:
+                  - heading [level=3] [ref=e707]:
+                    - link "NEIDEN, Bed frame, pine, 90x200 cm" [ref=e709] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/neiden-bed-frame-pine-40395245/
+                      - text: NEIDEN
+                    - generic [ref=e710]: Bed frame, pine, 90x200 cm
+                  - emphasis [ref=e714]:
+                    - generic [ref=e715]: EGP3,695
+                    - generic [ref=e717]: Price EGP 3695
+                - 'button "Review: 4.4 out of 5 stars. Total reviews: (44)" [ref=e718] [cursor=pointer]':
+                  - generic [ref=e719]: "Review: 4.4 out of 5 stars. Total reviews:"
+                  - generic [ref=e720]: (44)
+                - generic [ref=e722]:
+                  - button "Add \"NEIDEN Bed frame\" to cart" [ref=e723] [cursor=pointer]
+                  - button "Save \"NEIDEN Bed frame\" to shopping list" [ref=e724] [cursor=pointer]
+                - generic [ref=e725]: Available for delivery
+                - generic [ref=e729]:
+                  - heading "More options" [level=4] [ref=e730]
+                  - paragraph [ref=e731]:
+                    - link "2 slatted bed base types" [ref=e732] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/neiden-bed-frame-pine-40395245/
+              - generic [ref=e733]:
+                - generic [ref=e735]:
+                  - checkbox "Compare - Select for product comparison, Upholstered bed frame, 140x200 cm" [ref=e736] [cursor=pointer]
+                  - generic [ref=e738]: Compare
+                - link [ref=e741] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/ramnefjaell-upholstered-bed-frame-klovsta-grey-white-s29560227/
+                  - img "This image shows a RAMNEFJÄLL upholstered bed frame in grey-white stripes with a curved headboard and piped edges." [ref=e742]
+                  - img "Modern bedroom with beige RAMNEFJÄLL bed and striped headboard, blue walls, and dark shelf with lamps." [ref=e743]
+                - generic [ref=e746]:
+                  - heading [level=3] [ref=e748]:
+                    - link "RAMNEFJÄLL, Upholstered bed frame, Klovsta grey/white, 140x200 cm" [ref=e750] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/ramnefjaell-upholstered-bed-frame-klovsta-grey-white-s29560227/
+                      - text: RAMNEFJÄLL
+                    - generic [ref=e751]: Upholstered bed frame, Klovsta grey/white, 140x200 cm
+                  - generic [ref=e753]:
+                    - generic [ref=e755]:
+                      - generic [ref=e756]: EGP14,395
+                      - generic [ref=e758]: EGP 14395
+                    - generic [ref=e760]:
+                      - generic [ref=e761]: EGP11,395
+                      - generic [ref=e763]: Price EGP 11395
+                  - generic [ref=e764]: 20% off, save EGP3,000
+                  - paragraph [ref=e768]: Limited time offer
+                - 'button "Review: 2 out of 5 stars. Total reviews: (2)" [ref=e769] [cursor=pointer]':
+                  - generic [ref=e770]: "Review: 2 out of 5 stars. Total reviews:"
+                  - generic [ref=e771]: (2)
+                - generic [ref=e773]:
+                  - button "Add \"RAMNEFJÄLL Upholstered bed frame\" to cart" [ref=e774] [cursor=pointer]
+                  - button "Save \"RAMNEFJÄLL Upholstered bed frame\" to shopping list" [ref=e775] [cursor=pointer]
+                - generic [ref=e776]: Available for delivery
+                - generic [ref=e780]:
+                  - heading "More options" [level=4] [ref=e781]
+                  - paragraph [ref=e782]:
+                    - link "2 sizes, 3 colours, 2 slatted bed base types" [ref=e783] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/ramnefjaell-upholstered-bed-frame-klovsta-grey-white-s29560227/
+              - generic [ref=e784]:
+                - generic [ref=e786]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, high, w 4 storage boxes, 160x200 cm" [ref=e787] [cursor=pointer]
+                  - generic [ref=e789]: Compare
+                - link [ref=e792] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-w-4-storage-boxes-white-s99931611/
+                  - img "A white MALM bed frame with a simple, modern design. It has a high headboard and four built-in storage drawers on castors for easy access." [ref=e793]
+                  - img "Modern minimalist bedroom with white MALM bed, grey linens, large windows, and hanging light fixture." [ref=e794]
+                - generic [ref=e797]:
+                  - heading [level=3] [ref=e799]:
+                    - link "MALM, Bed frame, high, w 4 storage boxes, white, 160x200 cm" [ref=e801] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-w-4-storage-boxes-white-s99931611/
+                      - text: MALM
+                    - generic [ref=e802]: Bed frame, high, w 4 storage boxes, white, 160x200 cm
+                  - generic [ref=e806]:
+                    - generic [ref=e807]: EGP27,295
+                    - generic [ref=e809]: Price EGP 27295
+                - 'button "Review: 3.8 out of 5 stars. Total reviews: (4)" [ref=e810] [cursor=pointer]':
+                  - generic [ref=e811]: "Review: 3.8 out of 5 stars. Total reviews:"
+                  - generic [ref=e812]: (4)
+                - generic [ref=e814]:
+                  - button "Add \"MALM Bed frame, high, w 4 storage boxes\" to cart" [ref=e815] [cursor=pointer]
+                  - button "Save \"MALM Bed frame, high, w 4 storage boxes\" to shopping list" [ref=e816] [cursor=pointer]
+                - generic [ref=e817]: Available for delivery
+                - generic [ref=e821]:
+                  - heading "More options" [level=4] [ref=e822]
+                  - paragraph [ref=e823]:
+                    - link "3 sizes, 2 colours, 3 slatted bed base types" [ref=e824] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-w-4-storage-boxes-white-s99931611/
+              - generic [ref=e825]:
+                - generic [ref=e827]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, 180x200 cm" [ref=e828] [cursor=pointer]
+                  - generic [ref=e830]: Compare
+                - link [ref=e833] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/mellgrund-bed-frame-off-white-luroey-s59613390/
+                  - img "White MELLGRUND metal bed with decorative headboard." [ref=e834]
+                  - img "White MELLGRUND bed with floral bedding in a bright yellow room, classic metal design." [ref=e835]
+                - generic [ref=e838]:
+                  - generic [ref=e839]:
+                    - generic [ref=e840]: New
+                    - heading [level=3] [ref=e841]:
+                      - link "MELLGRUND, Bed frame, off-white/Luröy, 180x200 cm" [ref=e843] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/mellgrund-bed-frame-off-white-luroey-s59613390/
+                        - text: MELLGRUND
+                      - generic [ref=e844]: Bed frame, off-white/Luröy, 180x200 cm
+                  - generic [ref=e848]:
+                    - generic [ref=e849]: EGP17,195
+                    - generic [ref=e851]: Price EGP 17195
+                - generic [ref=e852]:
+                  - button "Add \"MELLGRUND Bed frame\" to cart" [ref=e853] [cursor=pointer]
+                  - button "Save \"MELLGRUND Bed frame\" to shopping list" [ref=e854] [cursor=pointer]
+                - generic [ref=e855]: Available for delivery
+                - generic [ref=e859]:
+                  - heading "More options" [level=4] [ref=e860]
+                  - paragraph [ref=e861]:
+                    - link "3 sizes, 2 slatted bed base types" [ref=e862] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/mellgrund-bed-frame-off-white-luroey-s59613390/
+              - generic [ref=e863]:
+                - generic [ref=e865]:
+                  - checkbox "Compare - Select for product comparison, Day-bed frame with 3 drawers, 80x200 cm" [ref=e866] [cursor=pointer]
+                  - generic [ref=e868]: Compare
+                - generic [ref=e870]:
+                  - paragraph [ref=e872]: Top seller
+                  - link [ref=e873] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/hemnes-day-bed-frame-with-3-drawers-white-90349326/
+                    - img "White HEMNES day-bed with three drawers, wooden slatted base, vertical panel design." [ref=e874]
+                    - img "Bright bedroom with HEMNES white day-bed, large storage drawers, cushions, small table, wicker chair, shelves, and natural light from a window." [ref=e875]
+                - generic [ref=e878]:
+                  - heading [level=3] [ref=e880]:
+                    - link "HEMNES, Day-bed frame with 3 drawers, white, 80x200 cm" [ref=e882] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/hemnes-day-bed-frame-with-3-drawers-white-90349326/
+                      - text: HEMNES
+                    - generic [ref=e883]: Day-bed frame with 3 drawers, white, 80x200 cm
+                  - generic [ref=e887]:
+                    - generic [ref=e888]: EGP24,995
+                    - generic [ref=e890]: Price EGP 24995
+                - 'button "Review: 4.8 out of 5 stars. Total reviews: (8)" [ref=e891] [cursor=pointer]':
+                  - generic [ref=e892]: "Review: 4.8 out of 5 stars. Total reviews:"
+                  - generic [ref=e893]: (8)
+                - generic [ref=e895]:
+                  - button "Add \"HEMNES Day-bed frame with 3 drawers\" to cart" [ref=e896] [cursor=pointer]
+                  - button "Save \"HEMNES Day-bed frame with 3 drawers\" to shopping list" [ref=e897] [cursor=pointer]
+                - generic [ref=e898]: Available for delivery
+                - generic [ref=e902]:
+                  - heading "More options" [level=4] [ref=e903]
+                  - paragraph [ref=e904]:
+                    - link "3 colours" [ref=e905] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/hemnes-day-bed-frame-with-3-drawers-white-90349326/
+              - generic [ref=e906]:
+                - generic [ref=e908]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, high, 160x200 cm" [ref=e909] [cursor=pointer]
+                  - generic [ref=e911]: Compare
+                - link [ref=e914] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-white-luroey-s29002433/
+                  - img "White MALM bed, modern minimalist design, rectangular shape with high back, sleek white finish." [ref=e915]
+                  - img "Minimalist bedroom with grey bed, white furniture, mirror, chair. Hanging light, floating shelf with books. Calm neutrals." [ref=e916]
+                - generic [ref=e919]:
+                  - heading [level=3] [ref=e921]:
+                    - link "MALM, Bed frame, high, white/Luröy, 160x200 cm" [ref=e923] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-white-luroey-s29002433/
+                      - text: MALM
+                    - generic [ref=e924]: Bed frame, high, white/Luröy, 160x200 cm
+                  - generic [ref=e928]:
+                    - generic [ref=e929]: EGP15,695
+                    - generic [ref=e931]: Price EGP 15695
+                - 'button "Review: 4.2 out of 5 stars. Total reviews: (13)" [ref=e932] [cursor=pointer]':
+                  - generic [ref=e933]: "Review: 4.2 out of 5 stars. Total reviews:"
+                  - generic [ref=e934]: (13)
+                - generic [ref=e936]:
+                  - button "Add \"MALM Bed frame, high\" to cart" [ref=e937] [cursor=pointer]
+                  - button "Save \"MALM Bed frame, high\" to shopping list" [ref=e938] [cursor=pointer]
+                - generic [ref=e939]: Available for delivery
+                - generic [ref=e943]:
+                  - heading "More options" [level=4] [ref=e944]
+                  - paragraph [ref=e945]:
+                    - link "3 sizes, 3 colours, 3 slatted bed base types" [ref=e946] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-white-luroey-s29002433/
+              - generic [ref=e947]:
+                - generic [ref=e949]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, high, 90x200 cm" [ref=e950] [cursor=pointer]
+                  - generic [ref=e952]: Compare
+                - link [ref=e955] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-black-brown-loenset-s69019592/
+                  - img "Minimalist black wooden bed with high headboard, clean lines, adjustable bed sides, and a white mattress." [ref=e956]
+                  - img "Bedroom with MALM black bed, white linens, abstract art, wall lamp, window, plant." [ref=e957]
+                - generic [ref=e960]:
+                  - heading [level=3] [ref=e962]:
+                    - link "MALM, Bed frame, high, black-brown/Lönset, 90x200 cm" [ref=e964] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-black-brown-loenset-s69019592/
+                      - text: MALM
+                    - generic [ref=e965]: Bed frame, high, black-brown/Lönset, 90x200 cm
+                  - generic [ref=e969]:
+                    - generic [ref=e970]: EGP12,295
+                    - generic [ref=e972]: Price EGP 12295
+                - 'button "Review: 4.5 out of 5 stars. Total reviews: (21)" [ref=e973] [cursor=pointer]':
+                  - generic [ref=e974]: "Review: 4.5 out of 5 stars. Total reviews:"
+                  - generic [ref=e975]: (21)
+                - generic [ref=e977]:
+                  - button "Add \"MALM Bed frame, high\" to cart" [ref=e978] [cursor=pointer]
+                  - button "Save \"MALM Bed frame, high\" to shopping list" [ref=e979] [cursor=pointer]
+                - generic [ref=e980]: Available for delivery
+                - generic [ref=e984]:
+                  - heading "More options" [level=4] [ref=e985]
+                  - paragraph [ref=e986]:
+                    - link "3 colours, 3 slatted bed base types" [ref=e987] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-black-brown-loenset-s69019592/
+              - generic [ref=e988]:
+                - generic [ref=e990]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, high, w 2 storage boxes, 140x200 cm" [ref=e991] [cursor=pointer]
+                  - generic [ref=e993]: Compare
+                - link [ref=e996] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-w-2-storage-boxes-black-brown-s19176259/
+                  - img "A MALM black wooden bed with drawers and a headboard, showcasing a modern and minimalistic design." [ref=e997]
+                  - img "Modern grey bedroom with black MALM bed, white linens, dark wood dresser, black lamps, and wall art." [ref=e998]
+                - generic [ref=e1001]:
+                  - heading [level=3] [ref=e1003]:
+                    - link "MALM, Bed frame, high, w 2 storage boxes, black-brown, 140x200 cm" [ref=e1005] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-w-2-storage-boxes-black-brown-s19176259/
+                      - text: MALM
+                    - generic [ref=e1006]: Bed frame, high, w 2 storage boxes, black-brown, 140x200 cm
+                  - generic [ref=e1010]:
+                    - generic [ref=e1011]: EGP19,295
+                    - generic [ref=e1013]: Price EGP 19295
+                - 'button "Review: 4.6 out of 5 stars. Total reviews: (9)" [ref=e1014] [cursor=pointer]':
+                  - generic [ref=e1015]: "Review: 4.6 out of 5 stars. Total reviews:"
+                  - generic [ref=e1016]: (9)
+                - generic [ref=e1018]:
+                  - button "Add \"MALM Bed frame, high, w 2 storage boxes\" to cart" [ref=e1019] [cursor=pointer]
+                  - button "Save \"MALM Bed frame, high, w 2 storage boxes\" to shopping list" [ref=e1020] [cursor=pointer]
+                - generic [ref=e1021]: Available for delivery
+                - generic [ref=e1025]:
+                  - heading "More options" [level=4] [ref=e1026]
+                  - paragraph [ref=e1027]:
+                    - link "3 sizes, 2 colours, 3 slatted bed base types" [ref=e1028] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/malm-bed-frame-high-w-2-storage-boxes-black-brown-s19176259/
+              - generic [ref=e1029]:
+                - generic [ref=e1031]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, 160x200 cm" [ref=e1032] [cursor=pointer]
+                  - generic [ref=e1034]: Compare
+                - link [ref=e1037] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-bed-frame-off-white-luroey-s89620817/
+                  - img "FÅGELFJÄLLET white bed, classic design, wooden frame, clean lines." [ref=e1038]
+                  - img "FÅGELFJÄLLET Bed frame, off-white/Luröy, 160x200 cm" [ref=e1039]
+                - generic [ref=e1042]:
+                  - generic [ref=e1043]:
+                    - generic [ref=e1044]: New
+                    - heading [level=3] [ref=e1045]:
+                      - link "FÅGELFJÄLLET, Bed frame, off-white/Luröy, 160x200 cm" [ref=e1047] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-bed-frame-off-white-luroey-s89620817/
+                        - text: FÅGELFJÄLLET
+                      - generic [ref=e1048]: Bed frame, off-white/Luröy, 160x200 cm
+                  - generic [ref=e1052]:
+                    - generic [ref=e1053]: EGP12,995
+                    - generic [ref=e1055]: Price EGP 12995
+                - generic [ref=e1056]:
+                  - button "Add \"FÅGELFJÄLLET Bed frame\" to cart" [ref=e1057] [cursor=pointer]
+                  - button "Save \"FÅGELFJÄLLET Bed frame\" to shopping list" [ref=e1058] [cursor=pointer]
+                - generic [ref=e1059]: Available for delivery
+                - generic [ref=e1063]:
+                  - heading "More options" [level=4] [ref=e1064]
+                  - paragraph [ref=e1065]:
+                    - link "2 sizes, 3 slatted bed base types" [ref=e1066] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/fagelfjaellet-bed-frame-off-white-luroey-s89620817/
+              - generic [ref=e1067]:
+                - generic [ref=e1069]:
+                  - checkbox "Compare - Select for product comparison, Four-poster bed frame, 140x200 cm" [ref=e1070] [cursor=pointer]
+                  - generic [ref=e1072]: Compare
+                - link [ref=e1075] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/vitarna-four-poster-bed-frame-white-60573680/
+                  - img "A white VITARNA four-poster bed with a metal frame. Its minimalist and modern, ideal for small spaces." [ref=e1076]
+                  - img "Modern bedroom with VITARNA bed, navy bedding, lanterns, skylight, and storage." [ref=e1077]
+                - generic [ref=e1080]:
+                  - heading [level=3] [ref=e1082]:
+                    - link "VITARNA, Four-poster bed frame, white, 140x200 cm" [ref=e1084] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vitarna-four-poster-bed-frame-white-60573680/
+                      - text: VITARNA
+                    - generic [ref=e1085]: Four-poster bed frame, white, 140x200 cm
+                  - generic [ref=e1087]:
+                    - generic [ref=e1089]:
+                      - generic [ref=e1090]: EGP14,995
+                      - generic [ref=e1092]: EGP 14995
+                    - generic [ref=e1094]:
+                      - generic [ref=e1095]: EGP9,995
+                      - generic [ref=e1097]: Price EGP 9995
+                  - generic [ref=e1098]: 33% off, save EGP5,000
+                  - paragraph [ref=e1102]: Limited time offer
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=e1103] [cursor=pointer]':
+                  - generic [ref=e1104]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=e1105]: (1)
+                - generic [ref=e1107]:
+                  - button "Add \"VITARNA Four-poster bed frame\" to cart" [ref=e1108] [cursor=pointer]
+                  - button "Save \"VITARNA Four-poster bed frame\" to shopping list" [ref=e1109] [cursor=pointer]
+                - generic [ref=e1110]: Available for delivery
+                - generic [ref=e1114]:
+                  - heading "More options" [level=4] [ref=e1115]
+                  - paragraph [ref=e1116]:
+                    - link "2 slatted bed base types" [ref=e1117] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/vitarna-four-poster-bed-frame-white-60573680/
+              - generic [ref=e1118]:
+                - generic [ref=e1120]:
+                  - checkbox "Compare - Select for product comparison, Bed frame, 180x200 cm" [ref=e1121] [cursor=pointer]
+                  - generic [ref=e1123]: Compare
+                - generic [ref=e1125]:
+                  - paragraph [ref=e1127]: Last chance
+                  - link [ref=e1128] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/hemnes-bed-frame-grey-stained-luroey-s19247191/
+                    - img "Grey HEMNES wooden bed with visual slats; modern design, grey plaid linen." [ref=e1129]
+                    - img "Bedroom with grey HEMNES bed, pink walls, large window, and pendant light. Bed is large, wooden, with clean-lined design." [ref=e1130]
+                - generic [ref=e1133]:
+                  - generic [ref=e1134]:
+                    - generic [ref=e1135]: Price Lowered
+                    - heading [level=3] [ref=e1136]:
+                      - link "HEMNES, Bed frame, grey stained/Luröy, 180x200 cm" [ref=e1138] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/hemnes-bed-frame-grey-stained-luroey-s19247191/
+                        - text: HEMNES
+                      - generic [ref=e1139]: Bed frame, grey stained/Luröy, 180x200 cm
+                  - generic [ref=e1143]:
+                    - generic [ref=e1144]: EGP13,895
+                    - generic [ref=e1146]: Price EGP 13895
+                  - generic [ref=e1148]:
+                    - text: Previous price
+                    - generic [ref=e1149]:
+                      - generic [ref=e1150]: EGP18,895
+                      - generic [ref=e1152]: Previous price EGP 18895
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=e1153] [cursor=pointer]':
+                  - generic [ref=e1154]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=e1155]: (1)
+                - generic [ref=e1157]:
+                  - button "Add \"HEMNES Bed frame\" to cart" [ref=e1158] [cursor=pointer]
+                  - button "Save \"HEMNES Bed frame\" to shopping list" [ref=e1159] [cursor=pointer]
+                - generic [ref=e1160]: Available for delivery
+                - generic [ref=e1164]:
+                  - heading "More options" [level=4] [ref=e1165]
+                  - paragraph [ref=e1166]:
+                    - link "3 sizes, 3 slatted bed base types" [ref=e1167] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/hemnes-bed-frame-grey-stained-luroey-s19247191/
+              - generic [ref=e1168]:
+                - generic [ref=e1170]:
+                  - checkbox "Compare - Select for product comparison, Upholstered bed frame, 180x200 cm" [ref=e1171] [cursor=pointer]
+                  - generic [ref=e1173]: Compare
+                - link [ref=e1176] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/sagesund-upholstered-bed-frame-diseroed-brown-70490383/
+                  - img "Modern grey upholstered bed with cushioned headrest, wooden legs, and white mattress." [ref=e1177]
+                  - img "Modern bedroom with SAGESUND bed, sloped headboard, large painting, big window, stylish rug, and pendant light." [ref=e1178]
+                - generic [ref=e1181]:
+                  - heading [level=3] [ref=e1183]:
+                    - link "SAGESUND, Upholstered bed frame, Diseröd brown, 180x200 cm" [ref=e1185] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/sagesund-upholstered-bed-frame-diseroed-brown-70490383/
+                      - text: SAGESUND
+                    - generic [ref=e1186]: Upholstered bed frame, Diseröd brown, 180x200 cm
+                  - generic [ref=e1190]:
+                    - generic [ref=e1191]: EGP32,395
+                    - generic [ref=e1193]: Price EGP 32395
+                - 'button "Review: 5 out of 5 stars. Total reviews: (1)" [ref=e1194] [cursor=pointer]':
+                  - generic [ref=e1195]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=e1196]: (1)
+                - generic [ref=e1198]:
+                  - button "Add \"SAGESUND Upholstered bed frame\" to cart" [ref=e1199] [cursor=pointer]
+                  - button "Save \"SAGESUND Upholstered bed frame\" to shopping list" [ref=e1200] [cursor=pointer]
+                - generic [ref=e1201]: Available for delivery
+                - generic [ref=e1205]:
+                  - heading "More options" [level=4] [ref=e1206]
+                  - paragraph [ref=e1207]:
+                    - link "2 sizes, 3 slatted bed base types" [ref=e1208] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/sagesund-upholstered-bed-frame-diseroed-brown-70490383/
+              - generic [ref=e1209]:
+                - generic [ref=e1211]:
+                  - checkbox "Compare - Select for product comparison, Day-bed frame with slatted bed base, 90x200 cm" [ref=e1212] [cursor=pointer]
+                  - generic [ref=e1214]: Compare
+                - link [ref=e1217] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/ramsta-day-bed-frame-with-slatted-bed-base-white-s29179554/
+                  - img "A white RAMSTA day-bed with a grey striped mattress and pillow. It a steel frame with a classic design." [ref=e1218]
+                - generic [ref=e1221]:
+                  - heading [level=3] [ref=e1223]:
+                    - link "RAMSTA, Day-bed frame with slatted bed base, white, 90x200 cm" [ref=e1225] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/ramsta-day-bed-frame-with-slatted-bed-base-white-s29179554/
+                      - text: RAMSTA
+                    - generic [ref=e1226]: Day-bed frame with slatted bed base, white, 90x200 cm
+                  - generic [ref=e1230]:
+                    - generic [ref=e1231]: EGP12,295
+                    - generic [ref=e1233]: Price EGP 12295
+                - 'button "Review: 3.4 out of 5 stars. Total reviews: (5)" [ref=e1234] [cursor=pointer]':
+                  - generic [ref=e1235]: "Review: 3.4 out of 5 stars. Total reviews:"
+                  - generic [ref=e1236]: (5)
+                - generic [ref=e1238]:
+                  - button "Add \"RAMSTA Day-bed frame with slatted bed base\" to cart" [ref=e1239] [cursor=pointer]
+                  - button "Save \"RAMSTA Day-bed frame with slatted bed base\" to shopping list" [ref=e1240] [cursor=pointer]
+                - generic [ref=e1241]: Available for delivery
+              - generic [ref=e1245]:
+                - generic [ref=e1247]:
+                  - checkbox "Compare - Select for product comparison, Upholstered bed frame, 140x200 cm" [ref=e1248] [cursor=pointer]
+                  - generic [ref=e1250]: Compare
+                - link [ref=e1253] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-incl-slipcover-for-headboard-oereryd-grey-beige-s99613487/
+                  - img "Modern SLATTUM bed with grey headboard and metal legs." [ref=e1254]
+                  - img "Modern bedroom with dark grey SLATTUM bed, white linens, light headboard, bookshelf, dresser, pendant lamp, and corner chair." [ref=e1255]
+                - generic [ref=e1258]:
+                  - generic [ref=e1259]:
+                    - generic [ref=e1260]: New
+                    - heading [level=3] [ref=e1261]:
+                      - link "SLATTUM, Upholstered bed frame, Vissle dark grey/incl slipcover for headboard Öreryd grey/beige, 140x200 cm" [ref=e1263] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-incl-slipcover-for-headboard-oereryd-grey-beige-s99613487/
+                        - text: SLATTUM
+                      - generic [ref=e1264]: Upholstered bed frame, Vissle dark grey/incl slipcover for headboard Öreryd grey/beige, 140x200 cm
+                  - generic [ref=e1268]:
+                    - generic [ref=e1269]: EGP14,295
+                    - generic [ref=e1271]: Price EGP 14295
+                - generic [ref=e1272]:
+                  - button "Add \"SLATTUM Upholstered bed frame\" to cart" [ref=e1273] [cursor=pointer]
+                  - button "Save \"SLATTUM Upholstered bed frame\" to shopping list" [ref=e1274] [cursor=pointer]
+                - generic [ref=e1275]: Available for delivery
+                - generic [ref=e1279]:
+                  - heading "More options" [level=4] [ref=e1280]
+                  - paragraph [ref=e1281]:
+                    - link "2 sizes" [ref=e1282] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/slattum-upholstered-bed-frame-vissle-dark-grey-incl-slipcover-for-headboard-oereryd-grey-beige-s99613487/
+              - generic [ref=e1283]:
+                - generic [ref=e1285]:
+                  - checkbox "Compare - Select for product comparison, Upholstered bed frame, 140x200 cm" [ref=e1286] [cursor=pointer]
+                  - generic [ref=e1288]: Compare
+                - link [ref=e1291] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/taernkullen-upholstered-bed-frame-tibbleby-beige-grey-luroey-s19564339/
+                  - img "A TÄRNKULLEN bed frame in grey with a white mattress, featuring a soft padded headboard and wooden legs." [ref=e1292]
+                  - img "A modern, neutral grey bedroom featuring a TÄRNKULLEN bed with a padded headboard, paintings, pendant lamp, wooden dresser, and a cosy chair." [ref=e1293]
+                - generic [ref=e1296]:
+                  - heading [level=3] [ref=e1298]:
+                    - link "TÄRNKULLEN, Upholstered bed frame, Tibbleby beige/grey/Luröy, 140x200 cm" [ref=e1300] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/taernkullen-upholstered-bed-frame-tibbleby-beige-grey-luroey-s19564339/
+                      - text: TÄRNKULLEN
+                    - generic [ref=e1301]: Upholstered bed frame, Tibbleby beige/grey/Luröy, 140x200 cm
+                  - generic [ref=e1305]:
+                    - generic [ref=e1306]: EGP20,995
+                    - generic [ref=e1308]: Price EGP 20995
+                - generic [ref=e1309]:
+                  - button "Add \"TÄRNKULLEN Upholstered bed frame\" to cart" [ref=e1310] [cursor=pointer]
+                  - button "Save \"TÄRNKULLEN Upholstered bed frame\" to shopping list" [ref=e1311] [cursor=pointer]
+                - generic [ref=e1312]: Available for delivery
+                - generic [ref=e1316]:
+                  - heading "More options" [level=4] [ref=e1317]
+                  - paragraph [ref=e1318]:
+                    - link "2 sizes, 2 colours, 2 slatted bed base types" [ref=e1319] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/taernkullen-upholstered-bed-frame-tibbleby-beige-grey-luroey-s19564339/
+            - generic [ref=e1320]:
+              - paragraph [ref=e1321]: Showing 24 of 199 results
+              - progressbar [ref=e1322]
+              - link "Show more products" [ref=e1323] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/beds-bm003/?page=2#products-page-2
+                - generic: Show more
+      - generic [ref=e1331]:
+        - heading "Guides and planners" [level=2] [ref=e1334]
+        - generic [ref=e1337]:
+          - link "Skip listing" [ref=e1338] [cursor=pointer]:
+            - /url: "#pub__-carousel__fdd29929-0fb5-11f0-9283-f7790a2f229d-skip-btn"
+          - list [ref=e1340]:
+            - listitem [ref=e1341]:
+              - link "How to get better sleep – 6 keys to quality slumber One side of a RAMNEFJÄLL upholstered bed with ruffled bed linen on it and dark beige DYTÅG curtains behind it." [ref=e1343] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/rooms/bedroom/how-to/how-to-get-better-sleep-6-keys-to-quality-slumber-pub1abd4050/
+                - generic [ref=e1344]:
+                  - generic [ref=e1345]: How to get better sleep – 6 keys to quality slumber
+                  - img "One side of a RAMNEFJÄLL upholstered bed with ruffled bed linen on it and dark beige DYTÅG curtains behind it." [ref=e1357]
+            - listitem [ref=e1358]:
+              - link "How to create a cosy bed and make dreams come true Close-up of bed with a lot of pillows in different patterns and colours. Bedside table on the right." [ref=e1360] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/rooms/bedroom/how-to/how-to-create-a-cosy-bed-and-make-dreams-come-true-pubd77ba7c0/
+                - generic [ref=e1361]:
+                  - generic [ref=e1362]: How to create a cosy bed and make dreams come true
+                  - img "Close-up of bed with a lot of pillows in different patterns and colours. Bedside table on the right." [ref=e1374]
+            - listitem [ref=e1375]:
+              - link "How to get the best sleep temperature A person stands by a bed, holding a FJÄLLARNIKA warm duvet with a feather and down filling in white cotton fabric." [ref=e1377] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/rooms/bedroom/how-to/how-to-get-the-best-sleep-temperature-pub65650980/
+                - generic [ref=e1378]:
+                  - generic [ref=e1379]: How to get the best sleep temperature
+                  - img "A person stands by a bed, holding a FJÄLLARNIKA warm duvet with a feather and down filling in white cotton fabric." [ref=e1391]
+            - listitem [ref=e1392]:
+              - link "Get guidance about bed frames A Kabusa light grey GLADSTAD upholstered bed with four storage boxes dressed in grey/green ÄNGSNEJLIKA bed linen." [ref=e1394] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/rooms/bedroom/how-to/so-you-want-to-buy-a-bed-pub30c7ac50/
+                - generic [ref=e1395]:
+                  - generic [ref=e1396]: Get guidance about bed frames
+                  - img "A Kabusa light grey GLADSTAD upholstered bed with four storage boxes dressed in grey/green ÄNGSNEJLIKA bed linen." [ref=e1408]
+      - heading "Recommended for you" [level=2] [ref=e1414]
+    - list [ref=e1419]:
+      - listitem [ref=e1420]:
+        - link "140x200 cm beds" [ref=e1421] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/140x200-bed-f-typed-reference-measurement--140x200-bed-frames/
+      - listitem [ref=e1423]:
+        - link "160x200 cm bed frames" [ref=e1424] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/160x200-bed-frame-f-typed-reference-measurement--160x200-bed-frames/
+      - listitem [ref=e1426]:
+        - link "80x200 cm bed frames" [ref=e1427] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/80x200-bed-frame-f-typed-reference-measurement--80x200-bed-frames/
+      - listitem [ref=e1429]:
+        - link "90x200 cm beds" [ref=e1430] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/90x200-bed-f-typed-reference-measurement--90x200-bed-frames/
+      - listitem [ref=e1432]:
+        - link "Beds, size 180x200 cm" [ref=e1433] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/beds-size-180x200-cm-f-typed-reference-measurement--180x200-bed-frames/
+      - listitem [ref=e1435]:
+        - link "Beds, size 60x120 cm" [ref=e1436] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/beds-size-60x120-cm-f-typed-reference-measurement--60x120-bed-frames/
+      - listitem [ref=e1438]:
+        - link "Beige Bed Frames" [ref=e1439] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/beige-beds-f-colors--10003/
+      - listitem [ref=e1441]:
+        - link "Black Bed Frames" [ref=e1442] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/black-beds-f-colors--10139/
+      - listitem [ref=e1444]:
+        - link "Blue Bed Frames" [ref=e1445] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/blue-beds-f-colors--10007/
+      - listitem [ref=e1447]:
+        - link "Brown Bed Frames" [ref=e1448] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/brown-beds-f-colors--10019/
+      - listitem [ref=e1450]:
+        - link "Fabric Bed Frames" [ref=e1451] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/fabric-beds-f-materials--38828/
+      - listitem [ref=e1453]:
+        - link "Green Bed Frames" [ref=e1454] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/green-beds-f-colors--10033/
+      - listitem [ref=e1456]:
+        - link "Grey Bed Frames" [ref=e1457] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/grey-beds-f-colors--10028/
+      - listitem [ref=e1459]:
+        - link "Leather Bed Frames" [ref=e1460] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/leather-beds-f-materials--38829/
+      - listitem [ref=e1462]:
+        - link "Metal Bed Frames" [ref=e1463] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/metal-beds-f-materials--47350/
+      - listitem [ref=e1465]:
+        - link "Pink Bed Frames" [ref=e1466] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/pink-beds-f-colors--10119/
+      - listitem [ref=e1468]:
+        - link "Turquoise Bed Frames" [ref=e1469] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/turquoise-beds-f-colors--10152/
+      - listitem [ref=e1471]:
+        - link "White Bed Frames" [ref=e1472] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/white-beds-f-colors--10156/
+      - listitem [ref=e1474]:
+        - link "Wooden Bed Frames" [ref=e1475] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/beds-bm003/f/wood-beds-f-materials--47349/
+  - generic [ref=e1477]:
+    - generic:
+      - complementary
+    - contentinfo [ref=e1478]:
+      - generic [ref=e1479]:
+        - heading "Footer" [level=2] [ref=e1480]
+        - generic [ref=e1481]:
+          - list [ref=e1483]:
+            - listitem [ref=e1484]:
+              - heading "Useful links" [level=3] [ref=e1485]
+              - list "Useful links Brochures IKEA shopping app Planning tools Stores IKEA restaurant IKEA Family" [ref=e1486]:
+                - listitem [ref=e1487]:
+                  - link "Brochures" [ref=e1488] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/brochures/
+                - listitem [ref=e1489]:
+                  - link "IKEA shopping app" [ref=e1490] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/free-ikea-apps-pubc9ac6ea1/
+                - listitem [ref=e1491]:
+                  - link "Planning tools" [ref=e1492] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/planners/
+                - listitem [ref=e1493]:
+                  - link "Stores" [ref=e1494] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/
+                - listitem [ref=e1495]:
+                  - link "IKEA restaurant" [ref=e1496] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/restaurant/
+                - listitem [ref=e1497]:
+                  - link "IKEA Family" [ref=e1498] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/ikea-family/
+            - listitem [ref=e1499]:
+              - heading "Customer service" [level=3] [ref=e1500]
+              - list "Customer service Terms and conditions Guarantees & warranties Spare parts About services About shopping Return policy Contact us FAQ" [ref=e1501]:
+                - listitem [ref=e1502]:
+                  - link "Terms and conditions" [ref=e1503] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+                - listitem [ref=e1504]:
+                  - link "Guarantees & warranties" [ref=e1505] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/guarantee/
+                - listitem [ref=e1506]:
+                  - link "Spare parts" [ref=e1507] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/spareparts/
+                - listitem [ref=e1508]:
+                  - link "About services" [ref=e1509] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/
+                - listitem [ref=e1510]:
+                  - link "About shopping" [ref=e1511] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/
+                - listitem [ref=e1512]:
+                  - link "Return policy" [ref=e1513] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/
+                - listitem [ref=e1514]:
+                  - link "Contact us" [ref=e1515] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/contact-us/
+                - listitem [ref=e1516]:
+                  - link "FAQ" [ref=e1517] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/faq/
+            - listitem [ref=e1518]:
+              - heading "This is IKEA" [level=3] [ref=e1519]
+              - list "This is IKEA About IKEA Democratic design Sustainable everyday Community engagement Working at IKEA" [ref=e1520]:
+                - listitem [ref=e1521]:
+                  - link "About IKEA" [ref=e1522] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/
+                - listitem [ref=e1523]:
+                  - link "Democratic design" [ref=e1524] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/design/
+                - listitem [ref=e1525]:
+                  - link "Sustainable everyday" [ref=e1526] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/sustainable-everyday/
+                - listitem [ref=e1527]:
+                  - link "Community engagement" [ref=e1528] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/community-engagement/
+                - listitem [ref=e1529]:
+                  - link "Working at IKEA" [ref=e1530] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/work-with-us/
+            - listitem [ref=e1531]:
+              - heading "General information" [level=3] [ref=e1532]
+              - list "General information Newsroom Product recalls" [ref=e1533]:
+                - listitem [ref=e1534]:
+                  - link "Newsroom" [ref=e1535] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/newsroom/
+                - listitem [ref=e1536]:
+                  - link "Product recalls" [ref=e1537] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/product-support/recalls/
+          - generic [ref=e1538]:
+            - generic [ref=e1539]:
+              - list [ref=e1540]:
+                - listitem [ref=e1541]:
+                  - link "Follow IKEA on Facebook" [ref=e1542] [cursor=pointer]:
+                    - /url: https://www.facebook.com/IKEAEgypt/
+                - listitem [ref=e1545]:
+                  - link "Follow IKEA on Instagram" [ref=e1546] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ikeaegypt/
+                - listitem [ref=e1549]:
+                  - link "Follow IKEA on Youtube" [ref=e1550] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/IKEAegypt
+                - listitem [ref=e1553]:
+                  - link "Follow IKEA on X" [ref=e1554] [cursor=pointer]:
+                    - /url: https://x.com/IKEAEgypt
+              - list [ref=e1557]:
+                - listitem [ref=e1558]:
+                  - img "AMEX" [ref=e1560]
+                - listitem [ref=e1561]:
+                  - img "visa" [ref=e1563]
+                - listitem [ref=e1564]:
+                  - img "mastercard" [ref=e1566]
+            - generic [ref=e1567]:
+              - button "Cookie settings" [ref=e1569] [cursor=pointer]
+              - button "Change language or country/region, current language is English" [ref=e1571] [cursor=pointer]:
+                - generic: EGEnglish
+        - generic [ref=e1572]:
+          - paragraph [ref=e1574]: © Inter IKEA Systems B.V. 1999-2026
+          - list [ref=e1576]:
+            - listitem [ref=e1577]:
+              - link "Privacy policy" [ref=e1578] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/privacy-policy/
+            - listitem [ref=e1579]:
+              - link "Cookie policy" [ref=e1580] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/cookie-policy/
+            - listitem [ref=e1581]:
+              - link "Terms and conditions" [ref=e1582] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+  - region "Cookie consent banner" [active] [ref=e1583]:
+    - dialog "Privacy" [ref=e1584]:
+      - generic [ref=e1586]:
+        - generic [ref=e1587]: IKEA.eg and our digital partners use cookies on this site. Some are strictly necessary to run the site and others are used for measuring site usage, enabling personalisation and for advertising, marketing and social media.
+        - generic [ref=e1591]:
+          - button "Cookies settings, Opens the preference center dialog" [ref=e1592] [cursor=pointer]: Cookies settings
+          - button "Ok" [ref=e1593] [cursor=pointer]

@@ -1,0 +1,589 @@
+- generic [ref=e2]:
+  - link [ref=e5] [cursor=pointer]:
+    - /url: https://www.jumia.com.eg/flash-sales/
+    - img "Desktop - Flash Sale" [ref=e6]
+  - generic [ref=e7]:
+    - link "Sell on Jumia" [ref=e9] [cursor=pointer]:
+      - /url: /sp-sell-on-jumia/
+    - generic [ref=e12]:
+      - generic "Jumia" [ref=e13]
+      - link "Jumia Pay" [ref=e16] [cursor=pointer]:
+        - /url: https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar
+    - generic [ref=e19]:
+      - generic [ref=e20]: English
+      - link [ref=e24] [cursor=pointer]:
+        - /url: /ar/catalog/?q=mattress+180x200
+  - banner [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - checkbox "Navigate Categories" [ref=e32]
+        - link [ref=e37] [cursor=pointer]:
+          - /url: /
+          - img "Start Online Shopping For Fashion, Electronics & More - Discover Your Onlinestore | Jumia Egypt" [ref=e38]
+      - generic [ref=e40]:
+        - search [ref=e41]:
+          - textbox "Search" [ref=e44]:
+            - /placeholder: Search products, brands and categories
+            - text: mattress 180x200
+          - button "Reset" [ref=e45]
+          - button "Search" [ref=e48] [cursor=pointer]
+        - button [ref=e49] [cursor=pointer]:
+          - img "header_ai_assistant-cta" [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - checkbox "Account" [ref=e53]
+          - generic [ref=e54] [cursor=pointer]: Account
+        - generic [ref=e61]:
+          - checkbox "Help" [ref=e62]
+          - generic [ref=e63] [cursor=pointer]: Help
+        - link "Cart" [ref=e70] [cursor=pointer]:
+          - /url: /cart/
+  - article [ref=e74]:
+    - heading "This website uses cookies" [level=2] [ref=e75]
+    - paragraph [ref=e76]:
+      - text: This website uses cookies. For further information on how we use cookies you can read our
+      - link "Privacy and Cookie notice" [ref=e77] [cursor=pointer]:
+        - /url: /sp-privacy/
+    - button "Accept cookies" [ref=e78] [cursor=pointer]
+  - main [ref=e80]:
+    - generic [ref=e82]:
+      - link "Home>" [ref=e83] [cursor=pointer]:
+        - /url: /
+      - link "All Products>" [ref=e84] [cursor=pointer]:
+        - /url: /all-products/
+      - text: mattress 180x200
+    - generic [ref=e85]:
+      - generic [ref=e87]:
+        - article [ref=e88]:
+          - heading "Category" [level=2] [ref=e89]
+          - link "Home & Office" [ref=e90] [cursor=pointer]:
+            - /url: /home-office/?q=mattress+180x200#catalog-listing
+        - article [ref=e91]:
+          - heading "Express Delivery" [level=2] [ref=e93]
+          - generic [ref=e95]:
+            - link "Jumia Express" [ref=e96] [cursor=pointer]:
+              - /url: /catalog/?q=mattress+180x200&shop_premium_services=shop_express#catalog-listing
+            - button "Details" [ref=e99] [cursor=pointer]
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - heading "Price (EGP)" [level=2] [ref=e104]
+            - button "Apply" [ref=e105] [cursor=pointer]
+          - generic [ref=e106]:
+            - slider "Min": "580"
+            - slider "Max": "1900"
+          - generic [ref=e108]:
+            - spinbutton "Min" [ref=e110]: "580"
+            - generic [ref=e111]: "-"
+            - spinbutton "Max" [ref=e113]: "1900"
+        - article [ref=e114]:
+          - heading "Discount Percentage" [level=2] [ref=e116]
+          - link "40% or more" [ref=e118] [cursor=pointer]:
+            - /url: /catalog/?q=mattress+180x200&price_discount=40-100#catalog-listing
+          - link "30% or more" [ref=e120] [cursor=pointer]:
+            - /url: /catalog/?q=mattress+180x200&price_discount=30-100#catalog-listing
+          - link "20% or more" [ref=e122] [cursor=pointer]:
+            - /url: /catalog/?q=mattress+180x200&price_discount=20-100#catalog-listing
+          - link "10% or more" [ref=e124] [cursor=pointer]:
+            - /url: /catalog/?q=mattress+180x200&price_discount=10-100#catalog-listing
+        - article [ref=e125]:
+          - heading "Brand" [level=2] [ref=e127]
+          - generic [ref=e128]:
+            - link "Generic" [ref=e129] [cursor=pointer]:
+              - /url: /generic/?q=mattress+180x200#catalog-listing
+            - link "YARLIN" [ref=e130] [cursor=pointer]:
+              - /url: /brand-yarlin/?q=mattress+180x200#catalog-listing
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - paragraph [ref=e135]: (11 products found)
+            - generic [ref=e136]:
+              - checkbox "Popularity" [ref=e137]
+              - generic [ref=e138] [cursor=pointer]:
+                - generic [ref=e139]: "Sort by:"
+                - generic [ref=e140]: Popularity
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: "Related results:"
+              - link "mattress under 500" [ref=e147] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mattress-under-500
+              - link "mattress topper beige" [ref=e149] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mattress-topper-beige
+              - link "cooling mattress topper" [ref=e151] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/cooling-mattress-topper
+              - link "wool mattress protector" [ref=e153] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/wool-mattress-protector
+              - link "plush mattress covers" [ref=e155] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/plush-mattress-covers
+              - link "mattress protector market" [ref=e157] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mattress-protector-market
+              - link "mattress topper white" [ref=e159] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mattress-topper-white
+              - link "mattress sheet tightener" [ref=e161] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mattress-sheet-tightener
+              - link "mattress topper store" [ref=e163] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mattress-topper-store
+              - link "vinyl air mattress" [ref=e165] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/vinyl-air-mattress
+              - link "spring mattress topper" [ref=e167] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/spring-mattress-topper
+              - link "camper mattress toppers" [ref=e169] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/camper-mattress-toppers
+              - link "dorm mattress topper" [ref=e171] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/dorm-mattress-topper
+              - link "mattress dryer machine" [ref=e173] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mattress-dryer-machine
+              - link "camping mattress topper" [ref=e175] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/camping-mattress-topper
+              - link "ghostbed mattress topper" [ref=e177] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/ghostbed-mattress-topper
+              - link "budget air mattress" [ref=e179] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/budget-air-mattress
+              - link "plush toddler mattress" [ref=e181] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/plush-toddler-mattress
+              - link "rollable camping mattress" [ref=e183] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/rollable-camping-mattress
+              - link "budget camping mattresses" [ref=e185] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/budget-camping-mattresses
+              - link "mattress topper purple" [ref=e187] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mattress-topper-purple
+              - link "fitted mattress protector" [ref=e189] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/fitted-mattress-protector
+              - link "cooling mattress cover" [ref=e191] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/cooling-mattress-cover
+              - link "baby plane air mattress" [ref=e193] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/baby-plane-air-mattress
+              - link "fiber house mattress protector" [ref=e195] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/fiber-house-mattress-protector
+              - link "purple cooling mattress topper" [ref=e197] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/purple-cooling-mattress-topper
+              - link "blue plastic to wrap mattress" [ref=e199] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/blue-plastic-to-wrap-mattress
+              - link "feather down mattress topper" [ref=e201] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/feather-down-mattress-topper
+              - link "cooling mattress topper full" [ref=e203] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/cooling-mattress-topper-full
+              - link "water cooling mattress topper" [ref=e205] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/water-cooling-mattress-topper
+              - link "medical air mattress aerowave" [ref=e207] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/medical-air-mattress-aerowave
+              - link "inch latex mattress topper" [ref=e209] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/inch-latex-mattress-topper
+              - link "custom size mattress topper with cover" [ref=e211] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/custom-size-mattress-topper-with-cover
+              - link "good quality mattress topper" [ref=e213] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/good-quality-mattress-topper
+              - link "chair and a half sleeper mattress" [ref=e215] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/chair-and-a-half-sleeper-mattress
+              - link "sleeper twin chair mattress" [ref=e217] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/sleeper-twin-chair-mattress
+              - link "mattress with breathable cover" [ref=e219] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mattress-with-breathable-cover
+              - link "mattress size plastic bag" [ref=e221] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mattress-size-plastic-bag
+            - button "previous" [ref=e222]
+            - button "next" [ref=e225] [cursor=pointer]
+        - generic [ref=e228]:
+          - link [ref=e229] [cursor=pointer]:
+            - /url: /catalog/?q=mattress+180x200&shop_premium_services=shop_express#catalog-listing
+            - img "Jumia Express" [ref=e230]
+          - generic [ref=e232]:
+            - checkbox "Brand" [ref=e233]
+            - generic [ref=e234] [cursor=pointer]: Brand
+          - generic [ref=e238]:
+            - checkbox "Price" [ref=e239]
+            - generic [ref=e240] [cursor=pointer]: Price
+        - generic [ref=e244]:
+          - article [ref=e245]:
+            - button [ref=e246] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e247]
+            - link "Dark Blue Fitted Sheet Mattress Cover 180*200cm, Wrinkle-resistant And Super Soft Dark Blue Fitted Sheet Mattress Cover 180*200cm, Wrinkle-resistant And Super Soft EGP 580.00 EGP 1,140.36 - 49% Express Shipping" [ref=e249] [cursor=pointer]:
+              - /url: /generic-dark-blue-fitted-sheet-mattress-cover-180200cm-wrinkle-resistant-and-super-soft-134447168.html
+              - img "Dark Blue Fitted Sheet Mattress Cover 180*200cm, Wrinkle-resistant And Super Soft" [ref=e251]
+              - generic [ref=e252]:
+                - heading "Dark Blue Fitted Sheet Mattress Cover 180*200cm, Wrinkle-resistant And Super Soft" [level=3] [ref=e253]
+                - generic [ref=e254]: EGP 580.00
+                - generic [ref=e255]:
+                  - generic [ref=e256]: EGP 1,140.36
+                  - generic [ref=e257]: "- 49%"
+                - img "Express Shipping" [ref=e258]
+          - article [ref=e262]:
+            - button [ref=e263] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e264]
+            - link "YARLIN Black , Mattress topper 180*200 cm YARLIN Black , Mattress topper 180*200 cm EGP 1,674.00 EGP 2,461.00 - 32%" [ref=e266] [cursor=pointer]:
+              - /url: /yarlin-black-mattress-topper-180200-cm-134011040.html
+              - img "YARLIN Black , Mattress topper 180*200 cm" [ref=e268]
+              - generic [ref=e269]:
+                - heading "YARLIN Black , Mattress topper 180*200 cm" [level=3] [ref=e270]
+                - generic [ref=e271]: EGP 1,674.00
+                - generic [ref=e272]:
+                  - generic [ref=e273]: EGP 2,461.00
+                  - generic [ref=e274]: "- 32%"
+          - article [ref=e277]:
+            - button [ref=e278] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e279]
+            - link "YARLIN Red , Mattress topper 180*200 cm YARLIN Red , Mattress topper 180*200 cm EGP 1,674.00 EGP 2,461.00 - 32%" [ref=e281] [cursor=pointer]:
+              - /url: /yarlin-red-mattress-topper-180200-cm-134019813.html
+              - img "YARLIN Red , Mattress topper 180*200 cm" [ref=e283]
+              - generic [ref=e284]:
+                - heading "YARLIN Red , Mattress topper 180*200 cm" [level=3] [ref=e285]
+                - generic [ref=e286]: EGP 1,674.00
+                - generic [ref=e287]:
+                  - generic [ref=e288]: EGP 2,461.00
+                  - generic [ref=e289]: "- 32%"
+          - article [ref=e292]:
+            - button [ref=e293] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e294]
+            - link "YARLIN Dark Gray, Mattress topper 180*200 cm YARLIN Dark Gray, Mattress topper 180*200 cm EGP 1,674.00 EGP 2,461.00 - 32%" [ref=e296] [cursor=pointer]:
+              - /url: /yarlin-dark-gray-mattress-topper-180200-cm-134019818.html
+              - img "YARLIN Dark Gray, Mattress topper 180*200 cm" [ref=e298]
+              - generic [ref=e299]:
+                - heading "YARLIN Dark Gray, Mattress topper 180*200 cm" [level=3] [ref=e300]
+                - generic [ref=e301]: EGP 1,674.00
+                - generic [ref=e302]:
+                  - generic [ref=e303]: EGP 2,461.00
+                  - generic [ref=e304]: "- 32%"
+          - article [ref=e307]:
+            - button [ref=e308] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e309]
+            - link "YARLIN Light Gray , Mattress topper 180*200 cm YARLIN Light Gray , Mattress topper 180*200 cm EGP 1,674.00 EGP 2,461.00 - 32%" [ref=e311] [cursor=pointer]:
+              - /url: /yarlin-light-gray-mattress-topper-180200-cm-134011044.html
+              - img "YARLIN Light Gray , Mattress topper 180*200 cm" [ref=e313]
+              - generic [ref=e314]:
+                - heading "YARLIN Light Gray , Mattress topper 180*200 cm" [level=3] [ref=e315]
+                - generic [ref=e316]: EGP 1,674.00
+                - generic [ref=e317]:
+                  - generic [ref=e318]: EGP 2,461.00
+                  - generic [ref=e319]: "- 32%"
+          - article [ref=e322]:
+            - button [ref=e323] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e324]
+            - link "Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm EGP 1,300.00" [ref=e326] [cursor=pointer]:
+              - /url: /generic-matress-topper-extra-soft-topping-layer-from-orchid-180200-cm-124877500.html
+              - img "Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm" [ref=e328]
+              - generic [ref=e329]:
+                - heading "Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm" [level=3] [ref=e330]
+                - generic [ref=e331]: EGP 1,300.00
+          - article [ref=e334]:
+            - button [ref=e335] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e336]
+            - link "YARLIN White , Mattress topper 180*200 cm YARLIN White , Mattress topper 180*200 cm EGP 1,674.00 EGP 2,461.00 - 32%" [ref=e338] [cursor=pointer]:
+              - /url: /yarlin-white-mattress-topper-180200-cm-134011046.html
+              - img "YARLIN White , Mattress topper 180*200 cm" [ref=e340]
+              - generic [ref=e341]:
+                - heading "YARLIN White , Mattress topper 180*200 cm" [level=3] [ref=e342]
+                - generic [ref=e343]: EGP 1,674.00
+                - generic [ref=e344]:
+                  - generic [ref=e345]: EGP 2,461.00
+                  - generic [ref=e346]: "- 32%"
+          - article [ref=e349]:
+            - button [ref=e350] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e351]
+            - link "Orchid White Quilted Mattress Topper – 180*200 – Soft Fiber Filling Orchid White Quilted Mattress Topper – 180*200 – Soft Fiber Filling EGP 1,900.00" [ref=e353] [cursor=pointer]:
+              - /url: /generic-orchid-white-quilted-mattress-topper-180200-soft-fiber-filling-134220867.html
+              - img "Orchid White Quilted Mattress Topper – 180*200 – Soft Fiber Filling" [ref=e355]
+              - generic [ref=e356]:
+                - heading "Orchid White Quilted Mattress Topper – 180*200 – Soft Fiber Filling" [level=3] [ref=e357]
+                - generic [ref=e358]: EGP 1,900.00
+          - article [ref=e361]:
+            - button [ref=e362] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e363]
+            - link "Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm EGP 1,300.00" [ref=e365] [cursor=pointer]:
+              - /url: /generic-matress-topper-extra-soft-topping-layer-from-orchid-180200-cm-124877508.html
+              - img "Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm" [ref=e367]
+              - generic [ref=e368]:
+                - heading "Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm" [level=3] [ref=e369]
+                - generic [ref=e370]: EGP 1,300.00
+          - article [ref=e373]:
+            - button [ref=e374] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e375]
+            - link "Orchid Black Quilted Mattress Topper – 180*200 – Soft Fiber Filling Orchid Black Quilted Mattress Topper – 180*200 – Soft Fiber Filling EGP 1,746.00 EGP 1,900.00 - 8%" [ref=e377] [cursor=pointer]:
+              - /url: /generic-orchid-black-quilted-mattress-topper-180200-soft-fiber-filling-134221750.html
+              - img "Orchid Black Quilted Mattress Topper – 180*200 – Soft Fiber Filling" [ref=e379]
+              - generic [ref=e380]:
+                - heading "Orchid Black Quilted Mattress Topper – 180*200 – Soft Fiber Filling" [level=3] [ref=e381]
+                - generic [ref=e382]: EGP 1,746.00
+                - generic [ref=e383]:
+                  - generic [ref=e384]: EGP 1,900.00
+                  - generic [ref=e385]: "- 8%"
+          - article [ref=e388]:
+            - button [ref=e389] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e390]
+            - link "Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm EGP 1,300.00" [ref=e392] [cursor=pointer]:
+              - /url: /generic-matress-topper-extra-soft-topping-layer-from-orchid-180200-cm-124877502.html
+              - img "Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm" [ref=e394]
+              - generic [ref=e395]:
+                - heading "Matress Topper -Extra Soft Topping Layer From Orchid -180*200 Cm" [level=3] [ref=e396]
+                - generic [ref=e397]: EGP 1,300.00
+    - link "BACK TO TOP" [ref=e401] [cursor=pointer]:
+      - /url: "#top"
+  - contentinfo [ref=e404]:
+    - generic [ref=e406]:
+      - generic [ref=e410]:
+        - generic [ref=e411]:
+          - generic [ref=e412]: New to Jumia?
+          - text: Subscribe to our newsletter to get updates on our latest offers, you can unsubscribe at any time as described in Privacy Policy.
+          - generic [ref=e413]:
+            - text: To subscribe to our newsletter, you must first read and agree to Jumia's
+            - link "I accept the Legal Terms" [ref=e414] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-privacy/
+        - generic [ref=e415]:
+          - generic [ref=e416]:
+            - checkbox "I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time." [ref=e417]
+            - generic [ref=e418] [cursor=pointer]: I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time.
+          - generic [ref=e419]:
+            - textbox "E-mail" [ref=e421]:
+              - /placeholder: Enter E-mail Address
+            - button "Subscribe"
+        - generic [ref=e424]: You can unsubscribe at any time as described in Privacy Policy
+      - generic [ref=e425]:
+        - generic [ref=e429]:
+          - generic [ref=e430]: DOWNLOAD JUMIA FREE APP
+          - text: Get access to exclusive offers!
+        - generic [ref=e431]:
+          - link "Get it on the App Store" [ref=e432] [cursor=pointer]:
+            - /url: https://app.adjust.io/k4hu4w
+          - link "Get it on Google Play" [ref=e435] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.jumia.android&referrer=adjust_reftag%3DcdTxOjM
+    - generic [ref=e438]:
+      - generic [ref=e439]:
+        - generic [ref=e440]: Need Help?
+        - button "Chat with us" [ref=e441] [cursor=pointer]
+        - list [ref=e442]:
+          - listitem [ref=e443]:
+            - link "Help Center" [ref=e444] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/
+          - listitem [ref=e445]:
+            - link "Contact us" [ref=e446] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-contact/
+        - generic [ref=e447]: "Useful Links:"
+        - list [ref=e448]:
+          - listitem [ref=e449]:
+            - link "How to shop on Jumia?" [ref=e450] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/?page=place+an+order
+          - listitem [ref=e451]:
+            - link "How to pay on Jumia?" [ref=e452] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/?page=pay+for+your+order
+          - listitem [ref=e453]:
+            - link "Delivery timelines" [ref=e454] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-delivery-timelines/
+          - listitem [ref=e455]:
+            - link "Dispute Resolution Policy" [ref=e456] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-dispute-resolution-policy/
+          - listitem [ref=e457]:
+            - link "Return Policy" [ref=e458] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-return-policy-cp/
+          - listitem [ref=e459]:
+            - link "Refund Policy" [ref=e460] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-refund-policy-cp/
+          - listitem [ref=e461]:
+            - link "Black Friday" [ref=e462] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/mlp-black-friday/
+          - listitem [ref=e463]:
+            - link "Jumia Anniversary 2026" [ref=e464] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/ar/mlp-anniversary/
+      - generic [ref=e465]:
+        - generic [ref=e466]: ABOUT JUMIA EGYPT
+        - list [ref=e467]:
+          - listitem [ref=e468]:
+            - link "Jumia Careers" [ref=e469] [cursor=pointer]:
+              - /url: https://group.jumia.com/careers?location=egypt
+          - listitem [ref=e470]:
+            - link "Terms and Conditions" [ref=e471] [cursor=pointer]:
+              - /url: /terms-of-use/?internal=footer
+          - listitem [ref=e472]:
+            - link "Privacy Policy" [ref=e473] [cursor=pointer]:
+              - /url: /privacy/?internal=footer
+          - listitem [ref=e474]:
+            - link "Cookies Policy" [ref=e475] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-cookie/
+          - listitem [ref=e476]:
+            - link "Free Shipping" [ref=e477] [cursor=pointer]:
+              - /url: /mlp-free-shipping/?internal=footer
+          - listitem [ref=e478]:
+            - link "Flash Sales" [ref=e479] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/flash-sales/
+      - generic [ref=e480]:
+        - generic [ref=e481]: MAKE MONEY WITH JUMIA
+        - list [ref=e482]:
+          - listitem [ref=e483]:
+            - link "Sell on Jumia" [ref=e484] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-sell-on-jumia/
+          - listitem [ref=e485]:
+            - link "Vendor Hub" [ref=e486] [cursor=pointer]:
+              - /url: https://vendorhub.jumia.com.eg/
+          - listitem [ref=e487]:
+            - link "Become a Sales Consultant (J-Force )" [ref=e488] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-jforce-consultant/
+      - generic [ref=e489]:
+        - generic [ref=e490]: JUMIA INTERNATIONAL
+        - list [ref=e491]:
+          - listitem [ref=e492]:
+            - link "Ivory Coast" [ref=e493] [cursor=pointer]:
+              - /url: https://www.jumia.ci/
+          - listitem [ref=e494]:
+            - link "Ghana" [ref=e495] [cursor=pointer]:
+              - /url: https://www.jumia.com.gh/
+          - listitem [ref=e496]:
+            - link "Kenya" [ref=e497] [cursor=pointer]:
+              - /url: https://www.jumia.co.ke/
+          - listitem [ref=e498]:
+            - link "Morocco" [ref=e499] [cursor=pointer]:
+              - /url: https://www.jumia.ma/
+        - list [ref=e500]:
+          - listitem [ref=e501]:
+            - link "Nigeria" [ref=e502] [cursor=pointer]:
+              - /url: https://www.jumia.com.ng/
+          - listitem [ref=e503]:
+            - link "Senegal" [ref=e504] [cursor=pointer]:
+              - /url: https://www.jumia.sn/
+          - listitem [ref=e505]:
+            - link "Uganda" [ref=e506] [cursor=pointer]:
+              - /url: https://www.jumia.ug/
+    - generic [ref=e508]:
+      - generic [ref=e509]: Contact us
+      - generic [ref=e510]:
+        - generic [ref=e511]:
+          - generic [ref=e512]: Business Name
+          - generic [ref=e513]: Jumia Egypt
+        - generic [ref=e514]:
+          - generic [ref=e515]: Address
+          - generic [ref=e516]: 272 /273 El Tesaeen El Shamaly St., Sector 2, 5th Compound, New Cairo, Behind Dusit Thani Lakeview, Cairo
+        - generic [ref=e517]:
+          - generic [ref=e518]: Phone Number
+          - generic [ref=e519]:
+            - link "19586" [ref=e520] [cursor=pointer]:
+              - /url: tel:+2019586
+            - text: ","
+            - link "17269" [ref=e521] [cursor=pointer]:
+              - /url: tel:+2017269
+        - generic [ref=e522]:
+          - generic [ref=e523]: WhatsApp
+          - link "201011958600" [ref=e525] [cursor=pointer]:
+            - /url: https://wa.me/20201011958600
+    - generic [ref=e526]:
+      - generic [ref=e527]:
+        - generic [ref=e528]: JOIN US ON
+        - generic [ref=e529]:
+          - link "Facebook Jumia Egypt" [ref=e530] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/Jumia/100068403391761/
+          - link "Twitter Jumia Egypt" [ref=e533] [cursor=pointer]:
+            - /url: https://twitter.com/JUMIAEgypt/
+          - link "Instagram Jumia Egypt" [ref=e536] [cursor=pointer]:
+            - /url: https://www.instagram.com/jumiaegypt/
+          - link "YouTube Jumia Egypt" [ref=e539] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/JumiaEgypt/
+          - link "Tik Tok" [ref=e542] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@jumia.egypt?_t=8rJ4NeuPbzr&_r=1
+      - generic [ref=e545]:
+        - generic [ref=e546]: PAYMENT METHODS
+        - generic [ref=e547]:
+          - link "Payment on delivery" [ref=e548] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Mastercard" [ref=e551] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Visa" [ref=e554] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Jumia Pay" [ref=e557] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Fawry" [ref=e558] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+    - generic [ref=e561]:
+      - list [ref=e562]:
+        - listitem [ref=e563]:
+          - link "Activ" [ref=e564] [cursor=pointer]:
+            - /url: /activ/
+        - listitem [ref=e565]:
+          - link "ADIDAS" [ref=e566] [cursor=pointer]:
+            - /url: /adidas/
+        - listitem [ref=e567]:
+          - link "American Eagle" [ref=e568] [cursor=pointer]:
+            - /url: /american-eagle/
+        - listitem [ref=e569]:
+          - link "Andora" [ref=e570] [cursor=pointer]:
+            - /url: /andora/
+      - list [ref=e571]:
+        - listitem [ref=e572]:
+          - link "Apple" [ref=e573] [cursor=pointer]:
+            - /url: /apple/
+        - listitem [ref=e574]:
+          - link "Braun" [ref=e575] [cursor=pointer]:
+            - /url: /braun/
+        - listitem [ref=e576]:
+          - link "Casio" [ref=e577] [cursor=pointer]:
+            - /url: /casio-edifice/
+        - listitem [ref=e578]:
+          - link "Cottonil" [ref=e579] [cursor=pointer]:
+            - /url: /cottonil/
+      - list [ref=e580]:
+        - listitem [ref=e581]:
+          - link "Defacto" [ref=e582] [cursor=pointer]:
+            - /url: /defacto/
+        - listitem [ref=e583]:
+          - link "Dice" [ref=e584] [cursor=pointer]:
+            - /url: /dice/
+        - listitem [ref=e585]:
+          - link "Fresh" [ref=e586] [cursor=pointer]:
+            - /url: /fresh/
+        - listitem [ref=e587]:
+          - link "Garnier" [ref=e588] [cursor=pointer]:
+            - /url: /garnier/
+      - list [ref=e589]:
+        - listitem [ref=e590]:
+          - link "HP" [ref=e591] [cursor=pointer]:
+            - /url: /hp/
+        - listitem [ref=e592]:
+          - link "Izor" [ref=e593] [cursor=pointer]:
+            - /url: /izor/
+        - listitem [ref=e594]:
+          - link "Kady" [ref=e595] [cursor=pointer]:
+            - /url: /kady/
+        - listitem [ref=e596]:
+          - link "L'Oreal Paris" [ref=e597] [cursor=pointer]:
+            - /url: /l-oreal/
+      - list [ref=e598]:
+        - listitem [ref=e599]:
+          - link "LC Waikiki" [ref=e600] [cursor=pointer]:
+            - /url: /lc-waikiki/
+        - listitem [ref=e601]:
+          - link "Lenovo" [ref=e602] [cursor=pointer]:
+            - /url: /lenovo/
+        - listitem [ref=e603]:
+          - link "Maybelline New York" [ref=e604] [cursor=pointer]:
+            - /url: /maybelline/
+      - list [ref=e605]:
+        - listitem [ref=e606]:
+          - link "Mesery" [ref=e607] [cursor=pointer]:
+            - /url: /mesery/
+        - listitem [ref=e608]:
+          - link "NIVEA" [ref=e609] [cursor=pointer]:
+            - /url: /nivea/
+        - listitem [ref=e610]:
+          - link "Nokia" [ref=e611] [cursor=pointer]:
+            - /url: /nokia/
+      - list [ref=e612]:
+        - listitem [ref=e613]:
+          - link "OPPO" [ref=e614] [cursor=pointer]:
+            - /url: /oppo/
+        - listitem [ref=e615]:
+          - link "Samsung" [ref=e616] [cursor=pointer]:
+            - /url: /samsung/
+        - listitem [ref=e617]:
+          - link "SHEIN" [ref=e618] [cursor=pointer]:
+            - /url: /shein/
+      - list [ref=e619]:
+        - listitem [ref=e620]:
+          - link "Sokany" [ref=e621] [cursor=pointer]:
+            - /url: /sokany/
+        - listitem [ref=e622]:
+          - link "TORNADO" [ref=e623] [cursor=pointer]:
+            - /url: /tornado/
+        - listitem [ref=e624]:
+          - link "XIAOMI" [ref=e625] [cursor=pointer]:
+            - /url: /xiaomi/
+    - generic [ref=e626]:
+      - link "Jumia Pay" [ref=e628] [cursor=pointer]:
+        - /url: https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar
+      - generic [ref=e631]:
+        - generic [ref=e632]: English
+        - link [ref=e636] [cursor=pointer]:
+          - /url: /ar/catalog/?q=mattress+180x200

@@ -1,0 +1,615 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - link "Skip to main content":
+      - /url: "#hnf-content"
+    - banner [ref=f7e3]:
+      - generic [ref=f7e5]:
+        - button "Change language or country/region, current language is English" [ref=f7e7] [cursor=pointer]:
+          - generic: EGEnglish
+        - button "Select store" [ref=f7e9] [cursor=pointer]
+      - generic [ref=f7e11]:
+        - link "IKEA logotype, go to start page" [ref=f7e13] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/
+        - search [ref=f7e19]:
+          - generic [ref=f7e20]:
+            - combobox "Search for products, inspiration or new arrivals" [ref=f7e21]
+            - button "Search IKEA products using a photo" [ref=f7e23] [cursor=pointer]
+        - navigation "Shopping links" [ref=f7e24]:
+          - list [ref=f7e25]:
+            - listitem [ref=f7e26]:
+              - link "Hej! Log in or sign up" [ref=f7e28] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/profile/login/
+            - listitem [ref=f7e29]:
+              - link "Shopping list" [ref=f7e31] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/favourites/
+            - listitem [ref=f7e32]:
+              - link "Shopping bag" [ref=f7e34] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cart/
+            - listitem [ref=f7e35]:
+              - button "Menu" [ref=f7e37] [cursor=pointer]
+              - navigation
+    - generic:
+      - complementary "Floating action buttons"
+  - main [ref=f7e38]:
+    - link "Skip to product list" [ref=f7e39] [cursor=pointer]:
+      - /url: "#product-list-skip"
+    - generic [ref=f7e42]:
+      - navigation "Breadcrumbs" [ref=f7e45]:
+        - list [ref=f7e46]:
+          - listitem [ref=f7e47]:
+            - link "Products" [ref=f7e48] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/products-products/
+            - text: ›
+          - listitem [ref=f7e49]:
+            - link "Textiles & rugs" [ref=f7e50] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/textiles-tl001/
+            - text: ›
+          - listitem [ref=f7e51]:
+            - link "Bedding" [ref=f7e52] [cursor=pointer]:
+              - /url: https://www.ikea.com/eg/en/cat/bedding-tl004/
+            - text: ›
+          - listitem [ref=f7e53]:
+            - generic [ref=f7e54]: Mattress protectors
+      - link "Free delivery" [ref=f7e57] [cursor=pointer]:
+        - /url: https://www.ikea.com/eg/en/campaigns/free-delivery-pub41912510/?=f-online-sellable=true
+      - heading "Mattress protectors" [level=1] [ref=f7e61]
+    - generic [ref=f7e62]:
+      - paragraph [ref=f7e64]: Want bedding to stay fresh and clean for longer while reducing general wear-and-tear? Buy an IKEA mattress protector and pillow protector from our wide range online. Easy to use, they’re quickly removable and machine washable too. We also have some that regulate temperatures and others waterproof.
+      - button "Read more" [ref=f7e65] [cursor=pointer]
+    - generic [ref=f7e66]:
+      - generic [ref=f7e67]:
+        - status [ref=f7e68]: 7 items
+        - heading "Sort and Filter" [level=2] [ref=f7e69]
+        - paragraph [ref=f7e72]:
+          - generic [ref=f7e73]: 7 items
+        - generic [ref=f7e74]:
+          - generic [ref=f7e75]:
+            - link "Skip to results" [ref=f7e76] [cursor=pointer]:
+              - /url: "#product-list"
+            - list [ref=f7e78]:
+              - listitem [ref=f7e79]:
+                - heading [level=3] [ref=f7e80]:
+                  - button "Sort" [ref=f7e81] [cursor=pointer]
+              - listitem [ref=f7e86]:
+                - heading [level=3] [ref=f7e87]:
+                  - button "Size" [ref=f7e88] [cursor=pointer]
+              - listitem [ref=f7e93]:
+                - heading [level=3] [ref=f7e94]:
+                  - button "Price" [ref=f7e95] [cursor=pointer]
+              - listitem [ref=f7e100]:
+                - heading [level=3] [ref=f7e101]:
+                  - button "Features" [ref=f7e102] [cursor=pointer]
+              - listitem [ref=f7e107]:
+                - heading [level=3] [ref=f7e108]:
+                  - button "Availability" [ref=f7e109] [cursor=pointer]
+              - listitem [ref=f7e114]:
+                - heading [level=3] [ref=f7e115]:
+                  - button "Colour" [ref=f7e116] [cursor=pointer]
+              - listitem [ref=f7e121]:
+                - heading [level=3] [ref=f7e122]:
+                  - button "Material" [ref=f7e123] [cursor=pointer]
+              - listitem [ref=f7e128]:
+                - heading [level=3] [ref=f7e129]:
+                  - button "Type" [ref=f7e130] [cursor=pointer]
+              - listitem [ref=f7e135]:
+                - generic [ref=f7e136] [cursor=pointer]:
+                  - generic [ref=f7e137]:
+                    - generic [ref=f7e138]: Top seller
+                    - generic [ref=f7e140]:
+                      - generic [ref=f7e141]: 5 products
+                      - text: "5"
+                  - generic [ref=f7e142]:
+                    - checkbox "Top seller 5 products"
+              - listitem [ref=f7e144]:
+                - generic [ref=f7e145] [cursor=pointer]:
+                  - generic [ref=f7e146]:
+                    - generic [ref=f7e147]: Special price
+                    - generic [ref=f7e149]:
+                      - generic [ref=f7e150]: 6 products
+                      - text: "6"
+                  - generic [ref=f7e151]:
+                    - checkbox "Special price 6 products"
+              - listitem [ref=f7e153]:
+                - heading [level=3] [ref=f7e154]:
+                  - button "Customer rating" [ref=f7e155] [cursor=pointer]
+              - listitem [ref=f7e160]:
+                - generic [ref=f7e161] [cursor=pointer]:
+                  - generic [ref=f7e162]:
+                    - generic [ref=f7e163]: New products
+                    - generic [ref=f7e165]:
+                      - generic [ref=f7e166]: 1 products
+                      - text: "1"
+                  - generic [ref=f7e167]:
+                    - checkbox "New products 1 products"
+          - generic [ref=f7e170]:
+            - heading "Results list" [level=2] [ref=f7e171]
+            - generic [ref=f7e173]:
+              - generic [ref=f7e174]:
+                - generic [ref=f7e176]:
+                  - checkbox "Compare - Select for product comparison, Waterproof mattress protector, 140x200 cm" [ref=f7e177] [cursor=pointer]
+                  - generic [ref=f7e179]: Compare
+                - generic [ref=f7e181]:
+                  - paragraph [ref=f7e183]: Top seller
+                  - link [ref=f7e184] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/grusnarv-waterproof-mattress-protector-40522125/
+                    - img "White GRUSNARV mattress protector, elastic edges, recycled polyester, waterproof." [ref=f7e185]
+                    - img "Plastic glass tilted on waterproof mattress protector with elastic edges." [ref=f7e186]
+                - generic [ref=f7e189]:
+                  - heading [level=3] [ref=f7e191]:
+                    - link "GRUSNARV, Waterproof mattress protector, 140x200 cm" [ref=f7e193] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/grusnarv-waterproof-mattress-protector-40522125/
+                      - text: GRUSNARV
+                    - generic [ref=f7e194]: Waterproof mattress protector, 140x200 cm
+                  - generic [ref=f7e196]:
+                    - generic [ref=f7e198]:
+                      - generic [ref=f7e199]: EGP1,699
+                      - generic [ref=f7e201]: EGP 1699
+                    - generic [ref=f7e203]:
+                      - generic [ref=f7e204]: EGP1,299
+                      - generic [ref=f7e206]: Price EGP 1299
+                  - generic [ref=f7e207]: 23% off, save EGP400
+                  - paragraph [ref=f7e211]: Limited time offer
+                - 'button "Review: 4.3 out of 5 stars. Total reviews: (38)" [ref=f7e212] [cursor=pointer]':
+                  - generic [ref=f7e213]: "Review: 4.3 out of 5 stars. Total reviews:"
+                  - generic [ref=f7e214]: (38)
+                - generic [ref=f7e216]:
+                  - button "Add \"GRUSNARV Waterproof mattress protector\" to cart" [ref=f7e217] [cursor=pointer]
+                  - button "Save \"GRUSNARV Waterproof mattress protector\" to shopping list" [ref=f7e218] [cursor=pointer]
+                - generic [ref=f7e219]: Available for delivery
+                - group "More options GRUSNARV" [ref=f7e223] [cursor=pointer]:
+                  - generic [ref=f7e224]:
+                    - text: More options
+                    - generic [ref=f7e225]: GRUSNARV
+                  - generic [ref=f7e226]:
+                    - 'radio "Option: 140x200 cm" [checked] [ref=f7e227]'
+                    - link "140x200 cm" [ref=f7e228]:
+                      - /url: https://www.ikea.com/eg/en/p/grusnarv-waterproof-mattress-protector-40522125/
+                  - generic [ref=f7e231]:
+                    - 'radio "Option: 180x200 cm" [ref=f7e232]'
+                    - link "180x200 cm" [ref=f7e233]:
+                      - /url: https://www.ikea.com/eg/en/p/grusnarv-waterproof-mattress-protector-00522132/
+                  - link "+2 more options are available." [ref=f7e236]:
+                    - /url: https://www.ikea.com/eg/en/p/grusnarv-waterproof-mattress-protector-40522125/
+                    - generic [ref=f7e237]: "+2"
+              - generic [ref=f7e238]:
+                - generic [ref=f7e240]:
+                  - checkbox "Compare - Select for product comparison, Mattress protector, 90x200 cm" [ref=f7e241] [cursor=pointer]
+                  - generic [ref=f7e243]: Compare
+                - generic [ref=f7e245]:
+                  - paragraph [ref=f7e247]: Top seller
+                  - link [ref=f7e248] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/tagelsaev-mattress-protector-70503309/
+                    - img "TAGELSÄV, white, rectangular mattress protector. Soft, recycled polyester wadding, secure elastic straps." [ref=f7e249]
+                    - img "White mattress protector on bed, elastic straps for secure fit, protects mattress from stains." [ref=f7e250]
+                - generic [ref=f7e253]:
+                  - heading [level=3] [ref=f7e255]:
+                    - link "TAGELSÄV, Mattress protector, 90x200 cm" [ref=f7e257] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/tagelsaev-mattress-protector-70503309/
+                      - text: TAGELSÄV
+                    - generic [ref=f7e258]: Mattress protector, 90x200 cm
+                  - emphasis [ref=f7e262]:
+                    - generic [ref=f7e263]: EGP279
+                    - generic [ref=f7e265]: Price EGP 279
+                - 'button "Review: 4.2 out of 5 stars. Total reviews: (6)" [ref=f7e266] [cursor=pointer]':
+                  - generic [ref=f7e267]: "Review: 4.2 out of 5 stars. Total reviews:"
+                  - generic [ref=f7e268]: (6)
+                - generic [ref=f7e270]:
+                  - button "Add \"TAGELSÄV Mattress protector\" to cart" [ref=f7e271] [cursor=pointer]
+                  - button "Save \"TAGELSÄV Mattress protector\" to shopping list" [ref=f7e272] [cursor=pointer]
+                - generic [ref=f7e273]: Available for delivery
+              - generic [ref=f7e277]:
+                - generic [ref=f7e279]:
+                  - checkbox "Compare - Select for product comparison, Mattress protector, 180x200 cm" [ref=f7e280] [cursor=pointer]
+                  - generic [ref=f7e282]: Compare
+                - generic [ref=f7e284]:
+                  - paragraph [ref=f7e286]: Top seller
+                  - link [ref=f7e287] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/luddros-mattress-protector-90461638/
+                    - img "White LUDDROS mattress protector, quilted, cotton-polyester blend, rectangular, elastic corners." [ref=f7e288]
+                    - img "Grey bedroom with made bed, light grey headboard, side table with greenery and books." [ref=f7e289]
+                - generic [ref=f7e292]:
+                  - heading [level=3] [ref=f7e294]:
+                    - link "LUDDROS, Mattress protector, 180x200 cm" [ref=f7e296] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/luddros-mattress-protector-90461638/
+                      - text: LUDDROS
+                    - generic [ref=f7e297]: Mattress protector, 180x200 cm
+                  - generic [ref=f7e299]:
+                    - generic [ref=f7e301]:
+                      - generic [ref=f7e302]: EGP1,699
+                      - generic [ref=f7e304]: EGP 1699
+                    - generic [ref=f7e306]:
+                      - generic [ref=f7e307]: EGP1,299
+                      - generic [ref=f7e309]: Price EGP 1299
+                  - generic [ref=f7e310]: 23% off, save EGP400
+                  - paragraph [ref=f7e314]: Limited time offer
+                - 'button "Review: 3.5 out of 5 stars. Total reviews: (16)" [ref=f7e315] [cursor=pointer]':
+                  - generic [ref=f7e316]: "Review: 3.5 out of 5 stars. Total reviews:"
+                  - generic [ref=f7e317]: (16)
+                - generic [ref=f7e319]:
+                  - button "Add \"LUDDROS Mattress protector\" to cart" [ref=f7e320] [cursor=pointer]
+                  - button "Save \"LUDDROS Mattress protector\" to shopping list" [ref=f7e321] [cursor=pointer]
+                - generic [ref=f7e322]: Available for delivery
+                - group "More options LUDDROS" [ref=f7e326] [cursor=pointer]:
+                  - generic [ref=f7e327]:
+                    - text: More options
+                    - generic [ref=f7e328]: LUDDROS
+                  - generic [ref=f7e329]:
+                    - 'radio "Option: 180x200 cm" [checked] [ref=f7e330]'
+                    - link "180x200 cm" [ref=f7e331]:
+                      - /url: https://www.ikea.com/eg/en/p/luddros-mattress-protector-90461638/
+                  - generic [ref=f7e334]:
+                    - 'radio "Option: 90x200 cm" [ref=f7e335]'
+                    - link "90x200 cm" [ref=f7e336]:
+                      - /url: https://www.ikea.com/eg/en/p/luddros-mattress-protector-70461644/
+                  - link "+3 more options are available." [ref=f7e339]:
+                    - /url: https://www.ikea.com/eg/en/p/luddros-mattress-protector-90461638/
+                    - generic [ref=f7e340]: "+3"
+              - generic [ref=f7e341]:
+                - generic [ref=f7e343]:
+                  - checkbox "Compare - Select for product comparison, Waterproof mattress protector, 160x200 cm" [ref=f7e344] [cursor=pointer]
+                  - generic [ref=f7e346]: Compare
+                - generic [ref=f7e348]:
+                  - paragraph [ref=f7e350]: Top seller
+                  - link [ref=f7e351] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/sotnaetfjaeril-waterproof-mattress-protector-90531288/
+                    - img "White mattress protector with elastic straps, waterproof layer, quilted design, rectangular." [ref=f7e352]
+                    - img "A white quilted mattress protector with a clear glass of water on it, demonstrating its spill-proof function." [ref=f7e353]
+                - generic [ref=f7e356]:
+                  - heading [level=3] [ref=f7e358]:
+                    - link "SOTNÄTFJÄRIL, Waterproof mattress protector, 160x200 cm" [ref=f7e360] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/sotnaetfjaeril-waterproof-mattress-protector-90531288/
+                      - text: SOTNÄTFJÄRIL
+                    - generic [ref=f7e361]: Waterproof mattress protector, 160x200 cm
+                  - generic [ref=f7e363]:
+                    - generic [ref=f7e365]:
+                      - generic [ref=f7e366]: EGP3,699
+                      - generic [ref=f7e368]: EGP 3699
+                    - generic [ref=f7e370]:
+                      - generic [ref=f7e371]: EGP2,699
+                      - generic [ref=f7e373]: Price EGP 2699
+                  - generic [ref=f7e374]: 27% off, save EGP1,000
+                  - paragraph [ref=f7e378]: Limited time offer
+                - 'button "Review: 5 out of 5 stars. Total reviews: (4)" [ref=f7e379] [cursor=pointer]':
+                  - generic [ref=f7e380]: "Review: 5 out of 5 stars. Total reviews:"
+                  - generic [ref=f7e381]: (4)
+                - generic [ref=f7e383]:
+                  - button "Add \"SOTNÄTFJÄRIL Waterproof mattress protector\" to cart" [ref=f7e384] [cursor=pointer]
+                  - button "Save \"SOTNÄTFJÄRIL Waterproof mattress protector\" to shopping list" [ref=f7e385] [cursor=pointer]
+                - generic [ref=f7e386]: Available for delivery
+                - group "More options SOTNÄTFJÄRIL" [ref=f7e390] [cursor=pointer]:
+                  - generic [ref=f7e391]:
+                    - text: More options
+                    - generic [ref=f7e392]: SOTNÄTFJÄRIL
+                  - generic [ref=f7e393]:
+                    - 'radio "Option: 160x200 cm" [checked] [ref=f7e394]'
+                    - link "160x200 cm" [ref=f7e395]:
+                      - /url: https://www.ikea.com/eg/en/p/sotnaetfjaeril-waterproof-mattress-protector-90531288/
+                  - generic [ref=f7e398]:
+                    - 'radio "Option: 90x200 cm" [ref=f7e399]'
+                    - link "90x200 cm" [ref=f7e400]:
+                      - /url: https://www.ikea.com/eg/en/p/sotnaetfjaeril-waterproof-mattress-protector-10531292/
+                  - link "+2 more options are available." [ref=f7e403]:
+                    - /url: https://www.ikea.com/eg/en/p/sotnaetfjaeril-waterproof-mattress-protector-90531288/
+                    - generic [ref=f7e404]: "+2"
+              - generic [ref=f7e405]:
+                - generic [ref=f7e407]:
+                  - checkbox "Compare - Select for product comparison, Mattress protector, 160x200 cm" [ref=f7e408] [cursor=pointer]
+                  - generic [ref=f7e410]: Compare
+                - link [ref=f7e413] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/aengskorn-mattress-protector-80461988/
+                  - img "Folded white mattress protector, quilted, rectangular, with elastic corners." [ref=f7e414]
+                  - img "A quilted, white mattress protector on a bed, secured with elastic straps, protecting and prolonging mattress life." [ref=f7e415]
+                - generic [ref=f7e418]:
+                  - heading [level=3] [ref=f7e420]:
+                    - link "ÄNGSKORN, Mattress protector, 160x200 cm" [ref=f7e422] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/aengskorn-mattress-protector-80461988/
+                      - text: ÄNGSKORN
+                    - generic [ref=f7e423]: Mattress protector, 160x200 cm
+                  - generic [ref=f7e425]:
+                    - generic [ref=f7e427]:
+                      - generic [ref=f7e428]: EGP2,499
+                      - generic [ref=f7e430]: EGP 2499
+                    - generic [ref=f7e432]:
+                      - generic [ref=f7e433]: EGP1,999
+                      - generic [ref=f7e435]: Price EGP 1999
+                  - generic [ref=f7e436]: 20% off, save EGP500
+                  - paragraph [ref=f7e440]: Limited time offer
+                - generic [ref=f7e441]:
+                  - button "Add \"ÄNGSKORN Mattress protector\" to cart" [ref=f7e442] [cursor=pointer]
+                  - button "Save \"ÄNGSKORN Mattress protector\" to shopping list" [ref=f7e443] [cursor=pointer]
+                - generic [ref=f7e444]: Available for delivery
+                - group "More options ÄNGSKORN" [ref=f7e448] [cursor=pointer]:
+                  - generic [ref=f7e449]:
+                    - text: More options
+                    - generic [ref=f7e450]: ÄNGSKORN
+                  - generic [ref=f7e451]:
+                    - 'radio "Option: 160x200 cm" [checked] [ref=f7e452]'
+                    - link "160x200 cm" [ref=f7e453]:
+                      - /url: https://www.ikea.com/eg/en/p/aengskorn-mattress-protector-80461988/
+                  - generic [ref=f7e456]:
+                    - 'radio "Option: 90x200 cm" [ref=f7e457]'
+                    - link "90x200 cm" [ref=f7e458]:
+                      - /url: https://www.ikea.com/eg/en/p/aengskorn-mattress-protector-90461997/
+                  - link "+2 more options are available." [ref=f7e461]:
+                    - /url: https://www.ikea.com/eg/en/p/aengskorn-mattress-protector-80461988/
+                    - generic [ref=f7e462]: "+2"
+              - generic [ref=f7e463]:
+                - generic [ref=f7e465]:
+                  - checkbox "Compare - Select for product comparison, Mattress protector, 90x200 cm" [ref=f7e466] [cursor=pointer]
+                  - generic [ref=f7e468]: Compare
+                - link [ref=f7e471] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/rosenvial-mattress-protector-80530864/
+                  - img "White ROSENVIAL mattress protector with quilted design, elastic straps, soft and cooling surface, 100% polyester back, nylon top, recycled materials." [ref=f7e472]
+                  - img "A bed with light blue ROSENVIAL mattress protector and pillows, matchmaking comfort and protection." [ref=f7e473]
+                - generic [ref=f7e476]:
+                  - generic [ref=f7e477]:
+                    - generic [ref=f7e478]: Price Lowered
+                    - heading [level=3] [ref=f7e479]:
+                      - link "ROSENVIAL, Mattress protector, 90x200 cm" [ref=f7e481] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/rosenvial-mattress-protector-80530864/
+                        - text: ROSENVIAL
+                      - generic [ref=f7e482]: Mattress protector, 90x200 cm
+                  - generic [ref=f7e486]:
+                    - generic [ref=f7e487]: EGP1,399
+                    - generic [ref=f7e489]: Price EGP 1399
+                  - generic [ref=f7e491]:
+                    - text: Previous price
+                    - generic [ref=f7e492]:
+                      - generic [ref=f7e493]: EGP3,699
+                      - generic [ref=f7e495]: Previous price EGP 3699
+                - 'button "Review: 1 out of 5 stars. Total reviews: (1)" [ref=f7e496] [cursor=pointer]':
+                  - generic [ref=f7e497]: "Review: 1 out of 5 stars. Total reviews:"
+                  - generic [ref=f7e498]: (1)
+                - generic [ref=f7e500]:
+                  - button "Add \"ROSENVIAL Mattress protector\" to cart" [ref=f7e501] [cursor=pointer]
+                  - button "Save \"ROSENVIAL Mattress protector\" to shopping list" [ref=f7e502] [cursor=pointer]
+                - generic [ref=f7e503]: Available for delivery
+                - generic [ref=f7e507]: Cooling
+                - group "More options ROSENVIAL" [ref=f7e513] [cursor=pointer]:
+                  - generic [ref=f7e514]:
+                    - text: More options
+                    - generic [ref=f7e515]: ROSENVIAL
+                  - generic [ref=f7e516]:
+                    - 'radio "Option: 90x200 cm" [checked] [ref=f7e517]'
+                    - link "90x200 cm" [ref=f7e518]:
+                      - /url: https://www.ikea.com/eg/en/p/rosenvial-mattress-protector-80530864/
+                  - generic [ref=f7e521]:
+                    - 'radio "Option: 140x200 cm" [ref=f7e522]'
+                    - link "140x200 cm" [ref=f7e523]:
+                      - /url: https://www.ikea.com/eg/en/p/rosenvial-mattress-protector-40530856/
+                  - link "+2 more options are available." [ref=f7e526]:
+                    - /url: https://www.ikea.com/eg/en/p/rosenvial-mattress-protector-80530864/
+                    - generic [ref=f7e527]: "+2"
+              - generic [ref=f7e528]:
+                - generic [ref=f7e530]:
+                  - checkbox "Compare - Select for product comparison, Mattress protector, 180x200 cm" [ref=f7e531] [cursor=pointer]
+                  - generic [ref=f7e533]: Compare
+                - link [ref=f7e536] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/p/kejsarolvon-mattress-protector-beige-blue-90580434/
+                  - img "KEJSAROLVON protector, blue/beige, reversible quilted square." [ref=f7e537]
+                  - img "Calm bedroom with wooden bed, blue mattress protector, white curtains, small bedside table with books and vase, hanging light bulb." [ref=f7e538]
+                - generic [ref=f7e541]:
+                  - heading [level=3] [ref=f7e543]:
+                    - link "KEJSAROLVON, Mattress protector, beige/blue, 180x200 cm" [ref=f7e545] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/kejsarolvon-mattress-protector-beige-blue-90580434/
+                      - text: KEJSAROLVON
+                    - generic [ref=f7e546]: Mattress protector, beige/blue, 180x200 cm
+                  - generic [ref=f7e548]:
+                    - generic [ref=f7e550]:
+                      - generic [ref=f7e551]: EGP5,499
+                      - generic [ref=f7e553]: EGP 5499
+                    - generic [ref=f7e555]:
+                      - generic [ref=f7e556]: EGP3,999
+                      - generic [ref=f7e558]: Price EGP 3999
+                  - generic [ref=f7e559]: 27% off, save EGP1,500
+                  - paragraph [ref=f7e563]: Limited time offer
+                - 'button "Review: 3 out of 5 stars. Total reviews: (2)" [ref=f7e564] [cursor=pointer]':
+                  - generic [ref=f7e565]: "Review: 3 out of 5 stars. Total reviews:"
+                  - generic [ref=f7e566]: (2)
+                - button "Save \"KEJSAROLVON Mattress protector\" to shopping list" [ref=f7e569] [cursor=pointer]
+                - generic [ref=f7e570]: Currently unavailable for delivery
+                - generic [ref=f7e574]: Cooling
+                - group "More options KEJSAROLVON" [ref=f7e580] [cursor=pointer]:
+                  - generic [ref=f7e581]:
+                    - text: More options
+                    - generic [ref=f7e582]: KEJSAROLVON
+                  - generic [ref=f7e583]:
+                    - 'radio "Option: 180x200 cm" [checked] [ref=f7e584]'
+                    - link "180x200 cm" [ref=f7e585]:
+                      - /url: https://www.ikea.com/eg/en/p/kejsarolvon-mattress-protector-beige-blue-90580434/
+                  - generic [ref=f7e588]:
+                    - 'radio "Option: 140x200 cm" [ref=f7e589]'
+                    - link "140x200 cm" [ref=f7e590]:
+                      - /url: https://www.ikea.com/eg/en/p/kejsarolvon-mattress-protector-beige-blue-90580429/
+                  - link "+2 more options are available." [ref=f7e593]:
+                    - /url: https://www.ikea.com/eg/en/p/kejsarolvon-mattress-protector-beige-blue-90580434/
+                    - generic [ref=f7e594]: "+2"
+            - generic [ref=f7e595]:
+              - paragraph [ref=f7e596]: Showing 7 of 7 results
+              - progressbar [ref=f7e597]
+      - heading "Recommended for you" [level=2] [ref=f7e599]
+      - generic [ref=f7e603]:
+        - heading "Related categories" [level=2] [ref=f7e604]
+        - generic [ref=f7e606]:
+          - link "Skip product categories list" [ref=f7e607] [cursor=pointer]:
+            - /url: "#hnf--carousel__hnf-inpage-nav-skip-btn"
+          - list [ref=f7e609]:
+            - listitem [ref=f7e610]:
+              - link "Textiles & rugs" [ref=f7e611] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/textiles-tl001/
+            - listitem [ref=f7e616]:
+              - link "Bed linen" [ref=f7e617] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bed-linen-10651/
+            - listitem [ref=f7e620]:
+              - link "Cushions & cushion covers" [ref=f7e621] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/cushions-cushion-covers-10659/
+            - listitem [ref=f7e624]:
+              - link "Duvets" [ref=f7e625] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/duvets-20529/
+            - listitem [ref=f7e628]:
+              - link "Blankets & throws" [ref=f7e629] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/blankets-throws-20528/
+            - listitem [ref=f7e632]:
+              - link "Bedspreads & bed throws" [ref=f7e633] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bedspreads-20527/
+            - listitem [ref=f7e636]:
+              - link "Mattress protectors" [ref=f7e637] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/mattress-pillow-protectors-24824/
+            - listitem [ref=f7e640]:
+              - link "Pillows" [ref=f7e641] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/pillows-20533/
+            - listitem [ref=f7e644]:
+              - link "Bed & headboard covers" [ref=f7e645] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/bed-headboard-covers-57280/
+            - listitem [ref=f7e648]:
+              - link "Pillow protectors" [ref=f7e649] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/pillow-protectors-700529/
+            - listitem [ref=f7e652]:
+              - link "Comforters" [ref=f7e653] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/comforters-700553/
+    - list [ref=f7e657]:
+      - listitem [ref=f7e658]:
+        - link "Mattress protectors, size 140x200 cm" [ref=f7e659] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattress-pillow-protectors-24824/f/mattress-protectors-size-140x200-cm-f-typed-reference-measurement--140x200-mattress-and-pillow-protectors/
+      - listitem [ref=f7e661]:
+        - link "Mattress protectors, size 160x200 cm" [ref=f7e662] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattress-pillow-protectors-24824/f/mattress-protectors-size-160x200-cm-f-typed-reference-measurement--160x200-mattress-and-pillow-protectors/
+      - listitem [ref=f7e664]:
+        - link "Mattress protectors, size 180x200 cm" [ref=f7e665] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattress-pillow-protectors-24824/f/mattress-protectors-size-180x200-cm-f-typed-reference-measurement--180x200-mattress-and-pillow-protectors/
+      - listitem [ref=f7e667]:
+        - link "Mattress protectors, size 90x200 cm" [ref=f7e668] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/cat/mattress-pillow-protectors-24824/f/mattress-protectors-size-90x200-cm-f-typed-reference-measurement--90x200-mattress-and-pillow-protectors/
+  - generic [ref=f7e670]:
+    - generic:
+      - complementary
+    - contentinfo [ref=f7e671]:
+      - generic [ref=f7e672]:
+        - heading "Footer" [level=2] [ref=f7e673]
+        - generic [ref=f7e674]:
+          - list [ref=f7e676]:
+            - listitem [ref=f7e677]:
+              - heading "Useful links" [level=3] [ref=f7e678]
+              - list "Useful links Brochures IKEA shopping app Planning tools Stores IKEA restaurant IKEA Family" [ref=f7e679]:
+                - listitem [ref=f7e680]:
+                  - link "Brochures" [ref=f7e681] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/brochures/
+                - listitem [ref=f7e682]:
+                  - link "IKEA shopping app" [ref=f7e683] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/free-ikea-apps-pubc9ac6ea1/
+                - listitem [ref=f7e684]:
+                  - link "Planning tools" [ref=f7e685] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/planners/
+                - listitem [ref=f7e686]:
+                  - link "Stores" [ref=f7e687] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/
+                - listitem [ref=f7e688]:
+                  - link "IKEA restaurant" [ref=f7e689] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/restaurant/
+                - listitem [ref=f7e690]:
+                  - link "IKEA Family" [ref=f7e691] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/ikea-family/
+            - listitem [ref=f7e692]:
+              - heading "Customer service" [level=3] [ref=f7e693]
+              - list "Customer service Terms and conditions Guarantees & warranties Spare parts About services About shopping Return policy Contact us FAQ" [ref=f7e694]:
+                - listitem [ref=f7e695]:
+                  - link "Terms and conditions" [ref=f7e696] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+                - listitem [ref=f7e697]:
+                  - link "Guarantees & warranties" [ref=f7e698] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/guarantee/
+                - listitem [ref=f7e699]:
+                  - link "Spare parts" [ref=f7e700] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/spareparts/
+                - listitem [ref=f7e701]:
+                  - link "About services" [ref=f7e702] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/
+                - listitem [ref=f7e703]:
+                  - link "About shopping" [ref=f7e704] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/
+                - listitem [ref=f7e705]:
+                  - link "Return policy" [ref=f7e706] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/
+                - listitem [ref=f7e707]:
+                  - link "Contact us" [ref=f7e708] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/contact-us/
+                - listitem [ref=f7e709]:
+                  - link "FAQ" [ref=f7e710] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/faq/
+            - listitem [ref=f7e711]:
+              - heading "This is IKEA" [level=3] [ref=f7e712]
+              - list "This is IKEA About IKEA Democratic design Sustainable everyday Community engagement Working at IKEA" [ref=f7e713]:
+                - listitem [ref=f7e714]:
+                  - link "About IKEA" [ref=f7e715] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/
+                - listitem [ref=f7e716]:
+                  - link "Democratic design" [ref=f7e717] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/design/
+                - listitem [ref=f7e718]:
+                  - link "Sustainable everyday" [ref=f7e719] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/sustainable-everyday/
+                - listitem [ref=f7e720]:
+                  - link "Community engagement" [ref=f7e721] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/community-engagement/
+                - listitem [ref=f7e722]:
+                  - link "Working at IKEA" [ref=f7e723] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/work-with-us/
+            - listitem [ref=f7e724]:
+              - heading "General information" [level=3] [ref=f7e725]
+              - list "General information Newsroom Product recalls" [ref=f7e726]:
+                - listitem [ref=f7e727]:
+                  - link "Newsroom" [ref=f7e728] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/newsroom/
+                - listitem [ref=f7e729]:
+                  - link "Product recalls" [ref=f7e730] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/product-support/recalls/
+          - generic [ref=f7e731]:
+            - generic [ref=f7e732]:
+              - list [ref=f7e733]:
+                - listitem [ref=f7e734]:
+                  - link "Follow IKEA on Facebook" [ref=f7e735] [cursor=pointer]:
+                    - /url: https://www.facebook.com/IKEAEgypt/
+                - listitem [ref=f7e738]:
+                  - link "Follow IKEA on Instagram" [ref=f7e739] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ikeaegypt/
+                - listitem [ref=f7e742]:
+                  - link "Follow IKEA on Youtube" [ref=f7e743] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/IKEAegypt
+                - listitem [ref=f7e746]:
+                  - link "Follow IKEA on X" [ref=f7e747] [cursor=pointer]:
+                    - /url: https://x.com/IKEAEgypt
+              - list [ref=f7e750]:
+                - listitem [ref=f7e751]:
+                  - img "AMEX" [ref=f7e753]
+                - listitem [ref=f7e754]:
+                  - img "visa" [ref=f7e756]
+                - listitem [ref=f7e757]:
+                  - img "mastercard" [ref=f7e759]
+            - generic [ref=f7e760]:
+              - button "Cookie settings" [ref=f7e762] [cursor=pointer]
+              - button "Change language or country/region, current language is English" [ref=f7e764] [cursor=pointer]:
+                - generic: EGEnglish
+        - generic [ref=f7e765]:
+          - paragraph [ref=f7e767]: © Inter IKEA Systems B.V. 1999-2026
+          - list [ref=f7e769]:
+            - listitem [ref=f7e770]:
+              - link "Privacy policy" [ref=f7e771] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/privacy-policy/
+            - listitem [ref=f7e772]:
+              - link "Cookie policy" [ref=f7e773] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/cookie-policy/
+            - listitem [ref=f7e774]:
+              - link "Terms and conditions" [ref=f7e775] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+  - region "Cookie consent banner" [active] [ref=f7e776]:
+    - dialog "Privacy" [ref=f7e777]:
+      - generic [ref=f7e779]:
+        - generic [ref=f7e780]: IKEA.eg and our digital partners use cookies on this site. Some are strictly necessary to run the site and others are used for measuring site usage, enabling personalisation and for advertising, marketing and social media.
+        - generic [ref=f7e784]:
+          - button "Cookies settings, Opens the preference center dialog" [ref=f7e785] [cursor=pointer]: Cookies settings
+          - button "Ok" [ref=f7e786] [cursor=pointer]
+  - dialog [ref=f7e788]:
+    - generic [ref=f7e791] [cursor=pointer]:
+      - link [ref=f7e799]:
+        - /url: https://www.ikea.com/eg/en/search/?group=Sale&filters=f-availability%3AAVAILABLE_ONLINE&sort=MOST_POPULAR
+      - generic [ref=f7e801]: ×

@@ -1,0 +1,32 @@
+[     732ms] ReferenceError: _satellite is not defined
+    at Object.initPageBottom (https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:2094)
+    at Object.init (https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:1588)
+    at https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:3056
+    at https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:3064
+[    2082ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://logx.optimizely.com/v1/events:0
+[    2258ms] [LOG] secondary key value eg_en @ https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1
+[    3779ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.google.com/:0
+[    3780ms] Uncaught (in promise) TypeError: Failed to fetch
+    at window.fetch (:2:2604)
+    at p (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:55835)
+    at checkInternetConnection (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:137910)
+    at componentDidMount (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:152930)
+    at ls (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:600798)
+    at wu (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:618504)
+    at t.unstable_runWithPriority (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:675450)
+    at Go (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:562308)
+    at _u (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:615167)
+    at su (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:611298)
+    at nu (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:607860)
+    at Hu (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:629136)
+    at <anonymous> (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:630342)
+    at lu (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:611446)
+    at Qu (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:630328)
+    at t.render (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:633311)
+    at 75250 (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:162645)
+    at n (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:796281)
+    at <anonymous> (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:801084)
+    at <anonymous> (https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1:801094)
+[   14762ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://feedback.ikea.com/jfe/themes/base-css/basestyles-lfe/version-1757022014191-805822/files/external-link-icon.woff @ https://feedback.ikea.com/jfe/static/dist/c/prototype.6dd26e42a6bd6438b7cd.min.js:1
+[   14879ms] [LOG] ERROR: Function not defined! @ :1
+[   14979ms] [WARNING] CarouselAnswerListFieldset not found - revealing without sync @ :1053

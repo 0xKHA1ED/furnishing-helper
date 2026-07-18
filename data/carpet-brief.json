@@ -1,0 +1,169 @@
+{
+  "version": 3,
+  "lastUpdated": "2026-07-17",
+  "status": "catalog_ready_bulk",
+  "galleryPage": "carpet-gallery.html",
+  "catalogPath": "data/appliances/carpet_catalog.json",
+  "rooms": {
+    "living_cm": [
+      375,
+      450
+    ],
+    "bedroom_cm": [
+      330,
+      475
+    ],
+    "second_room_cm": [
+      380,
+      330
+    ],
+    "kitchen_cm": [
+      250,
+      215
+    ]
+  },
+  "phaseRooms": [
+    "living",
+    "master_bedroom",
+    "kitchen_mat",
+    "entry"
+  ],
+  "deferred": [
+    "second_bedroom_few_months"
+  ],
+  "answers": {
+    "pilePreference": "low_pile_flatweave",
+    "budgetTotal": null,
+    "livingRugLayout": "medium_in_front_of_sofa_furniture_mostly_off",
+    "livingFurniture": "L_shaped_sofa_coffee_table_tv_unit_tv",
+    "bedroomRugLayout": "large_under_bed_sides_and_foot",
+    "bedWidthCm": 180,
+    "colorDirection": "deeper_tones_terracotta_olive_navy_accents",
+    "materialByRoom": {
+      "master_bedroom": "wool",
+      "living": "easy_clean_aesthetics_flatweave",
+      "kitchen": "easy_clean_runner",
+      "entry": "simple_doormat"
+    },
+    "entryKitchenEffort": "simple_1_doormat_1_kitchen_runner",
+    "shop": [
+      "ikea_eg",
+      "homzmart",
+      "showrooms",
+      "quality_returns"
+    ],
+    "hate": [
+      "bright_cartoonish",
+      "shaggy_high_pile",
+      "pure_white_cream"
+    ]
+  },
+  "sizePlan": {
+    "living": {
+      "roomCm": [
+        375,
+        450
+      ],
+      "placement": "In front of L-sofa around coffee table; sofa mostly off rug",
+      "targetSizesCm": [
+        {
+          "w": 160,
+          "l": 230,
+          "role": "compact medium"
+        },
+        {
+          "w": 200,
+          "l": 300,
+          "role": "recommended medium-large for L + table"
+        }
+      ],
+      "note": "Orient long side parallel to main sofa run or under coffee table cluster"
+    },
+    "master_bedroom": {
+      "roomCm": [
+        330,
+        475
+      ],
+      "bedWidthCm": 180,
+      "placement": "Under bed so foot + both sides show",
+      "targetSizesCm": [
+        {
+          "w": 200,
+          "l": 300,
+          "role": "practical min — head may sit partly off"
+        },
+        {
+          "w": 240,
+          "l": 300,
+          "role": "better side margins if available"
+        }
+      ],
+      "material": "wool preferred — IKEA EG has limited pure wool large; use showroom/Homzmart for wool, IKEA low-pile olive as interim"
+    },
+    "kitchen": {
+      "roomCm": [
+        250,
+        215
+      ],
+      "targetSizesCm": [
+        {
+          "w": 80,
+          "l": 150
+        },
+        {
+          "w": 80,
+          "l": 200
+        }
+      ],
+      "type": "washable runner / in-outdoor flatweave"
+    },
+    "entry": {
+      "targetSizesCm": [
+        {
+          "w": 40,
+          "l": 60
+        },
+        {
+          "w": 50,
+          "l": 80
+        },
+        {
+          "w": 60,
+          "l": 90
+        }
+      ],
+      "type": "doormat"
+    }
+  },
+  "scrape": {
+    "method": "Playwright MCP",
+    "sources": [
+      "IKEA Egypt rugs cat pages 1-3 + underlay search",
+      "Amazon.eg area rugs / Mac Carpet / kitchen runners / Oriental Weavers",
+      "Jumia carpet+rug search"
+    ],
+    "failed": [
+      "Homzmart TLS/cert",
+      "Jumia briefly 403 then recovered"
+    ],
+    "counts": {
+      "totalScrapedUnique": 255,
+      "included": 243,
+      "excluded": 12,
+      "withImage": 255,
+      "bySource": {
+        "IKEA Egypt": 104,
+        "Amazon.eg": 119,
+        "Jumia Egypt": 32
+      },
+      "byRoom": {
+        "living": 141,
+        "master_bedroom": 6,
+        "kitchen": 64,
+        "entry": 35,
+        "accessory": 7,
+        "second_bedroom": 2
+      }
+    }
+  }
+}

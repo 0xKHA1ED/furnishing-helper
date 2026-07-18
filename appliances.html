@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Appliances gallery — Egypt home hub</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/appliances.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">
+            <a href="index.html">← Hub</a> ·
+            <a href="fridge.html">Fridge lanes</a> ·
+            <a href="notes/research/fridge-batch-2026-07-17.md">Research notes</a>
+          </p>
+          <h1>Appliances gallery</h1>
+          <p class="lead">
+            Browse researched catalog with <strong>photos</strong>, filters, and click-through
+            <strong>pros / cons / specs</strong>. Star favorites. Data lives in
+            <code>data/appliances/catalog.json</code>.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold" id="count-badge">—</span>
+          <span class="badge" id="img-badge">—</span>
+        </div>
+      </header>
+
+      <div class="help-callout" id="disclaimer">Loading…</div>
+
+      <div class="preset-row" aria-label="Quick filters">
+        <button type="button" data-preset="all" class="active">All</button>
+        <button type="button" data-preset="fridge-black-35k">Fridge · black · ≤35k</button>
+        <button type="button" data-preset="fridge-under-35k">Fridge · ≤35k · 360L+</button>
+        <button type="button" data-preset="researched">Deep-researched only</button>
+        <button type="button" data-preset="starred">★ Starred</button>
+        <button type="button" data-preset="washers">Washers</button>
+        <button type="button" data-preset="heaters">Water heaters</button>
+      </div>
+
+      <div class="gallery-toolbar">
+        <label>Category
+          <select id="f-cat">
+            <option value="all">All</option>
+            <option value="fridge">Fridge</option>
+            <option value="washer">Washer</option>
+            <option value="dryer">Dryer</option>
+            <option value="water_heater">Water heater</option>
+          </select>
+        </label>
+        <label>Search
+          <input id="f-q" type="search" placeholder="brand, model…" />
+        </label>
+        <label>Min EGP
+          <input id="f-min" type="number" placeholder="0" />
+        </label>
+        <label>Max EGP
+          <input id="f-max" type="number" placeholder="100000" />
+        </label>
+        <label>Min capacity
+          <input id="f-cap" type="number" placeholder="L or kg" />
+        </label>
+        <label>Inverter
+          <select id="f-inv">
+            <option value="any">Any</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </label>
+        <label>Color
+          <select id="f-color">
+            <option value="any">Any</option>
+            <option value="black">Black</option>
+          </select>
+        </label>
+        <label>Starred only
+          <select id="f-star">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select>
+        </label>
+        <label>Researched only
+          <select id="f-deep">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select>
+        </label>
+        <label>Sort
+          <select id="f-sort">
+            <option value="default">Best for us / researched first</option>
+            <option value="research">Research fit score</option>
+            <option value="price_asc">Price ↑</option>
+            <option value="price_desc">Price ↓</option>
+            <option value="cap_desc">Capacity ↓</option>
+            <option value="brand">Brand</option>
+          </select>
+        </label>
+        <button type="button" class="btn ghost" id="btn-export-stars">Export ★ JSON</button>
+        <button type="button" class="btn ghost" id="btn-clear-stars">Clear ★</button>
+      </div>
+
+      <p class="sticky-count" id="result-count"></p>
+      <div class="product-grid" id="product-grid"></div>
+
+      <footer class="app-footer">
+        Photos hotlinked from B.TECH CDN (need internet). Re-scrape via
+        <code>scripts/</code> + Playwright when prices/images go stale.
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true">
+      <div class="modal">
+        <div class="modal-head">
+          <div>
+            <h2 id="modal-title">Product</h2>
+            <p class="muted" id="modal-sub" style="margin: 0.25rem 0 0; font-size: 0.85rem"></p>
+          </div>
+          <button type="button" class="modal-close" id="modal-close">Close</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <img class="main-img" id="modal-main-img" alt="" referrerpolicy="no-referrer" />
+            <div class="ph" id="modal-no-img" style="display: none; color: #9aa6bc; text-align: center; padding: 2rem">
+              No photo stored for this SKU
+            </div>
+            <div class="thumbs" id="modal-thumbs"></div>
+          </div>
+          <div class="modal-info">
+            <div class="price-lg" id="modal-price"></div>
+            <p class="muted" id="modal-summary" style="margin: 0.5rem 0 0"></p>
+            <div class="pc-grid">
+              <div class="pc-box pros">
+                <h4>Pros</h4>
+                <ul id="modal-pros"></ul>
+              </div>
+              <div class="pc-box cons">
+                <h4>Cons</h4>
+                <ul id="modal-cons"></ul>
+              </div>
+            </div>
+            <ul class="spec-list" id="modal-specs"></ul>
+            <div class="btn-row" style="margin-top: 1rem">
+              <button type="button" class="btn ghost" id="modal-star">☆ Star</button>
+              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open on B.TECH</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+    <script src="js/appliances.js"></script>
+  </body>
+</html>

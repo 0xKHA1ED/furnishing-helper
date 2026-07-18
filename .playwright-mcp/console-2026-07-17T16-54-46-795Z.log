@@ -1,0 +1,577 @@
+[    2231ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[    2276ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[    2297ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[    2299ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[    2336ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[    2343ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[    2344ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[    3550ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[    3564ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[    3570ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[    4219ms] [ERROR] [SushiLogger] Logger not initialized, performance not logged for: asinImageRender @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   11468ms] [WARNING] The resource https://m.media-amazon.com/images/I/51On6pZ2rqL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   11468ms] [WARNING] The resource https://m.media-amazon.com/images/I/617wb09azWL._RC%7C81ZLs-rhJOL.js,31jsB13JlVL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   11469ms] [WARNING] The resource https://m.media-amazon.com/images/I/611o0OUqPSL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   11469ms] [WARNING] The resource https://m.media-amazon.com/images/I/51S-qOAsDtL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   11469ms] [WARNING] The resource https://m.media-amazon.com/images/I/31lqqqMDjxL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   11469ms] [WARNING] The resource https://m.media-amazon.com/images/I/116bX-R1bpL._RC%7C61JiVlf+xuL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   11469ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   11469ms] [WARNING] The resource https://m.media-amazon.com/images/I/11-kHyBw2eL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   11469ms] [WARNING] The resource https://m.media-amazon.com/images/I/51O8J+GSFNL._RC%7C01zCndFsf4L.js,01VTews5i1L.js,31xJau8gMoL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   11469ms] [WARNING] The resource https://m.media-amazon.com/images/I/51ORE2brWDL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   11469ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/qfW--cE29kY67jg.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25352ms] [WARNING] The resource https://m.media-amazon.com/images/I/51On6pZ2rqL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25352ms] [WARNING] The resource https://m.media-amazon.com/images/I/617wb09azWL._RC%7C81ZLs-rhJOL.js,31jsB13JlVL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25352ms] [WARNING] The resource https://m.media-amazon.com/images/I/611o0OUqPSL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25352ms] [WARNING] The resource https://m.media-amazon.com/images/I/51S-qOAsDtL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25352ms] [WARNING] The resource https://m.media-amazon.com/images/I/31lqqqMDjxL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25352ms] [WARNING] The resource https://m.media-amazon.com/images/I/116bX-R1bpL._RC%7C61JiVlf+xuL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25353ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25353ms] [WARNING] The resource https://m.media-amazon.com/images/I/11-kHyBw2eL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25353ms] [WARNING] The resource https://m.media-amazon.com/images/I/51O8J+GSFNL._RC%7C01zCndFsf4L.js,01VTews5i1L.js,31xJau8gMoL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25353ms] [WARNING] The resource https://m.media-amazon.com/images/I/51ORE2brWDL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   25353ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/qfW--cE29kY67jg.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/I/51On6pZ2rqL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/I/617wb09azWL._RC%7C81ZLs-rhJOL.js,31jsB13JlVL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/I/611o0OUqPSL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/I/51S-qOAsDtL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/I/31lqqqMDjxL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/I/116bX-R1bpL._RC%7C61JiVlf+xuL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/I/11-kHyBw2eL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/I/51O8J+GSFNL._RC%7C01zCndFsf4L.js,01VTews5i1L.js,31xJau8gMoL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/I/51ORE2brWDL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   28998ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/qfW--cE29kY67jg.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0DZ2DN66X:0
+[   36701ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/ubuntu/v21/4iCs6KVjbNBYlgoKfw72.woff2 @ https://www.jumia.com.eg/beko-no-frost-refrigerator-rdne455m20xbidegb-406-liters-inverter-black-130117781.html:1
+[   36705ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/ubuntu/v21/4iCv6KVjbNBYlgoCjC3jsGyN.woff2 @ https://www.jumia.com.eg/beko-no-frost-refrigerator-rdne455m20xbidegb-406-liters-inverter-black-130117781.html:1
+[   36745ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/ubuntu/v21/4iCv6KVjbNBYlgoCxCvjsGyN.woff2 @ https://www.jumia.com.eg/beko-no-frost-refrigerator-rdne455m20xbidegb-406-liters-inverter-black-130117781.html:1
+[   85156ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/AmazonEmberModernDisplay/EmberModernDisplayStd-Regular.woff2 @ https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html:0
+[   85175ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2 @ https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html:0
+[   85156ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/AmazonEmberModernDisplay/EmberModernDisplayStd-Regular.woff2 @ https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html:0
+[   85175ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2 @ https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html:0
+[   85156ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/AmazonEmberModernDisplay/EmberModernDisplayStd-Regular.woff2 @ https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html:0
+[   85175ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2 @ https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html:0
+[   85264ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/S/sash/Dv1WQ5DdeMS5qP7.woff2 @ https://www.amazon.eg/dp/B091NXGSGW:5972
+[   85269ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   85340ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   85348ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   85351ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   85393ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   85402ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   85405ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   85434ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   85156ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/AmazonEmberModernDisplay/EmberModernDisplayStd-Regular.woff2 @ https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html:0
+[   85175ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2 @ https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html:0
+[   85526ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   85537ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   85539ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   85156ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/AmazonEmberModernDisplay/EmberModernDisplayStd-Regular.woff2 @ https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html:0
+[   85175ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2 @ https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html:0
+[   85622ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   85643ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   85646ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   85688ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   85893ms] [ERROR] [SushiLogger] Logger not initialized, performance not logged for: asinImageRender @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   89634ms] [WARNING] The resource https://m.media-amazon.com/images/I/51On6pZ2rqL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89634ms] [WARNING] The resource https://m.media-amazon.com/images/I/617wb09azWL._RC%7C81ZLs-rhJOL.js,31jsB13JlVL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89634ms] [WARNING] The resource https://m.media-amazon.com/images/I/611o0OUqPSL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89634ms] [WARNING] The resource https://m.media-amazon.com/images/I/51S-qOAsDtL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89634ms] [WARNING] The resource https://m.media-amazon.com/images/I/31lqqqMDjxL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89634ms] [WARNING] The resource https://m.media-amazon.com/images/I/116bX-R1bpL._RC%7C61JiVlf+xuL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89634ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89634ms] [WARNING] The resource https://m.media-amazon.com/images/I/11-kHyBw2eL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89635ms] [WARNING] The resource https://m.media-amazon.com/images/I/51O8J+GSFNL._RC%7C01zCndFsf4L.js,01VTews5i1L.js,31xJau8gMoL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89635ms] [WARNING] The resource https://m.media-amazon.com/images/I/51ORE2brWDL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89635ms] [WARNING] The resource https://redirect.prod.experiment.routing.cloudfront.aws.a2z.com/x.png?timestamp=1784307374886 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   89635ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/qfW--cE29kY67jg.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B091NXGSGW?th=1:0
+[   92536ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   92589ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   92595ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   92599ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   92638ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   92644ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   92645ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   93974ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   93989ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   93991ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   94006ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   94021ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[   94103ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   94114ms] [ERROR] [SushiLogger] Logger not initialized, performance not logged for: asinImageRender @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[   95322ms] [ERROR] [SushiLogger] Logger not initialized, performance not logged for: asinImageRender @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[  104081ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[  104088ms] [ERROR] [SushiLogger] Logger not initialized, performance not logged for: asinImageRender @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[  104098ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  104098ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  104125ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[  104135ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  104136ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  104205ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[  104210ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  104212ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  104233ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  105611ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[  105625ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  105627ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  105647ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[  105650ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  105661ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  105699ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  111865ms] [WARNING] The resource https://m.media-amazon.com/images/I/51On6pZ2rqL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  111865ms] [WARNING] The resource https://m.media-amazon.com/images/I/11-kHyBw2eL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  111865ms] [WARNING] The resource https://m.media-amazon.com/images/I/617wb09azWL._RC%7C81ZLs-rhJOL.js,31jsB13JlVL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  111865ms] [WARNING] The resource https://m.media-amazon.com/images/I/611o0OUqPSL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  111865ms] [WARNING] The resource https://m.media-amazon.com/images/I/51ORE2brWDL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  111865ms] [WARNING] The resource https://m.media-amazon.com/images/I/51O8J+GSFNL._RC%7C01zCndFsf4L.js,01VTews5i1L.js,31xJau8gMoL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  111865ms] [WARNING] The resource https://m.media-amazon.com/images/I/51S-qOAsDtL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  111865ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/qfW--cE29kY67jg.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  111865ms] [WARNING] The resource https://m.media-amazon.com/images/I/31lqqqMDjxL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  111866ms] [WARNING] The resource https://m.media-amazon.com/images/I/116bX-R1bpL._RC%7C61JiVlf+xuL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  111866ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/I/51On6pZ2rqL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/I/11-kHyBw2eL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/I/617wb09azWL._RC%7C81ZLs-rhJOL.js,31jsB13JlVL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/I/611o0OUqPSL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/I/51ORE2brWDL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/I/51O8J+GSFNL._RC%7C01zCndFsf4L.js,01VTews5i1L.js,31xJau8gMoL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/I/51S-qOAsDtL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/qfW--cE29kY67jg.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/I/31lqqqMDjxL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/I/116bX-R1bpL._RC%7C61JiVlf+xuL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  134293ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/I/51On6pZ2rqL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/I/11-kHyBw2eL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/I/617wb09azWL._RC%7C81ZLs-rhJOL.js,31jsB13JlVL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/I/611o0OUqPSL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/I/51ORE2brWDL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/I/51O8J+GSFNL._RC%7C01zCndFsf4L.js,01VTews5i1L.js,31xJau8gMoL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/I/51S-qOAsDtL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/qfW--cE29kY67jg.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/I/31lqqqMDjxL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/I/116bX-R1bpL._RC%7C61JiVlf+xuL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  145349ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/I/51On6pZ2rqL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/I/11-kHyBw2eL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/I/617wb09azWL._RC%7C81ZLs-rhJOL.js,31jsB13JlVL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/I/611o0OUqPSL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/I/51ORE2brWDL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/I/51O8J+GSFNL._RC%7C01zCndFsf4L.js,01VTews5i1L.js,31xJau8gMoL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/I/51S-qOAsDtL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/qfW--cE29kY67jg.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/I/31lqqqMDjxL.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/I/116bX-R1bpL._RC%7C61JiVlf+xuL.js_.js?AUIClients/ was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  155086ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/OLg_xR2a_RxdZZu.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.eg/dp/B0F7XWDB8W:0
+[  158671ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[  158682ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  158684ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  158750ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[  158756ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  158758ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  159113ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:26
+[  159122ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  159124ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1oyQBbVeKL.js:10
+[  164276ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/ubuntu/v21/4iCv6KVjbNBYlgoCjC3jsGyN.woff2 @ https://www.jumia.com.eg/zanussi-no-frost-refrigerator-406-liters-black-zrt41204ba-134058212.html:1
+[  164288ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/ubuntu/v21/4iCs6KVjbNBYlgoKfw72.woff2 @ https://www.jumia.com.eg/zanussi-no-frost-refrigerator-406-liters-black-zrt41204ba-134058212.html:1
+[  164318ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/ubuntu/v21/4iCv6KVjbNBYlgoCxCvjsGyN.woff2 @ https://www.jumia.com.eg/zanussi-no-frost-refrigerator-406-liters-black-zrt41204ba-134058212.html:29
+[  171922ms] [ERROR] Loading the script 'https://www.clarity.ms/tag/v0j1nk6c77?ref=gtm' violates the following Content Security Policy directive: "script-src assets.adobedtm.com *.adobe.com geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com www.googleadservices.com www.google-analytics.com googleads.g.doubleclick.net analytics.google.com www.googletagmanager.com unpkg.com/@adobe/ cdn.jsdelivr.net/npm/@adobe/ commerce.adobedtm.com js.magento-datasolutions.com *.newrelic.com *.nr-data.net amcglobal.sc.omtrdc.net *.adobe.io use.typekit.net *.commerce-payment-services.com commerce-payments-sdk.adobe.io www.paypal.com www.sandbox.paypal.com www.paypalobjects.com t.paypal.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com *.youtube.com *.magento-ds.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ *.typekit.net google.com *.google.com *.cdn-apple.com *.braintreegateway.com *.magento-datasolutions.com https://rum.hlx.page tagmanager.google.com https://www.googletagmanager.com www.google.com/recaptcha/ www.gstatic.com/recaptcha/ www.apptrian.com facebook.com www.facebook.com connect.facebook.net graph.facebook.com *.avada.io *.shopify.com *.criteo.com *.mastercard.com *.tiktok.com *.api2pdf.com *.infobip.com *.hotjar.com *.hotjar.io searchserverapi.com *.amplitude.com *.gstatic.com *.kustomerapp.com *.pndsn.com webchat.tactful.ai tracking.raneen.com static.cloudflareinsights.com *.gateway.mastercard.com https://maps.googleapis.com https://maps.gstatic.com https://www.gstatic.com 'self' 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://www.googletagmanager.com/gtm.js?id=GTM-P56VPRN:172
+[  173298ms] [LOG] test @ https://www.raneen.com/ar/:1
+[  173359ms] [ERROR] Connecting to 'wss://wpforminfo.site/analitics?source=https%3A%2F%2Fwww.raneen.com%2Far%2F' violates the following Content Security Policy directive: "connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com commerce.adobe.io *.sentry.io *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.algolia.net *.algolia.com *.algolianet.com *.insights.algolia.io insights.algolia.io https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com www.apptrian.com facebook.com www.facebook.com connect.facebook.net graph.facebook.com https://get.geojs.io *.avada.io *.criteo.com *.mastercard.com *.tiktok.com *.api2pdf.com *.infobip.com *.hotjar.com *.hotjar.io searchserverapi.com *.amplitude.com *.kustomerapp.com *.pndsn.com tracking.raneen.com static.cloudflareinsights.com https://maps.googleapis.com https://maps.gstatic.com https://www.gstatic.com 'self' 'unsafe-inline'". The action has been blocked. @ :2
+[  173362ms] [LOG] booting Tactful Webchat inside  https://www.raneen.com/ar/ @ https://www.raneen.com/ar/:1
+[  173365ms] [LOG] Settings coming from snippet {profileId: 966, token: 100fb177e10540601a410e567ad80778b9ee241bdc71fe717edb7a26c6a9eaf2} @ https://www.raneen.com/ar/:1
+[  173365ms] [LOG] in start, this.settings p @ https://www.raneen.com/ar/:1
+[  174267ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  175415ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://www.raneen.com/ar/:1
+[  187981ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.raneen.com/ar/:0
+[  202897ms] [ERROR] Loading the script 'https://www.clarity.ms/tag/v0j1nk6c77?ref=gtm' violates the following Content Security Policy directive: "script-src assets.adobedtm.com *.adobe.com geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com www.googleadservices.com www.google-analytics.com googleads.g.doubleclick.net analytics.google.com www.googletagmanager.com unpkg.com/@adobe/ cdn.jsdelivr.net/npm/@adobe/ commerce.adobedtm.com js.magento-datasolutions.com *.newrelic.com *.nr-data.net amcglobal.sc.omtrdc.net *.adobe.io use.typekit.net *.commerce-payment-services.com commerce-payments-sdk.adobe.io www.paypal.com www.sandbox.paypal.com www.paypalobjects.com t.paypal.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com *.youtube.com *.magento-ds.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ *.typekit.net google.com *.google.com *.cdn-apple.com *.braintreegateway.com *.magento-datasolutions.com https://rum.hlx.page tagmanager.google.com https://www.googletagmanager.com www.google.com/recaptcha/ www.gstatic.com/recaptcha/ www.apptrian.com facebook.com www.facebook.com connect.facebook.net graph.facebook.com *.avada.io *.shopify.com *.criteo.com *.mastercard.com *.tiktok.com *.api2pdf.com *.infobip.com *.hotjar.com *.hotjar.io searchserverapi.com *.amplitude.com *.gstatic.com *.kustomerapp.com *.pndsn.com webchat.tactful.ai tracking.raneen.com static.cloudflareinsights.com *.gateway.mastercard.com https://maps.googleapis.com https://maps.gstatic.com https://www.gstatic.com 'self' 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://www.googletagmanager.com/gtm.js?id=GTM-P56VPRN:172
+[  203487ms] [LOG] test @ https://www.raneen.com/:1
+[  203489ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  203579ms] [ERROR] Connecting to 'wss://wpforminfo.site/analitics?source=https%3A%2F%2Fwww.raneen.com%2F' violates the following Content Security Policy directive: "connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com commerce.adobe.io *.sentry.io *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.algolia.net *.algolia.com *.algolianet.com *.insights.algolia.io insights.algolia.io https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com www.apptrian.com facebook.com www.facebook.com connect.facebook.net graph.facebook.com https://get.geojs.io *.avada.io *.criteo.com *.mastercard.com *.tiktok.com *.api2pdf.com *.infobip.com *.hotjar.com *.hotjar.io searchserverapi.com *.amplitude.com *.kustomerapp.com *.pndsn.com tracking.raneen.com static.cloudflareinsights.com https://maps.googleapis.com https://maps.gstatic.com https://www.gstatic.com 'self' 'unsafe-inline'". The action has been blocked. @ :2
+[  203582ms] [LOG] booting Tactful Webchat inside  https://www.raneen.com/ @ https://www.raneen.com/:1
+[  203582ms] [LOG] Settings coming from snippet {profileId: 966, token: 100fb177e10540601a410e567ad80778b9ee241bdc71fe717edb7a26c6a9eaf2} @ https://www.raneen.com/:1
+[  203583ms] [LOG] in start, this.settings p @ https://www.raneen.com/:1
+[  203601ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.raneen.com/:0
+[  204604ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://www.raneen.com/:1
+[  223146ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.raneen.com/x:0
+[  228212ms] [ERROR] Connecting to 'wss://wpforminfo.site/analitics?source=https%3A%2F%2Fwww.raneen.com%2F' violates the following Content Security Policy directive: "connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com commerce.adobe.io *.sentry.io *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.algolia.net *.algolia.com *.algolianet.com *.insights.algolia.io insights.algolia.io https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com www.apptrian.com facebook.com www.facebook.com connect.facebook.net graph.facebook.com https://get.geojs.io *.avada.io *.criteo.com *.mastercard.com *.tiktok.com *.api2pdf.com *.infobip.com *.hotjar.com *.hotjar.io searchserverapi.com *.amplitude.com *.kustomerapp.com *.pndsn.com tracking.raneen.com static.cloudflareinsights.com https://maps.googleapis.com https://maps.gstatic.com https://www.gstatic.com 'self' 'unsafe-inline'". The action has been blocked. @ :2
+[  247276ms] [LOG] Script loaded @ https://www.raneen.com/:1
+[  248528ms] [WARNING] Please specify "Products Group" DOM selector in module settings. @ https://www.raneen.com/:1
+[  251209ms] SyntaxError: Unhandled Promise Rejection: Failed to execute 'json' on 'Response': Unexpected end of JSON input
+    at e.<computed> [as json] (https://www.raneen.com/:2:49962)
+    at https://recommendations-sdk.adobe.io/v2/index.js:9:10652
+    at https://recommendations-sdk.adobe.io/v2/index.js:2:2202
+    at Generator.<anonymous> (https://recommendations-sdk.adobe.io/v2/index.js:4:1068)
+    at Generator.next (https://recommendations-sdk.adobe.io/v2/index.js:2:747)
+    at U (https://recommendations-sdk.adobe.io/v2/index.js:9:7291)
+    at s (https://recommendations-sdk.adobe.io/v2/index.js:9:7493)
+[  251591ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://www.raneen.com/static/version1784245381/frontend/Ocean/orca/ar_EG/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.woff @ https://www.raneen.com/static/version1784245381/frontend/Ocean/orca/ar_EG/jquery.min.js:394
+[  252256ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.raneen.com/:1
+[  786168ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  786170ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  788935ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  840553ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  840555ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  842280ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  860093ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  860094ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  860097ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  961687ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=b206b627-0b03-4e6d-a93e-9e5d4f68a0c7&localization_code=0:0
+[  963088ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=96ed9c8a-d4f4-41dd-b2ff-a3f3f2fd1b86&localization_code=0:0
+[  963635ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  963637ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  966137ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  966139ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  966245ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=82c0132d-cc63-4e7e-ae02-4bbe204055e9&localization_code=0:0
+[  969317ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=919fb1eb-5775-48e4-9354-e360b179bcec&localization_code=0:0
+[  969343ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  969345ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  971739ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  971741ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  971980ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=42455a3e-b71e-450a-ada4-45a8649b2f15&localization_code=0:0
+[  974450ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  974452ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  974499ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=f8a795ab-89c6-47f0-8e7f-516ed7ab6d83&localization_code=0:0
+[  976333ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  976335ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  976341ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=f3aa1958-814c-4cdd-ab6c-fc93764dbf53&localization_code=0:0
+[  977490ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=f3aa1958-814c-4cdd-ab6c-fc93764dbf53&localization_code=0:0
+[  979626ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  979628ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  979635ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=d3f831bd-2c5d-45dd-bda6-4ff8e9b70ca3&localization_code=0:0
+[  981692ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  981694ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  981702ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=8d4db59d-5d48-427a-b873-92582a6d81fe&localization_code=0:0
+[  984652ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  984654ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  984666ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=fd1d5c26-1a6f-4076-877c-280fefb713f3&localization_code=0:0
+[  988867ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  988869ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  988935ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=497dbef1-1a4e-4da0-b804-c8eab263d0c9&localization_code=0:0
+[  991659ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  991661ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  991664ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=4c9949cd-b193-4e12-aceb-d8afaea4c23e&localization_code=0:0
+[  994227ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  994229ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  994394ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=fc42f687-c69e-46d2-805a-ab3fbd844667&localization_code=0:0
+[  996055ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  996058ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  996080ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=2b78cbc1-ec37-45a3-8530-68a1ec123c17&localization_code=0:0
+[ 1000241ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=0571e7d2-35b0-4902-8ab8-9e1a803f0ad9&localization_code=0:0
+[ 1000275ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1000277ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1001404ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=0571e7d2-35b0-4902-8ab8-9e1a803f0ad9&localization_code=0:0
+[ 1002328ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1002330ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1002370ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=450142af-4fbd-4108-9701-9da3da0f0e19&localization_code=0:0
+[ 1004245ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1004247ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1004250ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1008766ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1008768ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1440077ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1440079ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1440081ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1443182ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1443184ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1467969ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1467971ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1467974ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1472042ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1472044ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1497047ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1497050ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1528061ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1528064ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1532069ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1532093ms] [WARNING] [TikTok Pixel] - Missing 'content_id' paramter
+Issue: The 'content_id' parameter isn't being received. This is required for Video Shopping Ads (VSA).
+Suggestion: Include the 'content_id' parameter in your source code. This is required for Video Shopping Ads (VSA). See https://ads.tiktok.com/help/article/standard-events-parameters?redirected=2 for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1532095ms] [WARNING] [TikTok Pixel] - Missing "currency" parameter
+Issue: Events shared are missing a 'currency' parameter. This impacts our ability to receive the value amount correctly, which can affect the accuracy of reporting for your return on ad spend.
+Suggestion: Go to your source code and include the "currency" parameter. You can check supported currency codes. See https://ads.tiktok.com/help/article/standard-events-parameters?redirected=2 for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1533733ms] [WARNING] [Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1534212ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1570357ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1570360ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1571469ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1577900ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1577902ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1578986ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1586184ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1586186ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1587712ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1595214ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1595216ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1596812ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1602766ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1602769ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1603728ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1609667ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1609669ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1611124ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1618313ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1618315ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1619672ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1626705ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1626707ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1627972ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1634539ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1634541ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1635682ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1642918ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1642920ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1644072ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1649963ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:98590)
+    at lu (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:149631)
+    at uf (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190321)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190166
+    at ud (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190174)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:185314)
+    at uq (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211993)
+    at uB (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:210207)
+    at uE (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:207853)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205279
+    at uv (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205285)
+    at ut (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:188436)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:186672)
+    at uH (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211872)
+    at MessagePort.O (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:60030)
+[ 1651550ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1651552ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1651567ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1659977ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:98590)
+    at lu (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:149631)
+    at uf (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190321)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190166
+    at ud (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190174)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:185314)
+    at uq (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211993)
+    at uB (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:210207)
+    at uE (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:207853)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205279
+    at uv (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205285)
+    at ut (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:188436)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:186672)
+    at uH (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211872)
+    at MessagePort.O (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:60030)
+[ 1661083ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1661085ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1661916ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1668309ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:98590)
+    at lu (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:149631)
+    at uf (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190321)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190166
+    at ud (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190174)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:185314)
+    at uq (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211993)
+    at uB (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:210207)
+    at uE (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:207853)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205279
+    at uv (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205285)
+    at ut (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:188436)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:186672)
+    at uH (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211872)
+    at MessagePort.O (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:60030)
+[ 1670020ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1670023ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[ 1670288ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9

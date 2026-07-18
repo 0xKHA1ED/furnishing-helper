@@ -1,0 +1,110 @@
+- generic [active] [ref=f7e1]:
+  - region "Notifications alt+T"
+  - main [ref=f7e2]:
+    - navigation [ref=f7e4]:
+      - generic [ref=f7e5]:
+        - generic [ref=f7e6]:
+          - link [ref=f7e7] [cursor=pointer]:
+            - /url: /en
+            - img "btech logo" [ref=f7e8]
+          - button [ref=f7e10] [cursor=pointer]:
+            - img "delivery address" [ref=f7e11]
+            - paragraph [ref=f7e13]: "Delivering to:"
+        - generic [ref=f7e16]:
+          - img "search" [ref=f7e18]
+          - textbox "What are you looking for?" [ref=f7e19]
+        - generic [ref=f7e20]:
+          - link [ref=f7e21] [cursor=pointer]:
+            - /url: /ar/s?q=electric+water+heater
+            - img "change language" [ref=f7e22]
+            - paragraph [ref=f7e23]: عربي
+          - button [ref=f7e24] [cursor=pointer]:
+            - img "wishlist" [ref=f7e25]
+            - paragraph [ref=f7e26]: Wishlist
+          - link [ref=f7e27] [cursor=pointer]:
+            - /url: /en/account
+            - img "my account" [ref=f7e28]
+            - paragraph [ref=f7e29]: Account
+          - link [ref=f7e30] [cursor=pointer]:
+            - /url: /en/cart
+            - img "cart" [ref=f7e32]
+            - paragraph [ref=f7e33]: Cart
+      - generic [ref=f7e34]:
+        - button "menu All categories" [ref=f7e35] [cursor=pointer]:
+          - img "menu" [ref=f7e36]
+          - generic [ref=f7e37]: All categories
+        - generic [ref=f7e38]:
+          - link "Electronics" [ref=f7e39] [cursor=pointer]:
+            - /url: /en/c/electronics
+          - link "Large Home Appliances" [ref=f7e40] [cursor=pointer]:
+            - /url: /en/c/large-home-appliances
+          - link "Mobiles, Tablets & Accessories" [ref=f7e41] [cursor=pointer]:
+            - /url: /en/c/mobiles-tablets
+          - link "Small Home Appliances" [ref=f7e42] [cursor=pointer]:
+            - /url: /en/c/small-home-appliances
+          - link "Laptops, PCs & accessories" [ref=f7e43] [cursor=pointer]:
+            - /url: /en/c/laptop-pc
+          - link "TVs" [ref=f7e44] [cursor=pointer]:
+            - /url: /en/c/tvs-projectors
+    - generic [ref=f7e208]:
+      - generic [ref=f7e209]:
+        - generic [ref=f7e210]:
+          - img "phone Icon" [ref=f7e212]
+          - generic [ref=f7e213]:
+            - paragraph [ref=f7e214]: Call us
+            - paragraph [ref=f7e215]:
+              - link "19966" [ref=f7e216] [cursor=pointer]:
+                - /url: tel:19966
+        - generic [ref=f7e217]:
+          - generic [ref=f7e218]:
+            - heading "Trending right now" [level=3] [ref=f7e219]
+            - generic [ref=f7e220]:
+              - link "Electronics" [ref=f7e221] [cursor=pointer]:
+                - /url: /en/c/electronics
+              - link "Large Home Appliances" [ref=f7e222] [cursor=pointer]:
+                - /url: /en/c/large-home-appliances
+              - link "Mobiles, Tablets & Accessories" [ref=f7e223] [cursor=pointer]:
+                - /url: /en/c/mobiles-tablets
+              - link "Small Home Appliances" [ref=f7e224] [cursor=pointer]:
+                - /url: /en/c/small-home-appliances
+              - link "Laptops, PCs & accessories" [ref=f7e225] [cursor=pointer]:
+                - /url: /en/c/laptop-pc
+              - link "TVs" [ref=f7e226] [cursor=pointer]:
+                - /url: /en/c/tvs-projectors
+          - generic [ref=f7e227]:
+            - heading "B.TECH blog" [level=3] [ref=f7e228]
+            - paragraph [ref=f7e229]:
+              - text: Your ultimate guide to smarter buying decision
+              - link [ref=f7e230] [cursor=pointer]:
+                - /url: https://blog.btech.com/
+                - text: Discover our blog
+                - img "B.TECH blog" [ref=f7e231]
+        - generic [ref=f7e232]:
+          - generic [ref=f7e233]:
+            - heading "Follow us" [level=3] [ref=f7e234]
+            - generic [ref=f7e235]:
+              - link [ref=f7e236] [cursor=pointer]:
+                - /url: https://www.facebook.com/mybtech/
+                - img "Facebook Icon" [ref=f7e237]
+              - link [ref=f7e238] [cursor=pointer]:
+                - /url: https://www.instagram.com/mybtech/
+                - img "Instagram Icon" [ref=f7e239]
+              - link [ref=f7e240] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCb38BG_mMf7BUumTVc10gAw/videos
+                - img "YouTube Icon" [ref=f7e241]
+          - generic [ref=f7e242]:
+            - heading "Download B.TECH App" [level=3] [ref=f7e243]
+            - generic [ref=f7e244]:
+              - link [ref=f7e245] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.btechapp
+                - img "playStore Icon" [ref=f7e246]
+              - link [ref=f7e247] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/b-tech/id1258773067
+                - img "appStore Icon" [ref=f7e248]
+              - link [ref=f7e249] [cursor=pointer]:
+                - /url: https://appgallery.huawei.com/#/app/C101532561
+                - img "appGallery Icon" [ref=f7e250]
+      - generic [ref=f7e251]:
+        - paragraph [ref=f7e252]: © B.TECH, all rights reserved.
+        - link "Terms & Conditions" [ref=f7e253] [cursor=pointer]:
+          - /url: /en/terms-and-conditions

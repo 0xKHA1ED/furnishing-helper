@@ -1,0 +1,724 @@
+{
+  "version": 2,
+  "title": "Wood furniture gate — L-sofa ≤30k · bedroom ≤80k · كونتر OK · no MDF · same-day stock",
+  "lastUpdated": "2026-07-17",
+  "currency": "EGP",
+  "aestheticContext": {
+    "fromProject": [
+      "Warm contemporary cozy nest (not cold clinic minimal)",
+      "Stable / decades-minded — dual gate function + aesthetics",
+      "Carpet direction: deeper tones (terracotta, olive, navy) — avoid pure cream large surfaces",
+      "Living: L-sofa planned for 375×450 room",
+      "Master: 180 bed, 330×475 room",
+      "Prefer quiet minimal lines over ornate classic Damietta carving"
+    ]
+  },
+  "hardConstraints": {
+    "sofa": {
+      "type": "L-shaped",
+      "maxPriceEGP": 30000,
+      "structure": "hardwood frame preferred; structural plywood (كونتر) OK on non-critical boxes; NO MDF",
+      "longevity": "decades-minded Damietta craft",
+      "availability": "same-day pickup / in-stock only",
+      "style": "minimalistic"
+    },
+    "bedroom": {
+      "maxPriceEGP": 80000,
+      "structure": "خشب كونتر (plywood) OK · solid beech better if found · NO MDF",
+      "longevity": "decades-minded",
+      "availability": "same-day / in-stock",
+      "style": "minimalistic",
+      "bedWidthCm": 180
+    },
+    "materials": {
+      "allowed": [
+        "solid beech / زان",
+        "other solid hardwood",
+        "structural plywood / كونتر / counter wood",
+        "metal legs/hardware"
+      ],
+      "forbidden": [
+        "MDF / أم دي أف",
+        "particleboard / حبيبي as structure",
+        "foil-only fake wood with board core for carcass"
+      ]
+    }
+  },
+  "marketTruth": {
+    "summary": "With كونتر allowed and ceilings at 30k (L-sofa) / 80k (bedroom), the brief is realistic. MDF still banned. Same-day stock only. 30k opens better hardwood-frame L options; 80k reaches top plywood sets and the lower end of new solid-beech full bedrooms.",
+    "bedroomMaterialBandsEGP_2026": {
+      "source": "Furniture Hub Damietta bedroom catalog guide 2026",
+      "mdf_economy": "30,000–45,000 — still excluded (MDF)",
+      "plywood_counter_best_value": "45,000–70,000 — primary target under 80k; excellent fit",
+      "solid_beech_luxury_long_life": "70,000–120,000 — now partly in range (target 70–80k floor stock promos)"
+    },
+    "sofaReality": {
+      "under30k": "Sweet spot for many showroom L sofas claiming beech/natural wood frame. Still inspect — ads lie. 25–30k is where better foam + denser frames appear more often than 15k mystery deals.",
+      "homzmart_beech_L_listings": "Often 25–35k; only buy if branch confirms floor stock same day.",
+      "decades_class_L": "Hardwood frame + good foam under 30k is plausible with inspection; full solid showpiece L still often higher."
+    },
+    "sameDayRule": "Only buy what is physically on the showroom floor or warehouse today. Call before you leave. ‘Ready in 2–3 weeks’ = automatic reject."
+  },
+  "qualityGate": {
+    "rejectImmediately": [
+      "MDF / أم دي أف / particleboard / حبيبي as structure or seat box",
+      "Cannot show the frame under fabric",
+      "Only ‘natural wood look’ laminate on board",
+      "Seller refuses wood type on invoice",
+      "Made-to-order multi-week lead time"
+    ],
+    "passChecksInShowroom": [
+      "Frame rails: hardwood (زان) preferred — continuous members",
+      "Seat/side boxes: solid OR multi-ply كونتر OK — not crumbly MDF edges",
+      "Knock test: solid thud vs hollow paper board",
+      "Joints: screws + glue + corner blocks; no edge wobble",
+      "Legs: solid wood or quality metal bolted through",
+      "Foam: rebounds; sit 5+ minutes",
+      "Weight: too light is a red flag"
+    ],
+    "bedroomPassChecks": [
+      "Bed rails: solid wood or thick كونتر with solid reinforcement — no MDF rails",
+      "Wardrobe carcass: كونتر OK and preferred under 80k; solid beech if promo ≤80k",
+      "Drawers: plywood or solid sides — reject MDF drawer boxes",
+      "Hardware: metal runners",
+      "Finish: even lacquer; no peeling foil",
+      "180 cm clear mattress opening"
+    ],
+    "sellerPrestigeSignals": [
+      "Damietta factory + Cairo/Giza/October showroom floor stock",
+      "Reviews about durability not only price",
+      "Wood type written on invoice (زان / كونتر)",
+      "Avoid anonymous Facebook-only sellers with no address"
+    ]
+  },
+  "sameDayPickupMap": {
+    "note": "6th of October / Sheikh Zayed / Mall of Egypt belt is practical. Call morning-of.",
+    "callScriptAr": "عندكم ركنة L جاهزة للاستلام النهاردة؟ الهيكل خشب زان أو كونتر — مش MDF؟ وغرفة نوم 180 كونتر أو زان تحت 80 ألف جاهزة في المعرض؟",
+    "routes": [
+      {
+        "id": "route_damietta_cairo_showrooms",
+        "name": "Damietta brands — Greater Cairo showrooms",
+        "how": "Call for floor-stock L ≤30k and bedroom 180 كونتر/زان ≤80k. Visit only confirmed halls.",
+        "examplesToCall": [
+          "Furniture Hub / Damietta-linked retailers (verify floor stock, not MTO catalog)",
+          "Obour / 10th of Ramadan furniture corridors",
+          "October City & Sheikh Zayed furniture showrooms"
+        ]
+      },
+      {
+        "id": "route_october_furniture_axis",
+        "name": "6th of October furniture strips",
+        "how": "Same-day logistics home; apply quality gate strictly",
+        "fit": "Best pickup path to your apartment"
+      },
+      {
+        "id": "route_used_solid",
+        "name": "Used solid beech (optional now)",
+        "how": "Less critical with 80k new كونتر/beech range — still useful for heirloom beech under budget",
+        "fit": "Secondary"
+      }
+    ]
+  },
+  "sofaStrategy": {
+    "verdict": "30k is a workable ceiling for a minimal L with hardwood frame + كونتر boxes if needed. Still no remote ‘guaranteed decades’ SKU — floor inspect. Prefer 22–30k stock over 12k mystery deals.",
+    "recommendedApproach": [
+      "Hard max 30k; target quality mid-upper of that band",
+      "Hardwood frame required; كونتر seat box acceptable if thick multi-ply",
+      "Minimal block arms; fabric olive/grey/terracotta/navy",
+      "Measure living 375×450 — chaise clearance ≥70–80 cm walkway",
+      "Same-day only"
+    ],
+    "candidates": [
+      {
+        "id": "sofa_primary_30k_hardwood",
+        "rank": 1,
+        "category": "l_sofa",
+        "room": "living",
+        "name": "Showroom L-sofa — hardwood frame, ≤30k, same-day floor stock",
+        "priceEGP": 28000,
+        "priceNote": "Target 22–30k; hard ceiling 30k",
+        "materialClaim": "Hardwood (زان) frame; كونتر OK on boxes; no MDF",
+        "mdfAllowed": false,
+        "konterAllowed": true,
+        "confidence": "inspect_required_best_band",
+        "sameDay": "only_if_on_floor_today",
+        "style": "minimal block L, warm fabric",
+        "where": "October / Obour / Damietta-brand Cairo halls",
+        "prestige": "Prefer named Damietta workshop on invoice",
+        "pros": [
+          "Budget now matches real mid-quality L stock",
+          "Room for better foam than ultra-cheap ads",
+          "كونتر boxes OK so fewer false rejects"
+        ],
+        "cons": [
+          "Must still inspect frame",
+          "Fabric may be average (reupholster later if frame is right)"
+        ],
+        "buyScript": "ركنة L جاهزة النهاردة؟ الهيكل زان؟ أي كونتر مش MDF؟ تحت 30 ألف؟",
+        "url": "https://furniturehubapp.com/en/shop/l-shape-sofas",
+        "imageUrl": "",
+        "excluded": false,
+        "tags": [
+          "l_sofa",
+          "under_30k",
+          "same_day",
+          "hardwood"
+        ]
+      },
+      {
+        "id": "sofa_beech_claim_homzmart_band",
+        "rank": 2,
+        "category": "l_sofa",
+        "room": "living",
+        "name": "Retail ‘خشب زان’ L listings ~25–30k (Homzmart-class / similar)",
+        "priceEGP": 27000,
+        "priceNote": "Often listed ~25–35k — only if ≤30k AND in stock",
+        "materialClaim": "Seller claims beech — verify in branch",
+        "mdfAllowed": false,
+        "konterAllowed": true,
+        "confidence": "inspect_required",
+        "sameDay": "only_branch_stock",
+        "style": "modern L — pick least ornate",
+        "where": "Homzmart / multi-branch furniture retail",
+        "pros": [
+          "Often photographed online for style pre-filter",
+          "Within new budget"
+        ],
+        "cons": [
+          "Many are MTO — reject if not floor stock",
+          "Material claims inflated"
+        ],
+        "url": "https://homzmart.com/en/c/furniture/living-room-furniture/sofas",
+        "imageUrl": "",
+        "excluded": false,
+        "tags": [
+          "l_sofa",
+          "retail",
+          "under_30k"
+        ]
+      },
+      {
+        "id": "sofa_reject_under15k_mystery",
+        "rank": 90,
+        "category": "l_sofa",
+        "room": "living",
+        "name": "Mystery L 10–18k ‘زان’ no showroom",
+        "priceEGP": 15000,
+        "confidence": "fail",
+        "pros": [
+          "Cheap"
+        ],
+        "cons": [
+          "Usually fails decades + material honesty"
+        ],
+        "excluded": true,
+        "tags": [
+          "reject"
+        ]
+      },
+      {
+        "id": "sofa_reject_mdf",
+        "rank": 91,
+        "category": "l_sofa",
+        "room": "living",
+        "name": "Any L with MDF structure",
+        "priceEGP": null,
+        "confidence": "fail",
+        "pros": [],
+        "cons": [
+          "Hard fail"
+        ],
+        "excluded": true,
+        "tags": [
+          "reject",
+          "mdf"
+        ]
+      },
+      {
+        "id": "sofa_reject_mto_weeks",
+        "rank": 92,
+        "category": "l_sofa",
+        "room": "living",
+        "name": "Custom L — multi-week manufacture",
+        "priceEGP": null,
+        "confidence": "fail_timing",
+        "pros": [
+          "Can be high quality"
+        ],
+        "cons": [
+          "Fails same-day rule"
+        ],
+        "excluded": true,
+        "tags": [
+          "reject",
+          "lead_time"
+        ]
+      }
+    ]
+  },
+  "bedroomStrategy": {
+    "verdict": "80k + كونتر OK is the right band. Primary buy: modern minimal full set in structural plywood 50–75k. Stretch 70–80k if a simple solid-beech or beech-heavy set is on the floor same day.",
+    "recommendedApproach": [
+      "Default: full كونتر modern bedroom 180, no MDF drawers, ≤80k",
+      "Upgrade if found same day: solid beech or beech+كونتر hybrid ≤80k",
+      "Minimal flat fronts; warm wood or soft matte — not gold classic",
+      "Fit check: 330×475 room, 180 mattress"
+    ],
+    "candidates": [
+      {
+        "id": "bed_konter_modern_full_primary",
+        "rank": 1,
+        "category": "bedroom_set",
+        "room": "master_bedroom",
+        "name": "Modern full bedroom — structural كونتر, no MDF, ≤80k",
+        "priceEGP": 65000,
+        "priceNote": "Sweet spot ~50–75k; ceiling 80k",
+        "materialClaim": "خشب كونتر structure throughout (or كونتر + solid accents)",
+        "mdfAllowed": false,
+        "konterAllowed": true,
+        "confidence": "best_primary_path",
+        "sameDay": "if_floor_stock",
+        "includesHint": "Bed 180 + 2 nightstands + wardrobe ± dresser",
+        "style": "minimal modern, warm wood / soft grey",
+        "where": "Damietta-linked showrooms with stock",
+        "prestige": "Standard strong Damietta mid-high tier when factory is real",
+        "pros": [
+          "Matches your approved material",
+          "Fits budget with room for better hardware/finish",
+          "Widely available as complete sets"
+        ],
+        "cons": [
+          "Not full solid beech heirloom",
+          "Still reject any MDF inside drawers"
+        ],
+        "buyScript": "غرفة 180 كونتر جاهزة النهاردة؟ من غير MDF؟ تحت 80 ألف؟",
+        "url": "https://furniturehubapp.com/en/shop/modern-bedroom",
+        "imageUrl": "",
+        "excluded": false,
+        "tags": [
+          "bedroom",
+          "konter",
+          "under_80k",
+          "primary"
+        ]
+      },
+      {
+        "id": "bed_beech_entry_under80",
+        "rank": 2,
+        "category": "bedroom_set",
+        "room": "master_bedroom",
+        "name": "New solid beech / beech-heavy modern set on promo ≤80k",
+        "priceEGP": 78000,
+        "priceNote": "Lower edge of beech band 70–120k — only if floor stock ≤80k",
+        "materialClaim": "Solid beech or majority beech",
+        "mdfAllowed": false,
+        "konterAllowed": true,
+        "confidence": "high_if_invoice_says_beech",
+        "sameDay": "rare_but_worth_asking",
+        "style": "minimal — skip heavy classic carving",
+        "where": "Damietta showrooms / factory outlets",
+        "prestige": "Best longevity if true beech",
+        "pros": [
+          "Closest to decades solid-wood ambition inside new budget",
+          "Strong resale / durability story"
+        ],
+        "cons": [
+          "May not be in stock same day",
+          "Many beech sets still price above 80k"
+        ],
+        "url": "https://furniturehubapp.com/en/shop/modern-bedroom",
+        "imageUrl": "",
+        "excluded": false,
+        "tags": [
+          "bedroom",
+          "beech",
+          "under_80k",
+          "upgrade"
+        ]
+      },
+      {
+        "id": "bed_hybrid_solid_bed_konter_wardrobe",
+        "rank": 3,
+        "category": "bedroom_set",
+        "room": "master_bedroom",
+        "name": "Hybrid: solid 180 bed + nightstands + كونتر wardrobe",
+        "priceEGP": 70000,
+        "priceNote": "Assemble from floor pieces same day if packages miss",
+        "materialClaim": "Solid sleep structure + كونتر storage",
+        "mdfAllowed": false,
+        "konterAllowed": true,
+        "confidence": "strong_compromise",
+        "sameDay": "if_pieces_stocked",
+        "style": "match finishes deliberately",
+        "pros": [
+          "Solid where load is highest",
+          "Flexible shopping"
+        ],
+        "cons": [
+          "Finish matching takes care"
+        ],
+        "url": null,
+        "imageUrl": "",
+        "excluded": false,
+        "tags": [
+          "bedroom",
+          "hybrid"
+        ]
+      },
+      {
+        "id": "bed_used_beech_optional",
+        "rank": 4,
+        "category": "bedroom_set",
+        "room": "master_bedroom",
+        "name": "Used solid beech set (optional with higher budget)",
+        "priceEGP": 35000,
+        "priceNote": "Less necessary now; still valid if style fits minimal",
+        "materialClaim": "Solid beech if verified",
+        "mdfAllowed": false,
+        "konterAllowed": true,
+        "confidence": "high_upside_high_variance",
+        "sameDay": "yes_if_local_seller",
+        "pros": [
+          "Can be true heirloom wood under 80k easily"
+        ],
+        "cons": [
+          "Condition risk; style may be classic-heavy"
+        ],
+        "url": "https://eg.opensooq.com/",
+        "imageUrl": "",
+        "excluded": false,
+        "tags": [
+          "bedroom",
+          "used",
+          "beech"
+        ]
+      },
+      {
+        "id": "bed_reject_mdf",
+        "rank": 90,
+        "category": "bedroom_set",
+        "room": "master_bedroom",
+        "name": "MDF modern packages (still reject)",
+        "priceEGP": 40000,
+        "materialClaim": "MDF",
+        "confidence": "fail",
+        "pros": [],
+        "cons": [
+          "Fails no-MDF rule even under budget"
+        ],
+        "excluded": true,
+        "tags": [
+          "reject",
+          "mdf"
+        ]
+      }
+    ]
+  },
+  "recommendedTripPlan": {
+    "dayPlan": [
+      "Morning calls: L ≤30k hardwood/كونتر floor stock + bedroom 180 كونتر or زان ≤80k ready today",
+      "Visit sofa first — harder quality gate",
+      "Apply checklist; invoice must name زان and/or كونتر",
+      "Bedroom second — prefer complete كونتر set 50–75k or beech ≤80k if on floor",
+      "Arrange same-day truck; measure elevator for L pieces"
+    ],
+    "fitChecks": {
+      "living_375x450": "L chaise on long wall; walk ≥70–80 cm",
+      "bedroom_330x475": "180 bed + nightstands; wardrobe on free wall"
+    }
+  },
+  "shoppingRoute": [
+    "كونتر is approved — do not reject good plywood structure",
+    "Still zero MDF on carcass, drawers, or sofa seat boxes",
+    "Sofa ceiling 30k — hunt 22–30k stock, not 12k ads",
+    "Bedroom ceiling 80k — primary كونتر full set; secondary beech if ≤80k floor stock",
+    "Same-day only; multi-week MTO rejected",
+    "Write material on invoice before paying"
+  ],
+  "items": [
+    {
+      "id": "sofa_primary_30k_hardwood",
+      "rank": 1,
+      "category": "l_sofa",
+      "room": "living",
+      "name": "Showroom L-sofa — hardwood frame, ≤30k, same-day floor stock",
+      "priceEGP": 28000,
+      "priceNote": "Target 22–30k; hard ceiling 30k",
+      "materialClaim": "Hardwood (زان) frame; كونتر OK on boxes; no MDF",
+      "mdfAllowed": false,
+      "konterAllowed": true,
+      "confidence": "inspect_required_best_band",
+      "sameDay": "only_if_on_floor_today",
+      "style": "minimal block L, warm fabric",
+      "where": "October / Obour / Damietta-brand Cairo halls",
+      "prestige": "Prefer named Damietta workshop on invoice",
+      "pros": [
+        "Budget now matches real mid-quality L stock",
+        "Room for better foam than ultra-cheap ads",
+        "كونتر boxes OK so fewer false rejects"
+      ],
+      "cons": [
+        "Must still inspect frame",
+        "Fabric may be average (reupholster later if frame is right)"
+      ],
+      "buyScript": "ركنة L جاهزة النهاردة؟ الهيكل زان؟ أي كونتر مش MDF؟ تحت 30 ألف؟",
+      "url": "https://furniturehubapp.com/en/shop/l-shape-sofas",
+      "imageUrl": "",
+      "excluded": false,
+      "tags": [
+        "l_sofa",
+        "under_30k",
+        "same_day",
+        "hardwood"
+      ]
+    },
+    {
+      "id": "bed_konter_modern_full_primary",
+      "rank": 1,
+      "category": "bedroom_set",
+      "room": "master_bedroom",
+      "name": "Modern full bedroom — structural كونتر, no MDF, ≤80k",
+      "priceEGP": 65000,
+      "priceNote": "Sweet spot ~50–75k; ceiling 80k",
+      "materialClaim": "خشب كونتر structure throughout (or كونتر + solid accents)",
+      "mdfAllowed": false,
+      "konterAllowed": true,
+      "confidence": "best_primary_path",
+      "sameDay": "if_floor_stock",
+      "includesHint": "Bed 180 + 2 nightstands + wardrobe ± dresser",
+      "style": "minimal modern, warm wood / soft grey",
+      "where": "Damietta-linked showrooms with stock",
+      "prestige": "Standard strong Damietta mid-high tier when factory is real",
+      "pros": [
+        "Matches your approved material",
+        "Fits budget with room for better hardware/finish",
+        "Widely available as complete sets"
+      ],
+      "cons": [
+        "Not full solid beech heirloom",
+        "Still reject any MDF inside drawers"
+      ],
+      "buyScript": "غرفة 180 كونتر جاهزة النهاردة؟ من غير MDF؟ تحت 80 ألف؟",
+      "url": "https://furniturehubapp.com/en/shop/modern-bedroom",
+      "imageUrl": "",
+      "excluded": false,
+      "tags": [
+        "bedroom",
+        "konter",
+        "under_80k",
+        "primary"
+      ]
+    },
+    {
+      "id": "sofa_beech_claim_homzmart_band",
+      "rank": 2,
+      "category": "l_sofa",
+      "room": "living",
+      "name": "Retail ‘خشب زان’ L listings ~25–30k (Homzmart-class / similar)",
+      "priceEGP": 27000,
+      "priceNote": "Often listed ~25–35k — only if ≤30k AND in stock",
+      "materialClaim": "Seller claims beech — verify in branch",
+      "mdfAllowed": false,
+      "konterAllowed": true,
+      "confidence": "inspect_required",
+      "sameDay": "only_branch_stock",
+      "style": "modern L — pick least ornate",
+      "where": "Homzmart / multi-branch furniture retail",
+      "pros": [
+        "Often photographed online for style pre-filter",
+        "Within new budget"
+      ],
+      "cons": [
+        "Many are MTO — reject if not floor stock",
+        "Material claims inflated"
+      ],
+      "url": "https://homzmart.com/en/c/furniture/living-room-furniture/sofas",
+      "imageUrl": "",
+      "excluded": false,
+      "tags": [
+        "l_sofa",
+        "retail",
+        "under_30k"
+      ]
+    },
+    {
+      "id": "bed_beech_entry_under80",
+      "rank": 2,
+      "category": "bedroom_set",
+      "room": "master_bedroom",
+      "name": "New solid beech / beech-heavy modern set on promo ≤80k",
+      "priceEGP": 78000,
+      "priceNote": "Lower edge of beech band 70–120k — only if floor stock ≤80k",
+      "materialClaim": "Solid beech or majority beech",
+      "mdfAllowed": false,
+      "konterAllowed": true,
+      "confidence": "high_if_invoice_says_beech",
+      "sameDay": "rare_but_worth_asking",
+      "style": "minimal — skip heavy classic carving",
+      "where": "Damietta showrooms / factory outlets",
+      "prestige": "Best longevity if true beech",
+      "pros": [
+        "Closest to decades solid-wood ambition inside new budget",
+        "Strong resale / durability story"
+      ],
+      "cons": [
+        "May not be in stock same day",
+        "Many beech sets still price above 80k"
+      ],
+      "url": "https://furniturehubapp.com/en/shop/modern-bedroom",
+      "imageUrl": "",
+      "excluded": false,
+      "tags": [
+        "bedroom",
+        "beech",
+        "under_80k",
+        "upgrade"
+      ]
+    },
+    {
+      "id": "bed_hybrid_solid_bed_konter_wardrobe",
+      "rank": 3,
+      "category": "bedroom_set",
+      "room": "master_bedroom",
+      "name": "Hybrid: solid 180 bed + nightstands + كونتر wardrobe",
+      "priceEGP": 70000,
+      "priceNote": "Assemble from floor pieces same day if packages miss",
+      "materialClaim": "Solid sleep structure + كونتر storage",
+      "mdfAllowed": false,
+      "konterAllowed": true,
+      "confidence": "strong_compromise",
+      "sameDay": "if_pieces_stocked",
+      "style": "match finishes deliberately",
+      "pros": [
+        "Solid where load is highest",
+        "Flexible shopping"
+      ],
+      "cons": [
+        "Finish matching takes care"
+      ],
+      "url": null,
+      "imageUrl": "",
+      "excluded": false,
+      "tags": [
+        "bedroom",
+        "hybrid"
+      ]
+    },
+    {
+      "id": "bed_used_beech_optional",
+      "rank": 4,
+      "category": "bedroom_set",
+      "room": "master_bedroom",
+      "name": "Used solid beech set (optional with higher budget)",
+      "priceEGP": 35000,
+      "priceNote": "Less necessary now; still valid if style fits minimal",
+      "materialClaim": "Solid beech if verified",
+      "mdfAllowed": false,
+      "konterAllowed": true,
+      "confidence": "high_upside_high_variance",
+      "sameDay": "yes_if_local_seller",
+      "pros": [
+        "Can be true heirloom wood under 80k easily"
+      ],
+      "cons": [
+        "Condition risk; style may be classic-heavy"
+      ],
+      "url": "https://eg.opensooq.com/",
+      "imageUrl": "",
+      "excluded": false,
+      "tags": [
+        "bedroom",
+        "used",
+        "beech"
+      ]
+    },
+    {
+      "id": "sofa_reject_under15k_mystery",
+      "rank": 90,
+      "category": "l_sofa",
+      "room": "living",
+      "name": "Mystery L 10–18k ‘زان’ no showroom",
+      "priceEGP": 15000,
+      "confidence": "fail",
+      "pros": [
+        "Cheap"
+      ],
+      "cons": [
+        "Usually fails decades + material honesty"
+      ],
+      "excluded": true,
+      "tags": [
+        "reject"
+      ]
+    },
+    {
+      "id": "bed_reject_mdf",
+      "rank": 90,
+      "category": "bedroom_set",
+      "room": "master_bedroom",
+      "name": "MDF modern packages (still reject)",
+      "priceEGP": 40000,
+      "materialClaim": "MDF",
+      "confidence": "fail",
+      "pros": [],
+      "cons": [
+        "Fails no-MDF rule even under budget"
+      ],
+      "excluded": true,
+      "tags": [
+        "reject",
+        "mdf"
+      ]
+    },
+    {
+      "id": "sofa_reject_mdf",
+      "rank": 91,
+      "category": "l_sofa",
+      "room": "living",
+      "name": "Any L with MDF structure",
+      "priceEGP": null,
+      "confidence": "fail",
+      "pros": [],
+      "cons": [
+        "Hard fail"
+      ],
+      "excluded": true,
+      "tags": [
+        "reject",
+        "mdf"
+      ]
+    },
+    {
+      "id": "sofa_reject_mto_weeks",
+      "rank": 92,
+      "category": "l_sofa",
+      "room": "living",
+      "name": "Custom L — multi-week manufacture",
+      "priceEGP": null,
+      "confidence": "fail_timing",
+      "pros": [
+        "Can be high quality"
+      ],
+      "cons": [
+        "Fails same-day rule"
+      ],
+      "excluded": true,
+      "tags": [
+        "reject",
+        "lead_time"
+      ]
+    }
+  ],
+  "disclaimer": "Updated budgets and كونتر approval 2026-07-17. Prices/stock change daily — verify in person. No remote certification of frame materials.",
+  "counts": {
+    "total": 10,
+    "included": 6,
+    "sofa": 2,
+    "bedroom": 4,
+    "budgets": {
+      "sofaMaxEGP": 30000,
+      "bedroomMaxEGP": 80000
+    },
+    "materials": "konter_ok_mdf_forbidden"
+  }
+}

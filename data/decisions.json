@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-17",
+  "shortlists": {
+    "fridge": [
+      "beko_rdne455_406_black_inv",
+      "tornado_rf580tv_bk_450_black_inv",
+      "lg_gtf402sban_401_black"
+    ],
+    "washer": [
+      "sharp_es_tn09gdsp_9_black",
+      "fresh_ftm_09f12b_9_black",
+      "lg_t1388_13_black_inv_flex"
+    ]
+  },
+  "rejected": [],
+  "sessionNotes": [
+    {
+      "date": "2026-07-17",
+      "note": "Project started. Couple, no kids, 2BR apartment in Egypt. Interactive planning + product research + decision tools."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Location: 6th of October City. Apartment empty/unfurnished. Budget total deferred. Second bedroom = hybrid guest + office. First deep-dive: fridge."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "User feedback: prefer lifestyle questions over low-level product specs. Fridge: no dispenser, budget 20–35k EGP. Infer specs from lifestyle."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Fridge lane: max food + freezer space. NOT buying AC. Question style: lifestyle + occasional blocking constraints. Curtains/blackout and airflow matter more without AC."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Inventory: cooker, vacuum, air fryer, kettle, iron, blender. Nothing for water heater/fans/washer/furniture/curtains/lighting. Inventory marked basically complete."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Project vision aligned: whole-home plan + tiny details over time; MD/JSON memory for endless revisits; expensive purchases first; styling/layout/design standards; max 3 deep personality-first questions; both partners equal; slow deliberate; light tools that grow if useful. See PROJECT.md."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Couple brief: cozy nest arrival; user=function partner=aesthetics; home=stable base; private nest family occasional; conflict style TBD first shared home — dual-gate decision rule drafted."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Focus shift: big appliances repository first. Playwright B.TECH wave: ~150 SKUs fridge+washer+electric water heater into data/appliances/catalog.json + appliances.html."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Decision method locked: explain tradeoffs → max 3 preference Qs → parallel subagent pros/cons → synthesize. Fridge prefs: balance both layouts with models; hard ceiling 35k; hate noisy/unreliable/ugly/too small. 5 subagents researched candidates; see notes/research/fridge-batch-2026-07-17.md"
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Data UX priority: catalog v2 with 150/150 product photos, gallery UI appliances.html (filter, star, modal pros/cons). Deep research fields on ~10 fridge models."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Washer pass complete: top-load full-auto black 7-9kg. Market thin — 3 main SKUs + adjacent 11-13kg black inverter options. Gallery washer-gallery.html. Water heater deferred. Next scope: kitchen storage + TV."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Kitchen: storage only ≤25k, empty room, quality-first (IKEA OK not mandatory). Drill OK. Balanced zones. kitchen-gallery.html + kitchen_catalog.json with 3 kits."
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Second-pass fridge+washer for buy-tomorrow: Playwright across B.TECH/Jumia/Amazon.eg/2B. Fridge still Beko 406L black inverter platform — Amazon XBIDB 27,099 beats B.TECH IDEGB 30,299; Jumia IDEGB 24,999 marketplace risk. Tornado 450 black inv 28.9k freeze-first. Washer Sharp 9kg black still #1 ~13.5k. Full report: notes/research/fridge-washer-second-pass-2026-07-17.md"
+    },
+    {
+      "date": "2026-07-17",
+      "note": "Expand pass: color soft. B.TECH-only catalogs rebuilt — 72 fridges (31 black, 23 inv) + 26 washers (10 main 7–9kg). UI Black only filter on fridge-gallery + washer-gallery. Rank weights reliability/inverter over pure black. Top fridge all-color: Beko 455 black inv / Beko 406 silver inv value. Top washer: Sharp 9 black; Toshiba silver value if flex."
+    }
+  ],
+  "researchFocus": "fridge_washer_buy_tomorrow",
+  "scopeNow": ["fridge", "washing_machine", "kitchen", "tv"],
+  "scopeDeferred": ["water_heater", "ac"],
+  "decisions": [
+    {
+      "id": "no_ac",
+      "date": "2026-07-17",
+      "category": "climate",
+      "decision": "Will not purchase AC for this apartment setup",
+      "implications": [
+        "Raise priority of blackout curtains, fans, cross-ventilation, lighter fabrics",
+        "Budget that would have gone to AC can go to fridge, washer, water heater, mattress, lighting"
+      ]
+    },
+    {
+      "id": "fridge_lane_space",
+      "date": "2026-07-17",
+      "category": "fridge",
+      "decision": "Optimize for max food + freezer space; black + hard 35k; top-freezer preferred",
+      "finalists": [
+        "Beko 406L black inverter (Amazon XBIDB ~27.1k or B.TECH IDEGB ~30.3k)",
+        "Tornado RF-580TV-BK 450L black inv ~28.9k (freeze-first)",
+        "LG GTF402SBAN 401L black ~29.5–31.3k (looks)"
+      ],
+      "backup": "Zanussi/Fresh black non-inv if protecting cash (noise tradeoff)"
+    },
+    {
+      "id": "washer_lane_topload_black",
+      "date": "2026-07-17",
+      "category": "washer",
+      "decision": "Top-load full-auto black 7–9 kg",
+      "finalists": [
+        "Sharp ES-TN09GDSP 9kg black ~13.5k",
+        "Fresh FTM-09F12B 9kg black ~13k"
+      ],
+      "flex": "LG 13kg black inverter ~19.5k if noise/reliability > size"
+    },
+    {
+      "id": "inventory_baseline",
+      "date": "2026-07-17",
+      "category": "inventory",
+      "decision": "Baseline owned/gifted set recorded; treat as complete for now",
+      "owned": ["cooker", "vacuum", "air fryer", "kettle", "iron", "blender"],
+      "implications": [
+        "Remove cooker and most small appliances from buy lists",
+        "Still need: fridge, washer, water heater, full furniture, lighting, curtains/textiles",
+        "Optional later: hood, microwave, fans, coffee gear"
+      ]
+    }
+  ]
+}

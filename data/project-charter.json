@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "lastUpdated": "2026-07-17",
+  "status": "aligned_v1",
+  "workingTitle": "Wedding home — whole-home plan & decision memory",
+  "userAims": {
+    "primaryOutcomes": [
+      "Plan the whole home including small details over time",
+      "Persist decisions, lifestyle, personality, and research in MD + JSON for repeated revisits",
+      "Tackle huge / expensive purchases first",
+      "Room styling, layout, and interior design standards — not only appliances",
+      "Meaningful ongoing questions from the collaborator (AI), answers always logged"
+    ],
+    "secondaryOutcomes": [
+      "Interactive HTML tools that grow only if useful",
+      "Egyptian market research when a category is ready",
+      "Avoid double-buying via inventory"
+    ],
+    "successLooksLike": [
+      "Move-in without chaos; essentials covered",
+      "Confident big-ticket choices with reasons recorded",
+      "Home feels like the couple, not a showroom",
+      "Phased plan usable for months",
+      "Reopening the project always restores context"
+    ],
+    "outOfScope": [
+      "Placing orders for the couple",
+      "Final SKU without explicit lock-in",
+      "Heavy app polish before substance",
+      "AC purchase path"
+    ],
+    "timeline": "Long-running; revisit over and over",
+    "whoUsesThis": "both_partners_equally",
+    "tone": "slow_deliberate_deep"
+  },
+  "collaborationPrefs": {
+    "maxQuestionsPerTurn": 3,
+    "questionStyle": "deep_personality_and_lifestyle_first",
+    "avoid": "shallow_product_spec_quizzes_unless_blocking",
+    "productPushiness": "slow_lots_of_talk_before_shortlists",
+    "partnerInvolvement": "both_equal_readers_and_deciders",
+    "deliverableFormats": ["md", "json", "html_when_useful", "chat"],
+    "digitalFidelity": "start_light_grow_if_useful",
+    "purchaseOrder": "most_expensive_highest_impact_first"
+  },
+  "loggingRules": {
+    "visionAndProcess": ["PROJECT.md", "data/project-charter.json"],
+    "lifestylePersonality": ["notes/lifestyle-and-personality.md", "data/profile.json"],
+    "inventory": ["data/inventory.json"],
+    "rooms": ["data/rooms.json", "notes/rooms/"],
+    "style": ["notes/style-direction.md"],
+    "products": ["data/products.json", "data/*-brief.json"],
+    "decisions": ["data/decisions.json"]
+  }
+}

@@ -1,0 +1,116 @@
+[    2298ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:98590)
+    at lu (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:149631)
+    at uf (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190321)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190166
+    at ud (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190174)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:185314)
+    at uq (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211993)
+    at uB (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:210207)
+    at uE (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:207853)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205279
+    at uv (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205285)
+    at ut (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:188436)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:186672)
+    at uH (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211872)
+    at MessagePort.O (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:60030)
+[    3208ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[    3211ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   35093ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   75612ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:98590)
+    at lu (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:149631)
+    at uf (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190321)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190166
+    at ud (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190174)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:185314)
+    at uq (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211993)
+    at uB (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:210207)
+    at uE (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:207853)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205279
+    at uv (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205285)
+    at ut (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:188436)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:186672)
+    at uH (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211872)
+    at MessagePort.O (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:60030)
+[   77700ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   77701ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   77703ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   80876ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   80877ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   80879ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  115690ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  115692ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  118139ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=d1699445-1a63-4a05-baa1-27e08b19a296&localization_code=0:0
+[  120847ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:98590)
+    at lu (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:149631)
+    at uf (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190321)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190166
+    at ud (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190174)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:185314)
+    at uq (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211993)
+    at uB (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:210207)
+    at uE (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:207853)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205279
+    at uv (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205285)
+    at ut (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:188436)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:186672)
+    at uH (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211872)
+    at MessagePort.O (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:60030)
+[  121325ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  121327ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  122806ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  122807ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  123595ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:98590)
+    at lu (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:149631)
+    at uf (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190321)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190166
+    at ud (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190174)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:185314)
+    at uq (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211993)
+    at uB (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:210207)
+    at uE (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:207853)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205279
+    at uv (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205285)
+    at ut (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:188436)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:186672)
+    at uH (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211872)
+    at MessagePort.O (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:60030)
+[  124023ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  124025ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9

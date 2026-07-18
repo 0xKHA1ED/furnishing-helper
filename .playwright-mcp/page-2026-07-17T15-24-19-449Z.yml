@@ -1,0 +1,357 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content":
+      - /url: "#hnf-content"
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - button "Change language or country/region, current language is English" [ref=e7] [cursor=pointer]:
+          - generic: EGEnglish
+        - button "Select store" [ref=e9] [cursor=pointer]
+      - generic [ref=e11]:
+        - link "IKEA logotype, go to start page" [ref=e13] [cursor=pointer]:
+          - /url: https://www.ikea.com/eg/en/
+        - search [ref=e19]:
+          - generic [ref=e20]:
+            - combobox "Search for products, inspiration or new arrivals" [ref=e21]: rug underlay
+            - button "Clear the search input field" [ref=e22] [cursor=pointer]
+            - button "Search" [ref=e24] [cursor=pointer]
+        - navigation "Shopping links" [ref=e25]:
+          - list [ref=e26]:
+            - listitem [ref=e27]:
+              - link "Hej! Log in or sign up" [ref=e29] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/profile/login/
+            - listitem [ref=e30]:
+              - link "Shopping list" [ref=e32] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/favourites/
+            - listitem [ref=e33]:
+              - link "Shopping bag" [ref=e35] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cart/
+            - listitem [ref=e36]:
+              - button "Menu" [ref=e38] [cursor=pointer]
+              - navigation
+    - generic:
+      - complementary "Floating action buttons"
+  - main [ref=e39]:
+    - generic [ref=e40]:
+      - status [ref=e41]: Showing results for "rug underlay". We found 2 products and 6 content results.
+      - generic [ref=e42]:
+        - generic:
+          - list
+        - heading "Showing results for \"rug underlay\"" [level=1] [ref=e45]:
+          - generic [ref=e46]: 2 items for "rug underlay"
+        - heading "Sort and Filter" [level=2] [ref=e47]
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - link "Skip to results" [ref=e50] [cursor=pointer]:
+              - /url: "#product-list"
+            - list [ref=e52]:
+              - listitem [ref=e53]:
+                - heading [level=3] [ref=e54]:
+                  - button "Sort" [ref=e55] [cursor=pointer]
+              - listitem [ref=e60]:
+                - heading [level=3] [ref=e61]:
+                  - button "Category" [ref=e62] [cursor=pointer]
+              - listitem [ref=e67]:
+                - heading [level=3] [ref=e68]:
+                  - button "Size" [ref=e69] [cursor=pointer]
+              - listitem [ref=e74]:
+                - heading [level=3] [ref=e75]:
+                  - button "Colour" [ref=e76] [cursor=pointer]
+              - listitem [ref=e81]:
+                - heading [level=3] [ref=e82]:
+                  - button "Price" [ref=e83] [cursor=pointer]
+              - listitem [ref=e88]:
+                - heading [level=3] [ref=e89]:
+                  - button "Type" [ref=e90] [cursor=pointer]
+              - listitem [ref=e95]:
+                - generic [ref=e96] [cursor=pointer]:
+                  - generic [ref=e97]:
+                    - generic [ref=e98]: Top seller
+                    - generic [ref=e100]:
+                      - generic [ref=e101]: 2 products
+                      - text: "2"
+                  - generic [ref=e102]:
+                    - checkbox "Top seller 2 products"
+              - listitem [ref=e104]:
+                - heading [level=3] [ref=e105]:
+                  - button "Features" [ref=e106] [cursor=pointer]
+              - listitem [ref=e111]:
+                - heading [level=3] [ref=e112]:
+                  - button "Customer rating" [ref=e113] [cursor=pointer]
+          - generic [ref=e119]:
+            - heading "Results list" [level=2] [ref=e120]
+            - generic [ref=e122]:
+              - generic [ref=e123]:
+                - generic [ref=e125]:
+                  - checkbox "Compare - Select for product comparison, Anti-slip underlay, 67.5x200 cm" [ref=e126] [cursor=pointer]
+                  - generic [ref=e128]: Compare
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - paragraph [ref=e133]: Top seller
+                    - link [ref=e134] [cursor=pointer]:
+                      - /url: https://www.ikea.com/eg/en/p/stopp-anti-slip-underlay-90549052/
+                      - img "Image shows a white rolled-up STOPP rug underlay made of polyethylene plastic and synthetic rubber, featuring a textured, non-slip design." [ref=e135]
+                      - img "A folded textured rug on a mesh anti-slip underlay. The underlay prevents slipping and keeps the rug in place on various types of flooring." [ref=e136]
+                  - button "Save \"STOPP Anti-slip underlay\" to shopping list" [ref=e138] [cursor=pointer]
+                - generic [ref=e139]:
+                  - generic [ref=e142]:
+                    - heading [level=3] [ref=e144]:
+                      - link "STOPP, Anti-slip underlay, 67.5x200 cm" [ref=e146] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/stopp-anti-slip-underlay-90549052/
+                        - text: STOPP
+                      - generic [ref=e147]: Anti-slip underlay, 67.5x200 cm
+                    - generic [ref=e151]:
+                      - generic [ref=e152]:
+                        - generic [ref=e153]: EGP379
+                        - generic [ref=e154]: /package
+                      - generic [ref=e155]: Price EGP 379/package
+                  - button "Add \"STOPP Anti-slip underlay\" to cart" [ref=e157] [cursor=pointer]
+                - 'button "Review: 2.8 out of 5 stars. Total reviews: (4)" [ref=e158] [cursor=pointer]':
+                  - generic [ref=e159]: "Review: 2.8 out of 5 stars. Total reviews:"
+                  - generic [ref=e160]: (4)
+                - generic [ref=e162]: Available for delivery
+              - generic [ref=e166]:
+                - generic [ref=e168]:
+                  - checkbox "Compare - Select for product comparison, Rug underlay with anti-slip, 70x140 cm" [ref=e169] [cursor=pointer]
+                  - generic [ref=e171]: Compare
+                - generic [ref=e173]:
+                  - link [ref=e175] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-30550213/
+                    - img "STOPP FILT rug underlay, grey recycled polyester & latex, thick, textured." [ref=e176]
+                    - img "Rug underlay with non-slip surface, shown protecting hardwood floor." [ref=e177]
+                  - button "Save \"STOPP FILT Rug underlay with anti-slip\" to shopping list" [ref=e179] [cursor=pointer]
+                - generic [ref=e180]:
+                  - generic [ref=e183]:
+                    - heading [level=3] [ref=e185]:
+                      - link "STOPP FILT, Rug underlay with anti-slip, 70x140 cm" [ref=e187] [cursor=pointer]:
+                        - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-30550213/
+                        - text: STOPP FILT
+                      - generic [ref=e188]: Rug underlay with anti-slip, 70x140 cm
+                    - generic [ref=e192]:
+                      - generic [ref=e193]:
+                        - generic [ref=e194]: EGP279
+                        - generic [ref=e195]: /package
+                      - generic [ref=e196]: Price EGP 279/package
+                  - button "Add \"STOPP FILT Rug underlay with anti-slip\" to cart" [ref=e198] [cursor=pointer]
+                - 'button "Review: 4.4 out of 5 stars. Total reviews: (18)" [ref=e199] [cursor=pointer]':
+                  - generic [ref=e200]: "Review: 4.4 out of 5 stars. Total reviews:"
+                  - generic [ref=e201]: (18)
+                - generic [ref=e203]: Available for delivery
+                - group "More options STOPP FILT" [ref=e207]:
+                  - generic [ref=e208]:
+                    - text: More options
+                    - generic [ref=e209]: STOPP FILT
+                  - generic [ref=e210] [cursor=pointer]:
+                    - 'radio "Option: STOPP FILT, Rug underlay with anti-slip, 70x140 cm" [checked] [ref=e211]'
+                    - 'link "Option: STOPP FILT, Rug underlay with anti-slip, 70x140 cm STOPP FILT rug underlay, grey recycled polyester & latex, thick, textured." [ref=e212]':
+                      - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-30550213/
+                      - generic [ref=e213]: "Option: STOPP FILT, Rug underlay with anti-slip, 70x140 cm"
+                      - img "STOPP FILT rug underlay, grey recycled polyester & latex, thick, textured." [ref=e214]
+                  - generic [ref=e215] [cursor=pointer]:
+                    - 'radio "Option: STOPP FILT, Rug underlay with anti-slip, 123x185 cm" [ref=e216]'
+                    - 'link "Option: STOPP FILT, Rug underlay with anti-slip, 123x185 cm A grey rectangular rug protection felt mat, folded, made of polyester for dirt collection and floor protection." [ref=e217]':
+                      - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-90550210/
+                      - generic [ref=e218]: "Option: STOPP FILT, Rug underlay with anti-slip, 123x185 cm"
+                      - img "A grey rectangular rug protection felt mat, folded, made of polyester for dirt collection and floor protection." [ref=e219]
+                  - generic [ref=e220] [cursor=pointer]:
+                    - 'radio "Option: STOPP FILT, Rug underlay with anti-slip, 190x280 cm" [ref=e221]'
+                    - 'link "Option: STOPP FILT, Rug underlay with anti-slip, 190x280 cm Folded grey rug pad, soft felt texture, eco-friendly materials, protects floors, prevents rug sliding." [ref=e222]':
+                      - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-20550204/
+                      - generic [ref=e223]: "Option: STOPP FILT, Rug underlay with anti-slip, 190x280 cm"
+                      - img "Folded grey rug pad, soft felt texture, eco-friendly materials, protects floors, prevents rug sliding." [ref=e224]
+                  - generic [ref=e225] [cursor=pointer]:
+                    - 'radio "Option: STOPP FILT, Rug underlay with anti-slip, 165x235 cm" [ref=e226]'
+                    - 'link "Option: STOPP FILT, Rug underlay with anti-slip, 165x235 cm Grey rectangular felt rug pad, soft texture, protects floors." [ref=e227]':
+                      - /url: https://www.ikea.com/eg/en/p/stopp-filt-rug-underlay-with-anti-slip-90132261/
+                      - generic [ref=e228]: "Option: STOPP FILT, Rug underlay with anti-slip, 165x235 cm"
+                      - img "Grey rectangular felt rug pad, soft texture, protects floors." [ref=e229]
+              - link "Category Rugs" [ref=e230] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/rugs-10653/
+                - generic [ref=e232]:
+                  - paragraph [ref=e233]: Category
+                  - paragraph [ref=e234]: Rugs
+              - link "Category Anti-slip & underlays" [ref=e238] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/cat/anti-slip-underlays-10699/
+                - generic [ref=e240]:
+                  - paragraph [ref=e241]: Category
+                  - paragraph [ref=e242]: Anti-slip & underlays
+            - generic [ref=e246]:
+              - paragraph [ref=e247]: Showing 4 of 4 results
+              - progressbar [ref=e248]
+        - generic [ref=e249]:
+          - generic [ref=e250]:
+            - heading "Related Content" [level=2] [ref=e251]
+            - paragraph [ref=e253]: 6 content results
+          - generic [ref=e254]:
+            - link "Skip listing" [ref=e255] [cursor=pointer]:
+              - /url: "#plp--carousel__content-shelf-carousel-skip-btn"
+            - list [ref=e257]:
+              - listitem [ref=e258]:
+                - link "Category Rugs" [ref=e259] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/cat/rugs-10653/
+                  - generic [ref=e261]:
+                    - paragraph [ref=e262]: Category
+                    - paragraph [ref=e263]: Rugs
+              - listitem [ref=e267]:
+                - link "Category Anti-slip & underlays" [ref=e268] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/cat/anti-slip-underlays-10699/
+                  - generic [ref=e270]:
+                    - paragraph [ref=e271]: Category
+                    - paragraph [ref=e272]: Anti-slip & underlays
+              - listitem [ref=e276]:
+                - link "Room Well-organised and flexible family dining room takes the enjoyment from kitchen to table and beyond" [ref=e277] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/rooms/dining/gallery/well-organised-and-flexible-family-dining-room-takes-the-enjoyment-from-kitchen-to-table-and-beyond-pubb7269440/
+                  - generic [ref=e279]:
+                    - paragraph [ref=e280]: Room
+                    - paragraph [ref=e281]: Well-organised and flexible family dining room takes the enjoyment from kitchen to table and beyond
+              - listitem [ref=e285]:
+                - link "How-to How to set up a home office" [ref=e286] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/rooms/home-office/how-to/how-to-set-up-a-home-office-pubbf7c0790/
+                  - generic [ref=e288]:
+                    - paragraph [ref=e289]: How-to
+                    - paragraph [ref=e290]: How to set up a home office
+              - listitem [ref=e294]:
+                - link "How-to Kid-friendly living room ideas that are just as great for grandma" [ref=e295] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/rooms/living-room/how-to/kid-friendly-living-room-ideas-that-are-just-as-great-for-grandma-puba568f880/
+                  - generic [ref=e297]:
+                    - paragraph [ref=e298]: How-to
+                    - paragraph [ref=e299]: Kid-friendly living room ideas that are just as great for grandma
+              - listitem [ref=e303]:
+                - link "Page Safety at home for all ages" [ref=e304] [cursor=pointer]:
+                  - /url: https://www.ikea.com/eg/en/safety-at-home/all-ages/
+                  - generic [ref=e306]:
+                    - paragraph [ref=e307]: Page
+                    - paragraph [ref=e308]: Safety at home for all ages
+  - generic [ref=e316]:
+    - generic:
+      - complementary
+    - contentinfo [ref=e317]:
+      - generic [ref=e318]:
+        - heading "Footer" [level=2] [ref=e319]
+        - generic [ref=e320]:
+          - list [ref=e322]:
+            - listitem [ref=e323]:
+              - heading "Useful links" [level=3] [ref=e324]
+              - list "Useful links Brochures IKEA shopping app Planning tools Stores IKEA restaurant IKEA Family" [ref=e325]:
+                - listitem [ref=e326]:
+                  - link "Brochures" [ref=e327] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/brochures/
+                - listitem [ref=e328]:
+                  - link "IKEA shopping app" [ref=e329] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/free-ikea-apps-pubc9ac6ea1/
+                - listitem [ref=e330]:
+                  - link "Planning tools" [ref=e331] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/planners/
+                - listitem [ref=e332]:
+                  - link "Stores" [ref=e333] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/
+                - listitem [ref=e334]:
+                  - link "IKEA restaurant" [ref=e335] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/stores/restaurant/
+                - listitem [ref=e336]:
+                  - link "IKEA Family" [ref=e337] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/ikea-family/
+            - listitem [ref=e338]:
+              - heading "Customer service" [level=3] [ref=e339]
+              - list "Customer service Terms and conditions Guarantees & warranties Spare parts About services About shopping Return policy Contact us FAQ" [ref=e340]:
+                - listitem [ref=e341]:
+                  - link "Terms and conditions" [ref=e342] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+                - listitem [ref=e343]:
+                  - link "Guarantees & warranties" [ref=e344] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/guarantee/
+                - listitem [ref=e345]:
+                  - link "Spare parts" [ref=e346] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/spareparts/
+                - listitem [ref=e347]:
+                  - link "About services" [ref=e348] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/
+                - listitem [ref=e349]:
+                  - link "About shopping" [ref=e350] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/shopping-at-ikea/
+                - listitem [ref=e351]:
+                  - link "Return policy" [ref=e352] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/returns-claims/
+                - listitem [ref=e353]:
+                  - link "Contact us" [ref=e354] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/contact-us/
+                - listitem [ref=e355]:
+                  - link "FAQ" [ref=e356] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/faq/
+            - listitem [ref=e357]:
+              - heading "This is IKEA" [level=3] [ref=e358]
+              - list "This is IKEA About IKEA Democratic design Sustainable everyday Community engagement Working at IKEA" [ref=e359]:
+                - listitem [ref=e360]:
+                  - link "About IKEA" [ref=e361] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/
+                - listitem [ref=e362]:
+                  - link "Democratic design" [ref=e363] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/design/
+                - listitem [ref=e364]:
+                  - link "Sustainable everyday" [ref=e365] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/sustainable-everyday/
+                - listitem [ref=e366]:
+                  - link "Community engagement" [ref=e367] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/community-engagement/
+                - listitem [ref=e368]:
+                  - link "Working at IKEA" [ref=e369] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/work-with-us/
+            - listitem [ref=e370]:
+              - heading "General information" [level=3] [ref=e371]
+              - list "General information Newsroom Product recalls" [ref=e372]:
+                - listitem [ref=e373]:
+                  - link "Newsroom" [ref=e374] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/this-is-ikea/newsroom/
+                - listitem [ref=e375]:
+                  - link "Product recalls" [ref=e376] [cursor=pointer]:
+                    - /url: https://www.ikea.com/eg/en/customer-service/product-support/recalls/
+          - generic [ref=e377]:
+            - generic [ref=e378]:
+              - list [ref=e379]:
+                - listitem [ref=e380]:
+                  - link "Follow IKEA on Facebook" [ref=e381] [cursor=pointer]:
+                    - /url: https://www.facebook.com/IKEAEgypt/
+                - listitem [ref=e384]:
+                  - link "Follow IKEA on Instagram" [ref=e385] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ikeaegypt/
+                - listitem [ref=e388]:
+                  - link "Follow IKEA on Youtube" [ref=e389] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/IKEAegypt
+                - listitem [ref=e392]:
+                  - link "Follow IKEA on X" [ref=e393] [cursor=pointer]:
+                    - /url: https://x.com/IKEAEgypt
+              - list [ref=e396]:
+                - listitem [ref=e397]:
+                  - img "AMEX" [ref=e399]
+                - listitem [ref=e400]:
+                  - img "visa" [ref=e402]
+                - listitem [ref=e403]:
+                  - img "mastercard" [ref=e405]
+            - generic [ref=e406]:
+              - button "Cookie settings" [ref=e408] [cursor=pointer]
+              - button "Change language or country/region, current language is English" [ref=e410] [cursor=pointer]:
+                - generic: EGEnglish
+        - generic [ref=e411]:
+          - paragraph [ref=e413]: © Inter IKEA Systems B.V. 1999-2026
+          - list [ref=e415]:
+            - listitem [ref=e416]:
+              - link "Privacy policy" [ref=e417] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/privacy-policy/
+            - listitem [ref=e418]:
+              - link "Cookie policy" [ref=e419] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/cookie-policy/
+            - listitem [ref=e420]:
+              - link "Terms and conditions" [ref=e421] [cursor=pointer]:
+                - /url: https://www.ikea.com/eg/en/customer-service/terms-conditions/
+  - region "Cookie consent banner" [active] [ref=e422]:
+    - dialog "Privacy" [ref=e423]:
+      - generic [ref=e425]:
+        - generic [ref=e426]: IKEA.eg and our digital partners use cookies on this site. Some are strictly necessary to run the site and others are used for measuring site usage, enabling personalisation and for advertising, marketing and social media.
+        - generic [ref=e430]:
+          - button "Cookies settings, Opens the preference center dialog" [ref=e431] [cursor=pointer]: Cookies settings
+          - button "Ok" [ref=e432] [cursor=pointer]
+  - dialog [ref=e433]:
+    - generic [ref=e436] [cursor=pointer]:
+      - link [ref=e444]:
+        - /url: https://www.ikea.com/eg/en/search/?group=Sale&filters=f-availability%3AAVAILABLE_ONLINE&sort=MOST_POPULAR
+      - generic [ref=e446]: ×

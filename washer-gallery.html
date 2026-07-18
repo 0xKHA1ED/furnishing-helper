@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Washer gallery — top-load · full auto · all colors · black filter</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/appliances.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">
+            <a href="index.html">← Hub</a> ·
+            <a href="fridge-gallery.html">Fridge gallery</a> ·
+            Washer focus
+          </p>
+          <h1>Washing machine gallery</h1>
+          <p class="lead">
+            <strong>Top-load</strong>, <strong>fully automatic</strong> only (no half-auto).
+            <strong>All colors</strong> · hard size bands 7–15 kg.
+            Default shows <strong>everything</strong>; use Main 7–9 kg or
+            <strong>Black only</strong> to narrow for tomorrow.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold" id="count-badge">—</span>
+          <span class="badge">B.TECH · expanded</span>
+        </div>
+      </header>
+
+      <div class="help-callout" id="disclaimer">Loading…</div>
+
+      <div class="preset-row">
+        <button type="button" data-preset="all" class="active">All kept</button>
+        <button type="button" data-preset="main">Main 7–9 kg</button>
+        <button type="button" data-preset="adjacent">Adjacent 10–13 kg</button>
+        <button type="button" data-preset="oversized">Oversized 14–15 kg</button>
+        <button type="button" data-preset="black">Black only</button>
+        <button type="button" data-preset="inverter">Inverter only</button>
+        <button type="button" data-preset="starred">★ Starred</button>
+      </div>
+
+      <div class="gallery-toolbar">
+        <label>Search
+          <input id="f-q" type="search" placeholder="brand, model…" />
+        </label>
+        <label>Band
+          <select id="f-band">
+            <option value="all" selected>All sizes</option>
+            <option value="main">Main 7–9 kg</option>
+            <option value="adjacent">Adjacent 10–13 kg</option>
+            <option value="oversized">Oversized 14–15 kg</option>
+          </select>
+        </label>
+        <label>Color
+          <select id="f-color">
+            <option value="any">Any color</option>
+            <option value="black">Black only</option>
+            <option value="dark_grey">Dark grey</option>
+            <option value="silver">Silver / steel</option>
+          </select>
+        </label>
+        <label>Max EGP
+          <input id="f-max" type="number" placeholder="any" />
+        </label>
+        <label>Inverter
+          <select id="f-inv">
+            <option value="any">Any</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </label>
+        <label>Sort
+          <select id="f-sort">
+            <option value="rank">Our rank</option>
+            <option value="price_asc">Price ↑</option>
+            <option value="price_desc">Price ↓</option>
+            <option value="kg">Capacity</option>
+          </select>
+        </label>
+        <label>Starred only
+          <select id="f-star">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select>
+        </label>
+        <button type="button" class="btn ghost" id="btn-export-stars">Export ★ JSON</button>
+        <button type="button" class="btn ghost" id="btn-clear-stars">Clear ★</button>
+      </div>
+
+      <p class="sticky-count" id="result-count"></p>
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="card" style="margin-top: 1.5rem">
+        <h2>What we excluded</h2>
+        <div class="muted" id="excluded-list"></div>
+      </div>
+
+      <footer class="app-footer">
+        Data: <code>data/appliances/washer_catalog.json</code> · Scope today: fridge →
+        washer → kitchen → TV (no water heater yet)
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal-backdrop">
+      <div class="modal">
+        <div class="modal-head">
+          <div>
+            <h2 id="modal-title">Product</h2>
+            <p class="muted" id="modal-sub" style="margin: 0.25rem 0 0; font-size: 0.85rem"></p>
+          </div>
+          <button type="button" class="modal-close" id="modal-close">Close</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <img class="main-img" id="modal-main-img" alt="" referrerpolicy="no-referrer" />
+            <div class="ph" id="modal-no-img" style="display: none; color: #9aa6bc; text-align: center; padding: 2rem">No photo</div>
+            <div class="thumbs" id="modal-thumbs"></div>
+          </div>
+          <div class="modal-info">
+            <div class="price-lg" id="modal-price"></div>
+            <p class="muted" id="modal-summary" style="margin: 0.5rem 0 0"></p>
+            <div class="pc-grid">
+              <div class="pc-box pros"><h4>Pros</h4><ul id="modal-pros"></ul></div>
+              <div class="pc-box cons"><h4>Cons</h4><ul id="modal-cons"></ul></div>
+            </div>
+            <ul class="spec-list" id="modal-specs"></ul>
+            <div class="btn-row" style="margin-top: 1rem">
+              <button type="button" class="btn ghost" id="modal-star">☆ Star</button>
+              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open on B.TECH</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="toast" class="toast"></div>
+    <script>
+      const STAR_KEY = "egypt-apt-washer-stars-v1";
+      let items = [], active = null, galleryIdx = 0;
+      let stars = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || "[]"));
+      const $ = (s, r = document) => r.querySelector(s);
+      const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+      function toast(m) {
+        const t = $("#toast");
+        t.textContent = m;
+        t.classList.add("show");
+        setTimeout(() => t.classList.remove("show"), 2200);
+      }
+      function saveStars() {
+        localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+      }
+      function esc(s) {
+        return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+      }
+      function fmt(n) {
+        return n == null ? "—" : Number(n).toLocaleString() + " EGP";
+      }
+      function filtered() {
+        const q = $("#f-q").value.trim().toLowerCase();
+        const band = $("#f-band").value;
+        const max = Number($("#f-max").value) || Infinity;
+        const inv = $("#f-inv").value;
+        const color = $("#f-color")?.value || "any";
+        const onlyStar = $("#f-star").value === "yes";
+        const sort = $("#f-sort").value;
+        let list = items.filter((it) => {
+          if (band === "main" && it.band !== "main") return false;
+          if (band === "adjacent" && it.band !== "adjacent") return false;
+          if (band === "oversized" && it.band !== "oversized") return false;
+          if ((it.priceEGP || 0) > max) return false;
+          if (inv === "yes" && it.specs?.inverter !== true) return false;
+          if (inv === "no" && it.specs?.inverter === true) return false;
+          if (color === "black" && it.color !== "black") return false;
+          if (color === "dark_grey" && it.color !== "dark_grey") return false;
+          if (color === "silver" && it.color !== "silver") return false;
+          if (onlyStar && !stars.has(it.id)) return false;
+          if (q && !`${it.name} ${it.brand} ${it.summary} ${it.color}`.toLowerCase().includes(q)) return false;
+          return true;
+        });
+        list.sort((a, b) => {
+          if (sort === "price_asc") return a.priceEGP - b.priceEGP;
+          if (sort === "price_desc") return b.priceEGP - a.priceEGP;
+          if (sort === "kg") return (b.capacityKg || 0) - (a.capacityKg || 0);
+          return (a.rank || 99) - (b.rank || 99);
+        });
+        return list;
+      }
+      function renderGrid() {
+        const list = filtered();
+        $("#result-count").textContent = `Showing ${list.length} of ${items.length} · ${stars.size} starred`;
+        const grid = $("#product-grid");
+        if (!list.length) {
+          grid.innerHTML = `<div class="empty-gallery" style="grid-column:1/-1">No matches.</div>`;
+          return;
+        }
+        grid.innerHTML = list
+          .map((it) => {
+            const img = it.imageUrl
+              ? `<img src="${esc(it.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
+              : `<div class="ph">No image yet</div>`;
+            return `<article class="product-card ${stars.has(it.id) ? "starred" : ""}" data-id="${esc(it.id)}">
+              <div class="thumb">${img}
+                <div class="badge-abs">
+                  ${it.rank ? `<span class="chip-mini hot">#${it.rank}</span>` : ""}
+                  ${it.band === "main" ? `<span class="chip-mini hot">7–9 kg</span>` : `<span class="chip-mini">${esc(it.band)}</span>`}
+                  ${it.color === "black" ? `<span class="chip-mini hot">Black</span>` : `<span class="chip-mini">${esc(it.color || "")}</span>`}
+                  ${it.specs?.inverter ? `<span class="chip-mini hot">Inverter</span>` : ""}
+                </div>
+                <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
+              </div>
+              <div class="body">
+                <div class="brand">${esc(it.brand)} · top-load · ${esc(it.color || "")}</div>
+                <h3>${esc(it.name)}</h3>
+                <div class="meta">${it.capacityKg} kg · Fit ${it.researchFitScore ?? "—"}</div>
+                <div class="price">${fmt(it.priceEGP)}</div>
+              </div>
+            </article>`;
+          })
+          .join("");
+        grid.querySelectorAll(".product-card").forEach((card) => {
+          card.addEventListener("click", (e) => {
+            if (e.target.closest("[data-star]")) return;
+            openModal(card.dataset.id);
+          });
+        });
+        grid.querySelectorAll("[data-star]").forEach((btn) => {
+          btn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const id = btn.dataset.star;
+            if (stars.has(id)) stars.delete(id);
+            else stars.add(id);
+            saveStars();
+            renderGrid();
+          });
+        });
+      }
+      function openModal(id) {
+        active = items.find((i) => i.id === id);
+        galleryIdx = 0;
+        $("#modal-backdrop").classList.add("open");
+        renderModal();
+      }
+      function closeModal() {
+        $("#modal-backdrop").classList.remove("open");
+      }
+      function renderModal() {
+        const it = active;
+        const g = it.imageGallery?.length ? it.imageGallery : it.imageUrl ? [it.imageUrl] : [];
+        $("#modal-title").textContent = it.name;
+        $("#modal-sub").textContent = `${it.brand} · #${it.rank} · ${it.band} · ${it.scrapedAt}`;
+        $("#modal-price").textContent = fmt(it.priceEGP);
+        $("#modal-summary").textContent = it.summary || "";
+        const main = $("#modal-main-img");
+        if (g[galleryIdx]) {
+          main.src = g[galleryIdx];
+          main.style.display = "block";
+          $("#modal-no-img").style.display = "none";
+        } else {
+          main.style.display = "none";
+          $("#modal-no-img").style.display = "block";
+        }
+        $("#modal-thumbs").innerHTML = g
+          .map((src, i) => `<button type="button" class="${i === galleryIdx ? "active" : ""}" data-g="${i}"><img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" /></button>`)
+          .join("");
+        $$("#modal-thumbs button").forEach((b) =>
+          b.addEventListener("click", () => {
+            galleryIdx = Number(b.dataset.g);
+            renderModal();
+          })
+        );
+        $("#modal-pros").innerHTML = (it.pros || []).map((p) => `<li>${esc(p)}</li>`).join("");
+        $("#modal-cons").innerHTML = (it.cons || []).map((p) => `<li>${esc(p)}</li>`).join("");
+        const specs = [
+          ["Price", fmt(it.priceEGP)],
+          ["Capacity", `${it.capacityKg} kg`],
+          ["Load", "Top-load"],
+          ["Auto", "Fully automatic"],
+          ["Inverter", it.specs?.inverter ? "Yes" : "No"],
+          ["Color", it.color],
+          ["Fit", it.researchFitScore],
+          ["Band", it.band],
+        ];
+        $("#modal-specs").innerHTML = specs.map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v))}</span></li>`).join("");
+        $("#modal-link").href = it.url;
+        $("#modal-star").textContent = stars.has(it.id) ? "★ Starred" : "☆ Star";
+      }
+      function applyPreset(name) {
+        $$(".preset-row button").forEach((b) => b.classList.toggle("active", b.dataset.preset === name));
+        $("#f-band").value =
+          name === "main" ? "main"
+          : name === "adjacent" ? "adjacent"
+          : name === "oversized" ? "oversized"
+          : "all";
+        $("#f-inv").value = name === "inverter" ? "yes" : "any";
+        $("#f-color").value = name === "black" ? "black" : "any";
+        $("#f-star").value = name === "starred" ? "yes" : "no";
+        if (name === "inverter" || name === "black" || name === "starred") $("#f-band").value = "all";
+        renderGrid();
+      }
+      async function init() {
+        try {
+          const data = await (await fetch("data/appliances/washer_catalog.json")).json();
+          items = data.items || [];
+          const blackN = items.filter((i) => i.color === "black").length;
+          const invN = items.filter((i) => i.specs?.inverter).length;
+          const mainN = items.filter((i) => i.band === "main").length;
+          $("#count-badge").textContent = `${items.length} total · ${mainN} main · ${blackN} black · ${invN} inv`;
+          $("#disclaimer").textContent = (data.marketNote || "") + " " + (data.disclaimer || "");
+          const counts = data.counts || {};
+          $("#excluded-list").innerHTML =
+            `<div><strong>In catalog:</strong> ${counts.total ?? items.length} full-auto top-load (7–15 kg). ` +
+            `Main 7–9: ${counts.main ?? "—"} · Adjacent 10–13: ${counts.adjacent ?? "—"} · Oversized 14–15: ${counts.oversized ?? "—"} · Black: ${counts.black ?? "—"}.</div>` +
+            `<div style="margin-top:0.35rem">Excluded: front-load, half-auto, twin-tub, manual, accessories. Use <strong>All kept</strong> to see everything.</div>` +
+            (data.filtersApplied
+              ? Object.entries(data.filtersApplied)
+                  .map(([k, v]) => `<div style="margin:0.25rem 0"><strong>${esc(k)}</strong>: ${esc(Array.isArray(v) ? v.join(", ") : String(v))}</div>`)
+                  .join("")
+              : "");
+        } catch {
+          $("#disclaimer").innerHTML = "Run <code>python -m http.server 8765</code> and open via http://localhost:8765/washer-gallery.html";
+          return;
+        }
+        ["f-q", "f-band", "f-max", "f-inv", "f-color", "f-sort", "f-star"].forEach((id) => {
+          const el = $("#" + id);
+          if (!el) return;
+          el.addEventListener("input", renderGrid);
+          el.addEventListener("change", renderGrid);
+        });
+        $$(".preset-row button").forEach((b) => b.addEventListener("click", () => applyPreset(b.dataset.preset)));
+        $("#modal-close").onclick = closeModal;
+        $("#modal-backdrop").addEventListener("click", (e) => {
+          if (e.target.id === "modal-backdrop") closeModal();
+        });
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") closeModal();
+        });
+        $("#modal-star").onclick = () => {
+          if (!active) return;
+          if (stars.has(active.id)) stars.delete(active.id);
+          else stars.add(active.id);
+          saveStars();
+          renderModal();
+          renderGrid();
+        };
+        $("#btn-export-stars").onclick = () => {
+          const picked = items.filter((i) => stars.has(i.id));
+          const a = document.createElement("a");
+          a.href = URL.createObjectURL(new Blob([JSON.stringify({ items: picked }, null, 2)], { type: "application/json" }));
+          a.download = "washer-shortlist.json";
+          a.click();
+          toast(picked.length ? `Exported ${picked.length}` : "Nothing starred");
+        };
+        $("#btn-clear-stars").onclick = () => {
+          stars.clear();
+          saveStars();
+          renderGrid();
+        };
+        renderGrid();
+      }
+      init();
+    </script>
+  </body>
+</html>

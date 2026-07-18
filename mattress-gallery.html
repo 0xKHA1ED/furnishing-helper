@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mattress gallery — 180×200 · ≤25k · pocket/hybrid</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/appliances.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">
+            <a href="index.html">← Hub</a> ·
+            <a href="tv-gallery.html">TV</a> ·
+            <a href="carpet-gallery.html">Carpets</a> · Mattress
+          </p>
+          <h1>Mattress gallery</h1>
+          <p class="lead">
+            Master bedroom only · bed <strong>180×200 cm</strong> · budget
+            <strong>≤ 25,000 EGP</strong> · prefer
+            <strong>pocket spring / hybrid</strong> · heat-friendly ·
+            firmness default <strong>medium-firm / firm</strong> (you said “no idea”) ·
+            mattress only (protector later) · slatted base.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold" id="count-badge">—</span>
+          <span class="badge">Cool lean</span>
+        </div>
+      </header>
+
+      <div class="help-callout" id="disclaimer">Loading…</div>
+
+      <div class="preset-row">
+        <button type="button" data-preset="main" class="active">Main (in budget)</button>
+        <button type="button" data-preset="pocket">Pocket / hybrid</button>
+        <button type="button" data-preset="firm">Firm / med-firm</button>
+        <button type="button" data-preset="ikea">IKEA</button>
+        <button type="button" data-preset="recommended">Recommended</button>
+        <button type="button" data-preset="starred">★ Starred</button>
+        <button type="button" data-preset="excluded">Out of filter</button>
+      </div>
+
+      <div class="gallery-toolbar">
+        <label>Search
+          <input id="f-q" type="search" placeholder="VESTERÖY, Janssen…" />
+        </label>
+        <label>Max EGP
+          <input id="f-max" type="number" value="25000" />
+        </label>
+        <label>Type
+          <select id="f-type">
+            <option value="any">Any</option>
+            <option value="pocket_spring">Pocket spring</option>
+            <option value="hybrid">Hybrid</option>
+            <option value="spring">Spring</option>
+            <option value="foam">Foam</option>
+            <option value="memory_foam">Memory foam</option>
+            <option value="latex">Latex</option>
+          </select>
+        </label>
+        <label>Sort
+          <select id="f-sort">
+            <option value="rank">Our rank</option>
+            <option value="price_asc">Price ↑</option>
+            <option value="price_desc">Price ↓</option>
+          </select>
+        </label>
+      </div>
+
+      <p class="sticky-count" id="result-count"></p>
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="card" style="margin-top: 1.5rem">
+        <h2>Shopping route</h2>
+        <ol id="route" class="muted"></ol>
+      </div>
+
+      <footer class="app-footer">
+        Data: <code>data/appliances/mattress_catalog.json</code> ·
+        <code>data/mattress-brief.json</code>
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal-backdrop">
+      <div class="modal">
+        <div class="modal-head">
+          <div>
+            <h2 id="modal-title">Mattress</h2>
+            <p class="muted" id="modal-sub" style="margin: 0.25rem 0 0; font-size: 0.85rem"></p>
+          </div>
+          <button type="button" class="modal-close" id="modal-close">Close</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <img class="main-img" id="modal-main-img" alt="" referrerpolicy="no-referrer" />
+            <div class="ph" id="modal-no-img" style="display: none; color: #9aa6bc; text-align: center; padding: 2rem">No photo</div>
+          </div>
+          <div class="modal-info">
+            <div class="price-lg" id="modal-price"></div>
+            <p class="muted" id="modal-summary" style="margin: 0.5rem 0 0"></p>
+            <div class="pc-grid">
+              <div class="pc-box pros"><h4>Pros</h4><ul id="modal-pros"></ul></div>
+              <div class="pc-box cons"><h4>Cons</h4><ul id="modal-cons"></ul></div>
+            </div>
+            <ul class="spec-list" id="modal-specs"></ul>
+            <div class="btn-row" style="margin-top: 1rem">
+              <button type="button" class="btn ghost" id="modal-star">☆ Star</button>
+              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const STAR_KEY = "egypt-apt-mattress-stars-v1";
+      let items = [], data = null, active = null, preset = "main";
+      let stars = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || "[]"));
+      const $ = (s) => document.querySelector(s);
+      function esc(s) {
+        return String(s || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+      function fmt(n) {
+        if (n == null) return "Price varies";
+        return Number(n).toLocaleString() + " EGP";
+      }
+      function list() {
+        const q = ($("#f-q").value || "").toLowerCase();
+        const maxP = Number($("#f-max").value) || 25000;
+        const type = $("#f-type").value;
+        const sort = $("#f-sort").value;
+        let out = items.filter((it) => {
+          if (preset === "starred") return stars.has(it.id);
+          if (preset === "excluded") return !!it.excluded;
+          if (it.excluded) return false;
+          if (it.priceEGP != null && it.priceEGP > maxP) return false;
+          if (preset === "pocket" && !["pocket_spring", "hybrid"].includes(it.type)) return false;
+          if (preset === "firm" && !["firm", "medium_firm", "medium", "extra_firm"].includes(it.firmness)) return false;
+          if (preset === "ikea" && !(it.source || "").toLowerCase().includes("ikea")) return false;
+          if (preset === "recommended") return (data.recommendedIds || []).includes(it.id);
+          if (type !== "any" && it.type !== type) return false;
+          if (q && !`${it.name} ${it.brand}`.toLowerCase().includes(q)) return false;
+          return true;
+        });
+        out.sort((a, b) => {
+          if (sort === "price_asc") return (a.priceEGP || 9e9) - (b.priceEGP || 9e9);
+          if (sort === "price_desc") return (b.priceEGP || 0) - (a.priceEGP || 0);
+          return (a.rank || 99) - (b.rank || 99);
+        });
+        return out;
+      }
+      function renderGrid() {
+        const rows = list();
+        $("#result-count").textContent = `Showing ${rows.length} · ${stars.size} starred`;
+        $("#product-grid").innerHTML = rows
+          .map((it) => {
+            const img = it.imageUrl
+              ? `<img src="${esc(it.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
+              : `<div class="ph">No image</div>`;
+            const size = it.sizeCm ? it.sizeCm.join("×") + " cm" : "size —";
+            return `<article class="product-card ${stars.has(it.id) ? "starred" : ""}" data-id="${esc(it.id)}">
+              <div class="thumb">${img}
+                <div class="badge-abs">
+                  ${it.rank && it.rank < 200 ? `<span class="chip-mini hot">#${it.rank}</span>` : ""}
+                  <span class="chip-mini">${esc((it.type || "").replace(/_/g, " "))}</span>
+                </div>
+                <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
+              </div>
+              <div class="body">
+                <div class="brand">${esc(it.brand)} · ${esc((it.firmness || "").replace(/_/g, " "))}</div>
+                <h3>${esc(it.name)}</h3>
+                <div class="meta">${size} · ${esc(it.source || "")}</div>
+                <div class="price">${fmt(it.priceEGP)}</div>
+              </div>
+            </article>`;
+          })
+          .join("");
+        document.querySelectorAll(".product-card").forEach((c) => {
+          c.addEventListener("click", (e) => {
+            if (e.target.closest("[data-star]")) return;
+            openModal(c.dataset.id);
+          });
+        });
+        document.querySelectorAll("[data-star]").forEach((b) => {
+          b.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const id = b.dataset.star;
+            if (stars.has(id)) stars.delete(id);
+            else stars.add(id);
+            localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+            renderGrid();
+          });
+        });
+      }
+      function openModal(id) {
+        active = items.find((i) => i.id === id);
+        if (!active) return;
+        $("#modal-backdrop").classList.add("open");
+        $("#modal-title").textContent = active.name;
+        $("#modal-sub").textContent = `${active.brand} · ${active.type} · ${active.firmness}`;
+        $("#modal-price").textContent = fmt(active.priceEGP);
+        $("#modal-summary").textContent = active.summary || "";
+        if (active.imageUrl) {
+          $("#modal-main-img").src = active.imageUrl;
+          $("#modal-main-img").style.display = "block";
+          $("#modal-no-img").style.display = "none";
+        } else {
+          $("#modal-main-img").style.display = "none";
+          $("#modal-no-img").style.display = "block";
+        }
+        $("#modal-pros").innerHTML = (active.pros || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        $("#modal-cons").innerHTML = (active.cons || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        const specs = [
+          ["Size", active.sizeCm ? active.sizeCm.join("×") + " cm" : "—"],
+          ["Type", active.type],
+          ["Firmness", active.firmness],
+          ["Base", active.baseNote || "Slatted"],
+          ["Shop", active.source],
+        ];
+        $("#modal-specs").innerHTML = specs
+          .map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v || "—"))}</span></li>`)
+          .join("");
+        $("#modal-link").href = active.url || "#";
+        $("#modal-star").textContent = stars.has(active.id) ? "★ Starred" : "☆ Star";
+      }
+      async function init() {
+        try {
+          data = await (await fetch("data/appliances/mattress_catalog.json")).json();
+          items = data.items || [];
+          $("#count-badge").textContent = `${items.filter((i) => !i.excluded).length} in budget`;
+          $("#disclaimer").textContent = data.disclaimer || "";
+          $("#route").innerHTML = (data.shoppingRoute || []).map((s) => `<li>${esc(s)}</li>`).join("");
+          renderGrid();
+        } catch {
+          $("#disclaimer").innerHTML =
+            "Run <code>python -m http.server 8765</code> → http://localhost:8765/mattress-gallery.html";
+        }
+        document.querySelectorAll(".preset-row button[data-preset]").forEach((b) => {
+          b.addEventListener("click", () => {
+            document.querySelectorAll(".preset-row button[data-preset]").forEach((x) => x.classList.remove("active"));
+            b.classList.add("active");
+            preset = b.dataset.preset;
+            renderGrid();
+          });
+        });
+        ["f-q", "f-max", "f-type", "f-sort"].forEach((id) => {
+          $(`#${id}`).addEventListener("input", renderGrid);
+          $(`#${id}`).addEventListener("change", renderGrid);
+        });
+        $("#modal-close").onclick = () => $("#modal-backdrop").classList.remove("open");
+        $("#modal-backdrop").addEventListener("click", (e) => {
+          if (e.target.id === "modal-backdrop") $("#modal-backdrop").classList.remove("open");
+        });
+        $("#modal-star").onclick = () => {
+          if (!active) return;
+          if (stars.has(active.id)) stars.delete(active.id);
+          else stars.add(active.id);
+          localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+          openModal(active.id);
+          renderGrid();
+        };
+      }
+      init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,720 @@
+- generic [active] [ref=f322e1]:
+  - region "Notifications alt+T"
+  - main [ref=f322e2]:
+    - navigation [ref=f322e4]:
+      - generic [ref=f322e5]:
+        - generic [ref=f322e6]:
+          - link [ref=f322e7] [cursor=pointer]:
+            - /url: /en
+            - img "btech logo" [ref=f322e8]
+          - button [ref=f322e10] [cursor=pointer]:
+            - img "delivery address" [ref=f322e11]
+            - paragraph [ref=f322e13]: "Delivering to:"
+        - generic [ref=f322e16]:
+          - img "search" [ref=f322e18]
+          - textbox "What are you looking for?" [ref=f322e19]
+        - generic [ref=f322e20]:
+          - link [ref=f322e21] [cursor=pointer]:
+            - /url: /ar/s?q=top+load+washing+machine+black
+            - img "change language" [ref=f322e22]
+            - paragraph [ref=f322e23]: عربي
+          - button [ref=f322e24] [cursor=pointer]:
+            - img "wishlist" [ref=f322e25]
+            - paragraph [ref=f322e26]: Wishlist
+          - link [ref=f322e27] [cursor=pointer]:
+            - /url: /en/account
+            - img "my account" [ref=f322e28]
+            - paragraph [ref=f322e29]: Account
+          - link [ref=f322e30] [cursor=pointer]:
+            - /url: /en/cart
+            - img "cart" [ref=f322e32]
+            - paragraph [ref=f322e33]: Cart
+      - generic [ref=f322e34]:
+        - button "menu All categories" [ref=f322e35] [cursor=pointer]:
+          - img "menu" [ref=f322e36]
+          - generic [ref=f322e37]: All categories
+        - generic [ref=f322e38]:
+          - link "Electronics" [ref=f322e39] [cursor=pointer]:
+            - /url: /en/c/electronics
+          - link "Large Home Appliances" [ref=f322e40] [cursor=pointer]:
+            - /url: /en/c/large-home-appliances
+          - link "Mobiles, Tablets & Accessories" [ref=f322e41] [cursor=pointer]:
+            - /url: /en/c/mobiles-tablets
+          - link "Small Home Appliances" [ref=f322e42] [cursor=pointer]:
+            - /url: /en/c/small-home-appliances
+          - link "Laptops, PCs & accessories" [ref=f322e43] [cursor=pointer]:
+            - /url: /en/c/laptop-pc
+          - link "TVs" [ref=f322e44] [cursor=pointer]:
+            - /url: /en/c/tvs-projectors
+    - generic [ref=f322e48]:
+      - generic [ref=f322e51]:
+        - generic [ref=f322e52]:
+          - heading "All filters" [level=2] [ref=f322e53]
+          - button "Clear all" [ref=f322e54] [cursor=pointer]
+        - generic [ref=f322e56]:
+          - generic [ref=f322e57]:
+            - button "Brand" [expanded] [ref=f322e59] [cursor=pointer]
+            - generic [ref=f322e66]:
+              - textbox "Search all brands" [ref=f322e73]
+              - generic [ref=f322e74]:
+                - generic [ref=f322e75]:
+                  - checkbox "Akai (5)" [ref=f322e76] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e77] [cursor=pointer]: Akai (5)
+                - generic [ref=f322e78]:
+                  - checkbox "Ariston (7)" [ref=f322e79] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e80] [cursor=pointer]: Ariston (7)
+                - generic [ref=f322e81]:
+                  - checkbox "Armadillo (2)" [ref=f322e82] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e83] [cursor=pointer]: Armadillo (2)
+                - generic [ref=f322e84]:
+                  - checkbox "Ata (1)" [ref=f322e85] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e86] [cursor=pointer]: Ata (1)
+                - generic [ref=f322e87]:
+                  - checkbox "Beko (14)" [ref=f322e88] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e89] [cursor=pointer]: Beko (14)
+                - generic [ref=f322e90]:
+                  - checkbox "Bergen (3)" [ref=f322e91] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e92] [cursor=pointer]: Bergen (3)
+                - generic [ref=f322e93]:
+                  - checkbox "Bosch (8)" [ref=f322e94] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e95] [cursor=pointer]: Bosch (8)
+                - generic [ref=f322e96]:
+                  - checkbox "Candy (3)" [ref=f322e97] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e98] [cursor=pointer]: Candy (3)
+                - generic [ref=f322e99]:
+                  - checkbox "Carnival (1)" [ref=f322e100] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e101] [cursor=pointer]: Carnival (1)
+                - generic [ref=f322e102]:
+                  - checkbox "Castle (4)" [ref=f322e103] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e104] [cursor=pointer]: Castle (4)
+                - generic [ref=f322e105]:
+                  - checkbox "Fresh (65)" [ref=f322e106] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e107] [cursor=pointer]: Fresh (65)
+                - generic [ref=f322e108]:
+                  - checkbox "Generic (1)" [ref=f322e109] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e110] [cursor=pointer]: Generic (1)
+                - generic [ref=f322e111]:
+                  - checkbox "Grand (2)" [ref=f322e112] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e113] [cursor=pointer]: Grand (2)
+                - generic [ref=f322e114]:
+                  - checkbox "Haier (19)" [ref=f322e115] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e116] [cursor=pointer]: Haier (19)
+                - generic [ref=f322e117]:
+                  - checkbox "Hisense (1)" [ref=f322e118] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e119] [cursor=pointer]: Hisense (1)
+                - generic [ref=f322e120]:
+                  - checkbox "Hitachi (4)" [ref=f322e121] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e122] [cursor=pointer]: Hitachi (4)
+                - generic [ref=f322e123]:
+                  - checkbox "Hoover (14)" [ref=f322e124] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e125] [cursor=pointer]: Hoover (14)
+                - generic [ref=f322e126]:
+                  - checkbox "Ido (4)" [ref=f322e127] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e128] [cursor=pointer]: Ido (4)
+                - generic [ref=f322e129]:
+                  - checkbox "Jac (2)" [ref=f322e130] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e131] [cursor=pointer]: Jac (2)
+                - generic [ref=f322e132]:
+                  - checkbox "Kiriazi (2)" [ref=f322e133] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e134] [cursor=pointer]: Kiriazi (2)
+                - generic [ref=f322e135]:
+                  - checkbox "Koldair (14)" [ref=f322e136] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e137] [cursor=pointer]: Koldair (14)
+                - generic [ref=f322e138]:
+                  - checkbox "LG (41)" [ref=f322e139] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e140] [cursor=pointer]: LG (41)
+                - generic [ref=f322e141]:
+                  - checkbox "Mediatech (2)" [ref=f322e142] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e143] [cursor=pointer]: Mediatech (2)
+                - generic [ref=f322e144]:
+                  - checkbox "Midea (7)" [ref=f322e145] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e146] [cursor=pointer]: Midea (7)
+                - generic [ref=f322e147]:
+                  - checkbox "Ocean (2)" [ref=f322e148] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e149] [cursor=pointer]: Ocean (2)
+                - generic [ref=f322e150]:
+                  - checkbox "Panasonic (2)" [ref=f322e151] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e152] [cursor=pointer]: Panasonic (2)
+                - generic [ref=f322e153]:
+                  - checkbox "Penguin (1)" [ref=f322e154] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e155] [cursor=pointer]: Penguin (1)
+                - generic [ref=f322e156]:
+                  - checkbox "Prifix (2)" [ref=f322e157] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e158] [cursor=pointer]: Prifix (2)
+                - generic [ref=f322e159]:
+                  - checkbox "Samsung (8)" [ref=f322e160] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e161] [cursor=pointer]: Samsung (8)
+                - generic [ref=f322e162]:
+                  - checkbox "Sharp (20)" [ref=f322e163] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e164] [cursor=pointer]: Sharp (20)
+                - generic [ref=f322e165]:
+                  - checkbox "Sonai (3)" [ref=f322e166] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e167] [cursor=pointer]: Sonai (3)
+                - generic [ref=f322e168]:
+                  - checkbox "Speed (3)" [ref=f322e169] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e170] [cursor=pointer]: Speed (3)
+                - generic [ref=f322e171]:
+                  - checkbox "Tornado (17)" [ref=f322e172] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e173] [cursor=pointer]: Tornado (17)
+                - generic [ref=f322e174]:
+                  - checkbox "Toshiba (31)" [ref=f322e175] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e176] [cursor=pointer]: Toshiba (31)
+                - generic [ref=f322e177]:
+                  - checkbox "Ultra (1)" [ref=f322e178] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e179] [cursor=pointer]: Ultra (1)
+                - generic [ref=f322e180]:
+                  - checkbox "Unionaire (1)" [ref=f322e181] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e182] [cursor=pointer]: Unionaire (1)
+                - generic [ref=f322e183]:
+                  - checkbox "White Point (31)" [ref=f322e184] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e185] [cursor=pointer]: White Point (31)
+                - generic [ref=f322e186]:
+                  - checkbox "Zanussi (28)" [ref=f322e187] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e188] [cursor=pointer]: Zanussi (28)
+          - generic [ref=f322e190]:
+            - button "Category" [ref=f322e192] [cursor=pointer]
+            - generic [ref=f322e200]:
+              - generic [ref=f322e202]:
+                - generic [ref=f322e203]:
+                  - generic [ref=f322e204]:
+                    - checkbox "Large Home Appliances (316)" [ref=f322e205] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f322e206] [cursor=pointer]: Large Home Appliances (316)
+                  - button [ref=f322e208] [cursor=pointer]
+                - generic [ref=f322e213]:
+                  - generic [ref=f322e215]:
+                    - generic [ref=f322e216]:
+                      - generic [ref=f322e217]:
+                        - checkbox "Appliances Parts & Accessories (1)" [ref=f322e218] [cursor=pointer]
+                        - checkbox
+                        - generic [ref=f322e219] [cursor=pointer]: Appliances Parts & Accessories (1)
+                      - button [ref=f322e221] [cursor=pointer]
+                    - generic [ref=f322e227]:
+                      - checkbox "Spare Parts (1)" [ref=f322e228] [cursor=pointer]
+                      - checkbox
+                      - generic [ref=f322e229] [cursor=pointer]: Spare Parts (1)
+                  - generic [ref=f322e231]:
+                    - generic [ref=f322e232]:
+                      - generic [ref=f322e233]:
+                        - checkbox "Dishwashers (2)" [ref=f322e234] [cursor=pointer]
+                        - checkbox
+                        - generic [ref=f322e235] [cursor=pointer]: Dishwashers (2)
+                      - button [ref=f322e237] [cursor=pointer]
+                    - generic [ref=f322e243]:
+                      - checkbox "Free Standing Dishwashers (2)" [ref=f322e244] [cursor=pointer]
+                      - checkbox
+                      - generic [ref=f322e245] [cursor=pointer]: Free Standing Dishwashers (2)
+                  - generic [ref=f322e247]:
+                    - generic [ref=f322e248]:
+                      - generic [ref=f322e249]:
+                        - checkbox "Refrigerators (1)" [ref=f322e250] [cursor=pointer]
+                        - checkbox
+                        - generic [ref=f322e251] [cursor=pointer]: Refrigerators (1)
+                      - button [ref=f322e253] [cursor=pointer]
+                    - generic [ref=f322e259]:
+                      - checkbox "Top freezer refrigerators (1)" [ref=f322e260] [cursor=pointer]
+                      - checkbox
+                      - generic [ref=f322e261] [cursor=pointer]: Top freezer refrigerators (1)
+                  - generic [ref=f322e263]:
+                    - generic [ref=f322e264]:
+                      - generic [ref=f322e265]:
+                        - checkbox "Washing Machines & Dryers (312)" [ref=f322e266] [cursor=pointer]
+                        - checkbox
+                        - generic [ref=f322e267] [cursor=pointer]: Washing Machines & Dryers (312)
+                      - button [ref=f322e269] [cursor=pointer]
+                    - generic [ref=f322e274]:
+                      - generic [ref=f322e275]:
+                        - checkbox "Front load washing Machines (175)" [ref=f322e276] [cursor=pointer]
+                        - checkbox
+                        - generic [ref=f322e277] [cursor=pointer]: Front load washing Machines (175)
+                      - generic [ref=f322e278]:
+                        - checkbox "Top load washing Machines (137)" [ref=f322e279] [cursor=pointer]
+                        - checkbox
+                        - generic [ref=f322e280] [cursor=pointer]: Top load washing Machines (137)
+              - generic [ref=f322e282]:
+                - generic [ref=f322e283]:
+                  - generic [ref=f322e284]:
+                    - checkbox "Small Home Appliances (60)" [ref=f322e285] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f322e286] [cursor=pointer]: Small Home Appliances (60)
+                  - button [ref=f322e288] [cursor=pointer]
+                - generic [ref=f322e295]:
+                  - generic [ref=f322e296]:
+                    - generic [ref=f322e297]:
+                      - checkbox "Water Dispensers (60)" [ref=f322e298] [cursor=pointer]
+                      - checkbox
+                      - generic [ref=f322e299] [cursor=pointer]: Water Dispensers (60)
+                    - button [ref=f322e301] [cursor=pointer]
+                  - generic [ref=f322e306]:
+                    - generic [ref=f322e307]:
+                      - checkbox "Bottom Loading Water Dispenser (1)" [ref=f322e308] [cursor=pointer]
+                      - checkbox
+                      - generic [ref=f322e309] [cursor=pointer]: Bottom Loading Water Dispenser (1)
+                    - generic [ref=f322e310]:
+                      - checkbox "Top Loading Water Dispenser (59)" [ref=f322e311] [cursor=pointer]
+                      - checkbox
+                      - generic [ref=f322e312] [cursor=pointer]: Top Loading Water Dispenser (59)
+          - generic [ref=f322e314]:
+            - button "Price" [ref=f322e316] [cursor=pointer]
+            - generic [ref=f322e323]:
+              - generic [ref=f322e328]:
+                - generic [ref=f322e329]:
+                  - generic [ref=f322e330]: Min.
+                  - textbox "Min." [ref=f322e332]: "140"
+                - generic [ref=f322e333]:
+                  - generic [ref=f322e334]: Max.
+                  - textbox "Max." [ref=f322e336]: "260091"
+              - button "Apply price" [disabled] [ref=f322e337]
+          - generic [ref=f322e339]:
+            - button "Color" [ref=f322e341] [cursor=pointer]
+            - generic [ref=f322e348]:
+              - generic [ref=f322e349] [cursor=pointer]:
+                - checkbox "Black (94)" [ref=f322e350]
+                - radio [ref=f322e351]
+                - generic [ref=f322e352]: Black (94)
+              - generic [ref=f322e353] [cursor=pointer]:
+                - checkbox "Black Caviar (1)" [ref=f322e354]
+                - radio [ref=f322e355]
+                - generic [ref=f322e356]: Black Caviar (1)
+              - generic [ref=f322e357] [cursor=pointer]:
+                - checkbox "Black Red (3)" [ref=f322e358]
+                - radio [ref=f322e359]
+                - generic [ref=f322e360]: Black Red (3)
+              - generic [ref=f322e361] [cursor=pointer]:
+                - checkbox "Black Silver (9)" [ref=f322e362]
+                - radio [ref=f322e363]
+                - generic [ref=f322e364]: Black Silver (9)
+              - generic [ref=f322e365] [cursor=pointer]:
+                - checkbox "Black White (2)" [ref=f322e366]
+                - radio [ref=f322e367]
+                - generic [ref=f322e368]: Black White (2)
+              - generic [ref=f322e369] [cursor=pointer]:
+                - checkbox "Black/Grey (2)" [ref=f322e370]
+                - radio [ref=f322e371]
+                - generic [ref=f322e372]: Black/Grey (2)
+              - generic [ref=f322e373] [cursor=pointer]:
+                - checkbox "Blue (3)" [ref=f322e374]
+                - radio [ref=f322e375]
+                - generic [ref=f322e376]: Blue (3)
+              - generic [ref=f322e377] [cursor=pointer]:
+                - checkbox "Blue Silver (1)" [ref=f322e378]
+                - radio [ref=f322e379]
+                - generic [ref=f322e380]: Blue Silver (1)
+              - generic [ref=f322e381] [cursor=pointer]:
+                - checkbox "Cast Iron Grey (1)" [ref=f322e382]
+                - radio [ref=f322e383]
+                - generic [ref=f322e384]: Cast Iron Grey (1)
+              - generic [ref=f322e385] [cursor=pointer]:
+                - checkbox "Dark Gray (4)" [ref=f322e386]
+                - radio [ref=f322e387]
+                - generic [ref=f322e388]: Dark Gray (4)
+              - generic [ref=f322e389] [cursor=pointer]:
+                - checkbox "Dark Grey (8)" [ref=f322e390]
+                - radio [ref=f322e391]
+                - generic [ref=f322e392]: Dark Grey (8)
+              - generic [ref=f322e393] [cursor=pointer]:
+                - checkbox "Dark Silver (20)" [ref=f322e394]
+                - radio [ref=f322e395]
+                - generic [ref=f322e396]: Dark Silver (20)
+              - generic [ref=f322e397] [cursor=pointer]:
+                - checkbox "Dark Stainless Steel (1)" [ref=f322e398]
+                - radio [ref=f322e399]
+                - generic [ref=f322e400]: Dark Stainless Steel (1)
+              - generic [ref=f322e401] [cursor=pointer]:
+                - checkbox "Essence Graphite (6)" [ref=f322e402]
+                - radio [ref=f322e403]
+                - generic [ref=f322e404]: Essence Graphite (6)
+              - generic [ref=f322e405] [cursor=pointer]:
+                - checkbox "Essence Silver (1)" [ref=f322e406]
+                - radio [ref=f322e407]
+                - generic [ref=f322e408]: Essence Silver (1)
+              - generic [ref=f322e409] [cursor=pointer]:
+                - checkbox "Graphite (7)" [ref=f322e410]
+                - radio [ref=f322e411]
+                - generic [ref=f322e412]: Graphite (7)
+              - generic [ref=f322e413] [cursor=pointer]:
+                - checkbox "Graphite Gray (1)" [ref=f322e414]
+                - radio [ref=f322e415]
+                - generic [ref=f322e416]: Graphite Gray (1)
+              - generic [ref=f322e417] [cursor=pointer]:
+                - checkbox "Gray (7)" [ref=f322e418]
+                - radio [ref=f322e419]
+                - generic [ref=f322e420]: Gray (7)
+              - generic [ref=f322e421] [cursor=pointer]:
+                - checkbox "Grey (30)" [ref=f322e422]
+                - radio [ref=f322e423]
+                - generic [ref=f322e424]: Grey (30)
+              - generic [ref=f322e425] [cursor=pointer]:
+                - checkbox "Inox (1)" [ref=f322e426]
+                - radio [ref=f322e427]
+                - generic [ref=f322e428]: Inox (1)
+              - generic [ref=f322e429] [cursor=pointer]:
+                - checkbox "Jade Ink Silver (2)" [ref=f322e430]
+                - radio [ref=f322e431]
+                - generic [ref=f322e432]: Jade Ink Silver (2)
+              - generic [ref=f322e433] [cursor=pointer]:
+                - checkbox "Manhattan Grey (2)" [ref=f322e434]
+                - radio [ref=f322e435]
+                - generic [ref=f322e436]: Manhattan Grey (2)
+              - generic [ref=f322e437] [cursor=pointer]:
+                - checkbox "Middle Black (3)" [ref=f322e438]
+                - radio [ref=f322e439]
+                - generic [ref=f322e440]: Middle Black (3)
+              - generic [ref=f322e441] [cursor=pointer]:
+                - checkbox "Morandi Grey (4)" [ref=f322e442]
+                - radio [ref=f322e443]
+                - generic [ref=f322e444]: Morandi Grey (4)
+              - generic [ref=f322e445] [cursor=pointer]:
+                - checkbox "Morandy Grey (2)" [ref=f322e446]
+                - radio [ref=f322e447]
+                - generic [ref=f322e448]: Morandy Grey (2)
+              - generic [ref=f322e449] [cursor=pointer]:
+                - checkbox "Multi Color (4)" [ref=f322e450]
+                - radio [ref=f322e451]
+                - generic [ref=f322e452]: Multi Color (4)
+              - generic [ref=f322e453] [cursor=pointer]:
+                - checkbox "Onyx Black (3)" [ref=f322e454]
+                - radio [ref=f322e455]
+                - generic [ref=f322e456]: Onyx Black (3)
+              - generic [ref=f322e457] [cursor=pointer]:
+                - checkbox "Pink (1)" [ref=f322e458]
+                - radio [ref=f322e459]
+                - generic [ref=f322e460]: Pink (1)
+              - generic [ref=f322e461] [cursor=pointer]:
+                - checkbox "Platinum Black (5)" [ref=f322e462]
+                - radio [ref=f322e463]
+                - generic [ref=f322e464]: Platinum Black (5)
+              - generic [ref=f322e465] [cursor=pointer]:
+                - checkbox "Platinum Silver (4)" [ref=f322e466]
+                - radio [ref=f322e467]
+                - generic [ref=f322e468]: Platinum Silver (4)
+              - generic [ref=f322e469] [cursor=pointer]:
+                - checkbox "Silver (95)" [ref=f322e470]
+                - radio [ref=f322e471]
+                - generic [ref=f322e472]: Silver (95)
+              - generic [ref=f322e473] [cursor=pointer]:
+                - checkbox "Silver Black (2)" [ref=f322e474]
+                - radio [ref=f322e475]
+                - generic [ref=f322e476]: Silver Black (2)
+              - generic [ref=f322e477] [cursor=pointer]:
+                - checkbox "Silver Inox (2)" [ref=f322e478]
+                - radio [ref=f322e479]
+                - generic [ref=f322e480]: Silver Inox (2)
+              - generic [ref=f322e481] [cursor=pointer]:
+                - checkbox "Silver Titanium (1)" [ref=f322e482]
+                - radio [ref=f322e483]
+                - generic [ref=f322e484]: Silver Titanium (1)
+              - generic [ref=f322e485] [cursor=pointer]:
+                - checkbox "Stainless Steel (4)" [ref=f322e486]
+                - radio [ref=f322e487]
+                - generic [ref=f322e488]: Stainless Steel (4)
+              - generic [ref=f322e489] [cursor=pointer]:
+                - checkbox "Titanium Grey (1)" [ref=f322e490]
+                - radio [ref=f322e491]
+                - generic [ref=f322e492]: Titanium Grey (1)
+              - generic [ref=f322e493] [cursor=pointer]:
+                - checkbox "Volcanic Grey (1)" [ref=f322e494]
+                - radio [ref=f322e495]
+                - generic [ref=f322e496]: Volcanic Grey (1)
+              - generic [ref=f322e497] [cursor=pointer]:
+                - checkbox "White (30)" [ref=f322e498]
+                - radio [ref=f322e499]
+                - generic [ref=f322e500]: White (30)
+              - generic [ref=f322e501] [cursor=pointer]:
+                - checkbox "White Black (8)" [ref=f322e502]
+                - radio [ref=f322e503]
+                - generic [ref=f322e504]: White Black (8)
+          - generic [ref=f322e507]:
+            - generic [ref=f322e508]:
+              - generic [ref=f322e509]: Sold by
+              - img "B.Tech" [ref=f322e510]
+            - switch [ref=f322e511] [cursor=pointer]
+            - checkbox
+          - generic [ref=f322e514]:
+            - generic [ref=f322e515]: Fulfilled By B.Tech
+            - switch [ref=f322e517] [cursor=pointer]
+            - checkbox
+          - generic [ref=f322e519]:
+            - button "Water Cooler Style" [ref=f322e521] [cursor=pointer]
+            - generic [ref=f322e529]:
+              - generic [ref=f322e530]:
+                - checkbox "Standard (30)" [ref=f322e531] [cursor=pointer]
+                - checkbox
+                - generic [ref=f322e532] [cursor=pointer]: Standard (30)
+              - generic [ref=f322e533]:
+                - checkbox "With Cabinet (14)" [ref=f322e534] [cursor=pointer]
+                - checkbox
+                - generic [ref=f322e535] [cursor=pointer]: With Cabinet (14)
+              - generic [ref=f322e536]:
+                - checkbox "With Refrigerator (16)" [ref=f322e537] [cursor=pointer]
+                - checkbox
+                - generic [ref=f322e538] [cursor=pointer]: With Refrigerator (16)
+          - generic [ref=f322e540]:
+            - button "Number of Tabs" [ref=f322e542] [cursor=pointer]
+            - generic [ref=f322e550]:
+              - generic [ref=f322e551]:
+                - checkbox "1 (3)" [ref=f322e552] [cursor=pointer]
+                - checkbox
+                - generic [ref=f322e553] [cursor=pointer]: 1 (3)
+              - generic [ref=f322e554]:
+                - checkbox "2 (29)" [ref=f322e555] [cursor=pointer]
+                - checkbox
+                - generic [ref=f322e556] [cursor=pointer]: 2 (29)
+              - generic [ref=f322e557]:
+                - checkbox "3 (28)" [ref=f322e558] [cursor=pointer]
+                - checkbox
+                - generic [ref=f322e559] [cursor=pointer]: 3 (28)
+          - generic [ref=f322e561]:
+            - button "Capacity" [ref=f322e563] [cursor=pointer]
+            - generic [ref=f322e570]:
+              - textbox "Search all brands" [ref=f322e577]
+              - generic [ref=f322e578]:
+                - generic [ref=f322e579]:
+                  - checkbox "3.0000 kg (2)" [ref=f322e580] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e581] [cursor=pointer]: 3.0000 kg (2)
+                - generic [ref=f322e582]:
+                  - checkbox "4.0000 kg (6)" [ref=f322e583] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e584] [cursor=pointer]: 4.0000 kg (6)
+                - generic [ref=f322e585]:
+                  - checkbox "5.0000 kg (2)" [ref=f322e586] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e587] [cursor=pointer]: 5.0000 kg (2)
+                - generic [ref=f322e588]:
+                  - checkbox "6.0000 kg (7)" [ref=f322e589] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e590] [cursor=pointer]: 6.0000 kg (7)
+                - generic [ref=f322e591]:
+                  - checkbox "7.0000 kg (38)" [ref=f322e592] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e593] [cursor=pointer]: 7.0000 kg (38)
+                - generic [ref=f322e594]:
+                  - checkbox "7.5000 kg (1)" [ref=f322e595] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e596] [cursor=pointer]: 7.5000 kg (1)
+                - generic [ref=f322e597]:
+                  - checkbox "8.0000 kg (62)" [ref=f322e598] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e599] [cursor=pointer]: 8.0000 kg (62)
+                - generic [ref=f322e600]:
+                  - checkbox "8.0000 Liter (1)" [ref=f322e601] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e602] [cursor=pointer]: 8.0000 Liter (1)
+                - generic [ref=f322e603]:
+                  - checkbox "8.5000 kg (3)" [ref=f322e604] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e605] [cursor=pointer]: 8.5000 kg (3)
+                - generic [ref=f322e606]:
+                  - checkbox "8.5000 Liter (1)" [ref=f322e607] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e608] [cursor=pointer]: 8.5000 Liter (1)
+                - generic [ref=f322e609]:
+                  - checkbox "9.0000 kg (48)" [ref=f322e610] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e611] [cursor=pointer]: 9.0000 kg (48)
+                - generic [ref=f322e612]:
+                  - checkbox "10.0000 kg (38)" [ref=f322e613] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e614] [cursor=pointer]: 10.0000 kg (38)
+                - generic [ref=f322e615]:
+                  - checkbox "10.5000 kg (7)" [ref=f322e616] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e617] [cursor=pointer]: 10.5000 kg (7)
+                - generic [ref=f322e618]:
+                  - checkbox "11.0000 kg (19)" [ref=f322e619] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e620] [cursor=pointer]: 11.0000 kg (19)
+                - generic [ref=f322e621]:
+                  - checkbox "11.0000 Liter (2)" [ref=f322e622] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e623] [cursor=pointer]: 11.0000 Liter (2)
+                - generic [ref=f322e624]:
+                  - checkbox "12.0000 kg (19)" [ref=f322e625] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e626] [cursor=pointer]: 12.0000 kg (19)
+                - generic [ref=f322e627]:
+                  - checkbox "13.0000 kg (16)" [ref=f322e628] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e629] [cursor=pointer]: 13.0000 kg (16)
+                - generic [ref=f322e630]:
+                  - checkbox "13.0000 Liter (1)" [ref=f322e631] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e632] [cursor=pointer]: 13.0000 Liter (1)
+                - generic [ref=f322e633]:
+                  - checkbox "14.0000 kg (13)" [ref=f322e634] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e635] [cursor=pointer]: 14.0000 kg (13)
+                - generic [ref=f322e636]:
+                  - checkbox "14.0000 Liter (1)" [ref=f322e637] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e638] [cursor=pointer]: 14.0000 Liter (1)
+                - generic [ref=f322e639]:
+                  - checkbox "15.0000 kg (11)" [ref=f322e640] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e641] [cursor=pointer]: 15.0000 kg (11)
+                - generic [ref=f322e642]:
+                  - checkbox "17.0000 kg (2)" [ref=f322e643] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e644] [cursor=pointer]: 17.0000 kg (2)
+                - generic [ref=f322e645]:
+                  - checkbox "18.5000 kg (1)" [ref=f322e646] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e647] [cursor=pointer]: 18.5000 kg (1)
+                - generic [ref=f322e648]:
+                  - checkbox "19.0000 kg (2)" [ref=f322e649] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e650] [cursor=pointer]: 19.0000 kg (2)
+                - generic [ref=f322e651]:
+                  - checkbox "20.0000 kg (3)" [ref=f322e652] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e653] [cursor=pointer]: 20.0000 kg (3)
+                - generic [ref=f322e654]:
+                  - checkbox "21.0000 kg (2)" [ref=f322e655] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e656] [cursor=pointer]: 21.0000 kg (2)
+                - generic [ref=f322e657]:
+                  - checkbox "22.0000 kg (1)" [ref=f322e658] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e659] [cursor=pointer]: 22.0000 kg (1)
+                - generic [ref=f322e660]:
+                  - checkbox "23.0000 kg (2)" [ref=f322e661] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e662] [cursor=pointer]: 23.0000 kg (2)
+                - generic [ref=f322e663]:
+                  - checkbox "25.0000 kg (1)" [ref=f322e664] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e665] [cursor=pointer]: 25.0000 kg (1)
+                - generic [ref=f322e666]:
+                  - checkbox "430.0000 Liter (1)" [ref=f322e667] [cursor=pointer]
+                  - checkbox
+                  - generic [ref=f322e668] [cursor=pointer]: 430.0000 Liter (1)
+          - generic [ref=f322e670]:
+            - button "Number of Programs" [ref=f322e672] [cursor=pointer]
+            - generic [ref=f322e680]:
+              - generic [ref=f322e681]:
+                - checkbox "5 (1)" [ref=f322e682] [cursor=pointer]
+                - checkbox
+                - generic [ref=f322e683] [cursor=pointer]: 5 (1)
+              - generic [ref=f322e684]:
+                - checkbox "7 (1)" [ref=f322e685] [cursor=pointer]
+                - checkbox
+                - generic [ref=f322e686] [cursor=pointer]: 7 (1)
+          - generic [ref=f322e688]:
+            - button "Number of Persons" [ref=f322e690] [cursor=pointer]
+            - generic [ref=f322e698]:
+              - generic [ref=f322e699]:
+                - checkbox "13 (1)" [ref=f322e700] [cursor=pointer]
+                - checkbox
+                - generic [ref=f322e701] [cursor=pointer]: 13 (1)
+              - generic [ref=f322e702]:
+                - checkbox "15 (1)" [ref=f322e703] [cursor=pointer]
+                - checkbox
+                - generic [ref=f322e704] [cursor=pointer]: 15 (1)
+      - generic [ref=f322e708]:
+        - generic [ref=f322e709]:
+          - heading "top load washing machine black" [level=1] [ref=f322e710]
+          - paragraph [ref=f322e711]: 376 results
+        - 'button "Sort by: Default" [ref=f322e713] [cursor=pointer]':
+          - generic [ref=f322e714]: Sort by
+          - generic [ref=f322e715]: Default
+    - generic [ref=f322e717]:
+      - generic [ref=f322e718]:
+        - generic [ref=f322e719]:
+          - img "phone Icon" [ref=f322e721]
+          - generic [ref=f322e722]:
+            - paragraph [ref=f322e723]: Call us
+            - paragraph [ref=f322e724]:
+              - link "19966" [ref=f322e725] [cursor=pointer]:
+                - /url: tel:19966
+        - generic [ref=f322e726]:
+          - generic [ref=f322e727]:
+            - heading "Trending right now" [level=3] [ref=f322e728]
+            - generic [ref=f322e729]:
+              - link "Electronics" [ref=f322e730] [cursor=pointer]:
+                - /url: /en/c/electronics
+              - link "Large Home Appliances" [ref=f322e731] [cursor=pointer]:
+                - /url: /en/c/large-home-appliances
+              - link "Mobiles, Tablets & Accessories" [ref=f322e732] [cursor=pointer]:
+                - /url: /en/c/mobiles-tablets
+              - link "Small Home Appliances" [ref=f322e733] [cursor=pointer]:
+                - /url: /en/c/small-home-appliances
+              - link "Laptops, PCs & accessories" [ref=f322e734] [cursor=pointer]:
+                - /url: /en/c/laptop-pc
+              - link "TVs" [ref=f322e735] [cursor=pointer]:
+                - /url: /en/c/tvs-projectors
+          - generic [ref=f322e736]:
+            - heading "B.TECH blog" [level=3] [ref=f322e737]
+            - paragraph [ref=f322e738]:
+              - text: Your ultimate guide to smarter buying decision
+              - link [ref=f322e739] [cursor=pointer]:
+                - /url: https://blog.btech.com/
+                - text: Discover our blog
+                - img "B.TECH blog" [ref=f322e740]
+        - generic [ref=f322e741]:
+          - generic [ref=f322e742]:
+            - heading "Follow us" [level=3] [ref=f322e743]
+            - generic [ref=f322e744]:
+              - link [ref=f322e745] [cursor=pointer]:
+                - /url: https://www.facebook.com/mybtech/
+                - img "Facebook Icon" [ref=f322e746]
+              - link [ref=f322e747] [cursor=pointer]:
+                - /url: https://www.instagram.com/mybtech/
+                - img "Instagram Icon" [ref=f322e748]
+              - link [ref=f322e749] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCb38BG_mMf7BUumTVc10gAw/videos
+                - img "YouTube Icon" [ref=f322e750]
+          - generic [ref=f322e751]:
+            - heading "Download B.TECH App" [level=3] [ref=f322e752]
+            - generic [ref=f322e753]:
+              - link [ref=f322e754] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.btechapp
+                - img "playStore Icon" [ref=f322e755]
+              - link [ref=f322e756] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/b-tech/id1258773067
+                - img "appStore Icon" [ref=f322e757]
+              - link [ref=f322e758] [cursor=pointer]:
+                - /url: https://appgallery.huawei.com/#/app/C101532561
+                - img "appGallery Icon" [ref=f322e759]
+      - generic [ref=f322e760]:
+        - paragraph [ref=f322e761]: © B.TECH, all rights reserved.
+        - link "Terms & Conditions" [ref=f322e762] [cursor=pointer]:
+          - /url: /en/terms-and-conditions

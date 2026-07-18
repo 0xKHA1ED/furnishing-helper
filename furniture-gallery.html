@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wood furniture — L-sofa ≤30k · bedroom ≤80k · كونتر OK · no MDF</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/appliances.css" />
+    <style>
+      .truth {
+        border-left: 3px solid #fbbf24;
+        padding: 0.85rem 1rem;
+        margin-bottom: 1rem;
+        background: rgba(251, 191, 36, 0.08);
+        border-radius: 0 var(--radius) var(--radius) 0;
+      }
+      .gate-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 0.75rem;
+        margin-bottom: 1.25rem;
+      }
+      .gate-list .card h3 {
+        margin: 0 0 0.5rem;
+        font-size: 0.95rem;
+      }
+      .gate-list ul {
+        margin: 0;
+        padding-left: 1.1rem;
+        color: var(--text-muted);
+        font-size: 0.88rem;
+      }
+      .conf {
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: #6ee7b7;
+      }
+      .conf.fail {
+        color: #fca5a5;
+      }
+      .conf.inspect {
+        color: #fcd34d;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">
+            <a href="index.html">← Hub</a> ·
+            <a href="carpet-gallery.html">Carpets</a> ·
+            <a href="mattress-gallery.html">Mattress</a> · Furniture
+          </p>
+          <h1>L-sofa + bedroom — wood quality gate</h1>
+          <p class="lead">
+            <strong>L-sofa ≤ 30,000 EGP</strong> ·
+            <strong>bedroom ≤ 80,000 EGP</strong> ·
+            <strong>خشب كونتر OK</strong> · <strong>no MDF</strong> ·
+            hardwood frame preferred on sofa · decades-minded ·
+            <strong>same-day stock only</strong> · minimal · warm nest.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold" id="count-badge">—</span>
+          <span class="badge">Inspect frame</span>
+        </div>
+      </header>
+
+      <div class="help-callout" id="disclaimer">Loading…</div>
+
+      <div class="truth" id="market-truth"></div>
+
+      <div class="gate-list" id="gates"></div>
+
+      <div class="preset-row">
+        <button type="button" data-preset="all" class="active">All paths</button>
+        <button type="button" data-preset="sofa">L-sofa</button>
+        <button type="button" data-preset="bedroom">Bedroom</button>
+        <button type="button" data-preset="pass">Actionable (not reject)</button>
+        <button type="button" data-preset="reject">Reject list</button>
+        <button type="button" data-preset="starred">★ Starred</button>
+      </div>
+
+      <p class="sticky-count" id="result-count"></p>
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="card" style="margin-top: 1.5rem">
+        <h2>Same-day trip plan</h2>
+        <ol id="trip" class="muted"></ol>
+      </div>
+
+      <div class="card" style="margin-top: 1rem">
+        <h2>Shopping route</h2>
+        <ol id="route" class="muted"></ol>
+      </div>
+
+      <footer class="app-footer">
+        Data: <code>data/appliances/furniture_wood_catalog.json</code> ·
+        <code>data/furniture-brief.json</code>
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal-backdrop">
+      <div class="modal">
+        <div class="modal-head">
+          <div>
+            <h2 id="modal-title">Piece</h2>
+            <p class="muted" id="modal-sub" style="margin: 0.25rem 0 0; font-size: 0.85rem"></p>
+          </div>
+          <button type="button" class="modal-close" id="modal-close">Close</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <div class="ph" id="modal-ph" style="min-height: 200px; display: flex; align-items: center; justify-content: center; font-size: 3rem">🪵</div>
+            <img class="main-img" id="modal-main-img" alt="" style="display: none" referrerpolicy="no-referrer" />
+          </div>
+          <div class="modal-info">
+            <div class="price-lg" id="modal-price"></div>
+            <p class="muted" id="modal-summary" style="margin: 0.5rem 0 0"></p>
+            <div class="pc-grid">
+              <div class="pc-box pros"><h4>Pros</h4><ul id="modal-pros"></ul></div>
+              <div class="pc-box cons"><h4>Cons / risks</h4><ul id="modal-cons"></ul></div>
+            </div>
+            <ul class="spec-list" id="modal-specs"></ul>
+            <div class="btn-row" style="margin-top: 1rem">
+              <button type="button" class="btn ghost" id="modal-star">☆ Star</button>
+              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const STAR_KEY = "egypt-apt-furniture-stars-v1";
+      let items = [], data = null, active = null, preset = "all";
+      let stars = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || "[]"));
+      const $ = (s) => document.querySelector(s);
+      function esc(s) {
+        return String(s || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+      function fmt(n, note) {
+        if (n == null) return note || "Price varies / ceiling search";
+        return Number(n).toLocaleString() + " EGP" + (note ? " · " + note : "");
+      }
+      function confClass(c) {
+        if (!c) return "inspect";
+        if (c === "fail" || c === "fail_timing" || c.includes("fail")) return "fail";
+        if (c.includes("inspect") || c.includes("variance")) return "inspect";
+        return "";
+      }
+      function list() {
+        return items.filter((it) => {
+          if (preset === "starred") return stars.has(it.id);
+          if (preset === "reject") return !!it.excluded;
+          if (preset === "pass" && it.excluded) return false;
+          if (preset === "sofa" && it.category !== "l_sofa") return false;
+          if (preset === "bedroom" && it.category !== "bedroom_set") return false;
+          if (preset === "all") return true;
+          return !it.excluded || preset === "reject";
+        }).sort((a, b) => (a.rank || 99) - (b.rank || 99));
+      }
+      function renderGrid() {
+        const rows = list();
+        $("#result-count").textContent = `Showing ${rows.length} · ${stars.size} starred`;
+        $("#product-grid").innerHTML = rows
+          .map((it) => {
+            const emoji = it.category === "l_sofa" ? "🛋️" : "🛏️";
+            return `<article class="product-card ${stars.has(it.id) ? "starred" : ""}" data-id="${esc(it.id)}">
+              <div class="thumb" style="display:flex;align-items:center;justify-content:center;font-size:2.8rem;min-height:140px;background:linear-gradient(145deg,rgba(180,120,60,.12),rgba(60,80,60,.1))">
+                ${emoji}
+                <div class="badge-abs">
+                  <span class="chip-mini hot">#${it.rank}</span>
+                  <span class="chip-mini">${it.excluded ? "reject" : "path"}</span>
+                </div>
+                <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
+              </div>
+              <div class="body">
+                <div class="brand">${esc(it.category)} · <span class="conf ${confClass(it.confidence)}">${esc(it.confidence || "")}</span></div>
+                <h3>${esc(it.name)}</h3>
+                <div class="meta">${esc(it.materialClaim || "")}</div>
+                <div class="price">${fmt(it.priceEGP, it.priceNote)}</div>
+              </div>
+            </article>`;
+          })
+          .join("");
+        document.querySelectorAll(".product-card").forEach((c) => {
+          c.addEventListener("click", (e) => {
+            if (e.target.closest("[data-star]")) return;
+            openModal(c.dataset.id);
+          });
+        });
+        document.querySelectorAll("[data-star]").forEach((b) => {
+          b.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const id = b.dataset.star;
+            if (stars.has(id)) stars.delete(id);
+            else stars.add(id);
+            localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+            renderGrid();
+          });
+        });
+      }
+      function openModal(id) {
+        active = items.find((i) => i.id === id);
+        if (!active) return;
+        $("#modal-backdrop").classList.add("open");
+        $("#modal-title").textContent = active.name;
+        $("#modal-sub").textContent = `${active.category} · ${active.confidence || ""} · ${active.sameDay || ""}`;
+        $("#modal-price").textContent = fmt(active.priceEGP, active.priceNote);
+        $("#modal-summary").textContent =
+          (active.buyScript ? "Showroom line: " + active.buyScript + " — " : "") +
+          (active.where || active.prestige || "");
+        if (active.imageUrl) {
+          $("#modal-main-img").src = active.imageUrl;
+          $("#modal-main-img").style.display = "block";
+          $("#modal-ph").style.display = "none";
+        } else {
+          $("#modal-main-img").style.display = "none";
+          $("#modal-ph").style.display = "flex";
+          $("#modal-ph").textContent = active.category === "l_sofa" ? "🛋️" : "🛏️";
+        }
+        $("#modal-pros").innerHTML = (active.pros || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        $("#modal-cons").innerHTML = (active.cons || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        const specs = [
+          ["Material claim", active.materialClaim],
+          ["MDF allowed", active.mdfAllowed === false ? "NO" : String(active.mdfAllowed)],
+          ["Same-day", active.sameDay],
+          ["Style", active.style],
+          ["Where", active.where],
+          ["Prestige", active.prestige],
+          ["Includes", active.includesHint],
+        ];
+        $("#modal-specs").innerHTML = specs
+          .filter(([, v]) => v != null && v !== "")
+          .map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v))}</span></li>`)
+          .join("");
+        const link = $("#modal-link");
+        if (active.url) {
+          link.href = active.url;
+          link.style.display = "";
+        } else {
+          link.style.display = "none";
+        }
+        $("#modal-star").textContent = stars.has(active.id) ? "★ Starred" : "☆ Star";
+      }
+      async function init() {
+        try {
+          data = await (await fetch("data/appliances/furniture_wood_catalog.json")).json();
+          items = data.items || [];
+          $("#count-badge").textContent = `${(data.counts && data.counts.included) || items.length} paths`;
+          $("#disclaimer").textContent = data.disclaimer || "";
+          const mt = data.marketTruth || {};
+          $("#market-truth").innerHTML = `<strong>Market truth:</strong> ${esc(mt.summary || "")}
+            <br><br><strong>Bedroom bands (Damietta 2026 guides):</strong> MDF ${esc(
+              (mt.bedroomMaterialBandsEGP_2026 || {}).mdf_economy || ""
+            )} · Plywood ${esc((mt.bedroomMaterialBandsEGP_2026 || {}).plywood_counter_best_value || "")} ·
+            Solid beech ${esc((mt.bedroomMaterialBandsEGP_2026 || {}).solid_beech_luxury_long_life || "")}`;
+          const qg = data.qualityGate || {};
+          $("#gates").innerHTML = `
+            <div class="card"><h3>Reject immediately</h3><ul>${(qg.rejectImmediately || [])
+              .map((x) => `<li>${esc(x)}</li>`)
+              .join("")}</ul></div>
+            <div class="card"><h3>Sofa frame checks</h3><ul>${(qg.passChecksInShowroom || [])
+              .map((x) => `<li>${esc(x)}</li>`)
+              .join("")}</ul></div>
+            <div class="card"><h3>Bedroom checks</h3><ul>${(qg.bedroomPassChecks || [])
+              .map((x) => `<li>${esc(x)}</li>`)
+              .join("")}</ul></div>`;
+          $("#trip").innerHTML = ((data.recommendedTripPlan || {}).dayPlan || [])
+            .map((s) => `<li>${esc(s)}</li>`)
+            .join("");
+          $("#route").innerHTML = (data.shoppingRoute || []).map((s) => `<li>${esc(s)}</li>`).join("");
+          renderGrid();
+        } catch {
+          $("#disclaimer").innerHTML =
+            "Run <code>python -m http.server 8765</code> → http://localhost:8765/furniture-gallery.html";
+        }
+        document.querySelectorAll(".preset-row button[data-preset]").forEach((b) => {
+          b.addEventListener("click", () => {
+            document.querySelectorAll(".preset-row button[data-preset]").forEach((x) => x.classList.remove("active"));
+            b.classList.add("active");
+            preset = b.dataset.preset;
+            renderGrid();
+          });
+        });
+        $("#modal-close").onclick = () => $("#modal-backdrop").classList.remove("open");
+        $("#modal-backdrop").addEventListener("click", (e) => {
+          if (e.target.id === "modal-backdrop") $("#modal-backdrop").classList.remove("open");
+        });
+        $("#modal-star").onclick = () => {
+          if (!active) return;
+          if (stars.has(active.id)) stars.delete(active.id);
+          else stars.add(active.id);
+          localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+          openModal(active.id);
+          renderGrid();
+        };
+      }
+      init();
+    </script>
+  </body>
+</html>

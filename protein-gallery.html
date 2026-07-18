@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Protein snacks — high protein · low prep · Egypt supermarket</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/appliances.css" />
+    <style>
+      .metric-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-top: 0.35rem;
+      }
+      .metric {
+        font-size: 0.72rem;
+        padding: 0.2rem 0.45rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid var(--border);
+        color: var(--text-muted);
+      }
+      .metric strong {
+        color: var(--text);
+        font-weight: 600;
+      }
+      .metric.best {
+        border-color: rgba(110, 231, 183, 0.45);
+        color: #6ee7b7;
+      }
+      .legend-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+      }
+      .legend-grid .card {
+        margin: 0;
+        padding: 0.85rem 1rem;
+      }
+      .legend-grid h3 {
+        margin: 0 0 0.35rem;
+        font-size: 0.95rem;
+      }
+      .thumb.food {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.6rem;
+        background: linear-gradient(145deg, rgba(56, 189, 248, 0.12), rgba(16, 185, 129, 0.1));
+        min-height: 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">
+            <a href="index.html">← Hub</a> ·
+            <a href="fridge-gallery.html">Fridge</a> ·
+            <a href="mattress-gallery.html">Mattress</a> · Protein snacks
+          </p>
+          <h1>High-protein supermarket snacks</h1>
+          <p class="lead">
+            Egypt shelves · <strong>snacks preferred</strong> ·
+            <strong>minimal cooking</strong> (ready / open / batch-boil once / shake).
+            Ranked by <strong>EGP per gram of protein</strong> (lower better), then
+            <strong>kcal per gram of protein</strong>.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold" id="count-badge">—</span>
+          <span class="badge">Not medical advice</span>
+        </div>
+      </header>
+
+      <div class="help-callout" id="disclaimer">Loading…</div>
+
+      <div class="legend-grid">
+        <div class="card">
+          <h3>How ranking works</h3>
+          <p class="muted" style="margin: 0; font-size: 0.9rem">
+            Primary: <strong>EGP ÷ grams protein</strong> in the pack.
+            Secondary: <strong>kcal ÷ grams protein</strong>.
+            Ready snacks get a tiny boost. Prices are shelf estimates — re-check labels.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Daily default trio</h3>
+          <p class="muted" style="margin: 0; font-size: 0.9rem">
+            Batch-boiled eggs · tuna in water · plain Greek yogurt.
+            Add turkey slices or cottage/kareish when you want zero prep.
+          </p>
+        </div>
+      </div>
+
+      <div class="preset-row">
+        <button type="button" data-preset="all" class="active">All ranked</button>
+        <button type="button" data-preset="snack">Snacks only</button>
+        <button type="button" data-preset="ready">Ready / open</button>
+        <button type="button" data-preset="best_value">Best value top 15</button>
+        <button type="button" data-preset="low_cal">Lean protein/cal</button>
+        <button type="button" data-preset="starred">★ Starred</button>
+      </div>
+
+      <div class="gallery-toolbar">
+        <label>Search
+          <input id="f-q" type="search" placeholder="tuna, Greek, eggs…" />
+        </label>
+        <label>Category
+          <select id="f-cat">
+            <option value="any">Any</option>
+          </select>
+        </label>
+        <label>Max EGP/g protein
+          <input id="f-maxegp" type="number" step="0.1" placeholder="e.g. 3" />
+        </label>
+        <label>Max kcal/g protein
+          <input id="f-maxcal" type="number" step="0.5" placeholder="e.g. 12" />
+        </label>
+        <label>Sort
+          <select id="f-sort">
+            <option value="rank">Our rank</option>
+            <option value="egp">EGP/g protein ↑</option>
+            <option value="kcalg">kcal/g protein ↑</option>
+            <option value="protein">Protein g ↓</option>
+            <option value="price">Pack price ↑</option>
+          </select>
+        </label>
+      </div>
+
+      <p class="sticky-count" id="result-count"></p>
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="card" style="margin-top: 1.5rem">
+        <h2>Shopping route</h2>
+        <ol id="route" class="muted"></ol>
+      </div>
+
+      <footer class="app-footer">
+        Data: <code>data/appliances/protein_catalog.json</code> ·
+        rebuild: <code>python scripts/build_protein_catalog.py</code>
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal-backdrop">
+      <div class="modal">
+        <div class="modal-head">
+          <div>
+            <h2 id="modal-title">Item</h2>
+            <p class="muted" id="modal-sub" style="margin: 0.25rem 0 0; font-size: 0.85rem"></p>
+          </div>
+          <button type="button" class="modal-close" id="modal-close">Close</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <div class="thumb food" id="modal-emoji" style="width: 100%; min-height: 220px; border-radius: 12px">🥚</div>
+          </div>
+          <div class="modal-info">
+            <div class="price-lg" id="modal-price"></div>
+            <p class="muted" id="modal-summary" style="margin: 0.5rem 0 0"></p>
+            <div class="pc-grid">
+              <div class="pc-box pros"><h4>Pros</h4><ul id="modal-pros"></ul></div>
+              <div class="pc-box cons"><h4>Cons</h4><ul id="modal-cons"></ul></div>
+            </div>
+            <ul class="spec-list" id="modal-specs"></ul>
+            <div class="btn-row" style="margin-top: 1rem">
+              <button type="button" class="btn ghost" id="modal-star">☆ Star</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const STAR_KEY = "egypt-apt-protein-stars-v1";
+      const EMOJI = {
+        eggs: "🥚",
+        canned_fish: "🐟",
+        greek_yogurt: "🥛",
+        soft_cheese: "🧀",
+        deli: "🦃",
+        milk: "🍼",
+        rtd: "🥤",
+        legume_snack: "🫘",
+        bar: "🍫",
+        powder: "🫙",
+        frozen: "❄️",
+        jerky: "🥓",
+        nut_butter: "🥜",
+        crispbread: "🍘",
+      };
+      let items = [], data = null, active = null, preset = "all";
+      let stars = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || "[]"));
+      const $ = (s) => document.querySelector(s);
+      function esc(s) {
+        return String(s || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+      function emoji(it) {
+        return EMOJI[it.category] || "🥗";
+      }
+      function list() {
+        const q = ($("#f-q").value || "").toLowerCase();
+        const cat = $("#f-cat").value;
+        const maxE = $("#f-maxegp").value === "" ? null : Number($("#f-maxegp").value);
+        const maxC = $("#f-maxcal").value === "" ? null : Number($("#f-maxcal").value);
+        const sort = $("#f-sort").value;
+        let out = items.filter((it) => {
+          if (preset === "starred") return stars.has(it.id);
+          if (preset === "snack" && !it.snackOk) return false;
+          if (preset === "ready" && !["ready", "open_eat"].includes(it.prep)) return false;
+          if (preset === "best_value" && (it.rank || 99) > 15) return false;
+          if (preset === "low_cal" && (it.kcalPerGProtein || 99) > 10) return false;
+          if (cat !== "any" && it.category !== cat) return false;
+          if (maxE != null && (it.egpPerGProtein || 99) > maxE) return false;
+          if (maxC != null && (it.kcalPerGProtein || 99) > maxC) return false;
+          if (q && !`${it.name} ${it.brand} ${it.category}`.toLowerCase().includes(q)) return false;
+          return true;
+        });
+        out.sort((a, b) => {
+          if (sort === "egp") return (a.egpPerGProtein || 99) - (b.egpPerGProtein || 99);
+          if (sort === "kcalg") return (a.kcalPerGProtein || 99) - (b.kcalPerGProtein || 99);
+          if (sort === "protein") return (b.proteinG || 0) - (a.proteinG || 0);
+          if (sort === "price") return (a.priceEGP || 0) - (b.priceEGP || 0);
+          return (a.rank || 99) - (b.rank || 99);
+        });
+        return out;
+      }
+      function renderGrid() {
+        const rows = list();
+        $("#result-count").textContent = `Showing ${rows.length} · ${stars.size} starred`;
+        $("#product-grid").innerHTML = rows
+          .map((it) => {
+            const top = (it.rank || 99) <= 8;
+            return `<article class="product-card ${stars.has(it.id) ? "starred" : ""}" data-id="${esc(it.id)}">
+              <div class="thumb food">
+                <span>${emoji(it)}</span>
+                <div class="badge-abs">
+                  ${it.rank ? `<span class="chip-mini hot">#${it.rank}</span>` : ""}
+                  <span class="chip-mini">${esc((it.prep || "").replace(/_/g, " "))}</span>
+                </div>
+                <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
+              </div>
+              <div class="body">
+                <div class="brand">${esc(it.brand)} · ${esc((it.category || "").replace(/_/g, " "))}</div>
+                <h3>${esc(it.name)}</h3>
+                <div class="meta">${esc(it.packSize || "")} · ${esc(it.servingHint || "")}</div>
+                <div class="metric-row">
+                  <span class="metric ${top ? "best" : ""}"><strong>${it.egpPerGProtein}</strong> EGP/g protein</span>
+                  <span class="metric"><strong>${it.kcalPerGProtein}</strong> kcal/g protein</span>
+                  <span class="metric"><strong>${it.proteinG}g</strong> / ${it.caloriesKcal} kcal pack</span>
+                </div>
+                <div class="price" style="margin-top:0.5rem">${Number(it.priceEGP).toLocaleString()} EGP / pack</div>
+              </div>
+            </article>`;
+          })
+          .join("");
+        document.querySelectorAll(".product-card").forEach((c) => {
+          c.addEventListener("click", (e) => {
+            if (e.target.closest("[data-star]")) return;
+            openModal(c.dataset.id);
+          });
+        });
+        document.querySelectorAll("[data-star]").forEach((b) => {
+          b.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const id = b.dataset.star;
+            if (stars.has(id)) stars.delete(id);
+            else stars.add(id);
+            localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+            renderGrid();
+          });
+        });
+      }
+      function openModal(id) {
+        active = items.find((i) => i.id === id);
+        if (!active) return;
+        $("#modal-backdrop").classList.add("open");
+        $("#modal-title").textContent = active.name;
+        $("#modal-sub").textContent = `${active.brand} · ${active.category} · ${active.prep}`;
+        $("#modal-price").textContent = `${Number(active.priceEGP).toLocaleString()} EGP · ${active.egpPerGProtein} EGP/g protein`;
+        $("#modal-summary").textContent = active.summary || "";
+        $("#modal-emoji").textContent = emoji(active);
+        $("#modal-pros").innerHTML = (active.pros || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        $("#modal-cons").innerHTML = (active.cons || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        const specs = [
+          ["EGP / g protein", active.egpPerGProtein],
+          ["kcal / g protein", active.kcalPerGProtein],
+          ["Protein in pack", active.proteinG + " g"],
+          ["Calories in pack", active.caloriesKcal + " kcal"],
+          ["Protein share of cals", (active.proteinCalorieSharePct || "—") + "%"],
+          ["Prep", active.prepNote || active.prep],
+          ["Where", active.where],
+          ["Shops", (active.shop || []).join(", ")],
+          ["Serving", active.servingHint],
+        ];
+        $("#modal-specs").innerHTML = specs
+          .map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v || "—"))}</span></li>`)
+          .join("");
+        $("#modal-star").textContent = stars.has(active.id) ? "★ Starred" : "☆ Star";
+      }
+      async function init() {
+        try {
+          data = await (await fetch("data/appliances/protein_catalog.json")).json();
+          items = data.items || [];
+          $("#count-badge").textContent = `${items.length} foods ranked`;
+          $("#disclaimer").textContent = data.disclaimer || "";
+          $("#route").innerHTML = (data.shoppingRoute || []).map((s) => `<li>${esc(s)}</li>`).join("");
+          const cats = [...new Set(items.map((i) => i.category))].sort();
+          $("#f-cat").innerHTML =
+            `<option value="any">Any</option>` +
+            cats.map((c) => `<option value="${esc(c)}">${esc(c.replace(/_/g, " "))}</option>`).join("");
+          renderGrid();
+        } catch {
+          $("#disclaimer").innerHTML =
+            "Run <code>python -m http.server 8765</code> → http://localhost:8765/protein-gallery.html";
+        }
+        document.querySelectorAll(".preset-row button[data-preset]").forEach((b) => {
+          b.addEventListener("click", () => {
+            document.querySelectorAll(".preset-row button[data-preset]").forEach((x) => x.classList.remove("active"));
+            b.classList.add("active");
+            preset = b.dataset.preset;
+            renderGrid();
+          });
+        });
+        ["f-q", "f-cat", "f-maxegp", "f-maxcal", "f-sort"].forEach((id) => {
+          $(`#${id}`).addEventListener("input", renderGrid);
+          $(`#${id}`).addEventListener("change", renderGrid);
+        });
+        $("#modal-close").onclick = () => $("#modal-backdrop").classList.remove("open");
+        $("#modal-backdrop").addEventListener("click", (e) => {
+          if (e.target.id === "modal-backdrop") $("#modal-backdrop").classList.remove("open");
+        });
+        $("#modal-star").onclick = () => {
+          if (!active) return;
+          if (stars.has(active.id)) stars.delete(active.id);
+          else stars.add(active.id);
+          localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+          openModal(active.id);
+          renderGrid();
+        };
+      }
+      init();
+    </script>
+  </body>
+</html>

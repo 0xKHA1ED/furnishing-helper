@@ -1,0 +1,7 @@
+[    1312ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/ubuntu/v21/4iCs6KVjbNBYlgoKfw72.woff2 @ https://www.jumia.com.eg/catalog/?q=electric+water+heater+50:1
+[    1317ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/ubuntu/v21/4iCv6KVjbNBYlgoCjC3jsGyN.woff2 @ https://www.jumia.com.eg/catalog/?q=electric+water+heater+50:1
+[    1392ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/ubuntu/v21/4iCv6KVjbNBYlgoCxCvjsGyN.woff2 @ https://www.jumia.com.eg/catalog/?q=electric+water+heater+50:1
+[    5905ms] [WARNING] [GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607140101/pubads_impl.js?cb=31099746:18
+[    5905ms] [WARNING] [GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607140101/pubads_impl.js?cb=31099746:18

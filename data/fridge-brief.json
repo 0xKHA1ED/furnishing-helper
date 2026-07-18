@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "lastUpdated": "2026-07-17",
+  "status": "filtered_catalog_ready",
+  "galleryPage": "fridge-gallery.html",
+  "catalogPath": "data/appliances/fridge_catalog.json",
+  "method": "explain_ask_subagent_research_synthesize",
+  "userPreferencesExplicit": {
+    "layout": "balance_show_both_with_concrete_models",
+    "waterIceDispenser": false,
+    "budgetEGP": { "min": null, "max": 35000, "ceilingType": "hard" },
+    "kitchenWidthCm": null,
+    "capacityLiters": null,
+    "color": "preferred_black_not_hard_filter_in_ui"
+  },
+  "lifestyleAnswers": {
+    "eatingPattern": "Friday meal-prep for the whole week",
+    "groceryRhythm": "Big shop every week or two",
+    "freezerHabits": "Batch cook / freeze a lot",
+    "hosting": "Rarely",
+    "shapingFactors": ["meal_prep_leftovers_organized"],
+    "dayToDayPriority": "top_freezer_space_story",
+    "freezeLoadPractical": "weekly_portions_about_half_normal_freezer",
+    "colorMust": "black",
+    "hateWithinYear": ["noisy", "not_reliable", "looks_bad", "too_small"]
+  },
+  "inferredRequirements": {
+    "summary": "Hard max 35k EGP. Must not feel small for weekly prep+freeze. Reliability and noise matter; looks matter for aesthetics partner. Show bottom-freezer AND top-freezer concrete options.",
+    "capacityTargetL": "Prefer >=380 L; avoid under ~360 for this household",
+    "freezerPriority": "high",
+    "noisePriority": "high",
+    "reliabilityPriority": "high",
+    "aestheticsPriority": "high",
+    "dispenser": false,
+    "budgetEGP": [0, 35000]
+  },
+  "researchBatch": {
+    "status": "completed_wave1",
+    "maxPrice": 35000,
+    "completedAt": "2026-07-17",
+    "subagents": 5,
+    "reportPath": "notes/research/fridge-batch-2026-07-17.md",
+    "workingShortlist": [
+      "Beko RDNE455M20XBIDEGB black inverter ~406L ~30.3k — primary",
+      "LG GTF402SBAN black ~401L ~31.3k — NOT inverter, brand/look runner-up",
+      "Zanussi ZRT41204BA black ~406L ~25.2k — value"
+    ],
+    "droppedForColor": ["Ariston dark inox", "Samsung silver bottom", "silver Toshiba/Beko"]
+  },
+  "researchBatch2": {
+    "status": "completed_wave2_buy_tomorrow",
+    "completedAt": "2026-07-17",
+    "method": "playwright multi-retailer (B.TECH, Jumia, Amazon.eg, 2B, Raneen spot)",
+    "reportPath": "notes/research/fridge-washer-second-pass-2026-07-17.md",
+    "priceLeaders": {
+      "primaryPlatform": "Beko 406L black inverter (RDNE455M20XBIDEGB / XBIDB / RDNE448M20B class)",
+      "bestTrustPrice": { "retailer": "Amazon.eg", "sku": "RDNE455M20XBIDB", "priceEGP": 27099, "note": "Delivered by Amazon.eg; 1 left; 5y+10y motor claim" },
+      "lowestPrice": { "retailer": "Jumia", "sku": "RDNE455M20XBIDEGB", "priceEGP": 24999, "note": "Marketplace Al moufeed 72%; 1 unit — higher risk" },
+      "chainSafe": { "retailer": "B.TECH", "sku": "RDNE455M20XBIDEGB", "priceEGP": 30299 },
+      "freezeFirst": { "retailer": "B.TECH", "sku": "Tornado RF-580TV-BK", "priceEGP": 28949, "freezerL": 112 },
+      "looksBrand": { "retailer": "Amazon/B.TECH", "sku": "LG GTF402SBAN", "priceEGP": [29500, 31300] }
+    },
+    "workingShortlist": [
+      "1) Beko 406L black inverter — Amazon 27.1k XBIDB or B.TECH 30.3k IDEGB",
+      "2) Tornado RF-580TV-BK black inv 450L / 112L freezer — B.TECH 28.9k",
+      "3) LG GTF402SBAN black 401L — looks; not inverter"
+    ],
+    "excludedAgain": ["Samsung RB34 340L black (under 360L)", "LG GTF452 36.7k (over 35k)", "all non-black"]
+  },
+  "status": "ready_to_buy_tomorrow",
+  "expandPass": {
+    "completedAt": "2026-07-17",
+    "retailer": "B.TECH only",
+    "catalogItems": 72,
+    "blackCount": 31,
+    "inverterCount": 23,
+    "colorSoft": true,
+    "uiBlackFilter": "fridge-gallery.html preset Black only + Color dropdown",
+    "topRankedAllColors": [
+      "Beko RDNE455M20XBIDTEWEG black inv 455L ~28.1k — #1",
+      "Beko RDNE455M20XBIDS silver inv 406L ~25.5k — #2 best value if color flex",
+      "Ariston ART70 dark inox inv 420/455 — #3–4 looks + 10y motor claim",
+      "Tornado RF-580TV-BK black inv 450L freezer 112L ~28.9k",
+      "Beko RDNE455M20XBIDEGB black inv 406L ~30.3k"
+    ]
+  }
+}

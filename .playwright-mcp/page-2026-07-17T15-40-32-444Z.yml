@@ -1,0 +1,1021 @@
+- generic [ref=e2]:
+  - link [ref=e5] [cursor=pointer]:
+    - /url: https://www.jumia.com.eg/flash-sales/
+    - img "Desktop - Flash Sale" [ref=e6]
+  - generic [ref=e7]:
+    - link "Sell on Jumia" [ref=e9] [cursor=pointer]:
+      - /url: /sp-sell-on-jumia/
+    - generic [ref=e12]:
+      - generic "Jumia" [ref=e13]
+      - link "Jumia Pay" [ref=e16] [cursor=pointer]:
+        - /url: https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar
+    - generic [ref=e19]:
+      - generic [ref=e20]: English
+      - link [ref=e24] [cursor=pointer]:
+        - /url: /ar/catalog/?q=50+inch+smart+tv
+  - banner [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - checkbox "Navigate Categories" [ref=e32]
+        - link [ref=e37] [cursor=pointer]:
+          - /url: /
+          - img "Start Online Shopping For Fashion, Electronics & More - Discover Your Onlinestore | Jumia Egypt" [ref=e38]
+      - generic [ref=e40]:
+        - search [ref=e41]:
+          - textbox "Search" [ref=e44]:
+            - /placeholder: Search products, brands and categories
+            - text: 50 inch smart tv
+          - button "Reset" [ref=e45]
+          - button "Search" [ref=e48] [cursor=pointer]
+        - button [ref=e49] [cursor=pointer]:
+          - img "header_ai_assistant-cta" [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - checkbox "Account" [ref=e53]
+          - generic [ref=e54] [cursor=pointer]: Account
+        - generic [ref=e61]:
+          - checkbox "Help" [ref=e62]
+          - generic [ref=e63] [cursor=pointer]: Help
+        - link "Cart" [ref=e70] [cursor=pointer]:
+          - /url: /cart/
+  - article [ref=e74]:
+    - heading "This website uses cookies" [level=2] [ref=e75]
+    - paragraph [ref=e76]:
+      - text: This website uses cookies. For further information on how we use cookies you can read our
+      - link "Privacy and Cookie notice" [ref=e77] [cursor=pointer]:
+        - /url: /sp-privacy/
+    - button "Accept cookies" [ref=e78] [cursor=pointer]
+  - main [ref=e80]:
+    - generic [ref=e82]:
+      - link "Home>" [ref=e83] [cursor=pointer]:
+        - /url: /
+      - link "All Products>" [ref=e84] [cursor=pointer]:
+        - /url: /all-products/
+      - text: 50 inch smart tv
+    - generic [ref=e85]:
+      - generic [ref=e87]:
+        - article [ref=e88]:
+          - heading "Category" [level=2] [ref=e89]
+          - link "Electronics" [ref=e90] [cursor=pointer]:
+            - /url: /electronics/?q=50+inch+smart+tv#catalog-listing
+        - article [ref=e91]:
+          - heading "Express Delivery" [level=2] [ref=e93]
+          - generic [ref=e95]:
+            - link "Jumia Express" [ref=e96] [cursor=pointer]:
+              - /url: /catalog/?q=50+inch+smart+tv&shop_premium_services=shop_express#catalog-listing
+            - button "Details" [ref=e99] [cursor=pointer]
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - heading "Price (EGP)" [level=2] [ref=e104]
+            - button "Apply" [ref=e105] [cursor=pointer]
+          - generic [ref=e106]:
+            - slider "Min": "8244"
+            - slider "Max": "100000"
+          - generic [ref=e108]:
+            - spinbutton "Min" [ref=e110]: "8244"
+            - generic [ref=e111]: "-"
+            - spinbutton "Max" [ref=e113]: "100000"
+        - article [ref=e114]:
+          - heading "Discount Percentage" [level=2] [ref=e116]
+          - link "30% or more" [ref=e118] [cursor=pointer]:
+            - /url: /catalog/?q=50+inch+smart+tv&price_discount=30-100#catalog-listing
+          - link "20% or more" [ref=e120] [cursor=pointer]:
+            - /url: /catalog/?q=50+inch+smart+tv&price_discount=20-100#catalog-listing
+          - link "10% or more" [ref=e122] [cursor=pointer]:
+            - /url: /catalog/?q=50+inch+smart+tv&price_discount=10-100#catalog-listing
+        - article [ref=e123]:
+          - heading "Brand" [level=2] [ref=e125]
+          - generic [ref=e126]:
+            - link "ATA" [ref=e127] [cursor=pointer]:
+              - /url: /ata/?q=50+inch+smart+tv#catalog-listing
+            - link "Beko" [ref=e128] [cursor=pointer]:
+              - /url: /beko/?q=50+inch+smart+tv#catalog-listing
+            - link "Fresh" [ref=e129] [cursor=pointer]:
+              - /url: /fresh/?q=50+inch+smart+tv#catalog-listing
+            - link "Grouhy" [ref=e130] [cursor=pointer]:
+              - /url: /grouhy/?q=50+inch+smart+tv#catalog-listing
+            - link "Haier" [ref=e131] [cursor=pointer]:
+              - /url: /haier/?q=50+inch+smart+tv#catalog-listing
+            - link "Hisense" [ref=e132] [cursor=pointer]:
+              - /url: /hisense/?q=50+inch+smart+tv#catalog-listing
+            - link "HOHO" [ref=e133] [cursor=pointer]:
+              - /url: /hoho/?q=50+inch+smart+tv#catalog-listing
+            - link "Hyundai" [ref=e134] [cursor=pointer]:
+              - /url: /hyundai/?q=50+inch+smart+tv#catalog-listing
+            - link "Jac" [ref=e135] [cursor=pointer]:
+              - /url: /jac/?q=50+inch+smart+tv#catalog-listing
+            - link "Jack" [ref=e136] [cursor=pointer]:
+              - /url: /brand-15816-jack/?q=50+inch+smart+tv#catalog-listing
+            - link "Levon" [ref=e137] [cursor=pointer]:
+              - /url: /levon/?q=50+inch+smart+tv#catalog-listing
+            - link "LG" [ref=e138] [cursor=pointer]:
+              - /url: /lg/?q=50+inch+smart+tv#catalog-listing
+            - link "Samsung" [ref=e139] [cursor=pointer]:
+              - /url: /samsung/?q=50+inch+smart+tv#catalog-listing
+            - link "Sharp" [ref=e140] [cursor=pointer]:
+              - /url: /sharp/?q=50+inch+smart+tv#catalog-listing
+            - link "TORNADO" [ref=e141] [cursor=pointer]:
+              - /url: /tornado/?q=50+inch+smart+tv#catalog-listing
+            - link "Toshiba" [ref=e142] [cursor=pointer]:
+              - /url: /toshiba/?q=50+inch+smart+tv#catalog-listing
+            - link "Ultra" [ref=e143] [cursor=pointer]:
+              - /url: /ultra/?q=50+inch+smart+tv#catalog-listing
+        - article [ref=e144]:
+          - heading "Official Stores" [level=2] [ref=e146]
+          - link "Only Official Store" [ref=e148] [cursor=pointer]:
+            - /url: /catalog/?q=50+inch+smart+tv&official_store=1#catalog-listing
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - paragraph [ref=e153]: (55 products found)
+            - generic [ref=e154]:
+              - checkbox "Popularity" [ref=e155]
+              - generic [ref=e156] [cursor=pointer]:
+                - generic [ref=e157]: "Sort by:"
+                - generic [ref=e158]: Popularity
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: "Related results:"
+              - link "samsung tv qn50q60aafxza" [ref=e165] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/samsung-tv-qn50q60aafxza
+              - link "wall bracket tv" [ref=e167] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/wall-bracket-tv
+              - link "tv table brown" [ref=e169] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/tv-table-brown
+              - link "note 50 blue" [ref=e171] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/note-50-blue
+              - link "a50 gold" [ref=e173] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/a50-gold
+              - link "smart cutting board" [ref=e175] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/smart-cutting-board
+              - link "professional smart sttyler" [ref=e177] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/professional-smart-sttyler
+              - link "adidas under 50" [ref=e179] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/adidas-under-50
+              - link "inch wall light" [ref=e181] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/inch-wall-light
+              - link "steelpoint 50" [ref=e183] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/steelpoint-50
+              - link "smart cuts book" [ref=e185] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/smart-cuts-book
+              - link "dolby vision tv" [ref=e187] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/dolby-vision-tv
+              - link "50mm padlock" [ref=e189] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/50mm-padlock
+              - link "smart sensor dryer" [ref=e191] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/smart-sensor-dryer
+              - link "smart shoe insoles" [ref=e193] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/smart-shoe-insoles
+              - link "inch watch glass" [ref=e195] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/inch-watch-glass
+              - link "xiaomi smart lock" [ref=e197] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/xiaomi-smart-lock
+              - link "smart bot thermometer" [ref=e199] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/smart-bot-thermometer
+              - link "e12 smart bulb" [ref=e201] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/e12-smart-bulb
+              - link "smart kibbeh black" [ref=e203] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/smart-kibbeh-black
+              - link "smart thermorters cooking" [ref=e205] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/smart-thermorters-cooking
+              - link "slim tv mount" [ref=e207] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/slim-tv-mount
+              - link "smart ice cubes" [ref=e209] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/smart-ice-cubes
+              - link "smart card keyboard" [ref=e211] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/smart-card-keyboard
+              - link "timex smart watches" [ref=e213] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/timex-smart-watches
+              - link "smart laundry hamper" [ref=e215] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/smart-laundry-hamper
+              - link "moto fusion 50" [ref=e217] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/moto-fusion-50
+              - link "nautica smart eyewear" [ref=e219] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/nautica-smart-eyewear
+              - link "r50i nc earbuds" [ref=e221] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/r50i-nc-earbuds
+              - link "inch tote bag" [ref=e223] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/inch-tote-bag
+              - link "inch insignia tv smart 4k" [ref=e225] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/inch-insignia-tv-smart-4k
+              - link "inch smart portable tv" [ref=e227] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/inch-smart-portable-tv
+              - link "65 inch qled smart tv with receiver" [ref=e229] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/65-inch-qled-smart-tv-with-receiver
+              - link "hd tv no smart" [ref=e231] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/hd-tv-no-smart
+              - link "sleeper chair 50 inches" [ref=e233] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/sleeper-chair-50-inches
+              - link "32 inch smart tv" [ref=e235] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/32-inch-smart-tv
+              - link "tv moving box 55 inch" [ref=e237] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/tv-moving-box-55-inch
+              - link "samsung 65 inch neo qled tv" [ref=e239] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/samsung-65-inch-neo-qled-tv
+              - link "tv wall mount 43 inch" [ref=e241] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/tv-wall-mount-43-inch
+              - link "4k uhd smart tv with hdr10" [ref=e243] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/4k-uhd-smart-tv-with-hdr10
+              - link "screen protector tv 65 inch" [ref=e245] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/screen-protector-tv-65-inch
+              - link "wall mount 86inch tv" [ref=e247] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/wall-mount-86inch-tv
+              - link "flat black shoe laces 50 inches" [ref=e249] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/flat-black-shoe-laces-50-inches
+              - link "lg 50ut80006lb 50 inch 4k uhd smart led" [ref=e251] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/lg-50ut80006lb-50-inch-4k-uhd-smart-led
+              - link "l shaped desk 50 inch" [ref=e253] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/l-shaped-desk-50-inch
+            - button "previous" [ref=e254]
+            - button "next" [ref=e257] [cursor=pointer]
+        - generic [ref=e260]:
+          - link [ref=e261] [cursor=pointer]:
+            - /url: /catalog/?q=50+inch+smart+tv&shop_premium_services=shop_express#catalog-listing
+            - img "Jumia Express" [ref=e262]
+          - generic [ref=e264]:
+            - checkbox "Brand" [ref=e265]
+            - generic [ref=e266] [cursor=pointer]: Brand
+          - generic [ref=e270]:
+            - checkbox "Price" [ref=e271]
+            - generic [ref=e272] [cursor=pointer]: Price
+        - generic [ref=e276]:
+          - article [ref=e277]:
+            - button [ref=e278] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e279]
+            - link "LG 50 inch UHD AI UA85 4K Smart TV AI Magic remote HDR10 Pro webOS25-50UA85006LA.AFU (2025 Model) Official Store LG 50 inch UHD AI UA85 4K Smart TV AI Magic remote HDR10 Pro webOS25-50UA85006LA.AFU (2025 Model) EGP 18,799.00 EGP 26,499.00 - 29% 4.5 out of 5 (35) Express Shipping" [ref=e281] [cursor=pointer]:
+              - /url: /lg-50-inch-uhd-ai-ua85-4k-smart-tv-ai-magic-remote-hdr10-pro-webos25-50ua85006la.afu-2025-model-133071592.html
+              - img "LG 50 inch UHD AI UA85 4K Smart TV AI Magic remote HDR10 Pro webOS25-50UA85006LA.AFU (2025 Model)" [ref=e283]
+              - generic [ref=e284]:
+                - generic [ref=e285]: Official Store
+                - heading "LG 50 inch UHD AI UA85 4K Smart TV AI Magic remote HDR10 Pro webOS25-50UA85006LA.AFU (2025 Model)" [level=3] [ref=e286]
+                - generic [ref=e287]: EGP 18,799.00
+                - generic [ref=e288]:
+                  - generic [ref=e289]: EGP 26,499.00
+                  - generic [ref=e290]: "- 29%"
+                - generic [ref=e291]:
+                  - generic [ref=e292]: 4.5 out of 5
+                  - text: (35)
+                - img "Express Shipping" [ref=e294]
+          - article [ref=e298]:
+            - button [ref=e299] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e300]
+            - link "HOHO 50-Inch Frameless 4K UHD Smart Android TV – Built-in Digital Receiver, WiFi, 3 HDMI, 2 USB, HS5006SFL Official Store HOHO 50-Inch Frameless 4K UHD Smart Android TV – Built-in Digital Receiver, WiFi, 3 HDMI, 2 USB, HS5006SFL EGP 13,999.00 EGP 16,199.00 - 14% 3.5 out of 5 (4) Express Shipping" [ref=e302] [cursor=pointer]:
+              - /url: /hoho-50-inch-frameless-4k-uhd-smart-android-tv-built-in-digital-receiver-wifi-3-hdmi-2-usb-hs5006sfl-133675197.html
+              - img "HOHO 50-Inch Frameless 4K UHD Smart Android TV – Built-in Digital Receiver, WiFi, 3 HDMI, 2 USB, HS5006SFL" [ref=e304]
+              - generic [ref=e305]:
+                - generic [ref=e306]: Official Store
+                - heading "HOHO 50-Inch Frameless 4K UHD Smart Android TV – Built-in Digital Receiver, WiFi, 3 HDMI, 2 USB, HS5006SFL" [level=3] [ref=e307]
+                - generic [ref=e308]: EGP 13,999.00
+                - generic [ref=e309]:
+                  - generic [ref=e310]: EGP 16,199.00
+                  - generic [ref=e311]: "- 14%"
+                - generic [ref=e312]:
+                  - generic [ref=e313]: 3.5 out of 5
+                  - text: (4)
+                - img "Express Shipping" [ref=e315]
+          - article [ref=e319]:
+            - button [ref=e320] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e321]
+            - link "Jac 50 Inch 4K UHD Smart LED TV Powered by Tizen OS, Frameless With Built-in Receiver - 50JE8136F Jac 50 Inch 4K UHD Smart LED TV Powered by Tizen OS, Frameless With Built-in Receiver - 50JE8136F EGP 15,855.00 EGP 18,200.00 - 13% Express Shipping" [ref=e323] [cursor=pointer]:
+              - /url: /jac-50-inch-4k-uhd-smart-led-tv-powered-by-tizen-os-frameless-with-built-in-receiver-50je8136f-134551851.html
+              - img "Jac 50 Inch 4K UHD Smart LED TV Powered by Tizen OS, Frameless With Built-in Receiver - 50JE8136F" [ref=e325]
+              - generic [ref=e326]:
+                - heading "Jac 50 Inch 4K UHD Smart LED TV Powered by Tizen OS, Frameless With Built-in Receiver - 50JE8136F" [level=3] [ref=e327]
+                - generic [ref=e328]: EGP 15,855.00
+                - generic [ref=e329]:
+                  - generic [ref=e330]: EGP 18,200.00
+                  - generic [ref=e331]: "- 13%"
+                - img "Express Shipping" [ref=e332]
+          - article [ref=e336]:
+            - button [ref=e337] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e338]
+            - link "Fresh TV 50 Inches FHD QLED Smart Frameless - 50MFQ435G - 21881 Fresh TV 50 Inches FHD QLED Smart Frameless - 50MFQ435G - 21881 EGP 15,527.00" [ref=e340] [cursor=pointer]:
+              - /url: /fresh-tv-50-inches-fhd-qled-smart-frameless-50mfq435g-21881-134549283.html
+              - img "Fresh TV 50 Inches FHD QLED Smart Frameless - 50MFQ435G - 21881" [ref=e342]
+              - generic [ref=e343]:
+                - heading "Fresh TV 50 Inches FHD QLED Smart Frameless - 50MFQ435G - 21881" [level=3] [ref=e344]
+                - generic [ref=e345]: EGP 15,527.00
+          - article [ref=e348]:
+            - button [ref=e349] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e350]
+            - link "Hyundai 50 Inch Frameless WebOS 4K UHD Smart LED TV with Built in Receiver, Black - L50HYNDA650 Hyundai 50 Inch Frameless WebOS 4K UHD Smart LED TV with Built in Receiver, Black - L50HYNDA650 EGP 16,999.00 EGP 17,999.00 - 6%" [ref=e352] [cursor=pointer]:
+              - /url: /hyundai-50-inch-frameless-webos-4k-uhd-smart-led-tv-with-built-in-receiver-black-l50hynda650-133896702.html
+              - img "Hyundai 50 Inch Frameless WebOS 4K UHD Smart LED TV with Built in Receiver, Black - L50HYNDA650" [ref=e354]
+              - generic [ref=e355]:
+                - heading "Hyundai 50 Inch Frameless WebOS 4K UHD Smart LED TV with Built in Receiver, Black - L50HYNDA650" [level=3] [ref=e356]
+                - generic [ref=e357]: EGP 16,999.00
+                - generic [ref=e358]:
+                  - generic [ref=e359]: EGP 17,999.00
+                  - generic [ref=e360]: "- 6%"
+          - article [ref=e363]:
+            - button [ref=e364] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e365]
+            - link "Beko 50 Inches Crystal 8 Smart TV - 4K UHD - Google OS - Dolby Vision - HDR10+ Beko 50 Inches Crystal 8 Smart TV - 4K UHD - Google OS - Dolby Vision - HDR10+ EGP 17,349.00 EGP 20,999.00 - 17%" [ref=e367] [cursor=pointer]:
+              - /url: /beko-50-inches-crystal-8-smart-tv-4k-uhd-google-os-dolby-vision-hdr10-133679885.html
+              - img "Beko 50 Inches Crystal 8 Smart TV - 4K UHD - Google OS - Dolby Vision - HDR10+" [ref=e369]
+              - generic [ref=e370]:
+                - heading "Beko 50 Inches Crystal 8 Smart TV - 4K UHD - Google OS - Dolby Vision - HDR10+" [level=3] [ref=e371]
+                - generic [ref=e372]: EGP 17,349.00
+                - generic [ref=e373]:
+                  - generic [ref=e374]: EGP 20,999.00
+                  - generic [ref=e375]: "- 17%"
+          - article [ref=e378]:
+            - button [ref=e379] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e380]
+            - link "ATA 4K UHD Smart 50 Inch Frameless - ATA50ULS ATA 4K UHD Smart 50 Inch Frameless - ATA50ULS EGP 14,544.00" [ref=e382] [cursor=pointer]:
+              - /url: /ata-4k-uhd-smart-50-inch-frameless-ata50uls-134531842.html
+              - img "ATA 4K UHD Smart 50 Inch Frameless - ATA50ULS" [ref=e384]
+              - generic [ref=e385]:
+                - heading "ATA 4K UHD Smart 50 Inch Frameless - ATA50ULS" [level=3] [ref=e386]
+                - generic [ref=e387]: EGP 14,544.00
+          - article [ref=e390]:
+            - button [ref=e391] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e392]
+            - link "TORNADO 4K Frameless TV 50 Inch Android Built-In Receiver 50UA5300E TORNADO 4K Frameless TV 50 Inch Android Built-In Receiver 50UA5300E EGP 17,999.00 EGP 22,810.70 - 21%" [ref=e394] [cursor=pointer]:
+              - /url: /tornado-4k-frameless-tv-50-inch-android-built-in-receiver-50ua5300e-134299563.html
+              - img "TORNADO 4K Frameless TV 50 Inch Android Built-In Receiver 50UA5300E" [ref=e396]
+              - generic [ref=e397]:
+                - heading "TORNADO 4K Frameless TV 50 Inch Android Built-In Receiver 50UA5300E" [level=3] [ref=e398]
+                - generic [ref=e399]: EGP 17,999.00
+                - generic [ref=e400]:
+                  - generic [ref=e401]: EGP 22,810.70
+                  - generic [ref=e402]: "- 21%"
+          - article [ref=e405]:
+            - button [ref=e406] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e407]
+            - link "Samsung 50 Inch TV Crystal Processor 4K LED - UA50U8000FUXEG 2025 Model Samsung 50 Inch TV Crystal Processor 4K LED - UA50U8000FUXEG 2025 Model EGP 19,356.00 EGP 24,500.00 - 21% 5 out of 5 (1)" [ref=e409] [cursor=pointer]:
+              - /url: /samsung-50-inch-tv-crystal-processor-4k-led-ua50u8000fuxeg-2025-model-134189620.html
+              - img "Samsung 50 Inch TV Crystal Processor 4K LED - UA50U8000FUXEG 2025 Model" [ref=e411]
+              - generic [ref=e412]:
+                - heading "Samsung 50 Inch TV Crystal Processor 4K LED - UA50U8000FUXEG 2025 Model" [level=3] [ref=e413]
+                - generic [ref=e414]: EGP 19,356.00
+                - generic [ref=e415]:
+                  - generic [ref=e416]: EGP 24,500.00
+                  - generic [ref=e417]: "- 21%"
+                - generic [ref=e418]:
+                  - generic [ref=e419]: 5 out of 5
+                  - text: (1)
+          - article [ref=e423]:
+            - button [ref=e424] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e425]
+            - link "LG 50 inch NANO 4K UHD AI NU84 Smart TV 2026 50NU840B6LA LG 50 inch NANO 4K UHD AI NU84 Smart TV 2026 50NU840B6LA EGP 18,499.00 EGP 23,999.00 - 23% Express Shipping" [ref=e427] [cursor=pointer]:
+              - /url: /lg-50-inch-nano-4k-uhd-ai-nu84-smart-tv-2026-50nu840b6la-134631801.html
+              - img "LG 50 inch NANO 4K UHD AI NU84 Smart TV 2026 50NU840B6LA" [ref=e429]
+              - generic [ref=e430]:
+                - heading "LG 50 inch NANO 4K UHD AI NU84 Smart TV 2026 50NU840B6LA" [level=3] [ref=e431]
+                - generic [ref=e432]: EGP 18,499.00
+                - generic [ref=e433]:
+                  - generic [ref=e434]: EGP 23,999.00
+                  - generic [ref=e435]: "- 23%"
+                - img "Express Shipping" [ref=e436]
+          - article [ref=e440]:
+            - button [ref=e441] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e442]
+            - link "Haier 50-Inch 4K UHD Smart Google TV - Bezel-Less Design - Model H50K80EU Haier 50-Inch 4K UHD Smart Google TV - Bezel-Less Design - Model H50K80EU EGP 19,619.00 EGP 21,581.00 - 9%" [ref=e444] [cursor=pointer]:
+              - /url: /haier-50-inch-4k-uhd-smart-google-tv-bezel-less-design-model-h50k80eu-134161499.html
+              - img "Haier 50-Inch 4K UHD Smart Google TV - Bezel-Less Design - Model H50K80EU" [ref=e446]
+              - generic [ref=e447]:
+                - heading "Haier 50-Inch 4K UHD Smart Google TV - Bezel-Less Design - Model H50K80EU" [level=3] [ref=e448]
+                - generic [ref=e449]: EGP 19,619.00
+                - generic [ref=e450]:
+                  - generic [ref=e451]: EGP 21,581.00
+                  - generic [ref=e452]: "- 9%"
+          - article [ref=e455]:
+            - button [ref=e456] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e457]
+            - link "TORNADO 4K Smart DLED TV 50 Inch WiFi Connection 50US1500E TORNADO 4K Smart DLED TV 50 Inch WiFi Connection 50US1500E EGP 20,737.00 EGP 22,810.00 - 9%" [ref=e459] [cursor=pointer]:
+              - /url: /tornado-4k-smart-dled-tv-50-inch-wifi-connection-50us1500e-134301834.html
+              - img "TORNADO 4K Smart DLED TV 50 Inch WiFi Connection 50US1500E" [ref=e461]
+              - generic [ref=e462]:
+                - heading "TORNADO 4K Smart DLED TV 50 Inch WiFi Connection 50US1500E" [level=3] [ref=e463]
+                - generic [ref=e464]: EGP 20,737.00
+                - generic [ref=e465]:
+                  - generic [ref=e466]: EGP 22,810.00
+                  - generic [ref=e467]: "- 9%"
+          - article [ref=e470]:
+            - button [ref=e471] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e472]
+            - link "Fresh Smart Google TV Monitor 40 Inch FHD - 40MF435G - 500020975 Fresh Smart Google TV Monitor 40 Inch FHD - 40MF435G - 500020975 EGP 10,778.00 EGP 11,200.00 - 4%" [ref=e474] [cursor=pointer]:
+              - /url: /fresh-smart-google-tv-monitor-40-inch-fhd-40mf435g-500020975-134180444.html
+              - img "Fresh Smart Google TV Monitor 40 Inch FHD - 40MF435G - 500020975" [ref=e476]
+              - generic [ref=e477]:
+                - heading "Fresh Smart Google TV Monitor 40 Inch FHD - 40MF435G - 500020975" [level=3] [ref=e478]
+                - generic [ref=e479]: EGP 10,778.00
+                - generic [ref=e480]:
+                  - generic [ref=e481]: EGP 11,200.00
+                  - generic [ref=e482]: "- 4%"
+          - article [ref=e485]:
+            - button [ref=e486] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e487]
+            - link "Samsung 50 Inch TV Crystal Processor 4K LED - UA50U8000FUXEG 2025 Model Samsung 50 Inch TV Crystal Processor 4K LED - UA50U8000FUXEG 2025 Model EGP 19,149.00 EGP 24,000.00 - 20%" [ref=e489] [cursor=pointer]:
+              - /url: /samsung-50-inch-tv-crystal-processor-4k-led-ua50u8000fuxeg-2025-model-134584607.html
+              - img "Samsung 50 Inch TV Crystal Processor 4K LED - UA50U8000FUXEG 2025 Model" [ref=e491]
+              - generic [ref=e492]:
+                - heading "Samsung 50 Inch TV Crystal Processor 4K LED - UA50U8000FUXEG 2025 Model" [level=3] [ref=e493]
+                - generic [ref=e494]: EGP 19,149.00
+                - generic [ref=e495]:
+                  - generic [ref=e496]: EGP 24,000.00
+                  - generic [ref=e497]: "- 20%"
+          - article [ref=e500]:
+            - button [ref=e501] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e502]
+            - link "TORNADO 4K Smart Frameless TV 50 Inch Built-In Receiver 50UA3400E TORNADO 4K Smart Frameless TV 50 Inch Built-In Receiver 50UA3400E EGP 21,480.00 EGP 23,628.00 - 9%" [ref=e504] [cursor=pointer]:
+              - /url: /tornado-4k-smart-frameless-tv-50-inch-built-in-receiver-50ua3400e-134314319.html
+              - img "TORNADO 4K Smart Frameless TV 50 Inch Built-In Receiver 50UA3400E" [ref=e506]
+              - generic [ref=e507]:
+                - heading "TORNADO 4K Smart Frameless TV 50 Inch Built-In Receiver 50UA3400E" [level=3] [ref=e508]
+                - generic [ref=e509]: EGP 21,480.00
+                - generic [ref=e510]:
+                  - generic [ref=e511]: EGP 23,628.00
+                  - generic [ref=e512]: "- 9%"
+          - article [ref=e515]:
+            - button [ref=e516] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e517]
+            - link "Levon 50 Inch 4K UHD Android Smart TV – Frameless DLED Display - Model 50LG8070 Levon 50 Inch 4K UHD Android Smart TV – Frameless DLED Display - Model 50LG8070 EGP 17,640.00 EGP 18,500.00 - 5%" [ref=e519] [cursor=pointer]:
+              - /url: /levon-50-inch-4k-uhd-android-smart-tv-frameless-dled-display-model-50lg8070-134674783.html
+              - img "Levon 50 Inch 4K UHD Android Smart TV – Frameless DLED Display - Model 50LG8070" [ref=e521]
+              - generic [ref=e522]:
+                - heading "Levon 50 Inch 4K UHD Android Smart TV – Frameless DLED Display - Model 50LG8070" [level=3] [ref=e523]
+                - generic [ref=e524]: EGP 17,640.00
+                - generic [ref=e525]:
+                  - generic [ref=e526]: EGP 18,500.00
+                  - generic [ref=e527]: "- 5%"
+          - article [ref=e530]:
+            - button [ref=e531] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e532]
+            - link "Fresh TV 50 Inches FHD QLED Smart Frameless - 50MFQ435G - 21882 Fresh TV 50 Inches FHD QLED Smart Frameless - 50MFQ435G - 21882 EGP 16,237.00 EGP 18,000.00 - 10% 5 out of 5 (1)" [ref=e534] [cursor=pointer]:
+              - /url: /fresh-tv-50-inches-fhd-qled-smart-frameless-50mfq435g-21882-134186502.html
+              - img "Fresh TV 50 Inches FHD QLED Smart Frameless - 50MFQ435G - 21882" [ref=e536]
+              - generic [ref=e537]:
+                - heading "Fresh TV 50 Inches FHD QLED Smart Frameless - 50MFQ435G - 21882" [level=3] [ref=e538]
+                - generic [ref=e539]: EGP 16,237.00
+                - generic [ref=e540]:
+                  - generic [ref=e541]: EGP 18,000.00
+                  - generic [ref=e542]: "- 10%"
+                - generic [ref=e543]:
+                  - generic [ref=e544]: 5 out of 5
+                  - text: (1)
+          - article [ref=e548]:
+            - button [ref=e549] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e550]
+            - link "TORNADO TV 50 Inch 4K Frameless Built-In Receiver Android 11, HDR10, HLG, Dolby Digital Plus, Surround Sound, Voice Search, Google Assistant, Chromecast Built-In 50UA5300E TORNADO TV 50 Inch 4K Frameless Built-In Receiver Android 11, HDR10, HLG, Dolby Digital Plus, Surround Sound, Voice Search, Google Assistant, Chromecast Built-In 50UA5300E EGP 100,000.00" [ref=e552] [cursor=pointer]:
+              - /url: /tornado-tv-50-inch-4k-frameless-built-in-receiver-android-11-hdr10-hlg-dolby-digital-plus-surround-sound-voice-search-google-assistant-chromecast-built-in-50ua5300e-134768445.html
+              - img "TORNADO TV 50 Inch 4K Frameless Built-In Receiver Android 11, HDR10, HLG, Dolby Digital Plus, Surround Sound, Voice Search, Google Assistant, Chromecast Built-In 50UA5300E" [ref=e554]
+              - generic [ref=e555]:
+                - heading "TORNADO TV 50 Inch 4K Frameless Built-In Receiver Android 11, HDR10, HLG, Dolby Digital Plus, Surround Sound, Voice Search, Google Assistant, Chromecast Built-In 50UA5300E" [level=3] [ref=e556]
+                - generic [ref=e557]: EGP 100,000.00
+          - article [ref=e560]:
+            - button [ref=e561] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e562]
+            - link "Grouhy 50 Inch 4K LED Smart Frameless TV With Magic Remote - GLD50SAWORV2 Official Store Grouhy 50 Inch 4K LED Smart Frameless TV With Magic Remote - GLD50SAWORV2 EGP 13,699.00 EGP 15,999.00 - 14% 5 out of 5 (1) Express Shipping" [ref=e564] [cursor=pointer]:
+              - /url: /grouhy-50-inch-4k-led-smart-frameless-tv-with-magic-remote-gld50saworv2-133832449.html
+              - img "Grouhy 50 Inch 4K LED Smart Frameless TV With Magic Remote - GLD50SAWORV2" [ref=e566]
+              - generic [ref=e567]:
+                - generic [ref=e568]: Official Store
+                - heading "Grouhy 50 Inch 4K LED Smart Frameless TV With Magic Remote - GLD50SAWORV2" [level=3] [ref=e569]
+                - generic [ref=e570]: EGP 13,699.00
+                - generic [ref=e571]:
+                  - generic [ref=e572]: EGP 15,999.00
+                  - generic [ref=e573]: "- 14%"
+                - generic [ref=e574]:
+                  - generic [ref=e575]: 5 out of 5
+                  - text: (1)
+                - img "Express Shipping" [ref=e577]
+          - article [ref=e581]:
+            - button [ref=e582] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e583]
+            - link "Hisense 50 inch 4K UHD Smart TV -50A6N Hisense 50 inch 4K UHD Smart TV -50A6N EGP 16,343.00 EGP 17,999.00 - 9%" [ref=e585] [cursor=pointer]:
+              - /url: /hisense-50-inch-4k-uhd-smart-tv-50a6n-134556301.html
+              - img "Hisense 50 inch 4K UHD Smart TV -50A6N" [ref=e587]
+              - generic [ref=e588]:
+                - heading "Hisense 50 inch 4K UHD Smart TV -50A6N" [level=3] [ref=e589]
+                - generic [ref=e590]: EGP 16,343.00
+                - generic [ref=e591]:
+                  - generic [ref=e592]: EGP 17,999.00
+                  - generic [ref=e593]: "- 9%"
+          - article [ref=e596]:
+            - button [ref=e597] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e598]
+            - link "LG 50 Inch 4K UHD Smart LED TV with Built In Receiver - 50UA84006LB LG 50 Inch 4K UHD Smart LED TV with Built In Receiver - 50UA84006LB EGP 21,999.00 EGP 25,000.00 - 12%" [ref=e600] [cursor=pointer]:
+              - /url: /lg-50-inch-4k-uhd-smart-led-tv-with-built-in-receiver-50ua84006lb-134295112.html
+              - img "LG 50 Inch 4K UHD Smart LED TV with Built In Receiver - 50UA84006LB" [ref=e602]
+              - generic [ref=e603]:
+                - heading "LG 50 Inch 4K UHD Smart LED TV with Built In Receiver - 50UA84006LB" [level=3] [ref=e604]
+                - generic [ref=e605]: EGP 21,999.00
+                - generic [ref=e606]:
+                  - generic [ref=e607]: EGP 25,000.00
+                  - generic [ref=e608]: "- 12%"
+          - article [ref=e611]:
+            - button [ref=e612] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e613]
+            - link "Haier H50K80EU-50 Inch 4K UHD Smart Google TV - Dolby Audio - Stereo Speaker - MEMC/VRR/ALLM - 2+32GB RAM/ROM - Voice Control - HDR10 - Chromecast- HDMI 2.1 - Bezel-Less Design Haier H50K80EU-50 Inch 4K UHD Smart Google TV - Dolby Audio - Stereo Speaker - MEMC/VRR/ALLM - 2+32GB RAM/ROM - Voice Control - HDR10 - Chromecast- HDMI 2.1 - Bezel-Less Design EGP 16,999.00 EGP 18,249.00 - 7%" [ref=e615] [cursor=pointer]:
+              - /url: /haier-h50k80eu-50-inch-4k-uhd-smart-google-tv-dolby-audio-stereo-speaker-memcvrrallm-232gb-ramrom-voice-control-hdr10-chromecast-hdmi-2.1-bezel-less-design-133754567.html
+              - img "Haier H50K80EU-50 Inch 4K UHD Smart Google TV - Dolby Audio - Stereo Speaker - MEMC/VRR/ALLM - 2+32GB RAM/ROM - Voice Control - HDR10 - Chromecast- HDMI 2.1 - Bezel-Less Design" [ref=e617]
+              - generic [ref=e618]:
+                - heading "Haier H50K80EU-50 Inch 4K UHD Smart Google TV - Dolby Audio - Stereo Speaker - MEMC/VRR/ALLM - 2+32GB RAM/ROM - Voice Control - HDR10 - Chromecast- HDMI 2.1 - Bezel-Less Design" [level=3] [ref=e619]
+                - generic [ref=e620]: EGP 16,999.00
+                - generic [ref=e621]:
+                  - generic [ref=e622]: EGP 18,249.00
+                  - generic [ref=e623]: "- 7%"
+          - article [ref=e626]:
+            - button [ref=e627] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e628]
+            - link "ATA ATA50UOS-L- 50-inch 4K UHD LED Smart TV ATA ATA50UOS-L- 50-inch 4K UHD LED Smart TV EGP 14,199.00 EGP 16,000.00 - 11% 5 out of 5 (1)" [ref=e630] [cursor=pointer]:
+              - /url: /ata-ata50uos-l-50-inch-4k-uhd-led-smart-tv-133995695.html
+              - img "ATA ATA50UOS-L- 50-inch 4K UHD LED Smart TV" [ref=e632]
+              - generic [ref=e633]:
+                - heading "ATA ATA50UOS-L- 50-inch 4K UHD LED Smart TV" [level=3] [ref=e634]
+                - generic [ref=e635]: EGP 14,199.00
+                - generic [ref=e636]:
+                  - generic [ref=e637]: EGP 16,000.00
+                  - generic [ref=e638]: "- 11%"
+                - generic [ref=e639]:
+                  - generic [ref=e640]: 5 out of 5
+                  - text: (1)
+          - article [ref=e644]:
+            - button [ref=e645] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e646]
+            - link "Haier TV 50 Inch 4K UHD Smart QLED with Built in Receiver - Black - H50S80F Haier TV 50 Inch 4K UHD Smart QLED with Built in Receiver - Black - H50S80F EGP 20,198.00 EGP 21,999.00 - 8%" [ref=e648] [cursor=pointer]:
+              - /url: /haier-tv-50-inch-4k-uhd-smart-qled-with-built-in-receiver-black-h50s80f-133753349.html
+              - img "Haier TV 50 Inch 4K UHD Smart QLED with Built in Receiver - Black - H50S80F" [ref=e650]
+              - generic [ref=e651]:
+                - heading "Haier TV 50 Inch 4K UHD Smart QLED with Built in Receiver - Black - H50S80F" [level=3] [ref=e652]
+                - generic [ref=e653]: EGP 20,198.00
+                - generic [ref=e654]:
+                  - generic [ref=e655]: EGP 21,999.00
+                  - generic [ref=e656]: "- 8%"
+          - article [ref=e659]:
+            - button [ref=e660] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e661]
+            - link "Beko 50 Inch Crystal 4K Smart Google TV, Silver - B50M D 895 A Beko 50 Inch Crystal 4K Smart Google TV, Silver - B50M D 895 A EGP 16,999.00 EGP 17,999.00 - 6%" [ref=e663] [cursor=pointer]:
+              - /url: /beko-50-inch-crystal-4k-smart-google-tv-silver-b50m-d-895-a-131444867.html
+              - img "Beko 50 Inch Crystal 4K Smart Google TV, Silver - B50M D 895 A" [ref=e665]
+              - generic [ref=e666]:
+                - heading "Beko 50 Inch Crystal 4K Smart Google TV, Silver - B50M D 895 A" [level=3] [ref=e667]
+                - generic [ref=e668]: EGP 16,999.00
+                - generic [ref=e669]:
+                  - generic [ref=e670]: EGP 17,999.00
+                  - generic [ref=e671]: "- 6%"
+          - article [ref=e674]:
+            - button [ref=e675] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e676]
+            - link "Haier Smart TV 50 Inch QLED 4K UHD With Built-in Receiver - H50S80EU Haier Smart TV 50 Inch QLED 4K UHD With Built-in Receiver - H50S80EU EGP 21,215.00 EGP 30,000.00 - 29%" [ref=e678] [cursor=pointer]:
+              - /url: /haier-smart-tv-50-inch-qled-4k-uhd-with-built-in-receiver-h50s80eu-117777984.html
+              - img "Haier Smart TV 50 Inch QLED 4K UHD With Built-in Receiver - H50S80EU" [ref=e680]
+              - generic [ref=e681]:
+                - heading "Haier Smart TV 50 Inch QLED 4K UHD With Built-in Receiver - H50S80EU" [level=3] [ref=e682]
+                - generic [ref=e683]: EGP 21,215.00
+                - generic [ref=e684]:
+                  - generic [ref=e685]: EGP 30,000.00
+                  - generic [ref=e686]: "- 29%"
+          - article [ref=e689]:
+            - button [ref=e690] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e691]
+            - link "Sharp Smart Frameless TV 4K 50 Inch Built-In Receiver 4T-C50FL6EX Sharp Smart Frameless TV 4K 50 Inch Built-In Receiver 4T-C50FL6EX EGP 23,399.00 EGP 25,000.00 - 6% 5 out of 5 (1)" [ref=e693] [cursor=pointer]:
+              - /url: /4k-smart-frameless-tv-50-inch-built-in-receiver-4t-c50fl6ex-sharp-mpg3851477.html
+              - img "Sharp Smart Frameless TV 4K 50 Inch Built-In Receiver 4T-C50FL6EX" [ref=e695]
+              - generic [ref=e696]:
+                - heading "Sharp Smart Frameless TV 4K 50 Inch Built-In Receiver 4T-C50FL6EX" [level=3] [ref=e697]
+                - generic [ref=e698]: EGP 23,399.00
+                - generic [ref=e699]:
+                  - generic [ref=e700]: EGP 25,000.00
+                  - generic [ref=e701]: "- 6%"
+                - generic [ref=e702]:
+                  - generic [ref=e703]: 5 out of 5
+                  - text: (1)
+          - article [ref=e707]:
+            - button [ref=e708] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e709]
+            - link "Sharp Smart 4K Frameless TV 50 Inch 4T-C50FJ16EX Sharp Smart 4K Frameless TV 50 Inch 4T-C50FJ16EX EGP 22,099.00 EGP 24,000.00 - 8% 5 out of 5 (2)" [ref=e711] [cursor=pointer]:
+              - /url: /4k-smart-frameless-tv-50-inch-4t-c50fj16ex-sharp-mpg3851476.html
+              - img "Sharp Smart 4K Frameless TV 50 Inch 4T-C50FJ16EX" [ref=e713]
+              - generic [ref=e714]:
+                - heading "Sharp Smart 4K Frameless TV 50 Inch 4T-C50FJ16EX" [level=3] [ref=e715]
+                - generic [ref=e716]: EGP 22,099.00
+                - generic [ref=e717]:
+                  - generic [ref=e718]: EGP 24,000.00
+                  - generic [ref=e719]: "- 8%"
+                - generic [ref=e720]:
+                  - generic [ref=e721]: 5 out of 5
+                  - text: (2)
+          - article [ref=e725]:
+            - button [ref=e726] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e727]
+            - link "Haier TV 50 Inch 4K UHD Smart QLED with Built in Receiver - Black - H50S80F Haier TV 50 Inch 4K UHD Smart QLED with Built in Receiver - Black - H50S80F EGP 18,399.00 EGP 29,000.00 - 37% 2 offers from EGP 18,399.00" [ref=e729] [cursor=pointer]:
+              - /url: /tv-50-inch-4k-uhd-smart-qled-with-built-in-receiver-black-h50s80f-haier-mpg3929112.html
+              - img "Haier TV 50 Inch 4K UHD Smart QLED with Built in Receiver - Black - H50S80F" [ref=e731]
+              - generic [ref=e732]:
+                - heading "Haier TV 50 Inch 4K UHD Smart QLED with Built in Receiver - Black - H50S80F" [level=3] [ref=e733]
+                - generic [ref=e734]: EGP 18,399.00
+                - generic [ref=e735]:
+                  - generic [ref=e736]: EGP 29,000.00
+                  - generic [ref=e737]: "- 37%"
+                - paragraph [ref=e738]: 2 offers from EGP 18,399.00
+          - article [ref=e741]:
+            - button [ref=e742] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e743]
+            - link "Jack 50-Inch LED Smart Full HD TV Model- 50JD8131F Jack 50-Inch LED Smart Full HD TV Model- 50JD8131F EGP 18,260.00 EGP 20,086.00 - 9%" [ref=e745] [cursor=pointer]:
+              - /url: /jack-50-inch-led-smart-full-hd-tv-model-50jd8131f-134428444.html
+              - img "Jack 50-Inch LED Smart Full HD TV Model- 50JD8131F" [ref=e747]
+              - generic [ref=e748]:
+                - heading "Jack 50-Inch LED Smart Full HD TV Model- 50JD8131F" [level=3] [ref=e749]
+                - generic [ref=e750]: EGP 18,260.00
+                - generic [ref=e751]:
+                  - generic [ref=e752]: EGP 20,086.00
+                  - generic [ref=e753]: "- 9%"
+          - article [ref=e756]:
+            - button [ref=e757] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e758]
+            - link "Samsung 50 Inch 4K UHD LED Smart TV, Built-in Receiver, Black - 50U8000F Samsung 50 Inch 4K UHD LED Smart TV, Built-in Receiver, Black - 50U8000F EGP 20,976.00 EGP 23,074.00 - 9%" [ref=e760] [cursor=pointer]:
+              - /url: /samsung-50-inch-4k-uhd-led-smart-tv-built-in-receiver-black-50u8000f-134614467.html
+              - img "Samsung 50 Inch 4K UHD LED Smart TV, Built-in Receiver, Black - 50U8000F" [ref=e762]
+              - generic [ref=e763]:
+                - heading "Samsung 50 Inch 4K UHD LED Smart TV, Built-in Receiver, Black - 50U8000F" [level=3] [ref=e764]
+                - generic [ref=e765]: EGP 20,976.00
+                - generic [ref=e766]:
+                  - generic [ref=e767]: EGP 23,074.00
+                  - generic [ref=e768]: "- 9%"
+          - article [ref=e771]:
+            - button [ref=e772] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e773]
+            - link "LG 50 InchUHD AI UA84 ( Without Magic Remote ) 4K Smart TV AI HDR10 WebOS25 2025 - 50UA84006LB LG 50 InchUHD AI UA84 ( Without Magic Remote ) 4K Smart TV AI HDR10 WebOS25 2025 - 50UA84006LB EGP 18,836.00 EGP 22,000.00 - 14%" [ref=e775] [cursor=pointer]:
+              - /url: /lg-50-inchuhd-ai-ua84-without-magic-remote-4k-smart-tv-ai-hdr10-webos25-2025-50ua84006lb-134189625.html
+              - img "LG 50 InchUHD AI UA84 ( Without Magic Remote ) 4K Smart TV AI HDR10 WebOS25 2025 - 50UA84006LB" [ref=e777]
+              - generic [ref=e778]:
+                - heading "LG 50 InchUHD AI UA84 ( Without Magic Remote ) 4K Smart TV AI HDR10 WebOS25 2025 - 50UA84006LB" [level=3] [ref=e779]
+                - generic [ref=e780]: EGP 18,836.00
+                - generic [ref=e781]:
+                  - generic [ref=e782]: EGP 22,000.00
+                  - generic [ref=e783]: "- 14%"
+          - article [ref=e786]:
+            - button [ref=e787] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e788]
+            - link "Beko 50 Inch Crystal 4K UHD Smart Android TV, Black - B50M D 790 B Beko 50 Inch Crystal 4K UHD Smart Android TV, Black - B50M D 790 B EGP 16,699.00 EGP 17,834.00 - 6%" [ref=e790] [cursor=pointer]:
+              - /url: /beko-50-inch-crystal-4k-uhd-smart-android-tv-black-b50m-d-790-b-131444804.html
+              - img "Beko 50 Inch Crystal 4K UHD Smart Android TV, Black - B50M D 790 B" [ref=e792]
+              - generic [ref=e793]:
+                - heading "Beko 50 Inch Crystal 4K UHD Smart Android TV, Black - B50M D 790 B" [level=3] [ref=e794]
+                - generic [ref=e795]: EGP 16,699.00
+                - generic [ref=e796]:
+                  - generic [ref=e797]: EGP 17,834.00
+                  - generic [ref=e798]: "- 6%"
+          - article [ref=e801]:
+            - button [ref=e802] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e803]
+            - link "Fresh Smart TV, Google OS, UHD, QLED, Frameless, 50-inch, plus free wall mount, 50MFQ433G - Black Fresh Smart TV, Google OS, UHD, QLED, Frameless, 50-inch, plus free wall mount, 50MFQ433G - Black EGP 16,965.00 EGP 18,300.00 - 7%" [ref=e805] [cursor=pointer]:
+              - /url: /fresh-smart-tv-google-os-uhd-qled-frameless-50-inch-plus-free-wall-mount-50mfq433g-black-134449854.html
+              - img "Fresh Smart TV, Google OS, UHD, QLED, Frameless, 50-inch, plus free wall mount, 50MFQ433G - Black" [ref=e807]
+              - generic [ref=e808]:
+                - heading "Fresh Smart TV, Google OS, UHD, QLED, Frameless, 50-inch, plus free wall mount, 50MFQ433G - Black" [level=3] [ref=e809]
+                - generic [ref=e810]: EGP 16,965.00
+                - generic [ref=e811]:
+                  - generic [ref=e812]: EGP 18,300.00
+                  - generic [ref=e813]: "- 7%"
+          - article [ref=e816]:
+            - button [ref=e817] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e818]
+            - link "Sharp 50 Inch 4K Smart TV – Frameless – Google TV 4T-C50FJ16EX Sharp 50 Inch 4K Smart TV – Frameless – Google TV 4T-C50FJ16EX EGP 22,562.00 EGP 24,818.00 - 9%" [ref=e820] [cursor=pointer]:
+              - /url: /sharp-50-inch-4k-smart-tv-frameless-google-tv-4t-c50fj16ex-134220215.html
+              - img "Sharp 50 Inch 4K Smart TV – Frameless – Google TV 4T-C50FJ16EX" [ref=e822]
+              - generic [ref=e823]:
+                - heading "Sharp 50 Inch 4K Smart TV – Frameless – Google TV 4T-C50FJ16EX" [level=3] [ref=e824]
+                - generic [ref=e825]: EGP 22,562.00
+                - generic [ref=e826]:
+                  - generic [ref=e827]: EGP 24,818.00
+                  - generic [ref=e828]: "- 9%"
+          - article [ref=e831]:
+            - button [ref=e832] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e833]
+            - link "LG 50 Inch 4K UHD Smart LED TV With Built In Receiver - 50UT80006LB LG 50 Inch 4K UHD Smart LED TV With Built In Receiver - 50UT80006LB EGP 22,100.00" [ref=e835] [cursor=pointer]:
+              - /url: /lg-50-inch-4k-uhd-smart-led-tv-with-built-in-receiver-50ut80006lb-130187910.html
+              - img "LG 50 Inch 4K UHD Smart LED TV With Built In Receiver - 50UT80006LB" [ref=e837]
+              - generic [ref=e838]:
+                - heading "LG 50 Inch 4K UHD Smart LED TV With Built In Receiver - 50UT80006LB" [level=3] [ref=e839]
+                - generic [ref=e840]: EGP 22,100.00
+          - article [ref=e843]:
+            - button [ref=e844] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e845]
+            - link "TORNADO 4K Smart Frameless TV 50 Inch Built-In Receiver 50UA3400E TORNADO 4K Smart Frameless TV 50 Inch Built-In Receiver 50UA3400E EGP 20,090.00" [ref=e847] [cursor=pointer]:
+              - /url: /tornado-4k-smart-frameless-tv-50-inch-built-in-receiver-50ua3400e-134282110.html
+              - img "TORNADO 4K Smart Frameless TV 50 Inch Built-In Receiver 50UA3400E" [ref=e849]
+              - generic [ref=e850]:
+                - heading "TORNADO 4K Smart Frameless TV 50 Inch Built-In Receiver 50UA3400E" [level=3] [ref=e851]
+                - generic [ref=e852]: EGP 20,090.00
+          - article [ref=e855]:
+            - button [ref=e856] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e857]
+            - link "ATA 50 I50-Inch Frameless 4K UHD Smart TV Immersive Viewing Experience 50ULS ATA 50 I50-Inch Frameless 4K UHD Smart TV Immersive Viewing Experience 50ULS EGP 14,191.00 EGP 20,000.00 - 29%" [ref=e859] [cursor=pointer]:
+              - /url: /ata-50-i50-inch-frameless-4k-uhd-smart-tv-immersive-viewing-experience-50uls-134601413.html
+              - img "ATA 50 I50-Inch Frameless 4K UHD Smart TV Immersive Viewing Experience 50ULS" [ref=e861]
+              - generic [ref=e862]:
+                - heading "ATA 50 I50-Inch Frameless 4K UHD Smart TV Immersive Viewing Experience 50ULS" [level=3] [ref=e863]
+                - generic [ref=e864]: EGP 14,191.00
+                - generic [ref=e865]:
+                  - generic [ref=e866]: EGP 20,000.00
+                  - generic [ref=e867]: "- 29%"
+          - article [ref=e870]:
+            - button [ref=e871] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e872]
+            - link "ATA A 50 inch Smart TV Screen 4K UHD ATA A 50 inch Smart TV Screen 4K UHD EGP 15,499.00 EGP 17,500.00 - 11%" [ref=e874] [cursor=pointer]:
+              - /url: /ata-a-50-inch-smart-tv-screen-4k-uhd-133321840.html
+              - img "ATA A 50 inch Smart TV Screen 4K UHD" [ref=e876]
+              - generic [ref=e877]:
+                - heading "ATA A 50 inch Smart TV Screen 4K UHD" [level=3] [ref=e878]
+                - generic [ref=e879]: EGP 15,499.00
+                - generic [ref=e880]:
+                  - generic [ref=e881]: EGP 17,500.00
+                  - generic [ref=e882]: "- 11%"
+          - article [ref=e885]:
+            - button [ref=e886] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e887]
+            - link "ATA 50 inch Smart TV Screen 4K UHD ATA 50 inch Smart TV Screen 4K UHD EGP 14,999.00 EGP 15,999.00 - 6%" [ref=e889] [cursor=pointer]:
+              - /url: /ata-50-inch-smart-tv-screen-4k-uhd-133550733.html
+              - img "ATA 50 inch Smart TV Screen 4K UHD" [ref=e891]
+              - generic [ref=e892]:
+                - heading "ATA 50 inch Smart TV Screen 4K UHD" [level=3] [ref=e893]
+                - generic [ref=e894]: EGP 14,999.00
+                - generic [ref=e895]:
+                  - generic [ref=e896]: EGP 15,999.00
+                  - generic [ref=e897]: "- 6%"
+        - generic [ref=e900]:
+          - generic [ref=e907]: "1"
+          - link "Page 2" [ref=e908] [cursor=pointer]:
+            - /url: /catalog/?q=50+inch+smart+tv&page=2#catalog-listing
+            - text: "2"
+          - link "Next Page" [ref=e909] [cursor=pointer]:
+            - /url: /catalog/?q=50+inch+smart+tv&page=2#catalog-listing
+          - link "Last Page" [ref=e912] [cursor=pointer]:
+            - /url: /catalog/?q=50+inch+smart+tv&page=2#catalog-listing
+    - link "BACK TO TOP" [ref=e916] [cursor=pointer]:
+      - /url: "#top"
+  - contentinfo [ref=e919]:
+    - generic [ref=e921]:
+      - generic [ref=e925]:
+        - generic [ref=e926]:
+          - generic [ref=e927]: New to Jumia?
+          - text: Subscribe to our newsletter to get updates on our latest offers, you can unsubscribe at any time as described in Privacy Policy.
+          - generic [ref=e928]:
+            - text: To subscribe to our newsletter, you must first read and agree to Jumia's
+            - link "I accept the Legal Terms" [ref=e929] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-privacy/
+        - generic [ref=e930]:
+          - generic [ref=e931]:
+            - checkbox "I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time." [ref=e932]
+            - generic [ref=e933] [cursor=pointer]: I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time.
+          - generic [ref=e934]:
+            - textbox "E-mail" [ref=e936]:
+              - /placeholder: Enter E-mail Address
+            - button "Subscribe"
+        - generic [ref=e939]: You can unsubscribe at any time as described in Privacy Policy
+      - generic [ref=e940]:
+        - generic [ref=e944]:
+          - generic [ref=e945]: DOWNLOAD JUMIA FREE APP
+          - text: Get access to exclusive offers!
+        - generic [ref=e946]:
+          - link "Get it on the App Store" [ref=e947] [cursor=pointer]:
+            - /url: https://app.adjust.io/k4hu4w
+          - link "Get it on Google Play" [ref=e950] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.jumia.android&referrer=adjust_reftag%3DcdTxOjM
+    - generic [ref=e953]:
+      - generic [ref=e954]:
+        - generic [ref=e955]: Need Help?
+        - button "Chat with us" [ref=e956] [cursor=pointer]
+        - list [ref=e957]:
+          - listitem [ref=e958]:
+            - link "Help Center" [ref=e959] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/
+          - listitem [ref=e960]:
+            - link "Contact us" [ref=e961] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-contact/
+        - generic [ref=e962]: "Useful Links:"
+        - list [ref=e963]:
+          - listitem [ref=e964]:
+            - link "How to shop on Jumia?" [ref=e965] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/?page=place+an+order
+          - listitem [ref=e966]:
+            - link "How to pay on Jumia?" [ref=e967] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/?page=pay+for+your+order
+          - listitem [ref=e968]:
+            - link "Delivery timelines" [ref=e969] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-delivery-timelines/
+          - listitem [ref=e970]:
+            - link "Dispute Resolution Policy" [ref=e971] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-dispute-resolution-policy/
+          - listitem [ref=e972]:
+            - link "Return Policy" [ref=e973] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-return-policy-cp/
+          - listitem [ref=e974]:
+            - link "Refund Policy" [ref=e975] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-refund-policy-cp/
+          - listitem [ref=e976]:
+            - link "Black Friday" [ref=e977] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/mlp-black-friday/
+          - listitem [ref=e978]:
+            - link "Jumia Anniversary 2026" [ref=e979] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/ar/mlp-anniversary/
+      - generic [ref=e980]:
+        - generic [ref=e981]: ABOUT JUMIA EGYPT
+        - list [ref=e982]:
+          - listitem [ref=e983]:
+            - link "Jumia Careers" [ref=e984] [cursor=pointer]:
+              - /url: https://group.jumia.com/careers?location=egypt
+          - listitem [ref=e985]:
+            - link "Terms and Conditions" [ref=e986] [cursor=pointer]:
+              - /url: /terms-of-use/?internal=footer
+          - listitem [ref=e987]:
+            - link "Privacy Policy" [ref=e988] [cursor=pointer]:
+              - /url: /privacy/?internal=footer
+          - listitem [ref=e989]:
+            - link "Cookies Policy" [ref=e990] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-cookie/
+          - listitem [ref=e991]:
+            - link "Free Shipping" [ref=e992] [cursor=pointer]:
+              - /url: /mlp-free-shipping/?internal=footer
+          - listitem [ref=e993]:
+            - link "Flash Sales" [ref=e994] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/flash-sales/
+      - generic [ref=e995]:
+        - generic [ref=e996]: MAKE MONEY WITH JUMIA
+        - list [ref=e997]:
+          - listitem [ref=e998]:
+            - link "Sell on Jumia" [ref=e999] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-sell-on-jumia/
+          - listitem [ref=e1000]:
+            - link "Vendor Hub" [ref=e1001] [cursor=pointer]:
+              - /url: https://vendorhub.jumia.com.eg/
+          - listitem [ref=e1002]:
+            - link "Become a Sales Consultant (J-Force )" [ref=e1003] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-jforce-consultant/
+      - generic [ref=e1004]:
+        - generic [ref=e1005]: JUMIA INTERNATIONAL
+        - list [ref=e1006]:
+          - listitem [ref=e1007]:
+            - link "Ivory Coast" [ref=e1008] [cursor=pointer]:
+              - /url: https://www.jumia.ci/
+          - listitem [ref=e1009]:
+            - link "Ghana" [ref=e1010] [cursor=pointer]:
+              - /url: https://www.jumia.com.gh/
+          - listitem [ref=e1011]:
+            - link "Kenya" [ref=e1012] [cursor=pointer]:
+              - /url: https://www.jumia.co.ke/
+          - listitem [ref=e1013]:
+            - link "Morocco" [ref=e1014] [cursor=pointer]:
+              - /url: https://www.jumia.ma/
+        - list [ref=e1015]:
+          - listitem [ref=e1016]:
+            - link "Nigeria" [ref=e1017] [cursor=pointer]:
+              - /url: https://www.jumia.com.ng/
+          - listitem [ref=e1018]:
+            - link "Senegal" [ref=e1019] [cursor=pointer]:
+              - /url: https://www.jumia.sn/
+          - listitem [ref=e1020]:
+            - link "Uganda" [ref=e1021] [cursor=pointer]:
+              - /url: https://www.jumia.ug/
+    - generic [ref=e1023]:
+      - generic [ref=e1024]: Contact us
+      - generic [ref=e1025]:
+        - generic [ref=e1026]:
+          - generic [ref=e1027]: Business Name
+          - generic [ref=e1028]: Jumia Egypt
+        - generic [ref=e1029]:
+          - generic [ref=e1030]: Address
+          - generic [ref=e1031]: 272 /273 El Tesaeen El Shamaly St., Sector 2, 5th Compound, New Cairo, Behind Dusit Thani Lakeview, Cairo
+        - generic [ref=e1032]:
+          - generic [ref=e1033]: Phone Number
+          - generic [ref=e1034]:
+            - link "19586" [ref=e1035] [cursor=pointer]:
+              - /url: tel:+2019586
+            - text: ","
+            - link "17269" [ref=e1036] [cursor=pointer]:
+              - /url: tel:+2017269
+        - generic [ref=e1037]:
+          - generic [ref=e1038]: WhatsApp
+          - link "201011958600" [ref=e1040] [cursor=pointer]:
+            - /url: https://wa.me/20201011958600
+    - generic [ref=e1041]:
+      - generic [ref=e1042]:
+        - generic [ref=e1043]: JOIN US ON
+        - generic [ref=e1044]:
+          - link "Facebook Jumia Egypt" [ref=e1045] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/Jumia/100068403391761/
+          - link "Twitter Jumia Egypt" [ref=e1048] [cursor=pointer]:
+            - /url: https://twitter.com/JUMIAEgypt/
+          - link "Instagram Jumia Egypt" [ref=e1051] [cursor=pointer]:
+            - /url: https://www.instagram.com/jumiaegypt/
+          - link "YouTube Jumia Egypt" [ref=e1054] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/JumiaEgypt/
+          - link "Tik Tok" [ref=e1057] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@jumia.egypt?_t=8rJ4NeuPbzr&_r=1
+      - generic [ref=e1060]:
+        - generic [ref=e1061]: PAYMENT METHODS
+        - generic [ref=e1062]:
+          - link "Payment on delivery" [ref=e1063] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Mastercard" [ref=e1066] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Visa" [ref=e1069] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Jumia Pay" [ref=e1072] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Fawry" [ref=e1073] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+    - generic [ref=e1076]:
+      - list [ref=e1077]:
+        - listitem [ref=e1078]:
+          - link "Activ" [ref=e1079] [cursor=pointer]:
+            - /url: /activ/
+        - listitem [ref=e1080]:
+          - link "ADIDAS" [ref=e1081] [cursor=pointer]:
+            - /url: /adidas/
+        - listitem [ref=e1082]:
+          - link "American Eagle" [ref=e1083] [cursor=pointer]:
+            - /url: /american-eagle/
+        - listitem [ref=e1084]:
+          - link "Andora" [ref=e1085] [cursor=pointer]:
+            - /url: /andora/
+      - list [ref=e1086]:
+        - listitem [ref=e1087]:
+          - link "Apple" [ref=e1088] [cursor=pointer]:
+            - /url: /apple/
+        - listitem [ref=e1089]:
+          - link "Braun" [ref=e1090] [cursor=pointer]:
+            - /url: /braun/
+        - listitem [ref=e1091]:
+          - link "Casio" [ref=e1092] [cursor=pointer]:
+            - /url: /casio-edifice/
+        - listitem [ref=e1093]:
+          - link "Cottonil" [ref=e1094] [cursor=pointer]:
+            - /url: /cottonil/
+      - list [ref=e1095]:
+        - listitem [ref=e1096]:
+          - link "Defacto" [ref=e1097] [cursor=pointer]:
+            - /url: /defacto/
+        - listitem [ref=e1098]:
+          - link "Dice" [ref=e1099] [cursor=pointer]:
+            - /url: /dice/
+        - listitem [ref=e1100]:
+          - link "Fresh" [ref=e1101] [cursor=pointer]:
+            - /url: /fresh/
+        - listitem [ref=e1102]:
+          - link "Garnier" [ref=e1103] [cursor=pointer]:
+            - /url: /garnier/
+      - list [ref=e1104]:
+        - listitem [ref=e1105]:
+          - link "HP" [ref=e1106] [cursor=pointer]:
+            - /url: /hp/
+        - listitem [ref=e1107]:
+          - link "Izor" [ref=e1108] [cursor=pointer]:
+            - /url: /izor/
+        - listitem [ref=e1109]:
+          - link "Kady" [ref=e1110] [cursor=pointer]:
+            - /url: /kady/
+        - listitem [ref=e1111]:
+          - link "L'Oreal Paris" [ref=e1112] [cursor=pointer]:
+            - /url: /l-oreal/
+      - list [ref=e1113]:
+        - listitem [ref=e1114]:
+          - link "LC Waikiki" [ref=e1115] [cursor=pointer]:
+            - /url: /lc-waikiki/
+        - listitem [ref=e1116]:
+          - link "Lenovo" [ref=e1117] [cursor=pointer]:
+            - /url: /lenovo/
+        - listitem [ref=e1118]:
+          - link "Maybelline New York" [ref=e1119] [cursor=pointer]:
+            - /url: /maybelline/
+      - list [ref=e1120]:
+        - listitem [ref=e1121]:
+          - link "Mesery" [ref=e1122] [cursor=pointer]:
+            - /url: /mesery/
+        - listitem [ref=e1123]:
+          - link "NIVEA" [ref=e1124] [cursor=pointer]:
+            - /url: /nivea/
+        - listitem [ref=e1125]:
+          - link "Nokia" [ref=e1126] [cursor=pointer]:
+            - /url: /nokia/
+      - list [ref=e1127]:
+        - listitem [ref=e1128]:
+          - link "OPPO" [ref=e1129] [cursor=pointer]:
+            - /url: /oppo/
+        - listitem [ref=e1130]:
+          - link "Samsung" [ref=e1131] [cursor=pointer]:
+            - /url: /samsung/
+        - listitem [ref=e1132]:
+          - link "SHEIN" [ref=e1133] [cursor=pointer]:
+            - /url: /shein/
+      - list [ref=e1134]:
+        - listitem [ref=e1135]:
+          - link "Sokany" [ref=e1136] [cursor=pointer]:
+            - /url: /sokany/
+        - listitem [ref=e1137]:
+          - link "TORNADO" [ref=e1138] [cursor=pointer]:
+            - /url: /tornado/
+        - listitem [ref=e1139]:
+          - link "XIAOMI" [ref=e1140] [cursor=pointer]:
+            - /url: /xiaomi/
+    - generic [ref=e1141]:
+      - link "Jumia Pay" [ref=e1143] [cursor=pointer]:
+        - /url: https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar
+      - generic [ref=e1146]:
+        - generic [ref=e1147]: English
+        - link [ref=e1151] [cursor=pointer]:
+          - /url: /ar/catalog/?q=50+inch+smart+tv

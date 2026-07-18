@@ -1,0 +1,9 @@
+[    1533ms] ReferenceError: _satellite is not defined
+    at Object.initPageBottom (https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:2094)
+    at Object.init (https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:1588)
+    at https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:3056
+    at https://www.ikea.com/eg/en/local-modules/alfuttaim-aep/assets/index-C9o56ovL.js:1:3064
+[    3456ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://client.voice-able.com/load/ikeaeg:0
+[    4501ms] [LOG] secondary key value eg_en @ https://ikea-live.oriserve.com/chatbot/static/js/main.03d94fa6.js:1
+[    7454ms] [LOG] ERROR: Function not defined! @ :1
+[    7558ms] [WARNING] CarouselAnswerListFieldset not found - revealing without sync @ :1053

@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "phases": [
+    {
+      "id": "discover",
+      "name": "Discover & profile",
+      "items": [
+        { "id": "city", "label": "Confirm city / area", "done": true },
+        { "id": "budget", "label": "Set overall budget band (EGP)", "done": false },
+        { "id": "what_exists", "label": "List what the apartment already has", "done": true },
+        { "id": "inventory_owned", "label": "Inventory owned/gifted items", "done": true },
+        { "id": "style", "label": "Agree style keywords + colors", "done": false },
+        { "id": "second_room", "label": "Decide second bedroom use", "done": true },
+        { "id": "priorities", "label": "Rank buy-now vs later", "done": false }
+      ]
+    },
+    {
+      "id": "big_ticket",
+      "name": "Big ticket appliances",
+      "items": [
+        { "id": "fridge", "label": "Fridge shortlist + decision", "done": false },
+        { "id": "cooker", "label": "Cooker / hob decision", "done": true },
+        { "id": "washer", "label": "Washer decision", "done": false },
+        { "id": "ac", "label": "AC plan per room", "done": true },
+        { "id": "heater", "label": "Water heater plan", "done": false }
+      ]
+    },
+    {
+      "id": "comfort",
+      "name": "Comfort & light",
+      "items": [
+        { "id": "lighting", "label": "Whole-home lighting plan", "done": false },
+        { "id": "curtains", "label": "Curtains / blinds", "done": false },
+        { "id": "mattress", "label": "Mattress + bed", "done": false }
+      ]
+    },
+    {
+      "id": "furnish",
+      "name": "Furnish & style",
+      "items": [
+        { "id": "living_furn", "label": "Living furniture", "done": false },
+        { "id": "dining", "label": "Dining solution", "done": false },
+        { "id": "second_setup", "label": "Second room furniture", "done": false },
+        { "id": "soft", "label": "Rugs, textiles, decor", "done": false }
+      ]
+    }
+  ]
+}

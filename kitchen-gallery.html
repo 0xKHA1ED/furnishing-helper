@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kitchen storage — under 25k</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/appliances.css" />
+    <style>
+      .kit-card {
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 1.1rem 1.2rem;
+        background: var(--bg-card);
+        margin-bottom: 1rem;
+      }
+      .kit-card.recommended {
+        border-color: rgba(201, 162, 39, 0.5);
+        background: linear-gradient(135deg, rgba(201, 162, 39, 0.08), var(--bg-card));
+      }
+      .kit-total {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--accent);
+      }
+      .zone-tag {
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">
+            <a href="index.html">← Hub</a> ·
+            <a href="fridge-gallery.html">Fridge</a> ·
+            <a href="washer-gallery.html">Washer</a> · Kitchen
+          </p>
+          <h1>Kitchen storage under 25k</h1>
+          <p class="lead">
+            Empty kitchen (plumbing/electric only). Budget
+            <strong>≤ 25,000 EGP</strong>, storage only. Best quality under budget —
+            IKEA Egypt researched first. Wall drilling OK. Balanced starter (food +
+            containers + cookware zones).
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold">Max 25k EGP</span>
+          <span class="badge">Storage only</span>
+        </div>
+      </header>
+
+      <div class="help-callout" id="disclaimer">Loading…</div>
+
+      <h2 style="margin-top: 0">Ready-made kits</h2>
+      <div id="kits"></div>
+
+      <h2>Building blocks (add/remove)</h2>
+      <p class="sticky-count" id="result-count"></p>
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="card" style="margin-top: 1.5rem">
+        <h2>Shopping notes</h2>
+        <ul id="notes" class="muted"></ul>
+      </div>
+
+      <footer class="app-footer">
+        Data: <code>data/appliances/kitchen_catalog.json</code> · Re-check IKEA EG prices
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal-backdrop">
+      <div class="modal">
+        <div class="modal-head">
+          <div>
+            <h2 id="modal-title">Item</h2>
+            <p class="muted" id="modal-sub" style="margin: 0.25rem 0 0; font-size: 0.85rem"></p>
+          </div>
+          <button type="button" class="modal-close" id="modal-close">Close</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <img class="main-img" id="modal-main-img" alt="" referrerpolicy="no-referrer" />
+            <div class="ph" id="modal-no-img" style="display: none; color: #9aa6bc; text-align: center; padding: 2rem">No photo</div>
+          </div>
+          <div class="modal-info">
+            <div class="price-lg" id="modal-price"></div>
+            <p class="muted" id="modal-summary" style="margin: 0.5rem 0 0"></p>
+            <div class="pc-grid">
+              <div class="pc-box pros"><h4>Pros</h4><ul id="modal-pros"></ul></div>
+              <div class="pc-box cons"><h4>Cons</h4><ul id="modal-cons"></ul></div>
+            </div>
+            <div class="btn-row" style="margin-top: 1rem">
+              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="toast" class="toast"></div>
+    <script>
+      let data = null;
+      let active = null;
+      const $ = (s) => document.querySelector(s);
+      function esc(s) {
+        return String(s || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+      function fmt(n) {
+        return Number(n).toLocaleString() + " EGP";
+      }
+      function itemById(id) {
+        return data.items.find((i) => i.id === id);
+      }
+      function renderKits() {
+        $("#kits").innerHTML = data.kits
+          .map((k, idx) => {
+            const lines = (k.itemIds || [])
+              .map((id) => {
+                const it = itemById(id);
+                if (!it) return "";
+                return `<li><strong>${esc(it.name)}</strong> — ${fmt(it.priceEGP)}</li>`;
+              })
+              .join("");
+            return `<article class="kit-card ${idx === 0 ? "recommended" : ""}">
+              <div style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap">
+                <div>
+                  <div class="zone-tag">${idx === 0 ? "Recommended" : "Alternative"}</div>
+                  <h3 style="margin:0.2rem 0">${esc(k.name)}</h3>
+                  <p class="muted" style="margin:0.35rem 0 0">${esc(k.summary)}</p>
+                </div>
+                <div style="text-align:right">
+                  <div class="kit-total">${fmt(k.totalEGP)}</div>
+                  <div class="muted" style="font-size:0.85rem">Buffer ~${fmt(k.bufferEGP)}</div>
+                </div>
+              </div>
+              <ul class="muted" style="margin:0.75rem 0 0;padding-left:1.1rem">${lines}</ul>
+              <div class="pc-grid" style="margin-top:0.75rem">
+                <div class="pc-box pros"><h4>Pros</h4><ul>${(k.pros || []).map((p) => `<li>${esc(p)}</li>`).join("")}</ul></div>
+                <div class="pc-box cons"><h4>Cons</h4><ul>${(k.cons || []).map((p) => `<li>${esc(p)}</li>`).join("")}</ul></div>
+              </div>
+            </article>`;
+          })
+          .join("");
+      }
+      function renderItems() {
+        const items = data.items || [];
+        $("#result-count").textContent = `${items.length} building blocks`;
+        $("#product-grid").innerHTML = items
+          .map((it) => {
+            const img = it.imageUrl
+              ? `<img src="${esc(it.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
+              : `<div class="ph">No image</div>`;
+            return `<article class="product-card" data-id="${esc(it.id)}">
+              <div class="thumb">${img}</div>
+              <div class="body">
+                <div class="zone-tag">${esc(it.zone)}</div>
+                <div class="brand">${esc(it.brand)}</div>
+                <h3>${esc(it.name)}</h3>
+                <div class="price">${fmt(it.priceEGP)}</div>
+              </div>
+            </article>`;
+          })
+          .join("");
+        document.querySelectorAll(".product-card").forEach((card) => {
+          card.addEventListener("click", () => openModal(card.dataset.id));
+        });
+      }
+      function openModal(id) {
+        active = itemById(id);
+        if (!active) return;
+        $("#modal-backdrop").classList.add("open");
+        $("#modal-title").textContent = active.name;
+        $("#modal-sub").textContent = `${active.brand} · ${active.zone}`;
+        $("#modal-price").textContent = fmt(active.priceEGP);
+        $("#modal-summary").textContent = active.summary || "";
+        if (active.imageUrl) {
+          $("#modal-main-img").src = active.imageUrl;
+          $("#modal-main-img").style.display = "block";
+          $("#modal-no-img").style.display = "none";
+        } else {
+          $("#modal-main-img").style.display = "none";
+          $("#modal-no-img").style.display = "block";
+        }
+        $("#modal-pros").innerHTML = (active.pros || []).map((p) => `<li>${esc(p)}</li>`).join("");
+        $("#modal-cons").innerHTML = (active.cons || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        $("#modal-link").href = active.url || "#";
+      }
+      async function init() {
+        try {
+          data = await (await fetch("data/appliances/kitchen_catalog.json")).json();
+          $("#disclaimer").textContent = data.disclaimer || "";
+          $("#notes").innerHTML = (data.shoppingNotes || []).map((n) => `<li>${esc(n)}</li>`).join("");
+          renderKits();
+          renderItems();
+        } catch {
+          $("#disclaimer").innerHTML =
+            "Run <code>python -m http.server 8765</code> then open http://localhost:8765/kitchen-gallery.html";
+        }
+        $("#modal-close").onclick = () => $("#modal-backdrop").classList.remove("open");
+        $("#modal-backdrop").addEventListener("click", (e) => {
+          if (e.target.id === "modal-backdrop") $("#modal-backdrop").classList.remove("open");
+        });
+      }
+      init();
+    </script>
+  </body>
+</html>

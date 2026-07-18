@@ -1,0 +1,907 @@
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - main [ref=e2]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link [ref=e7] [cursor=pointer]:
+            - /url: /en
+            - img "btech logo" [ref=e8]
+          - button [ref=e10] [cursor=pointer]:
+            - img "delivery address" [ref=e11]
+            - paragraph [ref=e13]: "Delivering to:"
+        - generic [ref=e16]:
+          - img "search" [ref=e18]
+          - textbox "What are you looking for?" [ref=e19]
+        - generic [ref=e20]:
+          - link [ref=e21] [cursor=pointer]:
+            - /url: /ar/c/large-home-appliances/refrigerators?color=Black&price=0-35000
+            - img "change language" [ref=e22]
+            - paragraph [ref=e23]: عربي
+          - button [ref=e24] [cursor=pointer]:
+            - img "wishlist" [ref=e25]
+            - paragraph [ref=e26]: Wishlist
+          - link [ref=e27] [cursor=pointer]:
+            - /url: /en/account
+            - img "my account" [ref=e28]
+            - paragraph [ref=e29]: Account
+          - link [ref=e30] [cursor=pointer]:
+            - /url: /en/cart
+            - img "cart" [ref=e32]
+            - paragraph [ref=e33]: Cart
+      - generic [ref=e34]:
+        - button "menu All categories" [ref=e35] [cursor=pointer]:
+          - img "menu" [ref=e36]
+          - generic [ref=e37]: All categories
+        - generic [ref=e38]:
+          - link "Electronics" [ref=e39] [cursor=pointer]:
+            - /url: /en/c/electronics
+          - link "Large Home Appliances" [ref=e40] [cursor=pointer]:
+            - /url: /en/c/large-home-appliances
+          - link "Mobiles, Tablets & Accessories" [ref=e41] [cursor=pointer]:
+            - /url: /en/c/mobiles-tablets
+          - link "Small Home Appliances" [ref=e42] [cursor=pointer]:
+            - /url: /en/c/small-home-appliances
+          - link "Laptops, PCs & accessories" [ref=e43] [cursor=pointer]:
+            - /url: /en/c/laptop-pc
+          - link "TVs" [ref=e44] [cursor=pointer]:
+            - /url: /en/c/tvs-projectors
+    - generic [ref=e49]:
+      - navigation "breadcrumb" [ref=e50]:
+        - list [ref=e51]:
+          - listitem [ref=e53]:
+            - link "Home" [ref=e54] [cursor=pointer]:
+              - /url: ""
+          - generic [ref=e55]:
+            - listitem [ref=e56]
+            - listitem [ref=e59]:
+              - link "Large Home Appliances" [ref=e60] [cursor=pointer]:
+                - /url: c/large-home-appliances
+          - generic [ref=e61]:
+            - listitem [ref=e62]
+            - listitem [ref=e65]:
+              - generic [ref=e66]: Refrigerators
+      - button [ref=e70] [cursor=pointer]:
+        - img "Category Banner (Refrigerators)" [ref=e71]
+      - heading "Refrigerators" [level=1] [ref=e72]
+      - generic [ref=e75]:
+        - button "All" [pressed] [ref=e76] [cursor=pointer]
+        - link "Mini bars" [ref=e77] [cursor=pointer]:
+          - /url: /en/c/large-home-appliances/refrigerators/mini-bars
+        - link "French door refrigerators" [ref=e78] [cursor=pointer]:
+          - /url: /en/c/large-home-appliances/refrigerators/french-door-refrigerators
+        - link "One Door refrigerators" [ref=e79] [cursor=pointer]:
+          - /url: /en/c/large-home-appliances/refrigerators/one-door-refrigerators
+        - link "Side-by-side refrigerators" [ref=e80] [cursor=pointer]:
+          - /url: /en/c/large-home-appliances/refrigerators/side-by-side-refrigerators
+      - generic [ref=e82]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - heading "All filters" [level=2] [ref=e87]
+            - button "Clear all" [ref=e88] [cursor=pointer]
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - button "Brand" [expanded] [ref=e93] [cursor=pointer]
+              - generic [ref=e100]:
+                - textbox "Search all brands" [ref=e107]
+                - generic [ref=e108]:
+                  - generic [ref=e109]:
+                    - checkbox "Alaska (19)" [ref=e110] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e111] [cursor=pointer]: Alaska (19)
+                  - generic [ref=e112]:
+                    - checkbox "Ariston (8)" [ref=e113] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e114] [cursor=pointer]: Ariston (8)
+                  - generic [ref=e115]:
+                    - checkbox "Beko (45)" [ref=e116] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e117] [cursor=pointer]: Beko (45)
+                  - generic [ref=e118]:
+                    - checkbox "Bosch (10)" [ref=e119] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e120] [cursor=pointer]: Bosch (10)
+                  - generic [ref=e121]:
+                    - checkbox "Castle (1)" [ref=e122] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e123] [cursor=pointer]: Castle (1)
+                  - generic [ref=e124]:
+                    - checkbox "Fresh (36)" [ref=e125] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e126] [cursor=pointer]: Fresh (36)
+                  - generic [ref=e127]:
+                    - checkbox "General Star (3)" [ref=e128] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e129] [cursor=pointer]: General Star (3)
+                  - generic [ref=e130]:
+                    - checkbox "Haier (7)" [ref=e131] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e132] [cursor=pointer]: Haier (7)
+                  - generic [ref=e133]:
+                    - checkbox "Hamburg (4)" [ref=e134] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e135] [cursor=pointer]: Hamburg (4)
+                  - generic [ref=e136]:
+                    - checkbox "Hisense (3)" [ref=e137] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e138] [cursor=pointer]: Hisense (3)
+                  - generic [ref=e139]:
+                    - checkbox "Hitachi (5)" [ref=e140] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e141] [cursor=pointer]: Hitachi (5)
+                  - generic [ref=e142]:
+                    - checkbox "Ideal (2)" [ref=e143] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e144] [cursor=pointer]: Ideal (2)
+                  - generic [ref=e145]:
+                    - checkbox "Indesit (1)" [ref=e146] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e147] [cursor=pointer]: Indesit (1)
+                  - generic [ref=e148]:
+                    - checkbox "Kiriazi (21)" [ref=e149] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e150] [cursor=pointer]: Kiriazi (21)
+                  - generic [ref=e151]:
+                    - checkbox "LG (14)" [ref=e152] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e153] [cursor=pointer]: LG (14)
+                  - generic [ref=e154]:
+                    - checkbox "Midea (10)" [ref=e155] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e156] [cursor=pointer]: Midea (10)
+                  - generic [ref=e157]:
+                    - checkbox "Ocean (2)" [ref=e158] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e159] [cursor=pointer]: Ocean (2)
+                  - generic [ref=e160]:
+                    - checkbox "Passap (5)" [ref=e161] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e162] [cursor=pointer]: Passap (5)
+                  - generic [ref=e163]:
+                    - checkbox "Penguin (3)" [ref=e164] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e165] [cursor=pointer]: Penguin (3)
+                  - generic [ref=e166]:
+                    - checkbox "Pluto (1)" [ref=e167] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e168] [cursor=pointer]: Pluto (1)
+                  - generic [ref=e169]:
+                    - checkbox "Premium (1)" [ref=e170] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e171] [cursor=pointer]: Premium (1)
+                  - generic [ref=e172]:
+                    - checkbox "Samsung (10)" [ref=e173] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e174] [cursor=pointer]: Samsung (10)
+                  - generic [ref=e175]:
+                    - checkbox "Sharp (20)" [ref=e176] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e177] [cursor=pointer]: Sharp (20)
+                  - generic [ref=e178]:
+                    - checkbox "Siltal (5)" [ref=e179] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e180] [cursor=pointer]: Siltal (5)
+                  - generic [ref=e181]:
+                    - checkbox "Tornado (17)" [ref=e182] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e183] [cursor=pointer]: Tornado (17)
+                  - generic [ref=e184]:
+                    - checkbox "Toshiba (18)" [ref=e185] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e186] [cursor=pointer]: Toshiba (18)
+                  - generic [ref=e187]:
+                    - checkbox "Unionaire (28)" [ref=e188] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e189] [cursor=pointer]: Unionaire (28)
+                  - generic [ref=e190]:
+                    - checkbox "W.ِAlaska (1)" [ref=e191] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e192] [cursor=pointer]: W.ِAlaska (1)
+                  - generic [ref=e193]:
+                    - checkbox "White Point (11)" [ref=e194] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e195] [cursor=pointer]: White Point (11)
+                  - generic [ref=e196]:
+                    - checkbox "White Whale (18)" [ref=e197] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e198] [cursor=pointer]: White Whale (18)
+                  - generic [ref=e199]:
+                    - checkbox "Zanussi (5)" [ref=e200] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e201] [cursor=pointer]: Zanussi (5)
+            - generic [ref=e203]:
+              - button "Price" [ref=e205] [cursor=pointer]
+              - generic [ref=e212]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - generic [ref=e219]: Min.
+                    - textbox "Min." [ref=e221]: "8272"
+                  - generic [ref=e222]:
+                    - generic [ref=e223]: Max.
+                    - textbox "Max." [ref=e225]: "165649"
+                - button "Apply price" [disabled] [ref=e226]
+            - generic [ref=e228]:
+              - button "Color" [ref=e230] [cursor=pointer]
+              - generic [ref=e237]:
+                - generic [ref=e238] [cursor=pointer]:
+                  - checkbox "Black (102)" [ref=e239]
+                  - radio [ref=e240]
+                  - generic [ref=e241]: Black (102)
+                - generic [ref=e242] [cursor=pointer]:
+                  - checkbox "Black Glass (4)" [ref=e243]
+                  - radio [ref=e244]
+                  - generic [ref=e245]: Black Glass (4)
+                - generic [ref=e246] [cursor=pointer]:
+                  - checkbox "Black Inox (1)" [ref=e247]
+                  - radio [ref=e248]
+                  - generic [ref=e249]: Black Inox (1)
+                - generic [ref=e250] [cursor=pointer]:
+                  - checkbox "Black Jazz (2)" [ref=e251]
+                  - radio [ref=e252]
+                  - generic [ref=e253]: Black Jazz (2)
+                - generic [ref=e254] [cursor=pointer]:
+                  - checkbox "Black Red (1)" [ref=e255]
+                  - radio [ref=e256]
+                  - generic [ref=e257]: Black Red (1)
+                - generic [ref=e258] [cursor=pointer]:
+                  - checkbox "Black Steel (1)" [ref=e259]
+                  - radio [ref=e260]
+                  - generic [ref=e261]: Black Steel (1)
+                - generic [ref=e262] [cursor=pointer]:
+                  - checkbox "Blue (1)" [ref=e263]
+                  - radio [ref=e264]
+                  - generic [ref=e265]: Blue (1)
+                - generic [ref=e266] [cursor=pointer]:
+                  - checkbox "Brown (1)" [ref=e267]
+                  - radio [ref=e268]
+                  - generic [ref=e269]: Brown (1)
+                - generic [ref=e270] [cursor=pointer]:
+                  - checkbox "Brushed Silver (1)" [ref=e271]
+                  - radio [ref=e272]
+                  - generic [ref=e273]: Brushed Silver (1)
+                - generic [ref=e274] [cursor=pointer]:
+                  - checkbox "Burgundy (1)" [ref=e275]
+                  - radio [ref=e276]
+                  - generic [ref=e277]: Burgundy (1)
+                - generic [ref=e278] [cursor=pointer]:
+                  - checkbox "champagne (1)" [ref=e279]
+                  - radio [ref=e280]
+                  - generic [ref=e281]: champagne (1)
+                - generic [ref=e282] [cursor=pointer]:
+                  - checkbox "Dark Grey (2)" [ref=e283]
+                  - radio [ref=e284]
+                  - generic [ref=e285]: Dark Grey (2)
+                - generic [ref=e286] [cursor=pointer]:
+                  - checkbox "Dark Inox (3)" [ref=e287]
+                  - radio [ref=e288]
+                  - generic [ref=e289]: Dark Inox (3)
+                - generic [ref=e290] [cursor=pointer]:
+                  - checkbox "Dark Red (1)" [ref=e291]
+                  - radio [ref=e292]
+                  - generic [ref=e293]: Dark Red (1)
+                - generic [ref=e294] [cursor=pointer]:
+                  - checkbox "Dark Stainless Steel (2)" [ref=e295]
+                  - radio [ref=e296]
+                  - generic [ref=e297]: Dark Stainless Steel (2)
+                - generic [ref=e298] [cursor=pointer]:
+                  - checkbox "Gray (4)" [ref=e299]
+                  - radio [ref=e300]
+                  - generic [ref=e301]: Gray (4)
+                - generic [ref=e302] [cursor=pointer]:
+                  - checkbox "Grey (4)" [ref=e303]
+                  - radio [ref=e304]
+                  - generic [ref=e305]: Grey (4)
+                - generic [ref=e306] [cursor=pointer]:
+                  - checkbox "Inox (10)" [ref=e307]
+                  - radio [ref=e308]
+                  - generic [ref=e309]: Inox (10)
+                - generic [ref=e310] [cursor=pointer]:
+                  - checkbox "Morandi Grey (1)" [ref=e311]
+                  - radio [ref=e312]
+                  - generic [ref=e313]: Morandi Grey (1)
+                - generic [ref=e314] [cursor=pointer]:
+                  - checkbox "Navy (1)" [ref=e315]
+                  - radio [ref=e316]
+                  - generic [ref=e317]: Navy (1)
+                - generic [ref=e318] [cursor=pointer]:
+                  - checkbox "Pink (1)" [ref=e319]
+                  - radio [ref=e320]
+                  - generic [ref=e321]: Pink (1)
+                - generic [ref=e322] [cursor=pointer]:
+                  - checkbox "Red (4)" [ref=e323]
+                  - radio [ref=e324]
+                  - generic [ref=e325]: Red (4)
+                - generic [ref=e326] [cursor=pointer]:
+                  - checkbox "Refind Inox (1)" [ref=e327]
+                  - radio [ref=e328]
+                  - generic [ref=e329]: Refind Inox (1)
+                - generic [ref=e330] [cursor=pointer]:
+                  - checkbox "Silver (124)" [ref=e331]
+                  - radio [ref=e332]
+                  - generic [ref=e333]: Silver (124)
+                - generic [ref=e334] [cursor=pointer]:
+                  - checkbox "Stainless Steel (47)" [ref=e335]
+                  - radio [ref=e336]
+                  - generic [ref=e337]: Stainless Steel (47)
+                - generic [ref=e338] [cursor=pointer]:
+                  - checkbox "Titanium Inox (1)" [ref=e339]
+                  - radio [ref=e340]
+                  - generic [ref=e341]: Titanium Inox (1)
+                - generic [ref=e342] [cursor=pointer]:
+                  - checkbox "White (12)" [ref=e343]
+                  - radio [ref=e344]
+                  - generic [ref=e345]: White (12)
+            - generic [ref=e348]:
+              - generic [ref=e349]:
+                - generic [ref=e350]: Sold by
+                - img "B.Tech" [ref=e351]
+              - switch [ref=e352] [cursor=pointer]
+              - checkbox
+            - generic [ref=e355]:
+              - generic [ref=e356]: Fulfilled By B.Tech
+              - switch [ref=e358] [cursor=pointer]
+              - checkbox
+            - generic [ref=e360]:
+              - button "Capacity" [ref=e362] [cursor=pointer]
+              - generic [ref=e369]:
+                - textbox "Search all brands" [ref=e376]
+                - generic [ref=e377]:
+                  - generic [ref=e378]:
+                    - checkbox "16.0000 Feet (2)" [ref=e379] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e380] [cursor=pointer]: 16.0000 Feet (2)
+                  - generic [ref=e381]:
+                    - checkbox "18.0000 Feet (2)" [ref=e382] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e383] [cursor=pointer]: 18.0000 Feet (2)
+                  - generic [ref=e384]:
+                    - checkbox "27.0000 Feet (1)" [ref=e385] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e386] [cursor=pointer]: 27.0000 Feet (1)
+                  - generic [ref=e387]:
+                    - checkbox "45.0000 Liter (1)" [ref=e388] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e389] [cursor=pointer]: 45.0000 Liter (1)
+                  - generic [ref=e390]:
+                    - checkbox "84.0000 Liter (1)" [ref=e391] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e392] [cursor=pointer]: 84.0000 Liter (1)
+                  - generic [ref=e393]:
+                    - checkbox "87.0000 Liter (1)" [ref=e394] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e395] [cursor=pointer]: 87.0000 Liter (1)
+                  - generic [ref=e396]:
+                    - checkbox "90.0000 Liter (7)" [ref=e397] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e398] [cursor=pointer]: 90.0000 Liter (7)
+                  - generic [ref=e399]:
+                    - checkbox "91.0000 Liter (6)" [ref=e400] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e401] [cursor=pointer]: 91.0000 Liter (6)
+                  - generic [ref=e402]:
+                    - checkbox "95.0000 Liter (2)" [ref=e403] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e404] [cursor=pointer]: 95.0000 Liter (2)
+                  - generic [ref=e405]:
+                    - checkbox "97.0000 Liter (1)" [ref=e406] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e407] [cursor=pointer]: 97.0000 Liter (1)
+                  - generic [ref=e408]:
+                    - checkbox "100.0000 Liter (1)" [ref=e409] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e410] [cursor=pointer]: 100.0000 Liter (1)
+                  - generic [ref=e411]:
+                    - checkbox "116.0000 Liter (1)" [ref=e412] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e413] [cursor=pointer]: 116.0000 Liter (1)
+                  - generic [ref=e414]:
+                    - checkbox "120.0000 Liter (1)" [ref=e415] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e416] [cursor=pointer]: 120.0000 Liter (1)
+                  - generic [ref=e417]:
+                    - checkbox "130.0000 Liter (1)" [ref=e418] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e419] [cursor=pointer]: 130.0000 Liter (1)
+                  - generic [ref=e420]:
+                    - checkbox "238.0000 Liter (1)" [ref=e421] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e422] [cursor=pointer]: 238.0000 Liter (1)
+                  - generic [ref=e423]:
+                    - checkbox "280.0000 Liter (3)" [ref=e424] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e425] [cursor=pointer]: 280.0000 Liter (3)
+                  - generic [ref=e426]:
+                    - checkbox "282.0000 Liter (2)" [ref=e427] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e428] [cursor=pointer]: 282.0000 Liter (2)
+                  - generic [ref=e429]:
+                    - checkbox "283.0000 Liter (1)" [ref=e430] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e431] [cursor=pointer]: 283.0000 Liter (1)
+                  - generic [ref=e432]:
+                    - checkbox "289.0000 Liter (2)" [ref=e433] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e434] [cursor=pointer]: 289.0000 Liter (2)
+                  - generic [ref=e435]:
+                    - checkbox "290.0000 Liter (1)" [ref=e436] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e437] [cursor=pointer]: 290.0000 Liter (1)
+                  - generic [ref=e438]:
+                    - checkbox "293.0000 Liter (1)" [ref=e439] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e440] [cursor=pointer]: 293.0000 Liter (1)
+                  - generic [ref=e441]:
+                    - checkbox "294.0000 Liter (1)" [ref=e442] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e443] [cursor=pointer]: 294.0000 Liter (1)
+                  - generic [ref=e444]:
+                    - checkbox "296.0000 Liter (1)" [ref=e445] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e446] [cursor=pointer]: 296.0000 Liter (1)
+                  - generic [ref=e447]:
+                    - checkbox "300.0000 Liter (2)" [ref=e448] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e449] [cursor=pointer]: 300.0000 Liter (2)
+                  - generic [ref=e450]:
+                    - checkbox "303.0000 Liter (1)" [ref=e451] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e452] [cursor=pointer]: 303.0000 Liter (1)
+                  - generic [ref=e453]:
+                    - checkbox "304.0000 Liter (4)" [ref=e454] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e455] [cursor=pointer]: 304.0000 Liter (4)
+                  - generic [ref=e456]:
+                    - checkbox "310.0000 Liter (4)" [ref=e457] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e458] [cursor=pointer]: 310.0000 Liter (4)
+                  - generic [ref=e459]:
+                    - checkbox "311.0000 Liter (3)" [ref=e460] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e461] [cursor=pointer]: 311.0000 Liter (3)
+                  - generic [ref=e462]:
+                    - checkbox "314.0000 Liter (1)" [ref=e463] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e464] [cursor=pointer]: 314.0000 Liter (1)
+                  - generic [ref=e465]:
+                    - checkbox "315.0000 Liter (1)" [ref=e466] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e467] [cursor=pointer]: 315.0000 Liter (1)
+                  - generic [ref=e468]:
+                    - checkbox "316.0000 Liter (1)" [ref=e469] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e470] [cursor=pointer]: 316.0000 Liter (1)
+                  - generic [ref=e471]:
+                    - checkbox "318.0000 Liter (2)" [ref=e472] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e473] [cursor=pointer]: 318.0000 Liter (2)
+                  - generic [ref=e474]:
+                    - checkbox "320.0000 Liter (7)" [ref=e475] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e476] [cursor=pointer]: 320.0000 Liter (7)
+                  - generic [ref=e477]:
+                    - checkbox "324.0000 Liter (1)" [ref=e478] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e479] [cursor=pointer]: 324.0000 Liter (1)
+                  - generic [ref=e480]:
+                    - checkbox "326.0000 Liter (3)" [ref=e481] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e482] [cursor=pointer]: 326.0000 Liter (3)
+                  - generic [ref=e483]:
+                    - checkbox "328.0000 Liter (2)" [ref=e484] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e485] [cursor=pointer]: 328.0000 Liter (2)
+                  - generic [ref=e486]:
+                    - checkbox "329.0000 Liter (4)" [ref=e487] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e488] [cursor=pointer]: 329.0000 Liter (4)
+                  - generic [ref=e489]:
+                    - checkbox "330.0000 Liter (5)" [ref=e490] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e491] [cursor=pointer]: 330.0000 Liter (5)
+                  - generic [ref=e492]:
+                    - checkbox "338.0000 Liter (6)" [ref=e493] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e494] [cursor=pointer]: 338.0000 Liter (6)
+                  - generic [ref=e495]:
+                    - checkbox "340.0000 Liter (8)" [ref=e496] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e497] [cursor=pointer]: 340.0000 Liter (8)
+                  - generic [ref=e498]:
+                    - checkbox "341.0000 Liter (1)" [ref=e499] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e500] [cursor=pointer]: 341.0000 Liter (1)
+                  - generic [ref=e501]:
+                    - checkbox "344.0000 Liter (1)" [ref=e502] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e503] [cursor=pointer]: 344.0000 Liter (1)
+                  - generic [ref=e504]:
+                    - checkbox "345.0000 Liter (1)" [ref=e505] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e506] [cursor=pointer]: 345.0000 Liter (1)
+                  - generic [ref=e507]:
+                    - checkbox "350.0000 Liter (8)" [ref=e508] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e509] [cursor=pointer]: 350.0000 Liter (8)
+                  - generic [ref=e510]:
+                    - checkbox "351.0000 Liter (1)" [ref=e511] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e512] [cursor=pointer]: 351.0000 Liter (1)
+                  - generic [ref=e513]:
+                    - checkbox "355.0000 Liter (6)" [ref=e514] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e515] [cursor=pointer]: 355.0000 Liter (6)
+                  - generic [ref=e516]:
+                    - checkbox "357.0000 Liter (2)" [ref=e517] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e518] [cursor=pointer]: 357.0000 Liter (2)
+                  - generic [ref=e519]:
+                    - checkbox "367.0000 Liter (10)" [ref=e520] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e521] [cursor=pointer]: 367.0000 Liter (10)
+                  - generic [ref=e522]:
+                    - checkbox "369.0000 Liter (9)" [ref=e523] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e524] [cursor=pointer]: 369.0000 Liter (9)
+                  - generic [ref=e525]:
+                    - checkbox "370.0000 Liter (14)" [ref=e526] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e527] [cursor=pointer]: 370.0000 Liter (14)
+                  - generic [ref=e528]:
+                    - checkbox "385.0000 Liter (1)" [ref=e529] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e530] [cursor=pointer]: 385.0000 Liter (1)
+                  - generic [ref=e531]:
+                    - checkbox "390.0000 Liter (1)" [ref=e532] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e533] [cursor=pointer]: 390.0000 Liter (1)
+                  - generic [ref=e534]:
+                    - checkbox "395.0000 Liter (2)" [ref=e535] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e536] [cursor=pointer]: 395.0000 Liter (2)
+                  - generic [ref=e537]:
+                    - checkbox "396.0000 Liter (7)" [ref=e538] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e539] [cursor=pointer]: 396.0000 Liter (7)
+                  - generic [ref=e540]:
+                    - checkbox "397.0000 Liter (9)" [ref=e541] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e542] [cursor=pointer]: 397.0000 Liter (9)
+                  - generic [ref=e543]:
+                    - checkbox "400.0000 Liter (1)" [ref=e544] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e545] [cursor=pointer]: 400.0000 Liter (1)
+                  - generic [ref=e546]:
+                    - checkbox "401.0000 Liter (2)" [ref=e547] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e548] [cursor=pointer]: 401.0000 Liter (2)
+                  - generic [ref=e549]:
+                    - checkbox "404.0000 Liter (1)" [ref=e550] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e551] [cursor=pointer]: 404.0000 Liter (1)
+                  - generic [ref=e552]:
+                    - checkbox "406.0000 Liter (5)" [ref=e553] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e554] [cursor=pointer]: 406.0000 Liter (5)
+                  - generic [ref=e555]:
+                    - checkbox "408.0000 Liter (3)" [ref=e556] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e557] [cursor=pointer]: 408.0000 Liter (3)
+                  - generic [ref=e558]:
+                    - checkbox "411.0000 Liter (11)" [ref=e559] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e560] [cursor=pointer]: 411.0000 Liter (11)
+                  - generic [ref=e561]:
+                    - checkbox "412.0000 Liter (1)" [ref=e562] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e563] [cursor=pointer]: 412.0000 Liter (1)
+                  - generic [ref=e564]:
+                    - checkbox "415.0000 Liter (1)" [ref=e565] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e566] [cursor=pointer]: 415.0000 Liter (1)
+                  - generic [ref=e567]:
+                    - checkbox "418.0000 Liter (1)" [ref=e568] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e569] [cursor=pointer]: 418.0000 Liter (1)
+                  - generic [ref=e570]:
+                    - checkbox "420.0000 Liter (14)" [ref=e571] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e572] [cursor=pointer]: 420.0000 Liter (14)
+                  - generic [ref=e573]:
+                    - checkbox "426.0000 Liter (2)" [ref=e574] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e575] [cursor=pointer]: 426.0000 Liter (2)
+                  - generic [ref=e576]:
+                    - checkbox "430.0000 Liter (12)" [ref=e577] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e578] [cursor=pointer]: 430.0000 Liter (12)
+                  - generic [ref=e579]:
+                    - checkbox "433.0000 Liter (1)" [ref=e580] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e581] [cursor=pointer]: 433.0000 Liter (1)
+                  - generic [ref=e582]:
+                    - checkbox "440.0000 Liter (2)" [ref=e583] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e584] [cursor=pointer]: 440.0000 Liter (2)
+                  - generic [ref=e585]:
+                    - checkbox "449.0000 Liter (3)" [ref=e586] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e587] [cursor=pointer]: 449.0000 Liter (3)
+                  - generic [ref=e588]:
+                    - checkbox "450.0000 Liter (15)" [ref=e589] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e590] [cursor=pointer]: 450.0000 Liter (15)
+                  - generic [ref=e591]:
+                    - checkbox "451.0000 Liter (1)" [ref=e592] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e593] [cursor=pointer]: 451.0000 Liter (1)
+                  - generic [ref=e594]:
+                    - checkbox "453.0000 Liter (1)" [ref=e595] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e596] [cursor=pointer]: 453.0000 Liter (1)
+                  - generic [ref=e597]:
+                    - checkbox "455.0000 Liter (4)" [ref=e598] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e599] [cursor=pointer]: 455.0000 Liter (4)
+                  - generic [ref=e600]:
+                    - checkbox "461.0000 Liter (1)" [ref=e601] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e602] [cursor=pointer]: 461.0000 Liter (1)
+                  - generic [ref=e603]:
+                    - checkbox "463.0000 Liter (2)" [ref=e604] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e605] [cursor=pointer]: 463.0000 Liter (2)
+                  - generic [ref=e606]:
+                    - checkbox "465.0000 Liter (2)" [ref=e607] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e608] [cursor=pointer]: 465.0000 Liter (2)
+                  - generic [ref=e609]:
+                    - checkbox "468.0000 Liter (1)" [ref=e610] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e611] [cursor=pointer]: 468.0000 Liter (1)
+                  - generic [ref=e612]:
+                    - checkbox "471.0000 Liter (3)" [ref=e613] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e614] [cursor=pointer]: 471.0000 Liter (3)
+                  - generic [ref=e615]:
+                    - checkbox "473.0000 Liter (1)" [ref=e616] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e617] [cursor=pointer]: 473.0000 Liter (1)
+                  - generic [ref=e618]:
+                    - checkbox "477.0000 Liter (2)" [ref=e619] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e620] [cursor=pointer]: 477.0000 Liter (2)
+                  - generic [ref=e621]:
+                    - checkbox "480.0000 Liter (4)" [ref=e622] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e623] [cursor=pointer]: 480.0000 Liter (4)
+                  - generic [ref=e624]:
+                    - checkbox "483.0000 Liter (1)" [ref=e625] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e626] [cursor=pointer]: 483.0000 Liter (1)
+                  - generic [ref=e627]:
+                    - checkbox "490.0000 Liter (1)" [ref=e628] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e629] [cursor=pointer]: 490.0000 Liter (1)
+                  - generic [ref=e630]:
+                    - checkbox "502.0000 Liter (1)" [ref=e631] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e632] [cursor=pointer]: 502.0000 Liter (1)
+                  - generic [ref=e633]:
+                    - checkbox "505.0000 Liter (4)" [ref=e634] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e635] [cursor=pointer]: 505.0000 Liter (4)
+                  - generic [ref=e636]:
+                    - checkbox "506.0000 Liter (1)" [ref=e637] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e638] [cursor=pointer]: 506.0000 Liter (1)
+                  - generic [ref=e639]:
+                    - checkbox "508.0000 Liter (3)" [ref=e640] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e641] [cursor=pointer]: 508.0000 Liter (3)
+                  - generic [ref=e642]:
+                    - checkbox "509.0000 Liter (1)" [ref=e643] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e644] [cursor=pointer]: 509.0000 Liter (1)
+                  - generic [ref=e645]:
+                    - checkbox "519.0000 Liter (2)" [ref=e646] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e647] [cursor=pointer]: 519.0000 Liter (2)
+                  - generic [ref=e648]:
+                    - checkbox "520.0000 Liter (1)" [ref=e649] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e650] [cursor=pointer]: 520.0000 Liter (1)
+                  - generic [ref=e651]:
+                    - checkbox "521.0000 Liter (1)" [ref=e652] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e653] [cursor=pointer]: 521.0000 Liter (1)
+                  - generic [ref=e654]:
+                    - checkbox "523.0000 Liter (2)" [ref=e655] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e656] [cursor=pointer]: 523.0000 Liter (2)
+                  - generic [ref=e657]:
+                    - checkbox "525.0000 Liter (1)" [ref=e658] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e659] [cursor=pointer]: 525.0000 Liter (1)
+                  - generic [ref=e660]:
+                    - checkbox "526.0000 Liter (1)" [ref=e661] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e662] [cursor=pointer]: 526.0000 Liter (1)
+                  - generic [ref=e663]:
+                    - checkbox "532.0000 Liter (1)" [ref=e664] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e665] [cursor=pointer]: 532.0000 Liter (1)
+                  - generic [ref=e666]:
+                    - checkbox "535.0000 Liter (2)" [ref=e667] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e668] [cursor=pointer]: 535.0000 Liter (2)
+                  - generic [ref=e669]:
+                    - checkbox "538.0000 Liter (3)" [ref=e670] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e671] [cursor=pointer]: 538.0000 Liter (3)
+                  - generic [ref=e672]:
+                    - checkbox "540.0000 Liter (3)" [ref=e673] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e674] [cursor=pointer]: 540.0000 Liter (3)
+                  - generic [ref=e675]:
+                    - checkbox "542.0000 Liter (1)" [ref=e676] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e677] [cursor=pointer]: 542.0000 Liter (1)
+                  - generic [ref=e678]:
+                    - checkbox "545.0000 Liter (2)" [ref=e679] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e680] [cursor=pointer]: 545.0000 Liter (2)
+                  - generic [ref=e681]:
+                    - checkbox "557.0000 Liter (1)" [ref=e682] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e683] [cursor=pointer]: 557.0000 Liter (1)
+                  - generic [ref=e684]:
+                    - checkbox "558.0000 Liter (3)" [ref=e685] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e686] [cursor=pointer]: 558.0000 Liter (3)
+                  - generic [ref=e687]:
+                    - checkbox "570.0000 Liter (1)" [ref=e688] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e689] [cursor=pointer]: 570.0000 Liter (1)
+                  - generic [ref=e690]:
+                    - checkbox "582.0000 Liter (1)" [ref=e691] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e692] [cursor=pointer]: 582.0000 Liter (1)
+                  - generic [ref=e693]:
+                    - checkbox "588.0000 Liter (1)" [ref=e694] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e695] [cursor=pointer]: 588.0000 Liter (1)
+                  - generic [ref=e696]:
+                    - checkbox "590.0000 Liter (4)" [ref=e697] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e698] [cursor=pointer]: 590.0000 Liter (4)
+                  - generic [ref=e699]:
+                    - checkbox "605.0000 Liter (1)" [ref=e700] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e701] [cursor=pointer]: 605.0000 Liter (1)
+                  - generic [ref=e702]:
+                    - checkbox "610.0000 Liter (2)" [ref=e703] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e704] [cursor=pointer]: 610.0000 Liter (2)
+                  - generic [ref=e705]:
+                    - checkbox "625.0000 Liter (5)" [ref=e706] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e707] [cursor=pointer]: 625.0000 Liter (5)
+                  - generic [ref=e708]:
+                    - checkbox "626.0000 Liter (2)" [ref=e709] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e710] [cursor=pointer]: 626.0000 Liter (2)
+                  - generic [ref=e711]:
+                    - checkbox "630.0000 Liter (3)" [ref=e712] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e713] [cursor=pointer]: 630.0000 Liter (3)
+                  - generic [ref=e714]:
+                    - checkbox "631.0000 Liter (1)" [ref=e715] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e716] [cursor=pointer]: 631.0000 Liter (1)
+                  - generic [ref=e717]:
+                    - checkbox "635.0000 Liter (1)" [ref=e718] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e719] [cursor=pointer]: 635.0000 Liter (1)
+                  - generic [ref=e720]:
+                    - checkbox "640.0000 Liter (1)" [ref=e721] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e722] [cursor=pointer]: 640.0000 Liter (1)
+                  - generic [ref=e723]:
+                    - checkbox "641.0000 Liter (1)" [ref=e724] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e725] [cursor=pointer]: 641.0000 Liter (1)
+                  - generic [ref=e726]:
+                    - checkbox "650.0000 Liter (1)" [ref=e727] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e728] [cursor=pointer]: 650.0000 Liter (1)
+                  - generic [ref=e729]:
+                    - checkbox "659.0000 Liter (2)" [ref=e730] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e731] [cursor=pointer]: 659.0000 Liter (2)
+                  - generic [ref=e732]:
+                    - checkbox "664.0000 Liter (1)" [ref=e733] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e734] [cursor=pointer]: 664.0000 Liter (1)
+                  - generic [ref=e735]:
+                    - checkbox "690.0000 Liter (1)" [ref=e736] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e737] [cursor=pointer]: 690.0000 Liter (1)
+                  - generic [ref=e738]:
+                    - checkbox "696.0000 Liter (1)" [ref=e739] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e740] [cursor=pointer]: 696.0000 Liter (1)
+                  - generic [ref=e741]:
+                    - checkbox "711.0000 Liter (1)" [ref=e742] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e743] [cursor=pointer]: 711.0000 Liter (1)
+                  - generic [ref=e744]:
+                    - checkbox "760.0000 Liter (1)" [ref=e745] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=e746] [cursor=pointer]: 760.0000 Liter (1)
+        - generic [ref=e748]:
+          - paragraph [ref=e749]: 334 results
+          - 'button "Sort by: Default" [ref=e750] [cursor=pointer]':
+            - generic [ref=e751]: Sort by
+            - generic [ref=e752]: Default
+    - generic [ref=e754]:
+      - generic [ref=e755]:
+        - generic [ref=e756]:
+          - img "phone Icon" [ref=e758]
+          - generic [ref=e759]:
+            - paragraph [ref=e760]: Call us
+            - paragraph [ref=e761]:
+              - link "19966" [ref=e762] [cursor=pointer]:
+                - /url: tel:19966
+        - generic [ref=e763]:
+          - generic [ref=e764]:
+            - heading "Trending right now" [level=3] [ref=e765]
+            - generic [ref=e766]:
+              - link "Electronics" [ref=e767] [cursor=pointer]:
+                - /url: /en/c/electronics
+              - link "Large Home Appliances" [ref=e768] [cursor=pointer]:
+                - /url: /en/c/large-home-appliances
+              - link "Mobiles, Tablets & Accessories" [ref=e769] [cursor=pointer]:
+                - /url: /en/c/mobiles-tablets
+              - link "Small Home Appliances" [ref=e770] [cursor=pointer]:
+                - /url: /en/c/small-home-appliances
+              - link "Laptops, PCs & accessories" [ref=e771] [cursor=pointer]:
+                - /url: /en/c/laptop-pc
+              - link "TVs" [ref=e772] [cursor=pointer]:
+                - /url: /en/c/tvs-projectors
+          - generic [ref=e773]:
+            - heading "B.TECH blog" [level=3] [ref=e774]
+            - paragraph [ref=e775]:
+              - text: Your ultimate guide to smarter buying decision
+              - link [ref=e776] [cursor=pointer]:
+                - /url: https://blog.btech.com/
+                - text: Discover our blog
+                - img "B.TECH blog" [ref=e777]
+        - generic [ref=e778]:
+          - generic [ref=e779]:
+            - heading "Follow us" [level=3] [ref=e780]
+            - generic [ref=e781]:
+              - link [ref=e782] [cursor=pointer]:
+                - /url: https://www.facebook.com/mybtech/
+                - img "Facebook Icon" [ref=e783]
+              - link [ref=e784] [cursor=pointer]:
+                - /url: https://www.instagram.com/mybtech/
+                - img "Instagram Icon" [ref=e785]
+              - link [ref=e786] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCb38BG_mMf7BUumTVc10gAw/videos
+                - img "YouTube Icon" [ref=e787]
+          - generic [ref=e788]:
+            - heading "Download B.TECH App" [level=3] [ref=e789]
+            - generic [ref=e790]:
+              - link [ref=e791] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.btechapp
+                - img "playStore Icon" [ref=e792]
+              - link [ref=e793] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/b-tech/id1258773067
+                - img "appStore Icon" [ref=e794]
+              - link [ref=e795] [cursor=pointer]:
+                - /url: https://appgallery.huawei.com/#/app/C101532561
+                - img "appGallery Icon" [ref=e796]
+      - generic [ref=e797]:
+        - paragraph [ref=e798]: © B.TECH, all rights reserved.
+        - link "Terms & Conditions" [ref=e799] [cursor=pointer]:
+          - /url: /en/terms-and-conditions

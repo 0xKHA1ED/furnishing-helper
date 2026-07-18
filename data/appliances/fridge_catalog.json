@@ -1,0 +1,3997 @@
+{
+  "version": 2,
+  "title": "Fridge catalog — all colors · hard rules · black filter in UI",
+  "lastUpdated": "2026-07-17",
+  "currency": "EGP",
+  "retailerPrimary": "B.TECH",
+  "filtersApplied": {
+    "maxPriceEGP": 35000,
+    "minCapacityL": 360,
+    "mustHaveFreezer": true,
+    "nofrostRequired": true,
+    "excludeDispenser": true,
+    "excludeMinibar": true,
+    "color": "all colors included; use UI Black only filter"
+  },
+  "householdContext": {
+    "city": "6th of October City",
+    "mealPrep": "Friday weekly batch",
+    "freezeLoad": "about half a normal freezer weekly",
+    "layoutPreference": "top_freezer preferred for space; bottom still listed",
+    "aesthetics": "black preferred not hard — filter available"
+  },
+  "counts": {
+    "included": 72,
+    "black": 31,
+    "inverter": 23,
+    "topFreezer": 60,
+    "bottomFreezer": 12
+  },
+  "rankingNote": "Rank = lifestyle fit: inverter + capacity + brand trust + freeze notes + slight black bonus. Re-verify prices on B.TECH before buy.",
+  "disclaimer": "Prices from B.TECH product listing/JSON-LD 2026-07-17. Photos hotlinked from retailer CDN.",
+  "items": [
+    {
+      "id": "fr_rdne455m20xbidteweg",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 455 Liter Inverter Motor , Black - RDNE455M20XBIDTEWEG",
+      "brand": "Beko",
+      "priceEGP": 28139,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/66b8a615-4c65-42e0-8453-ff9f23e64f3c",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 455,
+      "capacityUnit": "L",
+      "capacityL": 455,
+      "specs": {
+        "capacityL": 455,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/3/e/6/a/3e6a55c850f4bae636051cbddaf47cdd1736e3cf_beko_refrigerator_455_l_nofrost_inverter_black_rdne455m20xbidegb.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/3/e/6/a/3e6a55c850f4bae636051cbddaf47cdd1736e3cf_beko_refrigerator_455_l_nofrost_inverter_black_rdne455m20xbidegb.jpg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Large total capacity (~455 L) — strong for weekly Friday meal-prep containers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~28,139 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)"
+      ],
+      "cons": [],
+      "summary": "Beko ~455L black top freezer, inverter, ~28,139 EGP — fit 9.3/10 for meal-prep couple under 35k.",
+      "researchFitScore": 9.3,
+      "lifestyleFitScore": 9.3,
+      "hasDeepResearch": true,
+      "verifyNote": "ProSmart + NeoFrost Dual Cooling + HarvestFresh; black 455L marketing",
+      "status": "shortlist",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "fr_rdne455m20xbids",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 406 Liter Inverter Motor , Silver - RDNE455M20XBIDS",
+      "brand": "Beko",
+      "priceEGP": 25499,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-no-frost-refrigerator-406-liters-inverter-silver-rdne455m20xbids",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 406,
+      "capacityUnit": "L",
+      "capacityL": 406,
+      "specs": {
+        "capacityL": 406,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/6/9/f/2/69f20512f6cd7d719296942f35cfbe2e1109c68f_61jqclphdll._ac_sy606_.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/6/9/f/2/69f20512f6cd7d719296942f35cfbe2e1109c68f_61jqclphdll._ac_sy606_.jpeg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Solid capacity (~406 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~25,499 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Beko ~406L silver top freezer, inverter, ~25,499 EGP — fit 9.1/10 for meal-prep couple under 35k.",
+      "researchFitScore": 9.1,
+      "lifestyleFitScore": 9.1,
+      "hasDeepResearch": true,
+      "verifyNote": "Same platform as black IDEGB; electronic display; ~4.8k cheaper than black",
+      "status": "shortlist",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "fr_art70",
+      "category": "fridge",
+      "name": "Ariston NoFrost Top Freezer Refrigerator , 420 Liter Inverter Motor , Dark Inox - ART70 F1422D XDI",
+      "brand": "Ariston",
+      "priceEGP": 25999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/520c3ef1-24bd-4ea5-b5f3-b37bb91adf2e",
+      "scrapedAt": "2026-07-17",
+      "color": "dark_inox",
+      "capacity": 420,
+      "capacityUnit": "L",
+      "capacityL": 420,
+      "specs": {
+        "capacityL": 420,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/6/f/3/4/6f34f8e861fa570ecce2db51d2052531b2bf6719_9250000115_ART70_F1422D_XDI_D70420NE_closed_LO.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/6/f/3/4/6f34f8e861fa570ecce2db51d2052531b2bf6719_9250000115_ART70_F1422D_XDI_D70420NE_closed_LO.png"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Solid capacity (~420 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Dark Inox finish reads modern/premium without pure black",
+        "Ariston has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~25,999 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)"
+      ],
+      "cons": [
+        "Not pure black — may fail hard aesthetics filter if partner insists"
+      ],
+      "summary": "Ariston ~420L dark_inox top freezer, inverter, ~25,999 EGP — fit 9.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 9.0,
+      "lifestyleFitScore": 9.0,
+      "hasDeepResearch": true,
+      "verifyNote": "10y inverter motor warranty claim; dark inox",
+      "status": "shortlist",
+      "tags": [
+        "dark_inox",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "fr_art70f1452xdi",
+      "category": "fridge",
+      "name": "Ariston NoFrost Top Freezer Refrigerator , 455 Liter Inverter Motor , Dark Inox - ART70F1452XDI",
+      "brand": "Ariston",
+      "priceEGP": 28199,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/ariston-no-frost-refrigerator-408l-inverter-inox-art70f1452xdi",
+      "scrapedAt": "2026-07-17",
+      "color": "dark_inox",
+      "capacity": 455,
+      "capacityUnit": "L",
+      "capacityL": 455,
+      "specs": {
+        "capacityL": 455,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/d/a/1/4/da14c48544b407312e8a06bd07b89080545490c1_4.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/d/a/1/4/da14c48544b407312e8a06bd07b89080545490c1_4.png"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Large total capacity (~455 L) — strong for weekly Friday meal-prep containers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Dark Inox finish reads modern/premium without pure black",
+        "Ariston has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~28,199 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)"
+      ],
+      "cons": [
+        "Not pure black — may fail hard aesthetics filter if partner insists"
+      ],
+      "summary": "Ariston ~455L dark_inox top freezer, inverter, ~28,199 EGP — fit 9.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 9.0,
+      "lifestyleFitScore": 9.0,
+      "hasDeepResearch": true,
+      "verifyNote": "Listing 455 gross / ~408 net class; 10y inv motor",
+      "status": "shortlist",
+      "tags": [
+        "dark_inox",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "fr_rf_580tv_bk",
+      "category": "fridge",
+      "name": "Tornado NoFrost Top Freezer Refrigerator , 450 Liter Inverter Motor , Black - RF-580TV-BK",
+      "brand": "Tornado",
+      "priceEGP": 28949,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/tornado-no-frost-refrigerator-450l-inverter-black-rf-580tvbk",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 450,
+      "capacityUnit": "L",
+      "capacityL": 450,
+      "specs": {
+        "capacityL": 450,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": 112
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/7/b/c/8/7bc8eec73715d5037c8a43d0921eab1aea77ff41_6087137acd9567bc4ff3e7127886bd5e4153fefb58adc863364588f82c92c652.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/7/b/c/8/7bc8eec73715d5037c8a43d0921eab1aea77ff41_6087137acd9567bc4ff3e7127886bd5e4153fefb58adc863364588f82c92c652.jpeg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Large total capacity (~450 L) — strong for weekly Friday meal-prep containers",
+        "Freezer volume listed ~112 L — good headroom for batch freeze",
+        "Black finish matches partner aesthetics preference",
+        "Tornado is common on B.TECH — keep invoice and register warranty",
+        "Priced ~28,949 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)"
+      ],
+      "cons": [],
+      "summary": "Tornado ~450L black top freezer, inverter, ~28,949 EGP — fit 8.8/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.8,
+      "lifestyleFitScore": 8.8,
+      "hasDeepResearch": true,
+      "verifyNote": "112 L freezer verified on B.TECH description",
+      "status": "shortlist",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "fr_rdne455m20xbidegb",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 406 Liter Inverter Motor , Black - RDNE455M20XBIDEGB",
+      "brand": "Beko",
+      "priceEGP": 30299,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-no-frost-refrigerator-406-liters-inverter-black-rdne455m20xbidegb",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 406,
+      "capacityUnit": "L",
+      "capacityL": 406,
+      "specs": {
+        "capacityL": 406,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/5/5/9/d/559d9e5694c3f70c93a06f14fc7d81aca1cc36e4_image002_1.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/5/5/9/d/559d9e5694c3f70c93a06f14fc7d81aca1cc36e4_image002_1.png"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Solid capacity (~406 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Near ceiling at ~30,299 EGP — little promo headroom"
+      ],
+      "summary": "Beko ~406L black top freezer, inverter, ~30,299 EGP — fit 8.8/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.8,
+      "lifestyleFitScore": 8.8,
+      "hasDeepResearch": true,
+      "verifyNote": "A+; 4 shelves; InStock",
+      "status": "shortlist",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "fr_gtf452svan",
+      "category": "fridge",
+      "name": "LG NoFrost Top Freezer Refrigerator , 450 Liter Inverter Motor , Silver - GTF452SVAN",
+      "brand": "LG",
+      "priceEGP": 34899,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/6d28e4f4-e913-4ef9-9508-07ba95ef9027",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 450,
+      "capacityUnit": "L",
+      "capacityL": 450,
+      "specs": {
+        "capacityL": 450,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/f/1/2/b/f12bbbc74554e30dd87b95be8ff60de2c1bfdb64_New_Project__32_.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/f/1/2/b/f12bbbc74554e30dd87b95be8ff60de2c1bfdb64_New_Project__32_.jpg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Large total capacity (~450 L) — strong for weekly Friday meal-prep containers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "LG has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Near ceiling at ~34,899 EGP — little promo headroom"
+      ],
+      "summary": "LG ~450L silver top freezer, inverter, ~34,899 EGP — fit 8.8/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.8,
+      "lifestyleFitScore": 8.8,
+      "hasDeepResearch": true,
+      "verifyNote": "LG 450L silver inverter; near ceiling",
+      "status": "shortlist",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "fr_rdne420k02dxipegb",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 367 Liter Inverter Motor , Black - RDNE420K02DXIPEGB",
+      "brand": "Beko",
+      "priceEGP": 25900,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-no-frost-refrigerator-367liters-inverter-black-rdne420k02dxipegb",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 367,
+      "capacityUnit": "L",
+      "capacityL": 367,
+      "specs": {
+        "capacityL": 367,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/6/3/0/7/6307e7e3d81d4a52075f36d870d1d77b47b40592_image002_2.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/6/3/0/7/6307e7e3d81d4a52075f36d870d1d77b47b40592_image002_2.png"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Meets min size floor (~367 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~25,900 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)"
+      ],
+      "cons": [
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes"
+      ],
+      "summary": "Beko ~367L black top freezer, inverter, ~25,900 EGP — fit 8.7/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.7,
+      "lifestyleFitScore": 8.7,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "shortlist",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "fr_rdne455m20xbieg",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 406 Liter Inverter Motor , Silver - RDNE455M20XBIEG",
+      "brand": "Beko",
+      "priceEGP": 30999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-no-frost-refrigerator-406liters-inverter-silver-rdne455m20xbieg",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 406,
+      "capacityUnit": "L",
+      "capacityL": 406,
+      "specs": {
+        "capacityL": 406,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/4/b/2/1/4b21dac5e7732ddf3b863e0bdb8ba78bc46037d3_image001.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/4/b/2/1/4b21dac5e7732ddf3b863e0bdb8ba78bc46037d3_image001.png"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Solid capacity (~406 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore",
+        "Beko inverter NeoFrost/HarvestFresh family is the best-documented noise/efficiency path in this budget"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Near ceiling at ~30,999 EGP — little promo headroom"
+      ],
+      "summary": "Beko ~406L silver top freezer, inverter, ~30,999 EGP — fit 8.5/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.5,
+      "lifestyleFitScore": 8.5,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "fr_gr_rt622we_pmn",
+      "category": "fridge",
+      "name": "Toshiba NoFrost Top Freezer Refrigerator , 450 Liter Inverter Motor , Morandi Grey - GR-RT622WE-PMN",
+      "brand": "Toshiba",
+      "priceEGP": 32759,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/toshiba-no-frost-refrigerator-450l-morandi-grey-gr-rt622we-pmn",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 450,
+      "capacityUnit": "L",
+      "capacityL": 450,
+      "specs": {
+        "capacityL": 450,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/3/6/3/a/363a2f668ccfd167e3285f9da3d82f1e23ace616_58462f5e82289c7da894b25a1061b2cbccad7511f904a45c12b5356b526de919__1_.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/3/6/3/a/363a2f668ccfd167e3285f9da3d82f1e23ace616_58462f5e82289c7da894b25a1061b2cbccad7511f904a45c12b5356b526de919__1_.jpeg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Large total capacity (~450 L) — strong for weekly Friday meal-prep containers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Toshiba has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Near ceiling at ~32,759 EGP — little promo headroom"
+      ],
+      "summary": "Toshiba ~450L silver top freezer, inverter, ~32,759 EGP — fit 8.5/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.5,
+      "lifestyleFitScore": 8.5,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "fr_gr_rt624we_pgn",
+      "category": "fridge",
+      "name": "Toshiba NoFrost Top Freezer Refrigerator , 450 Liter Inverter Motor , Silver - GR-RT624WE-PGN(72)",
+      "brand": "Toshiba",
+      "priceEGP": 33989,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/829cf305-e280-4dc3-8d7b-c9f49bcd5196",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 450,
+      "capacityUnit": "L",
+      "capacityL": 450,
+      "specs": {
+        "capacityL": 450,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/9/6/d/2/96d27ab6a23f6ff49966b9a9f1e04dda99bbe467_ff1e1e54dcfcb9ebc8d640291270ad3001aa2b9ab9f12950aeee671438071dc0.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/9/6/d/2/96d27ab6a23f6ff49966b9a9f1e04dda99bbe467_ff1e1e54dcfcb9ebc8d640291270ad3001aa2b9ab9f12950aeee671438071dc0.jpg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Large total capacity (~450 L) — strong for weekly Friday meal-prep containers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Toshiba has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Near ceiling at ~33,989 EGP — little promo headroom"
+      ],
+      "summary": "Toshiba ~450L silver top freezer, inverter, ~33,989 EGP — fit 8.5/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.5,
+      "lifestyleFitScore": 8.5,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "fr_rdne420k02dxiseg",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 367 Liter Inverter Motor , Silver - RDNE420K02DXISEG",
+      "brand": "Beko",
+      "priceEGP": 24119,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-no-frost-refrigerator-367liters-inverter-silver-rdne420k02dxiseg",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 367,
+      "capacityUnit": "L",
+      "capacityL": 367,
+      "specs": {
+        "capacityL": 367,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/b/3/0/c/b30cefd2aebb57f6c7507707b7efc1cd79523d0f_image001_1.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/b/3/0/c/b30cefd2aebb57f6c7507707b7efc1cd79523d0f_image001_1.png"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Meets min size floor (~367 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Price ~24,119 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Beko ~367L silver top freezer, inverter, ~24,119 EGP — fit 8.4/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.4,
+      "lifestyleFitScore": 8.4,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "fr_rdne420k02dxiteg",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 367 Liter Inverter Motor , Silver - RDNE420K02DXITEG",
+      "brand": "Beko",
+      "priceEGP": 25459,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-nofrost-refrigerator-420-liters-brushed-silver-rdne420k02dxiteg",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 367,
+      "capacityUnit": "L",
+      "capacityL": 367,
+      "specs": {
+        "capacityL": 367,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/1/a/5/e/1a5e6d06cb331c9a03949cd6d56cf78cc228f472_acbd5107da548db1cba904bbdf49f63d4b18f9336f42513d754539f2d5566294.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/1/a/5/e/1a5e6d06cb331c9a03949cd6d56cf78cc228f472_acbd5107da548db1cba904bbdf49f63d4b18f9336f42513d754539f2d5566294.jpeg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Meets min size floor (~367 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~25,459 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Beko ~367L silver top freezer, inverter, ~25,459 EGP — fit 8.4/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.4,
+      "lifestyleFitScore": 8.4,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "fr_fntls580miwgfld",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 471 Liter Inverter Motor , Stainless Steel - FNTLS580MIWGFLD",
+      "brand": "Fresh",
+      "priceEGP": 26000,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/388be4d4-6485-46a9-bffa-92db8c8eb673",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 471,
+      "capacityUnit": "L",
+      "capacityL": 471,
+      "specs": {
+        "capacityL": 471,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/d/4/a/3/d4a3304c41de1e80569b47112e6899c42991034e_New_Projectff.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/d/4/a/3/d4a3304c41de1e80569b47112e6899c42991034e_New_Projectff.jpg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Large total capacity (~471 L) — strong for weekly Friday meal-prep containers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Priced ~26,000 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~471L silver top freezer, inverter, ~26,000 EGP — fit 8.3/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.3,
+      "lifestyleFitScore": 8.3,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "fr_rdne430k02dxi",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 430 Liter Inverter Motor , Silver - RDNE430K02DXI",
+      "brand": "Beko",
+      "priceEGP": 31829,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-refrigerator-2d-430lt-silver-rdne430k02dxi",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 430,
+      "capacityUnit": "L",
+      "capacityL": 430,
+      "specs": {
+        "capacityL": 430,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/2/f/d/7/2fd7abe7f97ab7c0a9f9d9604823c14589f5b0d4_7293147990_lo1_20201221_084314.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/2/f/d/7/2fd7abe7f97ab7c0a9f9d9604823c14589f5b0d4_7293147990_lo1_20201221_084314.jpeg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Solid capacity (~430 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore",
+        "Beko inverter NeoFrost/HarvestFresh family is the best-documented noise/efficiency path in this budget"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Near ceiling at ~31,829 EGP — little promo headroom"
+      ],
+      "summary": "Beko ~430L silver top freezer, inverter, ~31,829 EGP — fit 8.3/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.3,
+      "lifestyleFitScore": 8.3,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "fr_gr_rt558we_pmn",
+      "category": "fridge",
+      "name": "Toshiba NoFrost Top Freezer Refrigerator , 411 Liter Inverter Motor , Silver - GR-RT558WE-PMN(57)",
+      "brand": "Toshiba",
+      "priceEGP": 29440,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/58c35fa6-31bc-4940-a771-33f1afd8a8ca",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 411,
+      "capacityUnit": "L",
+      "capacityL": 411,
+      "specs": {
+        "capacityL": 411,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/a/0/7/6/a07622107515931c651d415f8da2fe342b9a1a57_toshiba_refrigerator_411l_inverter_2_doors_starry_silver_gr_rt558we_pmn57.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/a/0/7/6/a07622107515931c651d415f8da2fe342b9a1a57_toshiba_refrigerator_411l_inverter_2_doors_starry_silver_gr_rt558we_pmn57.jpg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Solid capacity (~411 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Toshiba has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~29,440 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Toshiba ~411L silver top freezer, inverter, ~29,440 EGP — fit 8.2/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.2,
+      "lifestyleFitScore": 8.2,
+      "hasDeepResearch": true,
+      "verifyNote": "Toshiba inverter; humidity + cooling zone claims",
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "fr_rdne448m20x",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 408 Liter Inverter Motor , Grey - RDNE448M20X",
+      "brand": "Beko",
+      "priceEGP": 31780,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-refrigerator-408l-inverter-rdne448m20x",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 408,
+      "capacityUnit": "L",
+      "capacityL": 408,
+      "specs": {
+        "capacityL": 408,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/a/7/a/f/a7af08cd7e38528b20caecec7fd5e9550d30c6f4_beko_no_frost_refrigerator_408_liters_inverter_motor_rdne448m20x_1_.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/a/7/a/f/a7af08cd7e38528b20caecec7fd5e9550d30c6f4_beko_no_frost_refrigerator_408_liters_inverter_motor_rdne448m20x_1_.jpeg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Solid capacity (~408 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore",
+        "Beko inverter NeoFrost/HarvestFresh family is the best-documented noise/efficiency path in this budget"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Near ceiling at ~31,780 EGP — little promo headroom"
+      ],
+      "summary": "Beko ~408L silver top freezer, inverter, ~31,780 EGP — fit 8.2/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.2,
+      "lifestyleFitScore": 8.2,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 17
+    },
+    {
+      "id": "fr_rt723mtn46d",
+      "category": "fridge",
+      "name": "Midea NoFrost Top Freezer Refrigerator , 535 Liter Inverter Motor , Stainless Steel - RT723MTN46D",
+      "brand": "Midea",
+      "priceEGP": 32625,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/midea-no-frost-refrigerator-535-liters-inverter-stainless-rt723mtn46d",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 535,
+      "capacityUnit": "L",
+      "capacityL": 535,
+      "specs": {
+        "capacityL": 535,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/0/7/3/d/073db1bdc6460ff64a498e17cbf3cc5c64faaf61_c489a8f9a9794b1aa5a4eefd218c2b9a95cbd16d68e8beaa834ea00257120d6e.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/0/7/3/d/073db1bdc6460ff64a498e17cbf3cc5c64faaf61_c489a8f9a9794b1aa5a4eefd218c2b9a95cbd16d68e8beaa834ea00257120d6e.jpeg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Large total capacity (~535 L) — strong for weekly Friday meal-prep containers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Midea mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Near ceiling at ~32,625 EGP — little promo headroom"
+      ],
+      "summary": "Midea ~535L silver top freezer, inverter, ~32,625 EGP — fit 8.2/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.2,
+      "lifestyleFitScore": 8.2,
+      "hasDeepResearch": true,
+      "verifyNote": "Biggest total under 35k class; mid-tier brand",
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 18
+    },
+    {
+      "id": "fr_rdne420k02dxidteg",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 367 Liter Inverter Motor , Silver - RDNE420K02DXIDTEG",
+      "brand": "Beko",
+      "priceEGP": 28999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-no-frost-refrigerator-367-liters-inverter-silver-rdne420k02dxidteg",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 367,
+      "capacityUnit": "L",
+      "capacityL": 367,
+      "specs": {
+        "capacityL": 367,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/d/8/f/6/d8f6312c061116b71103d8474f98ec337bce1f5e_9250000010_lo1_20240628_122930.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/d/8/f/6/d8f6312c061116b71103d8474f98ec337bce1f5e_9250000010_lo1_20240628_122930.png"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Meets min size floor (~367 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~28,999 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Beko ~367L silver top freezer, inverter, ~28,999 EGP — fit 8.1/10 for meal-prep couple under 35k.",
+      "researchFitScore": 8.1,
+      "lifestyleFitScore": 8.1,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 19
+    },
+    {
+      "id": "fr_mdrt645mte06e",
+      "category": "fridge",
+      "name": "Midea NoFrost Top Freezer Refrigerator , 449 Liter Inverter Motor , Silver - MDRT645MTE06E",
+      "brand": "Midea",
+      "priceEGP": 27609,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/midea-no-frost-refrigerator-449l-inverter-mdrt645mte06e",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 449,
+      "capacityUnit": "L",
+      "capacityL": 449,
+      "specs": {
+        "capacityL": 449,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/a/8/b/3/a8b3977198182abf0069d2204e315b2d2259c41a_New_Project__52_.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/a/8/b/3/a8b3977198182abf0069d2204e315b2d2259c41a_New_Project__52_.jpg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Solid capacity (~449 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Priced ~27,609 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Midea mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Midea ~449L silver top freezer, inverter, ~27,609 EGP — fit 7.9/10 for meal-prep couple under 35k.",
+      "researchFitScore": 7.9,
+      "lifestyleFitScore": 7.9,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 20
+    },
+    {
+      "id": "fr_fntms470yitfld",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 397 Liter Inverter Motor , Stainless Steel - FNTMS470YITFLD",
+      "brand": "Fresh",
+      "priceEGP": 23989,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/83239601-d392-4687-913f-fcd329910604",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 397,
+      "capacityUnit": "L",
+      "capacityL": 397,
+      "specs": {
+        "capacityL": 397,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/3/c/d/1/3cd1505ce3b47751addfe63b2b2bb75f9c62d9d4_wh_dig_3.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/3/c/d/1/3cd1505ce3b47751addfe63b2b2bb75f9c62d9d4_wh_dig_3.jpg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Meets min size floor (~397 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Price ~23,989 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~397L silver top freezer, inverter, ~23,989 EGP — fit 7.8/10 for meal-prep couple under 35k.",
+      "researchFitScore": 7.8,
+      "lifestyleFitScore": 7.8,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 21
+    },
+    {
+      "id": "fr_hrf630vmcgbeg",
+      "category": "fridge",
+      "name": "Haier NoFrost Top Freezer Refrigerator , 449 Liter Inverter Motor , Gray - HRF630VMCGBEG",
+      "brand": "Haier",
+      "priceEGP": 32559,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/0776d25e-2c2d-4489-8baf-b6e13012bb12",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 449,
+      "capacityUnit": "L",
+      "capacityL": 449,
+      "specs": {
+        "capacityL": 449,
+        "layout": "top_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/c/5/9/0/c590786235ab906285eb7ad8fb28cea0e13ce081_900.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/c/5/9/0/c590786235ab906285eb7ad8fb28cea0e13ce081_900.jpg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Solid capacity (~449 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Haier is common on B.TECH — keep invoice and register warranty",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Near ceiling at ~32,559 EGP — little promo headroom"
+      ],
+      "summary": "Haier ~449L silver top freezer, inverter, ~32,559 EGP — fit 7.8/10 for meal-prep couple under 35k.",
+      "researchFitScore": 7.8,
+      "lifestyleFitScore": 7.8,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 22
+    },
+    {
+      "id": "fr_urn_800cepblg1a_dxhirbxxl",
+      "category": "fridge",
+      "name": "Unionaire Signature NoFrost Bottom Freezer Refrigerator , 545 Liter Inverter Motor , Black - URN-800CEPBLG1A-DXHIRBXXL",
+      "brand": "Unionaire",
+      "priceEGP": 31999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-signature-refrigerator-545l-inverter-black-urn-800cepblg1a-dxhirbxxl",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 545,
+      "capacityUnit": "L",
+      "capacityL": 545,
+      "specs": {
+        "capacityL": 545,
+        "layout": "bottom_freezer",
+        "inverter": true,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/9/5/1/7/951735d1b623f6f8a1554de2e33a936459510b97_4c544e057984f9eb2acae8deab8a8697819835961b960e47d844be4a3d308327.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/9/5/1/7/951735d1b623f6f8a1554de2e33a936459510b97_4c544e057984f9eb2acae8deab8a8697819835961b960e47d844be4a3d308327.jpeg"
+      ],
+      "pros": [
+        "Inverter motor claimed/confirmed — better odds for quieter run and lower cycling wear",
+        "Large total capacity (~545 L) — strong for weekly Friday meal-prep containers",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Black finish matches partner aesthetics preference",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Near ceiling at ~31,999 EGP — little promo headroom",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~545L black bottom freezer, inverter, ~31,999 EGP — fit 7.7/10 for meal-prep couple under 35k.",
+      "researchFitScore": 7.7,
+      "lifestyleFitScore": 7.7,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "bottom_freezer",
+        "inverter",
+        "nofrost"
+      ],
+      "rank": 23
+    },
+    {
+      "id": "fr_rdsg550m20sxb",
+      "category": "fridge",
+      "name": "Beko MinFrost Top Freezer Refrigerator , 465 Liter , Silver - RDSG550M20SXB",
+      "brand": "Beko",
+      "priceEGP": 21714,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/9ad2c8e4-d3ca-4350-8c12-a44eed7514bc",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 465,
+      "capacityUnit": "L",
+      "capacityL": 465,
+      "specs": {
+        "capacityL": 465,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/6/6/d/b/66db55887da61684a5f994ff519c32bc4262437f_original_4.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/6/6/d/b/66db55887da61684a5f994ff519c32bc4262437f_original_4.png"
+      ],
+      "pros": [
+        "Large total capacity (~465 L) — strong for weekly Friday meal-prep containers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Price ~21,714 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Beko ~465L silver top freezer, non-inverter, ~21,714 EGP — fit 7.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 7.0,
+      "lifestyleFitScore": 7.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 24
+    },
+    {
+      "id": "fr_gtf402sban",
+      "category": "fridge",
+      "name": "LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN",
+      "brand": "LG",
+      "priceEGP": 31300,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/lg-no-frost-refrigerator-401-liters-inveter-black-gtf402sban",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 401,
+      "capacityUnit": "L",
+      "capacityL": 401,
+      "specs": {
+        "capacityL": 401,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/0/8/5/9/08593926e646040c10302f3b2a17f0235b7a30b9_a68ee151797320af02453184fa28fa8475e8ca95a2ed7fedba16ab9a6b7f889f.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/0/8/5/9/08593926e646040c10302f3b2a17f0235b7a30b9_a68ee151797320af02453184fa28fa8475e8ca95a2ed7fedba16ab9a6b7f889f.jpeg"
+      ],
+      "pros": [
+        "Solid capacity (~401 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "LG has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near ceiling at ~31,300 EGP — little promo headroom",
+        "Do not trust 'inveter' in URL/title — B.TECH description does not list Smart Inverter"
+      ],
+      "summary": "LG ~401L black top freezer, non-inverter, ~31,300 EGP — fit 6.9/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.9,
+      "lifestyleFitScore": 6.9,
+      "hasDeepResearch": true,
+      "verifyNote": "Title/URL 'inveter' misleading — description has no Smart Inverter",
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 25
+    },
+    {
+      "id": "fr_rdne455mk",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 430 Liter , Silver - RDNE455MK",
+      "brand": "Beko",
+      "priceEGP": 24200,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-no-frost-top-freezer-refrigerator-430l-silver-dne455mk",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 430,
+      "capacityUnit": "L",
+      "capacityL": 430,
+      "specs": {
+        "capacityL": 430,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/a/9/6/0/a9609b7e27de44382e04313e3685b597b91a6d84_ba9b40e3e84f22b8f534f0c532e5df6f62a46df29e4d0e64482b84f383791ba7.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/a/9/6/0/a9609b7e27de44382e04313e3685b597b91a6d84_ba9b40e3e84f22b8f534f0c532e5df6f62a46df29e4d0e64482b84f383791ba7.jpeg"
+      ],
+      "pros": [
+        "Solid capacity (~430 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Price ~24,200 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Beko ~430L silver top freezer, non-inverter, ~24,200 EGP — fit 6.8/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.8,
+      "lifestyleFitScore": 6.8,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 26
+    },
+    {
+      "id": "fr_rt40a3010sa_mr",
+      "category": "fridge",
+      "name": "Samsung NoFrost Top Freezer Refrigerator , 396 Liter , Silver - RT40A3010SA-MR",
+      "brand": "Samsung",
+      "priceEGP": 28139,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/14c6624f-dd2b-4f39-940d-e823b9da80fd",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 396,
+      "capacityUnit": "L",
+      "capacityL": 396,
+      "specs": {
+        "capacityL": 396,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/a/e/a/e/aeae4d899f82981e7486ddeab2115463ff2059f5_65b8214cc83ceb907afa4047d731b77205eae90429a75118e9b0f396aa1ffb41_copy.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/a/e/a/e/aeae4d899f82981e7486ddeab2115463ff2059f5_65b8214cc83ceb907afa4047d731b77205eae90429a75118e9b0f396aa1ffb41_copy.jpg"
+      ],
+      "pros": [
+        "Meets min size floor (~396 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Samsung has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~28,139 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Samsung ~396L silver top freezer, non-inverter, ~28,139 EGP — fit 6.8/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.8,
+      "lifestyleFitScore": 6.8,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 27
+    },
+    {
+      "id": "fr_rdne455m20xbideg",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 406 Liter , Silver - RDNE455M20XBIDEG",
+      "brand": "Beko",
+      "priceEGP": 26739,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-no-frost-refrigerator-406l-silver-rdne455m20xbideg",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 406,
+      "capacityUnit": "L",
+      "capacityL": 406,
+      "specs": {
+        "capacityL": 406,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/5/2/c/d/52cda51a3842d1dca5a558a5f3c126464231a906_fbbc9f02dc87994bd915975d1df20c1c29c961cd09aeed1ca9bd48d4181f972b.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/5/2/c/d/52cda51a3842d1dca5a558a5f3c126464231a906_fbbc9f02dc87994bd915975d1df20c1c29c961cd09aeed1ca9bd48d4181f972b.jpg"
+      ],
+      "pros": [
+        "Solid capacity (~406 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~26,739 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Beko ~406L silver top freezer, non-inverter, ~26,739 EGP — fit 6.6/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.6,
+      "lifestyleFitScore": 6.6,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 28
+    },
+    {
+      "id": "fr_gtf402svan",
+      "category": "fridge",
+      "name": "LG NoFrost Top Freezer Refrigerator , 401 Liter , Silver - GTF402SVAN",
+      "brand": "LG",
+      "priceEGP": 30290,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/lg-no-frost-refrigerator-401liters-inveter-silver-gtf402svan",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 401,
+      "capacityUnit": "L",
+      "capacityL": 401,
+      "specs": {
+        "capacityL": 401,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/9/8/a/c/98ac42787b530f7a33ccdecddb890d0855a8276d_1.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/9/8/a/c/98ac42787b530f7a33ccdecddb890d0855a8276d_1.jpeg"
+      ],
+      "pros": [
+        "Solid capacity (~401 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "LG has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Near ceiling at ~30,290 EGP — little promo headroom",
+        "Do not trust 'inveter' in URL/title — B.TECH description does not list Smart Inverter"
+      ],
+      "summary": "LG ~401L silver top freezer, non-inverter, ~30,290 EGP — fit 6.6/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.6,
+      "lifestyleFitScore": 6.6,
+      "hasDeepResearch": true,
+      "verifyNote": "Multi Air Flow + exterior display; not inverter",
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 29
+    },
+    {
+      "id": "fr_rdne420k",
+      "category": "fridge",
+      "name": "Beko RDNE420K NoFrost Top Freezer Refrigerator , 390 Liter , Silver - RDNE420KDB",
+      "brand": "Beko",
+      "priceEGP": 21715,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-no-frost-top-freezer-refrigerator-390l-silver-rdne420kd",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 390,
+      "capacityUnit": "L",
+      "capacityL": 390,
+      "specs": {
+        "capacityL": 390,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/0/4/3/1/0431cd69b1f6f264422aee9c1197b1c085a1dcab_ba9b40e3e84f22b8f534f0c532e5df6f62a46df29e4d0e64482b84f383791ba7.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/0/4/3/1/0431cd69b1f6f264422aee9c1197b1c085a1dcab_ba9b40e3e84f22b8f534f0c532e5df6f62a46df29e4d0e64482b84f383791ba7.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~390 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Price ~21,715 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Beko ~390L silver top freezer, non-inverter, ~21,715 EGP — fit 6.5/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.5,
+      "lifestyleFitScore": 6.5,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 30
+    },
+    {
+      "id": "fr_gr_rt559we_dmn",
+      "category": "fridge",
+      "name": "Toshiba NoFrost Top Freezer Refrigerator , 411 Liter , Grey - GR-RT559WE-DMN 49",
+      "brand": "Toshiba",
+      "priceEGP": 32000,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/toshiba-nofrost-refrigerator-411l-grrt559wedmn49",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 411,
+      "capacityUnit": "L",
+      "capacityL": 411,
+      "specs": {
+        "capacityL": 411,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/4/2/d/3/42d31e775a8c34e3e235e05dcd2fc63ff7f11b22_e553c85465b9c0b06bb47262d6673499312b2662d3000d0eb1f30a0bd6887035.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/4/2/d/3/42d31e775a8c34e3e235e05dcd2fc63ff7f11b22_e553c85465b9c0b06bb47262d6673499312b2662d3000d0eb1f30a0bd6887035.jpeg"
+      ],
+      "pros": [
+        "Solid capacity (~411 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Toshiba has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Near ceiling at ~32,000 EGP — little promo headroom"
+      ],
+      "summary": "Toshiba ~411L silver top freezer, non-inverter, ~32,000 EGP — fit 6.4/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.4,
+      "lifestyleFitScore": 6.4,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 31
+    },
+    {
+      "id": "fr_rdne430k02dx",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 367 Liter , Stainless Steel - RDNE430K02DX",
+      "brand": "Beko",
+      "priceEGP": 24000,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-nofrost-314l-rdne340k02xb",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 367,
+      "capacityUnit": "L",
+      "capacityL": 367,
+      "specs": {
+        "capacityL": 367,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/5/8/1/0/5810828fccbc36ff7d43c191f6ab040bc28016a9_beko_no_frost_refrigerator_314_liters_rdne340k02xb_1_.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/5/8/1/0/5810828fccbc36ff7d43c191f6ab040bc28016a9_beko_no_frost_refrigerator_314_liters_rdne340k02xb_1_.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~367 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Price ~24,000 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Beko ~367L silver top freezer, non-inverter, ~24,000 EGP — fit 6.3/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.3,
+      "lifestyleFitScore": 6.3,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 32
+    },
+    {
+      "id": "fr_zrt41204ba",
+      "category": "fridge",
+      "name": "Zanussi NoFrost Top Freezer Refrigerator , 406 Liter , Black - ZRT41204BA",
+      "brand": "Zanussi",
+      "priceEGP": 25199,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/zanussi-nofrost-refrigerator-406l-black-zrt41204ba",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 406,
+      "capacityUnit": "L",
+      "capacityL": 406,
+      "specs": {
+        "capacityL": 406,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/3/1/3/6/3136cbea9ccc6d648a09e74aed0ec6206504bde1_58fdc4534dfdcfeb77fa5222f4530b2fb744e9062abe733948939cd7e361bfb6.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/3/1/3/6/3136cbea9ccc6d648a09e74aed0ec6206504bde1_58fdc4534dfdcfeb77fa5222f4530b2fb744e9062abe733948939cd7e361bfb6.png"
+      ],
+      "pros": [
+        "Solid capacity (~406 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Zanussi is common on B.TECH — keep invoice and register warranty",
+        "Priced ~25,199 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers"
+      ],
+      "summary": "Zanussi ~406L black top freezer, non-inverter, ~25,199 EGP — fit 6.3/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.3,
+      "lifestyleFitScore": 6.3,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 33
+    },
+    {
+      "id": "fr_rdne430k12b",
+      "category": "fridge",
+      "name": "Beko NoFrost Top Freezer Refrigerator , 367 Liter , Black - RDNE430K12B",
+      "brand": "Beko",
+      "priceEGP": 32999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-refrigerator-430-litres-rdne430k12b",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 367,
+      "capacityUnit": "L",
+      "capacityL": 367,
+      "specs": {
+        "capacityL": 367,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/0/4/4/f/044ff9d2f4a7c017a6a6bc4714fce2866ff9bb00_beko_no_frost_refrigerator_430l_rdne430k12b_1_.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/0/4/4/f/044ff9d2f4a7c017a6a6bc4714fce2866ff9bb00_beko_no_frost_refrigerator_430l_rdne430k12b_1_.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~367 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Near ceiling at ~32,999 EGP — little promo headroom"
+      ],
+      "summary": "Beko ~367L black top freezer, non-inverter, ~32,999 EGP — fit 6.3/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.3,
+      "lifestyleFitScore": 6.3,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 34
+    },
+    {
+      "id": "fr_zanussi_crispo_nofro",
+      "category": "fridge",
+      "name": "Zanussi Crispo NoFrost Top Freezer Refrigerator , 370 Liter , Black",
+      "brand": "Zanussi",
+      "priceEGP": 24195,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/zanussi-crispo-no-frost-370l-refrigerator",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 370,
+      "capacityUnit": "L",
+      "capacityL": 370,
+      "specs": {
+        "capacityL": 370,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/5/4/5/b/545b253d26b9bb809643de9e8a622fab84c323a6_emptyname.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/5/4/5/b/545b253d26b9bb809643de9e8a622fab84c323a6_emptyname.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~370 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Zanussi is common on B.TECH — keep invoice and register warranty",
+        "Price ~24,195 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes"
+      ],
+      "summary": "Zanussi ~370L black top freezer, non-inverter, ~24,195 EGP — fit 6.1/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.1,
+      "lifestyleFitScore": 6.1,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 35
+    },
+    {
+      "id": "fr_tinf70420seg",
+      "category": "fridge",
+      "name": "Indesit NoFrost Top Freezer Refrigerator , 420 Liter , Silver - TINF70420SEG",
+      "brand": "Indesit",
+      "priceEGP": 22899,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/3643a1df-b966-413f-9201-b7aa1d8009ac",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 420,
+      "capacityUnit": "L",
+      "capacityL": 420,
+      "specs": {
+        "capacityL": 420,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/5/b/e/3/5be349e8450426253d7c2b8da75c82de71362f48_New_Project__29_.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/5/b/e/3/5be349e8450426253d7c2b8da75c82de71362f48_New_Project__29_.jpg"
+      ],
+      "pros": [
+        "Solid capacity (~420 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Indesit is common on B.TECH — keep invoice and register warranty",
+        "Price ~22,899 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Indesit ~420L silver top freezer, non-inverter, ~22,899 EGP — fit 6.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.0,
+      "lifestyleFitScore": 6.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 36
+    },
+    {
+      "id": "fr_rcne367e30xbri",
+      "category": "fridge",
+      "name": "Beko NoFrost Bottom Freezer Refrigerator , 367 Liter , Dark Inox - RCNE367E30XBRI",
+      "brand": "Beko",
+      "priceEGP": 28863,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-refrigerator-2d-367lt-drk-inox-rcne367e30xbri",
+      "scrapedAt": "2026-07-17",
+      "color": "dark_inox",
+      "capacity": 367,
+      "capacityUnit": "L",
+      "capacityL": 367,
+      "specs": {
+        "capacityL": 367,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/e/7/9/f/e79f60a86b0a5f0f3b55018c0f2bc649dde15602_f45b9a58a8c9dec1ab2c04fc8083bc718dc28e3e05c1844060f982c1d3aaa135.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/e/7/9/f/e79f60a86b0a5f0f3b55018c0f2bc649dde15602_f45b9a58a8c9dec1ab2c04fc8083bc718dc28e3e05c1844060f982c1d3aaa135.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~367 L) — tight but acceptable if organized",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Dark Inox finish reads modern/premium without pure black",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~28,863 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Not pure black — may fail hard aesthetics filter if partner insists"
+      ],
+      "summary": "Beko ~367L dark_inox bottom freezer, non-inverter, ~28,863 EGP — fit 6.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 6.0,
+      "lifestyleFitScore": 6.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "dark_inox",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 37
+    },
+    {
+      "id": "fr_zanussi_crispo_nofro",
+      "category": "fridge",
+      "name": "Zanussi Crispo NoFrost Top Freezer Refrigerator , 370 Liter , Silver",
+      "brand": "Zanussi",
+      "priceEGP": 18399,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/zanussi-crispo-nofrost-fridge-370l-silver",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 370,
+      "capacityUnit": "L",
+      "capacityL": 370,
+      "specs": {
+        "capacityL": 370,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/2/2/1/9/221961bd18e2da2e691685b5d2d95309bca40fb9_zanussi_crispo_no_frost_refrigerator_370_liters_silver_1_.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/2/2/1/9/221961bd18e2da2e691685b5d2d95309bca40fb9_zanussi_crispo_no_frost_refrigerator_370_liters_silver_1_.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~370 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Zanussi is common on B.TECH — keep invoice and register warranty",
+        "Price ~18,399 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Zanussi ~370L silver top freezer, non-inverter, ~18,399 EGP — fit 5.8/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.8,
+      "lifestyleFitScore": 5.8,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 38
+    },
+    {
+      "id": "fr_rcne367e30zxb",
+      "category": "fridge",
+      "name": "Beko Combi NoFrost Bottom Freezer Refrigerator , 367 Liter , Silver - RCNE367E30ZXB",
+      "brand": "Beko",
+      "priceEGP": 26900,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/beko-refrigerator-2d-367lt-silver-rcne367e30zxb",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 367,
+      "capacityUnit": "L",
+      "capacityL": 367,
+      "specs": {
+        "capacityL": 367,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/9/a/6/7/9a67c7e5d880f16295eee777b6d5cda2d3e200a9_7cd97acd85d271d38f0ff9091fa988ffc9212c16f451b81072e1425c983a9af3.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/9/a/6/7/9a67c7e5d880f16295eee777b6d5cda2d3e200a9_7cd97acd85d271d38f0ff9091fa988ffc9212c16f451b81072e1425c983a9af3.jpg"
+      ],
+      "pros": [
+        "Meets min size floor (~367 L) — tight but acceptable if organized",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Beko has a relatively strong Egypt service/warranty footprint via big chains",
+        "Priced ~26,900 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard"
+      ],
+      "summary": "Beko ~367L silver bottom freezer, non-inverter, ~26,900 EGP — fit 5.8/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.8,
+      "lifestyleFitScore": 5.8,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 39
+    },
+    {
+      "id": "fr_fnt_br470bmb",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Black - FNT-BR470BMB",
+      "brand": "Fresh",
+      "priceEGP": 21325,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fresh-no-frost-refrigerator-397l-black-fnt-br470bmb",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 397,
+      "capacityUnit": "L",
+      "capacityL": 397,
+      "specs": {
+        "capacityL": 397,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/b/a/c/0/bac083165d09e3ad074de4146ec765f489a2648b_br470bmb.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/b/a/c/0/bac083165d09e3ad074de4146ec765f489a2648b_br470bmb.jpg"
+      ],
+      "pros": [
+        "Meets min size floor (~397 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Price ~21,325 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~397L black top freezer, non-inverter, ~21,325 EGP — fit 5.7/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.7,
+      "lifestyleFitScore": 5.7,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 40
+    },
+    {
+      "id": "fr_fnt_mr470ygqmi",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Black - FNT-MR470YGQMI",
+      "brand": "Fresh",
+      "priceEGP": 26369,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fresh-nofrost-refrigerator-397l-fnt-mr470ygqmi",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 397,
+      "capacityUnit": "L",
+      "capacityL": 397,
+      "specs": {
+        "capacityL": 397,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/c/5/9/9/c5991fc710e1b71ffda7be257128e62f59a3ecbd_New_Project__54_.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/c/5/9/9/c5991fc710e1b71ffda7be257128e62f59a3ecbd_New_Project__54_.jpg"
+      ],
+      "pros": [
+        "Meets min size floor (~397 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Priced ~26,369 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~397L black top freezer, non-inverter, ~26,369 EGP — fit 5.7/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.7,
+      "lifestyleFitScore": 5.7,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 41
+    },
+    {
+      "id": "fr_fnt_br470",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Black - FNT-BR470 KB",
+      "brand": "Fresh",
+      "priceEGP": 26500,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fresh-nofrost-refrigerator-397liters-black-fntbr470kb",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 397,
+      "capacityUnit": "L",
+      "capacityL": 397,
+      "specs": {
+        "capacityL": 397,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/3/9/9/4/3994f8e314004eea79e6fc07ec3535a7d3f8b398_fresh_refrigerator_fnt_br470_kb_397_liters_black.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/3/9/9/4/3994f8e314004eea79e6fc07ec3535a7d3f8b398_fresh_refrigerator_fnt_br470_kb_397_liters_black.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~397 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Priced ~26,500 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~397L black top freezer, non-inverter, ~26,500 EGP — fit 5.7/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.7,
+      "lifestyleFitScore": 5.7,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 42
+    },
+    {
+      "id": "fr_mr470ygdr",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Black Red - MR470YGDR",
+      "brand": "Fresh",
+      "priceEGP": 28799,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fa99b52c-baf9-43ca-b5bd-b9e0a99620dc",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 397,
+      "capacityUnit": "L",
+      "capacityL": 397,
+      "specs": {
+        "capacityL": 397,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/2/4/4/6/2446be504e607a0e4be703ae14d4b05d2d0a03c6_MR470YGDR.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/2/4/4/6/2446be504e607a0e4be703ae14d4b05d2d0a03c6_MR470YGDR.jpg"
+      ],
+      "pros": [
+        "Meets min size floor (~397 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Priced ~28,799 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~397L black top freezer, non-inverter, ~28,799 EGP — fit 5.7/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.7,
+      "lifestyleFitScore": 5.7,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 43
+    },
+    {
+      "id": "fr_fnt_ms580",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 471 Liter , Stainless Steel - FNT-MS580 YT (FLD)",
+      "brand": "Fresh",
+      "priceEGP": 29299,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/87a98bcc-62ce-4f00-b619-2bcc3454ed5c",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 471,
+      "capacityUnit": "L",
+      "capacityL": 471,
+      "specs": {
+        "capacityL": 471,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/1/6/d/3/16d336beb6278f0814cab3ffbbddccb3c2b70602_wh_dig_1.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/1/6/d/3/16d336beb6278f0814cab3ffbbddccb3c2b70602_wh_dig_1.jpg"
+      ],
+      "pros": [
+        "Large total capacity (~471 L) — strong for weekly Friday meal-prep containers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Priced ~29,299 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~471L silver top freezer, non-inverter, ~29,299 EGP — fit 5.7/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.7,
+      "lifestyleFitScore": 5.7,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 44
+    },
+    {
+      "id": "fr_fnt_mr580ygdr",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 471 Liter , Burgundy - FNT-MR580YGDR",
+      "brand": "Fresh",
+      "priceEGP": 33500,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fresh-no-frost-refrigerator-471l-burgundy-fnt-mr580ygdr",
+      "scrapedAt": "2026-07-17",
+      "color": "other",
+      "capacity": 471,
+      "capacityUnit": "L",
+      "capacityL": 471,
+      "specs": {
+        "capacityL": 471,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/d/9/5/7/d957173519d3648433970b98d375cb39727b6772_99f4d407e7aa9741b5ac22addd6ce159a10077c3abb70d704815ee9195935563.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/d/9/5/7/d957173519d3648433970b98d375cb39727b6772_99f4d407e7aa9741b5ac22addd6ce159a10077c3abb70d704815ee9195935563.jpeg"
+      ],
+      "pros": [
+        "Large total capacity (~471 L) — strong for weekly Friday meal-prep containers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Near ceiling at ~33,500 EGP — little promo headroom"
+      ],
+      "summary": "Fresh ~471L other top freezer, non-inverter, ~33,500 EGP — fit 5.7/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.7,
+      "lifestyleFitScore": 5.7,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "other",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 45
+    },
+    {
+      "id": "fr_mdrt580mtn46",
+      "category": "fridge",
+      "name": "Midea Tropical NoFrost Top Freezer Refrigerator , 411 Liter , Silver - MDRT580MTN46",
+      "brand": "Midea",
+      "priceEGP": 23289,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/999be602-1a98-430b-9ff9-f737e99b5987",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 411,
+      "capacityUnit": "L",
+      "capacityL": 411,
+      "specs": {
+        "capacityL": 411,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/9/8/0/7/980748d2f353271891749f63fa06651fd0503913_41a124f5b1d4ba8a007e99a11d1ca7812243d47c720cc01c6ea0a0cd0d71b666_copy.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/9/8/0/7/980748d2f353271891749f63fa06651fd0503913_41a124f5b1d4ba8a007e99a11d1ca7812243d47c720cc01c6ea0a0cd0d71b666_copy.jpg"
+      ],
+      "pros": [
+        "Solid capacity (~411 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Price ~23,289 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Midea mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Midea ~411L silver top freezer, non-inverter, ~23,289 EGP — fit 5.6/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.6,
+      "lifestyleFitScore": 5.6,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 46
+    },
+    {
+      "id": "fr_fntms540yt4k",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 426 Liter , Stainless Steel - FNTMS540YT4K",
+      "brand": "Fresh",
+      "priceEGP": 26579,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fresh-no-frost-refrigerator-426-liters-stainless-steel-fntms540yt4k",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 426,
+      "capacityUnit": "L",
+      "capacityL": 426,
+      "specs": {
+        "capacityL": 426,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/d/a/3/6/da360984db3834e9caf1a19765e5209e9b5a91f7_3_4_5_6_2.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/d/a/3/6/da360984db3834e9caf1a19765e5209e9b5a91f7_3_4_5_6_2.png"
+      ],
+      "pros": [
+        "Solid capacity (~426 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Priced ~26,579 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~426L silver top freezer, non-inverter, ~26,579 EGP — fit 5.6/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.6,
+      "lifestyleFitScore": 5.6,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 47
+    },
+    {
+      "id": "fr_fnt_dr540ygb",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 426 Liter , Black - FNT-DR540YGB",
+      "brand": "Fresh",
+      "priceEGP": 29079,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/2c00bec4-7533-4683-b235-ab66b8567c48",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 426,
+      "capacityUnit": "L",
+      "capacityL": 426,
+      "specs": {
+        "capacityL": 426,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/0/2/8/3/028353e8cb43fe5c71765561673288e810f867b1_500011999_1mfrrefsdr540ygbl007.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/0/2/8/3/028353e8cb43fe5c71765561673288e810f867b1_500011999_1mfrrefsdr540ygbl007.jpg"
+      ],
+      "pros": [
+        "Solid capacity (~426 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Priced ~29,079 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~426L black top freezer, non-inverter, ~29,079 EGP — fit 5.6/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.6,
+      "lifestyleFitScore": 5.6,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 48
+    },
+    {
+      "id": "fr_br400kb",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Black - BR400KB",
+      "brand": "Fresh",
+      "priceEGP": 24599,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fresh-mechanical-freestanding-refrigerator-no-frost-2-doors-369-liters-black-br400kb",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 369,
+      "capacityUnit": "L",
+      "capacityL": 369,
+      "specs": {
+        "capacityL": 369,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/c/6/1/e/c61e61a492ab0513bb8e9dca4083ed548a6cee97_br400kb_1.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/c/6/1/e/c61e61a492ab0513bb8e9dca4083ed548a6cee97_br400kb_1.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~369 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Price ~24,599 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~369L black top freezer, non-inverter, ~24,599 EGP — fit 5.5/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.5,
+      "lifestyleFitScore": 5.5,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 49
+    },
+    {
+      "id": "fr_urn600lbg1adthr",
+      "category": "fridge",
+      "name": "Unionaire Max Cool NoFrost Top Freezer Refrigerator , 440 Liter , Black - URN600LBG1ADTHR",
+      "brand": "Unionaire",
+      "priceEGP": 24644,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/302fee33-58cf-4c1e-8ee8-077a2a3a3e2e",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 440,
+      "capacityUnit": "L",
+      "capacityL": 440,
+      "specs": {
+        "capacityL": 440,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/7/d/b/0/7db0830fd65d21255ec132ed177ed4607a449bd1_main1.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/7/d/b/0/7db0830fd65d21255ec132ed177ed4607a449bd1_main1.jpg"
+      ],
+      "pros": [
+        "Solid capacity (~440 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Price ~24,644 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~440L black top freezer, non-inverter, ~24,644 EGP — fit 5.5/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.5,
+      "lifestyleFitScore": 5.5,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 50
+    },
+    {
+      "id": "fr_fnt_b400",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Black - FNT-B400 KB",
+      "brand": "Fresh",
+      "priceEGP": 24999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fresh-no-frost-refrigerator-369-liters-black-fnt-b400kb",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 369,
+      "capacityUnit": "L",
+      "capacityL": 369,
+      "specs": {
+        "capacityL": 369,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/6/2/8/9/6289b61c03ec950178e7e6c7c89659ad4873eb2b_1mfrrefsb400kb00l007_701_1.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/6/2/8/9/6289b61c03ec950178e7e6c7c89659ad4873eb2b_1mfrrefsb400kb00l007_701_1.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~369 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Price ~24,999 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~369L black top freezer, non-inverter, ~24,999 EGP — fit 5.5/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.5,
+      "lifestyleFitScore": 5.5,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 51
+    },
+    {
+      "id": "fr_fnt_b400",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Black - FNT-B400 BB",
+      "brand": "Fresh",
+      "priceEGP": 26499,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fresh-no-frost-refrigerator-369-litres-black-fnt-b400-bb",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 369,
+      "capacityUnit": "L",
+      "capacityL": 369,
+      "specs": {
+        "capacityL": 369,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/c/3/9/7/c39780a73089242ed93f5ac2462c1c5f1a633d28_260ee76fb6d231b860c5bbc0488812209cf2ebfce74657e4ee43579ee7267c31.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/c/3/9/7/c39780a73089242ed93f5ac2462c1c5f1a633d28_260ee76fb6d231b860c5bbc0488812209cf2ebfce74657e4ee43579ee7267c31.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~369 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Priced ~26,499 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~369L black top freezer, non-inverter, ~26,499 EGP — fit 5.5/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.5,
+      "lifestyleFitScore": 5.5,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 52
+    },
+    {
+      "id": "fr_fnt_bs470kt",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Stainless Steel - FNT-BS470KT (FLD)",
+      "brand": "Fresh",
+      "priceEGP": 21319,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/ba48dc02-5ca2-4904-8653-735abdb9de98",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 397,
+      "capacityUnit": "L",
+      "capacityL": 397,
+      "specs": {
+        "capacityL": 397,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/5/f/7/c/5f7c4d926750d54f71bff3b7ea0f914a6eaeac38_Silver_Ref_Front_removebg_preview.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/5/f/7/c/5f7c4d926750d54f71bff3b7ea0f914a6eaeac38_Silver_Ref_Front_removebg_preview.png"
+      ],
+      "pros": [
+        "Meets min size floor (~397 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Price ~21,319 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~397L silver top freezer, non-inverter, ~21,319 EGP — fit 5.4/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.4,
+      "lifestyleFitScore": 5.4,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 53
+    },
+    {
+      "id": "fr_urn500lbg1adthrbsm",
+      "category": "fridge",
+      "name": "Unionaire MAX Signature NoFrost Top Freezer Refrigerator , 420 Liter , Black - URN500LBG1ADTHRBSM",
+      "brand": "Unionaire",
+      "priceEGP": 21980,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionair-maxsignature-nofrost-refrigerator-420l-black-ass-urn500lbg1adthrbsm",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 420,
+      "capacityUnit": "L",
+      "capacityL": 420,
+      "specs": {
+        "capacityL": 420,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/f/b/8/e/fb8ea4a8a08a0df183d725646c121972c4d63835_urn500lbg1adthrbsm_2.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/f/b/8/e/fb8ea4a8a08a0df183d725646c121972c4d63835_urn500lbg1adthrbsm_2.jpg"
+      ],
+      "pros": [
+        "Solid capacity (~420 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Price ~21,980 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~420L black top freezer, non-inverter, ~21,980 EGP — fit 5.4/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.4,
+      "lifestyleFitScore": 5.4,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 54
+    },
+    {
+      "id": "fr_urn_500lblba_dth",
+      "category": "fridge",
+      "name": "Unionaire Platinum NoFrost Top Freezer Refrigerator , 420 Liter , Black - URN-500LBLBA-DTH",
+      "brand": "Unionaire",
+      "priceEGP": 24104,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-platinum-refrigerator-420l-black-urn-500lblba-dth",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 420,
+      "capacityUnit": "L",
+      "capacityL": 420,
+      "specs": {
+        "capacityL": 420,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/1/0/b/2/10b21b20f79e6a439e402564cb67559dce7f7301_8414b1171ac312f4e67dccbd5fea7196ec8c1922d1cc0e3603ccbbb9e4ce245c.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/1/0/b/2/10b21b20f79e6a439e402564cb67559dce7f7301_8414b1171ac312f4e67dccbd5fea7196ec8c1922d1cc0e3603ccbbb9e4ce245c.jpeg"
+      ],
+      "pros": [
+        "Solid capacity (~420 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Price ~24,104 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~420L black top freezer, non-inverter, ~24,104 EGP — fit 5.4/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.4,
+      "lifestyleFitScore": 5.4,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 55
+    },
+    {
+      "id": "fr_fnt_b470",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Silver - FNT-B470 KT",
+      "brand": "Fresh",
+      "priceEGP": 25315,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fresh-nofrost-refrigerator-397liters-silver-fntb470kt",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 397,
+      "capacityUnit": "L",
+      "capacityL": 397,
+      "specs": {
+        "capacityL": 397,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/6/c/b/b/6cbb19d797d0bdf292cb4897d01ba34a7c673b7f_fresh_no_frost_refrigerator_397_liters_silver__fnt_b470_kt_1_.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/6/c/b/b/6cbb19d797d0bdf292cb4897d01ba34a7c673b7f_fresh_no_frost_refrigerator_397_liters_silver__fnt_b470_kt_1_.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~397 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Priced ~25,315 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~397L silver top freezer, non-inverter, ~25,315 EGP — fit 5.4/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.4,
+      "lifestyleFitScore": 5.4,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 56
+    },
+    {
+      "id": "fr_urn_700cepblg1a_dxhrbxl",
+      "category": "fridge",
+      "name": "Unionaire Signature NoFrost Bottom Freezer Refrigerator , 505 Liter , Black - URN-700CEPBLG1A-DXHRBXL",
+      "brand": "Unionaire",
+      "priceEGP": 28999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-signature-refrigerator-505l-black-urn-700cepblg1a-dxhrbxl",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 505,
+      "capacityUnit": "L",
+      "capacityL": 505,
+      "specs": {
+        "capacityL": 505,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/b/9/e/2/b9e2a07e697faaf68d80a71dc495048a61819b7b_4c544e057984f9eb2acae8deab8a8697819835961b960e47d844be4a3d308327.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/b/9/e/2/b9e2a07e697faaf68d80a71dc495048a61819b7b_4c544e057984f9eb2acae8deab8a8697819835961b960e47d844be4a3d308327.jpeg"
+      ],
+      "pros": [
+        "Large total capacity (~505 L) — strong for weekly Friday meal-prep containers",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Black finish matches partner aesthetics preference",
+        "Priced ~28,999 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~505L black bottom freezer, non-inverter, ~28,999 EGP — fit 5.4/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.4,
+      "lifestyleFitScore": 5.4,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 57
+    },
+    {
+      "id": "fr_urn800cepblg1adxhirbxxln",
+      "category": "fridge",
+      "name": "Unionaire NoFrost Bottom Freezer Refrigerator , 545 Liter , Black - URN800CEPBLG1ADXHIRBXXLN",
+      "brand": "Unionaire",
+      "priceEGP": 32249,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-refrgerator-545l-black-urn800cepblg1adxhirbxxln",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 545,
+      "capacityUnit": "L",
+      "capacityL": 545,
+      "specs": {
+        "capacityL": 545,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/2/0/9/3/20934607d2568e949f1f1aecd4ecfe6684d61d94_imgi_2_d720124654945a9890da5d709c2cbace18b9fc28a5cdc6d654fc3af92c.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/2/0/9/3/20934607d2568e949f1f1aecd4ecfe6684d61d94_imgi_2_d720124654945a9890da5d709c2cbace18b9fc28a5cdc6d654fc3af92c.jpg"
+      ],
+      "pros": [
+        "Large total capacity (~545 L) — strong for weekly Friday meal-prep containers",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Black finish matches partner aesthetics preference",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Near ceiling at ~32,249 EGP — little promo headroom",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~545L black bottom freezer, non-inverter, ~32,249 EGP — fit 5.4/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.4,
+      "lifestyleFitScore": 5.4,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 58
+    },
+    {
+      "id": "fr_fntbs400ktfld",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Stainless Steel - FNTBS400KTFLD",
+      "brand": "Fresh",
+      "priceEGP": 20405,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/16065cde-ce3c-45f4-bfb9-0d646b25cfee",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 369,
+      "capacityUnit": "L",
+      "capacityL": 369,
+      "specs": {
+        "capacityL": 369,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/a/c/7/8/ac78263458e0e305abd1ec610fed4f6b77343c45_Silver_Ref_Front__1_.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/a/c/7/8/ac78263458e0e305abd1ec610fed4f6b77343c45_Silver_Ref_Front__1_.jpg"
+      ],
+      "pros": [
+        "Meets min size floor (~369 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Price ~20,405 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~369L silver top freezer, non-inverter, ~20,405 EGP — fit 5.2/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.2,
+      "lifestyleFitScore": 5.2,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 59
+    },
+    {
+      "id": "fr_fnt_m400yt",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Stainless Steel - FNT-M400YT",
+      "brand": "Fresh",
+      "priceEGP": 23459,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/914eaa53-5770-45e8-a438-912bbd08ebb1",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 369,
+      "capacityUnit": "L",
+      "capacityL": 369,
+      "specs": {
+        "capacityL": 369,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/e/e/e/8/eee818a3a740e41e551643448d86c53553d0e7c0_FNTM400YT.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/e/e/e/8/eee818a3a740e41e551643448d86c53553d0e7c0_FNTM400YT.jpg"
+      ],
+      "pros": [
+        "Meets min size floor (~369 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Price ~23,459 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~369L silver top freezer, non-inverter, ~23,459 EGP — fit 5.2/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.2,
+      "lifestyleFitScore": 5.2,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 60
+    },
+    {
+      "id": "fr_br400kt",
+      "category": "fridge",
+      "name": "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Silver - BR400KT",
+      "brand": "Fresh",
+      "priceEGP": 26299,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/fresh-nofrost-refrigerator-369l-br400kt",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 369,
+      "capacityUnit": "L",
+      "capacityL": 369,
+      "specs": {
+        "capacityL": 369,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/5/e/f/8/5ef8798d43d5a52597283018ad1a0df8aeec07fa_fresh_freestanding_refrigerator_with_plasma_ionizer_no_frost_2_doors_14_ft_stainless_steel_fnt_.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/5/e/f/8/5ef8798d43d5a52597283018ad1a0df8aeec07fa_fresh_freestanding_refrigerator_with_plasma_ionizer_no_frost_2_doors_14_ft_stainless_steel_fnt_.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~369 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Priced ~26,299 EGP — under hard 35k with some room",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Fresh mid/value-tier — reliability variance higher; buy authorized + written warranty"
+      ],
+      "summary": "Fresh ~369L silver top freezer, non-inverter, ~26,299 EGP — fit 5.2/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.2,
+      "lifestyleFitScore": 5.2,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 61
+    },
+    {
+      "id": "fr_urn700clblg1adtxhrbxln",
+      "category": "fridge",
+      "name": "Unionaire Signature Combi NoFrost Bottom Freezer Refrigerator , 505 Liter , Black - URN700CLBLG1ADTXHRBXLN",
+      "brand": "Unionaire",
+      "priceEGP": 30999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/b5201dd4-b907-44b7-bd4e-98d2e4aa664c",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 505,
+      "capacityUnit": "L",
+      "capacityL": 505,
+      "specs": {
+        "capacityL": 505,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/a/c/e/0/ace06a3b1ca4db61c68f5b72c90b18be64275874_1_mian_image.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/a/c/e/0/ace06a3b1ca4db61c68f5b72c90b18be64275874_1_mian_image.png"
+      ],
+      "pros": [
+        "Large total capacity (~505 L) — strong for weekly Friday meal-prep containers",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Black finish matches partner aesthetics preference",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Near ceiling at ~30,999 EGP — little promo headroom",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~505L black bottom freezer, non-inverter, ~30,999 EGP — fit 5.2/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.2,
+      "lifestyleFitScore": 5.2,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 62
+    },
+    {
+      "id": "fr_urn700cepblg1adxhrbxls",
+      "category": "fridge",
+      "name": "Unionaire Signature NoFrost Bottom Freezer Refrigerator , 505 Liter , Black - URN700CEPBLG1ADXHRBXLS",
+      "brand": "Unionaire",
+      "priceEGP": 31999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-signature-no-frost-refrigerator-505l-black-glass-urn700cepblg1adxhrbxls",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 505,
+      "capacityUnit": "L",
+      "capacityL": 505,
+      "specs": {
+        "capacityL": 505,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/1/c/8/7/1c87ca9399de161c3facd71079a133ee97458151_4c544e057984f9eb2acae8deab8a8697819835961b960e47d844be4a3d308327_4_.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/1/c/8/7/1c87ca9399de161c3facd71079a133ee97458151_4c544e057984f9eb2acae8deab8a8697819835961b960e47d844be4a3d308327_4_.jpeg"
+      ],
+      "pros": [
+        "Large total capacity (~505 L) — strong for weekly Friday meal-prep containers",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Black finish matches partner aesthetics preference",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Near ceiling at ~31,999 EGP — little promo headroom",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~505L black bottom freezer, non-inverter, ~31,999 EGP — fit 5.2/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.2,
+      "lifestyleFitScore": 5.2,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 63
+    },
+    {
+      "id": "fr_urn_500dlvlsa_dxsrbm",
+      "category": "fridge",
+      "name": "Unionaire NoFrost Top Freezer Refrigerator , 420 Liter , Stainless Steel - URN-500DLVLSA-DXSRBM",
+      "brand": "Unionaire",
+      "priceEGP": 21500,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/1b47f36a-6cab-46e1-a3a8-c98a82ef86f6",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 420,
+      "capacityUnit": "L",
+      "capacityL": 420,
+      "specs": {
+        "capacityL": 420,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/0/d/9/8/0d982f7a3d9e813a4d8d3f7b3a7536a53d19cb37_unionaire_refrigerator_420l_2_doors_digital_stainless_urn_500dlvlsa_dxsrbm_removebg_preview.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/0/d/9/8/0d982f7a3d9e813a4d8d3f7b3a7536a53d19cb37_unionaire_refrigerator_420l_2_doors_digital_stainless_urn_500dlvlsa_dxsrbm_removebg_preview.png"
+      ],
+      "pros": [
+        "Solid capacity (~420 L) for couple weekly shop + leftovers",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Price ~21,500 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~420L silver top freezer, non-inverter, ~21,500 EGP — fit 5.1/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.1,
+      "lifestyleFitScore": 5.1,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 64
+    },
+    {
+      "id": "fr_urn500clblg1adtxhrbm",
+      "category": "fridge",
+      "name": "Unionaire Combi NoFrost Bottom Freezer Refrigerator , 370 Liter , Black - URN500CLBLG1ADTXHRBM",
+      "brand": "Unionaire",
+      "priceEGP": 18469,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/c4627561-bf0b-4e18-9425-0a8712b70647",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 370,
+      "capacityUnit": "L",
+      "capacityL": 370,
+      "specs": {
+        "capacityL": 370,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/1/2/2/d/122d2353fe62548745e2d8af0af064915db23b64_M_L_WITHOUT_DISP_3x_removebg_preview.png",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/1/2/2/d/122d2353fe62548745e2d8af0af064915db23b64_M_L_WITHOUT_DISP_3x_removebg_preview.png"
+      ],
+      "pros": [
+        "Meets min size floor (~370 L) — tight but acceptable if organized",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Black finish matches partner aesthetics preference",
+        "Price ~18,469 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~370L black bottom freezer, non-inverter, ~18,469 EGP — fit 5.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.0,
+      "lifestyleFitScore": 5.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 65
+    },
+    {
+      "id": "fr_urn_440lblba_dth",
+      "category": "fridge",
+      "name": "Unionaire Platinum NoFrost Top Freezer Refrigerator , 370 Liter , Black - URN-440LBLBA-DTH",
+      "brand": "Unionaire",
+      "priceEGP": 19999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-platinum-refrigerator-370l-black-urn-440lblba-dth",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 370,
+      "capacityUnit": "L",
+      "capacityL": 370,
+      "specs": {
+        "capacityL": 370,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/a/e/f/6/aef631cd27fd1e479cea50858bd87db421938976_8414b1171ac312f4e67dccbd5fea7196ec8c1922d1cc0e3603ccbbb9e4ce245c.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/a/e/f/6/aef631cd27fd1e479cea50858bd87db421938976_8414b1171ac312f4e67dccbd5fea7196ec8c1922d1cc0e3603ccbbb9e4ce245c.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~370 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Price ~19,999 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~370L black top freezer, non-inverter, ~19,999 EGP — fit 5.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.0,
+      "lifestyleFitScore": 5.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 66
+    },
+    {
+      "id": "fr_urn440lblepvadtsr",
+      "category": "fridge",
+      "name": "Unionaire NoFrost Top Freezer Refrigerator , 370 Liter , Silver - URN440LBLEPVADTSR",
+      "brand": "Unionaire",
+      "priceEGP": 20000,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-nofrost-refrigerator-370l-silver-urn440lblepvadtsr",
+      "scrapedAt": "2026-07-17",
+      "color": "silver",
+      "capacity": 370,
+      "capacityUnit": "L",
+      "capacityL": 370,
+      "specs": {
+        "capacityL": 370,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/9/e/9/d/9e9d1eef1621f01af38cea5a047a5c00c401cd7a_unionaire_refrigerator_350_l_2_doors_digital_silver_urn_420lblepva_dtsr.jpg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/9/e/9/d/9e9d1eef1621f01af38cea5a047a5c00c401cd7a_unionaire_refrigerator_350_l_2_doors_digital_silver_urn_420lblepva_dtsr.jpg"
+      ],
+      "pros": [
+        "Meets min size floor (~370 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Price ~20,000 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Non-black finish — use gallery Black-only filter if aesthetics stay hard",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~370L silver top freezer, non-inverter, ~20,000 EGP — fit 5.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.0,
+      "lifestyleFitScore": 5.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "silver",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 67
+    },
+    {
+      "id": "fr_urn_440lbg1a_dthrbsm",
+      "category": "fridge",
+      "name": "Unionaire i-Cool NoFrost Top Freezer Refrigerator , 370 Liter , Black - URN-440LBG1A-DTHRBSM",
+      "brand": "Unionaire",
+      "priceEGP": 20499,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-i-cool-no-frost-refrigerator-370-liters-black-urn-440lbg1a-dthrbsm",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 370,
+      "capacityUnit": "L",
+      "capacityL": 370,
+      "specs": {
+        "capacityL": 370,
+        "layout": "top_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/4/e/5/5/4e55a68ee2d4c581e44e1d4eec356a51b79ad5ec_urn500lbg1adthrbsm_1.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/4/e/5/5/4e55a68ee2d4c581e44e1d4eec356a51b79ad5ec_urn500lbg1adthrbsm_1.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~370 L) — tight but acceptable if organized",
+        "Top freezer layout — classic max-fridge-shelf geometry for meal-prep trays",
+        "Black finish matches partner aesthetics preference",
+        "Price ~20,499 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~370L black top freezer, non-inverter, ~20,499 EGP — fit 5.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.0,
+      "lifestyleFitScore": 5.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "top_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 68
+    },
+    {
+      "id": "fr_urn600cepblg1adxhrbls",
+      "category": "fridge",
+      "name": "Unionaire Signature NoFrost Bottom Freezer Refrigerator , 440 Liter , Black Glass - URN600CEPBLG1ADXHRBLS",
+      "brand": "Unionaire",
+      "priceEGP": 22891,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-signature-nofrost-refrigerator-440l-black-glass-urn600cepblg1adxhrbls",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 440,
+      "capacityUnit": "L",
+      "capacityL": 440,
+      "specs": {
+        "capacityL": 440,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/8/c/5/9/8c59c3169bd17a1cae7d7259cd62fdaf0fc8db12_4c544e057984f9eb2acae8deab8a8697819835961b960e47d844be4a3d308327_1_.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/8/c/5/9/8c59c3169bd17a1cae7d7259cd62fdaf0fc8db12_4c544e057984f9eb2acae8deab8a8697819835961b960e47d844be4a3d308327_1_.jpeg"
+      ],
+      "pros": [
+        "Solid capacity (~440 L) for couple weekly shop + leftovers",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Black finish matches partner aesthetics preference",
+        "Price ~22,891 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~440L black bottom freezer, non-inverter, ~22,891 EGP — fit 5.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.0,
+      "lifestyleFitScore": 5.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 69
+    },
+    {
+      "id": "fr_urn_600cepblg1a_dxhrbl",
+      "category": "fridge",
+      "name": "Unionaire Signature NoFrost Bottom Freezer Refrigerator , 420 Liter , Black - URN-600CEPBLG1A-DXHRBL",
+      "brand": "Unionaire",
+      "priceEGP": 22891,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-signature-refrigerator-420l-black-urn-600cepblg1a-dxhrbl",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 420,
+      "capacityUnit": "L",
+      "capacityL": 420,
+      "specs": {
+        "capacityL": 420,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/b/3/c/b/b3cbb32805ffe6c39fbb93576e69866af599b568_4c544e057984f9eb2acae8deab8a8697819835961b960e47d844be4a3d308327.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/b/3/c/b/b3cbb32805ffe6c39fbb93576e69866af599b568_4c544e057984f9eb2acae8deab8a8697819835961b960e47d844be4a3d308327.jpeg"
+      ],
+      "pros": [
+        "Solid capacity (~420 L) for couple weekly shop + leftovers",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Black finish matches partner aesthetics preference",
+        "Price ~22,891 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~420L black bottom freezer, non-inverter, ~22,891 EGP — fit 5.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.0,
+      "lifestyleFitScore": 5.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 70
+    },
+    {
+      "id": "fr_urn_500clblg1a_dtxhs",
+      "category": "fridge",
+      "name": "Unionaire NoFrost Bottom Freezer Refrigerator , 370 Liter , Black - URN-500CLBLG1A-DTXHS",
+      "brand": "Unionaire",
+      "priceEGP": 22950,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/unionaire-nofrost-refrigerator-370l-black-urn500clblg1adtxhs",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 370,
+      "capacityUnit": "L",
+      "capacityL": 370,
+      "specs": {
+        "capacityL": 370,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/2/6/4/d/264de753962dfd3dc59907bce61b470bc49c0478_74111ca255af6455a500790952b6ef7bd2c1a3e66b38e123e6b32e92ea60ab97.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/2/6/4/d/264de753962dfd3dc59907bce61b470bc49c0478_74111ca255af6455a500790952b6ef7bd2c1a3e66b38e123e6b32e92ea60ab97.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~370 L) — tight but acceptable if organized",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Black finish matches partner aesthetics preference",
+        "Price ~22,950 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~370L black bottom freezer, non-inverter, ~22,950 EGP — fit 5.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.0,
+      "lifestyleFitScore": 5.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 71
+    },
+    {
+      "id": "fr_urn500clblg1adtxhn",
+      "category": "fridge",
+      "name": "Unionaire Signature Combi NoFrost Bottom Freezer Refrigerator , 370 Liter , Black - URN500CLBLG1ADTXHN",
+      "brand": "Unionaire",
+      "priceEGP": 22999,
+      "currency": "EGP",
+      "retailer": "B.TECH",
+      "url": "https://btech.com/en/p/ae2cff54-fd3b-4019-98c4-c23da0e10f57",
+      "scrapedAt": "2026-07-17",
+      "color": "black",
+      "capacity": 370,
+      "capacityUnit": "L",
+      "capacityL": 370,
+      "specs": {
+        "capacityL": 370,
+        "layout": "bottom_freezer",
+        "inverter": false,
+        "nofrost": true,
+        "dispenser": false,
+        "hasFreezer": true,
+        "freezerL": null
+      },
+      "imageUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/e/6/5/0/e6506a6f3986f030ef6c01a8ded82a3d2c0adfd1_264de753962dfd3dc59907bce61b470bc49c0478_74111ca255af6455a500790952b6ef7bd2c1a3e66b38e123e6b32e.jpeg",
+      "imageGallery": [
+        "https://dwecxxryy5p59.cloudfront.net/catalogs/e/6/5/0/e6506a6f3986f030ef6c01a8ded82a3d2c0adfd1_264de753962dfd3dc59907bce61b470bc49c0478_74111ca255af6455a500790952b6ef7bd2c1a3e66b38e123e6b32e.jpeg"
+      ],
+      "pros": [
+        "Meets min size floor (~370 L) — tight but acceptable if organized",
+        "Bottom freezer: fridge at eye level for daily prep containers",
+        "Black finish matches partner aesthetics preference",
+        "Price ~22,999 EGP leaves budget headroom under the 35k ceiling",
+        "No water/ice dispenser (fewer leak/failure points)",
+        "NoFrost — no manual defrost chore"
+      ],
+      "cons": [
+        "Non-inverter (fixed-speed) — more start/stop noise and bill risk vs inverter peers",
+        "Near the 360 L floor — can feel small if hosting or bulk shopping spikes",
+        "Bottom freezers trade bulk freezer volume for organization — use flat packs",
+        "Unionaire mid/value-tier — reliability variance higher; buy authorized + written warranty",
+        "Bluetooth/speaker gimmicks on Signature lines are optional noise — not a reliability plus"
+      ],
+      "summary": "Unionaire ~370L black bottom freezer, non-inverter, ~22,999 EGP — fit 5.0/10 for meal-prep couple under 35k.",
+      "researchFitScore": 5.0,
+      "lifestyleFitScore": 5.0,
+      "hasDeepResearch": false,
+      "verifyNote": null,
+      "status": "catalog",
+      "tags": [
+        "black",
+        "under_35k",
+        "bottom_freezer",
+        "non_inverter",
+        "nofrost"
+      ],
+      "rank": 72
+    }
+  ],
+  "excludedExamples": [
+    {
+      "reason": "price > 35000"
+    },
+    {
+      "reason": "capacity < 360 L"
+    },
+    {
+      "reason": "minibar / manual defrost / dispenser"
+    },
+    {
+      "reason": "non-B.TECH retailers (out of scope this pass)"
+    }
+  ]
+}

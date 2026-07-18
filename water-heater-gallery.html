@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Water heater — electric · 50–80 L for two</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/appliances.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">
+            <a href="index.html">← Hub</a> ·
+            <a href="fridge-gallery.html">Fridge</a> ·
+            <a href="tv-gallery.html">TV</a> ·
+            <a href="mattress-gallery.html">Mattress</a> · Water heater
+          </p>
+          <h1>Electric water heater</h1>
+          <p class="lead">
+            For <strong>two people</strong> · <strong>electric only</strong> ·
+            preferred size <strong>50–80 liters</strong> storage tank
+            (40 L adjacent, 100 L usually more than you need).
+            Instant models listed with wiring caution.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold" id="count-badge">—</span>
+          <span class="badge">Couple size</span>
+        </div>
+      </header>
+
+      <div class="help-callout" id="disclaimer">Loading…</div>
+
+      <div class="preset-row">
+        <button type="button" data-preset="main" class="active">Main 50–80 L</button>
+        <button type="button" data-preset="50">50 L</button>
+        <button type="button" data-preset="80">80 L</button>
+        <button type="button" data-preset="storage">Storage tank</button>
+        <button type="button" data-preset="recommended">Recommended</button>
+        <button type="button" data-preset="all">All kept</button>
+        <button type="button" data-preset="starred">★ Starred</button>
+        <button type="button" data-preset="excluded">Out of filter</button>
+      </div>
+
+      <div class="gallery-toolbar">
+        <label>Search
+          <input id="f-q" type="search" placeholder="Ariston, Fresh, Olympic…" />
+        </label>
+        <label>Max EGP
+          <input id="f-max" type="number" placeholder="e.g. 6000" />
+        </label>
+        <label>Brand
+          <select id="f-brand"><option value="any">Any</option></select>
+        </label>
+        <label>Sort
+          <select id="f-sort">
+            <option value="rank">Our rank</option>
+            <option value="price_asc">Price ↑</option>
+            <option value="price_desc">Price ↓</option>
+            <option value="liters_asc">Liters ↑</option>
+            <option value="liters_desc">Liters ↓</option>
+          </select>
+        </label>
+        <label>Shop
+          <select id="f-shop">
+            <option value="any">Any</option>
+            <option value="B.TECH">B.TECH</option>
+            <option value="Amazon">Amazon.eg</option>
+            <option value="Jumia">Jumia</option>
+          </select>
+        </label>
+      </div>
+
+      <p class="sticky-count" id="result-count"></p>
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="card" style="margin-top: 1.5rem">
+        <h2>Size guide (2 people)</h2>
+        <ul id="size-guide" class="muted"></ul>
+      </div>
+
+      <div class="card" style="margin-top: 1rem">
+        <h2>Shopping route</h2>
+        <ol id="route" class="muted"></ol>
+      </div>
+
+      <footer class="app-footer">
+        Data: <code>data/appliances/water_heater_catalog.json</code> ·
+        <code>data/water-heater-brief.json</code>
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal-backdrop">
+      <div class="modal">
+        <div class="modal-head">
+          <div>
+            <h2 id="modal-title">Water heater</h2>
+            <p class="muted" id="modal-sub" style="margin: 0.25rem 0 0; font-size: 0.85rem"></p>
+          </div>
+          <button type="button" class="modal-close" id="modal-close">Close</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <img class="main-img" id="modal-main-img" alt="" referrerpolicy="no-referrer" />
+            <div class="ph" id="modal-no-img" style="display: none; color: #9aa6bc; text-align: center; padding: 2rem">No photo</div>
+          </div>
+          <div class="modal-info">
+            <div class="price-lg" id="modal-price"></div>
+            <p class="muted" id="modal-summary" style="margin: 0.5rem 0 0"></p>
+            <div class="pc-grid">
+              <div class="pc-box pros"><h4>Pros</h4><ul id="modal-pros"></ul></div>
+              <div class="pc-box cons"><h4>Cons</h4><ul id="modal-cons"></ul></div>
+            </div>
+            <ul class="spec-list" id="modal-specs"></ul>
+            <div class="btn-row" style="margin-top: 1rem">
+              <button type="button" class="btn ghost" id="modal-star">☆ Star</button>
+              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const STAR_KEY = "egypt-apt-wh-stars-v1";
+      let items = [], data = null, active = null, preset = "main";
+      let stars = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || "[]"));
+      const $ = (s) => document.querySelector(s);
+      function esc(s) {
+        return String(s || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+      function fmt(n) {
+        if (n == null) return "Price varies";
+        return Number(n).toLocaleString() + " EGP";
+      }
+      function list() {
+        const q = ($("#f-q").value || "").toLowerCase();
+        const maxP = $("#f-max").value === "" ? null : Number($("#f-max").value);
+        const brand = $("#f-brand").value;
+        const shop = $("#f-shop").value;
+        const sort = $("#f-sort").value;
+        let out = items.filter((it) => {
+          if (preset === "starred") return stars.has(it.id);
+          if (preset === "excluded") return !!it.excluded;
+          if (it.excluded) return false;
+          if (preset === "main" && !["main_50", "main_80"].includes(it.sizeBand)) return false;
+          if (preset === "50" && it.capacityL !== 50) return false;
+          if (preset === "80" && it.capacityL !== 80) return false;
+          if (preset === "storage" && it.type !== "storage") return false;
+          if (preset === "recommended") return (data.recommendedIds || []).includes(it.id);
+          if (maxP != null && it.priceEGP != null && it.priceEGP > maxP) return false;
+          if (brand !== "any" && it.brand !== brand) return false;
+          if (shop !== "any") {
+            const s = (it.source || "").toLowerCase();
+            if (shop === "B.TECH" && !s.includes("b.tech") && !s.includes("btech")) return false;
+            if (shop === "Amazon" && !s.includes("amazon")) return false;
+            if (shop === "Jumia" && !s.includes("jumia")) return false;
+          }
+          if (q && !`${it.name} ${it.brand}`.toLowerCase().includes(q)) return false;
+          return true;
+        });
+        out.sort((a, b) => {
+          if (sort === "price_asc") return (a.priceEGP || 9e9) - (b.priceEGP || 9e9);
+          if (sort === "price_desc") return (b.priceEGP || 0) - (a.priceEGP || 0);
+          if (sort === "liters_asc") return (a.capacityL || 0) - (b.capacityL || 0);
+          if (sort === "liters_desc") return (b.capacityL || 0) - (a.capacityL || 0);
+          return (a.rank || 99) - (b.rank || 99);
+        });
+        return out;
+      }
+      function renderGrid() {
+        const rows = list();
+        $("#result-count").textContent = `Showing ${rows.length} · ${stars.size} starred`;
+        $("#product-grid").innerHTML = rows
+          .map((it) => {
+            const img = it.imageUrl
+              ? `<img src="${esc(it.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
+              : `<div class="ph">${it.capacityL || "?"} L</div>`;
+            return `<article class="product-card ${stars.has(it.id) ? "starred" : ""}" data-id="${esc(it.id)}">
+              <div class="thumb">${img}
+                <div class="badge-abs">
+                  ${it.rank && it.rank < 200 ? `<span class="chip-mini hot">#${it.rank}</span>` : ""}
+                  <span class="chip-mini">${it.capacityL || "?"}L</span>
+                </div>
+                <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
+              </div>
+              <div class="body">
+                <div class="brand">${esc(it.brand)} · ${esc(it.type)} · ${esc(it.mount)}</div>
+                <h3>${esc(it.name)}</h3>
+                <div class="meta">${esc(it.householdFit || "")} · ${esc(it.source || "")}</div>
+                <div class="price">${fmt(it.priceEGP)}</div>
+              </div>
+            </article>`;
+          })
+          .join("");
+        document.querySelectorAll(".product-card").forEach((c) => {
+          c.addEventListener("click", (e) => {
+            if (e.target.closest("[data-star]")) return;
+            openModal(c.dataset.id);
+          });
+        });
+        document.querySelectorAll("[data-star]").forEach((b) => {
+          b.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const id = b.dataset.star;
+            if (stars.has(id)) stars.delete(id);
+            else stars.add(id);
+            localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+            renderGrid();
+          });
+        });
+      }
+      function openModal(id) {
+        active = items.find((i) => i.id === id);
+        if (!active) return;
+        $("#modal-backdrop").classList.add("open");
+        $("#modal-title").textContent = active.name;
+        $("#modal-sub").textContent = `${active.brand} · ${active.capacityL || "?"} L · ${active.type}`;
+        $("#modal-price").textContent = fmt(active.priceEGP);
+        $("#modal-summary").textContent = active.summary || "";
+        if (active.imageUrl) {
+          $("#modal-main-img").src = active.imageUrl;
+          $("#modal-main-img").style.display = "block";
+          $("#modal-no-img").style.display = "none";
+        } else {
+          $("#modal-main-img").style.display = "none";
+          $("#modal-no-img").style.display = "block";
+        }
+        $("#modal-pros").innerHTML = (active.pros || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        $("#modal-cons").innerHTML = (active.cons || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
+        const specs = [
+          ["Capacity", active.capacityL ? active.capacityL + " L" : "—"],
+          ["Band", active.sizeBand],
+          ["Type", active.type],
+          ["Fuel", active.fuel],
+          ["Mount", active.mount],
+          ["Fit", active.householdFit],
+          ["Install", active.installNote],
+          ["Shop", active.source],
+        ];
+        $("#modal-specs").innerHTML = specs
+          .map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v || "—"))}</span></li>`)
+          .join("");
+        $("#modal-link").href = active.url || "#";
+        $("#modal-star").textContent = stars.has(active.id) ? "★ Starred" : "☆ Star";
+      }
+      async function init() {
+        try {
+          data = await (await fetch("data/appliances/water_heater_catalog.json")).json();
+          items = data.items || [];
+          const n = items.filter((i) => !i.excluded && ["main_50", "main_80"].includes(i.sizeBand)).length;
+          $("#count-badge").textContent = `${n} in 50–80 L band`;
+          $("#disclaimer").textContent = data.disclaimer || "";
+          $("#route").innerHTML = (data.shoppingRoute || []).map((s) => `<li>${esc(s)}</li>`).join("");
+          const sg = data.sizeGuide || {};
+          $("#size-guide").innerHTML = Object.entries(sg)
+            .map(([k, v]) => `<li><strong>${esc(k)}</strong> — ${esc(v)}</li>`)
+            .join("");
+          const brands = [...new Set(items.filter((i) => !i.excluded).map((i) => i.brand))].sort();
+          $("#f-brand").innerHTML =
+            `<option value="any">Any</option>` + brands.map((b) => `<option value="${esc(b)}">${esc(b)}</option>`).join("");
+          renderGrid();
+        } catch {
+          $("#disclaimer").innerHTML =
+            "Run <code>python -m http.server 8765</code> → http://localhost:8765/water-heater-gallery.html";
+        }
+        document.querySelectorAll(".preset-row button[data-preset]").forEach((b) => {
+          b.addEventListener("click", () => {
+            document.querySelectorAll(".preset-row button[data-preset]").forEach((x) => x.classList.remove("active"));
+            b.classList.add("active");
+            preset = b.dataset.preset;
+            renderGrid();
+          });
+        });
+        ["f-q", "f-max", "f-brand", "f-sort", "f-shop"].forEach((id) => {
+          $(`#${id}`).addEventListener("input", renderGrid);
+          $(`#${id}`).addEventListener("change", renderGrid);
+        });
+        $("#modal-close").onclick = () => $("#modal-backdrop").classList.remove("open");
+        $("#modal-backdrop").addEventListener("click", (e) => {
+          if (e.target.id === "modal-backdrop") $("#modal-backdrop").classList.remove("open");
+        });
+        $("#modal-star").onclick = () => {
+          if (!active) return;
+          if (stars.has(active.id)) stars.delete(active.id);
+          else stars.add(active.id);
+          localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+          openModal(active.id);
+          renderGrid();
+        };
+      }
+      init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,805 @@
+{
+  "count": 100,
+  "cards": [
+    {
+      "name": "LG 50 Inch Smart TV , Nano 4K UHD Built-In Receiver",
+      "text": "LGLG 50 Inch Smart TV , Nano 4K UHD Built-In Receiver",
+      "url": "https://btech.com/en/p/57e22857-6074-4caa-9867-a21b1f7ebbd2",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 43 Inch Smart TV , FHD LED Built-In Receiver - LM6370PVA",
+      "text": "LGLG 43 Inch Smart TV , FHD LED Built-In Receiver - LM6370PVA",
+      "url": "https://btech.com/en/p/lg-43-fhd-smart-led-tv-43lm6370pva",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 43 Inch Smart TV , FHD LED Built-In Receiver - 43F6000F",
+      "text": "SamsungSamsung 43 Inch Smart TV , FHD LED Built-In Receiver - 43F6000F",
+      "url": "https://btech.com/en/p/samsung-tv-43-inch-fhd-smart-led-receiver-43f6000f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 65 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "text": "SamsungSamsung 65 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "url": "https://btech.com/en/p/samsung-tv-65-inch-4k-uhd-smart-led-receiver-65u8000f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 65 Inch Smart TV , 4K UHD NanoCell Built-In Receiver - 65NU840B6LA",
+      "text": "LGLG 65 Inch Smart TV , 4K UHD NanoCell Built-In Receiver - 65NU840B6LA",
+      "url": "https://btech.com/en/p/f0fc84eb-4207-4a3e-990b-b1aa8913e2ae",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 55 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "text": "SamsungSamsung 55 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "url": "https://btech.com/en/p/samsung-55-inch-4k-uhd-smart-led-tv-55u8000",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 32 Inch Smart TV , HD LED Built-In Receiver - 32H5000F",
+      "text": "SamsungSamsung 32 Inch Smart TV , HD LED Built-In Receiver - 32H5000F",
+      "url": "https://btech.com/en/p/samsung-tv-32-inch-hd-smart-led-receiver-32h5000f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 50 Inch Smart TV , 4K LED Built-In Receiver - 50U8000H",
+      "text": "SamsungSamsung 50 Inch Smart TV , 4K LED Built-In Receiver - 50U8000H",
+      "url": "https://btech.com/en/p/699aa9b7-4142-42e7-859a-37a12e1f0388",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 75 Inch Smart TV , 4K UHD QLED Built-In Receiver - 75Q6FA",
+      "text": "SamsungSamsung 75 Inch Smart TV , 4K UHD QLED Built-In Receiver - 75Q6FA",
+      "url": "https://btech.com/en/p/c9c59e15-57f8-4bd6-9982-c7844b08b6e7",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Skyline 32 Inch TV , HD LED - 3222A",
+      "text": "SkylineSkyline 32 Inch TV , HD LED - 3222A",
+      "url": "https://btech.com/en/p/06b30035-3d58-4d29-99fc-0f08ed2c3dcc",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 58 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "text": "SamsungSamsung 58 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "url": "https://btech.com/en/p/samsung-tv-58-inch-4k-uhd-smart-led-58u8000f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 55 Inch Smart TV , Nano 4K UHD Built-In Receiver",
+      "text": "LGLG 55 Inch Smart TV , Nano 4K UHD Built-In Receiver",
+      "url": "https://btech.com/en/p/d5833ba1-a991-41cc-a50b-bd6c497de8da",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 43 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "text": "SamsungSamsung 43 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "url": "https://btech.com/en/p/be1bb017-d4c8-4df5-a4a4-e3c539745b8c",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 65 Inch Smart TV , 4K UHD QLED Built-In Receiver - 65Q6FA",
+      "text": "SamsungSamsung 65 Inch Smart TV , 4K UHD QLED Built-In Receiver - 65Q6FA",
+      "url": "https://btech.com/en/p/27da3269-ac6d-4f05-8987-a8e022901015",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Xiaomi 32 Inch Smart TV , HD LED Built-In Receiver - L32M8P2EG",
+      "text": "XiaomiXiaomi 32 Inch Smart TV , HD LED Built-In Receiver - L32M8P2EG",
+      "url": "https://btech.com/en/p/xiaomi-32-inch-hd-smart-led-tv-with-built-in-receiver-l32m8p2eg",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Hisense 58 Inch Smart TV , 4K UHD D LED - 58A6N",
+      "text": "HisenseHisense 58 Inch Smart TV , 4K UHD D LED - 58A6N",
+      "url": "https://btech.com/en/p/ad5761dd-0a3b-4c96-a6e5-bc43e1e6f181",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 75 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "text": "SamsungSamsung 75 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "url": "https://btech.com/en/p/1f4b0de0-4aff-4734-b684-2a20971f878b",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 50 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "text": "SamsungSamsung 50 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "url": "https://btech.com/en/p/samsung-tv-50-inch-4k-uhd-smart-led-receiver-50u8000f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 55 Inch Smart TV , 4K UHD NanoCell Built-In Receiver - NU85CB6LA",
+      "text": "LGLG 55 Inch Smart TV , 4K UHD NanoCell Built-In Receiver - NU85CB6LA",
+      "url": "https://btech.com/en/p/6c6bab0f-0651-4713-a234-d806c1b79bbf",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Hisense 43 Inch Smart TV , FHD D LED Built-In Receiver - A4K",
+      "text": "HisenseHisense 43 Inch Smart TV , FHD D LED Built-In Receiver - A4K",
+      "url": "https://btech.com/en/p/528235ff-812c-45af-b175-9bf0248fa415",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Skyline 43 Inch Smart TV , FHD LED - 43SF01",
+      "text": "SkylineSkyline 43 Inch Smart TV , FHD LED - 43SF01",
+      "url": "https://btech.com/en/p/skyline-43-inch-fhd-smart-led-tv-black-43sf01",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "ATA 32 Inch TV , HD LED - ATA32HON",
+      "text": "ATAATA 32 Inch TV , HD LED - ATA32HON",
+      "url": "https://btech.com/en/p/42a978de-90e1-4367-a60f-d07491a9927f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Haier 65 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "text": "HaierHaier 65 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "url": "https://btech.com/en/p/haier-65-4k-uhd-smart-led-tv-built-in-receiver-h65k80eu",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Haier 43 Inch Frameless Smart TV , FHD QLED Built-In Receiver - H43S80GFX",
+      "text": "HaierHaier 43 Inch Frameless Smart TV , FHD QLED Built-In Receiver - H43S80GFX",
+      "url": "https://btech.com/en/p/ae8e726c-584f-4c12-ac33-de46c5257f99",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Sharp 55 Inch Smart TV , 4K UHD LED - 4T-C55FJ16EX",
+      "text": "SharpSharp 55 Inch Smart TV , 4K UHD LED - 4T-C55FJ16EX",
+      "url": "https://btech.com/en/p/sharp-frameless-tv-55-inch-4k-uhd-smart-led-4t-c55fj16ex",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 85 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "text": "SamsungSamsung 85 Inch Smart TV , 4K UHD LED Built-In Receiver",
+      "url": "https://btech.com/en/p/efe2261f-aeae-4413-8aad-54193ed507a5",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 55 Inch Smart TV , 4K UHD QLED Built-In Receiver - QA55Q6FA",
+      "text": "SamsungSamsung 55 Inch Smart TV , 4K UHD QLED Built-In Receiver - QA55Q6FA",
+      "url": "https://btech.com/en/p/698b6bea-aca4-4000-9a8b-dc69b40d317e",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "ATA 43 Inch Frameless Smart TV , FHD LED - ATA43FLS",
+      "text": "ATAATA 43 Inch Frameless Smart TV , FHD LED - ATA43FLS",
+      "url": "https://btech.com/en/p/348d60a8-3149-41da-b7d9-d6eba0cfb692",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Haier 32 Inch Smart TV , HD LED Built-In Receiver - H32K80E",
+      "text": "HaierHaier 32 Inch Smart TV , HD LED Built-In Receiver - H32K80E",
+      "url": "https://btech.com/en/p/haier-32-inch-hd-smart-led-tv-built-in-receiver-h32k80e",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Toshiba 43 Inch Smart TV , FHD LED Built-In Receiver - 43V35RP",
+      "text": "ToshibaToshiba 43 Inch Smart TV , FHD LED Built-In Receiver - 43V35RP",
+      "url": "https://btech.com/en/p/b5cf0ca4-d110-4cbe-b4f9-9780f57a36ec",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Armadillo 32 Inch Frameless TV , HD D LED - ARM32VA4N-25",
+      "text": "ArmadilloArmadillo 32 Inch Frameless TV , HD D LED - ARM32VA4N-25",
+      "url": "https://btech.com/en/p/c76a54c2-80ee-45df-9673-685aa7066242",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Ultra 32 Inch TV , HD LED - FSKE32H",
+      "text": "UltraUltra 32 Inch TV , HD LED - FSKE32H",
+      "url": "https://btech.com/en/p/ultra-32-hd-led-tv-fske32h",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Hisense 75 Inch Smart TV , 4K UHD LED - 75A6N",
+      "text": "HisenseHisense 75 Inch Smart TV , 4K UHD LED - 75A6N",
+      "url": "https://btech.com/en/p/8150ce17-d599-4bf0-ad61-753af468cd1c",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Ultra 55 Inch Frameless Smart TV , 4K LED Built-In Receiver - UT55SUH3",
+      "text": "UltraUltra 55 Inch Frameless Smart TV , 4K LED Built-In Receiver - UT55SUH3",
+      "url": "https://btech.com/en/p/74ebd4e1-558d-4b90-ab65-2e9538c7a474",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Fresh 50 Inch Frameless Smart TV , FHD QLED - 50MFQ435G-21882",
+      "text": "FreshFresh 50 Inch Frameless Smart TV , FHD QLED - 50MFQ435G-21882",
+      "url": "https://btech.com/en/p/1e65f002-f93b-4187-a184-f0a73a6ffc2f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Haier 43 Inch Smart TV , FHD LED Built-In Receiver - H43K80EF",
+      "text": "HaierHaier 43 Inch Smart TV , FHD LED Built-In Receiver - H43K80EF",
+      "url": "https://btech.com/en/p/haier-43-inch-fhd-smart-led-tv-built-in-receiver-h43k80ef-99",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 98 Inch Smart TV , 4K UHD LED Built-In Receiver - UA98DU9000UXEG",
+      "text": "SamsungSamsung 98 Inch Smart TV , 4K UHD LED Built-In Receiver - UA98DU9000UXEG",
+      "url": "https://btech.com/en/p/726223fe-6b8e-4e74-a7dc-5a8cd03fdf48",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 65 Inch Smart TV , 4K UHD LED Built-In Receiver - 65U8000H",
+      "text": "SamsungSamsung 65 Inch Smart TV , 4K UHD LED Built-In Receiver - 65U8000H",
+      "url": "https://btech.com/en/p/91fc8730-5772-4a5e-8724-88b370741675",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 75 Inch Smart TV , Nano 4K UHD Built-In Receiver",
+      "text": "LGLG 75 Inch Smart TV , Nano 4K UHD Built-In Receiver",
+      "url": "https://btech.com/en/p/ec61f61b-4cf7-4163-9297-b0f00955ae99",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 55 Inch Smart TV , 4K UHD OLED Built-In Receiver - 55S85FA",
+      "text": "SamsungSamsung 55 Inch Smart TV , 4K UHD OLED Built-In Receiver - 55S85FA",
+      "url": "https://btech.com/en/p/samsung-tv-55-inch-4k-uhd-smart-oled-receiver-55s85fa",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Hisense 85 Inch Smart TV , 4K UHD LED - 85A6N",
+      "text": "HisenseHisense 85 Inch Smart TV , 4K UHD LED - 85A6N",
+      "url": "https://btech.com/en/p/86d5068b-728c-4280-b34e-1196567e36fe",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Grouhy 43 Inch Smart TV , FHD LED - GLD43SA.MGCV2",
+      "text": "GrouhyGrouhy 43 Inch Smart TV , FHD LED - GLD43SA.MGCV2",
+      "url": "https://btech.com/en/p/40b8878f-deb3-4e3a-a748-1720463fc2c8",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Xiaomi 43 Inch Smart TV , FHD LED Built-In Receiver - L43MAAFEG",
+      "text": "XiaomiXiaomi 43 Inch Smart TV , FHD LED Built-In Receiver - L43MAAFEG",
+      "url": "https://btech.com/en/p/xiaomi-43-inch-fhd-smart-led-tv-with-built-in-receiver-l43maafeg",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Tcl 55 Inch Smart TV , 4K UHD LED Built-In Receiver - 55P6K",
+      "text": "TclTcl 55 Inch Smart TV , 4K UHD LED Built-In Receiver - 55P6K",
+      "url": "https://btech.com/en/p/1479f236-2dd7-49c8-bb8a-1084664303b1",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Evolve 43 Inch Smart TV , FHD LED Built-In Receiver",
+      "text": "EvolveEvolve 43 Inch Smart TV , FHD LED Built-In Receiver",
+      "url": "https://btech.com/en/p/evolve-frameless-tv-43-inch-fhd-smart-led-receiver-vld43sd",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "ATA 43 Inch TV , FHD - LED 43",
+      "text": "ATAATA 43 Inch TV , FHD - LED 43",
+      "url": "https://btech.com/en/p/9073e9bb-d370-4f56-8251-f950e96684ac",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Sharp FL6 Series 50 Inch Smart TV , 4K UHD LED Built-In Receiver - 4T-C50FL6EX",
+      "text": "SharpSharp FL6 Series 50 Inch Smart TV , 4K UHD LED Built-In Receiver - 4T-C50FL6EX",
+      "url": "https://btech.com/en/p/sharp-fl6-series-50-inch-4k-smart-tv-receiver-4t-c50fl6ex",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "ATA 32 Inch TV , HD LED - 32DN4 LE",
+      "text": "ATAATA 32 Inch TV , HD LED - 32DN4 LE",
+      "url": "https://btech.com/en/p/ata-32inch-hd-tv-32dn4",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 55 Inch Smart TV , 4K UHD Neo QLED Built-In Receiver - 55QN85FA",
+      "text": "SamsungSamsung 55 Inch Smart TV , 4K UHD Neo QLED Built-In Receiver - 55QN85FA",
+      "url": "https://btech.com/en/p/samsung-tv-55-inch-4k-uhd-smart-neo-qled-receiver-55qn85fa",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Haier 55 Inch Smart TV , 4K UHD QLED Built-In Receiver - H55S80F",
+      "text": "HaierHaier 55 Inch Smart TV , 4K UHD QLED Built-In Receiver - H55S80F",
+      "url": "https://btech.com/en/p/haier-tv-55-inch-4k-uhd-smart-qled-built-in-receiver-h55s80f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 65 Inch Smart TV , 4K UHD LED Built-In Receiver - 65UA85006LA",
+      "text": "LGLG 65 Inch Smart TV , 4K UHD LED Built-In Receiver - 65UA85006LA",
+      "url": "https://btech.com/en/p/lg-tv-65-inch-4k-smart-led-built-in-receiver-65ua85006la",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 43 Inch Smart TV , 4K LED Built-In Receiver - 43U8000H",
+      "text": "SamsungSamsung 43 Inch Smart TV , 4K LED Built-In Receiver - 43U8000H",
+      "url": "https://btech.com/en/p/4ab7d41a-9608-493c-b9b2-e74fd5bd7627",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Hisense 50 Inch Smart TV , 4K UHD LED - 50A6N, with Kisonli LED803 Portable Bluetooth Speaker, Black",
+      "text": "HisenseHisense 50 Inch Smart TV , 4K UHD LED - 50A6N, with Kisonli LED803 Portable Bluetooth Speaker, Black",
+      "url": "https://btech.com/en/p/24c2ddcc-c60b-402c-b73d-e6453d6e96db",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Fresh 32 Inch TV , HD LED - LH622",
+      "text": "FreshFresh 32 Inch TV , HD LED - LH622",
+      "url": "https://btech.com/en/p/fresh-32-inch-hd-standard-led-tv-32lh622",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Fresh 32 Inch Smart TV , HD LED - 32LH423CE",
+      "text": "FreshFresh 32 Inch Smart TV , HD LED - 32LH423CE",
+      "url": "https://btech.com/en/p/fresh-tv-32-inch-hd-smart-led-32lh423ce",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Ultra UT50SEL2 50 Inch Frameless Smart TV , 4K LED Built-In Receiver - UT50SEL2",
+      "text": "UltraUltra UT50SEL2 50 Inch Frameless Smart TV , 4K LED Built-In Receiver - UT50SEL2",
+      "url": "https://btech.com/en/p/46e557b6-66fb-49a6-9fc4-13369ba813ae",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 55 Inch Smart TV , 4K UHD LED Built-In Receiver - 55UA84006LB",
+      "text": "LGLG 55 Inch Smart TV , 4K UHD LED Built-In Receiver - 55UA84006LB",
+      "url": "https://btech.com/en/p/ed84e407-6a14-4c6a-a203-3a4a8655d96e",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Tcl 55 Inch Smart TV , 4K UHD Mini LED Built-In Receiver - 55C6K",
+      "text": "TclTcl 55 Inch Smart TV , 4K UHD Mini LED Built-In Receiver - 55C6K",
+      "url": "https://btech.com/en/p/b1419c4b-c394-4341-b0f7-bdf3a5b7622e",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Fresh 43 Inch Smart TV , FHD LED - 43MF423C",
+      "text": "FreshFresh 43 Inch Smart TV , FHD LED - 43MF423C",
+      "url": "https://btech.com/en/p/fresh-tv-43-inch-fhd-smart-led-43mf423c",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 55 Inch Smart TV , 4K UHD QNED Mini LED Built-In Receiver - 55QNED72B6T",
+      "text": "LGLG 55 Inch Smart TV , 4K UHD QNED Mini LED Built-In Receiver - 55QNED72B6T",
+      "url": "https://btech.com/en/p/7dfcbd7d-5426-49a7-800b-ec07507ad7b2",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Hisense 32 Inch Smart TV , HD LED - 32A4Q",
+      "text": "HisenseHisense 32 Inch Smart TV , HD LED - 32A4Q",
+      "url": "https://btech.com/en/p/6f9935ce-ba32-45e1-8c19-fe411077c3d7",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Ultra 32 Inch Smart TV , HD LED - UT32SEP4",
+      "text": "UltraUltra 32 Inch Smart TV , HD LED - UT32SEP4",
+      "url": "https://btech.com/en/p/b0974104-e6c7-4a08-a6e0-1905dc56ec77",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 55 Inch Smart TV , 4K UHD Neo QLED Built-In Receiver - 55QN70FA",
+      "text": "SamsungSamsung 55 Inch Smart TV , 4K UHD Neo QLED Built-In Receiver - 55QN70FA",
+      "url": "https://btech.com/en/p/samsung-tv-55-inch-4k-smart-neoqled-receiver-55qn70fa",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 55 Inch Smart TV , 4K UHD QNED Built-In Receiver - 55QNED70A6A",
+      "text": "LGLG 55 Inch Smart TV , 4K UHD QNED Built-In Receiver - 55QNED70A6A",
+      "url": "https://btech.com/en/p/lg-tv-55-4k-uhd-smart-qned-built-in-receiver-55qned70a6a",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Sary 32 Inch TV , HD LED",
+      "text": "SarySary 32 Inch TV , HD LED",
+      "url": "https://btech.com/en/p/2775abd9-b09e-4a6c-b7a3-be0b03b7c255",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Hyundai 43 Inch Smart TV , FHD LED Built-In Receiver - L43HYNDA630",
+      "text": "HyundaiHyundai 43 Inch Smart TV , FHD LED Built-In Receiver - L43HYNDA630",
+      "url": "https://btech.com/en/p/hyundai-43-fhd-smart-led-tv-with-built-in-receiver-l43hynda630",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 55 Inch Smart TV , 4K UHD LED Built-In Receiver - 55UA85006LA",
+      "text": "LGLG 55 Inch Smart TV , 4K UHD LED Built-In Receiver - 55UA85006LA",
+      "url": "https://btech.com/en/p/lg-tv-55-inch-4k-smart-led-built-in-receiver-55ua85006la",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Evolve 43 Inch TV , FHD LED - VLD43NA",
+      "text": "EvolveEvolve 43 Inch TV , FHD LED - VLD43NA",
+      "url": "https://btech.com/en/p/evolve-43-inch-fhd-standard-led-frameless-tv-vld43na",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "ATA 43 Inch Smart TV , FHD LED - 43S1",
+      "text": "ATAATA 43 Inch Smart TV , FHD LED - 43S1",
+      "url": "https://btech.com/en/p/ata-43-inch-full-hd-led-smart-tv-43s1",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 77 Inch Smart TV , 4K UHD OLED Built-In Receiver - 77S85FA",
+      "text": "SamsungSamsung 77 Inch Smart TV , 4K UHD OLED Built-In Receiver - 77S85FA",
+      "url": "https://btech.com/en/p/samsung-tv-77-inch-4k-uhd-smart-oled-receiver-77s85fa",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Hisense 65 Inch Smart TV , 4K UHD D LED - 65A6N",
+      "text": "HisenseHisense 65 Inch Smart TV , 4K UHD D LED - 65A6N",
+      "url": "https://btech.com/en/p/2642db2a-d6fd-456f-b423-b933c33ad144",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Haier 50 Inch Smart TV , 4K UHD QLED Built-In Receiver - H50S80F",
+      "text": "HaierHaier 50 Inch Smart TV , 4K UHD QLED Built-In Receiver - H50S80F",
+      "url": "https://btech.com/en/p/haier-tv-50-inch-4k-uhd-smart-qled-built-in-receiver-h50s80f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Fresh 32 Inch TV , HD LED - 32LH123E",
+      "text": "FreshFresh 32 Inch TV , HD LED - 32LH123E",
+      "url": "https://btech.com/en/p/fresh-32-inch-hd-standard-led-tv-32lh123e",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Tornado 32 Inch TV , HD LED - 32EC3300E",
+      "text": "TornadoTornado 32 Inch TV , HD LED - 32EC3300E",
+      "url": "https://btech.com/en/p/tornado-32-inch-hd-led-tv-built-in-receiver-32ec3300e",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "ATA 43 Inch Frameless TV , FHD LED - ATA43FLN",
+      "text": "ATAATA 43 Inch Frameless TV , FHD LED - ATA43FLN",
+      "url": "https://btech.com/en/p/5b1415e0-688d-4571-90f9-1ab26e383632",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Tradinggoo 43 Inch Frameless TV , FHD LED - 43TA1001",
+      "text": "TradinggooTradinggoo 43 Inch Frameless TV , FHD LED - 43TA1001",
+      "url": "https://btech.com/en/p/301780f3-de98-47d5-a652-da8799d76836",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Jac 32 Inch TV , HD LED - 32JC3110F",
+      "text": "JacJac 32 Inch TV , HD LED - 32JC3110F",
+      "url": "https://btech.com/en/p/2ec3695b-dd53-479b-ae2d-34585348dda6",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Jac 43 Inch Frameless TV , FHD LED - 43JD3120F",
+      "text": "JacJac 43 Inch Frameless TV , FHD LED - 43JD3120F",
+      "url": "https://btech.com/en/p/e3f5657d-1cc7-4e67-8e4b-9c23b85f7fff",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Haier 32 Inch Frameless TV , HD LED - H32K70G",
+      "text": "HaierHaier 32 Inch Frameless TV , HD LED - H32K70G",
+      "url": "https://btech.com/en/p/76eb19b1-6e90-48b2-ac86-6bf0c803f9c4",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Sony 32 Inch TV , HD LED - KDL-32W600D",
+      "text": "SonySony 32 Inch TV , HD LED - KDL-32W600D",
+      "url": "https://btech.com/en/p/sony-32-hd-tv-kdl-32w600d",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Toshiba 32 Inch TV , HD LED - 32S25LV",
+      "text": "ToshibaToshiba 32 Inch TV , HD LED - 32S25LV",
+      "url": "https://btech.com/en/p/ebcda9fc-2325-4d39-a90e-474091c73ba7",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Hoho 32 Inch TV , HD LED - HK 3205",
+      "text": "HohoHoho 32 Inch TV , HD LED - HK 3205",
+      "url": "https://btech.com/en/p/74cb47fc-a406-4940-8295-a5f8d659cc6b",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Fresh 32 Inch TV , HD LED - 32LH223",
+      "text": "FreshFresh 32 Inch TV , HD LED - 32LH223",
+      "url": "https://btech.com/en/p/fresh-tv-32-inch-hd-standard-led-32lh223",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Mirage 32 Inch - 32MRNF820",
+      "text": "MirageMirage 32 Inch - 32MRNF820",
+      "url": "https://btech.com/en/p/eac581c0-bcc9-495b-968d-7850a123e93f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Grouhy 32 Inch TV , HD LED - GLD32NAV2",
+      "text": "GrouhyGrouhy 32 Inch TV , HD LED - GLD32NAV2",
+      "url": "https://btech.com/en/p/grouhy-32-inch-hd-led-frameless-tv-gld32nav2",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Panasonic 32 Inch TV , FHD LED - TH-32H400E",
+      "text": "PanasonicPanasonic 32 Inch TV , FHD LED - TH-32H400E",
+      "url": "https://btech.com/en/p/bfb0525b-d7a5-4e42-9065-aebe8da3f879",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Evolve 32 Inch TV , HD LED - EVO32FRSTVNOR",
+      "text": "EvolveEvolve 32 Inch TV , HD LED - EVO32FRSTVNOR",
+      "url": "https://btech.com/en/p/evolve-32-inch-fhd-standard-led-frameless-tv",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Syinix 32 Inch TV - 32E4M",
+      "text": "SyinixSyinix 32 Inch TV - 32E4M",
+      "url": "https://btech.com/en/p/c737a511-5b1c-4dda-97ab-b3e75a5bd6ce",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Grouhy 43 Inch TV , FHD LED - GLD43NAV2",
+      "text": "GrouhyGrouhy 43 Inch TV , FHD LED - GLD43NAV2",
+      "url": "https://btech.com/en/p/grouhy-43-inch-fhd-standard-led-frameless-tv-gld43nav2",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Fresh 32 Inch TV , HD LED - 32LH324D",
+      "text": "FreshFresh 32 Inch TV , HD LED - 32LH324D",
+      "url": "https://btech.com/en/p/fresh-32-hd-led-tv-32lh324d",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Ultra 32 Inch TV , HD LED - UT32HV2",
+      "text": "UltraUltra 32 Inch TV , HD LED - UT32HV2",
+      "url": "https://btech.com/en/p/ultra-32-inch-hd-standard-led-tv-ut32hv2",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Tornado 50 Inch Smart TV QLED - 50QA3400E",
+      "text": "TornadoTornado 50 Inch Smart TV QLED - 50QA3400E",
+      "url": "https://btech.com/en/p/721fb630-cbcc-4e3d-b0ff-2dfbfa5f71f4",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Panasonic 43 Inch Smart TV , FHD LCD - TH-43LS670E",
+      "text": "PanasonicPanasonic 43 Inch Smart TV , FHD LCD - TH-43LS670E",
+      "url": "https://btech.com/en/p/5a45bc63-437e-44d9-8b53-7f5d2eacaf98",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Haier 43 Inch Smart TV , FHD LED Built-In Receiver - H43K75FFX",
+      "text": "HaierHaier 43 Inch Smart TV , FHD LED Built-In Receiver - H43K75FFX",
+      "url": "https://btech.com/en/p/35daec55-553d-40af-86cb-5e4ae4a49c1b",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Samsung 83 Inch Smart TV , 4K UHD OLED Built-In Receiver - 83S85F",
+      "text": "SamsungSamsung 83 Inch Smart TV , 4K UHD OLED Built-In Receiver - 83S85F",
+      "url": "https://btech.com/en/p/samsung-tv-83-inch-4k-uhd-oled-built-in-receiver-83s85f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Haier 65 Inch Smart TV , 4K UHD QLED Built-In Receiver - H65S80F",
+      "text": "HaierHaier 65 Inch Smart TV , 4K UHD QLED Built-In Receiver - H65S80F",
+      "url": "https://btech.com/en/p/haier-tv-65-inch-4k-uhd-smart-qled-built-in-receiver-h65s80f",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 75 Inch Smart TV , 4K UHD LED Built-In Receiver - 75NU850B6LA",
+      "text": "LGLG 75 Inch Smart TV , 4K UHD LED Built-In Receiver - 75NU850B6LA",
+      "url": "https://btech.com/en/p/a25d80d6-743b-417b-a8ef-bec76574a4b8",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Hisense 55 Inch Smart TV , 4K UHD LED - 55A6N",
+      "text": "HisenseHisense 55 Inch Smart TV , 4K UHD LED - 55A6N",
+      "url": "https://btech.com/en/p/0d87d83f-2126-426e-98bf-7d59c3a984a4",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "Fresh 40 Inch Smart TV , FHD LED - 40MF423C",
+      "text": "FreshFresh 40 Inch Smart TV , FHD LED - 40MF423C",
+      "url": "https://btech.com/en/p/cd2d2ddd-ca71-4d87-abf8-83a767354f36",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    },
+    {
+      "name": "LG 50 Inch Smart TV , 4K UHD QNED Mini LED Built-In Receiver - 50QNED72B6T",
+      "text": "LGLG 50 Inch Smart TV , 4K UHD QNED Mini LED Built-In Receiver - 50QNED72B6T",
+      "url": "https://btech.com/en/p/e262e6f0-6cf6-4800-aa11-fb0bceebc011",
+      "imageUrl": "",
+      "priceEGP": null,
+      "source": "B.TECH"
+    }
+  ]
+}

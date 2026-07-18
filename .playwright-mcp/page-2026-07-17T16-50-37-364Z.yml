@@ -1,0 +1,798 @@
+- generic [ref=e2]:
+  - link [ref=e5] [cursor=pointer]:
+    - /url: https://www.jumia.com.eg/flash-sales/
+    - img "Desktop - Flash Sale" [ref=e6]
+  - generic [ref=e7]:
+    - link "Sell on Jumia" [ref=e9] [cursor=pointer]:
+      - /url: /sp-sell-on-jumia/
+    - generic [ref=e12]:
+      - generic "Jumia" [ref=e13]
+      - link "Jumia Pay" [ref=e16] [cursor=pointer]:
+        - /url: https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar
+    - generic [ref=e19]:
+      - generic [ref=e20]: English
+      - link [ref=e24] [cursor=pointer]:
+        - /url: /ar/catalog/?q=refrigerator+black+nofrost
+  - banner [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - checkbox "Navigate Categories" [ref=e32]
+        - link [ref=e37] [cursor=pointer]:
+          - /url: /
+          - img "Start Online Shopping For Fashion, Electronics & More - Discover Your Onlinestore | Jumia Egypt" [ref=e38]
+      - generic [ref=e40]:
+        - search [ref=e41]:
+          - textbox "Search" [ref=e44]:
+            - /placeholder: Search products, brands and categories
+            - text: refrigerator black nofrost
+          - button "Reset" [ref=e45]
+          - button "Search" [ref=e48] [cursor=pointer]
+        - button [ref=e49] [cursor=pointer]:
+          - img "header_ai_assistant-cta" [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - checkbox "Account" [ref=e53]
+          - generic [ref=e54] [cursor=pointer]: Account
+        - generic [ref=e61]:
+          - checkbox "Help" [ref=e62]
+          - generic [ref=e63] [cursor=pointer]: Help
+        - link "Cart" [ref=e70] [cursor=pointer]:
+          - /url: /cart/
+  - article [ref=e74]:
+    - heading "This website uses cookies" [level=2] [ref=e75]
+    - paragraph [ref=e76]:
+      - text: This website uses cookies. For further information on how we use cookies you can read our
+      - link "Privacy and Cookie notice" [ref=e77] [cursor=pointer]:
+        - /url: /sp-privacy/
+    - button "Accept cookies" [ref=e78] [cursor=pointer]
+  - main [ref=e80]:
+    - generic [ref=e82]:
+      - link "Home>" [ref=e83] [cursor=pointer]:
+        - /url: /
+      - link "All Products>" [ref=e84] [cursor=pointer]:
+        - /url: /all-products/
+      - text: refrigerator black nofrost
+    - generic [ref=e85]:
+      - generic [ref=e87]:
+        - article [ref=e88]:
+          - heading "Category" [level=2] [ref=e89]
+          - link "Home & Office" [ref=e90] [cursor=pointer]:
+            - /url: /home-office/?q=refrigerator+black+nofrost#catalog-listing
+          - link "Automobile" [ref=e91] [cursor=pointer]:
+            - /url: /automobile/?q=refrigerator+black+nofrost#catalog-listing
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - heading "Price (EGP)" [level=2] [ref=e94]
+            - button "Apply" [ref=e95] [cursor=pointer]
+          - generic [ref=e96]:
+            - slider "Min": "18149"
+            - slider "Max": "61458"
+          - generic [ref=e98]:
+            - spinbutton "Min" [ref=e100]: "18149"
+            - generic [ref=e101]: "-"
+            - spinbutton "Max" [ref=e103]: "61458"
+        - article [ref=e104]:
+          - heading "Discount Percentage" [level=2] [ref=e106]
+          - link "30% or more" [ref=e108] [cursor=pointer]:
+            - /url: /catalog/?q=refrigerator+black+nofrost&price_discount=30-100#catalog-listing
+          - link "20% or more" [ref=e110] [cursor=pointer]:
+            - /url: /catalog/?q=refrigerator+black+nofrost&price_discount=20-100#catalog-listing
+          - link "10% or more" [ref=e112] [cursor=pointer]:
+            - /url: /catalog/?q=refrigerator+black+nofrost&price_discount=10-100#catalog-listing
+        - article [ref=e113]:
+          - heading "Brand" [level=2] [ref=e115]
+          - generic [ref=e116]:
+            - link "Beko" [ref=e117] [cursor=pointer]:
+              - /url: /beko/?q=refrigerator+black+nofrost#catalog-listing
+            - link "Bosch" [ref=e118] [cursor=pointer]:
+              - /url: /bosch/?q=refrigerator+black+nofrost#catalog-listing
+            - link "Kiriazi" [ref=e119] [cursor=pointer]:
+              - /url: /kiriazi/?q=refrigerator+black+nofrost#catalog-listing
+            - link "LG" [ref=e120] [cursor=pointer]:
+              - /url: /lg/?q=refrigerator+black+nofrost#catalog-listing
+            - link "Sharp" [ref=e121] [cursor=pointer]:
+              - /url: /sharp/?q=refrigerator+black+nofrost#catalog-listing
+            - link "TORNADO" [ref=e122] [cursor=pointer]:
+              - /url: /tornado/?q=refrigerator+black+nofrost#catalog-listing
+            - link "Unionaire" [ref=e123] [cursor=pointer]:
+              - /url: /unionaire/?q=refrigerator+black+nofrost#catalog-listing
+            - link "White Point" [ref=e124] [cursor=pointer]:
+              - /url: /white-point/?q=refrigerator+black+nofrost#catalog-listing
+            - link "Zanussi" [ref=e125] [cursor=pointer]:
+              - /url: /zanussi/?q=refrigerator+black+nofrost#catalog-listing
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - paragraph [ref=e130]: (27 products found)
+            - generic [ref=e131]:
+              - checkbox "Popularity" [ref=e132]
+              - generic [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: "Sort by:"
+                - generic [ref=e135]: Popularity
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]: "Related results:"
+              - link "tornado refrigerator black" [ref=e142] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/tornado-refrigerator-black
+              - link "digital touch refrigerator" [ref=e144] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/digital-touch-refrigerator
+              - link "bar refrigerator" [ref=e146] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/bar-refrigerator
+              - link "twin inverter refrigerator" [ref=e148] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/twin-inverter-refrigerator
+              - link "refrigerator container blue" [ref=e150] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-container-blue
+              - link "refrigerator thermometer multicolour" [ref=e152] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-thermometer-multicolour
+              - link "refrigerator icemaker 53562202" [ref=e154] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-icemaker-53562202
+              - link "compact refrigerator black" [ref=e156] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/compact-refrigerator-black
+              - link "refrigerator 304 liter" [ref=e158] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-304-liter
+              - link "platinum refrigerator" [ref=e160] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/platinum-refrigerator
+              - link "mechanical refrigerator" [ref=e162] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mechanical-refrigerator
+              - link "two doors refrigerator" [ref=e164] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/two-doors-refrigerator
+              - link "haier refrigerator black" [ref=e166] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/haier-refrigerator-black
+              - link "midea refrigerator grey" [ref=e168] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/midea-refrigerator-grey
+              - link "glossy black refrigerator" [ref=e170] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/glossy-black-refrigerator
+              - link "built in refrigerator" [ref=e172] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/built-in-refrigerator
+              - link "tornado refrigerator inverter" [ref=e174] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/tornado-refrigerator-inverter
+              - link "tornado refrigerator white" [ref=e176] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/tornado-refrigerator-white
+              - link "beko refrigerator silver" [ref=e178] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/beko-refrigerator-silver
+              - link "545 liter refrigerator" [ref=e180] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/545-liter-refrigerator
+              - link "toshiba refrigerator grey" [ref=e182] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/toshiba-refrigerator-grey
+              - link "90 liter refrigerator" [ref=e184] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/90-liter-refrigerator
+              - link "330 liter refrigerator" [ref=e186] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/330-liter-refrigerator
+              - link "hotel refrigerator silver" [ref=e188] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/hotel-refrigerator-silver
+              - link "refrigerator vacation mode" [ref=e190] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-vacation-mode
+              - link "stainless commercial refrigerator" [ref=e192] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/stainless-commercial-refrigerator
+              - link "inverter refrigerator" [ref=e194] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/inverter-refrigerator
+              - link "505 liter refrigerator" [ref=e196] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/505-liter-refrigerator
+              - link "zanussi refrigerator" [ref=e198] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/zanussi-refrigerator
+              - link "fb15 refrigerator" [ref=e200] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/fb15-refrigerator
+              - link "refrigerator 411 liter black" [ref=e202] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-411-liter-black
+              - link "refrigerator 351 liter" [ref=e204] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-351-liter
+              - link "refrigerator with ag nano filter" [ref=e206] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-with-ag-nano-filter
+              - link "16 feet no frost refrigerator black" [ref=e208] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/16-feet-no-frost-refrigerator-black
+              - link "reversible refrigerator" [ref=e210] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/reversible-refrigerator
+              - link "mini bar refrigerator black" [ref=e212] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mini-bar-refrigerator-black
+              - link "mini bar refrigerator multicolour" [ref=e214] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/mini-bar-refrigerator-multicolour
+              - link "380 liter refrigerator" [ref=e216] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/380-liter-refrigerator
+              - link "refrigerator mini fridge red" [ref=e218] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-mini-fridge-red
+              - link "refrigerator 397 liters black" [ref=e220] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-397-liters-black
+              - link "refrigerator 395 liter" [ref=e222] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/refrigerator-395-liter
+              - link "jac water dispenser with refrigerator" [ref=e224] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/jac-water-dispenser-with-refrigerator
+              - link "dual cooling technology refrigerator" [ref=e226] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/dual-cooling-technology-refrigerator
+              - link "haier refrigerator" [ref=e228] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/haier-refrigerator
+              - link "370 liter refrigerator" [ref=e230] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/370-liter-refrigerator
+            - button "previous" [ref=e231]
+            - button "next" [ref=e234] [cursor=pointer]
+        - generic [ref=e237]:
+          - generic [ref=e238]:
+            - checkbox "Brand" [ref=e239]
+            - generic [ref=e240] [cursor=pointer]: Brand
+          - generic [ref=e244]:
+            - checkbox "Price" [ref=e245]
+            - generic [ref=e246] [cursor=pointer]: Price
+        - generic [ref=e250]:
+          - article [ref=e251]:
+            - button [ref=e252] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e253]
+            - link "Zanussi No-Frost Refrigerator,437 Liters,Black-ZRT43204BA Zanussi No-Frost Refrigerator,437 Liters,Black-ZRT43204BA EGP 21,854.00 EGP 22,199.00 - 2% 1 out of 5 (1)" [ref=e255] [cursor=pointer]:
+              - /url: /zanussi-no-frost-refrigerator437-litersblack-zrt43204ba-134215247.html
+              - img "Zanussi No-Frost Refrigerator,437 Liters,Black-ZRT43204BA" [ref=e257]
+              - generic [ref=e258]:
+                - heading "Zanussi No-Frost Refrigerator,437 Liters,Black-ZRT43204BA" [level=3] [ref=e259]
+                - generic [ref=e260]: EGP 21,854.00
+                - generic [ref=e261]:
+                  - generic [ref=e262]: EGP 22,199.00
+                  - generic [ref=e263]: "- 2%"
+                - generic [ref=e264]:
+                  - generic [ref=e265]: 1 out of 5
+                  - text: (1)
+          - article [ref=e269]:
+            - button [ref=e270] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e271]
+            - link "Beko No-Frost Refrigerator - RDNE455M20XBIDEGB - 406 Liters - Inverter - Black Beko No-Frost Refrigerator - RDNE455M20XBIDEGB - 406 Liters - Inverter - Black EGP 25,495.00 EGP 30,000.00 - 15% 5 out of 5 (1)" [ref=e273] [cursor=pointer]:
+              - /url: /refrigerator-rdne455m20xbidegb-no-frost-406-liters-inverter-black-beko-mpg3847161.html
+              - img "Beko No-Frost Refrigerator - RDNE455M20XBIDEGB - 406 Liters - Inverter - Black" [ref=e275]
+              - generic [ref=e276]:
+                - heading "Beko No-Frost Refrigerator - RDNE455M20XBIDEGB - 406 Liters - Inverter - Black" [level=3] [ref=e277]
+                - generic [ref=e278]: EGP 25,495.00
+                - generic [ref=e279]:
+                  - generic [ref=e280]: EGP 30,000.00
+                  - generic [ref=e281]: "- 15%"
+                - generic [ref=e282]:
+                  - generic [ref=e283]: 5 out of 5
+                  - text: (1)
+          - article [ref=e287]:
+            - button [ref=e288] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e289]
+            - link "Bosch NoFrost Refrigerator with freezer at bottom Series 6 Free Standing 505 Liter - Digital Black - KGN56LB3E9 Bosch NoFrost Refrigerator with freezer at bottom Series 6 Free Standing 505 Liter - Digital Black - KGN56LB3E9 EGP 57,999.00" [ref=e291] [cursor=pointer]:
+              - /url: /bosch-nofrost-refrigerator-with-freezer-at-bottom-series-6-free-standing-505-liter-digital-black-kgn56lb3e9-134321742.html
+              - img "Bosch NoFrost Refrigerator with freezer at bottom Series 6 Free Standing 505 Liter - Digital Black - KGN56LB3E9" [ref=e293]
+              - generic [ref=e294]:
+                - heading "Bosch NoFrost Refrigerator with freezer at bottom Series 6 Free Standing 505 Liter - Digital Black - KGN56LB3E9" [level=3] [ref=e295]
+                - generic [ref=e296]: EGP 57,999.00
+          - article [ref=e299]:
+            - button [ref=e300] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e301]
+            - link "LG Digital No-Frost Refrigerator with Inverter Technology, 450 Liters, Black - GTF452SSAN LG Digital No-Frost Refrigerator with Inverter Technology, 450 Liters, Black - GTF452SSAN EGP 36,249.00 EGP 42,000.00 - 14%" [ref=e303] [cursor=pointer]:
+              - /url: /lg-digital-no-frost-refrigerator-with-inverter-technology-450-liters-black-gtf452ssan-134272626.html
+              - img "LG Digital No-Frost Refrigerator with Inverter Technology, 450 Liters, Black - GTF452SSAN" [ref=e305]
+              - generic [ref=e306]:
+                - heading "LG Digital No-Frost Refrigerator with Inverter Technology, 450 Liters, Black - GTF452SSAN" [level=3] [ref=e307]
+                - generic [ref=e308]: EGP 36,249.00
+                - generic [ref=e309]:
+                  - generic [ref=e310]: EGP 42,000.00
+                  - generic [ref=e311]: "- 14%"
+          - article [ref=e314]:
+            - button [ref=e315] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e316]
+            - link "Kiriazi KH N690/15 Refrigerator Premiere Nofrost Digital - Black Kiriazi KH N690/15 Refrigerator Premiere Nofrost Digital - Black EGP 54,400.00 EGP 55,363.00 - 2% 5 out of 5 (1)" [ref=e318] [cursor=pointer]:
+              - /url: /kiriazi-kh-n69015-refrigerator-premiere-nofrost-digital-black-133579112.html
+              - img "Kiriazi KH N690/15 Refrigerator Premiere Nofrost Digital - Black" [ref=e320]
+              - generic [ref=e321]:
+                - heading "Kiriazi KH N690/15 Refrigerator Premiere Nofrost Digital - Black" [level=3] [ref=e322]
+                - generic [ref=e323]: EGP 54,400.00
+                - generic [ref=e324]:
+                  - generic [ref=e325]: EGP 55,363.00
+                  - generic [ref=e326]: "- 2%"
+                - generic [ref=e327]:
+                  - generic [ref=e328]: 5 out of 5
+                  - text: (1)
+          - article [ref=e332]:
+            - button [ref=e333] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e334]
+            - link "Unionaire No-Frost Refrigerator 420 L – Digital Screen - Bluetooth – Black - URN500LBG1ADTHRBSM Unionaire No-Frost Refrigerator 420 L – Digital Screen - Bluetooth – Black - URN500LBG1ADTHRBSM EGP 18,148.90 EGP 22,000.00 - 18% 5 out of 5 (1)" [ref=e336] [cursor=pointer]:
+              - /url: /unionaire-no-frost-refrigerator-420-l-digital-screen-bluetooth-black-urn500lbg1adthrbsm-133850463.html
+              - img "Unionaire No-Frost Refrigerator 420 L – Digital Screen - Bluetooth – Black - URN500LBG1ADTHRBSM" [ref=e338]
+              - generic [ref=e339]:
+                - heading "Unionaire No-Frost Refrigerator 420 L – Digital Screen - Bluetooth – Black - URN500LBG1ADTHRBSM" [level=3] [ref=e340]
+                - generic [ref=e341]: EGP 18,148.90
+                - generic [ref=e342]:
+                  - generic [ref=e343]: EGP 22,000.00
+                  - generic [ref=e344]: "- 18%"
+                - generic [ref=e345]:
+                  - generic [ref=e346]: 5 out of 5
+                  - text: (1)
+          - article [ref=e350]:
+            - button [ref=e351] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e352]
+            - link "White Point WPR483VB - Refrigerator Nofrost 451 liters - black - Inverter White Point WPR483VB - Refrigerator Nofrost 451 liters - black - Inverter EGP 26,299.00 EGP 28,000.00 - 6%" [ref=e354] [cursor=pointer]:
+              - /url: /white-point-wpr483vb-refrigerator-nofrost-451-liters-black-inverter-134433310.html
+              - img "White Point WPR483VB - Refrigerator Nofrost 451 liters - black - Inverter" [ref=e356]
+              - generic [ref=e357]:
+                - heading "White Point WPR483VB - Refrigerator Nofrost 451 liters - black - Inverter" [level=3] [ref=e358]
+                - generic [ref=e359]: EGP 26,299.00
+                - generic [ref=e360]:
+                  - generic [ref=e361]: EGP 28,000.00
+                  - generic [ref=e362]: "- 6%"
+          - article [ref=e365]:
+            - button [ref=e366] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e367]
+            - link "Unionaire Signature NoFrost Bottom Freezer Refrigerator 420 Liter - Black - URN-600CEPBLG1A-DXHRBL Unionaire Signature NoFrost Bottom Freezer Refrigerator 420 Liter - Black - URN-600CEPBLG1A-DXHRBL EGP 21,999.00 EGP 33,000.00 - 33%" [ref=e369] [cursor=pointer]:
+              - /url: /unionaire-signature-nofrost-bottom-freezer-refrigerator-420-liter-black-urn-600cepblg1a-dxhrbl-133827093.html
+              - img "Unionaire Signature NoFrost Bottom Freezer Refrigerator 420 Liter - Black - URN-600CEPBLG1A-DXHRBL" [ref=e371]
+              - generic [ref=e372]:
+                - heading "Unionaire Signature NoFrost Bottom Freezer Refrigerator 420 Liter - Black - URN-600CEPBLG1A-DXHRBL" [level=3] [ref=e373]
+                - generic [ref=e374]: EGP 21,999.00
+                - generic [ref=e375]:
+                  - generic [ref=e376]: EGP 33,000.00
+                  - generic [ref=e377]: "- 33%"
+          - article [ref=e380]:
+            - button [ref=e381] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e382]
+            - link "Kiriazi KH N625/1 Refrigerator Premiere Nofrost Digital - Black Kiriazi KH N625/1 Refrigerator Premiere Nofrost Digital - Black EGP 50,150.00 EGP 55,708.40 - 10%" [ref=e384] [cursor=pointer]:
+              - /url: /kiriazi-kh-n6251-refrigerator-premiere-nofrost-digital-black-134175321.html
+              - img "Kiriazi KH N625/1 Refrigerator Premiere Nofrost Digital - Black" [ref=e386]
+              - generic [ref=e387]:
+                - heading "Kiriazi KH N625/1 Refrigerator Premiere Nofrost Digital - Black" [level=3] [ref=e388]
+                - generic [ref=e389]: EGP 50,150.00
+                - generic [ref=e390]:
+                  - generic [ref=e391]: EGP 55,708.40
+                  - generic [ref=e392]: "- 10%"
+          - article [ref=e395]:
+            - button [ref=e396] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e397]
+            - link "TORNADO No-Frost Refrigerator, 304 Liter, Black - RF-33FT-BK TORNADO No-Frost Refrigerator, 304 Liter, Black - RF-33FT-BK EGP 20,689.00 EGP 22,500.00 - 8%" [ref=e399] [cursor=pointer]:
+              - /url: /tornado-no-frost-refrigerator-304-liter-black-rf-33ft-bk-134225036.html
+              - img "TORNADO No-Frost Refrigerator, 304 Liter, Black - RF-33FT-BK" [ref=e401]
+              - generic [ref=e402]:
+                - heading "TORNADO No-Frost Refrigerator, 304 Liter, Black - RF-33FT-BK" [level=3] [ref=e403]
+                - generic [ref=e404]: EGP 20,689.00
+                - generic [ref=e405]:
+                  - generic [ref=e406]: EGP 22,500.00
+                  - generic [ref=e407]: "- 8%"
+          - article [ref=e410]:
+            - button [ref=e411] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e412]
+            - link "Zanussi No-Frost Refrigerator, 406 Liters, Black - ZRT41204BA Zanussi No-Frost Refrigerator, 406 Liters, Black - ZRT41204BA EGP 22,400.00 EGP 23,000.00 - 3%" [ref=e414] [cursor=pointer]:
+              - /url: /zanussi-no-frost-refrigerator-406-liters-black-zrt41204ba-134058212.html
+              - img "Zanussi No-Frost Refrigerator, 406 Liters, Black - ZRT41204BA" [ref=e416]
+              - generic [ref=e417]:
+                - heading "Zanussi No-Frost Refrigerator, 406 Liters, Black - ZRT41204BA" [level=3] [ref=e418]
+                - generic [ref=e419]: EGP 22,400.00
+                - generic [ref=e420]:
+                  - generic [ref=e421]: EGP 23,000.00
+                  - generic [ref=e422]: "- 3%"
+          - article [ref=e425]:
+            - button [ref=e426] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e427]
+            - link "Beko No-Frost Refrigerator - RDNE455M20XBIDEGB - 406 Liters - Inverter - Black Beko No-Frost Refrigerator - RDNE455M20XBIDEGB - 406 Liters - Inverter - Black EGP 24,999.00 EGP 28,999.00 - 14%" [ref=e429] [cursor=pointer]:
+              - /url: /beko-no-frost-refrigerator-rdne455m20xbidegb-406-liters-inverter-black-130117781.html
+              - img "Beko No-Frost Refrigerator - RDNE455M20XBIDEGB - 406 Liters - Inverter - Black" [ref=e431]
+              - generic [ref=e432]:
+                - heading "Beko No-Frost Refrigerator - RDNE455M20XBIDEGB - 406 Liters - Inverter - Black" [level=3] [ref=e433]
+                - generic [ref=e434]: EGP 24,999.00
+                - generic [ref=e435]:
+                  - generic [ref=e436]: EGP 28,999.00
+                  - generic [ref=e437]: "- 14%"
+          - article [ref=e440]:
+            - button [ref=e441] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e442]
+            - link "Beko No-Frost Refrigerator 509L, Digital Touch Screen, Inverter, RCNE590E35ZXP3 - Black Beko No-Frost Refrigerator 509L, Digital Touch Screen, Inverter, RCNE590E35ZXP3 - Black EGP 61,458.00" [ref=e444] [cursor=pointer]:
+              - /url: /beko-no-frost-refrigerator-509l-digital-touch-screen-inverter-rcne590e35zxp3-black-134033653.html
+              - img "Beko No-Frost Refrigerator 509L, Digital Touch Screen, Inverter, RCNE590E35ZXP3 - Black" [ref=e446]
+              - generic [ref=e447]:
+                - heading "Beko No-Frost Refrigerator 509L, Digital Touch Screen, Inverter, RCNE590E35ZXP3 - Black" [level=3] [ref=e448]
+                - generic [ref=e449]: EGP 61,458.00
+          - article [ref=e452]:
+            - button [ref=e453] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e454]
+            - link "Sharp No-Frost Refrigerator, 480 Liters, Inverter Motor, Black- SJ-GV63G-BK FDYJE Sharp No-Frost Refrigerator, 480 Liters, Inverter Motor, Black- SJ-GV63G-BK EGP 54,800.00 EGP 59,000.00 - 7%" [ref=e456] [cursor=pointer]:
+              - /url: /sj-gv63g-bk-no-frost-refrigerator-inverter-480-l-black-sharp-mpg3851505.html
+              - generic [ref=e457]:
+                - img "Sharp No-Frost Refrigerator, 480 Liters, Inverter Motor, Black- SJ-GV63G-BK" [ref=e458]
+                - img "FDYJE" [ref=e459]
+              - generic [ref=e460]:
+                - heading "Sharp No-Frost Refrigerator, 480 Liters, Inverter Motor, Black- SJ-GV63G-BK" [level=3] [ref=e461]
+                - generic [ref=e462]: EGP 54,800.00
+                - generic [ref=e463]:
+                  - generic [ref=e464]: EGP 59,000.00
+                  - generic [ref=e465]: "- 7%"
+          - article [ref=e468]:
+            - button [ref=e469] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e470]
+            - link "Zanussi No-Frost Refrigerator, 370 Liters - Black ZTM3701A-B Zanussi No-Frost Refrigerator, 370 Liters - Black ZTM3701A-B EGP 24,500.00 EGP 26,999.00 - 9%" [ref=e472] [cursor=pointer]:
+              - /url: /no-frost-refrigerator-370-liters-black-ztm3701a-b-zanussi-mpg3851572.html
+              - img "Zanussi No-Frost Refrigerator, 370 Liters - Black ZTM3701A-B" [ref=e474]
+              - generic [ref=e475]:
+                - heading "Zanussi No-Frost Refrigerator, 370 Liters - Black ZTM3701A-B" [level=3] [ref=e476]
+                - generic [ref=e477]: EGP 24,500.00
+                - generic [ref=e478]:
+                  - generic [ref=e479]: EGP 26,999.00
+                  - generic [ref=e480]: "- 9%"
+          - article [ref=e483]:
+            - button [ref=e484] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e485]
+            - link "Beko No-Frost Refrigerator, 314 Liters, Black - RDNE340K22B Beko No-Frost Refrigerator, 314 Liters, Black - RDNE340K22B EGP 26,998.00" [ref=e487] [cursor=pointer]:
+              - /url: /no-frost-refrigerator-314-liters-black-rdne340k22b-beko-mpg3894008.html
+              - img "Beko No-Frost Refrigerator, 314 Liters, Black - RDNE340K22B" [ref=e489]
+              - generic [ref=e490]:
+                - heading "Beko No-Frost Refrigerator, 314 Liters, Black - RDNE340K22B" [level=3] [ref=e491]
+                - generic [ref=e492]: EGP 26,998.00
+          - article [ref=e495]:
+            - button [ref=e496] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e497]
+            - link "TORNADO Digital No-Frost Refrigerator 450 Liters Dark Stainless Steel RF-580AT-DST TORNADO Digital No-Frost Refrigerator 450 Liters Dark Stainless Steel RF-580AT-DST EGP 30,590.00" [ref=e499] [cursor=pointer]:
+              - /url: /tornado-digital-no-frost-refrigerator-450-liters-dark-stainless-steel-rf-580at-dst-134294949.html
+              - img "TORNADO Digital No-Frost Refrigerator 450 Liters Dark Stainless Steel RF-580AT-DST" [ref=e501]
+              - generic [ref=e502]:
+                - heading "TORNADO Digital No-Frost Refrigerator 450 Liters Dark Stainless Steel RF-580AT-DST" [level=3] [ref=e503]
+                - generic [ref=e504]: EGP 30,590.00
+          - article [ref=e507]:
+            - button [ref=e508] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e509]
+            - link "Zanussi No-Frost Refrigerator, 406 Liters, Black - ZRT41204BA Zanussi No-Frost Refrigerator, 406 Liters, Black - ZRT41204BA EGP 27,550.00 EGP 29,999.00 - 8%" [ref=e511] [cursor=pointer]:
+              - /url: /no-frost-refrigerator-406-liters-black-zrt41204ba-zanussi-mpg3851570.html
+              - img "Zanussi No-Frost Refrigerator, 406 Liters, Black - ZRT41204BA" [ref=e513]
+              - generic [ref=e514]:
+                - heading "Zanussi No-Frost Refrigerator, 406 Liters, Black - ZRT41204BA" [level=3] [ref=e515]
+                - generic [ref=e516]: EGP 27,550.00
+                - generic [ref=e517]:
+                  - generic [ref=e518]: EGP 29,999.00
+                  - generic [ref=e519]: "- 8%"
+          - article [ref=e522]:
+            - button [ref=e523] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e524]
+            - link "Sharp No-frost Inverter Refrigerator 450 Liters Black SJ-GV58A(BK) Sharp No-frost Inverter Refrigerator 450 Liters Black SJ-GV58A(BK) EGP 41,900.00" [ref=e526] [cursor=pointer]:
+              - /url: /sharp-no-frost-inverter-refrigerator-450-liters-black-sj-gv58abk-133995303.html
+              - img "Sharp No-frost Inverter Refrigerator 450 Liters Black SJ-GV58A(BK)" [ref=e528]
+              - generic [ref=e529]:
+                - heading "Sharp No-frost Inverter Refrigerator 450 Liters Black SJ-GV58A(BK)" [level=3] [ref=e530]
+                - generic [ref=e531]: EGP 41,900.00
+          - article [ref=e534]:
+            - button [ref=e535] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e536]
+            - link "Unionaire No-Frost Refrigerator, Double Door, 420 Liters, Digital Touch Display, Glass Door, Internal Handle, Model URN-600CEPBLG1A-DTHR - Black Unionaire No-Frost Refrigerator, Double Door, 420 Liters, Digital Touch Display, Glass Door, Internal Handle, Model URN-600CEPBLG1A-DTHR - Black EGP 22,000.00 EGP 26,948.90 - 18%" [ref=e538] [cursor=pointer]:
+              - /url: /unionaire-no-frost-refrigerator-double-door-420-liters-digital-touch-display-glass-door-internal-handle-model-urn-600cepblg1a-dthr-black-133870048.html
+              - img "Unionaire No-Frost Refrigerator, Double Door, 420 Liters, Digital Touch Display, Glass Door, Internal Handle, Model URN-600CEPBLG1A-DTHR - Black" [ref=e540]
+              - generic [ref=e541]:
+                - heading "Unionaire No-Frost Refrigerator, Double Door, 420 Liters, Digital Touch Display, Glass Door, Internal Handle, Model URN-600CEPBLG1A-DTHR - Black" [level=3] [ref=e542]
+                - generic [ref=e543]: EGP 22,000.00
+                - generic [ref=e544]:
+                  - generic [ref=e545]: EGP 26,948.90
+                  - generic [ref=e546]: "- 18%"
+          - article [ref=e549]:
+            - button [ref=e550] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e551]
+            - link "Beko 430 Liter NoFrost Refrigerator in Black Beko 430 Liter NoFrost Refrigerator in Black EGP 33,550.00 EGP 38,500.00 - 13%" [ref=e553] [cursor=pointer]:
+              - /url: /beko-430-liter-nofrost-refrigerator-in-black-130031095.html
+              - img "Beko 430 Liter NoFrost Refrigerator in Black" [ref=e555]
+              - generic [ref=e556]:
+                - heading "Beko 430 Liter NoFrost Refrigerator in Black" [level=3] [ref=e557]
+                - generic [ref=e558]: EGP 33,550.00
+                - generic [ref=e559]:
+                  - generic [ref=e560]: EGP 38,500.00
+                  - generic [ref=e561]: "- 13%"
+          - article [ref=e564]:
+            - button [ref=e565] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e566]
+            - link "Sharp No-Frost Refrigerator, 480 Liters, Inverter Motor, Black - SJ-GV63G-BK Sharp No-Frost Refrigerator, 480 Liters, Inverter Motor, Black - SJ-GV63G-BK EGP 54,890.00" [ref=e568] [cursor=pointer]:
+              - /url: /sharp-no-frost-refrigerator-480-liters-inverter-motor-black-sj-gv63g-bk-133995304.html
+              - img "Sharp No-Frost Refrigerator, 480 Liters, Inverter Motor, Black - SJ-GV63G-BK" [ref=e570]
+              - generic [ref=e571]:
+                - heading "Sharp No-Frost Refrigerator, 480 Liters, Inverter Motor, Black - SJ-GV63G-BK" [level=3] [ref=e572]
+                - generic [ref=e573]: EGP 54,890.00
+          - article [ref=e576]:
+            - button [ref=e577] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e578]
+            - link "White Point WPR643DWDVB Inverter Nofrost Digital Screen Refrigerator with Water Dispenser, 582 Liter, Black White Point WPR643DWDVB Inverter Nofrost Digital Screen Refrigerator with Water Dispenser, 582 Liter, Black EGP 55,900.00 EGP 60,000.00 - 7%" [ref=e580] [cursor=pointer]:
+              - /url: /white-point-wpr643dwdvb-inverter-nofrost-digital-screen-refrigerator-with-water-dispenser-582-liter-black-134712726.html
+              - img "White Point WPR643DWDVB Inverter Nofrost Digital Screen Refrigerator with Water Dispenser, 582 Liter, Black" [ref=e582]
+              - generic [ref=e583]:
+                - heading "White Point WPR643DWDVB Inverter Nofrost Digital Screen Refrigerator with Water Dispenser, 582 Liter, Black" [level=3] [ref=e584]
+                - generic [ref=e585]: EGP 55,900.00
+                - generic [ref=e586]:
+                  - generic [ref=e587]: EGP 60,000.00
+                  - generic [ref=e588]: "- 7%"
+          - article [ref=e591]:
+            - button [ref=e592] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e593]
+            - link "TORNADO 304L No-Frost Inverter Refrigerator, Dark Stainless Steel, RF-33FTV-DST TORNADO 304L No-Frost Inverter Refrigerator, Dark Stainless Steel, RF-33FTV-DST EGP 24,750.00" [ref=e595] [cursor=pointer]:
+              - /url: /tornado-304l-no-frost-inverter-refrigerator-dark-stainless-steel-rf-33ftv-dst-133995347.html
+              - img "TORNADO 304L No-Frost Inverter Refrigerator, Dark Stainless Steel, RF-33FTV-DST" [ref=e597]
+              - generic [ref=e598]:
+                - heading "TORNADO 304L No-Frost Inverter Refrigerator, Dark Stainless Steel, RF-33FTV-DST" [level=3] [ref=e599]
+                - generic [ref=e600]: EGP 24,750.00
+          - article [ref=e603]:
+            - button [ref=e604] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e605]
+            - link "TORNADO 355L No-Frost Inverter Refrigerator - Black RF-40FTV-BK TORNADO 355L No-Frost Inverter Refrigerator - Black RF-40FTV-BK EGP 28,755.00" [ref=e607] [cursor=pointer]:
+              - /url: /tornado-355l-no-frost-inverter-refrigerator-black-rf-40ftv-bk-133995357.html
+              - img "TORNADO 355L No-Frost Inverter Refrigerator - Black RF-40FTV-BK" [ref=e609]
+              - generic [ref=e610]:
+                - heading "TORNADO 355L No-Frost Inverter Refrigerator - Black RF-40FTV-BK" [level=3] [ref=e611]
+                - generic [ref=e612]: EGP 28,755.00
+          - article [ref=e615]:
+            - button [ref=e616] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e617]
+            - link "TORNADO No-Frost Refrigerator, 304 Liter, Black - RF-33FT-BK TORNADO No-Frost Refrigerator, 304 Liter, Black - RF-33FT-BK EGP 21,999.00 EGP 25,500.00 - 14%" [ref=e619] [cursor=pointer]:
+              - /url: /tornado-no-frost-refrigerator-304-liter-black-rf-33ft-bk-130764503.html
+              - img "TORNADO No-Frost Refrigerator, 304 Liter, Black - RF-33FT-BK" [ref=e621]
+              - generic [ref=e622]:
+                - heading "TORNADO No-Frost Refrigerator, 304 Liter, Black - RF-33FT-BK" [level=3] [ref=e623]
+                - generic [ref=e624]: EGP 21,999.00
+                - generic [ref=e625]:
+                  - generic [ref=e626]: EGP 25,500.00
+                  - generic [ref=e627]: "- 14%"
+          - article [ref=e630]:
+            - button [ref=e631] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e632]
+            - link "Sharp No-frost refrigerator with inverter technology, 250 liter capacity, black - FJ-EC23(BK) Sharp No-frost refrigerator with inverter technology, 250 liter capacity, black - FJ-EC23(BK) EGP 34,190.00" [ref=e634] [cursor=pointer]:
+              - /url: /sharp-no-frost-refrigerator-with-inverter-technology-250-liter-capacity-black-fj-ec23bk-133995305.html
+              - img "Sharp No-frost refrigerator with inverter technology, 250 liter capacity, black - FJ-EC23(BK)" [ref=e636]
+              - generic [ref=e637]:
+                - heading "Sharp No-frost refrigerator with inverter technology, 250 liter capacity, black - FJ-EC23(BK)" [level=3] [ref=e638]
+                - generic [ref=e639]: EGP 34,190.00
+    - link "BACK TO TOP" [ref=e643] [cursor=pointer]:
+      - /url: "#top"
+  - contentinfo [ref=e646]:
+    - generic [ref=e648]:
+      - generic [ref=e652]:
+        - generic [ref=e653]:
+          - generic [ref=e654]: New to Jumia?
+          - text: Subscribe to our newsletter to get updates on our latest offers, you can unsubscribe at any time as described in Privacy Policy.
+          - generic [ref=e655]:
+            - text: To subscribe to our newsletter, you must first read and agree to Jumia's
+            - link "I accept the Legal Terms" [ref=e656] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-privacy/
+        - generic [ref=e657]:
+          - generic [ref=e658]:
+            - checkbox "I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time." [ref=e659]
+            - generic [ref=e660] [cursor=pointer]: I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time.
+          - generic [ref=e661]:
+            - textbox "E-mail" [ref=e663]:
+              - /placeholder: Enter E-mail Address
+            - button "Subscribe"
+        - generic [ref=e666]: You can unsubscribe at any time as described in Privacy Policy
+      - generic [ref=e667]:
+        - generic [ref=e671]:
+          - generic [ref=e672]: DOWNLOAD JUMIA FREE APP
+          - text: Get access to exclusive offers!
+        - generic [ref=e673]:
+          - link "Get it on the App Store" [ref=e674] [cursor=pointer]:
+            - /url: https://app.adjust.io/k4hu4w
+          - link "Get it on Google Play" [ref=e677] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.jumia.android&referrer=adjust_reftag%3DcdTxOjM
+    - generic [ref=e680]:
+      - generic [ref=e681]:
+        - generic [ref=e682]: Need Help?
+        - button "Chat with us" [ref=e683] [cursor=pointer]
+        - list [ref=e684]:
+          - listitem [ref=e685]:
+            - link "Help Center" [ref=e686] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/
+          - listitem [ref=e687]:
+            - link "Contact us" [ref=e688] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-contact/
+        - generic [ref=e689]: "Useful Links:"
+        - list [ref=e690]:
+          - listitem [ref=e691]:
+            - link "How to shop on Jumia?" [ref=e692] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/?page=place+an+order
+          - listitem [ref=e693]:
+            - link "How to pay on Jumia?" [ref=e694] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/?page=pay+for+your+order
+          - listitem [ref=e695]:
+            - link "Delivery timelines" [ref=e696] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-delivery-timelines/
+          - listitem [ref=e697]:
+            - link "Dispute Resolution Policy" [ref=e698] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-dispute-resolution-policy/
+          - listitem [ref=e699]:
+            - link "Return Policy" [ref=e700] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-return-policy-cp/
+          - listitem [ref=e701]:
+            - link "Refund Policy" [ref=e702] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-refund-policy-cp/
+          - listitem [ref=e703]:
+            - link "Black Friday" [ref=e704] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/mlp-black-friday/
+          - listitem [ref=e705]:
+            - link "Jumia Anniversary 2026" [ref=e706] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/ar/mlp-anniversary/
+      - generic [ref=e707]:
+        - generic [ref=e708]: ABOUT JUMIA EGYPT
+        - list [ref=e709]:
+          - listitem [ref=e710]:
+            - link "Jumia Careers" [ref=e711] [cursor=pointer]:
+              - /url: https://group.jumia.com/careers?location=egypt
+          - listitem [ref=e712]:
+            - link "Terms and Conditions" [ref=e713] [cursor=pointer]:
+              - /url: /terms-of-use/?internal=footer
+          - listitem [ref=e714]:
+            - link "Privacy Policy" [ref=e715] [cursor=pointer]:
+              - /url: /privacy/?internal=footer
+          - listitem [ref=e716]:
+            - link "Cookies Policy" [ref=e717] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-cookie/
+          - listitem [ref=e718]:
+            - link "Free Shipping" [ref=e719] [cursor=pointer]:
+              - /url: /mlp-free-shipping/?internal=footer
+          - listitem [ref=e720]:
+            - link "Flash Sales" [ref=e721] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/flash-sales/
+      - generic [ref=e722]:
+        - generic [ref=e723]: MAKE MONEY WITH JUMIA
+        - list [ref=e724]:
+          - listitem [ref=e725]:
+            - link "Sell on Jumia" [ref=e726] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-sell-on-jumia/
+          - listitem [ref=e727]:
+            - link "Vendor Hub" [ref=e728] [cursor=pointer]:
+              - /url: https://vendorhub.jumia.com.eg/
+          - listitem [ref=e729]:
+            - link "Become a Sales Consultant (J-Force )" [ref=e730] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-jforce-consultant/
+      - generic [ref=e731]:
+        - generic [ref=e732]: JUMIA INTERNATIONAL
+        - list [ref=e733]:
+          - listitem [ref=e734]:
+            - link "Ivory Coast" [ref=e735] [cursor=pointer]:
+              - /url: https://www.jumia.ci/
+          - listitem [ref=e736]:
+            - link "Ghana" [ref=e737] [cursor=pointer]:
+              - /url: https://www.jumia.com.gh/
+          - listitem [ref=e738]:
+            - link "Kenya" [ref=e739] [cursor=pointer]:
+              - /url: https://www.jumia.co.ke/
+          - listitem [ref=e740]:
+            - link "Morocco" [ref=e741] [cursor=pointer]:
+              - /url: https://www.jumia.ma/
+        - list [ref=e742]:
+          - listitem [ref=e743]:
+            - link "Nigeria" [ref=e744] [cursor=pointer]:
+              - /url: https://www.jumia.com.ng/
+          - listitem [ref=e745]:
+            - link "Senegal" [ref=e746] [cursor=pointer]:
+              - /url: https://www.jumia.sn/
+          - listitem [ref=e747]:
+            - link "Uganda" [ref=e748] [cursor=pointer]:
+              - /url: https://www.jumia.ug/
+    - generic [ref=e750]:
+      - generic [ref=e751]: Contact us
+      - generic [ref=e752]:
+        - generic [ref=e753]:
+          - generic [ref=e754]: Business Name
+          - generic [ref=e755]: Jumia Egypt
+        - generic [ref=e756]:
+          - generic [ref=e757]: Address
+          - generic [ref=e758]: 272 /273 El Tesaeen El Shamaly St., Sector 2, 5th Compound, New Cairo, Behind Dusit Thani Lakeview, Cairo
+        - generic [ref=e759]:
+          - generic [ref=e760]: Phone Number
+          - generic [ref=e761]:
+            - link "19586" [ref=e762] [cursor=pointer]:
+              - /url: tel:+2019586
+            - text: ","
+            - link "17269" [ref=e763] [cursor=pointer]:
+              - /url: tel:+2017269
+        - generic [ref=e764]:
+          - generic [ref=e765]: WhatsApp
+          - link "201011958600" [ref=e767] [cursor=pointer]:
+            - /url: https://wa.me/20201011958600
+    - generic [ref=e768]:
+      - generic [ref=e769]:
+        - generic [ref=e770]: JOIN US ON
+        - generic [ref=e771]:
+          - link "Facebook Jumia Egypt" [ref=e772] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/Jumia/100068403391761/
+          - link "Twitter Jumia Egypt" [ref=e775] [cursor=pointer]:
+            - /url: https://twitter.com/JUMIAEgypt/
+          - link "Instagram Jumia Egypt" [ref=e778] [cursor=pointer]:
+            - /url: https://www.instagram.com/jumiaegypt/
+          - link "YouTube Jumia Egypt" [ref=e781] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/JumiaEgypt/
+          - link "Tik Tok" [ref=e784] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@jumia.egypt?_t=8rJ4NeuPbzr&_r=1
+      - generic [ref=e787]:
+        - generic [ref=e788]: PAYMENT METHODS
+        - generic [ref=e789]:
+          - link "Payment on delivery" [ref=e790] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Mastercard" [ref=e793] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Visa" [ref=e796] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Jumia Pay" [ref=e799] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Fawry" [ref=e800] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+    - generic [ref=e803]:
+      - list [ref=e804]:
+        - listitem [ref=e805]:
+          - link "Activ" [ref=e806] [cursor=pointer]:
+            - /url: /activ/
+        - listitem [ref=e807]:
+          - link "ADIDAS" [ref=e808] [cursor=pointer]:
+            - /url: /adidas/
+        - listitem [ref=e809]:
+          - link "American Eagle" [ref=e810] [cursor=pointer]:
+            - /url: /american-eagle/
+        - listitem [ref=e811]:
+          - link "Andora" [ref=e812] [cursor=pointer]:
+            - /url: /andora/
+      - list [ref=e813]:
+        - listitem [ref=e814]:
+          - link "Apple" [ref=e815] [cursor=pointer]:
+            - /url: /apple/
+        - listitem [ref=e816]:
+          - link "Braun" [ref=e817] [cursor=pointer]:
+            - /url: /braun/
+        - listitem [ref=e818]:
+          - link "Casio" [ref=e819] [cursor=pointer]:
+            - /url: /casio-edifice/
+        - listitem [ref=e820]:
+          - link "Cottonil" [ref=e821] [cursor=pointer]:
+            - /url: /cottonil/
+      - list [ref=e822]:
+        - listitem [ref=e823]:
+          - link "Defacto" [ref=e824] [cursor=pointer]:
+            - /url: /defacto/
+        - listitem [ref=e825]:
+          - link "Dice" [ref=e826] [cursor=pointer]:
+            - /url: /dice/
+        - listitem [ref=e827]:
+          - link "Fresh" [ref=e828] [cursor=pointer]:
+            - /url: /fresh/
+        - listitem [ref=e829]:
+          - link "Garnier" [ref=e830] [cursor=pointer]:
+            - /url: /garnier/
+      - list [ref=e831]:
+        - listitem [ref=e832]:
+          - link "HP" [ref=e833] [cursor=pointer]:
+            - /url: /hp/
+        - listitem [ref=e834]:
+          - link "Izor" [ref=e835] [cursor=pointer]:
+            - /url: /izor/
+        - listitem [ref=e836]:
+          - link "Kady" [ref=e837] [cursor=pointer]:
+            - /url: /kady/
+        - listitem [ref=e838]:
+          - link "L'Oreal Paris" [ref=e839] [cursor=pointer]:
+            - /url: /l-oreal/
+      - list [ref=e840]:
+        - listitem [ref=e841]:
+          - link "LC Waikiki" [ref=e842] [cursor=pointer]:
+            - /url: /lc-waikiki/
+        - listitem [ref=e843]:
+          - link "Lenovo" [ref=e844] [cursor=pointer]:
+            - /url: /lenovo/
+        - listitem [ref=e845]:
+          - link "Maybelline New York" [ref=e846] [cursor=pointer]:
+            - /url: /maybelline/
+      - list [ref=e847]:
+        - listitem [ref=e848]:
+          - link "Mesery" [ref=e849] [cursor=pointer]:
+            - /url: /mesery/
+        - listitem [ref=e850]:
+          - link "NIVEA" [ref=e851] [cursor=pointer]:
+            - /url: /nivea/
+        - listitem [ref=e852]:
+          - link "Nokia" [ref=e853] [cursor=pointer]:
+            - /url: /nokia/
+      - list [ref=e854]:
+        - listitem [ref=e855]:
+          - link "OPPO" [ref=e856] [cursor=pointer]:
+            - /url: /oppo/
+        - listitem [ref=e857]:
+          - link "Samsung" [ref=e858] [cursor=pointer]:
+            - /url: /samsung/
+        - listitem [ref=e859]:
+          - link "SHEIN" [ref=e860] [cursor=pointer]:
+            - /url: /shein/
+      - list [ref=e861]:
+        - listitem [ref=e862]:
+          - link "Sokany" [ref=e863] [cursor=pointer]:
+            - /url: /sokany/
+        - listitem [ref=e864]:
+          - link "TORNADO" [ref=e865] [cursor=pointer]:
+            - /url: /tornado/
+        - listitem [ref=e866]:
+          - link "XIAOMI" [ref=e867] [cursor=pointer]:
+            - /url: /xiaomi/
+    - generic [ref=e868]:
+      - link "Jumia Pay" [ref=e870] [cursor=pointer]:
+        - /url: https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar
+      - generic [ref=e873]:
+        - generic [ref=e874]: English
+        - link [ref=e878] [cursor=pointer]:
+          - /url: /ar/catalog/?q=refrigerator+black+nofrost

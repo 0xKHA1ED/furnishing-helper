@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "fridge",
+      "name": "Refrigerator",
+      "room": "kitchen",
+      "priority": "high",
+      "status": "researching",
+      "egyptNotes": "Inverter models help with power; check energy rating; side-by-side vs French door vs top freezer depends on kitchen width and cooking habits. Popular brands in EG: Samsung, LG, Fresh, Toshiba, Beko, Sharp, Electrolux. Buy from authorized dealer for warranty.",
+      "questionsToResolve": ["capacity liters", "freezer need", "width clearance", "water dispenser?", "top freezer vs bottom vs French vs SBS"]
+    },
+    {
+      "id": "cooking",
+      "name": "Cooker / hob + oven",
+      "room": "kitchen",
+      "priority": "low",
+      "status": "owned",
+      "egyptNotes": "Already owned/gifted — do not repurchase. Optional later: range hood if missing and kitchen needs extraction.",
+      "questionsToResolve": ["hood needed?", "gas install OK?"]
+    },
+    {
+      "id": "washer",
+      "name": "Washing machine",
+      "room": "kitchen_or_bath",
+      "priority": "high",
+      "status": "not_started",
+      "egyptNotes": "Front-load vs top-load; dryer rare / expensive energy-wise — many hang dry on balcony.",
+      "questionsToResolve": ["kg capacity", "space", "dryer needed?"]
+    },
+    {
+      "id": "ac",
+      "name": "Air conditioning",
+      "room": "multi",
+      "priority": "low",
+      "status": "decided",
+      "egyptNotes": "User decision 2026-07-17: NOT purchasing AC. Focus heat mitigation via curtains, fans, ventilation, lighter textiles.",
+      "questionsToResolve": []
+    },
+    {
+      "id": "water_heater",
+      "name": "Water heater",
+      "room": "bathrooms",
+      "priority": "high",
+      "status": "not_started",
+      "egyptNotes": "Electric storage vs instantaneous vs gas — depends on building and bathrooms count.",
+      "questionsToResolve": ["existing?", "electric vs gas", "liters"]
+    },
+    {
+      "id": "lighting",
+      "name": "Lighting plan",
+      "room": "whole_home",
+      "priority": "high",
+      "status": "not_started",
+      "egyptNotes": "Layer ambient + task + accent. LED only. Warm white (~2700–3000K) for living/bedroom; neutral for kitchen/bath.",
+      "questionsToResolve": ["ceiling fixtures fixed?", "smart lighting interest?", "dimmers?"]
+    },
+    {
+      "id": "small_kitchen",
+      "name": "Small kitchen appliances",
+      "room": "kitchen",
+      "priority": "low",
+      "status": "mostly_owned",
+      "egyptNotes": "Already have: air fryer, kettle, blender. Iron and vacuum also owned. Optional later: microwave, coffee maker, toaster if lifestyle needs them.",
+      "questionsToResolve": ["coffee habit?", "want microwave?"]
+    },
+    {
+      "id": "furniture_living",
+      "name": "Living furniture",
+      "room": "living",
+      "priority": "high",
+      "status": "not_started",
+      "egyptNotes": "Sofa depth and fabric matter in dusty cities; consider washable covers.",
+      "questionsToResolve": ["sofa size", "TV unit", "dining?"]
+    },
+    {
+      "id": "furniture_bedroom",
+      "name": "Bedroom furniture",
+      "room": "master_bedroom",
+      "priority": "high",
+      "status": "not_started",
+      "egyptNotes": "Mattress quality > frame. Wardrobe built-in vs freestanding depends on apartment.",
+      "questionsToResolve": ["bed size", "wardrobe status"]
+    },
+    {
+      "id": "window_treatments",
+      "name": "Curtains / blinds",
+      "room": "whole_home",
+      "priority": "medium",
+      "status": "not_started",
+      "egyptNotes": "Blackout for bedrooms is almost always worth it; heat + privacy.",
+      "questionsToResolve": ["blackout needs", "style"]
+    },
+    {
+      "id": "second_room",
+      "name": "Second bedroom setup",
+      "room": "second_bedroom",
+      "priority": "medium",
+      "status": "not_started",
+      "egyptNotes": "No kids = office, guest, gym corner, or hybrid. Decide use before buying furniture.",
+      "questionsToResolve": ["primary use"]
+    }
+  ]
+}

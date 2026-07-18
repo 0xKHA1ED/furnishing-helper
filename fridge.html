@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fridge decision — Egypt apartment hub</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .fit-bar {
+        height: 8px;
+        background: var(--bg);
+        border-radius: 99px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        margin-top: 0.4rem;
+      }
+      .fit-bar > i {
+        display: block;
+        height: 100%;
+        background: linear-gradient(90deg, var(--accent), #e0c35a);
+      }
+      .reco {
+        border: 1px solid rgba(61, 186, 122, 0.35);
+        background: rgba(61, 186, 122, 0.08);
+        border-radius: var(--radius);
+        padding: 1rem 1.15rem;
+        margin-bottom: 1rem;
+      }
+      .vote-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 0.75rem;
+      }
+      .pick-card.selected {
+        border-color: rgba(201, 162, 39, 0.55);
+        box-shadow: 0 0 0 1px rgba(201, 162, 39, 0.25);
+      }
+      .why-list {
+        margin: 0.5rem 0 0;
+        padding-left: 1.1rem;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow"><a href="index.html">← Decision hub</a> · Fridge deep-dive</p>
+          <h1>Refrigerator decision</h1>
+          <p class="lead">
+            Built from <strong>your lifestyle</strong>, not a quiz about liters: Friday
+            meal-prep for the week, big shop every 1–2 weeks, freeze a lot, rarely host, no
+            water/ice dispenser, budget <strong>20–35k EGP</strong>, 6th of October City.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold">Research v1 · B.TECH prices</span>
+          <span class="badge">Prices move — re-check before buy</span>
+        </div>
+      </header>
+
+      <div class="reco">
+        <h2 style="margin-top: 0; font-size: 1.05rem">What your lifestyle implies</h2>
+        <ul class="why-list">
+          <li><strong>Freezer priority = high</strong> (batch cook / freeze a lot)</li>
+          <li><strong>Fridge organization = high</strong> (week of prep containers)</li>
+          <li><strong>Guest capacity = low</strong> (rarely host) — no need for giant SBS</li>
+          <li><strong>Skip dispenser</strong> — simpler, fewer repairs</li>
+          <li>
+            <strong>Target ~380–500 L</strong> if the price is right; avoid tiny ~300 L units
+          </li>
+        </ul>
+      </div>
+
+      <div class="grid-2" style="margin-bottom: 1rem">
+        <div class="card">
+          <h2>Two strategies (pick a lane)</h2>
+          <p class="muted">You don’t need to know “bottom vs top freezer” jargon — choose the life outcome:</p>
+          <div class="form-grid" style="margin-top: 0.75rem">
+            <button type="button" class="btn ghost lane" data-lane="space" style="justify-content: flex-start; text-align: left; height: auto; padding: 0.85rem 1rem">
+              <span><strong>A · Max food space</strong><br /><span class="muted" style="font-weight: 400">Better for bulk shop + heavy freezing. Usually top-freezer value models.</span></span>
+            </button>
+            <button type="button" class="btn ghost lane" data-lane="ergonomics" style="justify-content: flex-start; text-align: left; height: auto; padding: 0.85rem 1rem">
+              <span><strong>B · Easiest daily prep access</strong><br /><span class="muted" style="font-weight: 400">Fresh food at eye level; slightly less total space for the money.</span></span>
+            </button>
+            <button type="button" class="btn ghost lane" data-lane="save" style="justify-content: flex-start; text-align: left; height: auto; padding: 0.85rem 1rem">
+              <span><strong>C · Save money for AC / washer</strong><br /><span class="muted" style="font-weight: 400">Still ~400 L class, lower EGP — empty apartment has many big tickets.</span></span>
+            </button>
+          </div>
+          <p class="muted" id="lane-result" style="margin-top: 0.75rem"></p>
+        </div>
+        <div class="card">
+          <h2>Working recommendation</h2>
+          <p id="reco-text" class="muted">
+            Default draft: <strong style="color: var(--text)">Ariston ~420 L (~26k)</strong> as
+            best balance of space + inverter in-band; <strong style="color: var(--text)">Fresh ~397 L (~21k)</strong>
+            if you want to protect budget for AC; bottom-freezer Samsung/Beko if lane B.
+          </p>
+          <div class="vote-row">
+            <button type="button" class="btn primary" id="btn-lean-ariston">I lean Ariston (space)</button>
+            <button type="button" class="btn ghost" id="btn-lean-fresh">I lean Fresh (save)</button>
+            <button type="button" class="btn ghost" id="btn-lean-bottom">I lean bottom-freezer</button>
+            <button type="button" class="btn ghost" id="btn-need-more">Need more options / showroom</button>
+          </div>
+          <p class="muted" id="lean-saved" style="margin-top: 0.65rem"></p>
+        </div>
+      </div>
+
+      <div class="card" style="margin-bottom: 1rem">
+        <h2>Shortlist (interactive)</h2>
+        <p class="muted">Click a card to mark your favorite. Data from project JSON + B.TECH snapshot 2026-07-17.</p>
+        <div class="grid-3" id="cards" style="margin-top: 1rem"></div>
+      </div>
+
+      <div class="card">
+        <h2>Side-by-side</h2>
+        <div class="table-wrap" id="table"></div>
+      </div>
+
+      <div class="card" style="margin-top: 1rem">
+        <h2>Still open (lifestyle, not specs)</h2>
+        <ul class="why-list">
+          <li>Do you prefer spending less on the fridge to put more into <strong>AC for Oct 6 summers</strong>?</li>
+          <li>Will frozen bulk meat/chicken be a <strong>major</strong> part of prep, or more fridge leftovers?</li>
+          <li>Any brand you already trust/hate in Egypt (service experience)?</li>
+        </ul>
+        <p class="muted" style="margin-top: 0.75rem">
+          Tell me in chat — I’ll update <code>data/fridge-brief.json</code> and narrow to 2 finalists, then re-check live prices/delivery to 6th of October.
+        </p>
+      </div>
+
+      <footer class="app-footer">
+        Not a purchase instruction · Verify warranty, invertor claim, and delivery install on the retailer page or in-store.
+      </footer>
+    </div>
+    <div id="toast" class="toast"></div>
+    <script>
+      const KEY = "egypt-apt-fridge-lean-v1";
+      const products = [
+        {
+          id: "fridge_ariston_420_art70",
+          name: "Ariston ART70 420L",
+          price: 25999,
+          capacity: "420 L",
+          layout: "Top freezer",
+          energy: "Inverter",
+          score: 8.5,
+          fit: 90,
+          why: "Best space/EGP in-band for weekly prep + bulk shop",
+          lane: ["space"]
+        },
+        {
+          id: "fridge_fresh_397_fnt",
+          name: "Fresh FNT 397L",
+          price: 21319,
+          capacity: "397 L",
+          layout: "Top freezer",
+          energy: "NoFrost (confirm inverter)",
+          score: 7.8,
+          fit: 85,
+          why: "Max budget left for AC/washer; still ~400 L class",
+          lane: ["space", "save"]
+        },
+        {
+          id: "fridge_samsung_rb34_340",
+          name: "Samsung RB34 340L",
+          price: 30999,
+          capacity: "340 L",
+          layout: "Bottom freezer",
+          energy: "Inverter",
+          score: 7.5,
+          fit: 72,
+          why: "Eye-level fridge for prep containers; smaller overall",
+          lane: ["ergonomics"]
+        },
+        {
+          id: "fridge_beko_367_bottom",
+          name: "Beko RCNE 367L",
+          price: 28863,
+          capacity: "367 L",
+          layout: "Bottom freezer",
+          energy: "Confirm SKU",
+          score: 7.6,
+          fit: 78,
+          why: "Bottom freezer with a bit more L than Samsung",
+          lane: ["ergonomics"]
+        },
+        {
+          id: "fridge_lg_401_gtf402",
+          name: "LG GTF402 401L",
+          price: 31300,
+          capacity: "401 L",
+          layout: "Top freezer",
+          energy: "Confirm inverter",
+          score: 7.7,
+          fit: 82,
+          why: "Brand service peace of mind; solid capacity",
+          lane: ["space"]
+        },
+        {
+          id: "fridge_beko_rdne430_367",
+          name: "Beko RDNE430 367L",
+          price: 24000,
+          capacity: "367 L",
+          layout: "Top freezer",
+          energy: "Confirm SKU",
+          score: 7.2,
+          fit: 70,
+          why: "Safe mid option; less space than Ariston for similar money",
+          lane: ["save"]
+        }
+      ];
+
+      function toast(m) {
+        const t = document.getElementById("toast");
+        t.textContent = m;
+        t.classList.add("show");
+        setTimeout(() => t.classList.remove("show"), 2500);
+      }
+
+      function loadLean() {
+        try {
+          return JSON.parse(localStorage.getItem(KEY) || "{}");
+        } catch {
+          return {};
+        }
+      }
+      function saveLean(obj) {
+        localStorage.setItem(KEY, JSON.stringify(obj));
+      }
+
+      let state = loadLean();
+
+      function renderCards(filterLane) {
+        const root = document.getElementById("cards");
+        const list = filterLane
+          ? products.filter((p) => p.lane.includes(filterLane) || filterLane === "all")
+          : products;
+        root.innerHTML = list
+          .map(
+            (p) => `
+          <article class="card pick-card ${state.favorite === p.id ? "selected" : ""}" data-id="${p.id}" style="box-shadow:none;cursor:pointer">
+            <div class="muted" style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.06em">${p.layout}</div>
+            <h3 style="margin:0.35rem 0">${p.name}</h3>
+            <div class="score">${p.price.toLocaleString()} EGP</div>
+            <p class="muted" style="margin:0.5rem 0 0;font-size:0.88rem">${p.why}</p>
+            <div class="muted" style="margin-top:0.5rem;font-size:0.8rem">Lifestyle fit</div>
+            <div class="fit-bar"><i style="width:${p.fit}%"></i></div>
+            <div class="muted" style="margin-top:0.45rem;font-size:0.85rem">${p.capacity} · ${p.energy} · score ${p.score}</div>
+          </article>`
+          )
+          .join("");
+        root.querySelectorAll(".pick-card").forEach((el) => {
+          el.addEventListener("click", () => {
+            state.favorite = el.dataset.id;
+            saveLean(state);
+            renderCards(state.lane);
+            renderTable();
+            toast("Favorite saved in this browser");
+          });
+        });
+      }
+
+      function renderTable() {
+        const rows = [
+          ["Name", (p) => p.name],
+          ["Price (EGP)", (p) => p.price.toLocaleString()],
+          ["Capacity", (p) => p.capacity],
+          ["Layout", (p) => p.layout],
+          ["Energy", (p) => p.energy],
+          ["Score", (p) => p.score],
+          ["Fit %", (p) => p.fit + "%"],
+          ["Your pick", (p) => (state.favorite === p.id ? "★ favorite" : "")]
+        ];
+        document.getElementById("table").innerHTML = `<table class="compare"><thead><tr><th>Field</th>${products
+          .map((p) => `<th class="${state.favorite === p.id ? "best" : ""}">${p.name}</th>`)
+          .join("")}</tr></thead><tbody>${rows
+          .map(
+            ([label, fn]) =>
+              `<tr><th>${label}</th>${products.map((p) => `<td>${fn(p)}</td>`).join("")}</tr>`
+          )
+          .join("")}</tbody></table>`;
+      }
+
+      document.querySelectorAll(".lane").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          state.lane = btn.dataset.lane;
+          saveLean(state);
+          const labels = {
+            space: "Lane A — highlighting space-first models (Ariston, Fresh, LG).",
+            ergonomics: "Lane B — bottom freezers for daily prep access (Samsung, Beko bottom).",
+            save: "Lane C — budget protectors (Fresh, Beko top)."
+          };
+          document.getElementById("lane-result").textContent = labels[state.lane] || "";
+          const reco = {
+            space:
+              "Focus final two: Ariston 420 vs LG 401 (brand). Visit showroom for freezer compartment size.",
+            ergonomics:
+              "Focus final two: Beko 367 bottom vs Samsung 340. Accept slightly less bulk-freeze space.",
+            save: "Focus Fresh 397 (and Beko 367 top as backup). Put savings toward split AC for Oct 6."
+          };
+          document.getElementById("reco-text").textContent = reco[state.lane];
+          renderCards(state.lane);
+        });
+      });
+
+      function setLean(msg, lean) {
+        state.lean = lean;
+        saveLean(state);
+        document.getElementById("lean-saved").textContent = "Saved: " + msg + " — tell me in chat to lock into data/fridge-brief.json";
+        toast(msg);
+      }
+      document.getElementById("btn-lean-ariston").onclick = () => setLean("Lean Ariston (space)", "ariston");
+      document.getElementById("btn-lean-fresh").onclick = () => setLean("Lean Fresh (save for AC)", "fresh");
+      document.getElementById("btn-lean-bottom").onclick = () => setLean("Lean bottom-freezer ergonomics", "bottom");
+      document.getElementById("btn-need-more").onclick = () => setLean("Need more research / showroom", "more");
+
+      if (state.lane) {
+        document.querySelector(`.lane[data-lane="${state.lane}"]`)?.click();
+      }
+      if (state.lean) {
+        document.getElementById("lean-saved").textContent = "Previously saved lean: " + state.lean;
+      }
+      renderCards(state.lane);
+      renderTable();
+    </script>
+  </body>
+</html>

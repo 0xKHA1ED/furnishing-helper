@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fridge gallery — ≤35k · ≥360L · all colors · black filter</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/appliances.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">
+            <a href="index.html">← Hub</a> ·
+            <a href="appliances.html">All appliances</a> ·
+            Fridge focus
+          </p>
+          <h1>Fridge gallery</h1>
+          <p class="lead">
+            Hard rules: <strong>has freezer</strong>, <strong>NoFrost</strong>,
+            <strong>≤ 35,000 EGP</strong>, <strong>≥ 360 L</strong>, no dispenser.
+            <strong>All colors</strong> ranked; use <strong>Black only</strong> if aesthetics stay strict.
+            Click any card for photos, pros/cons, and specs.
+          </p>
+        </div>
+        <div class="badge-row">
+          <span class="badge gold" id="count-badge">—</span>
+          <span class="badge">B.TECH · expanded</span>
+        </div>
+      </header>
+
+      <div class="help-callout" id="disclaimer">Loading fridge catalog…</div>
+
+      <div class="preset-row">
+        <button type="button" data-preset="all" class="active">All kept</button>
+        <button type="button" data-preset="black">Black only</button>
+        <button type="button" data-preset="top">Top freezer only</button>
+        <button type="button" data-preset="bottom">Bottom freezer only</button>
+        <button type="button" data-preset="inverter">Inverter only</button>
+        <button type="button" data-preset="top5">Top 5 ranked</button>
+        <button type="button" data-preset="starred">★ Starred</button>
+      </div>
+
+      <div class="gallery-toolbar">
+        <label>Search
+          <input id="f-q" type="search" placeholder="brand, model…" />
+        </label>
+        <label>Color
+          <select id="f-color">
+            <option value="any">Any color</option>
+            <option value="black">Black only</option>
+            <option value="dark_inox">Dark Inox</option>
+            <option value="silver">Silver / steel / grey</option>
+          </select>
+        </label>
+        <label>Max EGP
+          <input id="f-max" type="number" value="35000" />
+        </label>
+        <label>Min liters
+          <input id="f-cap" type="number" value="360" />
+        </label>
+        <label>Layout
+          <select id="f-layout">
+            <option value="any">Any</option>
+            <option value="top_freezer">Top freezer</option>
+            <option value="bottom_freezer">Bottom freezer</option>
+          </select>
+        </label>
+        <label>Inverter
+          <select id="f-inv">
+            <option value="any">Any</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </label>
+        <label>Sort
+          <select id="f-sort">
+            <option value="rank">Our rank</option>
+            <option value="price_asc">Price ↑</option>
+            <option value="price_desc">Price ↓</option>
+            <option value="cap_desc">Capacity ↓</option>
+            <option value="fit">Fit score</option>
+          </select>
+        </label>
+        <label>Starred only
+          <select id="f-star">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select>
+        </label>
+        <button type="button" class="btn ghost" id="btn-export-stars">Export ★ JSON</button>
+        <button type="button" class="btn ghost" id="btn-clear-stars">Clear ★</button>
+      </div>
+
+      <p class="sticky-count" id="result-count"></p>
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="card" style="margin-top: 1.5rem">
+        <h2>What we excluded</h2>
+        <p class="muted" id="excluded-list">—</p>
+      </div>
+
+      <footer class="app-footer">
+        Data: <code>data/appliances/fridge_catalog.json</code> · B.TECH prices 2026-07-17 ·
+        Re-verify before purchase
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true">
+      <div class="modal">
+        <div class="modal-head">
+          <div>
+            <h2 id="modal-title">Product</h2>
+            <p class="muted" id="modal-sub" style="margin: 0.25rem 0 0; font-size: 0.85rem"></p>
+          </div>
+          <button type="button" class="modal-close" id="modal-close">Close</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <img class="main-img" id="modal-main-img" alt="" referrerpolicy="no-referrer" />
+            <div class="ph" id="modal-no-img" style="display: none; color: #9aa6bc; text-align: center; padding: 2rem">
+              No photo
+            </div>
+            <div class="thumbs" id="modal-thumbs"></div>
+          </div>
+          <div class="modal-info">
+            <div class="price-lg" id="modal-price"></div>
+            <p class="muted" id="modal-summary" style="margin: 0.5rem 0 0"></p>
+            <div class="pc-grid">
+              <div class="pc-box pros">
+                <h4>Pros</h4>
+                <ul id="modal-pros"></ul>
+              </div>
+              <div class="pc-box cons">
+                <h4>Cons</h4>
+                <ul id="modal-cons"></ul>
+              </div>
+            </div>
+            <ul class="spec-list" id="modal-specs"></ul>
+            <div class="btn-row" style="margin-top: 1rem">
+              <button type="button" class="btn ghost" id="modal-star">☆ Star</button>
+              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open on B.TECH</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+    <script>
+      const STAR_KEY = "egypt-apt-fridge-stars-v1";
+      const CATALOG_URL = "data/appliances/fridge_catalog.json";
+      let items = [];
+      let stars = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || "[]"));
+      let active = null;
+      let galleryIdx = 0;
+      const $ = (s, r = document) => r.querySelector(s);
+      const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+      function toast(m) {
+        const t = $("#toast");
+        t.textContent = m;
+        t.classList.add("show");
+        setTimeout(() => t.classList.remove("show"), 2200);
+      }
+      function saveStars() {
+        localStorage.setItem(STAR_KEY, JSON.stringify([...stars]));
+      }
+      function esc(s) {
+        return String(s)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+      function fmt(n) {
+        return n == null ? "—" : Number(n).toLocaleString() + " EGP";
+      }
+      function filtered() {
+        const q = $("#f-q").value.trim().toLowerCase();
+        const max = Number($("#f-max").value) || Infinity;
+        const minCap = Number($("#f-cap").value) || 0;
+        const layout = $("#f-layout").value;
+        const inv = $("#f-inv").value;
+        const color = $("#f-color")?.value || "any";
+        const onlyStar = $("#f-star").value === "yes";
+        const sort = $("#f-sort").value;
+        let list = items.filter((it) => {
+          if (it._hide) return false;
+          if ((it.priceEGP || 0) > max) return false;
+          if (minCap && (it.capacity || 0) < minCap) return false;
+          if (layout !== "any" && it.specs?.layout !== layout) return false;
+          if (inv === "yes" && it.specs?.inverter !== true) return false;
+          if (inv === "no" && it.specs?.inverter === true) return false;
+          if (color === "black" && it.color !== "black") return false;
+          if (color === "dark_inox" && it.color !== "dark_inox") return false;
+          if (color === "silver" && !["silver", "other"].includes(it.color)) return false;
+          if (onlyStar && !stars.has(it.id)) return false;
+          if (q) {
+            const hay = `${it.name} ${it.brand} ${it.summary} ${it.color}`.toLowerCase();
+            if (!hay.includes(q)) return false;
+          }
+          return true;
+        });
+        list.sort((a, b) => {
+          if (sort === "price_asc") return a.priceEGP - b.priceEGP;
+          if (sort === "price_desc") return b.priceEGP - a.priceEGP;
+          if (sort === "cap_desc") return (b.capacity || 0) - (a.capacity || 0);
+          if (sort === "fit") return (b.researchFitScore || 0) - (a.researchFitScore || 0);
+          return (a.rank || 99) - (b.rank || 99);
+        });
+        return list;
+      }
+      function renderGrid() {
+        const list = filtered();
+        $("#result-count").textContent = `Showing ${list.length} of ${items.length} filtered fridges · ${stars.size} starred`;
+        const grid = $("#product-grid");
+        if (!list.length) {
+          grid.innerHTML = `<div class="empty-gallery" style="grid-column:1/-1">No matches.</div>`;
+          return;
+        }
+        grid.innerHTML = list
+          .map((it) => {
+            const img = it.imageUrl
+              ? `<img src="${esc(it.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
+              : `<div class="ph">No image</div>`;
+            return `<article class="product-card ${stars.has(it.id) ? "starred" : ""}" data-id="${esc(it.id)}">
+              <div class="thumb">${img}
+                <div class="badge-abs">
+                  ${it.rank ? `<span class="chip-mini hot">#${it.rank}</span>` : ""}
+                  ${it.color === "black" ? `<span class="chip-mini hot">Black</span>` : `<span class="chip-mini">${esc(it.color || "")}</span>`}
+                  ${it.specs?.inverter ? `<span class="chip-mini hot">Inverter</span>` : `<span class="chip-mini">No inv</span>`}
+                </div>
+                <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
+              </div>
+              <div class="body">
+                <div class="brand">${esc(it.brand)} · ${esc(it.specs?.layout || "")} · ${esc(it.color || "")}</div>
+                <h3>${esc(it.name)}</h3>
+                <div class="meta">${it.capacity} L · Fit ${it.researchFitScore ?? "—"}</div>
+                <div class="price">${fmt(it.priceEGP)}</div>
+              </div>
+            </article>`;
+          })
+          .join("");
+        grid.querySelectorAll(".product-card").forEach((card) => {
+          card.addEventListener("click", (e) => {
+            if (e.target.closest("[data-star]")) return;
+            openModal(card.dataset.id);
+          });
+        });
+        grid.querySelectorAll("[data-star]").forEach((btn) => {
+          btn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const id = btn.dataset.star;
+            if (stars.has(id)) stars.delete(id);
+            else stars.add(id);
+            saveStars();
+            renderGrid();
+          });
+        });
+      }
+      function openModal(id) {
+        active = items.find((i) => i.id === id);
+        if (!active) return;
+        galleryIdx = 0;
+        $("#modal-backdrop").classList.add("open");
+        renderModal();
+      }
+      function closeModal() {
+        $("#modal-backdrop").classList.remove("open");
+        active = null;
+      }
+      function renderModal() {
+        const it = active;
+        const g = it.imageGallery?.length ? it.imageGallery : it.imageUrl ? [it.imageUrl] : [];
+        $("#modal-title").textContent = it.name;
+        $("#modal-sub").textContent = `${it.brand} · rank #${it.rank || "—"} · ${it.retailer} · ${it.scrapedAt}`;
+        $("#modal-price").textContent = fmt(it.priceEGP);
+        $("#modal-summary").textContent = it.summary || "";
+        const main = $("#modal-main-img");
+        if (g[galleryIdx]) {
+          main.src = g[galleryIdx];
+          main.style.display = "block";
+          $("#modal-no-img").style.display = "none";
+        } else {
+          main.style.display = "none";
+          $("#modal-no-img").style.display = "block";
+        }
+        $("#modal-thumbs").innerHTML = g
+          .map(
+            (src, i) =>
+              `<button type="button" class="${i === galleryIdx ? "active" : ""}" data-g="${i}"><img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" /></button>`
+          )
+          .join("");
+        $$("#modal-thumbs button").forEach((b) =>
+          b.addEventListener("click", () => {
+            galleryIdx = Number(b.dataset.g);
+            renderModal();
+          })
+        );
+        $("#modal-pros").innerHTML = (it.pros || []).map((p) => `<li>${esc(p)}</li>`).join("");
+        $("#modal-cons").innerHTML = (it.cons || []).map((p) => `<li>${esc(p)}</li>`).join("");
+        const specs = [
+          ["Price", fmt(it.priceEGP)],
+          ["Capacity", `${it.capacity} L`],
+          ["Layout", it.specs?.layout],
+          ["Inverter", it.specs?.inverter ? "Yes" : "No"],
+          ["NoFrost", it.specs?.nofrost ? "Yes" : "—"],
+          ["Freezer", "Yes (required filter)"],
+          ["Color", it.color || "—"],
+          ["Freezer L", it.specs?.freezerL || "—"],
+          ["Fit score", it.researchFitScore],
+          ["Rank", it.rank],
+          ["Verified note", it.verifyNote || "—"],
+        ];
+        $("#modal-specs").innerHTML = specs
+          .map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v ?? "—"))}</span></li>`)
+          .join("");
+        $("#modal-link").href = it.url;
+        const starBtn = $("#modal-star");
+        starBtn.textContent = stars.has(it.id) ? "★ Starred" : "☆ Star";
+      }
+      function applyPreset(name) {
+        $$(".preset-row button").forEach((b) => b.classList.toggle("active", b.dataset.preset === name));
+        $("#f-layout").value = "any";
+        $("#f-inv").value = "any";
+        $("#f-color").value = "any";
+        $("#f-star").value = "no";
+        $("#f-max").value = "35000";
+        $("#f-cap").value = "360";
+        items.forEach((i) => (i._hide = false));
+        if (name === "black") $("#f-color").value = "black";
+        if (name === "top") $("#f-layout").value = "top_freezer";
+        if (name === "bottom") $("#f-layout").value = "bottom_freezer";
+        if (name === "inverter") $("#f-inv").value = "yes";
+        if (name === "starred") $("#f-star").value = "yes";
+        if (name === "top5") {
+          // filter client-side via sort rank and hide rank>5 by temporarily min fit
+          items.forEach((i) => (i._hide = i.rank && i.rank > 5));
+        } else {
+          items.forEach((i) => (i._hide = false));
+        }
+        renderGrid();
+      }
+      // wrap filter for top5
+      const _filtered = filtered;
+      filtered = function () {
+        let list = _filtered();
+        if ($(".preset-row button.active")?.dataset.preset === "top5") {
+          list = list.filter((i) => !i.rank || i.rank <= 5);
+        }
+        return list;
+      };
+
+      async function init() {
+        try {
+          const res = await fetch(CATALOG_URL);
+          const data = await res.json();
+          items = data.items || [];
+          const blackN = items.filter((i) => i.color === "black").length;
+          const invN = items.filter((i) => i.specs?.inverter).length;
+          $("#count-badge").textContent = `${items.length} total · ${blackN} black · ${invN} inv`;
+          $("#disclaimer").textContent =
+            (data.rankingNote ? data.rankingNote + " " : "") +
+            (data.disclaimer || "") +
+            " · Hard: " +
+            Object.entries(data.filtersApplied || {})
+              .map(([k, v]) => `${k}=${v}`)
+              .join(" · ");
+          const ex = (data.excludedExamples || []).slice(0, 12);
+          $("#excluded-list").innerHTML = ex
+            .map((e) => `<div style="margin:0.35rem 0"><strong>${esc(e.name || e.reason)}</strong> — ${esc(e.reason || "")}${e.price ? " (~" + Number(e.price).toLocaleString() + " EGP)" : ""}</div>`)
+            .join("");
+        } catch {
+          $("#disclaimer").innerHTML =
+            "Could not load catalog. Run: <code>python -m http.server 8765</code> then open this page via http://localhost:8765/fridge-gallery.html";
+          return;
+        }
+        ["f-q", "f-max", "f-cap", "f-layout", "f-inv", "f-color", "f-sort", "f-star"].forEach((id) => {
+          const el = $("#" + id);
+          if (!el) return;
+          el.addEventListener("input", renderGrid);
+          el.addEventListener("change", renderGrid);
+        });
+        $$(".preset-row button").forEach((b) => b.addEventListener("click", () => applyPreset(b.dataset.preset)));
+        $("#modal-close").onclick = closeModal;
+        $("#modal-backdrop").addEventListener("click", (e) => {
+          if (e.target.id === "modal-backdrop") closeModal();
+        });
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") closeModal();
+        });
+        $("#modal-star").onclick = () => {
+          if (!active) return;
+          if (stars.has(active.id)) stars.delete(active.id);
+          else stars.add(active.id);
+          saveStars();
+          renderModal();
+          renderGrid();
+        };
+        $("#btn-export-stars").onclick = () => {
+          const picked = items.filter((i) => stars.has(i.id));
+          const blob = new Blob([JSON.stringify({ exportedAt: new Date().toISOString(), items: picked }, null, 2)], {
+            type: "application/json",
+          });
+          const a = document.createElement("a");
+          a.href = URL.createObjectURL(blob);
+          a.download = "fridge-shortlist.json";
+          a.click();
+          toast(picked.length ? `Exported ${picked.length}` : "Nothing starred");
+        };
+        $("#btn-clear-stars").onclick = () => {
+          stars.clear();
+          saveStars();
+          renderGrid();
+          toast("Cleared");
+        };
+        renderGrid();
+      }
+      init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-17",
+  "couple": {
+    "names": [],
+    "weddingTiming": null,
+    "moveInTiming": null
+  },
+  "location": {
+    "country": "Egypt",
+    "city": "6th of October City",
+    "area": "6th of October",
+    "notes": "Greater Cairo west — good access to Mall of Egypt / Hyper One / major appliance chains; hot summers; dust considerations for fabrics/filters."
+  },
+  "apartment": {
+    "type": "two_bedroom",
+    "bedrooms": 2,
+    "bathrooms": null,
+    "approxSqm": null,
+    "floor": null,
+    "hasBalcony": null,
+    "hasParking": null,
+    "ownership": null,
+    "furnishedStatus": "empty",
+    "whatComesWithApartment": [],
+    "alreadyOwnedOrGifted": [
+      "cooker",
+      "vacuum cleaner",
+      "air fryer",
+      "kettle",
+      "iron",
+      "blender"
+    ],
+    "powerNotes": "Egypt standard 220V; note any generator or inverter plans",
+    "waterHeaterType": null,
+    "acPresent": false,
+    "planningAC": false,
+    "planningACNote": "Couple decided they are NOT getting AC for this setup."
+  },
+  "household": {
+    "kids": false,
+    "pets": null,
+    "workFromHome": null,
+    "guestsFrequency": null,
+    "cookingFrequency": null,
+    "laundryPreference": null
+  },
+  "budget": {
+    "currency": "EGP",
+    "totalRough": null,
+    "prioritySplit": {
+      "kitchenAppliances": null,
+      "laundry": null,
+      "climate": null,
+      "lighting": null,
+      "furniture": null,
+      "softFurnishings": null,
+      "misc": null
+    },
+    "preferBuyOnceCryOnce": null,
+    "openToUsedRefurbished": null,
+    "note": "User prefers not to set total number yet — rank must-haves first, price bands per category."
+  },
+  "style": {
+    "keywords": ["cozy shared nest", "stable base", "warm contemporary (hypothesis)"],
+    "colorPalette": [],
+    "mustAvoid": ["fragile showroom-only pieces", "ultra-trendy short-lived looks", "sterile cold minimal (hypothesis)"],
+    "inspirationLinks": [],
+    "lightingMood": "warm_cozy_shared",
+    "coupleDynamic": "user_function_partner_aesthetics",
+    "arrivalFeeling": "recharge_together_cozy_nest",
+    "homeMeaning": "stable_base_after_wedding",
+    "privacyLevel": "mostly_private_nest_family_occasional",
+    "conflictStyle": "unknown_first_shared_home",
+    "decisionRuleDraft": "dual_gate_function_and_aesthetics_both_required_for_big_spends"
+  },
+  "shopping": {
+    "preferredRetailers": [
+      "B.TECH",
+      "Raneen",
+      "2B",
+      "Amazon.eg",
+      "Jumia",
+      "IKEA Egypt",
+      "Carrefour",
+      "Local showrooms",
+      "Mall of Egypt area stores"
+    ],
+    "deliveryConstraints": "6th of October City — confirm delivery fees and install for large appliances",
+    "warrantyImportance": "high"
+  },
+  "priorities": {
+    "mustHaveNow": [
+      "Fridge",
+      "Washing machine",
+      "Water heater",
+      "Mattress + bed",
+      "Lighting basics",
+      "Curtains / blackout (heat + privacy without AC)"
+    ],
+    "niceToHaveLater": [
+      "Wardrobe / storage",
+      "Sofa",
+      "Dining table",
+      "Lighting upgrade",
+      "TV + stand",
+      "Second room desk setup",
+      "Fans (no AC)",
+      "Range hood if cooker needs it",
+      "Microwave if wanted"
+    ],
+    "canSkip": [
+      "AC (living)",
+      "AC (bedroom)",
+      "Cooker (already have)",
+      "Vacuum (already have)",
+      "Air fryer / kettle / blender / iron (already have)",
+      "Water filter / cooler"
+    ],
+    "doNotBuy": [
+      "cooker",
+      "vacuum",
+      "air fryer",
+      "kettle",
+      "iron",
+      "blender"
+    ]
+  },
+  "openQuestions": [
+    "Bathroom count",
+    "Cooker details only if hood/gas install is unclear",
+    "WFH intensity for second room",
+    "Style keywords",
+    "Fridge finalist Ariston vs LG"
+  ]
+}

@@ -1,0 +1,246 @@
+- generic [active] [ref=f19e1]:
+  - region "Notifications alt+T"
+  - main [ref=f19e2]:
+    - navigation [ref=f19e4]:
+      - generic [ref=f19e5]:
+        - generic [ref=f19e6]:
+          - link [ref=f19e7] [cursor=pointer]:
+            - /url: /en
+            - img "btech logo" [ref=f19e8]
+          - button [ref=f19e10] [cursor=pointer]:
+            - img "delivery address" [ref=f19e11]
+            - paragraph [ref=f19e13]: "Delivering to:"
+        - generic [ref=f19e16]:
+          - img "search" [ref=f19e18]
+          - textbox "What are you looking for?" [ref=f19e19]
+        - generic [ref=f19e20]:
+          - link [ref=f19e21] [cursor=pointer]:
+            - /url: /ar/p/lg-no-frost-refrigerator-401-liters-inveter-black-gtf402sban
+            - img "change language" [ref=f19e22]
+            - paragraph [ref=f19e23]: عربي
+          - button [ref=f19e24] [cursor=pointer]:
+            - img "wishlist" [ref=f19e25]
+            - paragraph [ref=f19e26]: Wishlist
+          - link [ref=f19e27] [cursor=pointer]:
+            - /url: /en/account
+            - img "my account" [ref=f19e28]
+            - paragraph [ref=f19e29]: Account
+          - link [ref=f19e30] [cursor=pointer]:
+            - /url: /en/cart
+            - img "cart" [ref=f19e32]
+            - paragraph [ref=f19e33]: Cart
+      - generic [ref=f19e34]:
+        - button "menu All categories" [ref=f19e35] [cursor=pointer]:
+          - img "menu" [ref=f19e36]
+          - generic [ref=f19e37]: All categories
+        - generic [ref=f19e38]:
+          - link "Electronics" [ref=f19e39] [cursor=pointer]:
+            - /url: /en/c/electronics
+          - link "Large Home Appliances" [ref=f19e40] [cursor=pointer]:
+            - /url: /en/c/large-home-appliances
+          - link "Mobiles, Tablets & Accessories" [ref=f19e41] [cursor=pointer]:
+            - /url: /en/c/mobiles-tablets
+          - link "Small Home Appliances" [ref=f19e42] [cursor=pointer]:
+            - /url: /en/c/small-home-appliances
+          - link "Laptops, PCs & accessories" [ref=f19e43] [cursor=pointer]:
+            - /url: /en/c/laptop-pc
+          - link "TVs" [ref=f19e44] [cursor=pointer]:
+            - /url: /en/c/tvs-projectors
+    - generic [ref=f19e50]:
+      - generic [ref=f19e51]:
+        - generic [ref=f19e55]:
+          - img "product image" [ref=f19e58] [cursor=pointer]
+          - img "product image" [ref=f19e61] [cursor=pointer]
+          - img "product image" [ref=f19e64] [cursor=pointer]
+          - img "product image" [ref=f19e67] [cursor=pointer]
+          - img "product image" [ref=f19e70] [cursor=pointer]
+          - img "product image" [ref=f19e73] [cursor=pointer]
+          - img "product image" [ref=f19e76] [cursor=pointer]
+          - img "product image" [ref=f19e79] [cursor=pointer]
+          - img "product image" [ref=f19e82] [cursor=pointer]
+          - img "product image" [ref=f19e85] [cursor=pointer]
+          - img "product image" [ref=f19e88] [cursor=pointer]
+          - img "product image" [ref=f19e91] [cursor=pointer]
+          - img "product image" [ref=f19e94] [cursor=pointer]
+          - img "product image" [ref=f19e97] [cursor=pointer]
+          - img "product image" [ref=f19e100] [cursor=pointer]
+          - img "product image" [ref=f19e103] [cursor=pointer]
+        - generic [ref=f19e104]:
+          - button [ref=f19e105] [cursor=pointer]:
+            - img "favorite" [ref=f19e106]
+          - generic [ref=f19e109]:
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e111] [cursor=pointer]:
+              - img "product image" [ref=f19e112]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e114] [cursor=pointer]:
+              - img "product image" [ref=f19e115]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e117] [cursor=pointer]:
+              - img "product image" [ref=f19e118]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e120] [cursor=pointer]:
+              - img "product image" [ref=f19e121]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e123] [cursor=pointer]:
+              - img "product image" [ref=f19e124]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e126] [cursor=pointer]:
+              - img "product image" [ref=f19e127]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e129] [cursor=pointer]:
+              - img "product image" [ref=f19e130]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e132] [cursor=pointer]:
+              - img "product image" [ref=f19e133]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e135] [cursor=pointer]:
+              - img "product image" [ref=f19e136]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e138] [cursor=pointer]:
+              - img "product image" [ref=f19e139]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e141] [cursor=pointer]:
+              - img "product image" [ref=f19e142]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e144] [cursor=pointer]:
+              - img "product image" [ref=f19e145]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e147] [cursor=pointer]:
+              - img "product image" [ref=f19e148]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e150] [cursor=pointer]:
+              - img "product image" [ref=f19e151]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e153] [cursor=pointer]:
+              - img "product image" [ref=f19e154]
+            - button "open zoom dialog for LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN image" [ref=f19e156] [cursor=pointer]:
+              - img "product image" [ref=f19e157]
+      - generic [ref=f19e160]:
+        - generic [ref=f19e162]:
+          - generic [ref=f19e163]:
+            - generic [ref=f19e164]:
+              - paragraph [ref=f19e165]: LG
+              - heading "LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN" [level=1] [ref=f19e166]
+            - paragraph [ref=f19e168]:
+              - generic [ref=f19e169]:
+                - generic [ref=f19e170]: EGP
+                - generic [ref=f19e171]: 31,300
+          - button [ref=f19e181] [cursor=pointer]:
+            - img "plus" [ref=f19e182]
+            - text: Add to cart
+          - generic [ref=f19e183]:
+            - generic [ref=f19e184]:
+              - paragraph [ref=f19e185]: Color
+              - button [ref=f19e188] [cursor=pointer]
+            - generic [ref=f19e190]:
+              - paragraph [ref=f19e191]: Variant Size Type
+              - button "Bulky" [ref=f19e194]
+            - generic [ref=f19e195]:
+              - paragraph [ref=f19e196]: Capacity
+              - button "401 Liter" [ref=f19e199]
+          - generic [ref=f19e200]:
+            - paragraph [ref=f19e201]: Warranty
+            - paragraph [ref=f19e202]: 10 years warranty
+          - generic [ref=f19e203]:
+            - paragraph [ref=f19e204]: Product dimensions
+            - paragraph [ref=f19e205]: 720 x 1730 x 700 mm
+          - paragraph [ref=f19e207]:
+            - generic [ref=f19e208]: Sold by
+            - img "BTECH Logo" [ref=f19e209]
+        - button "Other sellers for this product Compare the best offers from other sellers 31,300 EGP" [ref=f19e210] [cursor=pointer]:
+          - generic [ref=f19e216]:
+            - paragraph [ref=f19e217]: Other sellers for this product
+            - paragraph [ref=f19e218]:
+              - text: Compare the best offers from other sellers
+              - generic [ref=f19e219]: 31,300 EGP
+        - list [ref=f19e225]:
+          - listitem [ref=f19e226]:
+            - button [ref=f19e227] [cursor=pointer]:
+              - link [ref=f19e229]:
+                - /url: /en/faqs
+                - paragraph [ref=f19e230]:
+                  - img "return" [ref=f19e231]
+                  - text: Return & Exchange FAQs
+                - paragraph [ref=f19e233]: Up to 30 days return for free
+              - img "arrow" [ref=f19e234]
+      - generic [ref=f19e236]:
+        - generic [ref=f19e238]:
+          - heading [level=3] [ref=f19e239]:
+            - button "Product overview" [expanded] [ref=f19e240] [cursor=pointer]
+          - region "Product overview":
+            - generic [ref=f19e241]: "Brand: LG Refrigerator Type: Top Freezer Refrigerator Frost Type: No-frost Dimensions: 720x1730x700mm Model Number: GTF402SBAN"
+        - generic [ref=f19e244]:
+          - heading [level=3] [ref=f19e245]:
+            - button "Specifications" [expanded] [ref=f19e246] [cursor=pointer]
+          - region "Specifications":
+            - table [ref=f19e250]:
+              - rowgroup [ref=f19e251]:
+                - row [ref=f19e252]:
+                  - cell "Warranty" [ref=f19e253]
+                  - cell "10 Year" [ref=f19e254]
+                - row [ref=f19e255]:
+                  - cell "Product Type" [ref=f19e256]
+                  - cell "Top Freezer Refrigerator" [ref=f19e257]
+                - row [ref=f19e258]:
+                  - cell "Inverter Motor" [ref=f19e259]
+                  - cell "No" [ref=f19e260]
+                - row [ref=f19e261]:
+                  - cell "Frost System Type" [ref=f19e262]
+                  - cell "NoFrost" [ref=f19e263]
+                - row [ref=f19e264]:
+                  - cell "Energy Efficiency Class" [ref=f19e265]
+                  - cell "A+" [ref=f19e266]
+                - row [ref=f19e267]:
+                  - cell "Material" [ref=f19e268]
+                  - cell "Metal" [ref=f19e269]
+                - row [ref=f19e270]:
+                  - cell "Number Of Shelves" [ref=f19e271]
+                  - cell "3" [ref=f19e272]
+    - generic [ref=f19e274]:
+      - generic [ref=f19e275]:
+        - generic [ref=f19e276]:
+          - img "phone Icon" [ref=f19e278]
+          - generic [ref=f19e279]:
+            - paragraph [ref=f19e280]: Call us
+            - paragraph [ref=f19e281]:
+              - link "19966" [ref=f19e282] [cursor=pointer]:
+                - /url: tel:19966
+        - generic [ref=f19e283]:
+          - generic [ref=f19e284]:
+            - heading "Trending right now" [level=3] [ref=f19e285]
+            - generic [ref=f19e286]:
+              - link "Electronics" [ref=f19e287] [cursor=pointer]:
+                - /url: /en/c/electronics
+              - link "Large Home Appliances" [ref=f19e288] [cursor=pointer]:
+                - /url: /en/c/large-home-appliances
+              - link "Mobiles, Tablets & Accessories" [ref=f19e289] [cursor=pointer]:
+                - /url: /en/c/mobiles-tablets
+              - link "Small Home Appliances" [ref=f19e290] [cursor=pointer]:
+                - /url: /en/c/small-home-appliances
+              - link "Laptops, PCs & accessories" [ref=f19e291] [cursor=pointer]:
+                - /url: /en/c/laptop-pc
+              - link "TVs" [ref=f19e292] [cursor=pointer]:
+                - /url: /en/c/tvs-projectors
+          - generic [ref=f19e293]:
+            - heading "B.TECH blog" [level=3] [ref=f19e294]
+            - paragraph [ref=f19e295]:
+              - text: Your ultimate guide to smarter buying decision
+              - link [ref=f19e296] [cursor=pointer]:
+                - /url: https://blog.btech.com/
+                - text: Discover our blog
+                - img "B.TECH blog" [ref=f19e297]
+        - generic [ref=f19e298]:
+          - generic [ref=f19e299]:
+            - heading "Follow us" [level=3] [ref=f19e300]
+            - generic [ref=f19e301]:
+              - link [ref=f19e302] [cursor=pointer]:
+                - /url: https://www.facebook.com/mybtech/
+                - img "Facebook Icon" [ref=f19e303]
+              - link [ref=f19e304] [cursor=pointer]:
+                - /url: https://www.instagram.com/mybtech/
+                - img "Instagram Icon" [ref=f19e305]
+              - link [ref=f19e306] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCb38BG_mMf7BUumTVc10gAw/videos
+                - img "YouTube Icon" [ref=f19e307]
+          - generic [ref=f19e308]:
+            - heading "Download B.TECH App" [level=3] [ref=f19e309]
+            - generic [ref=f19e310]:
+              - link [ref=f19e311] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.btechapp
+                - img "playStore Icon" [ref=f19e312]
+              - link [ref=f19e313] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/b-tech/id1258773067
+                - img "appStore Icon" [ref=f19e314]
+              - link [ref=f19e315] [cursor=pointer]:
+                - /url: https://appgallery.huawei.com/#/app/C101532561
+                - img "appGallery Icon" [ref=f19e316]
+      - generic [ref=f19e317]:
+        - paragraph [ref=f19e318]: © B.TECH, all rights reserved.
+        - link "Terms & Conditions" [ref=f19e319] [cursor=pointer]:
+          - /url: /en/terms-and-conditions

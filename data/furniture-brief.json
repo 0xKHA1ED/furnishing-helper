@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "lastUpdated": "2026-07-17",
+  "status": "budgets_updated_konter_ok",
+  "galleryPage": "furniture-gallery.html",
+  "catalogPath": "data/appliances/furniture_wood_catalog.json",
+  "request": {
+    "lSofaMaxEGP": 30000,
+    "bedroomMaxEGP": 80000,
+    "noMdf": true,
+    "konterOk": true,
+    "solidBeechPreferredWhenPossible": true,
+    "quality": "decades_minded_damietta",
+    "style": "minimalistic_warm_nest",
+    "availability": "same_day_pickup_stock_only"
+  },
+  "verdict": {
+    "sofa": "30k is a realistic band for floor-stock L with hardwood frame (inspect). Prefer 22–30k over mystery 12k deals.",
+    "bedroom": "Primary: full modern كونتر set 50–75k. Upgrade: solid beech or beech-heavy ≤80k if same-day stock. MDF still banned."
+  },
+  "aestheticSources": ["notes/style-direction.md", "data/carpet-brief.json deeper tones"]
+}

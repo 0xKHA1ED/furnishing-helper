@@ -1,0 +1,656 @@
+- generic [active] [ref=f30e1]:
+  - region "Notifications alt+T"
+  - main [ref=f30e2]:
+    - navigation [ref=f30e4]:
+      - generic [ref=f30e5]:
+        - generic [ref=f30e6]:
+          - link [ref=f30e7] [cursor=pointer]:
+            - /url: /en
+            - img "btech logo" [ref=f30e8]
+          - button [ref=f30e10] [cursor=pointer]:
+            - img "delivery address" [ref=f30e11]
+            - paragraph [ref=f30e13]: "Delivering to:"
+        - generic [ref=f30e16]:
+          - img "search" [ref=f30e18]
+          - textbox "What are you looking for?" [ref=f30e19]
+        - generic [ref=f30e20]:
+          - link [ref=f30e21] [cursor=pointer]:
+            - /url: /ar/c/tvs-projectors/televisions
+            - img "change language" [ref=f30e22]
+            - paragraph [ref=f30e23]: عربي
+          - button [ref=f30e24] [cursor=pointer]:
+            - img "wishlist" [ref=f30e25]
+            - paragraph [ref=f30e26]: Wishlist
+          - link [ref=f30e27] [cursor=pointer]:
+            - /url: /en/account
+            - img "my account" [ref=f30e28]
+            - paragraph [ref=f30e29]: Account
+          - link [ref=f30e30] [cursor=pointer]:
+            - /url: /en/cart
+            - img "cart" [ref=f30e32]
+            - paragraph [ref=f30e33]: Cart
+      - generic [ref=f30e34]:
+        - button "menu All categories" [ref=f30e35] [cursor=pointer]:
+          - img "menu" [ref=f30e36]
+          - generic [ref=f30e37]: All categories
+        - generic [ref=f30e38]:
+          - link "Electronics" [ref=f30e39] [cursor=pointer]:
+            - /url: /en/c/electronics
+          - link "Large Home Appliances" [ref=f30e40] [cursor=pointer]:
+            - /url: /en/c/large-home-appliances
+          - link "Mobiles, Tablets & Accessories" [ref=f30e41] [cursor=pointer]:
+            - /url: /en/c/mobiles-tablets
+          - link "Small Home Appliances" [ref=f30e42] [cursor=pointer]:
+            - /url: /en/c/small-home-appliances
+          - link "Laptops, PCs & accessories" [ref=f30e43] [cursor=pointer]:
+            - /url: /en/c/laptop-pc
+          - link "TVs" [ref=f30e44] [cursor=pointer]:
+            - /url: /en/c/tvs-projectors
+    - generic [ref=f30e49]:
+      - navigation "breadcrumb" [ref=f30e50]:
+        - list [ref=f30e51]:
+          - listitem [ref=f30e53]:
+            - link "Home" [ref=f30e54] [cursor=pointer]:
+              - /url: ""
+          - generic [ref=f30e55]:
+            - listitem [ref=f30e56]
+            - listitem [ref=f30e59]:
+              - link "TVs, Projectors & Accessories" [ref=f30e60] [cursor=pointer]:
+                - /url: c/tvs-projectors
+          - generic [ref=f30e61]:
+            - listitem [ref=f30e62]
+            - listitem [ref=f30e65]:
+              - generic [ref=f30e66]: Televisions
+      - heading "Televisions" [level=1] [ref=f30e67]
+      - generic [ref=f30e70]:
+        - button "All" [pressed] [ref=f30e71] [cursor=pointer]
+        - link "Smart TVs" [ref=f30e72] [cursor=pointer]:
+          - /url: /en/c/tvs-projectors/televisions/smart-tvs
+        - link "Standard TVs" [ref=f30e73] [cursor=pointer]:
+          - /url: /en/c/tvs-projectors/televisions/standard-tvs
+      - generic [ref=f30e75]:
+        - generic [ref=f30e78]:
+          - generic [ref=f30e79]:
+            - heading "All filters" [level=2] [ref=f30e80]
+            - button "Clear all" [ref=f30e81] [cursor=pointer]
+          - generic [ref=f30e83]:
+            - generic [ref=f30e84]:
+              - button "Brand" [expanded] [ref=f30e86] [cursor=pointer]
+              - generic [ref=f30e93]:
+                - textbox "Search all brands" [ref=f30e100]
+                - generic [ref=f30e101]:
+                  - generic [ref=f30e102]:
+                    - checkbox "Armadillo (3)" [ref=f30e103] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e104] [cursor=pointer]: Armadillo (3)
+                  - generic [ref=f30e105]:
+                    - checkbox "ATA (13)" [ref=f30e106] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e107] [cursor=pointer]: ATA (13)
+                  - generic [ref=f30e108]:
+                    - checkbox "Beko (1)" [ref=f30e109] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e110] [cursor=pointer]: Beko (1)
+                  - generic [ref=f30e111]:
+                    - checkbox "Castle (5)" [ref=f30e112] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e113] [cursor=pointer]: Castle (5)
+                  - generic [ref=f30e114]:
+                    - checkbox "Elc (1)" [ref=f30e115] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e116] [cursor=pointer]: Elc (1)
+                  - generic [ref=f30e117]:
+                    - checkbox "Evolve (5)" [ref=f30e118] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e119] [cursor=pointer]: Evolve (5)
+                  - generic [ref=f30e120]:
+                    - checkbox "Fresh (19)" [ref=f30e121] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e122] [cursor=pointer]: Fresh (19)
+                  - generic [ref=f30e123]:
+                    - checkbox "Grouhy (7)" [ref=f30e124] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e125] [cursor=pointer]: Grouhy (7)
+                  - generic [ref=f30e126]:
+                    - checkbox "Haier (19)" [ref=f30e127] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e128] [cursor=pointer]: Haier (19)
+                  - generic [ref=f30e129]:
+                    - checkbox "Hisense (16)" [ref=f30e130] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e131] [cursor=pointer]: Hisense (16)
+                  - generic [ref=f30e132]:
+                    - checkbox "Hoho (4)" [ref=f30e133] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e134] [cursor=pointer]: Hoho (4)
+                  - generic [ref=f30e135]:
+                    - checkbox "Hyundai (2)" [ref=f30e136] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e137] [cursor=pointer]: Hyundai (2)
+                  - generic [ref=f30e138]:
+                    - checkbox "Jac (9)" [ref=f30e139] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e140] [cursor=pointer]: Jac (9)
+                  - generic [ref=f30e141]:
+                    - checkbox "Kajito (2)" [ref=f30e142] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e143] [cursor=pointer]: Kajito (2)
+                  - generic [ref=f30e144]:
+                    - checkbox "Levon (2)" [ref=f30e145] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e146] [cursor=pointer]: Levon (2)
+                  - generic [ref=f30e147]:
+                    - checkbox "LG (40)" [ref=f30e148] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e149] [cursor=pointer]: LG (40)
+                  - generic [ref=f30e150]:
+                    - checkbox "Mirage (1)" [ref=f30e151] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e152] [cursor=pointer]: Mirage (1)
+                  - generic [ref=f30e153]:
+                    - checkbox "Panasonic (2)" [ref=f30e154] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e155] [cursor=pointer]: Panasonic (2)
+                  - generic [ref=f30e156]:
+                    - checkbox "Prifix (1)" [ref=f30e157] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e158] [cursor=pointer]: Prifix (1)
+                  - generic [ref=f30e159]:
+                    - checkbox "Promo (1)" [ref=f30e160] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e161] [cursor=pointer]: Promo (1)
+                  - generic [ref=f30e162]:
+                    - checkbox "Rowa (1)" [ref=f30e163] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e164] [cursor=pointer]: Rowa (1)
+                  - generic [ref=f30e165]:
+                    - checkbox "Samsung (43)" [ref=f30e166] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e167] [cursor=pointer]: Samsung (43)
+                  - generic [ref=f30e168]:
+                    - checkbox "Sary (5)" [ref=f30e169] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e170] [cursor=pointer]: Sary (5)
+                  - generic [ref=f30e171]:
+                    - checkbox "Sharp (9)" [ref=f30e172] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e173] [cursor=pointer]: Sharp (9)
+                  - generic [ref=f30e174]:
+                    - checkbox "Skyline (2)" [ref=f30e175] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e176] [cursor=pointer]: Skyline (2)
+                  - generic [ref=f30e177]:
+                    - checkbox "Sony (1)" [ref=f30e178] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e179] [cursor=pointer]: Sony (1)
+                  - generic [ref=f30e180]:
+                    - checkbox "Syinix (4)" [ref=f30e181] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e182] [cursor=pointer]: Syinix (4)
+                  - generic [ref=f30e183]:
+                    - checkbox "Tcl (9)" [ref=f30e184] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e185] [cursor=pointer]: Tcl (9)
+                  - generic [ref=f30e186]:
+                    - checkbox "Thomson (2)" [ref=f30e187] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e188] [cursor=pointer]: Thomson (2)
+                  - generic [ref=f30e189]:
+                    - checkbox "Tornado (14)" [ref=f30e190] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e191] [cursor=pointer]: Tornado (14)
+                  - generic [ref=f30e192]:
+                    - checkbox "Toshiba (11)" [ref=f30e193] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e194] [cursor=pointer]: Toshiba (11)
+                  - generic [ref=f30e195]:
+                    - checkbox "Tradinggoo (2)" [ref=f30e196] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e197] [cursor=pointer]: Tradinggoo (2)
+                  - generic [ref=f30e198]:
+                    - checkbox "Ultra (17)" [ref=f30e199] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e200] [cursor=pointer]: Ultra (17)
+                  - generic [ref=f30e201]:
+                    - checkbox "Xiaomi (4)" [ref=f30e202] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e203] [cursor=pointer]: Xiaomi (4)
+            - generic [ref=f30e205]:
+              - button "Price" [ref=f30e207] [cursor=pointer]
+              - generic [ref=f30e214]:
+                - generic [ref=f30e219]:
+                  - generic [ref=f30e220]:
+                    - generic [ref=f30e221]: Min.
+                    - textbox "Min." [ref=f30e223]: "4299"
+                  - generic [ref=f30e224]:
+                    - generic [ref=f30e225]: Max.
+                    - textbox "Max." [ref=f30e227]: "183999"
+                - button "Apply price" [disabled] [ref=f30e228]
+            - generic [ref=f30e231]:
+              - generic [ref=f30e232]:
+                - generic [ref=f30e233]: Sold by
+                - img "B.Tech" [ref=f30e234]
+              - switch [ref=f30e235] [cursor=pointer]
+              - checkbox
+            - generic [ref=f30e238]:
+              - generic [ref=f30e239]: Fulfilled By B.Tech
+              - switch [ref=f30e241] [cursor=pointer]
+              - checkbox
+            - generic [ref=f30e243]:
+              - button "Screen Size" [ref=f30e245] [cursor=pointer]
+              - generic [ref=f30e252]:
+                - textbox "Search all brands" [ref=f30e259]
+                - generic [ref=f30e260]:
+                  - generic [ref=f30e261]:
+                    - checkbox "32.0000 Inch (50)" [ref=f30e262] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e263] [cursor=pointer]: 32.0000 Inch (50)
+                  - generic [ref=f30e264]:
+                    - checkbox "40.0000 Inch (4)" [ref=f30e265] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e266] [cursor=pointer]: 40.0000 Inch (4)
+                  - generic [ref=f30e267]:
+                    - checkbox "42.0000 Inch (1)" [ref=f30e268] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e269] [cursor=pointer]: 42.0000 Inch (1)
+                  - generic [ref=f30e270]:
+                    - checkbox "43.0000 Inch (56)" [ref=f30e271] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e272] [cursor=pointer]: 43.0000 Inch (56)
+                  - generic [ref=f30e273]:
+                    - checkbox "50.0000 Inch (42)" [ref=f30e274] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e275] [cursor=pointer]: 50.0000 Inch (42)
+                  - generic [ref=f30e276]:
+                    - checkbox "55.0000 Inch (56)" [ref=f30e277] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e278] [cursor=pointer]: 55.0000 Inch (56)
+                  - generic [ref=f30e279]:
+                    - checkbox "58.0000 Inch (5)" [ref=f30e280] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e281] [cursor=pointer]: 58.0000 Inch (5)
+                  - generic [ref=f30e282]:
+                    - checkbox "60.0000 Inch (3)" [ref=f30e283] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e284] [cursor=pointer]: 60.0000 Inch (3)
+                  - generic [ref=f30e285]:
+                    - checkbox "65.0000 Inch (35)" [ref=f30e286] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e287] [cursor=pointer]: 65.0000 Inch (35)
+                  - generic [ref=f30e288]:
+                    - checkbox "70.0000 Inch (1)" [ref=f30e289] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e290] [cursor=pointer]: 70.0000 Inch (1)
+                  - generic [ref=f30e291]:
+                    - checkbox "75.0000 Inch (16)" [ref=f30e292] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e293] [cursor=pointer]: 75.0000 Inch (16)
+                  - generic [ref=f30e294]:
+                    - checkbox "77.0000 Inch (2)" [ref=f30e295] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e296] [cursor=pointer]: 77.0000 Inch (2)
+                  - generic [ref=f30e297]:
+                    - checkbox "83.0000 Inch (1)" [ref=f30e298] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e299] [cursor=pointer]: 83.0000 Inch (1)
+                  - generic [ref=f30e300]:
+                    - checkbox "85.0000 Inch (4)" [ref=f30e301] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e302] [cursor=pointer]: 85.0000 Inch (4)
+                  - generic [ref=f30e303]:
+                    - checkbox "98.0000 Inch (1)" [ref=f30e304] [cursor=pointer]
+                    - checkbox
+                    - generic [ref=f30e305] [cursor=pointer]: 98.0000 Inch (1)
+        - generic [ref=f30e306]:
+          - generic [ref=f30e307]:
+            - paragraph [ref=f30e308]: 277 results
+            - 'button "Sort by: Default" [ref=f30e309] [cursor=pointer]':
+              - generic [ref=f30e310]: Sort by
+              - generic [ref=f30e311]: Default
+          - generic [ref=f30e314]:
+            - article [ref=f30e315]:
+              - generic [ref=f30e317]:
+                - button "Add to favorites" [ref=f30e319] [cursor=pointer]
+                - img "LG 50 Inch Smart TV , Nano 4K UHD Built-In Receiver" [ref=f30e323]
+                - generic [ref=f30e326]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e327] [cursor=pointer]
+              - generic [ref=f30e330]:
+                - generic [ref=f30e331]: 19,299 LE
+                - generic [ref=f30e336]:
+                  - heading "LG" [level=4] [ref=f30e338]
+                  - link [ref=f30e339] [cursor=pointer]:
+                    - /url: /en/p/57e22857-6074-4caa-9867-a21b1f7ebbd2?offering_id=866ea1d8-b470-479b-b663-3427a6991b7b
+                    - heading "LG 50 Inch Smart TV , Nano 4K UHD Built-In Receiver" [level=3] [ref=f30e340]
+            - article [ref=f30e341]:
+              - generic [ref=f30e343]:
+                - button "Add to favorites" [ref=f30e345] [cursor=pointer]
+                - img "LG 43 Inch Smart TV , FHD LED Built-In Receiver - LM6370PVA" [ref=f30e349]
+                - generic [ref=f30e352]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e353] [cursor=pointer]
+              - generic [ref=f30e356]:
+                - generic [ref=f30e357]: 14,599 LE
+                - generic [ref=f30e362]:
+                  - heading "LG" [level=4] [ref=f30e364]
+                  - link [ref=f30e365] [cursor=pointer]:
+                    - /url: /en/p/lg-43-fhd-smart-led-tv-43lm6370pva?offering_id=aa1beb29-67f1-4041-801e-2c1ceb81bdfa
+                    - heading "LG 43 Inch Smart TV , FHD LED Built-In Receiver - LM6370PVA" [level=3] [ref=f30e366]
+            - article [ref=f30e367]:
+              - generic [ref=f30e369]:
+                - button "Add to favorites" [ref=f30e371] [cursor=pointer]
+                - img "Samsung 43 Inch Smart TV , FHD LED Built-In Receiver - 43F6000F" [ref=f30e375]
+                - generic [ref=f30e378]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e379] [cursor=pointer]
+              - generic [ref=f30e382]:
+                - generic [ref=f30e383]: 16,599 LE
+                - generic [ref=f30e388]:
+                  - heading "Samsung" [level=4] [ref=f30e390]
+                  - link [ref=f30e391] [cursor=pointer]:
+                    - /url: /en/p/samsung-tv-43-inch-fhd-smart-led-receiver-43f6000f?offering_id=fd823428-8275-4a41-b303-416b5c0e43d0
+                    - heading "Samsung 43 Inch Smart TV , FHD LED Built-In Receiver - 43F6000F" [level=3] [ref=f30e392]
+            - article [ref=f30e393]:
+              - generic [ref=f30e395]:
+                - generic [ref=f30e396]:
+                  - generic [ref=f30e397]: "-2600 LE"
+                  - button "Add to favorites" [ref=f30e398] [cursor=pointer]
+                - img "Samsung 65 Inch Smart TV , 4K UHD LED Built-In Receiver" [ref=f30e402]
+                - generic [ref=f30e405]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e406] [cursor=pointer]
+              - generic [ref=f30e409]:
+                - generic [ref=f30e411]:
+                  - generic [ref=f30e412]: 25,999 LE
+                  - generic [ref=f30e413]: 28,599
+                - generic [ref=f30e416]:
+                  - heading "Samsung" [level=4] [ref=f30e418]
+                  - link [ref=f30e419] [cursor=pointer]:
+                    - /url: /en/p/samsung-tv-65-inch-4k-uhd-smart-led-receiver-65u8000f?offering_id=ce29c754-fe4f-47a1-8636-95957a3aa585
+                    - heading "Samsung 65 Inch Smart TV , 4K UHD LED Built-In Receiver" [level=3] [ref=f30e420]
+            - article [ref=f30e421]:
+              - generic [ref=f30e423]:
+                - button "Add to favorites" [ref=f30e425] [cursor=pointer]
+                - img "LG 65 Inch Smart TV , 4K UHD NanoCell Built-In Receiver - 65NU840B6LA" [ref=f30e429]
+                - generic [ref=f30e432]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e433] [cursor=pointer]
+              - generic [ref=f30e436]:
+                - generic [ref=f30e437]: 25,499 LE
+                - generic [ref=f30e442]:
+                  - heading "LG" [level=4] [ref=f30e444]
+                  - link [ref=f30e445] [cursor=pointer]:
+                    - /url: /en/p/f0fc84eb-4207-4a3e-990b-b1aa8913e2ae?offering_id=f935da47-1f9f-4863-817a-376624ac8213
+                    - heading "LG 65 Inch Smart TV , 4K UHD NanoCell Built-In Receiver - 65NU840B6LA" [level=3] [ref=f30e446]
+            - article [ref=f30e447]:
+              - generic [ref=f30e449]:
+                - button "Add to favorites" [ref=f30e451] [cursor=pointer]
+                - img "Samsung 55 Inch Smart TV , 4K UHD LED Built-In Receiver" [ref=f30e455]
+                - generic [ref=f30e458]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e459] [cursor=pointer]
+              - generic [ref=f30e462]:
+                - generic [ref=f30e463]: 23,499 LE
+                - generic [ref=f30e468]:
+                  - heading "Samsung" [level=4] [ref=f30e470]
+                  - link [ref=f30e471] [cursor=pointer]:
+                    - /url: /en/p/samsung-55-inch-4k-uhd-smart-led-tv-55u8000?offering_id=90bfde2d-1207-4e17-86d1-0e54aa272574
+                    - heading "Samsung 55 Inch Smart TV , 4K UHD LED Built-In Receiver" [level=3] [ref=f30e472]
+            - article [ref=f30e473]:
+              - generic [ref=f30e475]:
+                - button "Add to favorites" [ref=f30e477] [cursor=pointer]
+                - img "Samsung 32 Inch Smart TV , HD LED Built-In Receiver - 32H5000F" [ref=f30e481]
+                - generic [ref=f30e484]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e485] [cursor=pointer]
+              - generic [ref=f30e488]:
+                - generic [ref=f30e489]: 8,499 LE
+                - generic [ref=f30e494]:
+                  - heading "Samsung" [level=4] [ref=f30e496]
+                  - link [ref=f30e497] [cursor=pointer]:
+                    - /url: /en/p/samsung-tv-32-inch-hd-smart-led-receiver-32h5000f?offering_id=f01ff6a6-f07e-4394-9120-32d1cfd69c97
+                    - heading "Samsung 32 Inch Smart TV , HD LED Built-In Receiver - 32H5000F" [level=3] [ref=f30e498]
+            - article [ref=f30e499]:
+              - generic [ref=f30e501]:
+                - button "Add to favorites" [ref=f30e503] [cursor=pointer]
+                - img "Samsung 50 Inch Smart TV , 4K LED Built-In Receiver - 50U8000H" [ref=f30e507]
+                - generic [ref=f30e510]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e511] [cursor=pointer]
+              - generic [ref=f30e514]:
+                - generic [ref=f30e515]: 18,499 LE
+                - generic [ref=f30e520]:
+                  - heading "Samsung" [level=4] [ref=f30e522]
+                  - link [ref=f30e523] [cursor=pointer]:
+                    - /url: /en/p/699aa9b7-4142-42e7-859a-37a12e1f0388?offering_id=8c17bcf2-0237-4909-bcb5-32009a051e3f
+                    - heading "Samsung 50 Inch Smart TV , 4K LED Built-In Receiver - 50U8000H" [level=3] [ref=f30e524]
+            - article [ref=f30e525]:
+              - generic [ref=f30e527]:
+                - button "Add to favorites" [ref=f30e529] [cursor=pointer]
+                - img "Samsung 75 Inch Smart TV , 4K UHD QLED Built-In Receiver - 75Q6FA" [ref=f30e533]
+                - generic [ref=f30e536]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e537] [cursor=pointer]
+              - generic [ref=f30e540]:
+                - generic [ref=f30e541]: 40,899 LE
+                - generic [ref=f30e546]:
+                  - heading "Samsung" [level=4] [ref=f30e548]
+                  - link [ref=f30e549] [cursor=pointer]:
+                    - /url: /en/p/c9c59e15-57f8-4bd6-9982-c7844b08b6e7?offering_id=291a0d5d-c07e-4372-a041-2d579293398a
+                    - heading "Samsung 75 Inch Smart TV , 4K UHD QLED Built-In Receiver - 75Q6FA" [level=3] [ref=f30e550]
+            - article [ref=f30e551]:
+              - generic [ref=f30e553]:
+                - button "Add to favorites" [ref=f30e555] [cursor=pointer]
+                - img "Skyline 32 Inch TV , HD LED - 3222A" [ref=f30e559]
+                - generic [ref=f30e562]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e563] [cursor=pointer]
+              - generic [ref=f30e566]:
+                - generic [ref=f30e567]: 4,299 LE
+                - generic [ref=f30e572]:
+                  - heading "Skyline" [level=4] [ref=f30e574]
+                  - link [ref=f30e575] [cursor=pointer]:
+                    - /url: /en/p/06b30035-3d58-4d29-99fc-0f08ed2c3dcc?offering_id=4e0e2f2d-4246-48cf-8775-d36ba2c91345
+                    - heading "Skyline 32 Inch TV , HD LED - 3222A" [level=3] [ref=f30e576]
+            - article [ref=f30e577]:
+              - generic [ref=f30e579]:
+                - button "Add to favorites" [ref=f30e581] [cursor=pointer]
+                - img "Samsung 58 Inch Smart TV , 4K UHD LED Built-In Receiver" [ref=f30e585]
+                - generic [ref=f30e588]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e589] [cursor=pointer]
+              - generic [ref=f30e592]:
+                - generic [ref=f30e593]: 24,499 LE
+                - generic [ref=f30e598]:
+                  - heading "Samsung" [level=4] [ref=f30e600]
+                  - link [ref=f30e601] [cursor=pointer]:
+                    - /url: /en/p/samsung-tv-58-inch-4k-uhd-smart-led-58u8000f?offering_id=5a2ab1e7-0ea4-4dd6-bfdf-fccac1be0149
+                    - heading "Samsung 58 Inch Smart TV , 4K UHD LED Built-In Receiver" [level=3] [ref=f30e602]
+            - article [ref=f30e603]:
+              - generic [ref=f30e605]:
+                - button "Add to favorites" [ref=f30e607] [cursor=pointer]
+                - img "LG 55 Inch Smart TV , Nano 4K UHD Built-In Receiver" [ref=f30e611]
+                - generic [ref=f30e614]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e615] [cursor=pointer]
+              - generic [ref=f30e618]:
+                - generic [ref=f30e619]: 21,449 LE
+                - generic [ref=f30e624]:
+                  - heading "LG" [level=4] [ref=f30e626]
+                  - link [ref=f30e627] [cursor=pointer]:
+                    - /url: /en/p/d5833ba1-a991-41cc-a50b-bd6c497de8da?offering_id=1c9699bf-01f4-4a34-bbc2-ab8616fbdda0
+                    - heading "LG 55 Inch Smart TV , Nano 4K UHD Built-In Receiver" [level=3] [ref=f30e628]
+            - article [ref=f30e629]:
+              - generic [ref=f30e631]:
+                - button "Add to favorites" [ref=f30e633] [cursor=pointer]
+                - img "Samsung 43 Inch Smart TV , 4K UHD LED Built-In Receiver" [ref=f30e637]
+                - generic [ref=f30e640]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e641] [cursor=pointer]
+              - generic [ref=f30e644]:
+                - generic [ref=f30e645]: 15,999 LE
+                - generic [ref=f30e650]:
+                  - heading "Samsung" [level=4] [ref=f30e652]
+                  - link [ref=f30e653] [cursor=pointer]:
+                    - /url: /en/p/be1bb017-d4c8-4df5-a4a4-e3c539745b8c?offering_id=dee78c36-87bc-4888-aa36-771d01e3bca9
+                    - heading "Samsung 43 Inch Smart TV , 4K UHD LED Built-In Receiver" [level=3] [ref=f30e654]
+            - article [ref=f30e655]:
+              - generic [ref=f30e657]:
+                - button "Add to favorites" [ref=f30e659] [cursor=pointer]
+                - img "Samsung 65 Inch Smart TV , 4K UHD QLED Built-In Receiver - 65Q6FA" [ref=f30e663]
+                - generic [ref=f30e666]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e667] [cursor=pointer]
+              - generic [ref=f30e670]:
+                - generic [ref=f30e671]: 31,999 LE
+                - generic [ref=f30e676]:
+                  - heading "Samsung" [level=4] [ref=f30e678]
+                  - link [ref=f30e679] [cursor=pointer]:
+                    - /url: /en/p/27da3269-ac6d-4f05-8987-a8e022901015?offering_id=3b74d7bc-2a5d-4a4c-b553-3691266bc855
+                    - heading "Samsung 65 Inch Smart TV , 4K UHD QLED Built-In Receiver - 65Q6FA" [level=3] [ref=f30e680]
+            - article [ref=f30e681]:
+              - generic [ref=f30e683]:
+                - button "Add to favorites" [ref=f30e685] [cursor=pointer]
+                - img "Xiaomi 32 Inch Smart TV , HD LED Built-In Receiver - L32M8P2EG" [ref=f30e689]
+                - generic [ref=f30e692]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e693] [cursor=pointer]
+              - generic [ref=f30e696]:
+                - generic [ref=f30e697]: 8,199 LE
+                - generic [ref=f30e702]:
+                  - heading "Xiaomi" [level=4] [ref=f30e704]
+                  - link [ref=f30e705] [cursor=pointer]:
+                    - /url: /en/p/xiaomi-32-inch-hd-smart-led-tv-with-built-in-receiver-l32m8p2eg?offering_id=68c4af6d-3913-41c5-814c-4dfd27cf94c3
+                    - heading "Xiaomi 32 Inch Smart TV , HD LED Built-In Receiver - L32M8P2EG" [level=3] [ref=f30e706]
+            - article [ref=f30e707]:
+              - generic [ref=f30e709]:
+                - button "Add to favorites" [ref=f30e711] [cursor=pointer]
+                - img "Hisense 58 Inch Smart TV , 4K UHD D LED - 58A6N" [ref=f30e715]
+                - generic [ref=f30e718]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e719] [cursor=pointer]
+              - generic [ref=f30e722]:
+                - generic [ref=f30e723]: 18,999 LE
+                - generic [ref=f30e728]:
+                  - heading "Hisense" [level=4] [ref=f30e730]
+                  - link [ref=f30e731] [cursor=pointer]:
+                    - /url: /en/p/ad5761dd-0a3b-4c96-a6e5-bc43e1e6f181?offering_id=743d47af-e33e-4dce-a508-04eef6fa6d27
+                    - heading "Hisense 58 Inch Smart TV , 4K UHD D LED - 58A6N" [level=3] [ref=f30e732]
+            - article [ref=f30e733]:
+              - generic [ref=f30e735]:
+                - button "Add to favorites" [ref=f30e737] [cursor=pointer]
+                - img "Samsung 75 Inch Smart TV , 4K UHD LED Built-In Receiver" [ref=f30e741]
+                - generic [ref=f30e744]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e745] [cursor=pointer]
+              - generic [ref=f30e748]:
+                - generic [ref=f30e749]: 40,811 LE
+                - generic [ref=f30e754]:
+                  - heading "Samsung" [level=4] [ref=f30e756]
+                  - link [ref=f30e757] [cursor=pointer]:
+                    - /url: /en/p/1f4b0de0-4aff-4734-b684-2a20971f878b?offering_id=d7d6b870-b63f-4e07-b1f4-415b108df7eb
+                    - heading "Samsung 75 Inch Smart TV , 4K UHD LED Built-In Receiver" [level=3] [ref=f30e758]
+            - article [ref=f30e759]:
+              - generic [ref=f30e761]:
+                - button "Add to favorites" [ref=f30e763] [cursor=pointer]
+                - img "Samsung 50 Inch Smart TV , 4K UHD LED Built-In Receiver" [ref=f30e767]
+                - generic [ref=f30e770]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e771] [cursor=pointer]
+              - generic [ref=f30e774]:
+                - generic [ref=f30e775]: 19,499 LE
+                - generic [ref=f30e780]:
+                  - heading "Samsung" [level=4] [ref=f30e782]
+                  - link [ref=f30e783] [cursor=pointer]:
+                    - /url: /en/p/samsung-tv-50-inch-4k-uhd-smart-led-receiver-50u8000f?offering_id=797f612c-51cb-422f-a739-1cd4438a7a71
+                    - heading "Samsung 50 Inch Smart TV , 4K UHD LED Built-In Receiver" [level=3] [ref=f30e784]
+            - article [ref=f30e785]:
+              - generic [ref=f30e787]:
+                - button "Add to favorites" [ref=f30e789] [cursor=pointer]
+                - img "LG 55 Inch Smart TV , 4K UHD NanoCell Built-In Receiver - NU85CB6LA" [ref=f30e793]
+                - generic [ref=f30e796]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e797] [cursor=pointer]
+              - generic [ref=f30e800]:
+                - generic [ref=f30e801]: 25,309 LE
+                - generic [ref=f30e806]:
+                  - heading "LG" [level=4] [ref=f30e808]
+                  - link [ref=f30e809] [cursor=pointer]:
+                    - /url: /en/p/6c6bab0f-0651-4713-a234-d806c1b79bbf?offering_id=5cc47b06-82d0-4878-a971-659fb7611fa7
+                    - heading "LG 55 Inch Smart TV , 4K UHD NanoCell Built-In Receiver - NU85CB6LA" [level=3] [ref=f30e810]
+            - article [ref=f30e811]:
+              - generic [ref=f30e813]:
+                - button "Add to favorites" [ref=f30e815] [cursor=pointer]
+                - img "Hisense 43 Inch Smart TV , FHD D LED Built-In Receiver - A4K" [ref=f30e819]
+                - generic [ref=f30e822]:
+                  - generic: "0"
+                  - button "Increase quantity" [ref=f30e823] [cursor=pointer]
+              - generic [ref=f30e826]:
+                - generic [ref=f30e827]: 12,399 LE
+                - generic [ref=f30e832]:
+                  - heading "Hisense" [level=4] [ref=f30e834]
+                  - link [ref=f30e835] [cursor=pointer]:
+                    - /url: /en/p/528235ff-812c-45af-b175-9bf0248fa415?offering_id=8f08cc44-cc33-451a-b01c-78b80dd93169
+                    - heading "Hisense 43 Inch Smart TV , FHD D LED Built-In Receiver - A4K" [level=3] [ref=f30e836]
+    - generic [ref=f30e838]:
+      - generic [ref=f30e839]:
+        - generic [ref=f30e840]:
+          - img "phone Icon" [ref=f30e842]
+          - generic [ref=f30e843]:
+            - paragraph [ref=f30e844]: Call us
+            - paragraph [ref=f30e845]:
+              - link "19966" [ref=f30e846] [cursor=pointer]:
+                - /url: tel:19966
+        - generic [ref=f30e847]:
+          - generic [ref=f30e848]:
+            - heading "Trending right now" [level=3] [ref=f30e849]
+            - generic [ref=f30e850]:
+              - link "Electronics" [ref=f30e851] [cursor=pointer]:
+                - /url: /en/c/electronics
+              - link "Large Home Appliances" [ref=f30e852] [cursor=pointer]:
+                - /url: /en/c/large-home-appliances
+              - link "Mobiles, Tablets & Accessories" [ref=f30e853] [cursor=pointer]:
+                - /url: /en/c/mobiles-tablets
+              - link "Small Home Appliances" [ref=f30e854] [cursor=pointer]:
+                - /url: /en/c/small-home-appliances
+              - link "Laptops, PCs & accessories" [ref=f30e855] [cursor=pointer]:
+                - /url: /en/c/laptop-pc
+              - link "TVs" [ref=f30e856] [cursor=pointer]:
+                - /url: /en/c/tvs-projectors
+          - generic [ref=f30e857]:
+            - heading "B.TECH blog" [level=3] [ref=f30e858]
+            - paragraph [ref=f30e859]:
+              - text: Your ultimate guide to smarter buying decision
+              - link [ref=f30e860] [cursor=pointer]:
+                - /url: https://blog.btech.com/
+                - text: Discover our blog
+                - img "B.TECH blog" [ref=f30e861]
+        - generic [ref=f30e862]:
+          - generic [ref=f30e863]:
+            - heading "Follow us" [level=3] [ref=f30e864]
+            - generic [ref=f30e865]:
+              - link [ref=f30e866] [cursor=pointer]:
+                - /url: https://www.facebook.com/mybtech/
+                - img "Facebook Icon" [ref=f30e867]
+              - link [ref=f30e868] [cursor=pointer]:
+                - /url: https://www.instagram.com/mybtech/
+                - img "Instagram Icon" [ref=f30e869]
+              - link [ref=f30e870] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCb38BG_mMf7BUumTVc10gAw/videos
+                - img "YouTube Icon" [ref=f30e871]
+          - generic [ref=f30e872]:
+            - heading "Download B.TECH App" [level=3] [ref=f30e873]
+            - generic [ref=f30e874]:
+              - link [ref=f30e875] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.btechapp
+                - img "playStore Icon" [ref=f30e876]
+              - link [ref=f30e877] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/b-tech/id1258773067
+                - img "appStore Icon" [ref=f30e878]
+              - link [ref=f30e879] [cursor=pointer]:
+                - /url: https://appgallery.huawei.com/#/app/C101532561
+                - img "appGallery Icon" [ref=f30e880]
+      - generic [ref=f30e881]:
+        - paragraph [ref=f30e882]: © B.TECH, all rights reserved.
+        - link "Terms & Conditions" [ref=f30e883] [cursor=pointer]:
+          - /url: /en/terms-and-conditions

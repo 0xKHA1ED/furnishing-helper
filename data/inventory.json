@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-17",
+  "completeness": "basically_everything",
+  "note": "User confirmed this is basically the full picture of owned/gifted items so far. Wedding gifts may still appear later — add under expectedGifts if needed.",
+  "owned": [
+    {
+      "id": "cooker",
+      "name": "Cooker",
+      "category": "cooking",
+      "room": "kitchen",
+      "source": "owned_or_gifted",
+      "details": null,
+      "skipPurchase": true,
+      "followUp": "Confirm gas vs electric, freestanding vs built-in, and whether a hood/extractor is needed separately"
+    },
+    {
+      "id": "vacuum",
+      "name": "Vacuum cleaner",
+      "category": "cleaning",
+      "room": "whole_home",
+      "source": "owned_or_gifted",
+      "details": null,
+      "skipPurchase": true
+    },
+    {
+      "id": "air_fryer",
+      "name": "Air fryer",
+      "category": "small_kitchen",
+      "room": "kitchen",
+      "source": "owned_or_gifted",
+      "details": null,
+      "skipPurchase": true
+    },
+    {
+      "id": "kettle",
+      "name": "Kettle",
+      "category": "small_kitchen",
+      "room": "kitchen",
+      "source": "owned_or_gifted",
+      "details": null,
+      "skipPurchase": true
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "category": "laundry_care",
+      "room": "multi",
+      "source": "owned_or_gifted",
+      "details": null,
+      "skipPurchase": true
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "category": "small_kitchen",
+      "room": "kitchen",
+      "source": "owned_or_gifted",
+      "details": null,
+      "skipPurchase": true
+    }
+  ],
+  "notOwned": {
+    "climate_water_laundry": [
+      "AC (by choice)",
+      "water heater",
+      "fans",
+      "washing machine",
+      "dryer",
+      "water filter / cooler"
+    ],
+    "furniture_sleep": [
+      "bed / mattress",
+      "wardrobe",
+      "sofa",
+      "dining",
+      "desk / second room office"
+    ],
+    "soft_lighting": [
+      "curtains / blinds",
+      "bedding / towels",
+      "lamps / lighting upgrades",
+      "rugs / decor"
+    ],
+    "kitchen_still_needed": [
+      "fridge (researching)",
+      "possibly range hood if cooker needs it",
+      "possibly microwave if they want one later"
+    ]
+  },
+  "expectedGifts": [],
+  "doNotDoubleBuy": [
+    "cooker",
+    "vacuum",
+    "air fryer",
+    "kettle",
+    "iron",
+    "blender"
+  ]
+}

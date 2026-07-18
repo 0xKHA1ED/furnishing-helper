@@ -1,0 +1,92 @@
+[    1371ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.raneen.com/en/home-appliances/large-appliances/refrigerators:0
+[    6843ms] [LOG] booting Tactful Webchat inside  https://www.raneen.com/en/home-appliances/large-appliances/refrigerators @ https://www.raneen.com/en/home-appliances/large-appliances/refrigerators:1
+[    6846ms] [LOG] Settings coming from snippet {profileId: 966, token: c58254bc5f3b1076ed061b20d4f7216dadbc98047f7c333ee388f3056f7e259a} @ https://www.raneen.com/en/home-appliances/large-appliances/refrigerators:1
+[    6846ms] [LOG] in start, this.settings p @ https://www.raneen.com/en/home-appliances/large-appliances/refrigerators:1
+[    7044ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.raneen.com/en/home-appliances/large-appliances/x:0
+[    7104ms] [ERROR] Connecting to 'wss://wpforminfo.site/analitics?source=https%3A%2F%2Fwww.raneen.com%2Fen%2Fhome-appliances%2Flarge-appliances%2Frefrigerators' violates the following Content Security Policy directive: "connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com commerce.adobe.io *.sentry.io *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.algolia.net *.algolia.com *.algolianet.com *.insights.algolia.io insights.algolia.io https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com www.apptrian.com facebook.com www.facebook.com connect.facebook.net graph.facebook.com https://get.geojs.io *.avada.io *.criteo.com *.mastercard.com *.tiktok.com *.api2pdf.com *.infobip.com *.hotjar.com *.hotjar.io searchserverapi.com *.amplitude.com *.kustomerapp.com *.pndsn.com tracking.raneen.com static.cloudflareinsights.com https://maps.googleapis.com https://maps.gstatic.com https://www.gstatic.com 'self' 'unsafe-inline'". The action has been blocked. @ :2
+[   14894ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.raneen.com/en/home-appliances/large-appliances/refrigerators:0
+[   15172ms] [ERROR] Loading the script 'https://www.clarity.ms/tag/v0j1nk6c77?ref=gtm' violates the following Content Security Policy directive: "script-src assets.adobedtm.com *.adobe.com geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com www.googleadservices.com www.google-analytics.com googleads.g.doubleclick.net analytics.google.com www.googletagmanager.com unpkg.com/@adobe/ cdn.jsdelivr.net/npm/@adobe/ commerce.adobedtm.com js.magento-datasolutions.com *.newrelic.com *.nr-data.net amcglobal.sc.omtrdc.net *.adobe.io use.typekit.net *.commerce-payment-services.com commerce-payments-sdk.adobe.io www.paypal.com www.sandbox.paypal.com www.paypalobjects.com t.paypal.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com *.youtube.com *.magento-ds.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ *.typekit.net google.com *.google.com *.cdn-apple.com *.braintreegateway.com *.magento-datasolutions.com https://rum.hlx.page tagmanager.google.com https://www.googletagmanager.com www.google.com/recaptcha/ www.gstatic.com/recaptcha/ www.apptrian.com facebook.com www.facebook.com connect.facebook.net graph.facebook.com *.avada.io *.shopify.com *.criteo.com *.mastercard.com *.tiktok.com *.api2pdf.com *.infobip.com *.hotjar.com *.hotjar.io searchserverapi.com *.amplitude.com *.gstatic.com *.kustomerapp.com *.pndsn.com webchat.tactful.ai tracking.raneen.com static.cloudflareinsights.com *.gateway.mastercard.com https://maps.googleapis.com https://maps.gstatic.com https://www.gstatic.com 'self' 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://www.googletagmanager.com/gtm.js?id=GTM-P56VPRN:172
+[   15896ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[   16077ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.woff2 @ https://webchat.tactful.ai/webchat/chatChannel.html#/:0
+[   16077ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.woff2 @ https://webchat.tactful.ai/webchat/chatChannel.html#/:0
+[   17069ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://www.raneen.com/en/home-appliances/large-appliances/refrigerators:1
+[   17630ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.raneen.com/en/home-appliances/large-appliances/refrigerators:1
+[   37159ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=4c9949cd-b193-4e12-aceb-d8afaea4c23e&localization_code=0:0
+[   37929ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   37931ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   39293ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=fc42f687-c69e-46d2-805a-ab3fbd844667&localization_code=0:0
+[   40072ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   40074ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   44514ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=4460c84c-90b4-415e-bcea-5a117c07b2cd&localization_code=0:0
+[   45155ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   45157ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   49655ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   49656ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   49658ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   53298ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[   53300ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  111511ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  111514ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  111520ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  125785ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=497dbef1-1a4e-4da0-b804-c8eab263d0c9&localization_code=0:0
+[  126291ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  126293ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  127120ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=497dbef1-1a4e-4da0-b804-c8eab263d0c9&localization_code=0:0
+[  129140ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://retail.btech.com/blink/api/v4/carts/offering-count?offering_guid=450142af-4fbd-4108-9701-9da3da0f0e19&localization_code=0:0
+[  140355ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:98590)
+    at lu (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:149631)
+    at uf (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190321)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190166
+    at ud (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:190174)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:185314)
+    at uq (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211993)
+    at uB (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:210207)
+    at uE (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:207853)
+    at https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205279
+    at uv (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:205285)
+    at ut (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:188436)
+    at ue (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:186672)
+    at uH (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:211872)
+    at MessagePort.O (https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:20:60030)
+[  143547ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  143550ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
+[  143552ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://btech.com/_next/static/chunks/0l7bu5_9xle5..js:9
