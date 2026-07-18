@@ -1,0 +1,12 @@
+[    6497ms] RangeError: Maximum call stack size exceeded
+    at String (<anonymous>)
+    at escapeHtml (https://0xkha1ed.github.io/furnishing-helper/js/app.js:893:10)
+    at https://0xkha1ed.github.io/furnishing-helper/js/app.js:208:53
+    at Array.map (<anonymous>)
+    at https://0xkha1ed.github.io/furnishing-helper/js/app.js:204:10
+    at Array.map (<anonymous>)
+    at renderChecklist (https://0xkha1ed.github.io/furnishing-helper/js/app.js:199:6)
+    at render (https://0xkha1ed.github.io/furnishing-helper/js/app.js:907:3)
+    at setTab (https://0xkha1ed.github.io/furnishing-helper/js/app.js:185:3)
+    at render (https://0xkha1ed.github.io/furnishing-helper/js/app.js:916:3)
+[    6657ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://0xkha1ed.github.io/favicon.ico:0

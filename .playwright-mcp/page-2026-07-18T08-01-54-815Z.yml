@@ -1,0 +1,966 @@
+- generic [ref=f3e2]:
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - paragraph [ref=f3e5]:
+        - link "← Hub" [ref=f3e6] [cursor=pointer]:
+          - /url: index.html
+        - text: ·
+        - link "All appliances" [ref=f3e7] [cursor=pointer]:
+          - /url: appliances.html
+        - text: · Fridge focus
+      - heading "Fridge gallery" [level=1] [ref=f3e8]
+      - paragraph [ref=f3e9]:
+        - text: "Hard rules:"
+        - strong [ref=f3e10]: has freezer
+        - text: ","
+        - strong [ref=f3e11]: NoFrost
+        - text: ","
+        - strong [ref=f3e12]: ≤ 35,000 EGP
+        - text: ","
+        - strong [ref=f3e13]: ≥ 360 L
+        - text: ", no dispenser."
+        - strong [ref=f3e14]: All colors
+        - text: ranked; use
+        - strong [ref=f3e15]: Black only
+        - text: if aesthetics stay strict. Click any card for photos, pros/cons, and specs.
+    - generic [ref=f3e16]:
+      - generic [ref=f3e17]: 72 total · 31 black · 23 inv
+      - generic [ref=f3e18]: B.TECH · expanded
+  - generic [ref=f3e19]: "Rank = lifestyle fit: inverter + capacity + brand trust + freeze notes + slight black bonus. Re-verify prices on B.TECH before buy. Prices from B.TECH product listing/JSON-LD 2026-07-17. Photos hotlinked from retailer CDN. · Hard: maxPriceEGP=35000 · minCapacityL=360 · mustHaveFreezer=true · nofrostRequired=true · excludeDispenser=true · excludeMinibar=true · color=all colors included; use UI Black only filter"
+  - generic [ref=f3e20]:
+    - button "All kept" [ref=f3e21] [cursor=pointer]
+    - button "Black only" [ref=f3e22] [cursor=pointer]
+    - button "Top freezer only" [ref=f3e23] [cursor=pointer]
+    - button "Bottom freezer only" [ref=f3e24] [cursor=pointer]
+    - button "Inverter only" [ref=f3e25] [cursor=pointer]
+    - button "Top 5 ranked" [ref=f3e26] [cursor=pointer]
+    - button "★ Starred" [ref=f3e27] [cursor=pointer]
+  - generic [ref=f3e28]:
+    - generic [ref=f3e29]:
+      - text: Search
+      - searchbox "Search" [ref=f3e30]
+    - generic [ref=f3e31]:
+      - text: Color
+      - combobox "Color" [ref=f3e32]:
+        - option "Any color" [selected]
+        - option "Black only"
+        - option "Dark Inox"
+        - option "Silver / steel / grey"
+    - generic [ref=f3e33]:
+      - text: Max EGP
+      - spinbutton "Max EGP" [ref=f3e34]: "35000"
+    - generic [ref=f3e35]:
+      - text: Min liters
+      - spinbutton "Min liters" [ref=f3e36]: "360"
+    - generic [ref=f3e37]:
+      - text: Layout
+      - combobox "Layout" [ref=f3e38]:
+        - option "Any" [selected]
+        - option "Top freezer"
+        - option "Bottom freezer"
+    - generic [ref=f3e39]:
+      - text: Inverter
+      - combobox "Inverter" [ref=f3e40]:
+        - option "Any" [selected]
+        - option "Yes"
+        - option "No"
+    - generic [ref=f3e41]:
+      - text: Sort
+      - combobox "Sort" [ref=f3e42]:
+        - option "Our rank" [selected]
+        - option "Price ↑"
+        - option "Price ↓"
+        - option "Capacity ↓"
+        - option "Fit score"
+    - generic [ref=f3e43]:
+      - text: Starred only
+      - combobox "Starred only" [ref=f3e44]:
+        - option "No" [selected]
+        - option "Yes"
+    - button "Export ★ JSON" [ref=f3e45] [cursor=pointer]
+    - button "Clear ★" [ref=f3e46] [cursor=pointer]
+  - paragraph [ref=f3e47]: Showing 72 of 72 filtered fridges · 0 starred
+  - generic [ref=f3e48]:
+    - article [ref=f3e49] [cursor=pointer]:
+      - generic [ref=f3e50]:
+        - generic [ref=f3e51]:
+          - generic [ref=f3e52]: "#1"
+          - generic [ref=f3e53]: Black
+          - generic [ref=f3e54]: Inverter
+        - button "★" [ref=f3e55]
+      - generic [ref=f3e56]:
+        - generic [ref=f3e57]: Beko · top_freezer · black
+        - heading "Beko NoFrost Top Freezer Refrigerator , 455 Liter Inverter Motor , Black - RDNE455M20XBIDTEWEG" [level=3] [ref=f3e58]
+        - generic [ref=f3e59]: 455 L · Fit 9.3
+        - generic [ref=f3e60]: 28,139 EGP
+    - article [ref=f3e61] [cursor=pointer]:
+      - generic [ref=f3e62]:
+        - generic [ref=f3e63]:
+          - generic [ref=f3e64]: "#2"
+          - generic [ref=f3e65]: silver
+          - generic [ref=f3e66]: Inverter
+        - button "★" [ref=f3e67]
+      - generic [ref=f3e68]:
+        - generic [ref=f3e69]: Beko · top_freezer · silver
+        - heading "Beko NoFrost Top Freezer Refrigerator , 406 Liter Inverter Motor , Silver - RDNE455M20XBIDS" [level=3] [ref=f3e70]
+        - generic [ref=f3e71]: 406 L · Fit 9.1
+        - generic [ref=f3e72]: 25,499 EGP
+    - article [ref=f3e73] [cursor=pointer]:
+      - generic [ref=f3e74]:
+        - generic [ref=f3e75]:
+          - generic [ref=f3e76]: "#3"
+          - generic [ref=f3e77]: dark_inox
+          - generic [ref=f3e78]: Inverter
+        - button "★" [ref=f3e79]
+      - generic [ref=f3e80]:
+        - generic [ref=f3e81]: Ariston · top_freezer · dark_inox
+        - heading "Ariston NoFrost Top Freezer Refrigerator , 420 Liter Inverter Motor , Dark Inox - ART70 F1422D XDI" [level=3] [ref=f3e82]
+        - generic [ref=f3e83]: 420 L · Fit 9
+        - generic [ref=f3e84]: 25,999 EGP
+    - article [ref=f3e85] [cursor=pointer]:
+      - generic [ref=f3e86]:
+        - generic [ref=f3e87]:
+          - generic [ref=f3e88]: "#4"
+          - generic [ref=f3e89]: dark_inox
+          - generic [ref=f3e90]: Inverter
+        - button "★" [ref=f3e91]
+      - generic [ref=f3e92]:
+        - generic [ref=f3e93]: Ariston · top_freezer · dark_inox
+        - heading "Ariston NoFrost Top Freezer Refrigerator , 455 Liter Inverter Motor , Dark Inox - ART70F1452XDI" [level=3] [ref=f3e94]
+        - generic [ref=f3e95]: 455 L · Fit 9
+        - generic [ref=f3e96]: 28,199 EGP
+    - article [ref=f3e97] [cursor=pointer]:
+      - generic [ref=f3e98]:
+        - generic [ref=f3e99]:
+          - generic [ref=f3e100]: "#5"
+          - generic [ref=f3e101]: Black
+          - generic [ref=f3e102]: Inverter
+        - button "★" [ref=f3e103]
+      - generic [ref=f3e104]:
+        - generic [ref=f3e105]: Tornado · top_freezer · black
+        - heading "Tornado NoFrost Top Freezer Refrigerator , 450 Liter Inverter Motor , Black - RF-580TV-BK" [level=3] [ref=f3e106]
+        - generic [ref=f3e107]: 450 L · Fit 8.8
+        - generic [ref=f3e108]: 28,949 EGP
+    - article [ref=f3e109] [cursor=pointer]:
+      - generic [ref=f3e110]:
+        - generic [ref=f3e111]:
+          - generic [ref=f3e112]: "#6"
+          - generic [ref=f3e113]: Black
+          - generic [ref=f3e114]: Inverter
+        - button "★" [ref=f3e115]
+      - generic [ref=f3e116]:
+        - generic [ref=f3e117]: Beko · top_freezer · black
+        - heading "Beko NoFrost Top Freezer Refrigerator , 406 Liter Inverter Motor , Black - RDNE455M20XBIDEGB" [level=3] [ref=f3e118]
+        - generic [ref=f3e119]: 406 L · Fit 8.8
+        - generic [ref=f3e120]: 30,299 EGP
+    - article [ref=f3e121] [cursor=pointer]:
+      - generic [ref=f3e122]:
+        - generic [ref=f3e123]:
+          - generic [ref=f3e124]: "#7"
+          - generic [ref=f3e125]: silver
+          - generic [ref=f3e126]: Inverter
+        - button "★" [ref=f3e127]
+      - generic [ref=f3e128]:
+        - generic [ref=f3e129]: LG · top_freezer · silver
+        - heading "LG NoFrost Top Freezer Refrigerator , 450 Liter Inverter Motor , Silver - GTF452SVAN" [level=3] [ref=f3e130]
+        - generic [ref=f3e131]: 450 L · Fit 8.8
+        - generic [ref=f3e132]: 34,899 EGP
+    - article [ref=f3e133] [cursor=pointer]:
+      - generic [ref=f3e134]:
+        - generic [ref=f3e135]:
+          - generic [ref=f3e136]: "#8"
+          - generic [ref=f3e137]: Black
+          - generic [ref=f3e138]: Inverter
+        - button "★" [ref=f3e139]
+      - generic [ref=f3e140]:
+        - generic [ref=f3e141]: Beko · top_freezer · black
+        - heading "Beko NoFrost Top Freezer Refrigerator , 367 Liter Inverter Motor , Black - RDNE420K02DXIPEGB" [level=3] [ref=f3e142]
+        - generic [ref=f3e143]: 367 L · Fit 8.7
+        - generic [ref=f3e144]: 25,900 EGP
+    - article [ref=f3e145] [cursor=pointer]:
+      - generic [ref=f3e146]:
+        - generic [ref=f3e147]:
+          - generic [ref=f3e148]: "#9"
+          - generic [ref=f3e149]: silver
+          - generic [ref=f3e150]: Inverter
+        - button "★" [ref=f3e151]
+      - generic [ref=f3e152]:
+        - generic [ref=f3e153]: Beko · top_freezer · silver
+        - heading "Beko NoFrost Top Freezer Refrigerator , 406 Liter Inverter Motor , Silver - RDNE455M20XBIEG" [level=3] [ref=f3e154]
+        - generic [ref=f3e155]: 406 L · Fit 8.5
+        - generic [ref=f3e156]: 30,999 EGP
+    - article [ref=f3e157] [cursor=pointer]:
+      - generic [ref=f3e158]:
+        - generic [ref=f3e159]:
+          - generic [ref=f3e160]: "#10"
+          - generic [ref=f3e161]: silver
+          - generic [ref=f3e162]: Inverter
+        - button "★" [ref=f3e163]
+      - generic [ref=f3e164]:
+        - generic [ref=f3e165]: Toshiba · top_freezer · silver
+        - heading "Toshiba NoFrost Top Freezer Refrigerator , 450 Liter Inverter Motor , Morandi Grey - GR-RT622WE-PMN" [level=3] [ref=f3e166]
+        - generic [ref=f3e167]: 450 L · Fit 8.5
+        - generic [ref=f3e168]: 32,759 EGP
+    - article [ref=f3e169] [cursor=pointer]:
+      - generic [ref=f3e170]:
+        - generic [ref=f3e171]:
+          - generic [ref=f3e172]: "#11"
+          - generic [ref=f3e173]: silver
+          - generic [ref=f3e174]: Inverter
+        - button "★" [ref=f3e175]
+      - generic [ref=f3e176]:
+        - generic [ref=f3e177]: Toshiba · top_freezer · silver
+        - heading "Toshiba NoFrost Top Freezer Refrigerator , 450 Liter Inverter Motor , Silver - GR-RT624WE-PGN(72)" [level=3] [ref=f3e178]
+        - generic [ref=f3e179]: 450 L · Fit 8.5
+        - generic [ref=f3e180]: 33,989 EGP
+    - article [ref=f3e181] [cursor=pointer]:
+      - generic [ref=f3e182]:
+        - generic [ref=f3e183]:
+          - generic [ref=f3e184]: "#12"
+          - generic [ref=f3e185]: silver
+          - generic [ref=f3e186]: Inverter
+        - button "★" [ref=f3e187]
+      - generic [ref=f3e188]:
+        - generic [ref=f3e189]: Beko · top_freezer · silver
+        - heading "Beko NoFrost Top Freezer Refrigerator , 367 Liter Inverter Motor , Silver - RDNE420K02DXISEG" [level=3] [ref=f3e190]
+        - generic [ref=f3e191]: 367 L · Fit 8.4
+        - generic [ref=f3e192]: 24,119 EGP
+    - article [ref=f3e193] [cursor=pointer]:
+      - generic [ref=f3e194]:
+        - generic [ref=f3e195]:
+          - generic [ref=f3e196]: "#13"
+          - generic [ref=f3e197]: silver
+          - generic [ref=f3e198]: Inverter
+        - button "★" [ref=f3e199]
+      - generic [ref=f3e200]:
+        - generic [ref=f3e201]: Beko · top_freezer · silver
+        - heading "Beko NoFrost Top Freezer Refrigerator , 367 Liter Inverter Motor , Silver - RDNE420K02DXITEG" [level=3] [ref=f3e202]
+        - generic [ref=f3e203]: 367 L · Fit 8.4
+        - generic [ref=f3e204]: 25,459 EGP
+    - article [ref=f3e205] [cursor=pointer]:
+      - generic [ref=f3e206]:
+        - generic [ref=f3e207]:
+          - generic [ref=f3e208]: "#14"
+          - generic [ref=f3e209]: silver
+          - generic [ref=f3e210]: Inverter
+        - button "★" [ref=f3e211]
+      - generic [ref=f3e212]:
+        - generic [ref=f3e213]: Fresh · top_freezer · silver
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 471 Liter Inverter Motor , Stainless Steel - FNTLS580MIWGFLD" [level=3] [ref=f3e214]
+        - generic [ref=f3e215]: 471 L · Fit 8.3
+        - generic [ref=f3e216]: 26,000 EGP
+    - article [ref=f3e217] [cursor=pointer]:
+      - generic [ref=f3e218]:
+        - generic [ref=f3e219]:
+          - generic [ref=f3e220]: "#15"
+          - generic [ref=f3e221]: silver
+          - generic [ref=f3e222]: Inverter
+        - button "★" [ref=f3e223]
+      - generic [ref=f3e224]:
+        - generic [ref=f3e225]: Beko · top_freezer · silver
+        - heading "Beko NoFrost Top Freezer Refrigerator , 430 Liter Inverter Motor , Silver - RDNE430K02DXI" [level=3] [ref=f3e226]
+        - generic [ref=f3e227]: 430 L · Fit 8.3
+        - generic [ref=f3e228]: 31,829 EGP
+    - article [ref=f3e229] [cursor=pointer]:
+      - generic [ref=f3e230]:
+        - generic [ref=f3e231]:
+          - generic [ref=f3e232]: "#16"
+          - generic [ref=f3e233]: silver
+          - generic [ref=f3e234]: Inverter
+        - button "★" [ref=f3e235]
+      - generic [ref=f3e236]:
+        - generic [ref=f3e237]: Toshiba · top_freezer · silver
+        - heading "Toshiba NoFrost Top Freezer Refrigerator , 411 Liter Inverter Motor , Silver - GR-RT558WE-PMN(57)" [level=3] [ref=f3e238]
+        - generic [ref=f3e239]: 411 L · Fit 8.2
+        - generic [ref=f3e240]: 29,440 EGP
+    - article [ref=f3e241] [cursor=pointer]:
+      - generic [ref=f3e242]:
+        - generic [ref=f3e243]:
+          - generic [ref=f3e244]: "#17"
+          - generic [ref=f3e245]: silver
+          - generic [ref=f3e246]: Inverter
+        - button "★" [ref=f3e247]
+      - generic [ref=f3e248]:
+        - generic [ref=f3e249]: Beko · top_freezer · silver
+        - heading "Beko NoFrost Top Freezer Refrigerator , 408 Liter Inverter Motor , Grey - RDNE448M20X" [level=3] [ref=f3e250]
+        - generic [ref=f3e251]: 408 L · Fit 8.2
+        - generic [ref=f3e252]: 31,780 EGP
+    - article [ref=f3e253] [cursor=pointer]:
+      - generic [ref=f3e254]:
+        - generic [ref=f3e255]:
+          - generic [ref=f3e256]: "#18"
+          - generic [ref=f3e257]: silver
+          - generic [ref=f3e258]: Inverter
+        - button "★" [ref=f3e259]
+      - generic [ref=f3e260]:
+        - generic [ref=f3e261]: Midea · top_freezer · silver
+        - heading "Midea NoFrost Top Freezer Refrigerator , 535 Liter Inverter Motor , Stainless Steel - RT723MTN46D" [level=3] [ref=f3e262]
+        - generic [ref=f3e263]: 535 L · Fit 8.2
+        - generic [ref=f3e264]: 32,625 EGP
+    - article [ref=f3e265] [cursor=pointer]:
+      - generic [ref=f3e266]:
+        - generic [ref=f3e267]:
+          - generic [ref=f3e268]: "#19"
+          - generic [ref=f3e269]: silver
+          - generic [ref=f3e270]: Inverter
+        - button "★" [ref=f3e271]
+      - generic [ref=f3e272]:
+        - generic [ref=f3e273]: Beko · top_freezer · silver
+        - heading "Beko NoFrost Top Freezer Refrigerator , 367 Liter Inverter Motor , Silver - RDNE420K02DXIDTEG" [level=3] [ref=f3e274]
+        - generic [ref=f3e275]: 367 L · Fit 8.1
+        - generic [ref=f3e276]: 28,999 EGP
+    - article [ref=f3e277] [cursor=pointer]:
+      - generic [ref=f3e278]:
+        - generic [ref=f3e279]:
+          - generic [ref=f3e280]: "#20"
+          - generic [ref=f3e281]: silver
+          - generic [ref=f3e282]: Inverter
+        - button "★" [ref=f3e283]
+      - generic [ref=f3e284]:
+        - generic [ref=f3e285]: Midea · top_freezer · silver
+        - heading "Midea NoFrost Top Freezer Refrigerator , 449 Liter Inverter Motor , Silver - MDRT645MTE06E" [level=3] [ref=f3e286]
+        - generic [ref=f3e287]: 449 L · Fit 7.9
+        - generic [ref=f3e288]: 27,609 EGP
+    - article [ref=f3e289] [cursor=pointer]:
+      - generic [ref=f3e290]:
+        - generic [ref=f3e291]:
+          - generic [ref=f3e292]: "#21"
+          - generic [ref=f3e293]: silver
+          - generic [ref=f3e294]: Inverter
+        - button "★" [ref=f3e295]
+      - generic [ref=f3e296]:
+        - generic [ref=f3e297]: Fresh · top_freezer · silver
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 397 Liter Inverter Motor , Stainless Steel - FNTMS470YITFLD" [level=3] [ref=f3e298]
+        - generic [ref=f3e299]: 397 L · Fit 7.8
+        - generic [ref=f3e300]: 23,989 EGP
+    - article [ref=f3e301] [cursor=pointer]:
+      - generic [ref=f3e302]:
+        - generic [ref=f3e303]:
+          - generic [ref=f3e304]: "#22"
+          - generic [ref=f3e305]: silver
+          - generic [ref=f3e306]: Inverter
+        - button "★" [ref=f3e307]
+      - generic [ref=f3e308]:
+        - generic [ref=f3e309]: Haier · top_freezer · silver
+        - heading "Haier NoFrost Top Freezer Refrigerator , 449 Liter Inverter Motor , Gray - HRF630VMCGBEG" [level=3] [ref=f3e310]
+        - generic [ref=f3e311]: 449 L · Fit 7.8
+        - generic [ref=f3e312]: 32,559 EGP
+    - article [ref=f3e313] [cursor=pointer]:
+      - generic [ref=f3e314]:
+        - generic [ref=f3e315]:
+          - generic [ref=f3e316]: "#23"
+          - generic [ref=f3e317]: Black
+          - generic [ref=f3e318]: Inverter
+        - button "★" [ref=f3e319]
+      - generic [ref=f3e320]:
+        - generic [ref=f3e321]: Unionaire · bottom_freezer · black
+        - heading "Unionaire Signature NoFrost Bottom Freezer Refrigerator , 545 Liter Inverter Motor , Black - URN-800CEPBLG1A-DXHIRBXXL" [level=3] [ref=f3e322]
+        - generic [ref=f3e323]: 545 L · Fit 7.7
+        - generic [ref=f3e324]: 31,999 EGP
+    - article [ref=f3e325] [cursor=pointer]:
+      - generic [ref=f3e326]:
+        - generic [ref=f3e327]:
+          - generic [ref=f3e328]: "#24"
+          - generic [ref=f3e329]: silver
+          - generic [ref=f3e330]: No inv
+        - button "★" [ref=f3e331]
+      - generic [ref=f3e332]:
+        - generic [ref=f3e333]: Beko · top_freezer · silver
+        - heading "Beko MinFrost Top Freezer Refrigerator , 465 Liter , Silver - RDSG550M20SXB" [level=3] [ref=f3e334]
+        - generic [ref=f3e335]: 465 L · Fit 7
+        - generic [ref=f3e336]: 21,714 EGP
+    - article [ref=f3e337] [cursor=pointer]:
+      - generic [ref=f3e338]:
+        - generic [ref=f3e339]:
+          - generic [ref=f3e340]: "#25"
+          - generic [ref=f3e341]: Black
+          - generic [ref=f3e342]: No inv
+        - button "★" [ref=f3e343]
+      - generic [ref=f3e344]:
+        - generic [ref=f3e345]: LG · top_freezer · black
+        - heading "LG NoFrost Top Freezer Refrigerator , 401 Liter , Black - GTF402SBAN" [level=3] [ref=f3e346]
+        - generic [ref=f3e347]: 401 L · Fit 6.9
+        - generic [ref=f3e348]: 31,300 EGP
+    - article [ref=f3e349] [cursor=pointer]:
+      - generic [ref=f3e350]:
+        - generic [ref=f3e351]:
+          - generic [ref=f3e352]: "#26"
+          - generic [ref=f3e353]: silver
+          - generic [ref=f3e354]: No inv
+        - button "★" [ref=f3e355]
+      - generic [ref=f3e356]:
+        - generic [ref=f3e357]: Beko · top_freezer · silver
+        - heading "Beko NoFrost Top Freezer Refrigerator , 430 Liter , Silver - RDNE455MK" [level=3] [ref=f3e358]
+        - generic [ref=f3e359]: 430 L · Fit 6.8
+        - generic [ref=f3e360]: 24,200 EGP
+    - article [ref=f3e361] [cursor=pointer]:
+      - generic [ref=f3e362]:
+        - generic [ref=f3e363]:
+          - generic [ref=f3e364]: "#27"
+          - generic [ref=f3e365]: silver
+          - generic [ref=f3e366]: No inv
+        - button "★" [ref=f3e367]
+      - generic [ref=f3e368]:
+        - generic [ref=f3e369]: Samsung · top_freezer · silver
+        - heading "Samsung NoFrost Top Freezer Refrigerator , 396 Liter , Silver - RT40A3010SA-MR" [level=3] [ref=f3e370]
+        - generic [ref=f3e371]: 396 L · Fit 6.8
+        - generic [ref=f3e372]: 28,139 EGP
+    - article [ref=f3e373] [cursor=pointer]:
+      - generic [ref=f3e374]:
+        - generic [ref=f3e375]:
+          - generic [ref=f3e376]: "#28"
+          - generic [ref=f3e377]: silver
+          - generic [ref=f3e378]: No inv
+        - button "★" [ref=f3e379]
+      - generic [ref=f3e380]:
+        - generic [ref=f3e381]: Beko · top_freezer · silver
+        - heading "Beko NoFrost Top Freezer Refrigerator , 406 Liter , Silver - RDNE455M20XBIDEG" [level=3] [ref=f3e382]
+        - generic [ref=f3e383]: 406 L · Fit 6.6
+        - generic [ref=f3e384]: 26,739 EGP
+    - article [ref=f3e385] [cursor=pointer]:
+      - generic [ref=f3e386]:
+        - generic [ref=f3e387]:
+          - generic [ref=f3e388]: "#29"
+          - generic [ref=f3e389]: silver
+          - generic [ref=f3e390]: No inv
+        - button "★" [ref=f3e391]
+      - generic [ref=f3e392]:
+        - generic [ref=f3e393]: LG · top_freezer · silver
+        - heading "LG NoFrost Top Freezer Refrigerator , 401 Liter , Silver - GTF402SVAN" [level=3] [ref=f3e394]
+        - generic [ref=f3e395]: 401 L · Fit 6.6
+        - generic [ref=f3e396]: 30,290 EGP
+    - article [ref=f3e397] [cursor=pointer]:
+      - generic [ref=f3e398]:
+        - generic [ref=f3e399]:
+          - generic [ref=f3e400]: "#30"
+          - generic [ref=f3e401]: silver
+          - generic [ref=f3e402]: No inv
+        - button "★" [ref=f3e403]
+      - generic [ref=f3e404]:
+        - generic [ref=f3e405]: Beko · top_freezer · silver
+        - heading "Beko RDNE420K NoFrost Top Freezer Refrigerator , 390 Liter , Silver - RDNE420KDB" [level=3] [ref=f3e406]
+        - generic [ref=f3e407]: 390 L · Fit 6.5
+        - generic [ref=f3e408]: 21,715 EGP
+    - article [ref=f3e409] [cursor=pointer]:
+      - generic [ref=f3e410]:
+        - generic [ref=f3e411]:
+          - generic [ref=f3e412]: "#31"
+          - generic [ref=f3e413]: silver
+          - generic [ref=f3e414]: No inv
+        - button "★" [ref=f3e415]
+      - generic [ref=f3e416]:
+        - generic [ref=f3e417]: Toshiba · top_freezer · silver
+        - heading "Toshiba NoFrost Top Freezer Refrigerator , 411 Liter , Grey - GR-RT559WE-DMN 49" [level=3] [ref=f3e418]
+        - generic [ref=f3e419]: 411 L · Fit 6.4
+        - generic [ref=f3e420]: 32,000 EGP
+    - article [ref=f3e421] [cursor=pointer]:
+      - generic [ref=f3e422]:
+        - generic [ref=f3e423]:
+          - generic [ref=f3e424]: "#32"
+          - generic [ref=f3e425]: silver
+          - generic [ref=f3e426]: No inv
+        - button "★" [ref=f3e427]
+      - generic [ref=f3e428]:
+        - generic [ref=f3e429]: Beko · top_freezer · silver
+        - heading "Beko NoFrost Top Freezer Refrigerator , 367 Liter , Stainless Steel - RDNE430K02DX" [level=3] [ref=f3e430]
+        - generic [ref=f3e431]: 367 L · Fit 6.3
+        - generic [ref=f3e432]: 24,000 EGP
+    - article [ref=f3e433] [cursor=pointer]:
+      - generic [ref=f3e434]:
+        - generic [ref=f3e435]:
+          - generic [ref=f3e436]: "#33"
+          - generic [ref=f3e437]: Black
+          - generic [ref=f3e438]: No inv
+        - button "★" [ref=f3e439]
+      - generic [ref=f3e440]:
+        - generic [ref=f3e441]: Zanussi · top_freezer · black
+        - heading "Zanussi NoFrost Top Freezer Refrigerator , 406 Liter , Black - ZRT41204BA" [level=3] [ref=f3e442]
+        - generic [ref=f3e443]: 406 L · Fit 6.3
+        - generic [ref=f3e444]: 25,199 EGP
+    - article [ref=f3e445] [cursor=pointer]:
+      - generic [ref=f3e446]:
+        - generic [ref=f3e447]:
+          - generic [ref=f3e448]: "#34"
+          - generic [ref=f3e449]: Black
+          - generic [ref=f3e450]: No inv
+        - button "★" [ref=f3e451]
+      - generic [ref=f3e452]:
+        - generic [ref=f3e453]: Beko · top_freezer · black
+        - heading "Beko NoFrost Top Freezer Refrigerator , 367 Liter , Black - RDNE430K12B" [level=3] [ref=f3e454]
+        - generic [ref=f3e455]: 367 L · Fit 6.3
+        - generic [ref=f3e456]: 32,999 EGP
+    - article [ref=f3e457] [cursor=pointer]:
+      - generic [ref=f3e458]:
+        - generic [ref=f3e459]:
+          - generic [ref=f3e460]: "#35"
+          - generic [ref=f3e461]: Black
+          - generic [ref=f3e462]: No inv
+        - button "★" [ref=f3e463]
+      - generic [ref=f3e464]:
+        - generic [ref=f3e465]: Zanussi · top_freezer · black
+        - heading "Zanussi Crispo NoFrost Top Freezer Refrigerator , 370 Liter , Black" [level=3] [ref=f3e466]
+        - generic [ref=f3e467]: 370 L · Fit 6.1
+        - generic [ref=f3e468]: 24,195 EGP
+    - article [ref=f3e469] [cursor=pointer]:
+      - generic [ref=f3e470]:
+        - generic [ref=f3e471]:
+          - generic [ref=f3e472]: "#36"
+          - generic [ref=f3e473]: silver
+          - generic [ref=f3e474]: No inv
+        - button "★" [ref=f3e475]
+      - generic [ref=f3e476]:
+        - generic [ref=f3e477]: Indesit · top_freezer · silver
+        - heading "Indesit NoFrost Top Freezer Refrigerator , 420 Liter , Silver - TINF70420SEG" [level=3] [ref=f3e478]
+        - generic [ref=f3e479]: 420 L · Fit 6
+        - generic [ref=f3e480]: 22,899 EGP
+    - article [ref=f3e481] [cursor=pointer]:
+      - generic [ref=f3e482]:
+        - generic [ref=f3e483]:
+          - generic [ref=f3e484]: "#37"
+          - generic [ref=f3e485]: dark_inox
+          - generic [ref=f3e486]: No inv
+        - button "★" [ref=f3e487]
+      - generic [ref=f3e488]:
+        - generic [ref=f3e489]: Beko · bottom_freezer · dark_inox
+        - heading "Beko NoFrost Bottom Freezer Refrigerator , 367 Liter , Dark Inox - RCNE367E30XBRI" [level=3] [ref=f3e490]
+        - generic [ref=f3e491]: 367 L · Fit 6
+        - generic [ref=f3e492]: 28,863 EGP
+    - article [ref=f3e493] [cursor=pointer]:
+      - generic [ref=f3e494]:
+        - generic [ref=f3e495]:
+          - generic [ref=f3e496]: "#38"
+          - generic [ref=f3e497]: silver
+          - generic [ref=f3e498]: No inv
+        - button "★" [ref=f3e499]
+      - generic [ref=f3e500]:
+        - generic [ref=f3e501]: Zanussi · top_freezer · silver
+        - heading "Zanussi Crispo NoFrost Top Freezer Refrigerator , 370 Liter , Silver" [level=3] [ref=f3e502]
+        - generic [ref=f3e503]: 370 L · Fit 5.8
+        - generic [ref=f3e504]: 18,399 EGP
+    - article [ref=f3e505] [cursor=pointer]:
+      - generic [ref=f3e506]:
+        - generic [ref=f3e507]:
+          - generic [ref=f3e508]: "#39"
+          - generic [ref=f3e509]: silver
+          - generic [ref=f3e510]: No inv
+        - button "★" [ref=f3e511]
+      - generic [ref=f3e512]:
+        - generic [ref=f3e513]: Beko · bottom_freezer · silver
+        - heading "Beko Combi NoFrost Bottom Freezer Refrigerator , 367 Liter , Silver - RCNE367E30ZXB" [level=3] [ref=f3e514]
+        - generic [ref=f3e515]: 367 L · Fit 5.8
+        - generic [ref=f3e516]: 26,900 EGP
+    - article [ref=f3e517] [cursor=pointer]:
+      - generic [ref=f3e518]:
+        - generic [ref=f3e519]:
+          - generic [ref=f3e520]: "#40"
+          - generic [ref=f3e521]: Black
+          - generic [ref=f3e522]: No inv
+        - button "★" [ref=f3e523]
+      - generic [ref=f3e524]:
+        - generic [ref=f3e525]: Fresh · top_freezer · black
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Black - FNT-BR470BMB" [level=3] [ref=f3e526]
+        - generic [ref=f3e527]: 397 L · Fit 5.7
+        - generic [ref=f3e528]: 21,325 EGP
+    - article [ref=f3e529] [cursor=pointer]:
+      - generic [ref=f3e530]:
+        - generic [ref=f3e531]:
+          - generic [ref=f3e532]: "#41"
+          - generic [ref=f3e533]: Black
+          - generic [ref=f3e534]: No inv
+        - button "★" [ref=f3e535]
+      - generic [ref=f3e536]:
+        - generic [ref=f3e537]: Fresh · top_freezer · black
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Black - FNT-MR470YGQMI" [level=3] [ref=f3e538]
+        - generic [ref=f3e539]: 397 L · Fit 5.7
+        - generic [ref=f3e540]: 26,369 EGP
+    - article [ref=f3e541] [cursor=pointer]:
+      - generic [ref=f3e542]:
+        - generic [ref=f3e543]:
+          - generic [ref=f3e544]: "#42"
+          - generic [ref=f3e545]: Black
+          - generic [ref=f3e546]: No inv
+        - button "★" [ref=f3e547]
+      - generic [ref=f3e548]:
+        - generic [ref=f3e549]: Fresh · top_freezer · black
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Black - FNT-BR470 KB" [level=3] [ref=f3e550]
+        - generic [ref=f3e551]: 397 L · Fit 5.7
+        - generic [ref=f3e552]: 26,500 EGP
+    - article [ref=f3e553] [cursor=pointer]:
+      - generic [ref=f3e554]:
+        - generic [ref=f3e555]:
+          - generic [ref=f3e556]: "#43"
+          - generic [ref=f3e557]: Black
+          - generic [ref=f3e558]: No inv
+        - button "★" [ref=f3e559]
+      - generic [ref=f3e560]:
+        - generic [ref=f3e561]: Fresh · top_freezer · black
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Black Red - MR470YGDR" [level=3] [ref=f3e562]
+        - generic [ref=f3e563]: 397 L · Fit 5.7
+        - generic [ref=f3e564]: 28,799 EGP
+    - article [ref=f3e565] [cursor=pointer]:
+      - generic [ref=f3e566]:
+        - generic [ref=f3e567]:
+          - generic [ref=f3e568]: "#44"
+          - generic [ref=f3e569]: silver
+          - generic [ref=f3e570]: No inv
+        - button "★" [ref=f3e571]
+      - generic [ref=f3e572]:
+        - generic [ref=f3e573]: Fresh · top_freezer · silver
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 471 Liter , Stainless Steel - FNT-MS580 YT (FLD)" [level=3] [ref=f3e574]
+        - generic [ref=f3e575]: 471 L · Fit 5.7
+        - generic [ref=f3e576]: 29,299 EGP
+    - article [ref=f3e577] [cursor=pointer]:
+      - generic [ref=f3e578]:
+        - generic [ref=f3e579]:
+          - generic [ref=f3e580]: "#45"
+          - generic [ref=f3e581]: other
+          - generic [ref=f3e582]: No inv
+        - button "★" [ref=f3e583]
+      - generic [ref=f3e584]:
+        - generic [ref=f3e585]: Fresh · top_freezer · other
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 471 Liter , Burgundy - FNT-MR580YGDR" [level=3] [ref=f3e586]
+        - generic [ref=f3e587]: 471 L · Fit 5.7
+        - generic [ref=f3e588]: 33,500 EGP
+    - article [ref=f3e589] [cursor=pointer]:
+      - generic [ref=f3e590]:
+        - generic [ref=f3e591]:
+          - generic [ref=f3e592]: "#46"
+          - generic [ref=f3e593]: silver
+          - generic [ref=f3e594]: No inv
+        - button "★" [ref=f3e595]
+      - generic [ref=f3e596]:
+        - generic [ref=f3e597]: Midea · top_freezer · silver
+        - heading "Midea Tropical NoFrost Top Freezer Refrigerator , 411 Liter , Silver - MDRT580MTN46" [level=3] [ref=f3e598]
+        - generic [ref=f3e599]: 411 L · Fit 5.6
+        - generic [ref=f3e600]: 23,289 EGP
+    - article [ref=f3e601] [cursor=pointer]:
+      - generic [ref=f3e602]:
+        - generic [ref=f3e603]:
+          - generic [ref=f3e604]: "#47"
+          - generic [ref=f3e605]: silver
+          - generic [ref=f3e606]: No inv
+        - button "★" [ref=f3e607]
+      - generic [ref=f3e608]:
+        - generic [ref=f3e609]: Fresh · top_freezer · silver
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 426 Liter , Stainless Steel - FNTMS540YT4K" [level=3] [ref=f3e610]
+        - generic [ref=f3e611]: 426 L · Fit 5.6
+        - generic [ref=f3e612]: 26,579 EGP
+    - article [ref=f3e613] [cursor=pointer]:
+      - generic [ref=f3e614]:
+        - generic [ref=f3e615]:
+          - generic [ref=f3e616]: "#48"
+          - generic [ref=f3e617]: Black
+          - generic [ref=f3e618]: No inv
+        - button "★" [ref=f3e619]
+      - generic [ref=f3e620]:
+        - generic [ref=f3e621]: Fresh · top_freezer · black
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 426 Liter , Black - FNT-DR540YGB" [level=3] [ref=f3e622]
+        - generic [ref=f3e623]: 426 L · Fit 5.6
+        - generic [ref=f3e624]: 29,079 EGP
+    - article [ref=f3e625] [cursor=pointer]:
+      - generic [ref=f3e626]:
+        - generic [ref=f3e627]:
+          - generic [ref=f3e628]: "#49"
+          - generic [ref=f3e629]: Black
+          - generic [ref=f3e630]: No inv
+        - button "★" [ref=f3e631]
+      - generic [ref=f3e632]:
+        - generic [ref=f3e633]: Fresh · top_freezer · black
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Black - BR400KB" [level=3] [ref=f3e634]
+        - generic [ref=f3e635]: 369 L · Fit 5.5
+        - generic [ref=f3e636]: 24,599 EGP
+    - article [ref=f3e637] [cursor=pointer]:
+      - generic [ref=f3e638]:
+        - generic [ref=f3e639]:
+          - generic [ref=f3e640]: "#50"
+          - generic [ref=f3e641]: Black
+          - generic [ref=f3e642]: No inv
+        - button "★" [ref=f3e643]
+      - generic [ref=f3e644]:
+        - generic [ref=f3e645]: Unionaire · top_freezer · black
+        - heading "Unionaire Max Cool NoFrost Top Freezer Refrigerator , 440 Liter , Black - URN600LBG1ADTHR" [level=3] [ref=f3e646]
+        - generic [ref=f3e647]: 440 L · Fit 5.5
+        - generic [ref=f3e648]: 24,644 EGP
+    - article [ref=f3e649] [cursor=pointer]:
+      - generic [ref=f3e650]:
+        - generic [ref=f3e651]:
+          - generic [ref=f3e652]: "#51"
+          - generic [ref=f3e653]: Black
+          - generic [ref=f3e654]: No inv
+        - button "★" [ref=f3e655]
+      - generic [ref=f3e656]:
+        - generic [ref=f3e657]: Fresh · top_freezer · black
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Black - FNT-B400 KB" [level=3] [ref=f3e658]
+        - generic [ref=f3e659]: 369 L · Fit 5.5
+        - generic [ref=f3e660]: 24,999 EGP
+    - article [ref=f3e661] [cursor=pointer]:
+      - generic [ref=f3e662]:
+        - generic [ref=f3e663]:
+          - generic [ref=f3e664]: "#52"
+          - generic [ref=f3e665]: Black
+          - generic [ref=f3e666]: No inv
+        - button "★" [ref=f3e667]
+      - generic [ref=f3e668]:
+        - generic [ref=f3e669]: Fresh · top_freezer · black
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Black - FNT-B400 BB" [level=3] [ref=f3e670]
+        - generic [ref=f3e671]: 369 L · Fit 5.5
+        - generic [ref=f3e672]: 26,499 EGP
+    - article [ref=f3e673] [cursor=pointer]:
+      - generic [ref=f3e674]:
+        - generic [ref=f3e675]:
+          - generic [ref=f3e676]: "#53"
+          - generic [ref=f3e677]: silver
+          - generic [ref=f3e678]: No inv
+        - button "★" [ref=f3e679]
+      - generic [ref=f3e680]:
+        - generic [ref=f3e681]: Fresh · top_freezer · silver
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Stainless Steel - FNT-BS470KT (FLD)" [level=3] [ref=f3e682]
+        - generic [ref=f3e683]: 397 L · Fit 5.4
+        - generic [ref=f3e684]: 21,319 EGP
+    - article [ref=f3e685] [cursor=pointer]:
+      - generic [ref=f3e686]:
+        - generic [ref=f3e687]:
+          - generic [ref=f3e688]: "#54"
+          - generic [ref=f3e689]: Black
+          - generic [ref=f3e690]: No inv
+        - button "★" [ref=f3e691]
+      - generic [ref=f3e692]:
+        - generic [ref=f3e693]: Unionaire · top_freezer · black
+        - heading "Unionaire MAX Signature NoFrost Top Freezer Refrigerator , 420 Liter , Black - URN500LBG1ADTHRBSM" [level=3] [ref=f3e694]
+        - generic [ref=f3e695]: 420 L · Fit 5.4
+        - generic [ref=f3e696]: 21,980 EGP
+    - article [ref=f3e697] [cursor=pointer]:
+      - generic [ref=f3e698]:
+        - generic [ref=f3e699]:
+          - generic [ref=f3e700]: "#55"
+          - generic [ref=f3e701]: Black
+          - generic [ref=f3e702]: No inv
+        - button "★" [ref=f3e703]
+      - generic [ref=f3e704]:
+        - generic [ref=f3e705]: Unionaire · top_freezer · black
+        - heading "Unionaire Platinum NoFrost Top Freezer Refrigerator , 420 Liter , Black - URN-500LBLBA-DTH" [level=3] [ref=f3e706]
+        - generic [ref=f3e707]: 420 L · Fit 5.4
+        - generic [ref=f3e708]: 24,104 EGP
+    - article [ref=f3e709] [cursor=pointer]:
+      - generic [ref=f3e710]:
+        - generic [ref=f3e711]:
+          - generic [ref=f3e712]: "#56"
+          - generic [ref=f3e713]: silver
+          - generic [ref=f3e714]: No inv
+        - button "★" [ref=f3e715]
+      - generic [ref=f3e716]:
+        - generic [ref=f3e717]: Fresh · top_freezer · silver
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 397 Liter , Silver - FNT-B470 KT" [level=3] [ref=f3e718]
+        - generic [ref=f3e719]: 397 L · Fit 5.4
+        - generic [ref=f3e720]: 25,315 EGP
+    - article [ref=f3e721] [cursor=pointer]:
+      - generic [ref=f3e722]:
+        - generic [ref=f3e723]:
+          - generic [ref=f3e724]: "#57"
+          - generic [ref=f3e725]: Black
+          - generic [ref=f3e726]: No inv
+        - button "★" [ref=f3e727]
+      - generic [ref=f3e728]:
+        - generic [ref=f3e729]: Unionaire · bottom_freezer · black
+        - heading "Unionaire Signature NoFrost Bottom Freezer Refrigerator , 505 Liter , Black - URN-700CEPBLG1A-DXHRBXL" [level=3] [ref=f3e730]
+        - generic [ref=f3e731]: 505 L · Fit 5.4
+        - generic [ref=f3e732]: 28,999 EGP
+    - article [ref=f3e733] [cursor=pointer]:
+      - generic [ref=f3e734]:
+        - generic [ref=f3e735]:
+          - generic [ref=f3e736]: "#58"
+          - generic [ref=f3e737]: Black
+          - generic [ref=f3e738]: No inv
+        - button "★" [ref=f3e739]
+      - generic [ref=f3e740]:
+        - generic [ref=f3e741]: Unionaire · bottom_freezer · black
+        - heading "Unionaire NoFrost Bottom Freezer Refrigerator , 545 Liter , Black - URN800CEPBLG1ADXHIRBXXLN" [level=3] [ref=f3e742]
+        - generic [ref=f3e743]: 545 L · Fit 5.4
+        - generic [ref=f3e744]: 32,249 EGP
+    - article [ref=f3e745] [cursor=pointer]:
+      - generic [ref=f3e746]:
+        - generic [ref=f3e747]:
+          - generic [ref=f3e748]: "#59"
+          - generic [ref=f3e749]: silver
+          - generic [ref=f3e750]: No inv
+        - button "★" [ref=f3e751]
+      - generic [ref=f3e752]:
+        - generic [ref=f3e753]: Fresh · top_freezer · silver
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Stainless Steel - FNTBS400KTFLD" [level=3] [ref=f3e754]
+        - generic [ref=f3e755]: 369 L · Fit 5.2
+        - generic [ref=f3e756]: 20,405 EGP
+    - article [ref=f3e757] [cursor=pointer]:
+      - generic [ref=f3e758]:
+        - generic [ref=f3e759]:
+          - generic [ref=f3e760]: "#60"
+          - generic [ref=f3e761]: silver
+          - generic [ref=f3e762]: No inv
+        - button "★" [ref=f3e763]
+      - generic [ref=f3e764]:
+        - generic [ref=f3e765]: Fresh · top_freezer · silver
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Stainless Steel - FNT-M400YT" [level=3] [ref=f3e766]
+        - generic [ref=f3e767]: 369 L · Fit 5.2
+        - generic [ref=f3e768]: 23,459 EGP
+    - article [ref=f3e769] [cursor=pointer]:
+      - generic [ref=f3e770]:
+        - generic [ref=f3e771]:
+          - generic [ref=f3e772]: "#61"
+          - generic [ref=f3e773]: silver
+          - generic [ref=f3e774]: No inv
+        - button "★" [ref=f3e775]
+      - generic [ref=f3e776]:
+        - generic [ref=f3e777]: Fresh · top_freezer · silver
+        - heading "Fresh NoFrost Top Freezer Refrigerator , 369 Liter , Silver - BR400KT" [level=3] [ref=f3e778]
+        - generic [ref=f3e779]: 369 L · Fit 5.2
+        - generic [ref=f3e780]: 26,299 EGP
+    - article [ref=f3e781] [cursor=pointer]:
+      - generic [ref=f3e782]:
+        - generic [ref=f3e783]:
+          - generic [ref=f3e784]: "#62"
+          - generic [ref=f3e785]: Black
+          - generic [ref=f3e786]: No inv
+        - button "★" [ref=f3e787]
+      - generic [ref=f3e788]:
+        - generic [ref=f3e789]: Unionaire · bottom_freezer · black
+        - heading "Unionaire Signature Combi NoFrost Bottom Freezer Refrigerator , 505 Liter , Black - URN700CLBLG1ADTXHRBXLN" [level=3] [ref=f3e790]
+        - generic [ref=f3e791]: 505 L · Fit 5.2
+        - generic [ref=f3e792]: 30,999 EGP
+    - article [ref=f3e793] [cursor=pointer]:
+      - generic [ref=f3e794]:
+        - generic [ref=f3e795]:
+          - generic [ref=f3e796]: "#63"
+          - generic [ref=f3e797]: Black
+          - generic [ref=f3e798]: No inv
+        - button "★" [ref=f3e799]
+      - generic [ref=f3e800]:
+        - generic [ref=f3e801]: Unionaire · bottom_freezer · black
+        - heading "Unionaire Signature NoFrost Bottom Freezer Refrigerator , 505 Liter , Black - URN700CEPBLG1ADXHRBXLS" [level=3] [ref=f3e802]
+        - generic [ref=f3e803]: 505 L · Fit 5.2
+        - generic [ref=f3e804]: 31,999 EGP
+    - article [ref=f3e805] [cursor=pointer]:
+      - generic [ref=f3e806]:
+        - generic [ref=f3e807]:
+          - generic [ref=f3e808]: "#64"
+          - generic [ref=f3e809]: silver
+          - generic [ref=f3e810]: No inv
+        - button "★" [ref=f3e811]
+      - generic [ref=f3e812]:
+        - generic [ref=f3e813]: Unionaire · top_freezer · silver
+        - heading "Unionaire NoFrost Top Freezer Refrigerator , 420 Liter , Stainless Steel - URN-500DLVLSA-DXSRBM" [level=3] [ref=f3e814]
+        - generic [ref=f3e815]: 420 L · Fit 5.1
+        - generic [ref=f3e816]: 21,500 EGP
+    - article [ref=f3e817] [cursor=pointer]:
+      - generic [ref=f3e818]:
+        - generic [ref=f3e819]:
+          - generic [ref=f3e820]: "#65"
+          - generic [ref=f3e821]: Black
+          - generic [ref=f3e822]: No inv
+        - button "★" [ref=f3e823]
+      - generic [ref=f3e824]:
+        - generic [ref=f3e825]: Unionaire · bottom_freezer · black
+        - heading "Unionaire Combi NoFrost Bottom Freezer Refrigerator , 370 Liter , Black - URN500CLBLG1ADTXHRBM" [level=3] [ref=f3e826]
+        - generic [ref=f3e827]: 370 L · Fit 5
+        - generic [ref=f3e828]: 18,469 EGP
+    - article [ref=f3e829] [cursor=pointer]:
+      - generic [ref=f3e830]:
+        - generic [ref=f3e831]:
+          - generic [ref=f3e832]: "#66"
+          - generic [ref=f3e833]: Black
+          - generic [ref=f3e834]: No inv
+        - button "★" [ref=f3e835]
+      - generic [ref=f3e836]:
+        - generic [ref=f3e837]: Unionaire · top_freezer · black
+        - heading "Unionaire Platinum NoFrost Top Freezer Refrigerator , 370 Liter , Black - URN-440LBLBA-DTH" [level=3] [ref=f3e838]
+        - generic [ref=f3e839]: 370 L · Fit 5
+        - generic [ref=f3e840]: 19,999 EGP
+    - article [ref=f3e841] [cursor=pointer]:
+      - generic [ref=f3e842]:
+        - generic [ref=f3e843]:
+          - generic [ref=f3e844]: "#67"
+          - generic [ref=f3e845]: silver
+          - generic [ref=f3e846]: No inv
+        - button "★" [ref=f3e847]
+      - generic [ref=f3e848]:
+        - generic [ref=f3e849]: Unionaire · top_freezer · silver
+        - heading "Unionaire NoFrost Top Freezer Refrigerator , 370 Liter , Silver - URN440LBLEPVADTSR" [level=3] [ref=f3e850]
+        - generic [ref=f3e851]: 370 L · Fit 5
+        - generic [ref=f3e852]: 20,000 EGP
+    - article [ref=f3e853] [cursor=pointer]:
+      - generic [ref=f3e854]:
+        - generic [ref=f3e855]:
+          - generic [ref=f3e856]: "#68"
+          - generic [ref=f3e857]: Black
+          - generic [ref=f3e858]: No inv
+        - button "★" [ref=f3e859]
+      - generic [ref=f3e860]:
+        - generic [ref=f3e861]: Unionaire · top_freezer · black
+        - heading "Unionaire i-Cool NoFrost Top Freezer Refrigerator , 370 Liter , Black - URN-440LBG1A-DTHRBSM" [level=3] [ref=f3e862]
+        - generic [ref=f3e863]: 370 L · Fit 5
+        - generic [ref=f3e864]: 20,499 EGP
+    - article [ref=f3e865] [cursor=pointer]:
+      - generic [ref=f3e866]:
+        - generic [ref=f3e867]:
+          - generic [ref=f3e868]: "#69"
+          - generic [ref=f3e869]: Black
+          - generic [ref=f3e870]: No inv
+        - button "★" [ref=f3e871]
+      - generic [ref=f3e872]:
+        - generic [ref=f3e873]: Unionaire · bottom_freezer · black
+        - heading "Unionaire Signature NoFrost Bottom Freezer Refrigerator , 440 Liter , Black Glass - URN600CEPBLG1ADXHRBLS" [level=3] [ref=f3e874]
+        - generic [ref=f3e875]: 440 L · Fit 5
+        - generic [ref=f3e876]: 22,891 EGP
+    - article [ref=f3e877] [cursor=pointer]:
+      - generic [ref=f3e878]:
+        - generic [ref=f3e879]:
+          - generic [ref=f3e880]: "#70"
+          - generic [ref=f3e881]: Black
+          - generic [ref=f3e882]: No inv
+        - button "★" [ref=f3e883]
+      - generic [ref=f3e884]:
+        - generic [ref=f3e885]: Unionaire · bottom_freezer · black
+        - heading "Unionaire Signature NoFrost Bottom Freezer Refrigerator , 420 Liter , Black - URN-600CEPBLG1A-DXHRBL" [level=3] [ref=f3e886]
+        - generic [ref=f3e887]: 420 L · Fit 5
+        - generic [ref=f3e888]: 22,891 EGP
+    - article [ref=f3e889] [cursor=pointer]:
+      - generic [ref=f3e890]:
+        - generic [ref=f3e891]:
+          - generic [ref=f3e892]: "#71"
+          - generic [ref=f3e893]: Black
+          - generic [ref=f3e894]: No inv
+        - button "★" [ref=f3e895]
+      - generic [ref=f3e896]:
+        - generic [ref=f3e897]: Unionaire · bottom_freezer · black
+        - heading "Unionaire NoFrost Bottom Freezer Refrigerator , 370 Liter , Black - URN-500CLBLG1A-DTXHS" [level=3] [ref=f3e898]
+        - generic [ref=f3e899]: 370 L · Fit 5
+        - generic [ref=f3e900]: 22,950 EGP
+    - article [ref=f3e901] [cursor=pointer]:
+      - generic [ref=f3e902]:
+        - generic [ref=f3e903]:
+          - generic [ref=f3e904]: "#72"
+          - generic [ref=f3e905]: Black
+          - generic [ref=f3e906]: No inv
+        - button "★" [ref=f3e907]
+      - generic [ref=f3e908]:
+        - generic [ref=f3e909]: Unionaire · bottom_freezer · black
+        - heading "Unionaire Signature Combi NoFrost Bottom Freezer Refrigerator , 370 Liter , Black - URN500CLBLG1ADTXHN" [level=3] [ref=f3e910]
+        - generic [ref=f3e911]: 370 L · Fit 5
+        - generic [ref=f3e912]: 22,999 EGP
+  - generic [ref=f3e913]:
+    - heading "What we excluded" [level=2] [ref=f3e914]
+    - paragraph [ref=f3e915]:
+      - generic [ref=f3e916]:
+        - strong [ref=f3e917]: price > 35000
+        - text: — price > 35000
+      - generic [ref=f3e918]:
+        - strong [ref=f3e919]: capacity < 360 L
+        - text: — capacity < 360 L
+      - generic [ref=f3e920]:
+        - strong [ref=f3e921]: minibar / manual defrost / dispenser
+        - text: — minibar / manual defrost / dispenser
+      - generic [ref=f3e922]:
+        - strong [ref=f3e923]: non-B.TECH retailers (out of scope this pass)
+        - text: — non-B.TECH retailers (out of scope this pass)
+  - contentinfo [ref=f3e924]:
+    - text: "Data:"
+    - code [ref=f3e925]: data/appliances/fridge_catalog.json
+    - text: · B.TECH prices 2026-07-17 · Re-verify before purchase
