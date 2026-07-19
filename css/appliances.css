@@ -448,3 +448,44 @@
   color: var(--text-muted);
   margin-bottom: 0.75rem;
 }
+
+/* Research galleries (phase 2) */
+.research-thumb {
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at 30% 20%, rgba(201, 162, 39, 0.14), transparent 55%),
+    linear-gradient(145deg, #1a2230, #121820);
+}
+
+.research-thumb-inner {
+  text-align: center;
+  padding: 0.75rem;
+}
+
+.research-source {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.research-brand {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 650;
+  color: var(--text);
+}
+
+.budget-pill {
+  display: inline-block;
+  margin: 0.35rem 0 0;
+  font-size: 0.88rem;
+  color: var(--accent);
+  font-weight: 600;
+}

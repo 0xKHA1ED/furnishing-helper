@@ -1,0 +1,244 @@
+- generic [active] [ref=f387e1]:
+  - generic [ref=f387e2]:
+    - navigation "Site" [ref=f387e3]:
+      - generic [ref=f387e4]:
+        - link "Apt Hub" [ref=f387e5] [cursor=pointer]:
+          - /url: index.html
+        - generic [ref=f387e6]:
+          - link "Hub" [ref=f387e7] [cursor=pointer]:
+            - /url: index.html
+          - link "All pages" [ref=f387e8] [cursor=pointer]:
+            - /url: index.html#site-map
+          - link "Fans" [ref=f387e9] [cursor=pointer]:
+            - /url: ceiling-fans-gallery.html
+          - link "Desk" [ref=f387e10] [cursor=pointer]:
+            - /url: desks-gallery.html
+          - link "Chair" [ref=f387e11] [cursor=pointer]:
+            - /url: office-chairs-gallery.html
+          - link "Dining" [ref=f387e12] [cursor=pointer]:
+            - /url: dining-tables-gallery.html
+          - link "Filter" [ref=f387e13] [cursor=pointer]:
+            - /url: water-filters-gallery.html
+          - link "Fridge" [ref=f387e14] [cursor=pointer]:
+            - /url: fridge-gallery.html
+          - link "Furniture" [ref=f387e15] [cursor=pointer]:
+            - /url: furniture-gallery.html
+        - group [ref=f387e16]:
+          - generic "More ▾" [ref=f387e17] [cursor=pointer]
+    - banner [ref=f387e18]:
+      - generic [ref=f387e19]:
+        - paragraph [ref=f387e20]: Wedding home · Egypt · No kids · 2BR
+        - heading "Apartment Decision Hub" [level=1] [ref=f387e21]
+        - paragraph [ref=f387e22]:
+          - text: Interactive workspace for appliances, lighting, rooms, budget, and product comparisons. Your answers live in this browser; export JSON anytime so we can sync into the project
+          - code [ref=f387e23]: data/
+          - text: files.
+      - generic [ref=f387e24]:
+        - generic [ref=f387e25]:
+          - strong [ref=f387e26]: EGP
+          - text: pricing
+        - generic [ref=f387e27]: Interactive · long-running
+    - navigation "Sections" [ref=f387e28]:
+      - button "Dashboard" [ref=f387e29] [cursor=pointer]
+      - button "Profile" [ref=f387e30] [cursor=pointer]
+      - button "Priorities" [ref=f387e31] [cursor=pointer]
+      - button "Rooms" [ref=f387e32] [cursor=pointer]
+      - button "Categories" [ref=f387e33] [cursor=pointer]
+      - button "Products" [ref=f387e34] [cursor=pointer]
+      - button "Lighting" [ref=f387e35] [cursor=pointer]
+      - button "Budget" [ref=f387e36] [cursor=pointer]
+      - button "Export / Import" [ref=f387e37] [cursor=pointer]
+    - generic [ref=f387e38]:
+      - generic [ref=f387e39]:
+        - strong [ref=f387e40]: "Phase 2 research live:"
+        - link "Fans 56″" [ref=f387e41] [cursor=pointer]:
+          - /url: ceiling-fans-gallery.html
+        - text: ·
+        - link "TV stands" [ref=f387e42] [cursor=pointer]:
+          - /url: tv-stands-gallery.html
+        - text: ·
+        - link "Desks" [ref=f387e43] [cursor=pointer]:
+          - /url: desks-gallery.html
+        - text: ·
+        - link "Chairs" [ref=f387e44] [cursor=pointer]:
+          - /url: office-chairs-gallery.html
+        - text: ·
+        - link "Dining tables" [ref=f387e45] [cursor=pointer]:
+          - /url: dining-tables-gallery.html
+        - text: ·
+        - link "Dining chairs" [ref=f387e46] [cursor=pointer]:
+          - /url: dining-chairs-gallery.html
+        - text: ·
+        - link "Water RO" [ref=f387e47] [cursor=pointer]:
+          - /url: water-filters-gallery.html
+        - text: ·
+        - link "Guest sleep" [ref=f387e48] [cursor=pointer]:
+          - /url: guest-sleep-gallery.html
+        - text: . Jump to any page via the bar above or the
+        - link "full map" [ref=f387e49] [cursor=pointer]:
+          - /url: "#site-map"
+        - text: below.
+      - generic [ref=f387e50]:
+        - heading "Browse all pages" [level=2] [ref=f387e51]
+        - paragraph [ref=f387e52]:
+          - text: One-tap access to every gallery and tool. Use the sticky
+          - strong [ref=f387e53]: Apt Hub
+          - text: bar on any page, or the
+          - strong [ref=f387e54]: More ▾
+          - text: menu for the full list.
+        - generic [ref=f387e55]:
+          - generic [ref=f387e56]:
+            - heading "Hub" [level=3] [ref=f387e57]
+            - link "Decision hub Profile, rooms, budget, export" [ref=f387e59] [cursor=pointer]:
+              - /url: index.html
+              - generic [ref=f387e60]: Decision hub
+              - generic [ref=f387e61]: Profile, rooms, budget, export
+          - generic [ref=f387e62]:
+            - heading "Big appliances" [level=3] [ref=f387e63]
+            - generic [ref=f387e64]:
+              - link "Fridge" [ref=f387e65] [cursor=pointer]:
+                - /url: fridge-gallery.html
+              - link "Washer" [ref=f387e67] [cursor=pointer]:
+                - /url: washer-gallery.html
+              - link "Water heater" [ref=f387e69] [cursor=pointer]:
+                - /url: water-heater-gallery.html
+              - link "TV" [ref=f387e71] [cursor=pointer]:
+                - /url: tv-gallery.html
+              - link "All appliances" [ref=f387e73] [cursor=pointer]:
+                - /url: appliances.html
+              - link "Fridge deep-dive" [ref=f387e75] [cursor=pointer]:
+                - /url: fridge.html
+          - generic [ref=f387e77]:
+            - heading "Kitchen & comfort" [level=3] [ref=f387e78]
+            - generic [ref=f387e79]:
+              - link "Kitchen storage" [ref=f387e80] [cursor=pointer]:
+                - /url: kitchen-gallery.html
+              - link "Mattress" [ref=f387e82] [cursor=pointer]:
+                - /url: mattress-gallery.html
+              - link "Carpets" [ref=f387e84] [cursor=pointer]:
+                - /url: carpet-gallery.html
+              - link "Protein snacks" [ref=f387e86] [cursor=pointer]:
+                - /url: protein-gallery.html
+              - link "Sofa & bedroom" [ref=f387e88] [cursor=pointer]:
+                - /url: furniture-gallery.html
+          - generic [ref=f387e90]:
+            - heading "Phase 2 research" [level=3] [ref=f387e91]
+            - generic [ref=f387e92]:
+              - link "Ceiling fans 56″" [ref=f387e93] [cursor=pointer]:
+                - /url: ceiling-fans-gallery.html
+              - link "TV stands" [ref=f387e95] [cursor=pointer]:
+                - /url: tv-stands-gallery.html
+              - link "Office desks" [ref=f387e97] [cursor=pointer]:
+                - /url: desks-gallery.html
+              - link "Office chairs" [ref=f387e99] [cursor=pointer]:
+                - /url: office-chairs-gallery.html
+              - link "Dining tables" [ref=f387e101] [cursor=pointer]:
+                - /url: dining-tables-gallery.html
+              - link "Dining chairs ×4" [ref=f387e103] [cursor=pointer]:
+                - /url: dining-chairs-gallery.html
+              - link "Water filters RO" [ref=f387e105] [cursor=pointer]:
+                - /url: water-filters-gallery.html
+              - link "Guest sleep" [ref=f387e107] [cursor=pointer]:
+                - /url: guest-sleep-gallery.html
+      - generic [ref=f387e109]:
+        - generic [ref=f387e110]:
+          - heading "Progress" [level=2] [ref=f387e111]
+          - generic [ref=f387e112]:
+            - generic [ref=f387e113]:
+              - generic [ref=f387e114]: Complete
+              - generic [ref=f387e115]: 0%
+            - generic [ref=f387e116]:
+              - generic [ref=f387e117]: Tasks
+              - generic [ref=f387e118]: 0/18
+            - generic [ref=f387e119]:
+              - generic [ref=f387e120]: City
+              - generic [ref=f387e121]: Not set
+            - generic [ref=f387e122]:
+              - generic [ref=f387e123]: Budget
+              - generic [ref=f387e124]: Not set
+          - generic [ref=f387e126]:
+            - generic [ref=f387e127]:
+              - generic [ref=f387e128]: Open categories
+              - generic [ref=f387e129]: "6"
+            - generic [ref=f387e130]:
+              - generic [ref=f387e131]: Products tracked
+              - generic [ref=f387e132]: "0"
+          - button "+ Session note" [ref=f387e134] [cursor=pointer]
+        - generic [ref=f387e135]:
+          - heading "Session notes" [level=2] [ref=f387e136]
+          - list [ref=f387e137]:
+            - listitem [ref=f387e138]: No notes yet.
+      - generic [ref=f387e139]:
+        - heading "Master checklist" [level=2] [ref=f387e140]
+        - paragraph [ref=f387e141]: Tick items as you decide. Saved in this browser.
+        - generic [ref=f387e142]:
+          - generic [ref=f387e143]: Discover & profile
+          - list [ref=f387e144]:
+            - listitem [ref=f387e145]:
+              - checkbox "Confirm city / area" [ref=f387e146]
+              - generic [ref=f387e147] [cursor=pointer]: Confirm city / area
+            - listitem [ref=f387e148]:
+              - checkbox "Set overall budget band (EGP)" [ref=f387e149]
+              - generic [ref=f387e150] [cursor=pointer]: Set overall budget band (EGP)
+            - listitem [ref=f387e151]:
+              - checkbox "List what the apartment already has" [ref=f387e152]
+              - generic [ref=f387e153] [cursor=pointer]: List what the apartment already has
+            - listitem [ref=f387e154]:
+              - checkbox "Agree style keywords + colors" [ref=f387e155]
+              - generic [ref=f387e156] [cursor=pointer]: Agree style keywords + colors
+            - listitem [ref=f387e157]:
+              - checkbox "Decide second bedroom use" [ref=f387e158]
+              - generic [ref=f387e159] [cursor=pointer]: Decide second bedroom use
+            - listitem [ref=f387e160]:
+              - checkbox "Rank buy-now vs later" [ref=f387e161]
+              - generic [ref=f387e162] [cursor=pointer]: Rank buy-now vs later
+          - generic [ref=f387e163]: Big ticket appliances
+          - list [ref=f387e164]:
+            - listitem [ref=f387e165]:
+              - checkbox "Fridge shortlist + decision" [ref=f387e166]
+              - generic [ref=f387e167] [cursor=pointer]: Fridge shortlist + decision
+            - listitem [ref=f387e168]:
+              - checkbox "Cooker / hob decision" [ref=f387e169]
+              - generic [ref=f387e170] [cursor=pointer]: Cooker / hob decision
+            - listitem [ref=f387e171]:
+              - checkbox "Washer decision" [ref=f387e172]
+              - generic [ref=f387e173] [cursor=pointer]: Washer decision
+            - listitem [ref=f387e174]:
+              - checkbox "AC plan per room" [ref=f387e175]
+              - generic [ref=f387e176] [cursor=pointer]: AC plan per room
+            - listitem [ref=f387e177]:
+              - checkbox "Water heater plan" [ref=f387e178]
+              - generic [ref=f387e179] [cursor=pointer]: Water heater plan
+          - generic [ref=f387e180]: Comfort & light
+          - list [ref=f387e181]:
+            - listitem [ref=f387e182]:
+              - checkbox "Whole-home lighting plan" [ref=f387e183]
+              - generic [ref=f387e184] [cursor=pointer]: Whole-home lighting plan
+            - listitem [ref=f387e185]:
+              - checkbox "Curtains / blinds" [ref=f387e186]
+              - generic [ref=f387e187] [cursor=pointer]: Curtains / blinds
+            - listitem [ref=f387e188]:
+              - checkbox "Mattress + bed" [ref=f387e189]
+              - generic [ref=f387e190] [cursor=pointer]: Mattress + bed
+          - generic [ref=f387e191]: Furnish & style
+          - list [ref=f387e192]:
+            - listitem [ref=f387e193]:
+              - checkbox "Living furniture" [ref=f387e194]
+              - generic [ref=f387e195] [cursor=pointer]: Living furniture
+            - listitem [ref=f387e196]:
+              - checkbox "Dining solution" [ref=f387e197]
+              - generic [ref=f387e198] [cursor=pointer]: Dining solution
+            - listitem [ref=f387e199]:
+              - checkbox "Second room furniture" [ref=f387e200]
+              - generic [ref=f387e201] [cursor=pointer]: Second room furniture
+            - listitem [ref=f387e202]:
+              - checkbox "Rugs, textiles, decor" [ref=f387e203]
+              - generic [ref=f387e204] [cursor=pointer]: Rugs, textiles, decor
+    - text: "* *"
+    - contentinfo [ref=f387e205]:
+      - text: Local decision hub · Open this folder via a tiny static server if
+      - code [ref=f387e206]: fetch('data/…')
+      - text: is blocked on
+      - code [ref=f387e207]: file://
+      - text: · Data also persists in localStorage.
+  - status

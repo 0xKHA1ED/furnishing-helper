@@ -1,0 +1,237 @@
+- generic [ref=f388e2]:
+  - navigation "Site" [ref=f388e3]:
+    - generic [ref=f388e4]:
+      - link "Apt Hub" [ref=f388e5] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=f388e6]:
+        - link "Hub" [ref=f388e7] [cursor=pointer]:
+          - /url: index.html
+        - link "All pages" [ref=f388e8] [cursor=pointer]:
+          - /url: index.html#site-map
+        - link "Fans" [ref=f388e9] [cursor=pointer]:
+          - /url: ceiling-fans-gallery.html
+        - link "Desk" [ref=f388e10] [cursor=pointer]:
+          - /url: desks-gallery.html
+        - link "Chair" [ref=f388e11] [cursor=pointer]:
+          - /url: office-chairs-gallery.html
+        - link "Dining" [ref=f388e12] [cursor=pointer]:
+          - /url: dining-tables-gallery.html
+        - link "Filter" [ref=f388e13] [cursor=pointer]:
+          - /url: water-filters-gallery.html
+        - link "Fridge" [ref=f388e14] [cursor=pointer]:
+          - /url: fridge-gallery.html
+        - link "Furniture" [ref=f388e15] [cursor=pointer]:
+          - /url: furniture-gallery.html
+      - group [ref=f388e16]:
+        - generic "More ▾" [ref=f388e17] [cursor=pointer]
+  - banner [ref=f388e18]:
+    - generic [ref=f388e19]:
+      - paragraph [ref=f388e20]:
+        - link "← Hub" [ref=f388e21] [cursor=pointer]:
+          - /url: index.html
+        - text: ·
+        - link "All pages" [ref=f388e22] [cursor=pointer]:
+          - /url: index.html#site-map
+        - text: · Phase 2 research
+      - heading "Ceiling fans — 56″ white" [level=1] [ref=f388e23]
+      - paragraph [ref=f388e24]: "Three matching white 56″ ceiling fans for living, master, and second bedroom. Soft budget: value packs or known brands. Ready-made, no custom."
+      - paragraph [ref=f388e25]: 3 identical white 56″ fans · soft budget (value packs ~3–7k total)
+    - generic [ref=f388e26]:
+      - generic [ref=f388e27]: 12 options
+      - generic [ref=f388e28]: ×3 rooms
+  - generic [ref=f388e29]:
+    - strong [ref=f388e30]: "Note:"
+    - text: Live Jumia scrape mid‑2026. Confirm white + 56″ on the product page. Buy three identical models. Electrician installs ceiling hook/wiring. Prices change daily.
+  - generic [ref=f388e31]:
+    - button "All options" [ref=f388e32] [cursor=pointer]
+    - button "3-packs" [ref=f388e33] [cursor=pointer]
+    - button "Value singles" [ref=f388e34] [cursor=pointer]
+    - button "Known brands" [ref=f388e35] [cursor=pointer]
+    - button "Remote / light" [ref=f388e36] [cursor=pointer]
+    - button "★ Starred" [ref=f388e37] [cursor=pointer]
+  - generic [ref=f388e38]:
+    - generic [ref=f388e39]:
+      - text: Search
+      - searchbox "Search" [ref=f388e40]
+    - generic [ref=f388e41]:
+      - text: Shop
+      - combobox "Shop" [ref=f388e42]:
+        - option "All shops" [selected]
+        - option "Jumia"
+    - generic [ref=f388e43]:
+      - text: Max EGP
+      - spinbutton "Max EGP" [ref=f388e44]
+    - generic [ref=f388e45]:
+      - text: Sort
+      - combobox "Sort" [ref=f388e46]:
+        - option "Price ↑" [selected]
+        - option "Price ↓"
+        - option "Recommended first"
+        - option "Name"
+  - paragraph [ref=f388e47]: Showing 12 of 12 · 0 starred
+  - generic [ref=f388e48]:
+    - article [ref=f388e49] [cursor=pointer]:
+      - generic [ref=f388e50]:
+        - generic [ref=f388e51]:
+          - generic [ref=f388e52]: Jumia
+          - generic [ref=f388e53]: Nautical
+        - button "★" [ref=f388e54]
+      - generic [ref=f388e55]:
+        - generic [ref=f388e56]: Jumia · Nautical
+        - heading "Nautical J-560Z1-56 3-fin white" [level=3] [ref=f388e57]
+        - generic [ref=f388e58]: value · white · 56
+        - paragraph [ref=f388e59]: Lowest single prices on Jumia — expect basic quality.
+        - generic [ref=f388e60]: 949 EGP · each
+    - article [ref=f388e61] [cursor=pointer]:
+      - generic [ref=f388e62]:
+        - generic [ref=f388e63]:
+          - generic [ref=f388e64]: Jumia
+          - generic [ref=f388e65]: ATA
+        - generic [ref=f388e66]: Value
+        - button "★" [ref=f388e68]
+      - generic [ref=f388e69]:
+        - generic [ref=f388e70]: Jumia · ATA
+        - heading "ATA CF236 56″ white 5-speed 3-blade" [level=3] [ref=f388e71]
+        - generic [ref=f388e72]: value · white · 56
+        - paragraph [ref=f388e73]: Popular cheap white single; several similar ATA listings.
+        - generic [ref=f388e74]: 1,088 EGP · each
+    - article [ref=f388e75] [cursor=pointer]:
+      - generic [ref=f388e76]:
+        - generic [ref=f388e77]:
+          - generic [ref=f388e78]: Jumia
+          - generic [ref=f388e79]: Jac
+        - button "★" [ref=f388e80]
+      - generic [ref=f388e81]:
+        - generic [ref=f388e82]: Jumia · Jac
+        - heading "Jac ceiling fan 56″ 75W NGCF-2030 — white" [level=3] [ref=f388e83]
+        - generic [ref=f388e84]: value · white · 56
+        - paragraph [ref=f388e85]: Cheap white single; ×3 ≈ 3.8k.
+        - generic [ref=f388e86]: 1,279 EGP · each
+    - article [ref=f388e87] [cursor=pointer]:
+      - generic [ref=f388e88]:
+        - generic [ref=f388e89]:
+          - generic [ref=f388e90]: Jumia
+          - generic [ref=f388e91]: Rovo
+        - button "★" [ref=f388e92]
+      - generic [ref=f388e93]:
+        - generic [ref=f388e94]: Jumia · Rovo
+        - heading "Rovo 56″ 3-blade 5-speed white" [level=3] [ref=f388e95]
+        - generic [ref=f388e96]: value · white · 56
+        - paragraph [ref=f388e97]: Mid budget white single.
+        - generic [ref=f388e98]: 1,349 EGP · each
+    - article [ref=f388e99] [cursor=pointer]:
+      - generic [ref=f388e100]:
+        - generic [ref=f388e101]:
+          - generic [ref=f388e102]: Jumia
+          - generic [ref=f388e103]: Sonai
+        - generic [ref=f388e104]: Recommended
+        - button "★" [ref=f388e106]
+      - generic [ref=f388e107]:
+        - generic [ref=f388e108]: Jumia · Sonai
+        - heading "Sonai MAR-560 56″ white anti-vibration · 2 yr warranty" [level=3] [ref=f388e109]
+        - generic [ref=f388e110]: value · white · 56 · brand
+        - paragraph [ref=f388e111]: Anti-vibration claim useful for nightly use without AC.
+        - generic [ref=f388e112]: 1,399 EGP · each
+    - article [ref=f388e113] [cursor=pointer]:
+      - generic [ref=f388e114]:
+        - generic [ref=f388e115]:
+          - generic [ref=f388e116]: Jumia
+          - generic [ref=f388e117]: Castle
+        - generic [ref=f388e118]: Recommended
+        - button "★" [ref=f388e120]
+      - generic [ref=f388e121]:
+        - generic [ref=f388e122]: Jumia · Castle
+        - heading "Castle FAC1056GW 56″ white — copper motor claim · 3 yr warranty" [level=3] [ref=f388e123]
+        - generic [ref=f388e124]: value · white · 56 · brand
+        - paragraph [ref=f388e125]: Wall speed control, warranty listed — solid mid value.
+        - generic [ref=f388e126]: 1,449 EGP · each
+    - article [ref=f388e127] [cursor=pointer]:
+      - generic [ref=f388e128]:
+        - generic [ref=f388e129]:
+          - generic [ref=f388e130]: Jumia
+          - generic [ref=f388e131]: Fresh
+        - generic [ref=f388e132]: Recommended
+        - button "★" [ref=f388e134]
+      - generic [ref=f388e135]:
+        - generic [ref=f388e136]: Jumia · Fresh
+        - heading "Fresh Typhoon 56″ white" [level=3] [ref=f388e137]
+        - generic [ref=f388e138]: brand · white · 56
+        - paragraph [ref=f388e139]: Known Egyptian brand — better spare-parts path.
+        - generic [ref=f388e140]: 1,760 EGP · each · sellers vary ~1.75–2.4k
+    - article [ref=f388e141] [cursor=pointer]:
+      - generic [ref=f388e142]:
+        - generic [ref=f388e143]:
+          - generic [ref=f388e144]: Jumia
+          - generic [ref=f388e145]: Prifix
+        - button "★" [ref=f388e146]
+      - generic [ref=f388e147]:
+        - generic [ref=f388e148]: Jumia · Prifix
+        - heading "Prifix Power CFP-560 56″ white" [level=3] [ref=f388e149]
+        - generic [ref=f388e150]: brand · white · 56
+        - paragraph [ref=f388e151]: Mid brand white fan without light kit.
+        - generic [ref=f388e152]: 2,099 EGP · each
+    - article [ref=f388e153] [cursor=pointer]:
+      - generic [ref=f388e154]:
+        - generic [ref=f388e155]:
+          - generic [ref=f388e156]: Jumia
+          - generic [ref=f388e157]: Tornado
+        - generic [ref=f388e158]: Recommended
+        - button "★" [ref=f388e160]
+      - generic [ref=f388e161]:
+        - generic [ref=f388e162]: Jumia · Tornado
+        - heading "Tornado TCF56WW 56″ white 5-speed metal blades" [level=3] [ref=f388e163]
+        - generic [ref=f388e164]: brand · white · 56
+        - paragraph [ref=f388e165]: Stronger brand tier for quiet daily use.
+        - generic [ref=f388e166]: 2,333 EGP · each · ~2.3–2.5k
+    - article [ref=f388e167] [cursor=pointer]:
+      - generic [ref=f388e168]:
+        - generic [ref=f388e169]:
+          - generic [ref=f388e170]: Jumia
+          - generic [ref=f388e171]: HOHO
+        - generic [ref=f388e172]: Value
+        - button "★" [ref=f388e174]
+      - generic [ref=f388e175]:
+        - generic [ref=f388e176]: Jumia · HOHO
+        - heading "HOHO 56″ 5-speed steel blades — pack of 3 (HC1856)" [level=3] [ref=f388e177]
+        - generic [ref=f388e178]: pack · value · white · 56
+        - paragraph [ref=f388e179]: Budget 3-pack, 75W, 5 speeds claimed.
+        - generic [ref=f388e180]: 2,799 EGP · pack of 3
+    - article [ref=f388e181] [cursor=pointer]:
+      - generic [ref=f388e182]:
+        - generic [ref=f388e183]:
+          - generic [ref=f388e184]: Jumia
+          - generic [ref=f388e185]: Carnival
+        - generic [ref=f388e186]: Value
+        - button "★" [ref=f388e188]
+      - generic [ref=f388e189]:
+        - generic [ref=f388e190]: Jumia · Carnival
+        - heading "Carnival 56″ white — carton of 3" [level=3] [ref=f388e191]
+        - generic [ref=f388e192]: pack · value · white · 56
+        - paragraph [ref=f388e193]: Bulk carton — check stock and that all three are white 56″.
+        - generic [ref=f388e194]: 2,995 EGP · pack of 3
+    - article [ref=f388e195] [cursor=pointer]:
+      - generic [ref=f388e196]:
+        - generic [ref=f388e197]:
+          - generic [ref=f388e198]: Jumia
+          - generic [ref=f388e199]: Prifix
+        - generic [ref=f388e200]: Soft stretch
+        - button "★" [ref=f388e202]
+      - generic [ref=f388e203]:
+        - generic [ref=f388e204]: Jumia · Prifix
+        - heading "Prifix Jumbo CFJ-563 remote + lighting 56″" [level=3] [ref=f388e205]
+        - generic [ref=f388e206]: remote_light · 56
+        - paragraph [ref=f388e207]: Remote + light combo — only if you want fixture+fan.
+        - generic [ref=f388e208]: 4,399 EGP · each
+  - generic [ref=f388e209]:
+    - heading "Shopping route" [level=2] [ref=f388e210]
+    - list [ref=f388e211]:
+      - listitem [ref=f388e212]: Prefer identical models for living + master + second bedroom
+      - listitem [ref=f388e213]: "Value path: Carnival/HOHO 3-pack or 3× ATA/Nautical"
+      - listitem [ref=f388e214]: "Safer brand path: Fresh Typhoon or Tornado white 56″ ×3"
+      - listitem [ref=f388e215]: Listen for motor noise if you can see a floor model
+  - contentinfo [ref=f388e216]:
+    - text: "Data:"
+    - code [ref=f388e217]: data/research/ceiling-fans.json
+    - text: · Prices move — re-check before buy ·
+    - link "All hub pages" [ref=f388e218] [cursor=pointer]:
+      - /url: index.html#site-map

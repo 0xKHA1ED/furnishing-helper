@@ -1,0 +1,1087 @@
+- generic [ref=e2]:
+  - link [ref=e5] [cursor=pointer]:
+    - /url: https://www.jumia.com.eg/flash-sales/
+    - img "Desktop - Flash Sale" [ref=e6]
+  - generic [ref=e7]:
+    - link "Sell on Jumia" [ref=e9] [cursor=pointer]:
+      - /url: /sp-sell-on-jumia/
+    - generic [ref=e12]:
+      - generic "Jumia" [ref=e13]
+      - link "Jumia Pay" [ref=e16] [cursor=pointer]:
+        - /url: https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar
+    - generic [ref=e19]:
+      - generic [ref=e20]: English
+      - link [ref=e24] [cursor=pointer]:
+        - /url: /ar/catalog/?q=ceiling+fan+56
+  - banner [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - checkbox "Navigate Categories" [ref=e32]
+        - link [ref=e37] [cursor=pointer]:
+          - /url: /
+          - img "Start Online Shopping For Fashion, Electronics & More - Discover Your Onlinestore | Jumia Egypt" [ref=e38]
+      - generic [ref=e40]:
+        - search [ref=e41]:
+          - textbox "Search" [ref=e44]:
+            - /placeholder: Search products, brands and categories
+            - text: ceiling fan 56
+          - button "Reset" [ref=e45]
+          - button "Search" [ref=e48] [cursor=pointer]
+        - button [ref=e49] [cursor=pointer]:
+          - img "header_ai_assistant-cta" [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - checkbox "Account" [ref=e53]
+          - generic [ref=e54] [cursor=pointer]: Account
+        - generic [ref=e61]:
+          - checkbox "Help" [ref=e62]
+          - generic [ref=e63] [cursor=pointer]: Help
+        - link "Cart" [ref=e70] [cursor=pointer]:
+          - /url: /cart/
+  - article [ref=e74]:
+    - heading "This website uses cookies" [level=2] [ref=e75]
+    - paragraph [ref=e76]:
+      - text: This website uses cookies. For further information on how we use cookies you can read our
+      - link "Privacy and Cookie notice" [ref=e77] [cursor=pointer]:
+        - /url: /sp-privacy/
+    - button "Accept cookies" [ref=e78] [cursor=pointer]
+  - main [ref=e80]:
+    - generic [ref=e82]:
+      - link "Home>" [ref=e83] [cursor=pointer]:
+        - /url: /
+      - link "All Products>" [ref=e84] [cursor=pointer]:
+        - /url: /all-products/
+      - text: ceiling fan 56
+    - generic [ref=e85]:
+      - generic [ref=e87]:
+        - article [ref=e88]:
+          - heading "Category" [level=2] [ref=e89]
+          - link "Phones & Tablets" [ref=e90] [cursor=pointer]:
+            - /url: /phones-tablets/?q=ceiling+fan+56#catalog-listing
+          - link "Home & Office" [ref=e91] [cursor=pointer]:
+            - /url: /home-office/?q=ceiling+fan+56#catalog-listing
+        - article [ref=e92]:
+          - heading "Express Delivery" [level=2] [ref=e94]
+          - generic [ref=e96]:
+            - link "Jumia Express" [ref=e97] [cursor=pointer]:
+              - /url: /catalog/?q=ceiling+fan+56&shop_premium_services=shop_express#catalog-listing
+            - button "Details" [ref=e100] [cursor=pointer]
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - heading "Price (EGP)" [level=2] [ref=e105]
+            - button "Apply" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - slider "Min": "140"
+            - slider "Max": "9850"
+          - generic [ref=e109]:
+            - spinbutton "Min" [ref=e111]: "140"
+            - generic [ref=e112]: "-"
+            - spinbutton "Max" [ref=e114]: "9850"
+        - article [ref=e115]:
+          - heading "Discount Percentage" [level=2] [ref=e117]
+          - link "50% or more" [ref=e119] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&price_discount=50-100#catalog-listing
+          - link "40% or more" [ref=e121] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&price_discount=40-100#catalog-listing
+          - link "30% or more" [ref=e123] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&price_discount=30-100#catalog-listing
+          - link "20% or more" [ref=e125] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&price_discount=20-100#catalog-listing
+          - link "10% or more" [ref=e127] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&price_discount=10-100#catalog-listing
+        - article [ref=e128]:
+          - heading "Brand" [level=2] [ref=e130]
+          - generic [ref=e131]:
+            - link "AKAI" [ref=e132] [cursor=pointer]:
+              - /url: /akai/?q=ceiling+fan+56#catalog-listing
+            - link "ATA" [ref=e133] [cursor=pointer]:
+              - /url: /ata/?q=ceiling+fan+56#catalog-listing
+            - link "Bergen" [ref=e134] [cursor=pointer]:
+              - /url: /bergen/?q=ceiling+fan+56#catalog-listing
+            - link "Carnival" [ref=e135] [cursor=pointer]:
+              - /url: /carnival/?q=ceiling+fan+56#catalog-listing
+            - link "Castle" [ref=e136] [cursor=pointer]:
+              - /url: /castle/?q=ceiling+fan+56#catalog-listing
+            - link "Fresh" [ref=e137] [cursor=pointer]:
+              - /url: /fresh/?q=ceiling+fan+56#catalog-listing
+            - link "General" [ref=e138] [cursor=pointer]:
+              - /url: /general/?q=ceiling+fan+56#catalog-listing
+            - link "Generic" [ref=e139] [cursor=pointer]:
+              - /url: /generic/?q=ceiling+fan+56#catalog-listing
+            - link "Happiness" [ref=e140] [cursor=pointer]:
+              - /url: /happiness/?q=ceiling+fan+56#catalog-listing
+            - link "HOHO" [ref=e141] [cursor=pointer]:
+              - /url: /hoho/?q=ceiling+fan+56#catalog-listing
+            - link "Jac" [ref=e142] [cursor=pointer]:
+              - /url: /jac/?q=ceiling+fan+56#catalog-listing
+            - link "Jack" [ref=e143] [cursor=pointer]:
+              - /url: /brand-15816-jack/?q=ceiling+fan+56#catalog-listing
+            - link "Kandil" [ref=e144] [cursor=pointer]:
+              - /url: /kandil/?q=ceiling+fan+56#catalog-listing
+            - link "Nautical" [ref=e145] [cursor=pointer]:
+              - /url: /nautical/?q=ceiling+fan+56#catalog-listing
+            - link "Panasonic" [ref=e146] [cursor=pointer]:
+              - /url: /panasonic/?q=ceiling+fan+56#catalog-listing
+            - link "Prifix" [ref=e147] [cursor=pointer]:
+              - /url: /prifix/?q=ceiling+fan+56#catalog-listing
+            - link "Rovo" [ref=e148] [cursor=pointer]:
+              - /url: /rovo/?q=ceiling+fan+56#catalog-listing
+            - link "Sonai" [ref=e149] [cursor=pointer]:
+              - /url: /sonai/?q=ceiling+fan+56#catalog-listing
+            - link "Torando" [ref=e150] [cursor=pointer]:
+              - /url: /torando/?q=ceiling+fan+56#catalog-listing
+            - link "TORNADO" [ref=e151] [cursor=pointer]:
+              - /url: /tornado/?q=ceiling+fan+56#catalog-listing
+        - article [ref=e152]:
+          - heading "Official Stores" [level=2] [ref=e154]
+          - link "Only Official Store" [ref=e156] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&official_store=1#catalog-listing
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: (102 products found)
+            - generic [ref=e162]:
+              - checkbox "Popularity" [ref=e163]
+              - generic [ref=e164] [cursor=pointer]:
+                - generic [ref=e165]: "Sort by:"
+                - generic [ref=e166]: Popularity
+          - generic [ref=e169]:
+            - generic [ref=e170]:
+              - generic [ref=e171]: "Related results:"
+              - link "alcatel t56 black" [ref=e173] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/alcatel-t56-black
+              - link "lami ceiling lamp" [ref=e175] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/lami-ceiling-lamp
+              - link "ceiling lighting unit" [ref=e177] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/ceiling-lighting-unit
+              - link "layered ceiling pendant" [ref=e179] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/layered-ceiling-pendant
+              - link "single ceiling gold" [ref=e181] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/single-ceiling-gold
+              - link "office ceiling spotlights" [ref=e183] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/office-ceiling-spotlights
+              - link "spanish folding fan" [ref=e185] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/spanish-folding-fan
+              - link "fan heater white" [ref=e187] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/fan-heater-white
+              - link "triple ceiling lamp" [ref=e189] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/triple-ceiling-lamp
+              - link "dual head fan" [ref=e191] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/dual-head-fan
+              - link "compact ceiling light" [ref=e193] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/compact-ceiling-light
+              - link "sonos ceiling speaker" [ref=e195] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/sonos-ceiling-speaker
+              - link "galaxy a56" [ref=e197] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/galaxy-a56
+              - link "ceiling chandelier gold" [ref=e199] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/ceiling-chandelier-gold
+              - link "two direction fan" [ref=e201] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/two-direction-fan
+              - link "soccer fan collectibles" [ref=e203] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/soccer-fan-collectibles
+              - link "galaxy a56 128gb" [ref=e205] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/galaxy-a56-128gb
+              - link "ceiling spotlight white" [ref=e207] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/ceiling-spotlight-white
+              - link "outdoor ceiling fans" [ref=e209] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/outdoor-ceiling-fans
+              - link "galaxy a56 black" [ref=e211] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/galaxy-a56-black
+              - link "phone holder fan" [ref=e213] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/phone-holder-fan
+              - link "oscillating adjustable fan" [ref=e215] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/oscillating-adjustable-fan
+              - link "hdd cooling fan" [ref=e217] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/hdd-cooling-fan
+              - link "ceiling lamp metal" [ref=e219] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/ceiling-lamp-metal
+              - link "dual fan cooling" [ref=e221] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/dual-fan-cooling
+              - link "galaxy a56 white" [ref=e223] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/galaxy-a56-white
+              - link "dreo smart fan" [ref=e225] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/dreo-smart-fan
+              - link "folding fan orange" [ref=e227] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/folding-fan-orange
+              - link "sonai fan black" [ref=e229] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/sonai-fan-black
+              - link "xiaomi mijia fan" [ref=e231] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/xiaomi-mijia-fan
+              - link "ceiling fan motor" [ref=e233] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/ceiling-fan-motor
+              - link "fandelier ceiling fan with light" [ref=e235] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/fandelier-ceiling-fan-with-light
+              - link "modern wood ceiling fan" [ref=e237] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/modern-wood-ceiling-fan
+              - link "highest lumen ceiling fan" [ref=e239] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/highest-lumen-ceiling-fan
+              - link "bladeless ceiling fan with light" [ref=e241] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/bladeless-ceiling-fan-with-light
+              - link "budget outdoor ceiling fan" [ref=e243] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/budget-outdoor-ceiling-fan
+              - link "low profile ceiling fan with lighting remote" [ref=e245] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/low-profile-ceiling-fan-with-lighting-remote
+              - link "non hard wired ceiling fan" [ref=e247] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/non-hard-wired-ceiling-fan
+              - link "glass bowl ceiling fan light" [ref=e249] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/glass-bowl-ceiling-fan-light
+              - link "white propeller style ceiling fan with light" [ref=e251] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/white-propeller-style-ceiling-fan-with-light
+              - link "ceiling hugger fan with light" [ref=e253] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/ceiling-hugger-fan-with-light
+              - link "small outdoor ceiling fan" [ref=e255] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/small-outdoor-ceiling-fan
+              - link "ceiling fan bottom cap" [ref=e257] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/ceiling-fan-bottom-cap
+              - link "metal outdoor ceiling fans with lights" [ref=e259] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/metal-outdoor-ceiling-fans-with-lights
+              - link "quickie microfiber ceiling fan cleaner" [ref=e261] [cursor=pointer]:
+                - /url: https://www.jumia.com.eg/slp/quickie-microfiber-ceiling-fan-cleaner
+            - button "previous" [ref=e262]
+            - button "next" [ref=e265] [cursor=pointer]
+        - generic [ref=e268]:
+          - link [ref=e269] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&shop_premium_services=shop_express#catalog-listing
+            - img "Jumia Express" [ref=e270]
+          - generic [ref=e272]:
+            - checkbox "Brand" [ref=e273]
+            - generic [ref=e274] [cursor=pointer]: Brand
+          - generic [ref=e278]:
+            - checkbox "Price" [ref=e279]
+            - generic [ref=e280] [cursor=pointer]: Price
+        - generic [ref=e284]:
+          - article [ref=e285]:
+            - button [ref=e286] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e287]
+            - link "Nautical J-560Z1-56 Ceiling Fan - 3Fins - White Nautical J-560Z1-56 Ceiling Fan - 3Fins - White EGP 949.00 EGP 1,999.00 - 53% 3.9 out of 5 (307) Express Shipping" [ref=e289] [cursor=pointer]:
+              - /url: /nautical-j-560z1-56-ceiling-fan-3fins-white-18312369.html
+              - img "Nautical J-560Z1-56 Ceiling Fan - 3Fins - White" [ref=e291]
+              - generic [ref=e292]:
+                - heading "Nautical J-560Z1-56 Ceiling Fan - 3Fins - White" [level=3] [ref=e293]
+                - generic [ref=e294]: EGP 949.00
+                - generic [ref=e295]:
+                  - generic [ref=e296]: EGP 1,999.00
+                  - generic [ref=e297]: "- 53%"
+                - generic [ref=e298]:
+                  - generic [ref=e299]: 3.9 out of 5
+                  - text: (307)
+                - img "Express Shipping" [ref=e301]
+          - article [ref=e305]:
+            - button [ref=e306] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e307]
+            - link "HOHO 56-Inch Ceiling Fan with 5 Speeds, Powerful Motor, Quiet Operation, Steel Blades, 75W – Pack of 3 – Model HC1856 HOHO 56-Inch Ceiling Fan with 5 Speeds, Powerful Motor, Quiet Operation, Steel Blades, 75W – Pack of 3 – Model HC1856 EGP 2,799.00 EGP 3,500.00 - 20% 5 out of 5 (1) Express Shipping" [ref=e309] [cursor=pointer]:
+              - /url: /hoho-56-inch-ceiling-fan-with-5-speeds-powerful-motor-quiet-operation-steel-blades-75w-pack-of-3-model-hc1856-134583822.html
+              - img "HOHO 56-Inch Ceiling Fan with 5 Speeds, Powerful Motor, Quiet Operation, Steel Blades, 75W – Pack of 3 – Model HC1856" [ref=e311]
+              - generic [ref=e312]:
+                - heading "HOHO 56-Inch Ceiling Fan with 5 Speeds, Powerful Motor, Quiet Operation, Steel Blades, 75W – Pack of 3 – Model HC1856" [level=3] [ref=e313]
+                - generic [ref=e314]: EGP 2,799.00
+                - generic [ref=e315]:
+                  - generic [ref=e316]: EGP 3,500.00
+                  - generic [ref=e317]: "- 20%"
+                - generic [ref=e318]:
+                  - generic [ref=e319]: 5 out of 5
+                  - text: (1)
+                - img "Express Shipping" [ref=e321]
+          - article [ref=e325]:
+            - button [ref=e326] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e327]
+            - link "Jac Ceiling Fan, 56 Inch, 75 Watt, NGCF-2030 – White Jac Ceiling Fan, 56 Inch, 75 Watt, NGCF-2030 – White EGP 1,279.00 EGP 4,000.00 - 68% 5 out of 5 (2) Express Shipping" [ref=e329] [cursor=pointer]:
+              - /url: /jac-ceiling-fan-56-inch-75-watt-ngcf-2030-white-134600637.html
+              - img "Jac Ceiling Fan, 56 Inch, 75 Watt, NGCF-2030 – White" [ref=e331]
+              - generic [ref=e332]:
+                - heading "Jac Ceiling Fan, 56 Inch, 75 Watt, NGCF-2030 – White" [level=3] [ref=e333]
+                - generic [ref=e334]: EGP 1,279.00
+                - generic [ref=e335]:
+                  - generic [ref=e336]: EGP 4,000.00
+                  - generic [ref=e337]: "- 68%"
+                - generic [ref=e338]:
+                  - generic [ref=e339]: 5 out of 5
+                  - text: (2)
+                - img "Express Shipping" [ref=e341]
+          - article [ref=e345]:
+            - button [ref=e346] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e347]
+            - link "Nautical J-560Z1-56 Ceiling Fan - 3Fins - White&Black Nautical J-560Z1-56 Ceiling Fan - 3Fins - White&Black EGP 939.00 EGP 1,500.00 - 37% Express Shipping" [ref=e349] [cursor=pointer]:
+              - /url: /nautical-j-560z1-56-ceiling-fan-3fins-whiteblack-134626031.html
+              - img "Nautical J-560Z1-56 Ceiling Fan - 3Fins - White&Black" [ref=e351]
+              - generic [ref=e352]:
+                - heading "Nautical J-560Z1-56 Ceiling Fan - 3Fins - White&Black" [level=3] [ref=e353]
+                - generic [ref=e354]: EGP 939.00
+                - generic [ref=e355]:
+                  - generic [ref=e356]: EGP 1,500.00
+                  - generic [ref=e357]: "- 37%"
+                - img "Express Shipping" [ref=e358]
+          - article [ref=e362]:
+            - button [ref=e363] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e364]
+            - link "Fresh Typhoon 56-inch ceiling fan Fresh Typhoon 56-inch ceiling fan EGP 1,949.00 EGP 2,000.00 - 3% 3 out of 5 (2) Express Shipping" [ref=e366] [cursor=pointer]:
+              - /url: /fresh-typhoon-56-inch-ceiling-fan-134499994.html
+              - img "Fresh Typhoon 56-inch ceiling fan" [ref=e368]
+              - generic [ref=e369]:
+                - heading "Fresh Typhoon 56-inch ceiling fan" [level=3] [ref=e370]
+                - generic [ref=e371]: EGP 1,949.00
+                - generic [ref=e372]:
+                  - generic [ref=e373]: EGP 2,000.00
+                  - generic [ref=e374]: "- 3%"
+                - generic [ref=e375]:
+                  - generic [ref=e376]: 3 out of 5
+                  - text: (2)
+                - img "Express Shipping" [ref=e378]
+          - article [ref=e382]:
+            - button [ref=e383] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e384]
+            - link "Castle Ceiling Fan 56 Inch – 3 Blades – 5 Speeds – 100% Copper Motor – Quiet Operation – Wall Speed Control – White – Model FAC1056GW – 3 Years Warranty Castle Ceiling Fan 56 Inch – 3 Blades – 5 Speeds – 100% Copper Motor – Quiet Operation – Wall Speed Control – White – Model FAC1056GW – 3 Years Warranty EGP 1,449.00 EGP 2,149.00 - 33% 4 out of 5 (2)" [ref=e386] [cursor=pointer]:
+              - /url: /castle-ceiling-fan-56-inch-3-blades-5-speeds-100-copper-motor-quiet-operation-wall-speed-control-white-model-fac1056gw-3-years-warranty-134583134.html
+              - img "Castle Ceiling Fan 56 Inch – 3 Blades – 5 Speeds – 100% Copper Motor – Quiet Operation – Wall Speed Control – White – Model FAC1056GW – 3 Years Warranty" [ref=e388]
+              - generic [ref=e389]:
+                - heading "Castle Ceiling Fan 56 Inch – 3 Blades – 5 Speeds – 100% Copper Motor – Quiet Operation – Wall Speed Control – White – Model FAC1056GW – 3 Years Warranty" [level=3] [ref=e390]
+                - generic [ref=e391]: EGP 1,449.00
+                - generic [ref=e392]:
+                  - generic [ref=e393]: EGP 2,149.00
+                  - generic [ref=e394]: "- 33%"
+                - generic [ref=e395]:
+                  - generic [ref=e396]: 4 out of 5
+                  - text: (2)
+          - article [ref=e400]:
+            - button [ref=e401] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e402]
+            - link "Fresh Typhoon Ceiling Fan, 56 inches, White - Fresh-500021298 Fresh Typhoon Ceiling Fan, 56 inches, White - Fresh-500021298 EGP 1,760.00 EGP 2,999.00 - 41% 5 out of 5 (1)" [ref=e404] [cursor=pointer]:
+              - /url: /fresh-typhoon-ceiling-fan-56-inches-white-fresh-500021298-134396356.html
+              - img "Fresh Typhoon Ceiling Fan, 56 inches, White - Fresh-500021298" [ref=e406]
+              - generic [ref=e407]:
+                - heading "Fresh Typhoon Ceiling Fan, 56 inches, White - Fresh-500021298" [level=3] [ref=e408]
+                - generic [ref=e409]: EGP 1,760.00
+                - generic [ref=e410]:
+                  - generic [ref=e411]: EGP 2,999.00
+                  - generic [ref=e412]: "- 41%"
+                - generic [ref=e413]:
+                  - generic [ref=e414]: 5 out of 5
+                  - text: (1)
+          - article [ref=e418]:
+            - button [ref=e419] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e420]
+            - link "TORNADO Ceiling Fan 56 Inch with 3 Metal Blades and 5 Speeds - White Color TCF56WW TORNADO Ceiling Fan 56 Inch with 3 Metal Blades and 5 Speeds - White Color TCF56WW EGP 2,333.00 EGP 3,000.00 - 22% 4.2 out of 5 (128)" [ref=e422] [cursor=pointer]:
+              - /url: /tornado-ceiling-fan-56-inch-with-3-metal-blades-and-5-speeds-white-color-tcf56ww-20776698.html
+              - img "TORNADO Ceiling Fan 56 Inch with 3 Metal Blades and 5 Speeds - White Color TCF56WW" [ref=e424]
+              - generic [ref=e425]:
+                - heading "TORNADO Ceiling Fan 56 Inch with 3 Metal Blades and 5 Speeds - White Color TCF56WW" [level=3] [ref=e426]
+                - generic [ref=e427]: EGP 2,333.00
+                - generic [ref=e428]:
+                  - generic [ref=e429]: EGP 3,000.00
+                  - generic [ref=e430]: "- 22%"
+                - generic [ref=e431]:
+                  - generic [ref=e432]: 4.2 out of 5
+                  - text: (128)
+          - article [ref=e436]:
+            - button [ref=e437] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e438]
+            - link "ATA A Ceiling Fan 56 Inch with 3 Metal Blades - White ATA A Ceiling Fan 56 Inch with 3 Metal Blades - White EGP 1,050.00 EGP 1,499.00 - 30% 4.4 out of 5 (13)" [ref=e440] [cursor=pointer]:
+              - /url: /ata-a-ceiling-fan-56-inch-with-3-metal-blades-white-131334747.html
+              - img "ATA A Ceiling Fan 56 Inch with 3 Metal Blades - White" [ref=e442]
+              - generic [ref=e443]:
+                - heading "ATA A Ceiling Fan 56 Inch with 3 Metal Blades - White" [level=3] [ref=e444]
+                - generic [ref=e445]: EGP 1,050.00
+                - generic [ref=e446]:
+                  - generic [ref=e447]: EGP 1,499.00
+                  - generic [ref=e448]: "- 30%"
+                - generic [ref=e449]:
+                  - generic [ref=e450]: 4.4 out of 5
+                  - text: (13)
+          - article [ref=e454]:
+            - button [ref=e455] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e456]
+            - link "Fresh Fan Ceiling Typhoon 56 Inch Fresh Fan Ceiling Typhoon 56 Inch EGP 1,750.00 EGP 2,400.00 - 27% 4 out of 5 (3)" [ref=e458] [cursor=pointer]:
+              - /url: /fresh-fan-ceiling-typhoon-56-inch-134446343.html
+              - img "Fresh Fan Ceiling Typhoon 56 Inch" [ref=e460]
+              - generic [ref=e461]:
+                - heading "Fresh Fan Ceiling Typhoon 56 Inch" [level=3] [ref=e462]
+                - generic [ref=e463]: EGP 1,750.00
+                - generic [ref=e464]:
+                  - generic [ref=e465]: EGP 2,400.00
+                  - generic [ref=e466]: "- 27%"
+                - generic [ref=e467]:
+                  - generic [ref=e468]: 4 out of 5
+                  - text: (3)
+          - article [ref=e472]:
+            - button [ref=e473] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e474]
+            - link "TORNADO Ceiling Fan 56 Inch with 3 Metal Blades and 5 Speeds - White Color TCF56WW TORNADO Ceiling Fan 56 Inch with 3 Metal Blades and 5 Speeds - White Color TCF56WW EGP 2,472.00 EGP 2,967.00 - 17% 4 out of 5 (4)" [ref=e476] [cursor=pointer]:
+              - /url: /tornado-ceiling-fan-56-inch-with-3-metal-blades-and-5-speeds-white-color-tcf56ww-134048697.html
+              - img "TORNADO Ceiling Fan 56 Inch with 3 Metal Blades and 5 Speeds - White Color TCF56WW" [ref=e478]
+              - generic [ref=e479]:
+                - heading "TORNADO Ceiling Fan 56 Inch with 3 Metal Blades and 5 Speeds - White Color TCF56WW" [level=3] [ref=e480]
+                - generic [ref=e481]: EGP 2,472.00
+                - generic [ref=e482]:
+                  - generic [ref=e483]: EGP 2,967.00
+                  - generic [ref=e484]: "- 17%"
+                - generic [ref=e485]:
+                  - generic [ref=e486]: 4 out of 5
+                  - text: (4)
+          - article [ref=e490]:
+            - button [ref=e491] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e492]
+            - link "TORNADO O Ceiling Fan 56 Inch With 3 Metal Blades And 5 Speeds White-TCF56WW TORNADO O Ceiling Fan 56 Inch With 3 Metal Blades And 5 Speeds White-TCF56WW EGP 2,300.00 EGP 2,800.00 - 18% 4.5 out of 5 (2)" [ref=e494] [cursor=pointer]:
+              - /url: /tornado-o-ceiling-fan-56-inch-with-3-metal-blades-and-5-speeds-white-tcf56ww-133833773.html
+              - img "TORNADO O Ceiling Fan 56 Inch With 3 Metal Blades And 5 Speeds White-TCF56WW" [ref=e496]
+              - generic [ref=e497]:
+                - heading "TORNADO O Ceiling Fan 56 Inch With 3 Metal Blades And 5 Speeds White-TCF56WW" [level=3] [ref=e498]
+                - generic [ref=e499]: EGP 2,300.00
+                - generic [ref=e500]:
+                  - generic [ref=e501]: EGP 2,800.00
+                  - generic [ref=e502]: "- 18%"
+                - generic [ref=e503]:
+                  - generic [ref=e504]: 4.5 out of 5
+                  - text: (2)
+          - article [ref=e508]:
+            - button [ref=e509] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e510]
+            - link "Prifix Jumbo Ceiling Fan with Remote & Lighting - 56 Inch (CFJ-563) Prifix Jumbo Ceiling Fan with Remote & Lighting - 56 Inch (CFJ-563) EGP 4,399.00 4.3 out of 5 (6)" [ref=e512] [cursor=pointer]:
+              - /url: /prifix-jumbo-ceiling-fan-with-remote-lighting-56-inch-cfj-563-134366244.html
+              - img "Prifix Jumbo Ceiling Fan with Remote & Lighting - 56 Inch (CFJ-563)" [ref=e514]
+              - generic [ref=e515]:
+                - heading "Prifix Jumbo Ceiling Fan with Remote & Lighting - 56 Inch (CFJ-563)" [level=3] [ref=e516]
+                - generic [ref=e517]: EGP 4,399.00
+                - generic [ref=e518]:
+                  - generic [ref=e519]: 4.3 out of 5
+                  - text: (6)
+          - article [ref=e523]:
+            - button [ref=e524] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e525]
+            - link "Fresh Rafale Ceiling Fan - 56 inch Fresh Rafale Ceiling Fan - 56 inch EGP 2,072.00 EGP 2,500.00 - 17% 4.2 out of 5 (179)" [ref=e527] [cursor=pointer]:
+              - /url: /rafale-ceiling-fan-56-fresh-mpg784404.html
+              - img "Fresh Rafale Ceiling Fan - 56 inch" [ref=e529]
+              - generic [ref=e530]:
+                - heading "Fresh Rafale Ceiling Fan - 56 inch" [level=3] [ref=e531]
+                - generic [ref=e532]: EGP 2,072.00
+                - generic [ref=e533]:
+                  - generic [ref=e534]: EGP 2,500.00
+                  - generic [ref=e535]: "- 17%"
+                - generic [ref=e536]:
+                  - generic [ref=e537]: 4.2 out of 5
+                  - text: (179)
+          - article [ref=e541]:
+            - button [ref=e542] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e543]
+            - link "Fresh Typhoon Ceiling Fan – 56 Inch – 3 Blades – Powerful Airflow – Quiet Operation – Model Typhoon – 2 Years Warranty Fresh Typhoon Ceiling Fan – 56 Inch – 3 Blades – Powerful Airflow – Quiet Operation – Model Typhoon – 2 Years Warranty EGP 1,749.00 EGP 2,499.00 - 30% 4.5 out of 5 (2)" [ref=e545] [cursor=pointer]:
+              - /url: /fresh-typhoon-ceiling-fan-56-inch-3-blades-powerful-airflow-quiet-operation-model-typhoon-2-years-warranty-134591346.html
+              - img "Fresh Typhoon Ceiling Fan – 56 Inch – 3 Blades – Powerful Airflow – Quiet Operation – Model Typhoon – 2 Years Warranty" [ref=e547]
+              - generic [ref=e548]:
+                - heading "Fresh Typhoon Ceiling Fan – 56 Inch – 3 Blades – Powerful Airflow – Quiet Operation – Model Typhoon – 2 Years Warranty" [level=3] [ref=e549]
+                - generic [ref=e550]: EGP 1,749.00
+                - generic [ref=e551]:
+                  - generic [ref=e552]: EGP 2,499.00
+                  - generic [ref=e553]: "- 30%"
+                - generic [ref=e554]:
+                  - generic [ref=e555]: 4.5 out of 5
+                  - text: (2)
+          - article [ref=e559]:
+            - button [ref=e560] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e561]
+            - link "Fresh FreshTyphoon Ceiling Fan 56 Inch – White Model 500021298 Fresh FreshTyphoon Ceiling Fan 56 Inch – White Model 500021298 EGP 2,399.00 5 out of 5 (1)" [ref=e563] [cursor=pointer]:
+              - /url: /fresh-freshtyphoon-ceiling-fan-56-inch-white-model-500021298-134693250.html
+              - img "Fresh FreshTyphoon Ceiling Fan 56 Inch – White Model 500021298" [ref=e565]
+              - generic [ref=e566]:
+                - heading "Fresh FreshTyphoon Ceiling Fan 56 Inch – White Model 500021298" [level=3] [ref=e567]
+                - generic [ref=e568]: EGP 2,399.00
+                - generic [ref=e569]:
+                  - generic [ref=e570]: 5 out of 5
+                  - text: (1)
+          - article [ref=e574]:
+            - button [ref=e575] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e576]
+            - link "Prifix Jumbo Lighting Ceiling Fan with Remote Control 56 Inch - 3 Speed settings & 3 Blades - Brown -CFJ-563 Prifix Jumbo Lighting Ceiling Fan with Remote Control 56 Inch - 3 Speed settings & 3 Blades - Brown -CFJ-563 EGP 4,190.00 EGP 5,000.00 - 16% 4 out of 5 (1)" [ref=e578] [cursor=pointer]:
+              - /url: /prifix-jumbo-lighting-ceiling-fan-with-remote-control-56-inch-3-speed-settings-3-blades-brown-cfj-563-134518689.html
+              - img "Prifix Jumbo Lighting Ceiling Fan with Remote Control 56 Inch - 3 Speed settings & 3 Blades - Brown -CFJ-563" [ref=e580]
+              - generic [ref=e581]:
+                - heading "Prifix Jumbo Lighting Ceiling Fan with Remote Control 56 Inch - 3 Speed settings & 3 Blades - Brown -CFJ-563" [level=3] [ref=e582]
+                - generic [ref=e583]: EGP 4,190.00
+                - generic [ref=e584]:
+                  - generic [ref=e585]: EGP 5,000.00
+                  - generic [ref=e586]: "- 16%"
+                - generic [ref=e587]:
+                  - generic [ref=e588]: 4 out of 5
+                  - text: (1)
+          - article [ref=e592]:
+            - button [ref=e593] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e594]
+            - link "Prifix CFP-56 2-in-1 Electric Ceiling Fan with Light Prifix CFP-56 2-in-1 Electric Ceiling Fan with Light EGP 2,750.00 EGP 2,800.00 - 2%" [ref=e596] [cursor=pointer]:
+              - /url: /prifix-cfp-56-2-in-1-electric-ceiling-fan-with-light-134519195.html
+              - img "Prifix CFP-56 2-in-1 Electric Ceiling Fan with Light" [ref=e598]
+              - generic [ref=e599]:
+                - heading "Prifix CFP-56 2-in-1 Electric Ceiling Fan with Light" [level=3] [ref=e600]
+                - generic [ref=e601]: EGP 2,750.00
+                - generic [ref=e602]:
+                  - generic [ref=e603]: EGP 2,800.00
+                  - generic [ref=e604]: "- 2%"
+          - article [ref=e607]:
+            - button [ref=e608] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e609]
+            - link "ATA Ceiling Fan 56 Inch - 3 Blades - 5 Speed - White - CF236 ATA Ceiling Fan 56 Inch - 3 Blades - 5 Speed - White - CF236 EGP 1,088.00 EGP 2,799.00 - 61% 5 out of 5 (1)" [ref=e611] [cursor=pointer]:
+              - /url: /ata-ceiling-fan-56-inch-3-blades-5-speed-white-cf236-134283384.html
+              - img "ATA Ceiling Fan 56 Inch - 3 Blades - 5 Speed - White - CF236" [ref=e613]
+              - generic [ref=e614]:
+                - heading "ATA Ceiling Fan 56 Inch - 3 Blades - 5 Speed - White - CF236" [level=3] [ref=e615]
+                - generic [ref=e616]: EGP 1,088.00
+                - generic [ref=e617]:
+                  - generic [ref=e618]: EGP 2,799.00
+                  - generic [ref=e619]: "- 61%"
+                - generic [ref=e620]:
+                  - generic [ref=e621]: 5 out of 5
+                  - text: (1)
+          - article [ref=e625]:
+            - button [ref=e626] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e627]
+            - link "Rovo Rovo Ceiling Fan, 56 Inch, 3 Blades, 5 Speeds - White Rovo Rovo Ceiling Fan, 56 Inch, 3 Blades, 5 Speeds - White EGP 1,349.00 EGP 1,799.00 - 25% 4 out of 5 (4)" [ref=e629] [cursor=pointer]:
+              - /url: /rovo-rovo-ceiling-fan-56-inch-3-blades-5-speeds-white-133742870.html
+              - img "Rovo Rovo Ceiling Fan, 56 Inch, 3 Blades, 5 Speeds - White" [ref=e631]
+              - generic [ref=e632]:
+                - heading "Rovo Rovo Ceiling Fan, 56 Inch, 3 Blades, 5 Speeds - White" [level=3] [ref=e633]
+                - generic [ref=e634]: EGP 1,349.00
+                - generic [ref=e635]:
+                  - generic [ref=e636]: EGP 1,799.00
+                  - generic [ref=e637]: "- 25%"
+                - generic [ref=e638]:
+                  - generic [ref=e639]: 4 out of 5
+                  - text: (4)
+          - article [ref=e643]:
+            - button [ref=e644] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e645]
+            - link "Nautical NauticalJ-560Z1-56 Ceiling Fan - 3 Blades - White Nautical NauticalJ-560Z1-56 Ceiling Fan - 3 Blades - White EGP 990.00" [ref=e647] [cursor=pointer]:
+              - /url: /nautical-nauticalj-560z1-56-ceiling-fan-3-blades-white-134693295.html
+              - img "Nautical NauticalJ-560Z1-56 Ceiling Fan - 3 Blades - White" [ref=e649]
+              - generic [ref=e650]:
+                - heading "Nautical NauticalJ-560Z1-56 Ceiling Fan - 3 Blades - White" [level=3] [ref=e651]
+                - generic [ref=e652]: EGP 990.00
+          - article [ref=e655]:
+            - button [ref=e656] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e657]
+            - link "TORNADO Ceiling fan 56 inch 3 blade 5 speeds white TORNADO Ceiling fan 56 inch 3 blade 5 speeds white EGP 2,498.00 EGP 3,000.00 - 17% 5 out of 5 (3)" [ref=e659] [cursor=pointer]:
+              - /url: /tornado-ceiling-fan-56-inch-3-blade-5-speeds-white-134078424.html
+              - img "TORNADO Ceiling fan 56 inch 3 blade 5 speeds white" [ref=e661]
+              - generic [ref=e662]:
+                - heading "TORNADO Ceiling fan 56 inch 3 blade 5 speeds white" [level=3] [ref=e663]
+                - generic [ref=e664]: EGP 2,498.00
+                - generic [ref=e665]:
+                  - generic [ref=e666]: EGP 3,000.00
+                  - generic [ref=e667]: "- 17%"
+                - generic [ref=e668]:
+                  - generic [ref=e669]: 5 out of 5
+                  - text: (3)
+          - article [ref=e673]:
+            - button [ref=e674] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e675]
+            - link "Prifix Jumbo Ceiling Fan with Wooden Design - 56 Inch (CFJ-561) Prifix Jumbo Ceiling Fan with Wooden Design - 56 Inch (CFJ-561) EGP 3,499.00 5 out of 5 (1)" [ref=e677] [cursor=pointer]:
+              - /url: /prifix-jumbo-ceiling-fan-with-wooden-design-56-inch-cfj-561-134366250.html
+              - img "Prifix Jumbo Ceiling Fan with Wooden Design - 56 Inch (CFJ-561)" [ref=e679]
+              - generic [ref=e680]:
+                - heading "Prifix Jumbo Ceiling Fan with Wooden Design - 56 Inch (CFJ-561)" [level=3] [ref=e681]
+                - generic [ref=e682]: EGP 3,499.00
+                - generic [ref=e683]:
+                  - generic [ref=e684]: 5 out of 5
+                  - text: (1)
+          - article [ref=e688]:
+            - button [ref=e689] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e690]
+            - link "Ceiling Fan 56 Inch 5 speeds 3 blades White guarantee by ata Ceiling Fan 56 Inch 5 speeds 3 blades White guarantee by ata EGP 1,198.00 EGP 1,800.00 - 33% 4 out of 5 (1)" [ref=e692] [cursor=pointer]:
+              - /url: /generic-ceiling-fan-56-inch-5-speeds-3-blades-white-guarantee-by-ata-134225211.html
+              - img "Ceiling Fan 56 Inch 5 speeds 3 blades White guarantee by ata" [ref=e694]
+              - generic [ref=e695]:
+                - heading "Ceiling Fan 56 Inch 5 speeds 3 blades White guarantee by ata" [level=3] [ref=e696]
+                - generic [ref=e697]: EGP 1,198.00
+                - generic [ref=e698]:
+                  - generic [ref=e699]: EGP 1,800.00
+                  - generic [ref=e700]: "- 33%"
+                - generic [ref=e701]:
+                  - generic [ref=e702]: 4 out of 5
+                  - text: (1)
+          - article [ref=e706]:
+            - button [ref=e707] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e708]
+            - link "Fresh Typhoon 56-inch ceiling fan Fresh Typhoon 56-inch ceiling fan EGP 1,964.00 EGP 2,500.00 - 21% 5 out of 5 (1)" [ref=e710] [cursor=pointer]:
+              - /url: /fresh-typhoon-56-inch-ceiling-fan-134018273.html
+              - img "Fresh Typhoon 56-inch ceiling fan" [ref=e712]
+              - generic [ref=e713]:
+                - heading "Fresh Typhoon 56-inch ceiling fan" [level=3] [ref=e714]
+                - generic [ref=e715]: EGP 1,964.00
+                - generic [ref=e716]:
+                  - generic [ref=e717]: EGP 2,500.00
+                  - generic [ref=e718]: "- 21%"
+                - generic [ref=e719]:
+                  - generic [ref=e720]: 5 out of 5
+                  - text: (1)
+          - article [ref=e724]:
+            - button [ref=e725] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e726]
+            - link "Fresh Fan Ceiling Typhoon 56 Inch Fresh Fan Ceiling Typhoon 56 Inch EGP 1,825.00 5 out of 5 (1)" [ref=e728] [cursor=pointer]:
+              - /url: /fresh-fan-ceiling-typhoon-56-inch-134516915.html
+              - img "Fresh Fan Ceiling Typhoon 56 Inch" [ref=e730]
+              - generic [ref=e731]:
+                - heading "Fresh Fan Ceiling Typhoon 56 Inch" [level=3] [ref=e732]
+                - generic [ref=e733]: EGP 1,825.00
+                - generic [ref=e734]:
+                  - generic [ref=e735]: 5 out of 5
+                  - text: (1)
+          - article [ref=e739]:
+            - button [ref=e740] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e741]
+            - link "Prifix Jumbo Ceiling Fan with Modern Lighting - 56 Inch (CFJ-562) Prifix Jumbo Ceiling Fan with Modern Lighting - 56 Inch (CFJ-562) EGP 3,599.00 2 out of 5 (1)" [ref=e743] [cursor=pointer]:
+              - /url: /prifix-jumbo-ceiling-fan-with-modern-lighting-56-inch-cfj-562-134366229.html
+              - img "Prifix Jumbo Ceiling Fan with Modern Lighting - 56 Inch (CFJ-562)" [ref=e745]
+              - generic [ref=e746]:
+                - heading "Prifix Jumbo Ceiling Fan with Modern Lighting - 56 Inch (CFJ-562)" [level=3] [ref=e747]
+                - generic [ref=e748]: EGP 3,599.00
+                - generic [ref=e749]:
+                  - generic [ref=e750]: 2 out of 5
+                  - text: (1)
+          - article [ref=e754]:
+            - button [ref=e755] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e756]
+            - link "Fresh Typhoon 56-inch ceiling fan Fresh Typhoon 56-inch ceiling fan EGP 1,882.00 EGP 2,400.00 - 22%" [ref=e758] [cursor=pointer]:
+              - /url: /fresh-typhoon-56-inch-ceiling-fan-134508552.html
+              - img "Fresh Typhoon 56-inch ceiling fan" [ref=e760]
+              - generic [ref=e761]:
+                - heading "Fresh Typhoon 56-inch ceiling fan" [level=3] [ref=e762]
+                - generic [ref=e763]: EGP 1,882.00
+                - generic [ref=e764]:
+                  - generic [ref=e765]: EGP 2,400.00
+                  - generic [ref=e766]: "- 22%"
+          - article [ref=e769]:
+            - button [ref=e770] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e771]
+            - link "ATA Ceiling Fan 56 Inch White 5 speeds 3 blades - original ATA Ceiling Fan 56 Inch White 5 speeds 3 blades - original EGP 1,145.00 EGP 1,500.00 - 24% 5 out of 5 (3)" [ref=e773] [cursor=pointer]:
+              - /url: /ata-ceiling-fan-56-inch-white-5-speeds-3-blades-original-134431232.html
+              - img "ATA Ceiling Fan 56 Inch White 5 speeds 3 blades - original" [ref=e775]
+              - generic [ref=e776]:
+                - heading "ATA Ceiling Fan 56 Inch White 5 speeds 3 blades - original" [level=3] [ref=e777]
+                - generic [ref=e778]: EGP 1,145.00
+                - generic [ref=e779]:
+                  - generic [ref=e780]: EGP 1,500.00
+                  - generic [ref=e781]: "- 24%"
+                - generic [ref=e782]:
+                  - generic [ref=e783]: 5 out of 5
+                  - text: (3)
+          - article [ref=e787]:
+            - button [ref=e788] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e789]
+            - link "TORNADO Ceiling Fan 56 Inch 3 Blades Gold TCF56WG TORNADO Ceiling Fan 56 Inch 3 Blades Gold TCF56WG EGP 3,255.00 EGP 3,500.00 - 7% 4 out of 5 (1)" [ref=e791] [cursor=pointer]:
+              - /url: /tornado-ceiling-fan-56-inch-3-blades-gold-tcf56wg-133718282.html
+              - img "TORNADO Ceiling Fan 56 Inch 3 Blades Gold TCF56WG" [ref=e793]
+              - generic [ref=e794]:
+                - heading "TORNADO Ceiling Fan 56 Inch 3 Blades Gold TCF56WG" [level=3] [ref=e795]
+                - generic [ref=e796]: EGP 3,255.00
+                - generic [ref=e797]:
+                  - generic [ref=e798]: EGP 3,500.00
+                  - generic [ref=e799]: "- 7%"
+                - generic [ref=e800]:
+                  - generic [ref=e801]: 4 out of 5
+                  - text: (1)
+          - article [ref=e805]:
+            - button [ref=e806] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e807]
+            - link "Prifix Jumbo Ceiling Fan with Remote Control & Wooden Design - 56 Inch (CFJ-561) Prifix Jumbo Ceiling Fan with Remote Control & Wooden Design - 56 Inch (CFJ-561) EGP 3,999.00" [ref=e809] [cursor=pointer]:
+              - /url: /prifix-jumbo-ceiling-fan-with-remote-control-wooden-design-56-inch-cfj-561-134366259.html
+              - img "Prifix Jumbo Ceiling Fan with Remote Control & Wooden Design - 56 Inch (CFJ-561)" [ref=e811]
+              - generic [ref=e812]:
+                - heading "Prifix Jumbo Ceiling Fan with Remote Control & Wooden Design - 56 Inch (CFJ-561)" [level=3] [ref=e813]
+                - generic [ref=e814]: EGP 3,999.00
+          - article [ref=e817]:
+            - button [ref=e818] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e819]
+            - link "Prifix Jumbo Ceiling Fan 56 Inch - 3 Speed - 3 Blades - White Blue-CFJ-562 Prifix Jumbo Ceiling Fan 56 Inch - 3 Speed - 3 Blades - White Blue-CFJ-562 EGP 3,520.00 EGP 4,000.00 - 12% 2 out of 5 (2)" [ref=e821] [cursor=pointer]:
+              - /url: /prifix-jumbo-ceiling-fan-56-inch-3-speed-3-blades-white-blue-cfj-562-134518393.html
+              - img "Prifix Jumbo Ceiling Fan 56 Inch - 3 Speed - 3 Blades - White Blue-CFJ-562" [ref=e823]
+              - generic [ref=e824]:
+                - heading "Prifix Jumbo Ceiling Fan 56 Inch - 3 Speed - 3 Blades - White Blue-CFJ-562" [level=3] [ref=e825]
+                - generic [ref=e826]: EGP 3,520.00
+                - generic [ref=e827]:
+                  - generic [ref=e828]: EGP 4,000.00
+                  - generic [ref=e829]: "- 12%"
+                - generic [ref=e830]:
+                  - generic [ref=e831]: 2 out of 5
+                  - text: (2)
+          - article [ref=e835]:
+            - button [ref=e836] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e837]
+            - link "TORNADO TORNADO Ceiling Fan 56-Inch – White Model TCF56WW TORNADO TORNADO Ceiling Fan 56-Inch – White Model TCF56WW EGP 2,398.00" [ref=e839] [cursor=pointer]:
+              - /url: /tornado-tornado-ceiling-fan-56-inch-white-model-tcf56ww-134660393.html
+              - img "TORNADO TORNADO Ceiling Fan 56-Inch – White Model TCF56WW" [ref=e841]
+              - generic [ref=e842]:
+                - heading "TORNADO TORNADO Ceiling Fan 56-Inch – White Model TCF56WW" [level=3] [ref=e843]
+                - generic [ref=e844]: EGP 2,398.00
+          - article [ref=e847]:
+            - button [ref=e848] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e849]
+            - link "Sonai Ceiling Fan 56 Inch 3 Blades 5 Speeds 75W Anti Vibration White MAR-560 2 Years Warranty Sonai Ceiling Fan 56 Inch 3 Blades 5 Speeds 75W Anti Vibration White MAR-560 2 Years Warranty EGP 1,399.00 EGP 2,149.00 - 35%" [ref=e851] [cursor=pointer]:
+              - /url: /sonai-ceiling-fan-56-inch-3-blades-5-speeds-75w-anti-vibration-white-mar-560-2-years-warranty-134643753.html
+              - img "Sonai Ceiling Fan 56 Inch 3 Blades 5 Speeds 75W Anti Vibration White MAR-560 2 Years Warranty" [ref=e853]
+              - generic [ref=e854]:
+                - heading "Sonai Ceiling Fan 56 Inch 3 Blades 5 Speeds 75W Anti Vibration White MAR-560 2 Years Warranty" [level=3] [ref=e855]
+                - generic [ref=e856]: EGP 1,399.00
+                - generic [ref=e857]:
+                  - generic [ref=e858]: EGP 2,149.00
+                  - generic [ref=e859]: "- 35%"
+          - article [ref=e862]:
+            - button [ref=e863] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e864]
+            - link "Carnival Ceiling Fan 56 Inch, White, 1 Carton, 3 Pieces Carnival Ceiling Fan 56 Inch, White, 1 Carton, 3 Pieces EGP 2,995.00 EGP 4,999.00 - 40% 4 out of 5 (4)" [ref=e866] [cursor=pointer]:
+              - /url: /carnival-ceiling-fan-56-inch-white-1-carton-3-pieces-44829001.html
+              - img "Carnival Ceiling Fan 56 Inch, White, 1 Carton, 3 Pieces" [ref=e868]
+              - generic [ref=e869]:
+                - heading "Carnival Ceiling Fan 56 Inch, White, 1 Carton, 3 Pieces" [level=3] [ref=e870]
+                - generic [ref=e871]: EGP 2,995.00
+                - generic [ref=e872]:
+                  - generic [ref=e873]: EGP 4,999.00
+                  - generic [ref=e874]: "- 40%"
+                - generic [ref=e875]:
+                  - generic [ref=e876]: 4 out of 5
+                  - text: (4)
+          - article [ref=e880]:
+            - button [ref=e881] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e882]
+            - link "ATA 56-Inch Ceiling Fan 5 Speeds White Model FC-56 ATA 56-Inch Ceiling Fan 5 Speeds White Model FC-56 EGP 1,235.00 EGP 1,359.00 - 9% 3 out of 5 (3)" [ref=e884] [cursor=pointer]:
+              - /url: /ata-56-inch-ceiling-fan-5-speeds-white-model-fc-56-134481957.html
+              - img "ATA 56-Inch Ceiling Fan 5 Speeds White Model FC-56" [ref=e886]
+              - generic [ref=e887]:
+                - heading "ATA 56-Inch Ceiling Fan 5 Speeds White Model FC-56" [level=3] [ref=e888]
+                - generic [ref=e889]: EGP 1,235.00
+                - generic [ref=e890]:
+                  - generic [ref=e891]: EGP 1,359.00
+                  - generic [ref=e892]: "- 9%"
+                - generic [ref=e893]:
+                  - generic [ref=e894]: 3 out of 5
+                  - text: (3)
+          - article [ref=e898]:
+            - button [ref=e899] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e900]
+            - link "ATA Ceiling Fan 56 Inch White 5 speeds 3 blades ATA Ceiling Fan 56 Inch White 5 speeds 3 blades EGP 1,146.00 EGP 1,900.00 - 40% 2 offers from EGP 1,146.00" [ref=e902] [cursor=pointer]:
+              - /url: /ceiling-fan-56-inch-white-5-speeds-3-blades-ata-mpg3927248.html
+              - img "ATA Ceiling Fan 56 Inch White 5 speeds 3 blades" [ref=e904]
+              - generic [ref=e905]:
+                - heading "ATA Ceiling Fan 56 Inch White 5 speeds 3 blades" [level=3] [ref=e906]
+                - generic [ref=e907]: EGP 1,146.00
+                - generic [ref=e908]:
+                  - generic [ref=e909]: EGP 1,900.00
+                  - generic [ref=e910]: "- 40%"
+                - paragraph [ref=e911]: 2 offers from EGP 1,146.00
+          - article [ref=e914]:
+            - button [ref=e915] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e916]
+            - link "Prifix POWER Ceiling Fan 56-Inch 2-in-1 Fan & LED Lighting with 3 Speeds & 3 Light Modes – Golden - CFP56 Prifix POWER Ceiling Fan 56-Inch 2-in-1 Fan & LED Lighting with 3 Speeds & 3 Light Modes – Golden - CFP56 EGP 2,490.00 EGP 3,000.00 - 17%" [ref=e918] [cursor=pointer]:
+              - /url: /prifix-power-ceiling-fan-56-inch-2-in-1-fan-led-lighting-with-3-speeds-3-light-modes-golden-cfp56-134556485.html
+              - img "Prifix POWER Ceiling Fan 56-Inch 2-in-1 Fan & LED Lighting with 3 Speeds & 3 Light Modes – Golden - CFP56" [ref=e920]
+              - generic [ref=e921]:
+                - heading "Prifix POWER Ceiling Fan 56-Inch 2-in-1 Fan & LED Lighting with 3 Speeds & 3 Light Modes – Golden - CFP56" [level=3] [ref=e922]
+                - generic [ref=e923]: EGP 2,490.00
+                - generic [ref=e924]:
+                  - generic [ref=e925]: EGP 3,000.00
+                  - generic [ref=e926]: "- 17%"
+          - article [ref=e929]:
+            - button [ref=e930] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e931]
+            - link "Prifix Power Ceiling Fan 56 Inch - 3 Speeds - 3 Blades - White- CFP-560 Prifix Power Ceiling Fan 56 Inch - 3 Speeds - 3 Blades - White- CFP-560 EGP 2,099.00 EGP 3,000.00 - 30%" [ref=e933] [cursor=pointer]:
+              - /url: /prifix-power-ceiling-fan-56-inch-3-speeds-3-blades-white-cfp-560-134518684.html
+              - img "Prifix Power Ceiling Fan 56 Inch - 3 Speeds - 3 Blades - White- CFP-560" [ref=e935]
+              - generic [ref=e936]:
+                - heading "Prifix Power Ceiling Fan 56 Inch - 3 Speeds - 3 Blades - White- CFP-560" [level=3] [ref=e937]
+                - generic [ref=e938]: EGP 2,099.00
+                - generic [ref=e939]:
+                  - generic [ref=e940]: EGP 3,000.00
+                  - generic [ref=e941]: "- 30%"
+          - article [ref=e944]:
+            - button [ref=e945] [cursor=pointer]:
+              - img "Add to wishlist" [ref=e946]
+            - link "Prifix Jumbo ceiling fan 56 Inch with Remote - 3 Speed - 3 Blade - woden / Black - CFJ-561 Prifix Jumbo ceiling fan 56 Inch with Remote - 3 Speed - 3 Blade - woden / Black - CFJ-561 EGP 3,755.00 EGP 3,999.00 - 6%" [ref=e948] [cursor=pointer]:
+              - /url: /prifix-jumbo-ceiling-fan-56-inch-with-remote-3-speed-3-blade-woden-black-cfj-561-134578718.html
+              - img "Prifix Jumbo ceiling fan 56 Inch with Remote - 3 Speed - 3 Blade - woden / Black - CFJ-561" [ref=e950]
+              - generic [ref=e951]:
+                - heading "Prifix Jumbo ceiling fan 56 Inch with Remote - 3 Speed - 3 Blade - woden / Black - CFJ-561" [level=3] [ref=e952]
+                - generic [ref=e953]: EGP 3,755.00
+                - generic [ref=e954]:
+                  - generic [ref=e955]: EGP 3,999.00
+                  - generic [ref=e956]: "- 6%"
+        - generic [ref=e959]:
+          - generic [ref=e966]: "1"
+          - link "Page 2" [ref=e967] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&page=2#catalog-listing
+            - text: "2"
+          - link "Page 3" [ref=e968] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&page=3#catalog-listing
+            - text: "3"
+          - link "Next Page" [ref=e969] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&page=2#catalog-listing
+          - link "Last Page" [ref=e972] [cursor=pointer]:
+            - /url: /catalog/?q=ceiling+fan+56&page=3#catalog-listing
+    - link "BACK TO TOP" [ref=e976] [cursor=pointer]:
+      - /url: "#top"
+  - contentinfo [ref=e979]:
+    - generic [ref=e981]:
+      - generic [ref=e985]:
+        - generic [ref=e986]:
+          - generic [ref=e987]: New to Jumia?
+          - text: Subscribe to our newsletter to get updates on our latest offers, you can unsubscribe at any time as described in Privacy Policy.
+          - generic [ref=e988]:
+            - text: To subscribe to our newsletter, you must first read and agree to Jumia's
+            - link "I accept the Legal Terms" [ref=e989] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-privacy/
+        - generic [ref=e990]:
+          - generic [ref=e991]:
+            - checkbox "I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time." [ref=e992]
+            - generic [ref=e993] [cursor=pointer]: I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time.
+          - generic [ref=e994]:
+            - textbox "E-mail" [ref=e996]:
+              - /placeholder: Enter E-mail Address
+            - button "Subscribe"
+        - generic [ref=e999]: You can unsubscribe at any time as described in Privacy Policy
+      - generic [ref=e1000]:
+        - generic [ref=e1004]:
+          - generic [ref=e1005]: DOWNLOAD JUMIA FREE APP
+          - text: Get access to exclusive offers!
+        - generic [ref=e1006]:
+          - link "Get it on the App Store" [ref=e1007] [cursor=pointer]:
+            - /url: https://app.adjust.io/k4hu4w
+          - link "Get it on Google Play" [ref=e1010] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.jumia.android&referrer=adjust_reftag%3DcdTxOjM
+    - generic [ref=e1013]:
+      - generic [ref=e1014]:
+        - generic [ref=e1015]: Need Help?
+        - button "Chat with us" [ref=e1016] [cursor=pointer]
+        - list [ref=e1017]:
+          - listitem [ref=e1018]:
+            - link "Help Center" [ref=e1019] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/
+          - listitem [ref=e1020]:
+            - link "Contact us" [ref=e1021] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-contact/
+        - generic [ref=e1022]: "Useful Links:"
+        - list [ref=e1023]:
+          - listitem [ref=e1024]:
+            - link "How to shop on Jumia?" [ref=e1025] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/?page=place+an+order
+          - listitem [ref=e1026]:
+            - link "How to pay on Jumia?" [ref=e1027] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-help/?page=pay+for+your+order
+          - listitem [ref=e1028]:
+            - link "Delivery timelines" [ref=e1029] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-delivery-timelines/
+          - listitem [ref=e1030]:
+            - link "Dispute Resolution Policy" [ref=e1031] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-dispute-resolution-policy/
+          - listitem [ref=e1032]:
+            - link "Return Policy" [ref=e1033] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-return-policy-cp/
+          - listitem [ref=e1034]:
+            - link "Refund Policy" [ref=e1035] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-refund-policy-cp/
+          - listitem [ref=e1036]:
+            - link "Black Friday" [ref=e1037] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/mlp-black-friday/
+          - listitem [ref=e1038]:
+            - link "Jumia Anniversary 2026" [ref=e1039] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/ar/mlp-anniversary/
+      - generic [ref=e1040]:
+        - generic [ref=e1041]: ABOUT JUMIA EGYPT
+        - list [ref=e1042]:
+          - listitem [ref=e1043]:
+            - link "Jumia Careers" [ref=e1044] [cursor=pointer]:
+              - /url: https://group.jumia.com/careers?location=egypt
+          - listitem [ref=e1045]:
+            - link "Terms and Conditions" [ref=e1046] [cursor=pointer]:
+              - /url: /terms-of-use/?internal=footer
+          - listitem [ref=e1047]:
+            - link "Privacy Policy" [ref=e1048] [cursor=pointer]:
+              - /url: /privacy/?internal=footer
+          - listitem [ref=e1049]:
+            - link "Cookies Policy" [ref=e1050] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-cookie/
+          - listitem [ref=e1051]:
+            - link "Free Shipping" [ref=e1052] [cursor=pointer]:
+              - /url: /mlp-free-shipping/?internal=footer
+          - listitem [ref=e1053]:
+            - link "Flash Sales" [ref=e1054] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/flash-sales/
+      - generic [ref=e1055]:
+        - generic [ref=e1056]: MAKE MONEY WITH JUMIA
+        - list [ref=e1057]:
+          - listitem [ref=e1058]:
+            - link "Sell on Jumia" [ref=e1059] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-sell-on-jumia/
+          - listitem [ref=e1060]:
+            - link "Vendor Hub" [ref=e1061] [cursor=pointer]:
+              - /url: https://vendorhub.jumia.com.eg/
+          - listitem [ref=e1062]:
+            - link "Become a Sales Consultant (J-Force )" [ref=e1063] [cursor=pointer]:
+              - /url: https://www.jumia.com.eg/sp-jforce-consultant/
+      - generic [ref=e1064]:
+        - generic [ref=e1065]: JUMIA INTERNATIONAL
+        - list [ref=e1066]:
+          - listitem [ref=e1067]:
+            - link "Ivory Coast" [ref=e1068] [cursor=pointer]:
+              - /url: https://www.jumia.ci/
+          - listitem [ref=e1069]:
+            - link "Ghana" [ref=e1070] [cursor=pointer]:
+              - /url: https://www.jumia.com.gh/
+          - listitem [ref=e1071]:
+            - link "Kenya" [ref=e1072] [cursor=pointer]:
+              - /url: https://www.jumia.co.ke/
+          - listitem [ref=e1073]:
+            - link "Morocco" [ref=e1074] [cursor=pointer]:
+              - /url: https://www.jumia.ma/
+        - list [ref=e1075]:
+          - listitem [ref=e1076]:
+            - link "Nigeria" [ref=e1077] [cursor=pointer]:
+              - /url: https://www.jumia.com.ng/
+          - listitem [ref=e1078]:
+            - link "Senegal" [ref=e1079] [cursor=pointer]:
+              - /url: https://www.jumia.sn/
+          - listitem [ref=e1080]:
+            - link "Uganda" [ref=e1081] [cursor=pointer]:
+              - /url: https://www.jumia.ug/
+    - generic [ref=e1083]:
+      - generic [ref=e1084]: Contact us
+      - generic [ref=e1085]:
+        - generic [ref=e1086]:
+          - generic [ref=e1087]: Business Name
+          - generic [ref=e1088]: Jumia Egypt
+        - generic [ref=e1089]:
+          - generic [ref=e1090]: Address
+          - generic [ref=e1091]: 272 /273 El Tesaeen El Shamaly St., Sector 2, 5th Compound, New Cairo, Behind Dusit Thani Lakeview, Cairo
+        - generic [ref=e1092]:
+          - generic [ref=e1093]: Phone Number
+          - generic [ref=e1094]:
+            - link "19586" [ref=e1095] [cursor=pointer]:
+              - /url: tel:+2019586
+            - text: ","
+            - link "17269" [ref=e1096] [cursor=pointer]:
+              - /url: tel:+2017269
+        - generic [ref=e1097]:
+          - generic [ref=e1098]: WhatsApp
+          - link "201011958600" [ref=e1100] [cursor=pointer]:
+            - /url: https://wa.me/20201011958600
+    - generic [ref=e1101]:
+      - generic [ref=e1102]:
+        - generic [ref=e1103]: JOIN US ON
+        - generic [ref=e1104]:
+          - link "Facebook Jumia Egypt" [ref=e1105] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/Jumia/100068403391761/
+          - link "Twitter Jumia Egypt" [ref=e1108] [cursor=pointer]:
+            - /url: https://twitter.com/JUMIAEgypt/
+          - link "Instagram Jumia Egypt" [ref=e1111] [cursor=pointer]:
+            - /url: https://www.instagram.com/jumiaegypt/
+          - link "YouTube Jumia Egypt" [ref=e1114] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/JumiaEgypt/
+          - link "Tik Tok" [ref=e1117] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@jumia.egypt?_t=8rJ4NeuPbzr&_r=1
+      - generic [ref=e1120]:
+        - generic [ref=e1121]: PAYMENT METHODS
+        - generic [ref=e1122]:
+          - link "Payment on delivery" [ref=e1123] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Mastercard" [ref=e1126] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Visa" [ref=e1129] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Jumia Pay" [ref=e1132] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+          - link "Fawry" [ref=e1133] [cursor=pointer]:
+            - /url: https://www.jumia.com.eg/how-to-pay/
+    - generic [ref=e1136]:
+      - list [ref=e1137]:
+        - listitem [ref=e1138]:
+          - link "Activ" [ref=e1139] [cursor=pointer]:
+            - /url: /activ/
+        - listitem [ref=e1140]:
+          - link "ADIDAS" [ref=e1141] [cursor=pointer]:
+            - /url: /adidas/
+        - listitem [ref=e1142]:
+          - link "American Eagle" [ref=e1143] [cursor=pointer]:
+            - /url: /american-eagle/
+        - listitem [ref=e1144]:
+          - link "Andora" [ref=e1145] [cursor=pointer]:
+            - /url: /andora/
+      - list [ref=e1146]:
+        - listitem [ref=e1147]:
+          - link "Apple" [ref=e1148] [cursor=pointer]:
+            - /url: /apple/
+        - listitem [ref=e1149]:
+          - link "Braun" [ref=e1150] [cursor=pointer]:
+            - /url: /braun/
+        - listitem [ref=e1151]:
+          - link "Casio" [ref=e1152] [cursor=pointer]:
+            - /url: /casio-edifice/
+        - listitem [ref=e1153]:
+          - link "Cottonil" [ref=e1154] [cursor=pointer]:
+            - /url: /cottonil/
+      - list [ref=e1155]:
+        - listitem [ref=e1156]:
+          - link "Defacto" [ref=e1157] [cursor=pointer]:
+            - /url: /defacto/
+        - listitem [ref=e1158]:
+          - link "Dice" [ref=e1159] [cursor=pointer]:
+            - /url: /dice/
+        - listitem [ref=e1160]:
+          - link "Fresh" [ref=e1161] [cursor=pointer]:
+            - /url: /fresh/
+        - listitem [ref=e1162]:
+          - link "Garnier" [ref=e1163] [cursor=pointer]:
+            - /url: /garnier/
+      - list [ref=e1164]:
+        - listitem [ref=e1165]:
+          - link "HP" [ref=e1166] [cursor=pointer]:
+            - /url: /hp/
+        - listitem [ref=e1167]:
+          - link "Izor" [ref=e1168] [cursor=pointer]:
+            - /url: /izor/
+        - listitem [ref=e1169]:
+          - link "Kady" [ref=e1170] [cursor=pointer]:
+            - /url: /kady/
+        - listitem [ref=e1171]:
+          - link "L'Oreal Paris" [ref=e1172] [cursor=pointer]:
+            - /url: /l-oreal/
+      - list [ref=e1173]:
+        - listitem [ref=e1174]:
+          - link "LC Waikiki" [ref=e1175] [cursor=pointer]:
+            - /url: /lc-waikiki/
+        - listitem [ref=e1176]:
+          - link "Lenovo" [ref=e1177] [cursor=pointer]:
+            - /url: /lenovo/
+        - listitem [ref=e1178]:
+          - link "Maybelline New York" [ref=e1179] [cursor=pointer]:
+            - /url: /maybelline/
+      - list [ref=e1180]:
+        - listitem [ref=e1181]:
+          - link "Mesery" [ref=e1182] [cursor=pointer]:
+            - /url: /mesery/
+        - listitem [ref=e1183]:
+          - link "NIVEA" [ref=e1184] [cursor=pointer]:
+            - /url: /nivea/
+        - listitem [ref=e1185]:
+          - link "Nokia" [ref=e1186] [cursor=pointer]:
+            - /url: /nokia/
+      - list [ref=e1187]:
+        - listitem [ref=e1188]:
+          - link "OPPO" [ref=e1189] [cursor=pointer]:
+            - /url: /oppo/
+        - listitem [ref=e1190]:
+          - link "Samsung" [ref=e1191] [cursor=pointer]:
+            - /url: /samsung/
+        - listitem [ref=e1192]:
+          - link "SHEIN" [ref=e1193] [cursor=pointer]:
+            - /url: /shein/
+      - list [ref=e1194]:
+        - listitem [ref=e1195]:
+          - link "Sokany" [ref=e1196] [cursor=pointer]:
+            - /url: /sokany/
+        - listitem [ref=e1197]:
+          - link "TORNADO" [ref=e1198] [cursor=pointer]:
+            - /url: /tornado/
+        - listitem [ref=e1199]:
+          - link "XIAOMI" [ref=e1200] [cursor=pointer]:
+            - /url: /xiaomi/
+    - generic [ref=e1201]:
+      - link "Jumia Pay" [ref=e1203] [cursor=pointer]:
+        - /url: https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar
+      - generic [ref=e1206]:
+        - generic [ref=e1207]: English
+        - link [ref=e1211] [cursor=pointer]:
+          - /url: /ar/catalog/?q=ceiling+fan+56
