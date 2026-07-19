@@ -1,0 +1,586 @@
+- generic [ref=e2]:
+  - banner:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - status [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - paragraph [ref=e8]: سامسونج وملفات تعريف الارتباط
+            - paragraph [ref=e9]:
+              - text: يستخدم هذا الموقع الإلكتروني ملفات تعريف الارتباط، وبالتالي فإن مجرد الضغط على "أوافق"، أو متابعة تصفح الموقع، يعني أنك موافق على استخدام هذه الملفات.
+              - link "اكتشف المزيد هنا" [ref=e10] [cursor=pointer]:
+                - /url: /eg/info/privacy/
+          - link "قبول" [ref=e12] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - button "close" [ref=e13] [cursor=pointer]
+  - navigation "main navigation" [ref=e17]:
+    - generic [ref=e20]:
+      - link "Samsung" [ref=e21] [cursor=pointer]:
+        - /url: /eg/
+      - generic [ref=e25]:
+        - button "بحث" [ref=e26] [cursor=pointer]
+        - button "سلة التسوق" [ref=e30] [cursor=pointer]
+        - generic "تسجيل الدخول/إنشاء حساب" [ref=e35]: تسجيل الدخول
+        - button "Navigation" [ref=e39] [cursor=pointer]
+  - main [ref=e43]:
+    - generic [ref=e45]:
+      - heading "أكتشف TVs حسب الحجم" [level=1] [ref=e48]
+      - generic [ref=e49]:
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - generic [ref=e54]:
+              - paragraph [ref=e55]: TVs حسب الحجم
+              - paragraph [ref=e56]: اعثر على الحجم المثالي لكل مساحة
+          - listitem [ref=e58]:
+            - link "Micro RGB" [ref=e59] [cursor=pointer]:
+              - /url: /eg/tvs/micro-rgb/
+              - generic [ref=e60]:
+                - paragraph [ref=e61]: Micro RGB
+                - paragraph: Micro RGB أول شاشةفى العالم
+          - listitem [ref=e63]:
+            - link "OLED" [ref=e64] [cursor=pointer]:
+              - /url: /eg/tvs/oled-tv/
+              - generic [ref=e65]:
+                - paragraph [ref=e66]: OLED
+                - paragraph: عزّز تجربتك مع Samsung Vision AI
+          - listitem [ref=e68]:
+            - link "Neo QLED" [ref=e69] [cursor=pointer]:
+              - /url: /eg/tvs/8k-tv/
+              - generic [ref=e70]:
+                - paragraph [ref=e71]: Neo QLED
+                - paragraph: استمتع بعرضك مع Samsung Vision AI
+          - listitem [ref=e73]:
+            - link "Mini LED" [ref=e74] [cursor=pointer]:
+              - /url: /eg/tvs/mini-led-tv/
+              - generic [ref=e75]:
+                - paragraph [ref=e76]: Mini LED
+                - paragraph: ابحث عن الحجم المثالي لجميع المساحات
+              - img "Mini LED" [ref=e78]
+          - listitem [ref=e79]:
+            - link "QLED" [ref=e80] [cursor=pointer]:
+              - /url: /eg/qled-tv/
+              - generic [ref=e81]:
+                - paragraph [ref=e82]: QLED
+                - paragraph: استمتع بالترفيه اللامتناهي
+          - listitem [ref=e84]:
+            - link "Crystal UHD" [disabled] [ref=e85] [cursor=pointer]:
+              - /url: /eg/tvs/?crystal-uhd/
+              - generic [ref=e86]:
+                - paragraph [ref=e87]: Crystal UHD
+                - paragraph: أفضل سيارة في فئتها ، واختيار واضح وضوح الشمس
+          - listitem [ref=e89]:
+            - link "The Frame" [disabled] [ref=e90] [cursor=pointer]:
+              - /url: /eg/lifestyle-tvs/the-frame/
+              - generic [ref=e91]:
+                - paragraph [ref=e92]: The Frame
+                - paragraph: معرض فنونك على TV
+          - listitem [ref=e94]:
+            - link "أجهزة الصوت" [disabled] [ref=e95] [cursor=pointer]:
+              - /url: /eg/audio-devices/all-audio-devices/
+              - generic [ref=e96]:
+                - paragraph [ref=e97]: أجهزة الصوت
+                - paragraph: استكمال برنامجك مع سيمفونية الصوت
+          - listitem [ref=e99]:
+            - link "أجهزة العرض" [disabled] [ref=e100] [cursor=pointer]:
+              - /url: /eg/projectors/all-projectors/
+              - generic [ref=e101]:
+                - paragraph [ref=e102]: أجهزة العرض
+                - paragraph: إطلاق السينما الخاصة بك
+          - listitem [ref=e104]:
+            - link "TV ملحقات" [disabled] [ref=e105] [cursor=pointer]:
+              - /url: /eg/tv-accessories/all-tv-accessories/
+              - generic [ref=e106]:
+                - paragraph [ref=e107]: TV ملحقات
+                - paragraph: اكتشف ملحقات الTV المثالية لك
+        - generic [ref=e113]:
+          - button "السابق prev" [disabled]:
+            - generic: السابق
+            - text: prev
+          - button "التالي next" [ref=e114] [cursor=pointer]:
+            - generic [ref=e115]: التالي
+            - text: next
+      - list [ref=e119]:
+        - listitem [ref=e120]:
+          - generic "الجميع" [ref=e121]
+        - listitem [ref=e123]:
+          - link "فوق 98 بوصة TVs" [ref=e124] [cursor=pointer]:
+            - /url: /eg/tvs/all-tvs/?98-100
+        - listitem [ref=e126]:
+          - link "83 و 85 بوصة TVs" [ref=e127] [cursor=pointer]:
+            - /url: /eg/tvs/all-tvs/?83-85
+        - listitem [ref=e129]:
+          - link "75 و 77 بوصة TVs" [ref=e130] [cursor=pointer]:
+            - /url: /eg/tvs/all-tvs/?75-77
+        - listitem [ref=e132]:
+          - link "65 بوصة TVs" [ref=e133] [cursor=pointer]:
+            - /url: /eg/tvs/all-tvs/?65
+        - listitem [ref=e135]:
+          - link "55 بوصة TVs" [ref=e136] [cursor=pointer]:
+            - /url: /eg/tvs/all-tvs/?55
+        - listitem [ref=e138]:
+          - link "48 to 50 بوصة TVs" [ref=e139] [cursor=pointer]:
+            - /url: /eg/tvs/all-tvs/?48-50
+        - listitem [ref=e141]:
+          - link "40 & 43 بوصة TVs" [ref=e142] [cursor=pointer]:
+            - /url: /eg/tvs/all-tvs/?43
+        - listitem [ref=e144]:
+          - link "32 بوصة أو أصغر TVs" [ref=e145] [cursor=pointer]:
+            - /url: /eg/tvs/all-tvs/?32-or-smaller
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic:
+            - generic [ref=e153]:
+              - heading "المرشحات" [level=2] [ref=e154]
+              - paragraph [ref=e155]: 39 نتائج
+              - heading [level=2]
+              - button "فرز الأحدث" [ref=e157] [cursor=pointer]:
+                - text: فرز
+                - generic [ref=e158]: الأحدث
+            - list [ref=e165]:
+              - listitem [ref=e166]:
+                - button "حجم الشاشة" [ref=e167] [cursor=pointer]
+              - listitem [ref=e169]:
+                - button "النوع" [ref=e170] [cursor=pointer]
+              - listitem [ref=e172]:
+                - button "السعر" [ref=e173] [cursor=pointer]
+              - listitem [ref=e175]:
+                - button "الدقة" [ref=e176] [cursor=pointer]
+              - listitem [ref=e178]:
+                - button "الميزات" [ref=e179] [cursor=pointer]
+              - listitem [ref=e181]:
+                - button "التلفزيون الذكي" [ref=e182] [cursor=pointer]
+              - listitem [ref=e184]:
+                - button "أجهزة التلفزيون الجديدة" [ref=e185] [cursor=pointer]
+              - listitem
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]:
+                - link "تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K مقاس 55 بوصة طراز QN70H (2026). QA55QN70HAUXEG" [ref=e190] [cursor=pointer]:
+                  - /url: /eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/
+                - button "نظرة سريعة . تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K مقاس 55 بوصة طراز QN70H (2026)" [ref=e198] [cursor=pointer]: نظرة سريعة
+              - link "تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K مقاس 55 بوصة طراز QN70H (2026)" [ref=e200] [cursor=pointer]:
+                - /url: /eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/
+                - text: تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K ...
+              - generic [ref=e202]:
+                - 'link "تقييمات المنتج : 4.7 ( عدد التقييمات : 68)" [ref=e203] [cursor=pointer]':
+                  - /url: /eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/#reviews
+                  - generic [ref=e205]:
+                    - strong [ref=e222]:
+                      - generic [ref=e223]: "تقييمات المنتج :"
+                      - generic [ref=e224]: "4.7"
+                    - emphasis [ref=e225]:
+                      - text: (
+                      - generic [ref=e226]: "عدد التقييمات :"
+                      - text: 68)
+                - button "Open Tooltip Layer" [ref=e228] [cursor=pointer]
+              - list [ref=e236]:
+                - listitem [ref=e237]:
+                  - button "\"85" [ref=e238] [cursor=pointer]
+                - listitem [ref=e240]:
+                  - button "\"75" [ref=e241] [cursor=pointer]
+                - listitem [ref=e243]:
+                  - button "\"65" [ref=e244] [cursor=pointer]
+                - listitem [ref=e246]:
+                  - button "\"55 selected" [ref=e247] [cursor=pointer]:
+                    - generic [ref=e248]: "\"55"
+                    - generic [ref=e249]: selected
+              - generic [ref=e251]:
+                - generic [ref=e252]:
+                  - generic [ref=e253]: "السعر الإجمالي :"
+                  - strong [ref=e254]: 34٬999.00 ج.م
+                - generic [ref=e255]:
+                  - generic [ref=e256]: "السعر الأصلي :"
+                  - paragraph [ref=e257]: "السعر: 49٬999.00 ج.م وفّر 15٬000.00 ج.م."
+              - generic [ref=e259]:
+                - link "أضف إلى السلة :تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K مقاس 55 بوصة طراز QN70H (2026)" [ref=e260] [cursor=pointer]:
+                  - /url: javascript:;
+                  - text: أضف إلى السلة
+                - link "تعرف على المزيد:تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K مقاس 55 بوصة طراز QN70H (2026)" [ref=e261] [cursor=pointer]:
+                  - /url: /eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/
+                  - text: تعرف على المزيد
+              - generic [ref=e263]:
+                - checkbox "مقارنة تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K مقاس 55 بوصة طراز QN70H (2026)" [ref=e264]
+                - generic [ref=e270] [cursor=pointer]:
+                  - text: مقارنة
+                  - generic [ref=e271]: تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K مقاس 55 بوصة طراز QN70H (2026)
+            - listitem [ref=e272]:
+              - generic [ref=e273]:
+                - link "65 شاشة OLED S95H 4K تلفزيون ذكي معزز بتقنية Samsung Vision AI (2026). QA65S95HAUXEG" [ref=e274] [cursor=pointer]:
+                  - /url: /eg/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qa65s95hauxeg/
+                - button "نظرة سريعة . 65 شاشة OLED S95H 4K تلفزيون ذكي معزز بتقنية Samsung Vision AI (2026)" [ref=e282] [cursor=pointer]: نظرة سريعة
+              - link "65 شاشة OLED S95H 4K تلفزيون ذكي معزز بتقنية Samsung Vision AI (2026)" [ref=e284] [cursor=pointer]:
+                - /url: /eg/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qa65s95hauxeg/
+                - text: 65 شاشة OLED S95H 4K تلفزيون ذكي معزز بتقنية Samsung Vision...
+              - generic [ref=e286]:
+                - 'link "تقييمات المنتج : 4.9 ( عدد التقييمات : 131)" [ref=e287] [cursor=pointer]':
+                  - /url: /eg/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qa65s95hauxeg/#reviews
+                  - generic [ref=e289]:
+                    - strong [ref=e306]:
+                      - generic [ref=e307]: "تقييمات المنتج :"
+                      - generic [ref=e308]: "4.9"
+                    - emphasis [ref=e309]:
+                      - text: (
+                      - generic [ref=e310]: "عدد التقييمات :"
+                      - text: 131)
+                - button "Open Tooltip Layer" [ref=e312] [cursor=pointer]
+              - list [ref=e320]:
+                - listitem [ref=e321]:
+                  - button "\"83" [ref=e322] [cursor=pointer]
+                - listitem [ref=e324]:
+                  - button "\"‎‎77" [ref=e325] [cursor=pointer]
+                - listitem [ref=e327]:
+                  - button "\"65 selected" [ref=e328] [cursor=pointer]:
+                    - generic [ref=e329]: "\"65"
+                    - generic [ref=e330]: selected
+              - generic [ref=e332]:
+                - generic [ref=e333]:
+                  - generic [ref=e334]: "السعر الإجمالي :"
+                  - strong [ref=e335]: 180٬999.00 ج.م
+                - generic [ref=e336]:
+                  - generic [ref=e337]: "السعر الأصلي :"
+                  - paragraph [ref=e338]: "السعر: 189٬999.00 ج.م وفّر 9٬000.00 ج.م."
+              - generic [ref=e340]:
+                - link "أضف إلى السلة :65 شاشة OLED S95H 4K تلفزيون ذكي معزز بتقنية Samsung Vision AI (2026)" [ref=e341] [cursor=pointer]:
+                  - /url: javascript:;
+                  - text: أضف إلى السلة
+                - link "تعرف على المزيد:65 شاشة OLED S95H 4K تلفزيون ذكي معزز بتقنية Samsung Vision AI (2026)" [ref=e342] [cursor=pointer]:
+                  - /url: /eg/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qa65s95hauxeg/
+                  - text: تعرف على المزيد
+            - listitem [ref=e344]:
+              - generic [ref=e345]:
+                - link "65 تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K طراز QN80H (إصدار عام 2026). QA65QN80HAUXEG" [ref=e346] [cursor=pointer]:
+                  - /url: /eg/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80hauxeg/
+                - button "نظرة سريعة . 65 تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K طراز QN80H (إصدار عام 2026)" [ref=e354] [cursor=pointer]: نظرة سريعة
+              - link "65 تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K طراز QN80H (إصدار عام 2026)" [ref=e356] [cursor=pointer]:
+                - /url: /eg/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80hauxeg/
+                - text: 65 تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة ...
+              - generic [ref=e358]:
+                - 'link "تقييمات المنتج : 4.8 ( عدد التقييمات : 192)" [ref=e359] [cursor=pointer]':
+                  - /url: /eg/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80hauxeg/#reviews
+                  - generic [ref=e361]:
+                    - strong [ref=e378]:
+                      - generic [ref=e379]: "تقييمات المنتج :"
+                      - generic [ref=e380]: "4.8"
+                    - emphasis [ref=e381]:
+                      - text: (
+                      - generic [ref=e382]: "عدد التقييمات :"
+                      - text: 192)
+                - button "Open Tooltip Layer" [ref=e384] [cursor=pointer]
+              - list [ref=e392]:
+                - listitem [ref=e393]:
+                  - button "\"85" [ref=e394] [cursor=pointer]
+                - listitem [ref=e396]:
+                  - button "\"75" [ref=e397] [cursor=pointer]
+                - listitem [ref=e399]:
+                  - button "\"65 selected" [ref=e400] [cursor=pointer]:
+                    - generic [ref=e401]: "\"65"
+                    - generic [ref=e402]: selected
+              - generic [ref=e404]:
+                - generic [ref=e405]:
+                  - generic [ref=e406]: "السعر الإجمالي :"
+                  - strong [ref=e407]: 74٬999.00 ج.م
+                - generic [ref=e408]:
+                  - generic [ref=e409]: "السعر الأصلي :"
+                  - paragraph [ref=e410]: "السعر: 109٬999.00 ج.م وفّر 35٬000.00 ج.م."
+              - generic [ref=e412]:
+                - link "أضف إلى السلة :65 تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K طراز QN80H (إصدار عام 2026)" [ref=e413] [cursor=pointer]:
+                  - /url: javascript:;
+                  - text: أضف إلى السلة
+                - link "تعرف على المزيد:65 تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K طراز QN80H (إصدار عام 2026)" [ref=e414] [cursor=pointer]:
+                  - /url: /eg/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80hauxeg/
+                  - text: تعرف على المزيد
+              - generic [ref=e416]:
+                - checkbox "مقارنة 65 تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K طراز QN80H (إصدار عام 2026)" [ref=e417]
+                - generic [ref=e423] [cursor=pointer]:
+                  - text: مقارنة
+                  - generic [ref=e424]: 65 تلفزيون ذكي Neo QLED معزز بتقنية Samsung Vision AI بدقة 4K طراز QN80H (إصدار عام 2026)
+            - listitem [ref=e425]:
+              - paragraph [ref=e426]: Samsung Vision AI
+              - paragraph [ref=e427]: نضع مفهوماً جديداً لإمكانات الشاشات
+              - link "Learn Moreتعرف على المزيد" [ref=e428] [cursor=pointer]:
+                - /url: /eg/tvs/vision-ai-tv/
+                - text: تعرف على المزيد
+              - link [ref=e429] [cursor=pointer]:
+                - /url: /eg/tvs/vision-ai-tv/
+                - generic [ref=e430]:
+                  - img "Samsung Vision AI" [ref=e431]
+                  - img "Samsung Vision AI" [ref=e432]
+          - button "عرض المزيد" [ref=e433] [cursor=pointer]
+        - generic [ref=e437]:
+          - heading "بادر بالشراء مباشرةً. احصل على المزيد." [level=2] [ref=e439]
+          - list [ref=e442]:
+            - listitem [ref=e443]:
+              - generic [ref=e444]:
+                - paragraph [ref=e449]: توصيل مجاني
+                - paragraph [ref=e451]: توصيل مجاني وآمن أينما تكون
+                - link "تعرف على المزيد. توصيل مجاني" [ref=e453] [cursor=pointer]:
+                  - /url: https://www.samsung.com/eg/shop-faq/delivery-and-installations/
+                  - text: تعرف على المزيد
+            - listitem [ref=e454]:
+              - generic [ref=e455]:
+                - paragraph [ref=e460]: خطط التقسيط السهلة
+                - paragraph [ref=e462]: استمتع بخطط تقسيط متنوعه تصل حتى ٣٦ شهر مع بنوك مختارة
+                - link "تعرف على المزيد. خطط التقسيط السهلة" [ref=e464] [cursor=pointer]:
+                  - /url: https://www.samsung.com/eg/shop-faq/payment-and-financing/
+                  - text: تعرف على المزيد
+            - listitem [ref=e465]:
+              - generic [ref=e466]:
+                - paragraph [ref=e471]: اشتر الآن، وادفع لاحقاً
+                - paragraph [ref=e473]: قسم مشترياتك حتى 36 شهر مع فاليو - سهوله - فرصه -امان - حالا
+                - link "تعرف على المزيد. اشتر الآن، وادفع لاحقاً" [ref=e475] [cursor=pointer]:
+                  - /url: https://www.samsung.com/eg/shop-faq/payment-and-financing/
+                  - text: تعرف على المزيد
+            - listitem [ref=e476]:
+              - generic [ref=e477]:
+                - paragraph [ref=e482]: مرتجعات مجانية
+                - paragraph [ref=e484]: تسجيل الدخول/التسجيل للحصول على التسليم المجاني
+                - link "تعرف على المزيد. مرتجعات مجانية" [ref=e486] [cursor=pointer]:
+                  - /url: https://www.samsung.com/eg/shop-faq/returns-and-cancellations/
+                  - text: تعرف على المزيد
+      - list [ref=e491]:
+        - listitem [ref=e492]: "* قد تختلف الميزة الرئيسية عن المواصفات الرئيسية"
+      - navigation "Breadcrumb" [ref=e493]:
+        - list [ref=e495]:
+          - listitem [ref=e496]:
+            - link "Home" [ref=e497] [cursor=pointer]:
+              - /url: /eg/
+          - listitem [ref=e501]:
+            - link "التلفزيونات" [ref=e502] [cursor=pointer]:
+              - /url: /eg/tvs/
+          - listitem [ref=e506]:
+            - strong [ref=e507]: جميع التلفزيونات
+  - contentinfo [ref=e508]:
+    - generic [ref=e509]:
+      - generic [ref=e510]:
+        - paragraph [ref=e511]: Footer Navigation
+        - generic [ref=e513]:
+          - paragraph [ref=e514]: تسوّق
+          - list [ref=e516]:
+            - listitem [ref=e517]:
+              - link "الصفحة الرئيسية للمتجر الصفحة الرئيسية للمتجر" [ref=e518] [cursor=pointer]:
+                - /url: /eg/offer/
+                - text: الصفحة الرئيسية للمتجر
+            - listitem [ref=e519]:
+              - link "AI Living AI Living" [ref=e520] [cursor=pointer]:
+                - /url: /eg/ai-living/
+                - text: AI Living
+            - listitem [ref=e521]:
+              - link "SmartThings SmartThings" [ref=e522] [cursor=pointer]:
+                - /url: /eg/smartthings/
+                - text: SmartThings
+            - listitem [ref=e523]:
+              - link "اكتشف اكتشف" [ref=e524] [cursor=pointer]:
+                - /url: /eg/explore/
+                - text: اكتشف
+        - generic [ref=e526]:
+          - paragraph [ref=e527]: المنتجات
+          - list [ref=e529]:
+            - listitem [ref=e530]:
+              - link "هاتف Galaxy الذكي هاتف Galaxy الذكي" [ref=e531] [cursor=pointer]:
+                - /url: /eg/smartphones/all-smartphones/
+                - text: هاتف Galaxy الذكي
+            - listitem [ref=e532]:
+              - link "Galaxy Tab Galaxy Tab" [ref=e533] [cursor=pointer]:
+                - /url: /eg/tablets/all-tablets/
+                - text: Galaxy Tab
+            - listitem [ref=e534]:
+              - link "Galaxy Watch Galaxy Watch" [ref=e535] [cursor=pointer]:
+                - /url: /eg/watches/all-watches/
+                - text: Galaxy Watch
+            - listitem [ref=e536]:
+              - link "Galaxy Buds Galaxy Buds" [ref=e537] [cursor=pointer]:
+                - /url: /eg/audio-sound/all-audio-sound/
+                - text: Galaxy Buds
+            - listitem [ref=e538]:
+              - link "TVs TVs" [ref=e539] [cursor=pointer]:
+                - /url: /eg/tvs/all-tvs/
+                - text: TVs
+            - listitem [ref=e540]:
+              - link "أجهزة العرض أجهزة العرض" [ref=e541] [cursor=pointer]:
+                - /url: /eg/projectors/all-projectors/
+                - text: أجهزة العرض
+            - listitem [ref=e542]:
+              - link "أجهزة الصوت أجهزة الصوت" [ref=e543] [cursor=pointer]:
+                - /url: /eg/audio-devices/all-audio-devices/
+                - text: أجهزة الصوت
+            - listitem [ref=e544]:
+              - link "الثلاجات الثلاجات" [ref=e545] [cursor=pointer]:
+                - /url: /eg/refrigerators/all-refrigerators/
+                - text: الثلاجات
+            - listitem [ref=e546]:
+              - link "أجهزة الغسيل أجهزة الغسيل" [ref=e547] [cursor=pointer]:
+                - /url: /eg/washers-and-dryers/all-washers-and-dryers/
+                - text: أجهزة الغسيل
+            - listitem [ref=e548]:
+              - link "مكانس كهربائية مكانس كهربائية" [ref=e549] [cursor=pointer]:
+                - /url: /eg/vacuum-cleaners/all-vacuum-cleaners/
+                - text: مكانس كهربائية
+            - listitem [ref=e550]:
+              - link "الشاشات الشاشات" [ref=e551] [cursor=pointer]:
+                - /url: /eg/monitors/all-monitors/
+                - text: الشاشات
+        - generic [ref=e553]:
+          - paragraph [ref=e554]: الدعم
+          - list [ref=e556]:
+            - listitem [ref=e557]:
+              - link "الصفحة الرئيسية للمساعدة الصفحة الرئيسية للمساعدة" [ref=e558] [cursor=pointer]:
+                - /url: /eg/support/
+                - text: الصفحة الرئيسية للمساعدة
+            - listitem [ref=e559]:
+              - link "دليل والبرمجيات الدليل وSoftware" [ref=e560] [cursor=pointer]:
+                - /url: /eg/support/user-manuals-and-guide/
+                - text: دليل والبرمجيات
+            - listitem [ref=e561]:
+              - link "المساعدة على البحث المساعدة على البحث" [ref=e562] [cursor=pointer]:
+                - /url: /eg/search/?searchvalue=mobile#support
+                - text: المساعدة على البحث
+            - listitem [ref=e563]:
+              - link "FAQ الخاصة بالتسوّق FAQ الخاصة بالتسوّق" [ref=e564] [cursor=pointer]:
+                - /url: /eg/shop-faq/
+                - text: FAQ الخاصة بالتسوّق
+            - listitem [ref=e565]:
+              - link "معلومات الضمان معلومات الضمان" [ref=e566] [cursor=pointer]:
+                - /url: /eg/support/warranty/
+                - text: معلومات الضمان
+            - listitem [ref=e567]:
+              - link "محدد موقع الخدمة محدد موقع الخدمة" [ref=e568] [cursor=pointer]:
+                - /url: /eg/support/service-center/
+                - text: محدد موقع الخدمة
+            - listitem [ref=e569]:
+              - link "الحجز والإصلاح الحجز والإصلاح" [ref=e570] [cursor=pointer]:
+                - /url: /eg/mypage/myproducts/
+                - text: الحجز والإصلاح
+            - listitem [ref=e571]:
+              - link "تكاليف الإصلاح تكاليف الإصلاح" [ref=e572] [cursor=pointer]:
+                - /url: /eg/support/repairprice/
+                - text: تكاليف الإصلاح
+            - listitem [ref=e573]:
+              - 'link "الدردشة الدردشة : افتح في نافذة جديدة" [ref=e574] [cursor=pointer]':
+                - /url: //live-chat-static.sprinklr.com/chat/page/VqUTpd4Ee/index.html?appId=5ff707a6625c12196c49a076_app_773263&device=MOBILE
+                - text: الدردشة
+            - listitem [ref=e577]:
+              - link "المكالمات الهاتفية المكالمات الهاتفية" [ref=e578] [cursor=pointer]:
+                - /url: /eg/support/contact/
+                - text: المكالمات الهاتفية
+            - listitem [ref=e579]:
+              - link "دعم لغة الإشارة دعم لغة الإشارة" [ref=e580] [cursor=pointer]:
+                - /url: /eg/sign-language/
+                - text: دعم لغة الإشارة
+        - generic [ref=e582]:
+          - paragraph [ref=e583]: حساب
+          - list [ref=e585]:
+            - listitem [ref=e586]:
+              - 'link "طلباتي طلباتي : افتح في نافذة جديدة" [ref=e587] [cursor=pointer]':
+                - /url: //shop.samsung.com/eg/mypage/orders/
+                - text: طلباتي
+            - listitem [ref=e590]:
+              - link "صفحتي صفحتي" [ref=e591] [cursor=pointer]:
+                - /url: /eg/mypage/
+                - text: صفحتي
+            - listitem [ref=e592]:
+              - link "منتجاتي منتجاتي" [ref=e593] [cursor=pointer]:
+                - /url: /eg/mypage/myproducts/
+                - text: منتجاتي
+            - listitem [ref=e594]:
+              - 'link "قسائم شراء قسائم شراء : افتح في نافذة جديدة" [ref=e595] [cursor=pointer]':
+                - /url: //shop.samsung.com/eg/mypage/vouchers
+                - text: قسائم شراء
+        - generic [ref=e598]:
+          - generic [ref=e599]:
+            - paragraph [ref=e600]: الاستدامة
+            - list [ref=e602]:
+              - listitem [ref=e603]:
+                - link "البيئة البيئة" [ref=e604] [cursor=pointer]:
+                  - /url: /eg/sustainability/environment/
+                  - text: البيئة
+              - listitem [ref=e605]:
+                - link "الأمان والخصوصية الأمان والخصوصية" [ref=e606] [cursor=pointer]:
+                  - /url: /eg/sustainability/security-and-privacy/
+                  - text: الأمان والخصوصية
+              - listitem [ref=e607]:
+                - link "إمكانية الوصول" [ref=e608] [cursor=pointer]:
+                  - /url: /eg/sustainability/accessibility/overview/
+              - listitem [ref=e609]:
+                - link "بيئة عمل شاملة بيئة عمل شاملة" [ref=e610] [cursor=pointer]:
+                  - /url: /eg/sustainability/inclusive-workplace/
+                  - text: بيئة عمل شاملة
+              - listitem [ref=e611]:
+                - 'link "مواطنة الشركة مواطنة الشركة. معاً من أجل المستقبل! تمكين الأفراد : افتح في نافذة جديدة" [ref=e612] [cursor=pointer]':
+                  - /url: //csr.samsung.com/en/main.do
+                  - text: مواطنة الشركة
+              - listitem [ref=e615]:
+                - 'link "الاستدامة المؤسسية الاستدامة المؤسسية : افتح في نافذة جديدة" [ref=e616] [cursor=pointer]':
+                  - /url: //www.samsung.com/global/sustainability/
+                  - text: الاستدامة المؤسسية
+          - generic [ref=e619]:
+            - paragraph [ref=e620]: نبذة عنا
+            - list [ref=e622]:
+              - listitem [ref=e623]:
+                - link "معلومات الشركة معلومات الشركة" [ref=e624] [cursor=pointer]:
+                  - /url: /eg/about-us/company-info/
+                  - text: معلومات الشركة
+              - listitem [ref=e625]:
+                - link "منطقة العمل منطقة العمل" [ref=e626] [cursor=pointer]:
+                  - /url: /eg/about-us/business-area/
+                  - text: منطقة العمل
+              - listitem [ref=e627]:
+                - link "هوية العلامة التجارية هوية العلامة التجارية" [ref=e628] [cursor=pointer]:
+                  - /url: /eg/about-us/brand-identity/
+                  - text: هوية العلامة التجارية
+              - listitem [ref=e629]:
+                - link "فرص العمل فرص العمل" [ref=e630] [cursor=pointer]:
+                  - /url: /eg/about-us/careers/
+                  - text: فرص العمل
+              - listitem [ref=e631]:
+                - 'link "علاقات المستثمرين علاقات المستثمرين : افتح في نافذة جديدة" [ref=e632] [cursor=pointer]':
+                  - /url: //www.samsung.com/global/ir/
+                  - text: علاقات المستثمرين
+              - listitem [ref=e635]:
+                - 'link "غرفة الأخبار غرفة الأخبار : افتح في نافذة جديدة" [ref=e636] [cursor=pointer]':
+                  - /url: //www.samsung.com/eg/news/
+                  - text: غرفة الأخبار
+              - listitem [ref=e639]:
+                - link "الأخلاقيات الأخلاقيات" [ref=e640] [cursor=pointer]:
+                  - /url: /eg/about-us/ethics/
+                  - text: الأخلاقيات
+              - listitem [ref=e641]:
+                - 'link "تصميم سامسونج تصميم سامسونج : افتح في نافذة جديدة" [ref=e642] [cursor=pointer]':
+                  - /url: //design.samsung.com/global/index.html
+                  - text: تصميم سامسونج
+      - generic [ref=e645]:
+        - paragraph [ref=e648]: حقوق الطبع والنسخ 1995-2026 سامسونج. جميع الحقوق محفوظة.
+        - generic [ref=e649]:
+          - link "اختر موقعك أو لغتك" [ref=e651] [cursor=pointer]:
+            - /url: /eg/function/ipredirection/ipredirectionLocalList/
+            - text: مصر/العربية
+          - list [ref=e653]:
+            - listitem [ref=e654]:
+              - link "الخصوصية" [ref=e655] [cursor=pointer]:
+                - /url: /eg/info/privacy/
+            - listitem [ref=e656]:
+              - link "قانوني" [ref=e657] [cursor=pointer]:
+                - /url: /eg/info/legal/
+            - listitem [ref=e658]:
+              - 'link "شروط وأحكام البيع : افتح في نافذة جديدة" [ref=e659] [cursor=pointer]':
+                - /url: https://shop.samsung.com/eg/terms-and-conditions/
+                - text: شروط وأحكام البيع
+          - generic [ref=e660]:
+            - generic [ref=e661]: أترغب بمواكبة آخر المستجدات؟
+            - list [ref=e662]:
+              - listitem [ref=e663]:
+                - 'link "Facebook : افتح في نافذة جديدة" [ref=e664] [cursor=pointer]':
+                  - /url: //www.facebook.com/SamsungEgypt
+              - listitem [ref=e667]:
+                - 'link "Twitter : افتح في نافذة جديدة" [ref=e668] [cursor=pointer]':
+                  - /url: //twitter.com/samsungegypt
+              - listitem [ref=e671]:
+                - 'link "Instagram : افتح في نافذة جديدة" [ref=e672] [cursor=pointer]':
+                  - /url: //www.instagram.com/samsungegypt/
+              - listitem [ref=e675]:
+                - 'link "You Tube : افتح في نافذة جديدة" [ref=e676] [cursor=pointer]':
+                  - /url: //www.youtube.com/user/SamsungEgypt
+              - listitem [ref=e679]:
+                - 'link "WhatsApp : افتح في نافذة جديدة" [ref=e680] [cursor=pointer]':
+                  - /url: https://wa.me/+201000016580

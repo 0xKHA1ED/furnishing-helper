@@ -1,100 +1,65 @@
 {
-  "version": 1,
-  "lastUpdated": "2026-07-17",
+  "version": 2,
+  "lastUpdated": "2026-07-20",
   "status": "catalog_ready",
   "galleryPage": "tv-gallery.html",
   "catalogPath": "data/appliances/tv_catalog.json",
   "answers": {
-    "budgetMaxEGP": 26000,
-    "minSizeInches": 50,
-    "resolutionPriority": "not_important_4k_not_required",
-    "gimmicksPriority": "not_important",
-    "notes": "Work autonomously; dual-gate later when starring"
+    "budgetMaxEGP": 30000,
+    "minSizeInches": 55,
+    "maxSizeInches": 65,
+    "sources": "official_manufacturers_only",
+    "notes": "Replaced marketplace scrape with official brand sites only"
   },
   "filters": {
-    "maxPriceEGP": 26000,
-    "minSizeInches": 50,
+    "maxPriceEGP": 30000,
+    "minSizeInches": 55,
+    "maxSizeInches": 65,
     "rankBy": [
+      "in_stock_official",
       "size_within_budget",
       "brand_service_egypt",
       "built_in_receiver",
-      "simple_led_value"
+      "price_headroom"
     ],
-    "doNotBoost": [
-      "4K",
-      "QLED",
-      "NanoCell",
-      "OLED",
-      "Mini-LED marketing"
+    "sourcesAllowed": [
+      "Samsung Egypt official",
+      "LG Egypt official",
+      "Elaraby Group official",
+      "Fresh Egypt official"
     ]
   },
   "rooms": {
     "primary": "living",
-    "living_cm": [
-      375,
-      450
-    ]
+    "living_cm": [375, 450]
   },
   "scrape": {
     "method": "Playwright MCP",
-    "date": "2026-07-17",
+    "date": "2026-07-20",
     "sources": [
-      "B.TECH televisions category (full scroll, LE price parse)",
-      "Amazon.eg 50 inch TV under ~26k filter",
-      "Jumia Egypt 50 inch smart TV"
+      "Samsung.com/eg TVs (55/65 product pages)",
+      "LG.com/eg_en all TVs / size filters",
+      "Elaraby Group televisions (Tornado, Sharp, TCL, Kajito)",
+      "Fresh.com.eg TV category"
     ],
-    "notes": "Rejected implausible prices (e.g. model number fragments). Re-verify day of purchase."
+    "checkedNoMatchOrNoPrices": [
+      "Beko EG televisions — only 43/50 inch listed",
+      "Haier EG TVs — no e-commerce prices",
+      "Hisense Middle East — site 522 timeout",
+      "Unionaire — no TV products in shop"
+    ],
+    "notes": "All old B.TECH/Amazon/Jumia TV entries removed. Re-verify day of purchase."
   },
   "countsFromCatalog": {
-    "included": 117,
-    "excludedListed": 207,
-    "total": 324,
-    "withImage": 324,
-    "bySource": {
-      "B.TECH": 238,
-      "Amazon.eg": 47,
-      "Jumia Egypt": 39
-    },
-    "byBrand": {
-      "Toshiba": 6,
-      "Samsung": 9,
-      "Hisense": 6,
-      "LG": 23,
-      "Sharp": 5,
-      "Ultra": 9,
-      "Haier": 16,
-      "ATA": 5,
-      "Armadillo": 1,
-      "Grouhy": 3,
-      "Castle": 2,
-      "TCL": 5,
-      "GTV": 1,
-      "Evolve": 1,
-      "JAC": 2,
-      "Beko": 2,
-      "Elc": 1,
-      "Fresh": 4,
-      "Hyundai": 1,
-      "Tornado": 8,
-      "Jac": 2,
-      "Arion": 1,
-      "Xiaomi": 1,
-      "Thomson": 2,
-      "Levon": 1
-    },
-    "bySize": {
-      "65": 8,
-      "58": 3,
-      "55": 31,
-      "50": 71,
-      "60": 2,
-      "?": 2
-    }
+    "included": 33,
+    "excludedListed": 1,
+    "total": 34,
+    "inStock": 21
   },
   "decisionHints": [
-    "If seating is normal living distance, 55\" is the sweet spot under 26k",
-    "65\" under 26k exists (Toshiba/Samsung promos) — only if you sit far enough",
-    "50\" value options leave cash for wall mount or TV bench",
-    "Ignore 4K upsell if two models match on size, brand, warranty, price"
+    "Prefer In stock filter first — several good prices are OOS on official sites",
+    "Samsung/LG official carts give cleanest warranty path",
+    "Elaraby Tornado/Sharp often win on price with built-in receivers",
+    "65\" under 30k exists (Samsung U8000H, LG NANO/QNED, Sharp, Tornado) if seating distance allows"
   ]
 }

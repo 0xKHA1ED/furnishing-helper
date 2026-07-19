@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TV gallery — ≥50″ · ≤26k · no 4K priority</title>
+    <title>TV gallery — 55–65″ · under 30k · official makers only</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/appliances.css" />
   </head>
@@ -19,15 +19,15 @@
           </p>
           <h1>TV gallery</h1>
           <p class="lead">
-            Hard filters: <strong>≥ 50 inches</strong>,
-            <strong>≤ 26,000 EGP</strong>.
-            <strong>4K is not ranked higher</strong>; NanoCell / QLED / OLED are not treated as upgrades.
-            Focus: size, brand service path, built-in receiver when useful, simple LED value.
+            Hard filters: <strong>55–65 inches</strong>,
+            <strong>under 30,000 EGP</strong>,
+            <strong>official manufacturers only</strong> (Samsung, LG, Elaraby/Tornado/Sharp/TCL, Fresh, etc.).
+            Each card includes price, pros/cons, and stock status from the brand site.
           </p>
         </div>
         <div class="badge-row">
           <span class="badge gold" id="count-badge">—</span>
-          <span class="badge">No gimmick priority</span>
+          <span class="badge">Official makers only</span>
         </div>
       </header>
 
@@ -35,23 +35,27 @@
 
       <div class="preset-row">
         <button type="button" data-preset="main" class="active">Main (in budget)</button>
+        <button type="button" data-preset="instock">In stock</button>
         <button type="button" data-preset="recommended">Recommended brands</button>
-        <button type="button" data-preset="55">55″+</button>
+        <button type="button" data-preset="55">55″</button>
+        <button type="button" data-preset="58">58–60″</button>
         <button type="button" data-preset="65">65″</button>
-        <button type="button" data-preset="simple">Simple LED / FHD</button>
         <button type="button" data-preset="starred">★ Starred</button>
         <button type="button" data-preset="excluded">Out of filter</button>
       </div>
 
       <div class="gallery-toolbar">
         <label>Search
-          <input id="f-q" type="search" placeholder="Samsung, Hisense, model…" />
+          <input id="f-q" type="search" placeholder="Samsung, LG, Tornado, model…" />
         </label>
         <label>Max EGP
-          <input id="f-max" type="number" value="26000" />
+          <input id="f-max" type="number" value="30000" />
         </label>
         <label>Min inches
-          <input id="f-inch" type="number" value="50" />
+          <input id="f-inch" type="number" value="55" />
+        </label>
+        <label>Max inches
+          <input id="f-inch-max" type="number" value="65" />
         </label>
         <label>Brand
           <select id="f-brand">
@@ -66,12 +70,20 @@
             <option value="size_desc">Size ↓</option>
           </select>
         </label>
-        <label>Shop
+        <label>Source
           <select id="f-shop">
+            <option value="any">Any official</option>
+            <option value="Samsung">Samsung Egypt</option>
+            <option value="LG">LG Egypt</option>
+            <option value="Elaraby">Elaraby Group</option>
+            <option value="Fresh">Fresh Egypt</option>
+          </select>
+        </label>
+        <label>Stock
+          <select id="f-stock">
             <option value="any">Any</option>
-            <option value="B.TECH">B.TECH</option>
-            <option value="Amazon">Amazon.eg</option>
-            <option value="Jumia">Jumia</option>
+            <option value="in">In stock</option>
+            <option value="out">Out of stock</option>
           </select>
         </label>
       </div>
@@ -133,7 +145,7 @@
       let items = [], data = null, active = null, preset = "main";
       let stars = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || "[]"));
       const $ = (s) => document.querySelector(s);
-      const recBrands = new Set(["Samsung", "LG", "Hisense", "Sharp", "Toshiba", "Sony", "Haier"]);
+      const recBrands = new Set(["Samsung", "LG", "Sharp", "Toshiba", "Sony", "TCL", "Tornado", "Fresh"]);
       function esc(s) {
         return String(s || "")
           .replace(/&/g, "&amp;")
@@ -145,39 +157,46 @@
         if (n == null) return "Price varies";
         return Number(n).toLocaleString() + " EGP";
       }
+      function stockLabel(it) {
+        if (it.inStock === true || it.stockStatus === "in_stock") return "In stock";
+        if (it.inStock === false || it.stockStatus === "out_of_stock") return "Out of stock";
+        return it.availability || "Stock unknown";
+      }
       function list() {
         const q = ($("#f-q").value || "").toLowerCase();
-        const maxP = Number($("#f-max").value) || 26000;
-        const minI = Number($("#f-inch").value) || 50;
+        const maxP = Number($("#f-max").value) || 30000;
+        const minI = Number($("#f-inch").value) || 55;
+        const maxI = Number($("#f-inch-max").value) || 65;
         const brand = $("#f-brand").value;
         const shop = $("#f-shop").value;
+        const stock = $("#f-stock").value;
         const sort = $("#f-sort").value;
         let out = items.filter((it) => {
           if (preset === "starred") return stars.has(it.id);
           if (preset === "excluded") return !!it.excluded;
           if (it.excluded) return false;
-          if (it.priceEGP != null && it.priceEGP > maxP) return false;
+          if (it.priceEGP != null && it.priceEGP >= maxP) return false;
           if (it.sizeInches != null && it.sizeInches < minI) return false;
-          if (preset === "recommended") {
-            if (!recBrands.has(it.brand)) return false;
+          if (it.sizeInches != null && it.sizeInches > maxI) return false;
+          if (preset === "recommended" && !recBrands.has(it.brand)) return false;
+          if (preset === "instock" && it.inStock !== true) return false;
+          if (preset === "55" && (it.sizeInches || 0) !== 55) return false;
+          if (preset === "58") {
+            const n = it.sizeInches || 0;
+            if (n < 58 || n > 60) return false;
           }
-          if (preset === "55" && (it.sizeInches || 0) < 55) return false;
           if (preset === "65" && (it.sizeInches || 0) < 65) return false;
-          if (preset === "simple") {
-            const simplePanel = it.panel === "LED";
-            const simpleRes = it.resolution === "FHD" || it.resolution === "HD" || it.resolution === "unspecified";
-            // also allow 4K LED as "simple enough" if not QLED/Nano
-            if (!simplePanel && it.panel !== "LED") return false;
-            if (it.panel !== "LED") return false;
-          }
           if (brand !== "any" && it.brand !== brand) return false;
           if (shop !== "any") {
             const s = (it.source || "").toLowerCase();
-            if (shop === "B.TECH" && !s.includes("b.tech") && !s.includes("btech")) return false;
-            if (shop === "Amazon" && !s.includes("amazon")) return false;
-            if (shop === "Jumia" && !s.includes("jumia")) return false;
+            if (shop === "Samsung" && !s.includes("samsung")) return false;
+            if (shop === "LG" && !s.includes("lg")) return false;
+            if (shop === "Elaraby" && !s.includes("elaraby")) return false;
+            if (shop === "Fresh" && !s.includes("fresh")) return false;
           }
-          if (q && !`${it.name} ${it.brand}`.toLowerCase().includes(q)) return false;
+          if (stock === "in" && it.inStock !== true) return false;
+          if (stock === "out" && it.inStock !== false) return false;
+          if (q && !`${it.name} ${it.brand} ${it.source || ""}`.toLowerCase().includes(q)) return false;
           return true;
         });
         out.sort((a, b) => {
@@ -190,26 +209,30 @@
       }
       function renderGrid() {
         const rows = list();
-        $("#result-count").textContent = `Showing ${rows.length} · ${stars.size} starred`;
+        const inStockN = rows.filter((i) => i.inStock === true).length;
+        $("#result-count").textContent = `Showing ${rows.length} · ${inStockN} in stock · ${stars.size} starred`;
         $("#product-grid").innerHTML = rows
           .map((it) => {
             const img = it.imageUrl
               ? `<img src="${esc(it.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
               : `<div class="ph">No image</div>`;
             const rec = (data.recommendedIds || []).includes(it.id);
+            const stock = stockLabel(it);
+            const stockHot = it.inStock === true;
             return `<article class="product-card ${stars.has(it.id) ? "starred" : ""}" data-id="${esc(it.id)}">
               <div class="thumb">${img}
                 <div class="badge-abs">
                   ${it.rank && it.rank < 200 ? `<span class="chip-mini hot">#${it.rank}</span>` : ""}
                   ${rec ? `<span class="chip-mini">rec</span>` : ""}
                   <span class="chip-mini">${it.sizeInches || "?"}″</span>
+                  <span class="chip-mini ${stockHot ? "hot" : ""}">${esc(stock)}</span>
                 </div>
                 <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
               </div>
               <div class="body">
                 <div class="brand">${esc(it.brand)} · ${esc(it.panel)} · ${esc(it.resolution)}</div>
                 <h3>${esc(it.name)}</h3>
-                <div class="meta">${esc(it.source || "")}</div>
+                <div class="meta">${esc(it.source || "")} · ${esc(stock)}</div>
                 <div class="price">${fmt(it.priceEGP)}</div>
               </div>
             </article>`;
@@ -255,8 +278,9 @@
           ["Panel", active.panel],
           ["Resolution", active.resolution],
           ["Brand", active.brand],
-          ["Shop", active.source],
-          ["Budget fit", active.priceEGP != null && active.priceEGP <= 26000 ? "≤ 26k" : "check"],
+          ["Source", active.source],
+          ["Availability", stockLabel(active)],
+          ["Budget fit", active.priceEGP != null && active.priceEGP < 30000 ? "under 30k" : "check"],
         ];
         $("#modal-specs").innerHTML = specs
           .map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v || "—"))}</span></li>`)
@@ -269,7 +293,8 @@
           data = await (await fetch("data/appliances/tv_catalog.json")).json();
           items = data.items || [];
           const n = items.filter((i) => !i.excluded).length;
-          $("#count-badge").textContent = `${n} in budget`;
+          const stockN = items.filter((i) => !i.excluded && i.inStock === true).length;
+          $("#count-badge").textContent = `${n} in filter · ${stockN} in stock`;
           $("#disclaimer").textContent = data.disclaimer || "";
           $("#route").innerHTML = (data.shoppingRoute || []).map((s) => `<li>${esc(s)}</li>`).join("");
           const ex = data.excludedExamples || [];
@@ -292,7 +317,7 @@
             renderGrid();
           });
         });
-        ["f-q", "f-max", "f-inch", "f-brand", "f-sort", "f-shop"].forEach((id) => {
+        ["f-q", "f-max", "f-inch", "f-inch-max", "f-brand", "f-sort", "f-shop", "f-stock"].forEach((id) => {
           $(`#${id}`).addEventListener("input", renderGrid);
           $(`#${id}`).addEventListener("change", renderGrid);
         });
