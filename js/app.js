@@ -177,12 +177,16 @@ function ensureSeeds() {
 }
 
 /* ---------- Tabs ---------- */
+function applyTab(id) {
+  state.ui.activeTab = id || "dashboard";
+  $$(".tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === state.ui.activeTab));
+  $$(".panel").forEach((p) => p.classList.toggle("active", p.id === `panel-${state.ui.activeTab}`));
+}
+
 function setTab(id) {
-  state.ui.activeTab = id;
-  $$(".tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === id));
-  $$(".panel").forEach((p) => p.classList.toggle("active", p.id === `panel-${id}`));
+  // Only switch visible panel — do not call render() (that used to recurse forever).
+  applyTab(id);
   saveLocal();
-  render();
 }
 
 /* ---------- Checklist ---------- */
@@ -913,7 +917,7 @@ function render() {
   renderLighting();
   renderBudget();
   renderExport();
-  setTab(state.ui.activeTab || "dashboard");
+  applyTab(state.ui.activeTab || "dashboard");
 }
 
 async function init() {
