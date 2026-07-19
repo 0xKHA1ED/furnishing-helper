@@ -1,0 +1,456 @@
+- generic [active] [ref=f40e1]:
+  - generic [ref=f40e7]:
+    - banner [ref=f40e8]:
+      - generic [ref=f40e9]:
+        - generic [ref=f40e13]:
+          - button [ref=f40e19] [cursor=pointer]:
+            - strong [ref=f40e20]: English
+            - text: 
+          - list [ref=f40e24]:
+            - listitem [ref=f40e25]:
+              - link "Help and Support" [ref=f40e26] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/help-and-support/
+            - listitem [ref=f40e27]:
+              - link "Contact Us" [ref=f40e28] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/contact/
+            - listitem [ref=f40e29]:
+              - link "Blog" [ref=f40e30] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/blog/
+            - listitem [ref=f40e31]:
+              - button [ref=f40e34] [cursor=pointer]:
+                - strong [ref=f40e35]: Maintenance
+                - text: 
+        - generic [ref=f40e37]:
+          - generic [ref=f40e39]:
+            - generic [ref=f40e40] [cursor=pointer]:
+              - text: 
+              - generic [ref=f40e41]: Toggle Nav
+            - link "store logo" [ref=f40e42] [cursor=pointer]:
+              - /url: https://www.elarabygroup.com/en/
+          - generic [ref=f40e46]:
+            - combobox "Search entire store here..." [ref=f40e47]
+            - button ""
+          - list [ref=f40e50]:
+            - listitem [ref=f40e51]:
+              - link "0" [ref=f40e53] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/checkout/cart/
+    - list [ref=f40e57]:
+      - listitem [ref=f40e58]:
+        - link "Home" [ref=f40e59] [cursor=pointer]:
+          - /url: https://www.elarabygroup.com/en/
+        - text: 
+      - listitem [ref=f40e60]:
+        - link "Home Appliances" [ref=f40e61] [cursor=pointer]:
+          - /url: https://www.elarabygroup.com/en/electric-home-appliances
+        - text: 
+      - listitem [ref=f40e62]:
+        - link "Large Home Appliances" [ref=f40e63] [cursor=pointer]:
+          - /url: https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances
+        - text: 
+      - listitem [ref=f40e64]:
+        - link "Washing Machines" [ref=f40e65] [cursor=pointer]:
+          - /url: https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines
+        - text: 
+      - listitem [ref=f40e66]:
+        - strong [ref=f40e67]: Top Automatic Washing Machines
+    - list [ref=f40e72]:
+      - generic [ref=f40e74]:
+        - listitem [ref=f40e76]:
+          - link "Category image TORNADO Top Automatic Washing Machines" [ref=f40e77] [cursor=pointer]:
+            - /url: https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines/top-automatic-washing-machines/tornado-washing-machines-top-automatic
+            - img "Category image" [ref=f40e79]
+            - generic [ref=f40e80]: TORNADO Top Automatic Washing Machines
+        - listitem [ref=f40e82]:
+          - link "Category image SHARP Top Automatic Washing Machines" [ref=f40e83] [cursor=pointer]:
+            - /url: https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines/top-automatic-washing-machines/sharp-washing-machines-top-automatic
+            - img "Category image" [ref=f40e85]
+            - generic [ref=f40e86]: SHARP Top Automatic Washing Machines
+        - listitem [ref=f40e88]:
+          - link "Category image HOOVER Top Automatic Washing Machines" [ref=f40e89] [cursor=pointer]:
+            - /url: https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines/top-automatic-washing-machines/hoover-washing-machines-top-automatic
+            - img "Category image" [ref=f40e91]
+            - generic [ref=f40e92]: HOOVER Top Automatic Washing Machines
+      - text:  
+    - main [ref=f40e93]:
+      - generic [ref=f40e94]:
+        - generic [ref=f40e95]:
+          - generic [ref=f40e98]:
+            - heading "Discover Top automatic washing machines at the best prices!" [level=1] [ref=f40e101]
+            - paragraph [ref=f40e105]:
+              - text: Shop the best prices and specifications of Top automatic washing machines online from ELARABY Group with the highest quality and technology. Top automatic clothes washing machines have many advantages, including a larger load capacity compared to
+              - link "Half-automatic washing machines" [ref=f40e106] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines/half-washing-machines
+              - text: ", which allows more clothes to be washed in each cycle. These Top washing machines also provide multiple and varied washing and spinning cycles, so that the user can choose the appropriate cycle for the type of clothes and washing requirements. You can also find other types of washing machines, such as"
+              - link "fully automatic washing machines" [ref=f40e107] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines/full-automatic-washing-machines
+              - text: and Half-automatic washing machines with free delivery service in Egypt and best offers and discounts.
+          - generic [ref=f40e108]:
+            - generic [ref=f40e109]:
+              - paragraph [ref=f40e110]: Item 39
+              - text:  
+              - generic [ref=f40e112]:
+                - text: Sort By
+                - combobox "Sort By Sort By" [ref=f40e113]:
+                  - option "Price from high to low" [selected]
+                  - option "Price from low to high"
+                - text: 
+            - button "Load Previous Page" [ref=f40e114] [cursor=pointer]
+            - generic [ref=f40e115]: You've viewed 12 of 39 items
+            - list [ref=f40e119]:
+              - listitem [ref=f40e120]:
+                - generic [ref=f40e121]:
+                  - link [ref=f40e122] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-13-kg-ddm-inverter-pump-black-es-td13gbkp
+                    - generic [ref=f40e124]:
+                      - img "SHARP Washing Machine 13 Kg DDM Inverter Pump Black ES-TD13GBKP" [ref=f40e125]
+                      - img "Product Label" [ref=f40e127]
+                  - generic [ref=f40e128]:
+                    - strong [ref=f40e129]:
+                      - link "SHARP Washing Machine 13 Kg DDM Inverter Pump Black ES-TD13GBKP" [ref=f40e130] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-13-kg-ddm-inverter-pump-black-es-td13gbkp
+                    - generic [ref=f40e132]:
+                      - generic [ref=f40e133]: ★
+                      - generic [ref=f40e134]: "4.7"
+                    - generic [ref=f40e135]: EGP20,119
+                    - generic [ref=f40e139]:
+                      - generic [ref=f40e140]: Out of stock
+                      - link "Quick View" [ref=f40e142] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e143]:
+                - generic [ref=f40e144]:
+                  - link [ref=f40e145] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/hoover-washing-machine-14-kg-pump-silver-hwh-tln14dsl
+                    - img "HOOVER Washing Machine 14 Kg Pump Silver HWH-TLN14DSL" [ref=f40e148]
+                  - generic [ref=f40e149]:
+                    - strong [ref=f40e150]:
+                      - link "HOOVER Washing Machine 14 Kg Pump Silver HWH-TLN14DSL" [ref=f40e151] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/hoover-washing-machine-14-kg-pump-silver-hwh-tln14dsl
+                    - generic [ref=f40e153]:
+                      - generic [ref=f40e154]: ★
+                      - generic [ref=f40e155]: "5.0"
+                    - generic [ref=f40e156]: EGP20,079
+                    - generic [ref=f40e160]:
+                      - generic [ref=f40e161]: Out of stock
+                      - link "Quick View" [ref=f40e163] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e164]:
+                - generic [ref=f40e165]:
+                  - link [ref=f40e166] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/hoover-washing-machine-12-kg-ddm-inverter-pump-black-hwh-tld12dbk
+                    - img "HOOVER Washing Machine 12 Kg DDM Inverter Pump Black HWH-TLD12DBK" [ref=f40e169]
+                  - generic [ref=f40e170]:
+                    - strong [ref=f40e171]:
+                      - link "HOOVER Washing Machine 12 Kg DDM Inverter Pump Black HWH-TLD12DBK" [ref=f40e172] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/hoover-washing-machine-12-kg-ddm-inverter-pump-black-hwh-tld12dbk
+                    - generic [ref=f40e174]:
+                      - generic [ref=f40e175]: ★
+                      - generic [ref=f40e176]: "4.4"
+                    - generic [ref=f40e177]: EGP19,849
+                    - generic [ref=f40e181]:
+                      - generic [ref=f40e182]: Out of stock
+                      - link "Quick View" [ref=f40e184] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e185]:
+                - generic [ref=f40e186]:
+                  - link [ref=f40e187] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/tornado-washer-13-kg-ddm-inverter-pump-stainless-twe-tld13rss
+                    - img "TORNADO Washer 13 Kg DDM Inverter Pump Stainless TWE-TLD13RSS" [ref=f40e190]
+                  - generic [ref=f40e191]:
+                    - strong [ref=f40e192]:
+                      - link "TORNADO Washer 13 Kg DDM Inverter Pump Stainless TWE-TLD13RSS" [ref=f40e193] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/tornado-washer-13-kg-ddm-inverter-pump-stainless-twe-tld13rss
+                    - generic [ref=f40e195]:
+                      - generic [ref=f40e196]: ★
+                      - generic [ref=f40e197]: "5.0"
+                    - generic [ref=f40e198]: EGP18,849
+                    - generic [ref=f40e202]:
+                      - generic [ref=f40e203]: Out of stock
+                      - link "Quick View" [ref=f40e205] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e206]:
+                - generic [ref=f40e207]:
+                  - link [ref=f40e208] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-13-kg-pump-dark-silver-es-tn13gdsp
+                    - img "SHARP Washing Machine 13 Kg Pump Dark Silver ES-TN13GDSP" [ref=f40e211]
+                  - generic [ref=f40e212]:
+                    - strong [ref=f40e213]:
+                      - link "SHARP Washing Machine 13 Kg Pump Dark Silver ES-TN13GDSP" [ref=f40e214] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-13-kg-pump-dark-silver-es-tn13gdsp
+                    - generic [ref=f40e216]:
+                      - generic [ref=f40e217]: ★
+                      - generic [ref=f40e218]: "5.0"
+                    - generic [ref=f40e219]: EGP18,739
+                    - generic [ref=f40e223]:
+                      - generic [ref=f40e224]: Out of stock
+                      - link "Quick View" [ref=f40e226] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e227]:
+                - generic [ref=f40e228]:
+                  - link [ref=f40e229] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/tornado-washer-13-kg-ddm-inverter-pump-black-twe-tld13rbk
+                    - img "TORNADO Washer 13 Kg DDM Inverter Pump Black TWE-TLD13RBK" [ref=f40e232]
+                  - generic [ref=f40e233]:
+                    - strong [ref=f40e234]:
+                      - link "TORNADO Washer 13 Kg DDM Inverter Pump Black TWE-TLD13RBK" [ref=f40e235] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/tornado-washer-13-kg-ddm-inverter-pump-black-twe-tld13rbk
+                    - generic [ref=f40e237]:
+                      - generic [ref=f40e238]: ★
+                      - generic [ref=f40e239]: "5.0"
+                    - generic [ref=f40e240]: EGP18,529
+                    - generic [ref=f40e244]:
+                      - generic [ref=f40e245]: Out of stock
+                      - link "Quick View" [ref=f40e247] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e248]:
+                - generic [ref=f40e249]:
+                  - link [ref=f40e250] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-13-kg-pump-silver-es-tn13gslp
+                    - img "SHARP Washing Machine Top Automatic 13 Kg Pump Silver ES-TN13GSLP" [ref=f40e253]
+                  - generic [ref=f40e254]:
+                    - strong [ref=f40e255]:
+                      - link "SHARP Washing Machine Top Automatic 13 Kg Pump Silver ES-TN13GSLP" [ref=f40e256] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-13-kg-pump-silver-es-tn13gslp
+                    - generic [ref=f40e258]:
+                      - generic [ref=f40e259]: ★
+                      - generic [ref=f40e260]: "4.7"
+                    - generic [ref=f40e261]: EGP18,409
+                    - generic [ref=f40e265]:
+                      - generic [ref=f40e266]: Out of stock
+                      - link "Quick View" [ref=f40e268] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e269]:
+                - generic [ref=f40e270]:
+                  - link [ref=f40e271] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/hoover-washing-machine-12-kg-pump-silver-hwh-tln12dsl
+                    - img "HOOVER Washing Machine 12 Kg Pump Silver HWH-TLN12DSL" [ref=f40e274]
+                  - generic [ref=f40e275]:
+                    - strong [ref=f40e276]:
+                      - link "HOOVER Washing Machine 12 Kg Pump Silver HWH-TLN12DSL" [ref=f40e277] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/hoover-washing-machine-12-kg-pump-silver-hwh-tln12dsl
+                    - generic [ref=f40e279]:
+                      - generic [ref=f40e280]: ★
+                      - generic [ref=f40e281]: "4.7"
+                    - generic [ref=f40e282]: EGP18,159
+                    - generic [ref=f40e286]:
+                      - generic [ref=f40e287]: Out of stock
+                      - link "Quick View" [ref=f40e289] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e290]:
+                - generic [ref=f40e291]:
+                  - link [ref=f40e292] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-11-kg-ddm-inverter-pump-black-es-td11gbkp
+                    - generic [ref=f40e294]:
+                      - img "SHARP Washing Machine 11 Kg DDM Inverter Pump Black ES-TD11GBKP" [ref=f40e295]
+                      - img "Product Label" [ref=f40e297]
+                  - generic [ref=f40e298]:
+                    - strong [ref=f40e299]:
+                      - link "SHARP Washing Machine 11 Kg DDM Inverter Pump Black ES-TD11GBKP" [ref=f40e300] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-11-kg-ddm-inverter-pump-black-es-td11gbkp
+                    - generic [ref=f40e302]:
+                      - generic [ref=f40e303]: ★
+                      - generic [ref=f40e304]: "5.0"
+                    - generic [ref=f40e305]: EGP17,949
+                    - generic [ref=f40e309]:
+                      - generic [ref=f40e310]: Out of stock
+                      - link "Quick View" [ref=f40e312] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e313]:
+                - generic [ref=f40e314]:
+                  - link [ref=f40e315] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/tornado-washing-machine-13-kg-pump-dark-silver-twe-tln13rds
+                    - img "TORNADO Washing Machine 13 Kg Pump Dark Silver TWE-TLN13RDS" [ref=f40e318]
+                  - generic [ref=f40e319]:
+                    - strong [ref=f40e320]:
+                      - link "TORNADO Washing Machine 13 Kg Pump Dark Silver TWE-TLN13RDS" [ref=f40e321] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/tornado-washing-machine-13-kg-pump-dark-silver-twe-tln13rds
+                    - generic [ref=f40e323]:
+                      - generic [ref=f40e324]: ★
+                      - generic [ref=f40e325]: "4.8"
+                    - generic [ref=f40e326]: EGP17,159
+                    - generic [ref=f40e330]:
+                      - generic [ref=f40e331]: Out of stock
+                      - link "Quick View" [ref=f40e333] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e334]:
+                - generic [ref=f40e335]:
+                  - link [ref=f40e336] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-11-kg-pump-dark-silver-es-tn11gdsp
+                    - img "SHARP Washing Machine 11 Kg Pump Dark Silver ES-TN11GDSP" [ref=f40e339]
+                  - generic [ref=f40e340]:
+                    - strong [ref=f40e341]:
+                      - link "SHARP Washing Machine 11 Kg Pump Dark Silver ES-TN11GDSP" [ref=f40e342] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-11-kg-pump-dark-silver-es-tn11gdsp
+                    - generic [ref=f40e344]:
+                      - generic [ref=f40e345]: ★
+                      - generic [ref=f40e346]: "4.7"
+                    - generic [ref=f40e347]: EGP17,149
+                    - generic [ref=f40e351]:
+                      - generic [ref=f40e352]: Out of stock
+                      - link "Quick View" [ref=f40e354] [cursor=pointer]:
+                        - /url: javascript:void(0);
+              - listitem [ref=f40e355]:
+                - generic [ref=f40e356]:
+                  - link [ref=f40e357] [cursor=pointer]:
+                    - /url: https://www.elarabygroup.com/en/tornado-washing-machine-top-automatic-13-kg-pump-silver-twe-tln13rsl
+                    - img "TORNADO Washing Machine Top Automatic 13 Kg Pump Silver TWE-TLN13RSL" [ref=f40e360]
+                  - generic [ref=f40e361]:
+                    - strong [ref=f40e362]:
+                      - link "TORNADO Washing Machine Top Automatic 13 Kg Pump Silver TWE-TLN13RSL" [ref=f40e363] [cursor=pointer]:
+                        - /url: https://www.elarabygroup.com/en/tornado-washing-machine-top-automatic-13-kg-pump-silver-twe-tln13rsl
+                    - generic [ref=f40e365]:
+                      - generic [ref=f40e366]: ★
+                      - generic [ref=f40e367]: "4.3"
+                    - generic [ref=f40e368]: EGP16,859
+                    - generic [ref=f40e372]:
+                      - generic [ref=f40e373]: Out of stock
+                      - link "Quick View" [ref=f40e375] [cursor=pointer]:
+                        - /url: javascript:void(0);
+            - generic:   
+        - generic [ref=f40e379]:
+          - generic [ref=f40e380]:
+            - heading "+ Type" [level=3] [ref=f40e381] [cursor=pointer]
+            - text: ( )
+          - generic [ref=f40e382]:
+            - heading "+ Colors" [level=3] [ref=f40e383] [cursor=pointer]
+            - text: ( ) ( ) ( ) ( ) ( )
+          - generic [ref=f40e384]:
+            - heading "+ Capacity" [level=3] [ref=f40e385] [cursor=pointer]
+            - text: ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( )
+          - generic [ref=f40e386]:
+            - heading "+ Country Of Origin" [level=3] [ref=f40e387] [cursor=pointer]
+            - text: ( )
+          - heading "+ Price" [level=3] [ref=f40e389] [cursor=pointer]
+          - generic [ref=f40e390]:
+            - heading "+ Brand" [level=3] [ref=f40e391] [cursor=pointer]
+            - text: ( ) ( ) ( )
+        - generic: + +
+        - text: 
+    - contentinfo [ref=f40e392]:
+      - generic: 
+      - generic [ref=f40e397]:
+        - generic [ref=f40e399]:
+          - heading "Customer Service" [level=4]
+          - list [ref=f40e400]:
+            - listitem [ref=f40e401]:
+              - link "Terms and Conditions" [ref=f40e402] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/terms-and-conditions
+            - listitem [ref=f40e403]:
+              - link "Privacy Policy" [ref=f40e404] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/privacy-policy
+            - listitem [ref=f40e405]:
+              - link "Sales Policy" [ref=f40e406] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/sales-policy
+            - listitem [ref=f40e407]:
+              - link "Return and Refund Policy" [ref=f40e408] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/returns
+            - listitem [ref=f40e409]:
+              - link "Help and support" [ref=f40e410] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/help-and-support
+            - listitem [ref=f40e411]:
+              - link "Contact Us" [ref=f40e412] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/contact
+        - generic [ref=f40e414]:
+          - heading "About Elaraby" [level=4]
+          - list [ref=f40e415]:
+            - listitem [ref=f40e416]:
+              - link "About Us" [ref=f40e417] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/about
+            - listitem [ref=f40e418]:
+              - link "Blog" [ref=f40e419] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/blog
+            - listitem [ref=f40e420]:
+              - link "Main Stores" [ref=f40e421] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/locations
+            - listitem [ref=f40e422]:
+              - link "Main Service Centers" [ref=f40e423] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/service-centers
+            - listitem [ref=f40e424]:
+              - link "Apps" [ref=f40e425] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/apps
+            - listitem [ref=f40e426]:
+              - link "Site Map" [ref=f40e427] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/sitemap
+            - listitem [ref=f40e428]:
+              - link "Careers" [ref=f40e429] [cursor=pointer]:
+                - /url: https://careers.elarabygroup.com/
+        - generic [ref=f40e431]:
+          - heading "Main Categories" [level=4]
+          - list [ref=f40e432]:
+            - listitem [ref=f40e433]:
+              - link "TVs and Electronics" [ref=f40e434] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/tvs-and-electronics
+            - listitem [ref=f40e435]:
+              - link "Home Appliances" [ref=f40e436] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/electric-home-appliances
+            - listitem [ref=f40e437]:
+              - link "Air Conditioners & Purifiers" [ref=f40e438] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/air-conditioners-coolers-and-purifiers
+            - listitem [ref=f40e439]:
+              - link "Health & Personal care" [ref=f40e440] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/health-personal-care
+            - listitem [ref=f40e441]:
+              - link "Watches" [ref=f40e442] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/watches
+            - listitem [ref=f40e443]:
+              - link "Consumables Spare Parts" [ref=f40e444] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/consumables-spare-parts
+            - listitem [ref=f40e445]:
+              - link "Exclusive Products" [ref=f40e446] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/exclusive-products
+            - listitem [ref=f40e447]:
+              - link "Deals and offers" [ref=f40e448] [cursor=pointer]:
+                - /url: https://www.elarabygroup.com/en/offers-and-discounts
+        - generic [ref=f40e450]:
+          - heading "Be The First To Know" [level=4]
+          - generic [ref=f40e451]:
+            - generic [ref=f40e454]:
+              - paragraph [ref=f40e456]: Get notified of new offers and discounts
+              - generic [ref=f40e459]:
+                - generic [ref=f40e460]: "Sign Up for Our Newsletter:"
+                - generic [ref=f40e461]:
+                  - textbox "Sign Up for Our Newsletter:" [ref=f40e463]:
+                    - /placeholder: Enter your email
+                  - button "" [ref=f40e465] [cursor=pointer]
+            - list [ref=f40e469]:
+              - listitem [ref=f40e470]:
+                - link "" [ref=f40e471] [cursor=pointer]:
+                  - /url: https://www.facebook.com/elarabygroup/
+              - listitem [ref=f40e473]:
+                - link "" [ref=f40e474] [cursor=pointer]:
+                  - /url: https://www.instagram.com/elarabygroup/
+              - listitem [ref=f40e476]:
+                - link "" [ref=f40e477] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/elarabygroup/
+              - listitem [ref=f40e479]:
+                - link "𝕏" [ref=f40e480] [cursor=pointer]:
+                  - /url: https://x.com/elarabygroup64
+              - listitem [ref=f40e482]:
+                - link "" [ref=f40e483] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/Elarabygroup
+              - listitem [ref=f40e485]:
+                - link "糧" [ref=f40e486] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@elarabygroup64
+          - generic [ref=f40e488]:
+            - link [ref=f40e489] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/elaraby/id1370992160
+              - img "App store" [ref=f40e490]
+            - link [ref=f40e491] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.elaraby.store&hl=en
+              - img "Google play" [ref=f40e492]
+      - generic [ref=f40e495]:
+        - generic [ref=f40e498]:
+          - img "E-Money" [ref=f40e499]
+          - img "Fawry" [ref=f40e500]
+          - img "MasterCard" [ref=f40e501]
+          - img "Visa" [ref=f40e502]
+          - img "Alahly Bank" [ref=f40e503]
+          - img "Vodafone Cash" [ref=f40e504]
+          - img "ValU" [ref=f40e505]
+          - img "Souhoola" [ref=f40e506]
+          - img "Souhoola" [ref=f40e507]
+        - generic [ref=f40e508]: Copyright © 2026 Elaraby Group, All rights reserved.
+  - text:     
+  - generic:
+    - button [ref=f40e510] [cursor=pointer]:
+      - paragraph [ref=f40e512]: تحدث معنا
+    - iframe

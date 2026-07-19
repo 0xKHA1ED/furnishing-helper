@@ -1,0 +1,63 @@
+[     532ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[     533ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[     533ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[    1868ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines/top-automatic-washing-machines @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[    1870ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[    1870ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[    1921ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[    2011ms] [WARNING] JQMIGRATE: jQuery.type is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[    2025ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[    2031ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[    2100ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[    2312ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[    2361ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[    2365ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[    2384ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[    2654ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[    2827ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[    3009ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[    4338ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   18114ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   25709ms] TypeError: Cannot read properties of null (reading 'addClass')
+    at HTMLButtonElement.<anonymous> (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/Mirasvit_Scroll/js/scroll.min.js:13:11)
+    at HTMLButtonElement.dispatch (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:348:476)
+    at elemData.handle (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:334:166)
+    at eval (eval at evaluate (:303:30), <anonymous>:3:22)
+    at UtilityScript.evaluate (<anonymous>:305:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[   27734ms] TypeError: Cannot read properties of null (reading 'addClass')
+    at HTMLButtonElement.<anonymous> (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/Mirasvit_Scroll/js/scroll.min.js:13:11)
+    at HTMLButtonElement.dispatch (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:348:476)
+    at elemData.handle (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:334:166)
+    at eval (eval at evaluate (:303:30), <anonymous>:3:22)
+    at UtilityScript.evaluate (<anonymous>:305:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[   28842ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.elarabygroup.com/en/magemonitor/jserror/collect:0
+[   29755ms] TypeError: Cannot read properties of null (reading 'addClass')
+    at HTMLButtonElement.<anonymous> (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/Mirasvit_Scroll/js/scroll.min.js:13:11)
+    at HTMLButtonElement.dispatch (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:348:476)
+    at elemData.handle (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:334:166)
+    at eval (eval at evaluate (:303:30), <anonymous>:3:22)
+    at UtilityScript.evaluate (<anonymous>:305:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[   31772ms] TypeError: Cannot read properties of null (reading 'addClass')
+    at HTMLButtonElement.<anonymous> (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/Mirasvit_Scroll/js/scroll.min.js:13:11)
+    at HTMLButtonElement.dispatch (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:348:476)
+    at elemData.handle (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:334:166)
+    at eval (eval at evaluate (:303:30), <anonymous>:3:22)
+    at UtilityScript.evaluate (<anonymous>:305:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[   33786ms] TypeError: Cannot read properties of null (reading 'addClass')
+    at HTMLButtonElement.<anonymous> (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/Mirasvit_Scroll/js/scroll.min.js:13:11)
+    at HTMLButtonElement.dispatch (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:348:476)
+    at elemData.handle (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:334:166)
+    at eval (eval at evaluate (:303:30), <anonymous>:3:22)
+    at UtilityScript.evaluate (<anonymous>:305:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[   35805ms] TypeError: Cannot read properties of null (reading 'addClass')
+    at HTMLButtonElement.<anonymous> (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/Mirasvit_Scroll/js/scroll.min.js:13:11)
+    at HTMLButtonElement.dispatch (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:348:476)
+    at elemData.handle (https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery.min.js:334:166)
+    at eval (eval at evaluate (:303:30), <anonymous>:3:22)
+    at UtilityScript.evaluate (<anonymous>:305:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)

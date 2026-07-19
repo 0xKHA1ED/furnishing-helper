@@ -1,46 +1,41 @@
 {
-  "version": 2,
-  "lastUpdated": "2026-07-17",
-  "status": "ready_to_buy_tomorrow",
+  "version": 3,
+  "lastUpdated": "2026-07-20",
+  "status": "market_constrained_watch_restock",
   "galleryPage": "washer-gallery.html",
   "catalogPath": "data/appliances/washer_catalog.json",
   "filters": {
     "loading": "top_load",
     "automation": "full_auto",
-    "color": "all_colors_included_black_filter_in_ui",
-    "capacityKg": [7, 9],
-    "adjacentCapacityKg": [11, 13]
+    "color": "black_preferred_dark_silver_near_black_accepted",
+    "capacityKg": [9],
+    "channel": "official_manufacturer_only"
   },
-  "marketFinding": "B.TECH has very few black fully-auto top-load washers in true 7-9 kg; most black inventory is 11-20 kg. Main shortlist is 3 models; adjacent list for size flex.",
-  "researchBatch2": {
-    "status": "completed_wave2_buy_tomorrow",
-    "completedAt": "2026-07-17",
-    "reportPath": "notes/research/fridge-washer-second-pass-2026-07-17.md",
-    "retailersChecked": ["B.TECH", "Amazon.eg", "Jumia", "2B"],
-    "livePricesEGP": {
-      "sharp_ES_TN09GDSP_9_black": { "B.TECH": 13549, "Amazon": 13500 },
-      "fresh_FTM_09F12B_9_black": { "B.TECH": 12999, "Jumia": 13500 },
-      "lg_T1388NEHGB_13_black_inv": { "B.TECH": 19490 },
-      "sharp_ES_TD11GBKP_11_black_inv": { "B.TECH": 22931, "Jumia": 18990 },
-      "lg_T11V1TEHGX_11_black": { "Jumia": 17500 }
-    }
-  },
+  "marketFinding": "Zero pure-black 9 kg top-load full-auto washers on official Egypt manufacturer sites (2026-07-20 Playwright scan). Only official near-black 9 kg tops: Sharp ES-TN09GDSP and Tornado TWE-TLN09RDS (Dark Silver body + Black lid) on Elaraby — both out of stock. Fresh 9 kg top is silver-only OOS. Samsung/LG/Beko/Zanussi 9 kg official SKUs are front-load. True black top-load starts at 10 kg (Fresh Black LED in stock ~13,017 EGP; LG T10V1TEHG2 ~15,990 EGP).",
   "workingRecommendation": {
-    "strict_7_9_black": "Sharp ES-TN09GDSP 9kg black ~13.5k — still #1 when black preferred",
-    "strict_7_9_any_color": "Toshiba AW-M801 / AW-J900 silver ~9.7–12.4k strong value if color flex",
-    "value_black": "Fresh FTM-09F12B 9kg black ~13k",
-    "if_flex_size_for_inverter": "LG 13kg black inverter T1388 ~19.5k or Toshiba 13kg silver inv ~18.2k",
-    "ui": "washer-gallery.html — Black only preset + Color dropdown"
+    "strict_9kg_near_black_official": "Tornado TWE-TLN09RDS ~12,629 EGP or Sharp ES-TN09GDSP ~13,529 EGP on Elaraby — use Notify me (currently OOS)",
+    "if_must_buy_now_true_black": "Flex to Fresh 10 kg Black LED ~13,017 EGP (official Fresh, in stock) or LG 10 kg Middle Black ~15,990 EGP",
+    "avoid": "Front-load 9 kg blacks if top-load is hard requirement; pure silver 9 kg tops if black aesthetic is hard requirement",
+    "ui": "washer-gallery.html — near-black catalog + flex links in market callout"
   },
-  "expandPass": {
-    "completedAt": "2026-07-17",
-    "retailer": "B.TECH only",
-    "total": 87,
-    "main79": 19,
-    "adjacent1013": 52,
-    "oversized1415": 16,
-    "black": 20,
-    "inverter": 23,
-    "note": "Deep top-load category scrape (~138 sitewide); 87 full-auto 7–15kg kept. Gallery defaults to All."
+  "scrapePass": {
+    "completedAt": "2026-07-20",
+    "tool": "Playwright MCP",
+    "manufacturers": [
+      "Elaraby Group (Sharp, Tornado, Hoover, Candy, Hitachi, Toshiba)",
+      "Fresh.com.eg",
+      "Samsung Egypt",
+      "LG Egypt",
+      "Toshiba Lifestyle Egypt",
+      "Zanussi Egypt",
+      "White Point Elabd",
+      "Beko Egypt",
+      "Kiriazi",
+      "Unionaire",
+      "Haier Egypt"
+    ],
+    "strictBlack9kgTopMatches": 0,
+    "nearBlack9kgTopMatches": 2,
+    "catalogItems": 2
   }
 }

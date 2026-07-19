@@ -1,0 +1,951 @@
+- generic [ref=f7e4]:
+  - banner [ref=f7e5]:
+    - generic [ref=f7e6]:
+      - generic [ref=f7e7]:
+        - link [ref=f7e10] [cursor=pointer]:
+          - /url: /en/
+          - img "Fresh" [ref=f7e11]
+        - generic [ref=f7e12]:
+          - generic [ref=f7e13]: Search
+          - searchbox "Search" [ref=f7e14]
+          - button "Search" [ref=f7e15] [cursor=pointer]
+        - list [ref=f7e21]:
+          - listitem [ref=f7e22]:
+            - link "whatsapp" [ref=f7e23] [cursor=pointer]:
+              - /url: https://wa.me/201206555516
+              - text: Whatsapp
+          - listitem [ref=f7e26]:
+            - link "Call 19059" [ref=f7e27] [cursor=pointer]:
+              - /url: tel:19059
+          - listitem [ref=f7e28]:
+            - link "Branches" [ref=f7e29] [cursor=pointer]:
+              - /url: /en/stores
+          - listitem [ref=f7e33]:
+            - link "العربية" [ref=f7e34] [cursor=pointer]:
+              - /url: /
+      - generic [ref=f7e36]:
+        - list [ref=f7e37]:
+          - listitem [ref=f7e38]:
+            - link "Cookers" [ref=f7e39] [cursor=pointer]:
+              - /url: /en/categories/cooker-appliances
+          - listitem [ref=f7e40]:
+            - link "Small Home Appliances" [ref=f7e41] [cursor=pointer]:
+              - /url: /en/categories/appliance
+          - listitem [ref=f7e42]:
+            - link "Televisions" [ref=f7e43] [cursor=pointer]:
+              - /url: /en/categories/tv
+          - listitem [ref=f7e44]:
+            - link "Cooling Appliances" [ref=f7e45] [cursor=pointer]:
+              - /url: /en/categories/cooling-appliances
+          - listitem [ref=f7e46]:
+            - link "Air Conditioners" [ref=f7e47] [cursor=pointer]:
+              - /url: /en/categories/air-conditioner
+          - listitem [ref=f7e48]:
+            - link "Washing Machines" [ref=f7e49] [cursor=pointer]:
+              - /url: /en/categories/washing-machines
+          - listitem [ref=f7e50]:
+            - link "Offers" [ref=f7e51] [cursor=pointer]:
+              - /url: /en/offers
+          - listitem [ref=f7e53]:
+            - link "Your opinion" [ref=f7e54] [cursor=pointer]:
+              - /url: /en/service
+        - generic [ref=f7e56]:
+          - link "Sign in" [ref=f7e57] [cursor=pointer]:
+            - /url: /en/login
+          - button "Show Cart" [ref=f7e59] [cursor=pointer]
+  - main [ref=f7e62]:
+    - generic [ref=f7e63]:
+      - generic [ref=f7e65]:
+        - generic [ref=f7e66]:
+          - link [ref=f7e68] [cursor=pointer]:
+            - /url: https://fresh.com.eg/en/offers
+            - img "Number One - Number One" [ref=f7e70]
+          - link [ref=f7e73] [cursor=pointer]:
+            - /url: https://fresh.com.eg/en/service
+            - img "Suggestions - Suggestions" [ref=f7e75]
+        - button
+        - button [ref=f7e81] [cursor=pointer]
+      - list [ref=f7e85]:
+        - listitem [ref=f7e86]:
+          - generic [ref=f7e87]:
+            - heading "Free Shipping" [level=2] [ref=f7e88]
+            - paragraph [ref=f7e89]: Free Shipping for orders above 2000 LE
+        - listitem [ref=f7e92]:
+          - generic [ref=f7e93]:
+            - heading "Convenient Installment" [level=2] [ref=f7e94]
+            - paragraph [ref=f7e95]: Installment up to 24 Months
+        - listitem [ref=f7e98]:
+          - generic [ref=f7e99]:
+            - heading "Fresh Offers" [level=2] [ref=f7e100]
+            - paragraph [ref=f7e101]: Linked to offers page
+        - listitem [ref=f7e104]:
+          - generic [ref=f7e105]:
+            - heading "14 Days Returns" [level=2] [ref=f7e106]
+            - paragraph [ref=f7e107]: Refund purchases within 14 days
+      - generic [ref=f7e110]:
+        - heading "Shop By Category" [level=2] [ref=f7e111]
+        - generic [ref=f7e112]:
+          - link [ref=f7e113] [cursor=pointer]:
+            - /url: /en/categories/cooker-appliances
+            - paragraph [ref=f7e114]: Cookers
+            - img "Shop Cookers" [ref=f7e116]
+          - link [ref=f7e117] [cursor=pointer]:
+            - /url: /en/categories/appliance
+            - paragraph [ref=f7e118]: Small Home Appliances
+            - img "Shop Small Home Appliances" [ref=f7e120]
+          - link [ref=f7e121] [cursor=pointer]:
+            - /url: /en/categories/tv
+            - paragraph [ref=f7e122]: Televisions
+            - img "Shop Televisions" [ref=f7e124]
+          - link [ref=f7e125] [cursor=pointer]:
+            - /url: /en/categories/cooling-appliances
+            - paragraph [ref=f7e126]: Cooling Appliances
+            - img "Shop Cooling Appliances" [ref=f7e128]
+          - link [ref=f7e129] [cursor=pointer]:
+            - /url: /en/categories/air-conditioner
+            - paragraph [ref=f7e130]: Air Conditioners
+            - img "Shop Air Conditioners" [ref=f7e132]
+          - link [ref=f7e133] [cursor=pointer]:
+            - /url: /en/categories/washing-machines
+            - paragraph [ref=f7e134]: Washing Machines
+            - img "Shop Washing Machines" [ref=f7e136]
+      - generic [ref=f7e137]:
+        - heading "Shop Cookers" [level=2] [ref=f7e138]
+        - generic [ref=f7e140]:
+          - generic [ref=f7e141]:
+            - generic [ref=f7e143]:
+              - generic [ref=f7e144]:
+                - generic [ref=f7e145]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e147] [cursor=pointer]
+              - link "Fresh Oven Built In Black 60 cm - GEOFR60CGB Fresh Oven Built In Black 60 cm - GEOFR60CGB 16,833.99 EGP 22,149.99 EGP Save 5,316 EGP" [ref=f7e150] [cursor=pointer]:
+                - /url: /en/products/fresh-oven-built-in-black-60-cm-geofr60cgb
+                - img "Fresh Oven Built In Black 60 cm - GEOFR60CGB" [ref=f7e152]
+                - paragraph [ref=f7e153]: Fresh Oven Built In Black 60 cm - GEOFR60CGB
+                - generic [ref=f7e154]:
+                  - generic [ref=f7e155]: 16,833.99 EGP
+                  - generic [ref=f7e156]:
+                    - generic [ref=f7e157]: 22,149.99 EGP
+                    - generic [ref=f7e158]: Save 5,316 EGP
+              - generic [ref=f7e159]:
+                - button "Add to cart" [ref=f7e161] [cursor=pointer]
+                - button "Compare" [ref=f7e162] [cursor=pointer]
+            - generic [ref=f7e166]:
+              - generic [ref=f7e167]:
+                - generic [ref=f7e168]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e170] [cursor=pointer]
+              - link "Fresh Gas Cooker Built In Stainless - Modena 60 cm Black Knob Fresh Gas Cooker Built In Stainless - Modena 60 cm Black Knob 8,899.6 EGP 11,710 EGP Save 2,810.4 EGP" [ref=f7e173] [cursor=pointer]:
+                - /url: /en/products/fresh-gas-cooker-built-in-stainless-modena-60-cm-black-knob
+                - img "Fresh Gas Cooker Built In Stainless - Modena 60 cm Black Knob" [ref=f7e175]
+                - paragraph [ref=f7e176]: Fresh Gas Cooker Built In Stainless - Modena 60 cm Black Knob
+                - generic [ref=f7e177]:
+                  - generic [ref=f7e178]: 8,899.6 EGP
+                  - generic [ref=f7e179]:
+                    - generic [ref=f7e180]: 11,710 EGP
+                    - generic [ref=f7e181]: Save 2,810.4 EGP
+              - generic [ref=f7e182]:
+                - button "Add to cart" [ref=f7e184] [cursor=pointer]
+                - button "Compare" [ref=f7e185] [cursor=pointer]
+            - generic [ref=f7e189]:
+              - generic [ref=f7e190]:
+                - generic [ref=f7e191]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e193] [cursor=pointer]
+              - link "Fresh Oven Built In Black 60 cm - GEOFR60C Fresh Oven Built In Black 60 cm - GEOFR60C 17,514.2 EGP 23,045 EGP Save 5,530.8 EGP" [ref=f7e196] [cursor=pointer]:
+                - /url: /en/products/fresh-oven-built-in-black-60-cm-geofr60c
+                - img "Fresh Oven Built In Black 60 cm - GEOFR60C" [ref=f7e198]
+                - paragraph [ref=f7e199]: Fresh Oven Built In Black 60 cm - GEOFR60C
+                - generic [ref=f7e200]:
+                  - generic [ref=f7e201]: 17,514.2 EGP
+                  - generic [ref=f7e202]:
+                    - generic [ref=f7e203]: 23,045 EGP
+                    - generic [ref=f7e204]: Save 5,530.8 EGP
+              - generic [ref=f7e205]:
+                - button "Add to cart" [ref=f7e207] [cursor=pointer]
+                - button "Compare" [ref=f7e208] [cursor=pointer]
+            - generic [ref=f7e212]:
+              - generic [ref=f7e213]:
+                - generic [ref=f7e214]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e216] [cursor=pointer]
+              - link "Fresh Gas Cooker Built In Glass 90cm - S2 Fresh Gas Cooker Built In Glass 90cm - S2 11,559.6 EGP 15,210.01 EGP Save 3,650.41 EGP" [ref=f7e219] [cursor=pointer]:
+                - /url: /en/products/fresh-gas-cooker-built-in-glass-90cm-s2
+                - img "Fresh Gas Cooker Built In Glass 90cm - S2" [ref=f7e221]
+                - paragraph [ref=f7e222]: Fresh Gas Cooker Built In Glass 90cm - S2
+                - generic [ref=f7e223]:
+                  - generic [ref=f7e224]: 11,559.6 EGP
+                  - generic [ref=f7e225]:
+                    - generic [ref=f7e226]: 15,210.01 EGP
+                    - generic [ref=f7e227]: Save 3,650.41 EGP
+              - generic [ref=f7e228]:
+                - button "Add to cart" [ref=f7e230] [cursor=pointer]
+                - button "Compare" [ref=f7e231] [cursor=pointer]
+            - generic [ref=f7e235]:
+              - generic [ref=f7e236]:
+                - generic [ref=f7e237]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e239] [cursor=pointer]
+              - link "Fresh Oven Built In Black 60 cm - HOFR60CMB Fresh Oven Built In Black 60 cm - HOFR60CMB 16,609.8 EGP 21,855 EGP Save 5,245.2 EGP" [ref=f7e242] [cursor=pointer]:
+                - /url: /en/products/fresh-oven-built-in-black-60-cm-hofr60cmb
+                - img "Fresh Oven Built In Black 60 cm - HOFR60CMB" [ref=f7e244]
+                - paragraph [ref=f7e245]: Fresh Oven Built In Black 60 cm - HOFR60CMB
+                - generic [ref=f7e246]:
+                  - generic [ref=f7e247]: 16,609.8 EGP
+                  - generic [ref=f7e248]:
+                    - generic [ref=f7e249]: 21,855 EGP
+                    - generic [ref=f7e250]: Save 5,245.2 EGP
+              - generic [ref=f7e251]:
+                - button "Add to cart" [ref=f7e253] [cursor=pointer]
+                - button "Compare" [ref=f7e254] [cursor=pointer]
+            - generic [ref=f7e258]:
+              - generic [ref=f7e259]:
+                - generic [ref=f7e260]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e262] [cursor=pointer]
+              - link "Fresh Built-In Oven 60 c.m. - Air Fryer HOFR60CMS Fresh Built-In Oven 60 c.m. - HOFR60CMS Only 1 left in stock - order Now 17,514.2 EGP 23,045 EGP Save 5,530.8 EGP" [ref=f7e265] [cursor=pointer]:
+                - /url: /en/products/fresh-built-in-oven-60-c-m-hofr60cms
+                - img "Fresh Built-In Oven 60 c.m. - Air Fryer HOFR60CMS" [ref=f7e267]
+                - paragraph [ref=f7e268]: Fresh Built-In Oven 60 c.m. - HOFR60CMS
+                - generic [ref=f7e269]: Only 1 left in stock - order Now
+                - generic [ref=f7e270]:
+                  - generic [ref=f7e271]: 17,514.2 EGP
+                  - generic [ref=f7e272]:
+                    - generic [ref=f7e273]: 23,045 EGP
+                    - generic [ref=f7e274]: Save 5,530.8 EGP
+              - generic [ref=f7e275]:
+                - button "Add to cart" [ref=f7e277] [cursor=pointer]
+                - button "Compare" [ref=f7e278] [cursor=pointer]
+          - button
+          - button [ref=f7e281] [cursor=pointer]
+        - link "Show More" [ref=f7e284] [cursor=pointer]:
+          - /url: /en/categories/cooker-appliances
+      - generic [ref=f7e285]:
+        - heading "Shop Cooling Appliances" [level=2] [ref=f7e286]
+        - generic [ref=f7e288]:
+          - generic [ref=f7e289]:
+            - generic [ref=f7e291]:
+              - generic [ref=f7e292]:
+                - generic [ref=f7e293]:
+                  - generic [ref=f7e294]: OFF 21% Cash
+                  - generic [ref=f7e295]: New
+                - button "Add to wishlist" [ref=f7e296] [cursor=pointer]
+              - link "Fresh Refrigerator 471 Liters Inverter Flat Door - ST / FNT-LS580 YIT (FLD) Fresh Refrigerator 471 Liters Inverter Flat Door - ST / FNT-LS580 YIT (FLD) 28,605.91 EGP 36,210 EGP Save 7,604.09 EGP" [ref=f7e299] [cursor=pointer]:
+                - /url: /en/products/fresh-refrigerator-471-liters-inverter-flat-door-st-fnt-ls580-yit-fld
+                - generic:
+                  - img "Fresh Refrigerator 471 Liters Inverter Flat Door - ST / FNT-LS580 YIT (FLD)"
+                - paragraph [ref=f7e300]: Fresh Refrigerator 471 Liters Inverter Flat Door - ST / FNT-LS580 YIT (FLD)
+                - generic [ref=f7e301]:
+                  - generic [ref=f7e302]: 28,605.91 EGP
+                  - generic [ref=f7e303]:
+                    - generic [ref=f7e304]: 36,210 EGP
+                    - generic [ref=f7e305]: Save 7,604.09 EGP
+              - generic [ref=f7e306]:
+                - button "Add to cart" [ref=f7e308] [cursor=pointer]
+                - button "Compare" [ref=f7e309] [cursor=pointer]
+            - generic [ref=f7e313]:
+              - generic [ref=f7e314]:
+                - generic [ref=f7e315]: OFF 21% Cash
+                - button "Add to wishlist" [ref=f7e317] [cursor=pointer]
+              - link "Fresh Upright Freezer Inverter FNU-LR270IBC - 6 Drawers Black Fresh Upright Freezer Inverter FNU-LR270IBC - 6 Drawers Black Only 2 left in stock - order Now 24,454.45 EGP 30,955 EGP Save 6,500.55 EGP" [ref=f7e320] [cursor=pointer]:
+                - /url: /en/products/fresh-upright-freezer-inverter-fnu-lr270ibc-6-drawers-black
+                - generic:
+                  - img "Fresh Upright Freezer Inverter FNU-LR270IBC - 6 Drawers Black"
+                - paragraph [ref=f7e321]: Fresh Upright Freezer Inverter FNU-LR270IBC - 6 Drawers Black
+                - generic [ref=f7e322]: Only 2 left in stock - order Now
+                - generic [ref=f7e323]:
+                  - generic [ref=f7e324]: 24,454.45 EGP
+                  - generic [ref=f7e325]:
+                    - generic [ref=f7e326]: 30,955 EGP
+                    - generic [ref=f7e327]: Save 6,500.55 EGP
+              - generic [ref=f7e328]:
+                - button "Add to cart" [ref=f7e330] [cursor=pointer]
+                - button "Compare" [ref=f7e331] [cursor=pointer]
+            - generic [ref=f7e335]:
+              - generic [ref=f7e336]:
+                - generic [ref=f7e337]: OFF 21% Cash
+                - button "Add to wishlist" [ref=f7e339] [cursor=pointer]
+              - link "Fresh Refrigerator 329 Liters Flat Door - Stainless / FNT-BS370 KT (FLD) Fresh Refrigerator 329 Liters Flat Door - Stainless / FNT-BS370 KT (FLD) Only 2 left in stock - order Now 20,753.3 EGP 26,270 EGP Save 5,516.7 EGP" [ref=f7e342] [cursor=pointer]:
+                - /url: /en/products/fresh-refrigerator-329-liters-flat-door-stainless-fnt-bs370-kt-fld
+                - generic:
+                  - img "Fresh Refrigerator 329 Liters Flat Door - Stainless / FNT-BS370 KT (FLD)"
+                - paragraph [ref=f7e343]: Fresh Refrigerator 329 Liters Flat Door - Stainless / FNT-BS370 KT (FLD)
+                - generic [ref=f7e344]: Only 2 left in stock - order Now
+                - generic [ref=f7e345]:
+                  - generic [ref=f7e346]: 20,753.3 EGP
+                  - generic [ref=f7e347]:
+                    - generic [ref=f7e348]: 26,270 EGP
+                    - generic [ref=f7e349]: Save 5,516.7 EGP
+              - generic [ref=f7e350]:
+                - button "Add to cart" [ref=f7e352] [cursor=pointer]
+                - button "Compare" [ref=f7e353] [cursor=pointer]
+            - generic [ref=f7e357]:
+              - generic [ref=f7e358]:
+                - generic [ref=f7e359]: OFF 21% Cash
+                - button "Add to wishlist" [ref=f7e361] [cursor=pointer]
+              - link "Fresh Refrigerator 369 Liters Flat Door - Black Mirror / FNT-MS400 LBM (FLD) Fresh Refrigerator 369 Liters Flat Door - Black Mirror / FNT-MS400 LBM (FLD) Only 1 left in stock - order Now 22,436 EGP 28,400 EGP Save 5,964 EGP" [ref=f7e364] [cursor=pointer]:
+                - /url: /en/products/fresh-refrigerator-369-liters-flat-door-black-mirror-fnt-ms400-lbm-fld
+                - generic:
+                  - img "Fresh Refrigerator 369 Liters Flat Door - Black Mirror / FNT-MS400 LBM (FLD)"
+                - paragraph [ref=f7e365]: Fresh Refrigerator 369 Liters Flat Door - Black Mirror / FNT-MS400 LBM (FLD)
+                - generic [ref=f7e366]: Only 1 left in stock - order Now
+                - generic [ref=f7e367]:
+                  - generic [ref=f7e368]: 22,436 EGP
+                  - generic [ref=f7e369]:
+                    - generic [ref=f7e370]: 28,400 EGP
+                    - generic [ref=f7e371]: Save 5,964 EGP
+              - generic [ref=f7e372]:
+                - button "Add to cart" [ref=f7e374] [cursor=pointer]
+                - button "Compare" [ref=f7e375] [cursor=pointer]
+          - button
+          - button
+        - link "Show More" [ref=f7e378] [cursor=pointer]:
+          - /url: /en/categories/cooling-appliances
+      - generic [ref=f7e379]:
+        - heading "Shop Televisions" [level=2] [ref=f7e380]
+        - generic [ref=f7e382]:
+          - generic [ref=f7e383]:
+            - generic [ref=f7e385]:
+              - generic [ref=f7e386]:
+                - generic [ref=f7e387]: OFF 21% Cash
+                - button "Add to wishlist" [ref=f7e389] [cursor=pointer]
+              - link "Fresh TV Receiver - REC-BN01 Fresh TV Receiver - REC-BN01 620.15 EGP 785 EGP Save 164.85 EGP" [ref=f7e392] [cursor=pointer]:
+                - /url: /en/products/fresh-tv-receiver-rec-bn01
+                - generic:
+                  - img "Fresh TV Receiver - REC-BN01"
+                - paragraph [ref=f7e393]: Fresh TV Receiver - REC-BN01
+                - generic [ref=f7e394]:
+                  - generic [ref=f7e395]: 620.15 EGP
+                  - generic [ref=f7e396]:
+                    - generic [ref=f7e397]: 785 EGP
+                    - generic [ref=f7e398]: Save 164.85 EGP
+              - generic [ref=f7e399]:
+                - button "Add to cart" [ref=f7e401] [cursor=pointer]
+                - button "Compare" [ref=f7e402] [cursor=pointer]
+            - generic [ref=f7e406]:
+              - generic [ref=f7e407]:
+                - generic [ref=f7e408]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e410] [cursor=pointer]
+              - link "Fresh TV Screen LED 50 Inch Ultra HD - 50LU433RGT - Smart Google Fresh Smart Google TV Monitor 50 Inch QLED FHD - 50MFQ435GT 16,837.8 EGP 22,155 EGP Save 5,317.2 EGP" [ref=f7e413] [cursor=pointer]:
+                - /url: /en/products/fresh-smart-google-tv-monitor-50-inch-qled-fhd-50mfq435gt
+                - generic:
+                  - img "Fresh TV Screen LED 50 Inch Ultra HD - 50LU433RGT - Smart Google"
+                - paragraph [ref=f7e414]: Fresh Smart Google TV Monitor 50 Inch QLED FHD - 50MFQ435GT
+                - generic [ref=f7e415]:
+                  - generic [ref=f7e416]: 16,837.8 EGP
+                  - generic [ref=f7e417]:
+                    - generic [ref=f7e418]: 22,155 EGP
+                    - generic [ref=f7e419]: Save 5,317.2 EGP
+              - generic [ref=f7e420]:
+                - button "Add to cart" [ref=f7e422] [cursor=pointer]
+                - button "Compare" [ref=f7e423] [cursor=pointer]
+            - generic [ref=f7e427]:
+              - generic [ref=f7e428]:
+                - generic [ref=f7e429]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e431] [cursor=pointer]
+              - link "Fresh Smart Google TV Monitor 40 Inch FHD - 40MF435G Fresh Smart Google TV Monitor 40 Inch FHD - 40MF435G 11,548.2 EGP 15,195 EGP Save 3,646.8 EGP" [ref=f7e434] [cursor=pointer]:
+                - /url: /en/products/fresh-smart-google-tv-monitor-40-inch-fhd-40mf435g
+                - generic:
+                  - img "Fresh Smart Google TV Monitor 40 Inch FHD - 40MF435G"
+                - paragraph [ref=f7e435]: Fresh Smart Google TV Monitor 40 Inch FHD - 40MF435G
+                - generic [ref=f7e436]:
+                  - generic [ref=f7e437]: 11,548.2 EGP
+                  - generic [ref=f7e438]:
+                    - generic [ref=f7e439]: 15,195 EGP
+                    - generic [ref=f7e440]: Save 3,646.8 EGP
+              - generic [ref=f7e441]:
+                - button "Add to cart" [ref=f7e443] [cursor=pointer]
+                - button "Compare" [ref=f7e444] [cursor=pointer]
+            - generic [ref=f7e448]:
+              - generic [ref=f7e449]:
+                - generic [ref=f7e450]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e452] [cursor=pointer]
+              - link "Fresh Smart Coolita Frameless LED TV Screen 32 Inch - 32LH423CE Fresh Smart Coolita Frameless LED TV Screen 32 Inch - 32LH423CE 8,040.8 EGP 10,580 EGP Save 2,539.2 EGP" [ref=f7e455] [cursor=pointer]:
+                - /url: /en/products/fresh-smart-coolita-frameless-led-tv-screen-32-inch-32lh423ce
+                - generic:
+                  - img "Fresh Smart Coolita Frameless LED TV Screen 32 Inch - 32LH423CE"
+                - paragraph [ref=f7e456]: Fresh Smart Coolita Frameless LED TV Screen 32 Inch - 32LH423CE
+                - generic [ref=f7e457]:
+                  - generic [ref=f7e458]: 8,040.8 EGP
+                  - generic [ref=f7e459]:
+                    - generic [ref=f7e460]: 10,580 EGP
+                    - generic [ref=f7e461]: Save 2,539.2 EGP
+              - generic [ref=f7e462]:
+                - button "Add to cart" [ref=f7e464] [cursor=pointer]
+                - button "Compare" [ref=f7e465] [cursor=pointer]
+            - generic [ref=f7e469]:
+              - generic [ref=f7e470]:
+                - generic [ref=f7e471]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e473] [cursor=pointer]
+              - link "Fresh TV Screen LED 32 Inch Ultra HD - 32LH424R - Linux Fresh Smart Coolita Frameless Monitor TV Screen 40 Inch - 40MF423C 11,172 EGP 14,700 EGP Save 3,528 EGP" [ref=f7e476] [cursor=pointer]:
+                - /url: /en/products/fresh-smart-coolita-frameless-monitor-tv-screen-40-inch-40mf423c
+                - generic:
+                  - img "Fresh TV Screen LED 32 Inch Ultra HD - 32LH424R - Linux"
+                - paragraph [ref=f7e477]: Fresh Smart Coolita Frameless Monitor TV Screen 40 Inch - 40MF423C
+                - generic [ref=f7e478]:
+                  - generic [ref=f7e479]: 11,172 EGP
+                  - generic [ref=f7e480]:
+                    - generic [ref=f7e481]: 14,700 EGP
+                    - generic [ref=f7e482]: Save 3,528 EGP
+              - generic [ref=f7e483]:
+                - button "Add to cart" [ref=f7e485] [cursor=pointer]
+                - button "Compare" [ref=f7e486] [cursor=pointer]
+            - generic [ref=f7e490]:
+              - generic [ref=f7e491]:
+                - generic [ref=f7e492]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e494] [cursor=pointer]
+              - link "Fresh TV Screen LED 50 Inch Ultra HD - 50LU433RGT - Smart Google Fresh Smart Google TV Monitor 60 Inch QLED UHD - 60MUQ433GT 25,361.2 EGP 33,370 EGP Save 8,008.8 EGP" [ref=f7e497] [cursor=pointer]:
+                - /url: /en/products/fresh-smart-google-tv-monitor-60-inch-qled-uhd-60muq433gt
+                - generic:
+                  - img "Fresh TV Screen LED 50 Inch Ultra HD - 50LU433RGT - Smart Google"
+                - paragraph [ref=f7e498]: Fresh Smart Google TV Monitor 60 Inch QLED UHD - 60MUQ433GT
+                - generic [ref=f7e499]:
+                  - generic [ref=f7e500]: 25,361.2 EGP
+                  - generic [ref=f7e501]:
+                    - generic [ref=f7e502]: 33,370 EGP
+                    - generic [ref=f7e503]: Save 8,008.8 EGP
+              - generic [ref=f7e504]:
+                - button "Add to cart" [ref=f7e506] [cursor=pointer]
+                - button "Compare" [ref=f7e507] [cursor=pointer]
+            - generic [ref=f7e511]:
+              - generic [ref=f7e512]:
+                - generic [ref=f7e513]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e515] [cursor=pointer]
+              - link "Fresh TV Screen LED 32 Inch Ultra HD - 32LH424R - Linux Fresh Smart Coolita Frameless Monitor TV Screen 43 Inch - 43MF423C 12,897.2 EGP 16,969.99 EGP Save 4,072.79 EGP" [ref=f7e518] [cursor=pointer]:
+                - /url: /en/products/fresh-smart-coolita-frameless-monitor-tv-screen-43-inch-43mf423c
+                - generic:
+                  - img "Fresh TV Screen LED 32 Inch Ultra HD - 32LH424R - Linux"
+                - paragraph [ref=f7e519]: Fresh Smart Coolita Frameless Monitor TV Screen 43 Inch - 43MF423C
+                - generic [ref=f7e520]:
+                  - generic [ref=f7e521]: 12,897.2 EGP
+                  - generic [ref=f7e522]:
+                    - generic [ref=f7e523]: 16,969.99 EGP
+                    - generic [ref=f7e524]: Save 4,072.79 EGP
+              - generic [ref=f7e525]:
+                - button "Add to cart" [ref=f7e527] [cursor=pointer]
+                - button "Compare" [ref=f7e528] [cursor=pointer]
+          - button
+          - button [ref=f7e531] [cursor=pointer]
+        - link "Show More" [ref=f7e534] [cursor=pointer]:
+          - /url: /en/categories/tv
+      - generic [ref=f7e535]:
+        - heading "Shop Water Heaters" [level=2] [ref=f7e536]
+        - generic [ref=f7e538]:
+          - generic [ref=f7e539]:
+            - generic [ref=f7e541]:
+              - generic [ref=f7e542]:
+                - generic [ref=f7e543]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e545] [cursor=pointer]
+              - link "Fresh Gas Water Heater 10 Liters Silver F LNG Fresh Gas Water Heater 10 Liters Silver F LNG 6,305.85 EGP 7,785 EGP Save 1,479.15 EGP" [ref=f7e548] [cursor=pointer]:
+                - /url: /en/products/fresh-gas-water-heater-10-liters-silver-f-lng
+                - generic:
+                  - img "Fresh Gas Water Heater 10 Liters Silver F LNG"
+                - paragraph [ref=f7e549]: Fresh Gas Water Heater 10 Liters Silver F LNG
+                - generic [ref=f7e550]:
+                  - generic [ref=f7e551]: 6,305.85 EGP
+                  - generic [ref=f7e552]:
+                    - generic [ref=f7e553]: 7,785 EGP
+                    - generic [ref=f7e554]: Save 1,479.15 EGP
+              - generic [ref=f7e555]:
+                - button "Add to cart" [ref=f7e557] [cursor=pointer]
+                - button "Compare" [ref=f7e558] [cursor=pointer]
+            - generic [ref=f7e562]:
+              - generic [ref=f7e563]:
+                - generic [ref=f7e564]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e566] [cursor=pointer]
+              - link "Fresh Gas Water Heater 6 Liters Crystal Black - F LNG Fresh Gas Water Heater 6 Liters Crystal Black - F LNG 4,977.45 EGP 6,145 EGP Save 1,167.55 EGP" [ref=f7e569] [cursor=pointer]:
+                - /url: /en/products/fresh-gas-water-heater-6-liters-crystal-black-f-lng
+                - generic:
+                  - img "Fresh Gas Water Heater 6 Liters Crystal Black - F LNG"
+                - paragraph [ref=f7e570]: Fresh Gas Water Heater 6 Liters Crystal Black - F LNG
+                - generic [ref=f7e571]:
+                  - generic [ref=f7e572]: 4,977.45 EGP
+                  - generic [ref=f7e573]:
+                    - generic [ref=f7e574]: 6,145 EGP
+                    - generic [ref=f7e575]: Save 1,167.55 EGP
+              - generic [ref=f7e576]:
+                - button "Add to cart" [ref=f7e578] [cursor=pointer]
+                - button "Compare" [ref=f7e579] [cursor=pointer]
+            - generic [ref=f7e583]:
+              - generic [ref=f7e584]:
+                - generic [ref=f7e585]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e587] [cursor=pointer]
+              - link "Fresh Gas Water Heater 6 Liters Black F Fresh Gas Water Heater 6 Liters Black F 4,600.8 EGP 5,680 EGP Save 1,079.2 EGP" [ref=f7e590] [cursor=pointer]:
+                - /url: /en/products/fresh-gas-water-heater-6-liters-black-f
+                - generic:
+                  - img "Fresh Gas Water Heater 6 Liters Black F"
+                - paragraph [ref=f7e591]: Fresh Gas Water Heater 6 Liters Black F
+                - generic [ref=f7e592]:
+                  - generic [ref=f7e593]: 4,600.8 EGP
+                  - generic [ref=f7e594]:
+                    - generic [ref=f7e595]: 5,680 EGP
+                    - generic [ref=f7e596]: Save 1,079.2 EGP
+              - generic [ref=f7e597]:
+                - button "Add to cart" [ref=f7e599] [cursor=pointer]
+                - button "Compare" [ref=f7e600] [cursor=pointer]
+            - generic [ref=f7e604]:
+              - generic [ref=f7e605]:
+                - generic [ref=f7e606]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e608] [cursor=pointer]
+              - link "Fresh Gas Water Heater 6 Liters Silver F LNG Fresh Gas Water Heater 6 Liters Silver F LNG Only 1 left in stock - order Now 4,600.8 EGP 5,680 EGP Save 1,079.2 EGP" [ref=f7e611] [cursor=pointer]:
+                - /url: /en/products/fresh-gas-water-heater-6-liters-silver-f-lng
+                - generic:
+                  - img "Fresh Gas Water Heater 6 Liters Silver F LNG"
+                - paragraph [ref=f7e612]: Fresh Gas Water Heater 6 Liters Silver F LNG
+                - generic [ref=f7e613]: Only 1 left in stock - order Now
+                - generic [ref=f7e614]:
+                  - generic [ref=f7e615]: 4,600.8 EGP
+                  - generic [ref=f7e616]:
+                    - generic [ref=f7e617]: 5,680 EGP
+                    - generic [ref=f7e618]: Save 1,079.2 EGP
+              - generic [ref=f7e619]:
+                - button "Add to cart" [ref=f7e621] [cursor=pointer]
+                - button "Compare" [ref=f7e622] [cursor=pointer]
+            - generic [ref=f7e626]:
+              - generic [ref=f7e627]:
+                - generic [ref=f7e628]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e630] [cursor=pointer]
+              - link "Fresh Gas Water Heater 6 Liters Silver F Fresh Gas Water Heater 6 Liters Silver F 4,600.8 EGP 5,680 EGP Save 1,079.2 EGP" [ref=f7e633] [cursor=pointer]:
+                - /url: /en/products/fresh-gas-water-heater-6-liters-silver-f
+                - generic:
+                  - img "Fresh Gas Water Heater 6 Liters Silver F"
+                - paragraph [ref=f7e634]: Fresh Gas Water Heater 6 Liters Silver F
+                - generic [ref=f7e635]:
+                  - generic [ref=f7e636]: 4,600.8 EGP
+                  - generic [ref=f7e637]:
+                    - generic [ref=f7e638]: 5,680 EGP
+                    - generic [ref=f7e639]: Save 1,079.2 EGP
+              - generic [ref=f7e640]:
+                - button "Add to cart" [ref=f7e642] [cursor=pointer]
+                - button "Compare" [ref=f7e643] [cursor=pointer]
+            - generic [ref=f7e647]:
+              - generic [ref=f7e648]:
+                - generic [ref=f7e649]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e651] [cursor=pointer]
+              - link "Fresh Electric Water Heater Relax 50 Liters Fresh Electric Water Heater Relax LED 30 Liters VF Slim 3,033.45 EGP 3,745 EGP Save 711.55 EGP" [ref=f7e654] [cursor=pointer]:
+                - /url: /en/products/fresh-electric-water-heater-relax-led-30-liters-vf-slim
+                - generic:
+                  - img "Fresh Electric Water Heater Relax 50 Liters"
+                - paragraph [ref=f7e655]: Fresh Electric Water Heater Relax LED 30 Liters VF Slim
+                - generic [ref=f7e656]:
+                  - generic [ref=f7e657]: 3,033.45 EGP
+                  - generic [ref=f7e658]:
+                    - generic [ref=f7e659]: 3,745 EGP
+                    - generic [ref=f7e660]: Save 711.55 EGP
+              - generic [ref=f7e661]:
+                - button "Add to cart" [ref=f7e663] [cursor=pointer]
+                - button "Compare" [ref=f7e664] [cursor=pointer]
+            - generic [ref=f7e668]:
+              - generic [ref=f7e669]:
+                - generic [ref=f7e670]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e672] [cursor=pointer]
+              - link "Fresh Electric Water Heater Relax 50 Liters Fresh Electric Water Heater Relax LED 40 Liters VF Slim 3,187.35 EGP 3,935 EGP Save 747.65 EGP" [ref=f7e675] [cursor=pointer]:
+                - /url: /en/products/fresh-electric-water-heater-relax-led-40-liters-vf-slim
+                - generic:
+                  - img "Fresh Electric Water Heater Relax 50 Liters"
+                - paragraph [ref=f7e676]: Fresh Electric Water Heater Relax LED 40 Liters VF Slim
+                - generic [ref=f7e677]:
+                  - generic [ref=f7e678]: 3,187.35 EGP
+                  - generic [ref=f7e679]:
+                    - generic [ref=f7e680]: 3,935 EGP
+                    - generic [ref=f7e681]: Save 747.65 EGP
+              - generic [ref=f7e682]:
+                - button "Add to cart" [ref=f7e684] [cursor=pointer]
+                - button "Compare" [ref=f7e685] [cursor=pointer]
+            - generic [ref=f7e689]:
+              - generic [ref=f7e690]:
+                - generic [ref=f7e691]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e693] [cursor=pointer]
+              - link "Fresh Electric Water Heater Relax 50 Liters Fresh Electric Water Heater Relax LED 50 Liters VF Only 3 left in stock - order Now 3,450.6 EGP 4,260 EGP Save 809.4 EGP" [ref=f7e696] [cursor=pointer]:
+                - /url: /en/products/fresh-electric-water-heater-relax-led-50-liters-vf
+                - generic:
+                  - img "Fresh Electric Water Heater Relax 50 Liters"
+                - paragraph [ref=f7e697]: Fresh Electric Water Heater Relax LED 50 Liters VF
+                - generic [ref=f7e698]: Only 3 left in stock - order Now
+                - generic [ref=f7e699]:
+                  - generic [ref=f7e700]: 3,450.6 EGP
+                  - generic [ref=f7e701]:
+                    - generic [ref=f7e702]: 4,260 EGP
+                    - generic [ref=f7e703]: Save 809.4 EGP
+              - generic [ref=f7e704]:
+                - button "Add to cart" [ref=f7e706] [cursor=pointer]
+                - button "Compare" [ref=f7e707] [cursor=pointer]
+            - generic [ref=f7e711]:
+              - generic [ref=f7e712]:
+                - generic [ref=f7e713]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e715] [cursor=pointer]
+              - link "Fresh Electric Water Heater Marina 15 Liters Fresh Electric Water Heater VF OS 15 Liters 2,855.26 EGP 3,525.01 EGP Save 669.75 EGP" [ref=f7e718] [cursor=pointer]:
+                - /url: /en/products/fresh-electric-water-heater-vf-os-15-liters
+                - generic:
+                  - img "Fresh Electric Water Heater Marina 15 Liters"
+                - paragraph [ref=f7e719]: Fresh Electric Water Heater VF OS 15 Liters
+                - generic [ref=f7e720]:
+                  - generic [ref=f7e721]: 2,855.26 EGP
+                  - generic [ref=f7e722]:
+                    - generic [ref=f7e723]: 3,525.01 EGP
+                    - generic [ref=f7e724]: Save 669.75 EGP
+              - generic [ref=f7e725]:
+                - button "Add to cart" [ref=f7e727] [cursor=pointer]
+                - button "Compare" [ref=f7e728] [cursor=pointer]
+            - generic [ref=f7e732]:
+              - generic [ref=f7e733]:
+                - generic [ref=f7e734]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e736] [cursor=pointer]
+              - link "Fresh Electric Water Heater Marina 15 Liters Fresh Electric Water Heater VF 20 Liters 2,952.45 EGP 3,645 EGP Save 692.55 EGP" [ref=f7e739] [cursor=pointer]:
+                - /url: /en/products/fresh-electric-water-heater-vf-20-liters
+                - generic:
+                  - img "Fresh Electric Water Heater Marina 15 Liters"
+                - paragraph [ref=f7e740]: Fresh Electric Water Heater VF 20 Liters
+                - generic [ref=f7e741]:
+                  - generic [ref=f7e742]: 2,952.45 EGP
+                  - generic [ref=f7e743]:
+                    - generic [ref=f7e744]: 3,645 EGP
+                    - generic [ref=f7e745]: Save 692.55 EGP
+              - generic [ref=f7e746]:
+                - button "Add to cart" [ref=f7e748] [cursor=pointer]
+                - button "Compare" [ref=f7e749] [cursor=pointer]
+          - button
+          - button [ref=f7e752] [cursor=pointer]
+        - link "Show More" [ref=f7e755] [cursor=pointer]:
+          - /url: /en/categories/appliance/heaters
+      - generic [ref=f7e756]:
+        - heading "Shop Washing Machines" [level=2] [ref=f7e757]
+        - generic [ref=f7e759]:
+          - generic [ref=f7e760]:
+            - generic [ref=f7e762]:
+              - generic [ref=f7e763]:
+                - generic [ref=f7e764]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e766] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-CG Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-CG 23,993.19 EGP 31,570 EGP Save 7,576.81 EGP" [ref=f7e769] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-g2-cg
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-CG"
+                - paragraph [ref=f7e770]: Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-CG
+                - generic [ref=f7e771]:
+                  - generic [ref=f7e772]: 23,993.19 EGP
+                  - generic [ref=f7e773]:
+                    - generic [ref=f7e774]: 31,570 EGP
+                    - generic [ref=f7e775]: Save 7,576.81 EGP
+              - generic [ref=f7e776]:
+                - button "Add to cart" [ref=f7e778] [cursor=pointer]
+                - button "Compare" [ref=f7e779] [cursor=pointer]
+            - generic [ref=f7e783]:
+              - generic [ref=f7e784]:
+                - generic [ref=f7e785]:
+                  - generic [ref=f7e786]: OFF 24% Cash
+                  - generic [ref=f7e787]: New
+                - button "Add to wishlist" [ref=f7e788] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-CG Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-CG Only 3 left in stock - order Now 23,636 EGP 31,100 EGP Save 7,464 EGP" [ref=f7e791] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-g1-cg
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-CG"
+                - paragraph [ref=f7e792]: Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-CG
+                - generic [ref=f7e793]: Only 3 left in stock - order Now
+                - generic [ref=f7e794]:
+                  - generic [ref=f7e795]: 23,636 EGP
+                  - generic [ref=f7e796]:
+                    - generic [ref=f7e797]: 31,100 EGP
+                    - generic [ref=f7e798]: Save 7,464 EGP
+              - generic [ref=f7e799]:
+                - button "Add to cart" [ref=f7e801] [cursor=pointer]
+                - button "Compare" [ref=f7e802] [cursor=pointer]
+            - generic [ref=f7e806]:
+              - generic [ref=f7e807]:
+                - generic [ref=f7e808]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e810] [cursor=pointer]
+              - link "Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-CG Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-CG 20,398.4 EGP 26,840 EGP Save 6,441.6 EGP" [ref=f7e813] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-pc-cg
+                - generic:
+                  - img "Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-CG"
+                - paragraph [ref=f7e814]: Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-CG
+                - generic [ref=f7e815]:
+                  - generic [ref=f7e816]: 20,398.4 EGP
+                  - generic [ref=f7e817]:
+                    - generic [ref=f7e818]: 26,840 EGP
+                    - generic [ref=f7e819]: Save 6,441.6 EGP
+              - generic [ref=f7e820]:
+                - button "Add to cart" [ref=f7e822] [cursor=pointer]
+                - button "Compare" [ref=f7e823] [cursor=pointer]
+            - generic [ref=f7e827]:
+              - generic [ref=f7e828]:
+                - generic [ref=f7e829]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e831] [cursor=pointer]
+              - link "Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-CG Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-CG Only 3 left in stock - order Now 18,521.19 EGP 24,370 EGP Save 5,848.81 EGP" [ref=f7e834] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-07-kgs-inverter-direct-drive-pc-cg
+                - generic:
+                  - img "Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-CG"
+                - paragraph [ref=f7e835]: Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-CG
+                - generic [ref=f7e836]: Only 3 left in stock - order Now
+                - generic [ref=f7e837]:
+                  - generic [ref=f7e838]: 18,521.19 EGP
+                  - generic [ref=f7e839]:
+                    - generic [ref=f7e840]: 24,370 EGP
+                    - generic [ref=f7e841]: Save 5,848.81 EGP
+              - generic [ref=f7e842]:
+                - button "Add to cart" [ref=f7e844] [cursor=pointer]
+                - button "Compare" [ref=f7e845] [cursor=pointer]
+          - button
+          - button
+        - link "Show More" [ref=f7e848] [cursor=pointer]:
+          - /url: /en/categories/washing-machines
+      - generic [ref=f7e849]:
+        - heading "Latest Products" [level=2] [ref=f7e850]
+        - generic [ref=f7e852]:
+          - generic [ref=f7e853]:
+            - generic [ref=f7e855]:
+              - generic [ref=f7e856]:
+                - generic [ref=f7e857]:
+                  - generic [ref=f7e858]: OFF 21% Cash
+                  - generic [ref=f7e859]: New
+                - button "Add to wishlist" [ref=f7e860] [cursor=pointer]
+              - link "Fresh Turkish Coffee Machine FCM-650TMZ-STT - 650 W Fresh Turkish Coffee Machine FCM-650TMZ-STT - 650 W 3,760.4 EGP 4,760 EGP Save 999.6 EGP" [ref=f7e863] [cursor=pointer]:
+                - /url: /en/products/fresh-turkish-coffee-machine-fcm-650tmz-stt-650-w
+                - generic:
+                  - img "Fresh Turkish Coffee Machine FCM-650TMZ-STT - 650 W"
+                - paragraph [ref=f7e864]: Fresh Turkish Coffee Machine FCM-650TMZ-STT - 650 W
+                - generic [ref=f7e865]:
+                  - generic [ref=f7e866]: 3,760.4 EGP
+                  - generic [ref=f7e867]:
+                    - generic [ref=f7e868]: 4,760 EGP
+                    - generic [ref=f7e869]: Save 999.6 EGP
+              - generic [ref=f7e870]:
+                - button "Add to cart" [ref=f7e872] [cursor=pointer]
+                - button "Compare" [ref=f7e873] [cursor=pointer]
+            - generic [ref=f7e877]:
+              - generic [ref=f7e878]:
+                - generic [ref=f7e879]: OFF 21% Cash
+                - button "Add to wishlist" [ref=f7e881] [cursor=pointer]
+              - link "Fresh Turkish Coffee Machine - Milk FCM-TZ-BP 650 W Fresh Turkish Coffee Machine - Milk FCM-TZ-BP 650 W 1,907.85 EGP 2,415 EGP Save 507.15 EGP" [ref=f7e884] [cursor=pointer]:
+                - /url: /en/products/fresh-turkish-coffee-machine-milk-fcm-tz-bp-650-w
+                - generic:
+                  - img "Fresh Turkish Coffee Machine - Milk FCM-TZ-BP 650 W"
+                - paragraph [ref=f7e885]: Fresh Turkish Coffee Machine - Milk FCM-TZ-BP 650 W
+                - generic [ref=f7e886]:
+                  - generic [ref=f7e887]: 1,907.85 EGP
+                  - generic [ref=f7e888]:
+                    - generic [ref=f7e889]: 2,415 EGP
+                    - generic [ref=f7e890]: Save 507.15 EGP
+              - generic [ref=f7e891]:
+                - button "Add to cart" [ref=f7e893] [cursor=pointer]
+                - button "Compare" [ref=f7e894] [cursor=pointer]
+            - generic [ref=f7e898]:
+              - generic [ref=f7e899]:
+                - generic [ref=f7e900]: OFF 21% Cash
+                - button "Add to wishlist" [ref=f7e902] [cursor=pointer]
+              - link "Fresh American Coffee Machine FCM-AD-BG 600 W Fresh American Coffee Machine FCM-AD-BG 600 W Only 1 left in stock - order Now 1,011.2 EGP 1,280 EGP Save 268.8 EGP" [ref=f7e905] [cursor=pointer]:
+                - /url: /en/products/fresh-american-coffee-machine-fcm-ad-bg-600-w
+                - generic:
+                  - img "Fresh American Coffee Machine FCM-AD-BG 600 W"
+                - paragraph [ref=f7e906]: Fresh American Coffee Machine FCM-AD-BG 600 W
+                - generic [ref=f7e907]: Only 1 left in stock - order Now
+                - generic [ref=f7e908]:
+                  - generic [ref=f7e909]: 1,011.2 EGP
+                  - generic [ref=f7e910]:
+                    - generic [ref=f7e911]: 1,280 EGP
+                    - generic [ref=f7e912]: Save 268.8 EGP
+              - generic [ref=f7e913]:
+                - button "Add to cart" [ref=f7e915] [cursor=pointer]
+                - button "Compare" [ref=f7e916] [cursor=pointer]
+            - generic [ref=f7e920]:
+              - generic [ref=f7e921]:
+                - generic [ref=f7e922]: OFF 21% Cash
+                - button "Add to wishlist" [ref=f7e924] [cursor=pointer]
+              - link "Fresh Hand Mixer HM-400 Fresh Hand Mixer HM-400 932.2 EGP 1,180 EGP Save 247.8 EGP" [ref=f7e927] [cursor=pointer]:
+                - /url: /en/products/fresh-hand-mixer-hm-400
+                - generic:
+                  - img "Fresh Hand Mixer HM-400"
+                - paragraph [ref=f7e928]: Fresh Hand Mixer HM-400
+                - generic [ref=f7e929]:
+                  - generic [ref=f7e930]: 932.2 EGP
+                  - generic [ref=f7e931]:
+                    - generic [ref=f7e932]: 1,180 EGP
+                    - generic [ref=f7e933]: Save 247.8 EGP
+              - generic [ref=f7e934]:
+                - button "Add to cart" [ref=f7e936] [cursor=pointer]
+                - button "Compare" [ref=f7e937] [cursor=pointer]
+          - button
+          - button
+      - generic [ref=f7e940]:
+        - link [ref=f7e941] [cursor=pointer]:
+          - /url: https://fresh.com.eg/ar/offers
+          - img "General - General Products" [ref=f7e943]
+        - link [ref=f7e944] [cursor=pointer]:
+          - /url: https://fresh.com.eg/categories/cooling-appliances
+          - img "Shop for refrigerators - Get free shipping on a purchase of 1,000 LE or more" [ref=f7e946]
+        - link [ref=f7e947] [cursor=pointer]:
+          - /url: https://fresh.com.eg/categories/appliance/fan
+          - img "Offer on ovens - Get more when buying with 1500 EGP or more" [ref=f7e949]
+      - generic [ref=f7e950]:
+        - heading "Best Sellers" [level=2] [ref=f7e951]
+        - generic [ref=f7e953]:
+          - generic [ref=f7e954]:
+            - generic [ref=f7e956]:
+              - generic [ref=f7e957]:
+                - generic [ref=f7e958]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e960] [cursor=pointer]
+              - link "Fresh Portable Air Conditioner Cool Fresh Portable Air Conditioner Cool 13,745.7 EGP 16,969.99 EGP Save 3,224.29 EGP" [ref=f7e963] [cursor=pointer]:
+                - /url: /en/products/fresh-portable-air-conditioner-2200-watt-cool
+                - generic:
+                  - img "Fresh Portable Air Conditioner Cool"
+                - paragraph [ref=f7e964]: Fresh Portable Air Conditioner Cool
+                - generic [ref=f7e965]:
+                  - generic [ref=f7e966]: 13,745.7 EGP
+                  - generic [ref=f7e967]:
+                    - generic [ref=f7e968]: 16,969.99 EGP
+                    - generic [ref=f7e969]: Save 3,224.29 EGP
+              - generic [ref=f7e970]:
+                - button "Add to cart" [ref=f7e972] [cursor=pointer]
+                - button "Compare" [ref=f7e973] [cursor=pointer]
+            - generic [ref=f7e977]:
+              - generic [ref=f7e978]:
+                - generic [ref=f7e979]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e981] [cursor=pointer]
+              - link "Fresh Fan Box Boxer Fresh Fan Box Boxer 1,012.5 EGP 1,250 EGP Save 237.5 EGP" [ref=f7e984] [cursor=pointer]:
+                - /url: /en/products/fresh-fan-box-boxer
+                - generic:
+                  - img "Fresh Fan Box Boxer"
+                - paragraph [ref=f7e985]: Fresh Fan Box Boxer
+                - generic [ref=f7e986]:
+                  - generic [ref=f7e987]: 1,012.5 EGP
+                  - generic [ref=f7e988]:
+                    - generic [ref=f7e989]: 1,250 EGP
+                    - generic [ref=f7e990]: Save 237.5 EGP
+              - generic [ref=f7e991]:
+                - button "Add to cart" [ref=f7e993] [cursor=pointer]
+                - button "Compare" [ref=f7e994] [cursor=pointer]
+            - generic [ref=f7e998]:
+              - generic [ref=f7e999]:
+                - generic [ref=f7e1000]:
+                  - generic [ref=f7e1001]: OFF 19% Cash
+                  - generic [ref=f7e1002]: New
+                - button "Add to wishlist" [ref=f7e1003] [cursor=pointer]
+              - link "Fresh Wall Fan Hatary Remote 16 inch Fresh Wall Fan Hatary Remote 16 inch 1,927.8 EGP 2,380 EGP Save 452.2 EGP" [ref=f7e1006] [cursor=pointer]:
+                - /url: /en/products/fresh-wall-fan-hatary-remote-16-inch
+                - generic:
+                  - img "Fresh Wall Fan Hatary Remote 16 inch"
+                - paragraph [ref=f7e1007]: Fresh Wall Fan Hatary Remote 16 inch
+                - generic [ref=f7e1008]:
+                  - generic [ref=f7e1009]: 1,927.8 EGP
+                  - generic [ref=f7e1010]:
+                    - generic [ref=f7e1011]: 2,380 EGP
+                    - generic [ref=f7e1012]: Save 452.2 EGP
+              - generic [ref=f7e1013]:
+                - button "Add to cart" [ref=f7e1015] [cursor=pointer]
+                - button "Compare" [ref=f7e1016] [cursor=pointer]
+            - generic [ref=f7e1020]:
+              - generic [ref=f7e1021]:
+                - generic [ref=f7e1022]: OFF 24% Cash
+                - button "Add to wishlist" [ref=f7e1024] [cursor=pointer]
+              - link "Fresh Washing Machine 4 K.G (Spin Tub Included) - SWM400NA Fresh Washing Machine 4 K.G (Spin Tub Included) - SWM400NA 2,424.4 EGP 3,190.01 EGP Save 765.61 EGP" [ref=f7e1027] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-4k-g-with-spin-tub-swm400na
+                - generic:
+                  - img "Fresh Washing Machine 4 K.G (Spin Tub Included) - SWM400NA"
+                - paragraph [ref=f7e1028]: Fresh Washing Machine 4 K.G (Spin Tub Included) - SWM400NA
+                - generic [ref=f7e1029]:
+                  - generic [ref=f7e1030]: 2,424.4 EGP
+                  - generic [ref=f7e1031]:
+                    - generic [ref=f7e1032]: 3,190.01 EGP
+                    - generic [ref=f7e1033]: Save 765.61 EGP
+              - generic [ref=f7e1034]:
+                - button "Add to cart" [ref=f7e1036] [cursor=pointer]
+                - button "Compare" [ref=f7e1037] [cursor=pointer]
+            - generic [ref=f7e1041]:
+              - generic [ref=f7e1042]:
+                - generic [ref=f7e1043]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e1045] [cursor=pointer]
+              - link "Fresh Stand Fan Galaxy 16 inch Fresh Stand Fan Galaxy 16 inch 1,539 EGP 1,900 EGP Save 361 EGP" [ref=f7e1048] [cursor=pointer]:
+                - /url: /en/products/fresh-stand-fan-galaxy-16-inch
+                - generic:
+                  - img "Fresh Stand Fan Galaxy 16 inch"
+                - paragraph [ref=f7e1049]: Fresh Stand Fan Galaxy 16 inch
+                - generic [ref=f7e1050]:
+                  - generic [ref=f7e1051]: 1,539 EGP
+                  - generic [ref=f7e1052]:
+                    - generic [ref=f7e1053]: 1,900 EGP
+                    - generic [ref=f7e1054]: Save 361 EGP
+              - generic [ref=f7e1055]:
+                - button "Add to cart" [ref=f7e1057] [cursor=pointer]
+                - button "Compare" [ref=f7e1058] [cursor=pointer]
+            - generic [ref=f7e1062]:
+              - generic [ref=f7e1063]:
+                - generic [ref=f7e1064]: OFF 19% Cash
+                - button "Add to wishlist" [ref=f7e1066] [cursor=pointer]
+              - link "Fresh Ventilator Wall 15 cm - Bathroom Fresh Ventilator Wall 15 cm - Bathroom 587.25 EGP 724.99 EGP Save 137.74 EGP" [ref=f7e1069] [cursor=pointer]:
+                - /url: /en/products/fresh-ventilator-wall-15-cm-bathroom
+                - generic:
+                  - img "Fresh Ventilator Wall 15 cm - Bathroom"
+                - paragraph [ref=f7e1070]: Fresh Ventilator Wall 15 cm - Bathroom
+                - generic [ref=f7e1071]:
+                  - generic [ref=f7e1072]: 587.25 EGP
+                  - generic [ref=f7e1073]:
+                    - generic [ref=f7e1074]: 724.99 EGP
+                    - generic [ref=f7e1075]: Save 137.74 EGP
+              - generic [ref=f7e1076]:
+                - button "Add to cart" [ref=f7e1078] [cursor=pointer]
+                - button "Compare" [ref=f7e1079] [cursor=pointer]
+          - button
+          - button [ref=f7e1082] [cursor=pointer]
+  - img "Chat" [ref=f7e1086]
+  - contentinfo [ref=f7e1087]:
+    - generic [ref=f7e1088]:
+      - navigation [ref=f7e1090]:
+        - generic [ref=f7e1092]:
+          - heading "Customer Service" [level=3] [ref=f7e1093]
+          - list [ref=f7e1094]:
+            - listitem [ref=f7e1095]:
+              - link "Frequently Asked Questions" [ref=f7e1096] [cursor=pointer]:
+                - /url: /en/faqs
+            - listitem [ref=f7e1097]:
+              - link "Contact us" [ref=f7e1098] [cursor=pointer]:
+                - /url: /en/contact
+            - listitem [ref=f7e1099]:
+              - link "Have a complaint?" [ref=f7e1100] [cursor=pointer]:
+                - /url: /en/service
+        - generic [ref=f7e1102]:
+          - heading "About Fresh" [level=3] [ref=f7e1103]
+          - list [ref=f7e1104]:
+            - listitem [ref=f7e1105]:
+              - link "About us" [ref=f7e1106] [cursor=pointer]:
+                - /url: /en/about
+            - listitem [ref=f7e1107]:
+              - link "Maintenance" [ref=f7e1108] [cursor=pointer]:
+                - /url: /en/maintenance
+            - listitem [ref=f7e1109]:
+              - link "Careers" [ref=f7e1110] [cursor=pointer]:
+                - /url: /en/careers
+        - generic [ref=f7e1112]:
+          - heading "More" [level=3] [ref=f7e1113]
+          - list [ref=f7e1114]:
+            - listitem [ref=f7e1115]:
+              - link "Terms and Conditions" [ref=f7e1116] [cursor=pointer]:
+                - /url: /en/terms
+            - listitem [ref=f7e1117]:
+              - link "Maintenance Terms" [ref=f7e1118] [cursor=pointer]:
+                - /url: /en/maintenance-terms
+            - listitem [ref=f7e1119]:
+              - link "Privacy Policy" [ref=f7e1120] [cursor=pointer]:
+                - /url: /en/privacy
+            - listitem [ref=f7e1121]:
+              - link "Refund Policy" [ref=f7e1122] [cursor=pointer]:
+                - /url: /en/refund
+            - listitem [ref=f7e1123]:
+              - link "Warranty Policy" [ref=f7e1124] [cursor=pointer]:
+                - /url: /en/warranty
+        - generic [ref=f7e1125]:
+          - generic [ref=f7e1126]: Newsletter
+          - generic [ref=f7e1127]:
+            - generic [ref=f7e1128]:
+              - generic [ref=f7e1129]: Get notified of new offers and discounts
+              - textbox "Get notified of new offers and discounts" [ref=f7e1131]:
+                - /placeholder: Email Address
+            - button "Subscribe" [ref=f7e1132] [cursor=pointer]
+          - generic [ref=f7e1134]:
+            - link "Visit our Facebook page" [ref=f7e1135] [cursor=pointer]:
+              - /url: https://www.facebook.com/fresh.eg/
+            - link "Visit our Instagram page" [ref=f7e1138] [cursor=pointer]:
+              - /url: https://www.instagram.com/fresh.eg/
+            - link "Visit our channel on YouTube" [ref=f7e1141] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCJbcrmW-u4p_OpukDxP-rTA
+            - link "Visit our LinkedIn page" [ref=f7e1144] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/fresh-electric-for-home-appliances/
+          - list [ref=f7e1147]:
+            - listitem [ref=f7e1148]
+            - listitem [ref=f7e1151]:
+              - img "Visa" [ref=f7e1152]
+            - listitem [ref=f7e1153]:
+              - img "Premium Card" [ref=f7e1154]
+      - paragraph [ref=f7e1156]: Copyright © 2025 Fresh. All rights reserved.

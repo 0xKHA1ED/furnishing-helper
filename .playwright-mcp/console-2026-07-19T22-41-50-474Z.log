@@ -1,0 +1,29 @@
+[     453ms] [LOG] window.innerWidth 1046 @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[     454ms] [LOG] this.search false @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[     471ms] [WARNING] Manifest: found icon with no valid size. @ https://fresh.com.eg/_nuxt/manifest.d61c55fd.json:0
+[     779ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[     781ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[     783ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[     786ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[     839ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://sentry.robustastudio.com/api/2/store/?sentry_key=38e44d26486c459b9855ca9acd672bca&sentry_version=7:0
+[    1215ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[    5970ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api-eu1.infobip.com/livechat/api/widgets/70a3e185-0922-43ba-a75c-2cedfecbf969/configuration:0
+[   13804ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   54776ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   57192ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1

@@ -1,0 +1,47 @@
+{
+  "scrapedAt": "2026-07-20",
+  "criteria": {
+    "capacityKg": 9,
+    "color": "black strict; dark_silver+black_lid near-black",
+    "type": "top_load",
+    "automation": "full_auto",
+    "channel": "official manufacturer sites only"
+  },
+  "strictBlackMatches": [],
+  "nearBlackMatches": [
+    {
+      "brand": "Sharp",
+      "model": "ES-TN09GDSP",
+      "name": "SHARP Washing Machine 9 Kg Pump Dark Silver ES-TN09GDSP",
+      "url": "https://www.elarabygroup.com/en/sharp-washing-machine-top-automatic-9-kg-pump-dark-silver-es-tn09gdsp",
+      "priceEGP": 13529,
+      "oos": true,
+      "color": "dark_silver",
+      "topCover": "Black",
+      "imageUrl": "https://www.elarabygroup.com/media/catalog/product/cache/3495d522e9ac8b580d54c7d730441906/s/h/sharp-washing-machine-top-automatic-9-kg-pump-dark-silver-es-tn09gdsp-closed.jpg",
+      "source": "Elaraby Group"
+    },
+    {
+      "brand": "Tornado",
+      "model": "TWE-TLN09RDS",
+      "name": "TORNADO Washing Machine 9 Kg Pump Dark Silver TWE-TLN09RDS",
+      "url": "https://www.elarabygroup.com/en/tornado-washing-machine-top-automatic-9-kg-pump-dark-silver-twe-tln09rds",
+      "priceEGP": 12629,
+      "oos": true,
+      "color": "dark_silver",
+      "topCover": "Black",
+      "imageUrl": "https://www.elarabygroup.com/media/catalog/product/cache/3495d522e9ac8b580d54c7d730441906/t/o/tornado-washing-machine-top-automatic-9-kg-pump-dark-silver-twe-tln09rds-1.jpg",
+      "source": "Elaraby Group"
+    }
+  ],
+  "notes": [
+    "Elaraby search '9 kg black top' returned zero products",
+    "Elaraby pure Black top-auto filter: 9 items all ≥11 kg",
+    "Elaraby 9 kg top-auto filter: exactly 4 SKUs (2 DS + 2 silver), all OOS",
+    "Fresh top-loading: 21 products; 9 kg only silver; black at 7/10/11/12/15 kg",
+    "LG top-loading: no 9 kg; smallest black top is 10 kg T10V1TEHG2",
+    "Samsung EG: 9 kg are front-load",
+    "Beko EG freestanding: front-load only",
+    "Toshiba AW-J900: 9 kg top silver only"
+  ]
+}

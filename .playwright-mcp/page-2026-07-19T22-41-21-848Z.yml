@@ -1,0 +1,154 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: /en/
+          - img "Fresh" [ref=e11]
+        - generic [ref=e12]:
+          - generic [ref=e13]: Search
+          - searchbox "Search" [ref=e14]
+          - button "Search" [ref=e15] [cursor=pointer]
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "whatsapp" [ref=e23] [cursor=pointer]:
+              - /url: https://wa.me/201206555516
+              - text: Whatsapp
+          - listitem [ref=e26]:
+            - link "Call 19059" [ref=e27] [cursor=pointer]:
+              - /url: tel:19059
+          - listitem [ref=e28]:
+            - link "Branches" [ref=e29] [cursor=pointer]:
+              - /url: /en/stores
+          - listitem [ref=e33]:
+            - link "العربية" [ref=e34] [cursor=pointer]:
+              - /url: ""
+      - generic [ref=e36]:
+        - list [ref=e37]:
+          - listitem [ref=e38]:
+            - link "Cookers" [ref=e39] [cursor=pointer]:
+              - /url: /en/categories/cooker-appliances
+          - listitem [ref=e40]:
+            - link "Small Home Appliances" [ref=e41] [cursor=pointer]:
+              - /url: /en/categories/appliance
+          - listitem [ref=e42]:
+            - link "Televisions" [ref=e43] [cursor=pointer]:
+              - /url: /en/categories/tv
+          - listitem [ref=e44]:
+            - link "Cooling Appliances" [ref=e45] [cursor=pointer]:
+              - /url: /en/categories/cooling-appliances
+          - listitem [ref=e46]:
+            - link "Air Conditioners" [ref=e47] [cursor=pointer]:
+              - /url: /en/categories/air-conditioner
+          - listitem [ref=e48]:
+            - link "Washing Machines" [ref=e49] [cursor=pointer]:
+              - /url: /en/categories/washing-machines
+          - listitem [ref=e50]:
+            - link "Offers" [ref=e51] [cursor=pointer]:
+              - /url: /en/offers
+          - listitem [ref=e53]:
+            - link "Your opinion" [ref=e54] [cursor=pointer]:
+              - /url: /en/service
+        - generic [ref=e56]:
+          - link "Sign in" [ref=e57] [cursor=pointer]:
+            - /url: /en/login
+          - button "Show Cart" [ref=e59] [cursor=pointer]
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - heading "Page not found" [level=1] [ref=e64]
+      - paragraph [ref=e65]: Looks like you stumbled on a broken link, you can resume your shopping in these categories
+      - generic [ref=e66]:
+        - link [ref=e67] [cursor=pointer]:
+          - /url: /en/categories/cooker-appliances
+          - paragraph [ref=e68]: Cookers
+          - img "Shop Cookers" [ref=e70]
+        - link [ref=e71] [cursor=pointer]:
+          - /url: /en/categories/appliance
+          - paragraph [ref=e72]: Small Home Appliances
+          - img "Shop Small Home Appliances" [ref=e74]
+        - link [ref=e75] [cursor=pointer]:
+          - /url: /en/categories/tv
+          - paragraph [ref=e76]: Televisions
+          - img "Shop Televisions" [ref=e78]
+        - link [ref=e79] [cursor=pointer]:
+          - /url: /en/categories/cooling-appliances
+          - paragraph [ref=e80]: Cooling Appliances
+          - img "Shop Cooling Appliances" [ref=e82]
+        - link [ref=e83] [cursor=pointer]:
+          - /url: /en/categories/air-conditioner
+          - paragraph [ref=e84]: Air Conditioners
+          - img "Shop Air Conditioners" [ref=e86]
+        - link [ref=e87] [cursor=pointer]:
+          - /url: /en/categories/washing-machines
+          - paragraph [ref=e88]: Washing Machines
+          - img "Shop Washing Machines" [ref=e90]
+  - img "Chat" [ref=e92]
+  - contentinfo [ref=e93]:
+    - generic [ref=e94]:
+      - navigation [ref=e96]:
+        - generic [ref=e98]:
+          - heading "Customer Service" [level=3] [ref=e99]
+          - list [ref=e100]:
+            - listitem [ref=e101]:
+              - link "Frequently Asked Questions" [ref=e102] [cursor=pointer]:
+                - /url: /en/faqs
+            - listitem [ref=e103]:
+              - link "Contact us" [ref=e104] [cursor=pointer]:
+                - /url: /en/contact
+            - listitem [ref=e105]:
+              - link "Have a complaint?" [ref=e106] [cursor=pointer]:
+                - /url: /en/service
+        - generic [ref=e108]:
+          - heading "About Fresh" [level=3] [ref=e109]
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - link "About us" [ref=e112] [cursor=pointer]:
+                - /url: /en/about
+            - listitem [ref=e113]:
+              - link "Maintenance" [ref=e114] [cursor=pointer]:
+                - /url: /en/maintenance
+            - listitem [ref=e115]:
+              - link "Careers" [ref=e116] [cursor=pointer]:
+                - /url: /en/careers
+        - generic [ref=e118]:
+          - heading "More" [level=3] [ref=e119]
+          - list [ref=e120]:
+            - listitem [ref=e121]:
+              - link "Terms and Conditions" [ref=e122] [cursor=pointer]:
+                - /url: /en/terms
+            - listitem [ref=e123]:
+              - link "Maintenance Terms" [ref=e124] [cursor=pointer]:
+                - /url: /en/maintenance-terms
+            - listitem [ref=e125]:
+              - link "Privacy Policy" [ref=e126] [cursor=pointer]:
+                - /url: /en/privacy
+            - listitem [ref=e127]:
+              - link "Refund Policy" [ref=e128] [cursor=pointer]:
+                - /url: /en/refund
+            - listitem [ref=e129]:
+              - link "Warranty Policy" [ref=e130] [cursor=pointer]:
+                - /url: /en/warranty
+        - generic [ref=e131]:
+          - generic [ref=e132]: Newsletter
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: Get notified of new offers and discounts
+              - textbox "Get notified of new offers and discounts" [ref=e137]:
+                - /placeholder: Email Address
+            - button "Subscribe" [ref=e138] [cursor=pointer]
+          - generic [ref=e140]:
+            - link "Visit our Facebook page" [ref=e141] [cursor=pointer]:
+              - /url: https://www.facebook.com/fresh.eg/
+            - link "Visit our Instagram page" [ref=e144] [cursor=pointer]:
+              - /url: https://www.instagram.com/fresh.eg/
+            - link "Visit our channel on YouTube" [ref=e147] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCJbcrmW-u4p_OpukDxP-rTA
+            - link "Visit our LinkedIn page" [ref=e150] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/fresh-electric-for-home-appliances/
+          - list [ref=e153]:
+            - listitem [ref=e154]
+            - listitem [ref=e157]:
+              - img "Visa" [ref=e158]
+            - listitem [ref=e159]:
+              - img "Premium Card" [ref=e160]
+      - paragraph [ref=e162]: Copyright © 2025 Fresh. All rights reserved.

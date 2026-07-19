@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Washer gallery — B.TECH + Fresh + Elaraby official</title>
+    <title>Washer gallery — 9 kg black top-load · official manufacturers</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/appliances.css" />
   </head>
@@ -18,29 +18,25 @@
           </p>
           <h1>Washing machine gallery</h1>
           <p class="lead">
-            <strong>Fully automatic</strong> washers from <strong>B.TECH</strong> plus official
-            <strong>Fresh.com.eg</strong> and <strong>Elaraby Group</strong>
-            (Sharp, Tornado, Hoover, Candy, Hitachi…). Top-load and front-load · filter by brand/source.
+            Criteria: <strong>9 kg</strong> · <strong>black</strong> (or near-black dark silver + black lid) ·
+            <strong>top-load</strong> · <strong>full automatic</strong> · buy from
+            <strong>official manufacturers only</strong> (Elaraby, Fresh, Samsung, LG, Beko, Zanussi, Toshiba, White Point…).
           </p>
         </div>
         <div class="badge-row">
           <span class="badge gold" id="count-badge">—</span>
-          <span class="badge">Official + retail</span>
+          <span class="badge">Official only</span>
         </div>
       </header>
 
       <div class="help-callout" id="disclaimer">Loading…</div>
+      <div class="help-callout" id="market-flex" style="margin-top: 0.75rem; display: none"></div>
 
       <div class="preset-row">
         <button type="button" data-preset="all" class="active">All kept</button>
-        <button type="button" data-preset="main">Main 7–9 kg</button>
-        <button type="button" data-preset="adjacent">Adjacent 10–13 kg</button>
-        <button type="button" data-preset="oversized">Oversized 14+</button>
-        <button type="button" data-preset="top">Top-load</button>
-        <button type="button" data-preset="front">Front-load</button>
-        <button type="button" data-preset="official">Official sites</button>
-        <button type="button" data-preset="black">Black only</button>
-        <button type="button" data-preset="inverter">Inverter only</button>
+        <button type="button" data-preset="instock">In stock</button>
+        <button type="button" data-preset="oos">Out of stock</button>
+        <button type="button" data-preset="nearblack">Near-black</button>
         <button type="button" data-preset="starred">★ Starred</button>
       </div>
 
@@ -55,35 +51,44 @@
         </label>
         <label>Source
           <select id="f-source">
-            <option value="any">Any source</option>
-            <option value="B.TECH">B.TECH</option>
-            <option value="Fresh Official">Fresh.com.eg</option>
+            <option value="any">Any official source</option>
             <option value="Elaraby Group">Elaraby Group</option>
+            <option value="Fresh Official">Fresh.com.eg</option>
+            <option value="LG Egypt">LG Egypt</option>
+            <option value="Samsung Egypt">Samsung Egypt</option>
           </select>
         </label>
         <label>Load type
           <select id="f-type">
             <option value="any">Any</option>
-            <option value="top_load">Top-load</option>
+            <option value="top_load" selected>Top-load</option>
             <option value="front_load">Front-load</option>
           </select>
         </label>
         <label>Band
           <select id="f-band">
             <option value="all" selected>All sizes</option>
-            <option value="main">Main 7–9 kg</option>
-            <option value="adjacent">Adjacent 10–13 kg</option>
-            <option value="oversized">Oversized 14+</option>
+            <option value="main">Main 9 kg</option>
+            <option value="adjacent">Adjacent flex</option>
+            <option value="oversized">Oversized</option>
           </select>
         </label>
         <label>Color
           <select id="f-color">
             <option value="any">Any color</option>
             <option value="black">Black only</option>
+            <option value="dark_silver">Dark silver (near-black)</option>
             <option value="dark_grey">Dark grey</option>
             <option value="silver">Silver / steel</option>
             <option value="white">White</option>
             <option value="gold">Gold</option>
+          </select>
+        </label>
+        <label>Stock
+          <select id="f-stock">
+            <option value="any">Any</option>
+            <option value="in">In stock</option>
+            <option value="out">Out of stock</option>
           </select>
         </label>
         <label>Max EGP
@@ -119,14 +124,14 @@
       <div class="product-grid" id="product-grid"></div>
 
       <div class="card" style="margin-top: 1.5rem">
-        <h2>What we excluded</h2>
+        <h2>Market scan &amp; exclusions</h2>
         <div class="muted" id="excluded-list"></div>
       </div>
 
       <footer class="app-footer">
         Data: <code>data/appliances/washer_catalog.json</code> ·
-        Sources: B.TECH + Fresh.com.eg + ElarabyGroup.com ·
-        Rebuild: <code>python scripts/merge_official_washers.py</code>
+        Official manufacturers only (Playwright scrape 2026-07-20) ·
+        Criteria: 9 kg · black preference · top-load · full-auto
       </footer>
     </div>
 
@@ -183,6 +188,11 @@
       function fmt(n) {
         return n == null ? "—" : Number(n).toLocaleString() + " EGP";
       }
+      function stockOf(it) {
+        if (it.inStock === true || it.stockStatus === "in_stock") return "in";
+        if (it.inStock === false || it.stockStatus === "out_of_stock") return "out";
+        return "unknown";
+      }
       function filtered() {
         const q = $("#f-q").value.trim().toLowerCase();
         const band = $("#f-band").value;
@@ -192,6 +202,7 @@
         const brand = $("#f-brand")?.value || "any";
         const source = $("#f-source")?.value || "any";
         const type = $("#f-type")?.value || "any";
+        const stock = $("#f-stock")?.value || "any";
         const onlyStar = $("#f-star").value === "yes";
         const sort = $("#f-sort").value;
         let list = items.filter((it) => {
@@ -205,10 +216,12 @@
           if (brand !== "any" && it.brand !== brand) return false;
           if (source !== "any" && it.retailer !== source) return false;
           if (type !== "any" && (it.specs?.type || "top_load") !== type) return false;
+          if (stock === "in" && stockOf(it) !== "in") return false;
+          if (stock === "out" && stockOf(it) !== "out") return false;
           if (onlyStar && !stars.has(it.id)) return false;
           if (
             q &&
-            !`${it.name} ${it.brand} ${it.summary} ${it.color} ${it.retailer || ""}`
+            !`${it.name} ${it.brand} ${it.summary} ${it.color} ${it.retailer || ""} ${it.model || ""}`
               .toLowerCase()
               .includes(q)
           )
@@ -226,14 +239,23 @@
       }
       function renderGrid() {
         const list = filtered();
-        $("#result-count").textContent = `Showing ${list.length} of ${items.length} · ${stars.size} starred`;
+        const inN = items.filter((i) => stockOf(i) === "in").length;
+        const outN = items.filter((i) => stockOf(i) === "out").length;
+        $("#result-count").textContent = `Showing ${list.length} of ${items.length} · ${inN} in stock · ${outN} OOS · ${stars.size} starred`;
         const grid = $("#product-grid");
         if (!list.length) {
-          grid.innerHTML = `<div class="empty-gallery" style="grid-column:1/-1">No matches.</div>`;
+          grid.innerHTML = `<div class="empty-gallery" style="grid-column:1/-1">No matches. Market has zero pure-black 9 kg top-load full-auto on official sites — see market note above.</div>`;
           return;
         }
         grid.innerHTML = list
           .map((it) => {
+            const st = stockOf(it);
+            const stockChip =
+              st === "in"
+                ? `<span class="chip-mini hot">In stock</span>`
+                : st === "out"
+                  ? `<span class="chip-mini">Out of stock</span>`
+                  : "";
             const img = it.imageUrl
               ? `<img src="${esc(it.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
               : `<div class="ph">No image yet</div>`;
@@ -241,9 +263,10 @@
               <div class="thumb">${img}
                 <div class="badge-abs">
                   ${it.rank ? `<span class="chip-mini hot">#${it.rank}</span>` : ""}
-                  ${it.retailer && it.retailer !== "B.TECH" ? `<span class="chip-mini hot">Official</span>` : ""}
-                  ${it.band === "main" ? `<span class="chip-mini hot">7–9 kg</span>` : `<span class="chip-mini">${esc(it.band || "")}</span>`}
-                  ${it.color === "black" ? `<span class="chip-mini hot">Black</span>` : it.color ? `<span class="chip-mini">${esc(it.color)}</span>` : ""}
+                  ${stockChip}
+                  <span class="chip-mini hot">Official</span>
+                  ${it.capacityKg ? `<span class="chip-mini hot">${it.capacityKg} kg</span>` : ""}
+                  ${it.color === "black" ? `<span class="chip-mini hot">Black</span>` : it.color === "dark_silver" ? `<span class="chip-mini hot">Near-black</span>` : it.color ? `<span class="chip-mini">${esc(it.color)}</span>` : ""}
                   ${it.specs?.inverter ? `<span class="chip-mini hot">Inverter</span>` : ""}
                 </div>
                 <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
@@ -251,8 +274,8 @@
               <div class="body">
                 <div class="brand">${esc(it.brand)} · ${esc((it.specs?.type || "top_load").replace("_", " "))} · ${esc(it.retailer || "")}</div>
                 <h3>${esc(it.name)}</h3>
-                <div class="meta">${it.capacityKg ?? "—"} kg · ${esc(it.color || "")} · Fit ${it.researchFitScore ?? "—"}</div>
-                <div class="price">${fmt(it.priceEGP)}</div>
+                <div class="meta">${it.capacityKg ?? "—"} kg · ${esc(it.colorDetail || it.color || "")} · Fit ${it.researchFitScore ?? "—"}</div>
+                <div class="price">${fmt(it.priceEGP)}${st === "out" ? ' <span class="muted" style="font-size:0.8rem">· OOS</span>' : st === "in" ? ' <span class="muted" style="font-size:0.8rem">· in stock</span>' : ""}</div>
               </div>
             </article>`;
           })
@@ -287,8 +310,10 @@
         const it = active;
         const g = it.imageGallery?.length ? it.imageGallery : it.imageUrl ? [it.imageUrl] : [];
         $("#modal-title").textContent = it.name;
-        $("#modal-sub").textContent = `${it.brand} · ${it.retailer || "—"} · #${it.rank} · ${it.band} · ${it.scrapedAt || ""}`;
-        $("#modal-price").textContent = fmt(it.priceEGP);
+        const st = stockOf(it);
+        const stockLabel = st === "in" ? "In stock" : st === "out" ? "Out of stock" : "Stock unknown";
+        $("#modal-sub").textContent = `${it.brand} · ${it.retailer || "—"} · #${it.rank || "—"} · ${stockLabel} · ${it.scrapedAt || ""}`;
+        $("#modal-price").textContent = `${fmt(it.priceEGP)} · ${stockLabel}`;
         $("#modal-summary").textContent = it.summary || "";
         const main = $("#modal-main-img");
         if (g[galleryIdx]) {
@@ -313,14 +338,19 @@
         const loadType = (it.specs?.type || "top_load").replace("_", " ");
         const specs = [
           ["Price", fmt(it.priceEGP)],
+          ["Stock", stockLabel],
           ["Capacity", it.capacityKg != null ? `${it.capacityKg} kg` : "—"],
           ["Load", loadType],
           ["Auto", "Fully automatic"],
           ["Inverter", it.specs?.inverter ? "Yes" : "No"],
-          ["Color", it.color],
+          ["Spin", it.specs?.spinRpm ? `${it.specs.spinRpm} RPM` : "—"],
+          ["Color", it.colorDetail || it.color || "—"],
+          ["Model", it.model || "—"],
+          ["Warranty", it.specs?.warranty || "—"],
+          ["Origin", it.specs?.origin || "—"],
           ["Source", it.retailer || it.sourceLabel || "—"],
+          ["Match", it.matchLevel || "—"],
           ["Fit", it.researchFitScore],
-          ["Band", it.band],
         ];
         $("#modal-specs").innerHTML = specs.map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v))}</span></li>`).join("");
         $("#modal-link").href = it.url;
@@ -329,65 +359,73 @@
             ? "Open on Fresh"
             : it.retailer === "Elaraby Group"
               ? "Open on Elaraby"
-              : it.retailer === "B.TECH"
-                ? "Open on B.TECH"
-                : "Open product";
+              : it.retailer === "LG Egypt"
+                ? "Open on LG"
+                : it.retailer === "Samsung Egypt"
+                  ? "Open on Samsung"
+                  : "Open official product page";
         $("#modal-star").textContent = stars.has(it.id) ? "★ Starred" : "☆ Star";
       }
       function applyPreset(name) {
         $$(".preset-row button").forEach((b) => b.classList.toggle("active", b.dataset.preset === name));
-        $("#f-band").value =
-          name === "main" ? "main"
-          : name === "adjacent" ? "adjacent"
-          : name === "oversized" ? "oversized"
-          : "all";
-        $("#f-inv").value = name === "inverter" ? "yes" : "any";
-        $("#f-color").value = name === "black" ? "black" : "any";
+        $("#f-band").value = "all";
+        $("#f-inv").value = "any";
+        $("#f-color").value = name === "nearblack" ? "dark_silver" : "any";
         $("#f-star").value = name === "starred" ? "yes" : "no";
-        $("#f-type").value = name === "top" ? "top_load" : name === "front" ? "front_load" : "any";
-        $("#f-source").value = name === "official" ? "any" : "any";
+        $("#f-type").value = "top_load";
+        $("#f-source").value = "any";
         $("#f-brand").value = "any";
-        if (name === "official") {
-          // show only non-B.TECH via source — use special: filter both official sources in render
-          $("#f-source").dataset.officialOnly = "1";
-        } else {
-          delete $("#f-source").dataset.officialOnly;
+        if ($("#f-stock")) {
+          $("#f-stock").value =
+            name === "instock" ? "in" : name === "oos" ? "out" : "any";
         }
-        if (["inverter", "black", "starred", "top", "front", "official"].includes(name)) $("#f-band").value = "all";
         renderGrid();
       }
-      // patch filter for official preset
-      const _filtered = filtered;
-      filtered = function () {
-        let list = _filtered();
-        if ($("#f-source")?.dataset.officialOnly === "1") {
-          list = list.filter((it) => it.retailer && it.retailer !== "B.TECH");
-        }
-        return list;
-      };
       async function init() {
         try {
           const data = await (await fetch("data/appliances/washer_catalog.json")).json();
           items = data.items || [];
-          const blackN = items.filter((i) => i.color === "black").length;
-          const invN = items.filter((i) => i.specs?.inverter).length;
-          const mainN = items.filter((i) => i.band === "main").length;
-          const offN = items.filter((i) => i.retailer && i.retailer !== "B.TECH").length;
-          $("#count-badge").textContent = `${items.length} total · ${offN} official · ${mainN} main`;
-          $("#disclaimer").textContent = (data.marketNote || "") + " " + (data.disclaimer || "");
-          // brand dropdown
+          const inN = items.filter((i) => stockOf(i) === "in").length;
+          const outN = items.filter((i) => stockOf(i) === "out").length;
+          const nearN = items.filter((i) => i.color === "dark_silver" || i.matchLevel === "near_black").length;
+          $("#count-badge").textContent = `${items.length} kept · ${inN} in stock · ${outN} OOS`;
+          const mf = data.marketFinding || {};
+          $("#disclaimer").textContent =
+            (mf.summary || data.marketNote || "") + " " + (data.disclaimer || "");
+          const flex = mf.ifYouFlexSizeForTrueBlackInStock || [];
+          const flexBox = $("#market-flex");
+          if (flex.length && flexBox) {
+            flexBox.style.display = "block";
+            flexBox.innerHTML =
+              `<strong>If you flex +1 kg for true black + buy-now:</strong><ul style="margin:0.4rem 0 0;padding-left:1.1rem">` +
+              flex
+                .map(
+                  (f) =>
+                    `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a> · ${fmt(f.priceEGP)} · ${esc(f.stock || "")} — ${esc(f.note || "")}</li>`
+                )
+                .join("") +
+              `</ul>`;
+          }
           const brands = [...new Set(items.map((i) => i.brand).filter(Boolean))].sort();
           const brandSel = $("#f-brand");
           brandSel.innerHTML =
             `<option value="any">Any brand</option>` +
             brands.map((b) => `<option value="${esc(b)}">${esc(b)}</option>`).join("");
           const counts = data.counts || {};
+          const checked = (mf.manufacturersChecked || [])
+            .map(
+              (m) =>
+                `<div style="margin:0.35rem 0"><strong>${esc(m.source)}</strong>: ${esc(m.result)}</div>`
+            )
+            .join("");
+          const excl = (data.excludedExamples || []).map((e) => `<li>${esc(e)}</li>`).join("");
           $("#excluded-list").innerHTML =
-            `<div><strong>In catalog:</strong> ${counts.total ?? items.length} models · ` +
-            `B.TECH ${counts.btech ?? "—"} · Fresh official ${counts.fresh_official ?? "—"} · Elaraby official ${counts.elaraby_official ?? "—"}.</div>` +
-            `<div>Top-load ${counts.top_load ?? "—"} · Front-load ${counts.front_load ?? "—"} · ` +
-            `Main 7–9: ${counts.main ?? "—"} · Adjacent: ${counts.adjacent ?? "—"} · Oversized: ${counts.oversized ?? "—"} · Black: ${counts.black ?? "—"} · Inverter: ${counts.inverter ?? "—"}.</div>` +
-            `<div style="margin-top:0.35rem">Excluded: half-auto, twin-tub, manual, spare parts. Beko Egypt site had no scrapeable catalog at run time — check B.TECH/Elaraby for Beko stock or ask next.</div>` +
+            `<div><strong>Catalog:</strong> ${counts.total ?? items.length} models matching 9 kg top-load near-black · ` +
+            `strict pure-black body: ${counts.strict_black_body ?? 0} · in stock: ${counts.in_stock ?? inN} · OOS: ${counts.out_of_stock ?? outN}.</div>` +
+            `<div style="margin-top:0.5rem"><strong>Manufacturers scraped (official sites):</strong></div>${checked}` +
+            (excl
+              ? `<div style="margin-top:0.5rem"><strong>Examples removed / rejected:</strong><ul style="margin:0.25rem 0 0;padding-left:1.1rem">${excl}</ul></div>`
+              : "") +
             (data.filtersApplied
               ? Object.entries(data.filtersApplied)
                   .map(([k, v]) => `<div style="margin:0.25rem 0"><strong>${esc(k)}</strong>: ${esc(Array.isArray(v) ? v.join(", ") : String(v))}</div>`)
@@ -397,17 +435,11 @@
           $("#disclaimer").innerHTML = "Run <code>python -m http.server 8765</code> and open via http://localhost:8765/washer-gallery.html";
           return;
         }
-        ["f-q", "f-band", "f-max", "f-inv", "f-color", "f-sort", "f-star", "f-brand", "f-source", "f-type"].forEach((id) => {
+        ["f-q", "f-band", "f-max", "f-inv", "f-color", "f-sort", "f-star", "f-brand", "f-source", "f-type", "f-stock"].forEach((id) => {
           const el = $("#" + id);
           if (!el) return;
-          el.addEventListener("input", () => {
-            if (id === "f-source") delete $("#f-source").dataset.officialOnly;
-            renderGrid();
-          });
-          el.addEventListener("change", () => {
-            if (id === "f-source") delete $("#f-source").dataset.officialOnly;
-            renderGrid();
-          });
+          el.addEventListener("input", () => renderGrid());
+          el.addEventListener("change", () => renderGrid());
         });
         $$(".preset-row button").forEach((b) => b.addEventListener("click", () => applyPreset(b.dataset.preset)));
         $("#modal-close").onclick = closeModal;
