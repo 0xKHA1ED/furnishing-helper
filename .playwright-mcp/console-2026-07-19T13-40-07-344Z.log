@@ -1,0 +1,401 @@
+[    1273ms] [WARNING] Manifest: found icon with no valid size. @ https://fresh.com.eg/_nuxt/manifest.d61c55fd.json:0
+[    1453ms] [LOG] window.innerWidth 1044 @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[    1453ms] [LOG] this.search false @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[    2024ms] ReferenceError: e is not defined
+    at Jn.c.instance (https://fresh.com.eg/_nuxt/2e9edc0.modern.js:1:111561)
+    at https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CA5JDJJC77U88PQO7QHG&lib=ttq:4:5410
+    at https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CA5JDJJC77U88PQO7QHG&lib=ttq:4:6402
+[    3295ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[    3298ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[    3302ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[    3305ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[    4242ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://sentry.robustastudio.com/api/2/store/?sentry_key=38e44d26486c459b9855ca9acd672bca&sentry_version=7:0
+[    5715ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   12807ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api-eu1.infobip.com/livechat/api/widgets/70a3e185-0922-43ba-a75c-2cedfecbf969/configuration:0
+[   25996ms] [LOG] window.innerWidth 1044 @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   25996ms] [LOG] this.search false @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   26049ms] [WARNING] Manifest: found icon with no valid size. @ https://fresh.com.eg/_nuxt/manifest.d61c55fd.json:0
+[   26549ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://sentry.robustastudio.com/api/2/store/?sentry_key=38e44d26486c459b9855ca9acd672bca&sentry_version=7:0
+[   26619ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   26622ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   26626ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   26629ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   28087ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   32182ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   33576ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api-eu1.infobip.com/livechat/api/widgets/70a3e185-0922-43ba-a75c-2cedfecbf969/configuration:0
+[   36673ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   41821ms] [LOG] window.innerWidth 1044 @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   41821ms] [LOG] this.search false @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   41859ms] [WARNING] Manifest: found icon with no valid size. @ https://fresh.com.eg/_nuxt/manifest.d61c55fd.json:0
+[   42167ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   42172ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   42175ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   42179ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   42213ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://sentry.robustastudio.com/api/2/store/?sentry_key=38e44d26486c459b9855ca9acd672bca&sentry_version=7:0
+[   43524ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   45978ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[   50445ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api-eu1.infobip.com/livechat/api/widgets/70a3e185-0922-43ba-a75c-2cedfecbf969/configuration:0
+[   70520ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[   70522ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[   70523ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[   70534ms] TypeError: Cannot read properties of undefined (reading 'fn')
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21377
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21982
+[   70681ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[   73892ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[   75044ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[   75739ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[   75743ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   75744ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   75763ms] [WARNING] JQMIGRATE: jQuery.type is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   75784ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   75788ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   75914ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[   76090ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[   76760ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   76929ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[   76935ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   77192ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   77727ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   78900ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   91279ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[   91313ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines?loading=top_loading @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[   91313ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[   91313ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[   91401ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[   91462ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[   91465ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   91466ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   91466ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   91506ms] [WARNING] JQMIGRATE: jQuery.type is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   91517ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   91520ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   91817ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   91875ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[   91881ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   92053ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[   92296ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[   92400ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[   92468ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[   93305ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  112023ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  112075ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/search/top+load+washing @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  112076ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  112076ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  112142ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[  112187ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[  112189ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  112189ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  112206ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  112211ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  112477ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  112511ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[  112515ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  112587ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[  113072ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  113111ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  113955ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  122540ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.beko.com/eg-en/washing-machines:0
+[  124734ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.beko.com/etc.clientlibs/etc.clientlibs/bekoglobal/clientlibs/bekoglobal/clientlib-all/resources/images/compass.6a9f3358.png:0
+[  124734ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.beko.com/etc.clientlibs/etc.clientlibs/bekoglobal/clientlibs/bekoglobal/clientlib-all/resources/images/dashedLine.7b0032d1.png:0
+[  124735ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.beko.com/etc.clientlibs/etc.clientlibs/bekoglobal/clientlibs/bekoglobal/clientlib-all/resources/images/magnifyingGlass.0353adbe.png:0
+[  125598ms] [LOG] version: 2026-07-16T21:38:20.112Z @ https://www.beko.com/etc.clientlibs/bekoglobal/clientlibs/bekoglobal/clientlib-all.lc-a2e77798cfd3301633c1bfb38f3951f5-lc.min.js:1
+[  125665ms] Uncaught TypeError: Cannot read properties of undefined (reading 'TenantFeatures')
+    at <anonymous> (https://cdn.cookielaw.org/scripttemplates/202606.1.0/otBannerSdk.js:6:560965)
+    at <anonymous> (https://cdn.cookielaw.org/scripttemplates/202606.1.0/otBannerSdk.js:6:571079)
+[  125742ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?key=AIzaSyBnu0ucC1ooaH-6hGor86zkyaZcqthiUNs&libraries=places&callback=initMap:2489
+[  126295ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.lg.com/eg_en/washers/:0
+[  126306ms] [LOG] url: https://www.lg.com/eg_en/washers/ @ https://www.lg.com/eg_en/washers/:8
+[  128398ms] [LOG] [pd-g-getstock-popup.op.js] isInAppWebViewSessionStorageValue =[null] @ https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-templates/page-pf-ux2-rtl/compact.min.c871564522c5a5b5dd4e270755869ff0.js:432
+[  128558ms] [LOG] PF Hybris : 0 @ https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-templates/page-pf-ux2-rtl/compact.min.c871564522c5a5b5dd4e270755869ff0.js:390
+[  133148ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bs.serving-sys.com/serving?cn=um&dpid=1&euuid=16605002644935318234361074747355267962&redir=true:0
+[  133148ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.rundsp.com/match.gif?id=16605002644935318234361074747355267962&partner=adobe:0
+[  133733ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bs.serving-sys.com/serving?cn=um&dpid=1&euuid=16605002644935318234361074747355267962&redir=true:0
+[  133839ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.rundsp.com/match.gif?id=16605002644935318234361074747355267962&partner=adobe:0
+[  137737ms] [LOG] [Log] All tags have been delayed (s): 0 @ https://storage.googleapis.com/media-tagging/adservices/pR_QCO-egEBEN7Jr8AC/sdk.prd.js:0
+[  137814ms] [LOG] [Log] Event %c'pageView' %c=> Tag %c'LC-AEM-AD(Boostiny)-CM-WL-PXFLW_samsungegypt'%c with deployment type%c 'auto' %cand id%c 'samsungegypt' %chas been dispatched font-weight: bold font-weight: normal font-weight: bold font-weight: normal font-weight: bold font-weight: normal font-weight: bold font-weight: normal {} @ https://storage.googleapis.com/media-tagging/adservices/pR_QCO-egEBEN7Jr8AC/sdk.prd.js:0
+[  138495ms] [LOG] [Log] Event %c'viewList' %c=> Tag %c'LC-AEM-AD(Criteo)-CM-WL-PXFLW_64a9dac0-ca08-4907-b953-7c027d2cdec7'%c with deployment type%c 'auto' %cand id%c '105816' %chas been dispatched font-weight: bold font-weight: normal font-weight: bold font-weight: normal font-weight: bold font-weight: normal font-weight: bold font-weight: normal {item: Array(0), currency: } @ https://storage.googleapis.com/media-tagging/adservices/pR_QCO-egEBEN7Jr8AC/sdk.prd.js:0
+[  138576ms] [LOG] [Log] Event %c'pageView' %c=> Tag %c'LC-AEM-AD(Twitter)-CM-WL-PXFLW_9d540b5e-337d-4e81-bb87-ea4df077afe7'%c with deployment type%c 'auto' %cand id%c 'o4pkl' %chas been dispatched font-weight: bold font-weight: normal font-weight: bold font-weight: normal font-weight: bold font-weight: normal font-weight: bold font-weight: normal {} @ https://storage.googleapis.com/media-tagging/adservices/pR_QCO-egEBEN7Jr8AC/sdk.prd.js:0
+[  138681ms] [LOG] [Log] Event %c'pageView' %c=> Tag %c'LC-AEM-AD(Insider)-CM-WL-PXFLW_5c04c411-ad97-4119-8047-49d0fdb65b49'%c with deployment type%c 'auto' %cand id%c '10005175' %chas been dispatched font-weight: bold font-weight: normal font-weight: bold font-weight: normal font-weight: bold font-weight: normal font-weight: bold font-weight: normal undefined @ https://storage.googleapis.com/media-tagging/adservices/pR_QCO-egEBEN7Jr8AC/sdk.prd.js:0
+[  188264ms] [LOG] window.innerWidth 1044 @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  188265ms] [LOG] this.search false @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  188315ms] [WARNING] Manifest: found icon with no valid size. @ https://fresh.com.eg/_nuxt/manifest.d61c55fd.json:0
+[  188758ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  188761ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  188764ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  188769ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  189334ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://sentry.robustastudio.com/api/2/store/?sentry_key=38e44d26486c459b9855ca9acd672bca&sentry_version=7:0
+[  189678ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  192399ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  195959ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api-eu1.infobip.com/livechat/api/widgets/70a3e185-0922-43ba-a75c-2cedfecbf969/configuration:0
+[  233324ms] [LOG] window.innerWidth 1044 @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  233324ms] [LOG] this.search false @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  233365ms] [WARNING] Manifest: found icon with no valid size. @ https://fresh.com.eg/_nuxt/manifest.d61c55fd.json:0
+[  233730ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  233733ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  233738ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  233742ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  233797ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://sentry.robustastudio.com/api/2/store/?sentry_key=38e44d26486c459b9855ca9acd672bca&sentry_version=7:0
+[  234460ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  237460ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  239159ms] [LOG] window.innerWidth 1044 @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  239159ms] [LOG] this.search false @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  239192ms] [WARNING] Manifest: found icon with no valid size. @ https://fresh.com.eg/_nuxt/manifest.d61c55fd.json:0
+[  239516ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://sentry.robustastudio.com/api/2/store/?sentry_key=38e44d26486c459b9855ca9acd672bca&sentry_version=7:0
+[  239629ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  239632ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  239635ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  239638ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  240017ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  242210ms] [WARNING] [TikTok Pixel] - Invalid Event Name Format
+Issue: 1 event name was rejected for not following TikTok format requirements.
+Suggestion: Go to your source code and update these event types according to TikTok format requirements. See https://ads.tiktok.com/help/article/custom-events?lang=en for more information. @ https://fresh.com.eg/_nuxt/39fa3b4.modern.js:1
+[  246150ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  246440ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines/top-automatic-washing-machines @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  246440ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  246440ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  246643ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[  246664ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[  246665ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  246665ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  246685ms] [WARNING] JQMIGRATE: jQuery.type is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  246700ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  246705ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  247081ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  247126ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[  247130ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  247156ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[  247330ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  247413ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[  247517ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  248538ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  250017ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  252976ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  253003ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines/full-automatic-washing-machines @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  253004ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  253004ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  253009ms] TypeError: Cannot read properties of undefined (reading 'fn')
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21377
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21982
+[  253076ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[  253139ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[  253141ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  253141ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  253164ms] [WARNING] JQMIGRATE: jQuery.type is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  253175ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  253178ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  253431ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  253471ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[  253477ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  253908ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[  253956ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  254200ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  254317ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[  254897ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  256668ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  257994ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  258021ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  258021ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  258021ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  258024ms] TypeError: Cannot read properties of undefined (reading 'fn')
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21377
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21982
+[  258071ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[  258113ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[  258119ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  258119ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  258130ms] [WARNING] JQMIGRATE: jQuery.type is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  258137ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  258140ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  258336ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  258367ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[  258372ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  258426ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[  258549ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[  258843ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  259032ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  259823ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  261643ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  264460ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  264501ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines?p=2 @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  264502ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  264502ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  264505ms] TypeError: Cannot read properties of undefined (reading 'fn')
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21377
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21982
+[  264548ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[  264593ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[  264594ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  264595ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  264608ms] [WARNING] JQMIGRATE: jQuery.type is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  264615ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  264617ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  264798ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  264830ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[  264834ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  264876ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[  264995ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[  265312ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  265496ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  266288ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  268172ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  270959ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  270985ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines?p=3 @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  270985ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  270985ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  271000ms] TypeError: Cannot read properties of undefined (reading 'fn')
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21377
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21982
+[  271044ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[  271086ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[  271087ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  271087ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  271102ms] [WARNING] JQMIGRATE: jQuery.type is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  271109ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  271111ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  271298ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  271322ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[  271326ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  271373ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[  271491ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[  271787ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  272007ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  272779ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  274562ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  277301ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  277339ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines?p=4 @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  277339ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  277339ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  277365ms] TypeError: Cannot read properties of undefined (reading 'fn')
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21377
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21982
+[  277405ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[  277444ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[  277445ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  277445ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  277456ms] [WARNING] JQMIGRATE: jQuery.type is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  277462ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  277464ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  277674ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  277705ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[  277710ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  277755ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[  277874ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[  278168ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  278342ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  279155ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  280971ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  283560ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  283572ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/shop-elaraby-brands/tornado-products/tornado-washing-machines @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  283575ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  283575ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  283599ms] TypeError: Cannot read properties of undefined (reading 'fn')
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21377
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21982
+[  283635ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[  283674ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[  283675ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  283675ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  283687ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  283690ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  283875ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  283899ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[  283903ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  283945ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[  284073ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[  284372ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  284608ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  285364ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  287143ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  289928ms] [WARNING] Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead. @ https://webchat.tactful.ai/webchat/chatChannel.html:102
+[  289963ms] [LOG] booting Tactful Webchat inside  https://www.elarabygroup.com/en/shop-elaraby-brands/sharp-products/sharp-washing-machines @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  289963ms] [LOG] Settings coming from snippet {profileId: 643, token: 3ae0ec6d1d0b83cc10d10da755ded4c0853b53d40dce6a16f38ed4a03923aa12} @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  289963ms] [LOG] in start, this.settings p @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  289972ms] TypeError: Cannot read properties of undefined (reading 'fn')
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21377
+    at https://www.elarabygroup.com/static/version1782986786/_cache/merged/ce8411273da8500e69621ce4a29fff76.min.js:6:21982
+[  290009ms] [LOG] Dyslexic font loaded @ https://www.elarabygroup.com/offline_widget/script.js:1457
+[  290061ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:11
+[  290063ms] [WARNING] JQMIGRATE: jQuery.fn.resize() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  290063ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  290074ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  290078ms] [WARNING] JQMIGRATE: jQuery.fn.scroll() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  290287ms] [WARNING] JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  290318ms] [WARNING] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site. @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/compat.min.js:0
+[  290322ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  290366ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.google.com/maps/api/js?key=AIzaSyDO2xcdhbj1IZmnn55-8-jP5q4b5NH5CcM&libraries=places,geometry:2505
+[  290486ms] [WARNING] [Meta Pixel] - You are sending a non-standard event 'ViewCategory'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:187
+[  290785ms] [WARNING] JQMIGRATE: jQuery.parseJSON is deprecated; use JSON.parse @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  290964ms] [LOG] Tactful Webchat loaded, waiting for user interaction.. @ https://webchat.tactful.ai/webchat/embed/embed.js:1
+[  291771ms] [WARNING] JQMIGRATE: jQuery.fn.submit() event shorthand is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13
+[  293512ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://www.elarabygroup.com/static/version1782986786/frontend/ElarabyGroup/default/en_US/jquery/jquery-migrate.min.js:13

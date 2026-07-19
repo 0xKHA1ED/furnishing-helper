@@ -1,0 +1,744 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: /en/
+          - img "Fresh" [ref=e11]
+        - generic [ref=e12]:
+          - generic [ref=e13]: Search
+          - searchbox "Search" [ref=e14]
+          - button "Search" [ref=e15] [cursor=pointer]
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "whatsapp" [ref=e23] [cursor=pointer]:
+              - /url: https://wa.me/201206555516
+              - text: Whatsapp
+          - listitem [ref=e26]:
+            - link "Call 19059" [ref=e27] [cursor=pointer]:
+              - /url: tel:19059
+          - listitem [ref=e28]:
+            - link "Branches" [ref=e29] [cursor=pointer]:
+              - /url: /en/stores
+          - listitem [ref=e33]:
+            - link "العربية" [ref=e34] [cursor=pointer]:
+              - /url: /categories/washing-machines
+      - generic [ref=e36]:
+        - list [ref=e37]:
+          - listitem [ref=e38]:
+            - link "Cookers" [ref=e39] [cursor=pointer]:
+              - /url: /en/categories/cooker-appliances
+          - listitem [ref=e40]:
+            - link "Small Home Appliances" [ref=e41] [cursor=pointer]:
+              - /url: /en/categories/appliance
+          - listitem [ref=e42]:
+            - link "Televisions" [ref=e43] [cursor=pointer]:
+              - /url: /en/categories/tv
+          - listitem [ref=e44]:
+            - link "Cooling Appliances" [ref=e45] [cursor=pointer]:
+              - /url: /en/categories/cooling-appliances
+          - listitem [ref=e46]:
+            - link "Air Conditioners" [ref=e47] [cursor=pointer]:
+              - /url: /en/categories/air-conditioner
+          - listitem [ref=e48]:
+            - link "Washing Machines" [ref=e49] [cursor=pointer]:
+              - /url: /en/categories/washing-machines
+          - listitem [ref=e50]:
+            - link "Offers" [ref=e51] [cursor=pointer]:
+              - /url: /en/offers
+          - listitem [ref=e53]:
+            - link "Your opinion" [ref=e54] [cursor=pointer]:
+              - /url: /en/service
+        - generic [ref=e56]:
+          - link "Sign in" [ref=e57] [cursor=pointer]:
+            - /url: /en/login
+          - button "Show Cart" [ref=e59] [cursor=pointer]
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - list [ref=e65]:
+          - listitem [ref=e66]:
+            - link "Home" [ref=e67] [cursor=pointer]:
+              - /url: /en/
+          - listitem [ref=e68]:
+            - text: ›
+            - generic [ref=e69]: Washing Machines
+        - generic [ref=e70]:
+          - heading "Order Washing Machines (80)" [level=1] [ref=e71]
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - link "Shop Full Automatic Washing Machine Full Automatic Washing Machine" [ref=e75] [cursor=pointer]:
+                - /url: /en/categories/washing-machines/full-automatic
+                - img "Shop Full Automatic Washing Machine" [ref=e76]
+                - generic [ref=e78]: Full Automatic Washing Machine
+              - link "Shop Top Loading Washing Machine Top Loading Washing Machine" [ref=e80] [cursor=pointer]:
+                - /url: /en/categories/washing-machines/top-loading
+                - img "Shop Top Loading Washing Machine" [ref=e81]
+                - generic [ref=e83]: Top Loading Washing Machine
+              - link "Shop Twin Tub Washing Machine Twin Tub Washing Machine" [ref=e85] [cursor=pointer]:
+                - /url: /en/categories/washing-machines/twin-tub
+                - img "Shop Twin Tub Washing Machine" [ref=e86]
+                - generic [ref=e88]: Twin Tub Washing Machine
+              - link "Shop Single Tub Washing Machine Single Tub Washing Machine" [ref=e90] [cursor=pointer]:
+                - /url: /en/categories/washing-machines/single-tube
+                - img "Shop Single Tub Washing Machine" [ref=e91]
+                - generic [ref=e93]: Single Tub Washing Machine
+              - link "Shop Dishwasher Dishwasher" [ref=e95] [cursor=pointer]:
+                - /url: /en/categories/washing-machines/dish-washer
+                - img "Shop Dishwasher" [ref=e96]
+                - generic [ref=e98]: Dishwasher
+            - button
+            - button
+      - generic [ref=e101]:
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - heading "Filter" [level=4] [ref=e105]
+            - button "Clear Filters" [ref=e106] [cursor=pointer]
+          - link "Price" [ref=e109] [cursor=pointer]:
+            - /url: "#"
+          - link "Category" [ref=e116] [cursor=pointer]:
+            - /url: "#"
+          - link "Has Deal" [ref=e123] [cursor=pointer]:
+            - /url: "#"
+          - link "Color" [ref=e130] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e135]:
+          - generic [ref=e137]:
+            - generic [ref=e138]: Sort by
+            - generic [ref=e142]:
+              - textbox "Sort by"
+              - generic [ref=e143]: Sort by
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - generic [ref=e147]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e149] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-CG Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-CG 23,993.19 EGP 31,570 EGP Save 7,576.81 EGP" [ref=e152] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-g2-cg
+                - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-CG" [ref=e154]
+                - paragraph [ref=e155]: Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-CG
+                - generic [ref=e156]:
+                  - generic [ref=e157]: 23,993.19 EGP
+                  - generic [ref=e158]:
+                    - generic [ref=e159]: 31,570 EGP
+                    - generic [ref=e160]: Save 7,576.81 EGP
+              - generic [ref=e161]:
+                - button "Add to cart" [ref=e163] [cursor=pointer]
+                - button "Compare" [ref=e164] [cursor=pointer]
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e170]: OFF 24% Cash
+                  - generic [ref=e171]: New
+                - button "Add to wishlist" [ref=e172] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-CG Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-CG Only 3 left in stock - order Now 23,636 EGP 31,100 EGP Save 7,464 EGP" [ref=e175] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-g1-cg
+                - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-CG" [ref=e177]
+                - paragraph [ref=e178]: Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-CG
+                - generic [ref=e179]: Only 3 left in stock - order Now
+                - generic [ref=e180]:
+                  - generic [ref=e181]: 23,636 EGP
+                  - generic [ref=e182]:
+                    - generic [ref=e183]: 31,100 EGP
+                    - generic [ref=e184]: Save 7,464 EGP
+              - generic [ref=e185]:
+                - button "Add to cart" [ref=e187] [cursor=pointer]
+                - button "Compare" [ref=e188] [cursor=pointer]
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - generic [ref=e193]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e195] [cursor=pointer]
+              - link "Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-CG Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-CG 20,398.4 EGP 26,840 EGP Save 6,441.6 EGP" [ref=e198] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-pc-cg
+                - img "Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-CG" [ref=e200]
+                - paragraph [ref=e201]: Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-CG
+                - generic [ref=e202]:
+                  - generic [ref=e203]: 20,398.4 EGP
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: 26,840 EGP
+                    - generic [ref=e206]: Save 6,441.6 EGP
+              - generic [ref=e207]:
+                - button "Add to cart" [ref=e209] [cursor=pointer]
+                - button "Compare" [ref=e210] [cursor=pointer]
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - generic [ref=e215]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e217] [cursor=pointer]
+              - link "Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-CG Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-CG Only 3 left in stock - order Now 18,521.19 EGP 24,370 EGP Save 5,848.81 EGP" [ref=e220] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-07-kgs-inverter-direct-drive-pc-cg
+                - img "Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-CG" [ref=e222]
+                - paragraph [ref=e223]: Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-CG
+                - generic [ref=e224]: Only 3 left in stock - order Now
+                - generic [ref=e225]:
+                  - generic [ref=e226]: 18,521.19 EGP
+                  - generic [ref=e227]:
+                    - generic [ref=e228]: 24,370 EGP
+                    - generic [ref=e229]: Save 5,848.81 EGP
+              - generic [ref=e230]:
+                - button "Add to cart" [ref=e232] [cursor=pointer]
+                - button "Compare" [ref=e233] [cursor=pointer]
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - generic [ref=e238]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e240] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing/Dryer Machine 10/7 Kgs Inverter Direct Drive G2-Dark Silver 36,856.2 EGP 48,495 EGP Save 11,638.8 EGP" [ref=e243] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-dryer-machine-10-7-kgs-inverter-direct-drive-g2-dark-silver
+                - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver" [ref=e245]
+                - paragraph [ref=e246]: Fresh Washing/Dryer Machine 10/7 Kgs Inverter Direct Drive G2-Dark Silver
+                - generic [ref=e247]:
+                  - generic [ref=e248]: 36,856.2 EGP
+                  - generic [ref=e249]:
+                    - generic [ref=e250]: 48,495 EGP
+                    - generic [ref=e251]: Save 11,638.8 EGP
+              - generic [ref=e252]:
+                - button "Add to cart" [ref=e254] [cursor=pointer]
+                - button "Compare" [ref=e255] [cursor=pointer]
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - generic [ref=e260]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e262] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 10 Kgs Inverter Direct Drive G2-Ocean Blue 30,065.6 EGP 39,560 EGP Save 9,494.4 EGP" [ref=e265] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-10-kgs-inverter-direct-drive-g2-ocean-blue
+                - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver" [ref=e267]
+                - paragraph [ref=e268]: Fresh Washing Machine 10 Kgs Inverter Direct Drive G2-Ocean Blue
+                - generic [ref=e269]:
+                  - generic [ref=e270]: 30,065.6 EGP
+                  - generic [ref=e271]:
+                    - generic [ref=e272]: 39,560 EGP
+                    - generic [ref=e273]: Save 9,494.4 EGP
+              - generic [ref=e274]:
+                - button "Add to cart" [ref=e276] [cursor=pointer]
+                - button "Compare" [ref=e277] [cursor=pointer]
+            - generic [ref=e280]:
+              - generic [ref=e281]:
+                - generic [ref=e282]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e284] [cursor=pointer]
+              - link "Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-OBS Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-OBS Out of Stock 18,521.19 EGP 24,370 EGP Save 5,848.81 EGP" [ref=e287] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-07-kgs-inverter-direct-drive-pc-obs
+                - img "Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-OBS" [ref=e289]
+                - paragraph [ref=e290]: Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-OBS
+                - generic [ref=e291]: Out of Stock
+                - generic [ref=e292]:
+                  - generic [ref=e293]: 18,521.19 EGP
+                  - generic [ref=e294]:
+                    - generic [ref=e295]: 24,370 EGP
+                    - generic [ref=e296]: Save 5,848.81 EGP
+              - generic [ref=e297]:
+                - generic [ref=e298]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e299] [cursor=pointer]
+            - generic [ref=e302]:
+              - generic [ref=e303]:
+                - generic [ref=e304]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e306] [cursor=pointer]
+              - link "Fresh Washing Machine Modena Burgundy - FWT500 NC Fresh Washing Machine Elegant Digital - DFWM14000 Out of Stock 9,040.2 EGP 11,895 EGP Save 2,854.8 EGP" [ref=e309] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-elegant-digital-dfwm14000-pd
+                - img "Fresh Washing Machine Modena Burgundy - FWT500 NC" [ref=e311]
+                - paragraph [ref=e312]: Fresh Washing Machine Elegant Digital - DFWM14000
+                - generic [ref=e313]: Out of Stock
+                - generic [ref=e314]:
+                  - generic [ref=e315]: 9,040.2 EGP
+                  - generic [ref=e316]:
+                    - generic [ref=e317]: 11,895 EGP
+                    - generic [ref=e318]: Save 2,854.8 EGP
+              - generic [ref=e319]:
+                - generic [ref=e320]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e321] [cursor=pointer]
+            - generic [ref=e324]:
+              - generic [ref=e325]:
+                - generic [ref=e326]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e328] [cursor=pointer]
+              - link "Fresh Washing Machine Modena Burgundy - FWT500 NC Fresh Washing Machine Hummer - FWT11000 NA Out of Stock 6,357.4 EGP 8,365 EGP Save 2,007.6 EGP" [ref=e331] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-hummer-fwt11000-na
+                - img "Fresh Washing Machine Modena Burgundy - FWT500 NC" [ref=e333]
+                - paragraph [ref=e334]: Fresh Washing Machine Hummer - FWT11000 NA
+                - generic [ref=e335]: Out of Stock
+                - generic [ref=e336]:
+                  - generic [ref=e337]: 6,357.4 EGP
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: 8,365 EGP
+                    - generic [ref=e340]: Save 2,007.6 EGP
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e343] [cursor=pointer]
+            - generic [ref=e346]:
+              - generic [ref=e347]:
+                - generic [ref=e348]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e350] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC-Silver Fresh Washing Machine 09 Kgs Inverter Direct Drive PC-Silver Out of Stock 23,256 EGP 30,600.01 EGP Save 7,344.01 EGP" [ref=e353] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-pc-silver
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC-Silver"
+                - paragraph [ref=e354]: Fresh Washing Machine 09 Kgs Inverter Direct Drive PC-Silver
+                - generic [ref=e355]: Out of Stock
+                - generic [ref=e356]:
+                  - generic [ref=e357]: 23,256 EGP
+                  - generic [ref=e358]:
+                    - generic [ref=e359]: 30,600.01 EGP
+                    - generic [ref=e360]: Save 7,344.01 EGP
+              - generic [ref=e361]:
+                - generic [ref=e362]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e363] [cursor=pointer]
+            - generic [ref=e366]:
+              - generic [ref=e367]:
+                - generic [ref=e368]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e370] [cursor=pointer]
+              - link "Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-Silver Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-Silver Out of Stock 20,398.4 EGP 26,840 EGP Save 6,441.6 EGP" [ref=e373] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-pc-silver
+                - generic:
+                  - img "Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-Silver"
+                - paragraph [ref=e374]: Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-Silver
+                - generic [ref=e375]: Out of Stock
+                - generic [ref=e376]:
+                  - generic [ref=e377]: 20,398.4 EGP
+                  - generic [ref=e378]:
+                    - generic [ref=e379]: 26,840 EGP
+                    - generic [ref=e380]: Save 6,441.6 EGP
+              - generic [ref=e381]:
+                - generic [ref=e382]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e383] [cursor=pointer]
+            - generic [ref=e386]:
+              - generic [ref=e387]:
+                - generic [ref=e388]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e390] [cursor=pointer]
+              - link "Fresh Washing Machine 08 Kgs Inverter Direct Drive G1-Silver Fresh Washing Machine 08 Kgs Inverter Direct Drive G1-Silver Out of Stock 20,892.4 EGP 27,490.01 EGP Save 6,597.61 EGP" [ref=e393] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-g1-silver
+                - generic:
+                  - img "Fresh Washing Machine 08 Kgs Inverter Direct Drive G1-Silver"
+                - paragraph [ref=e394]: Fresh Washing Machine 08 Kgs Inverter Direct Drive G1-Silver
+                - generic [ref=e395]: Out of Stock
+                - generic [ref=e396]:
+                  - generic [ref=e397]: 20,892.4 EGP
+                  - generic [ref=e398]:
+                    - generic [ref=e399]: 27,490.01 EGP
+                    - generic [ref=e400]: Save 6,597.61 EGP
+              - generic [ref=e401]:
+                - generic [ref=e402]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e403] [cursor=pointer]
+            - generic [ref=e406]:
+              - generic [ref=e407]:
+                - generic [ref=e408]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e410] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-Silver Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-Silver Out of Stock 23,636 EGP 31,100 EGP Save 7,464 EGP" [ref=e413] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-g1-silver
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-Silver"
+                - paragraph [ref=e414]: Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-Silver
+                - generic [ref=e415]: Out of Stock
+                - generic [ref=e416]:
+                  - generic [ref=e417]: 23,636 EGP
+                  - generic [ref=e418]:
+                    - generic [ref=e419]: 31,100 EGP
+                    - generic [ref=e420]: Save 7,464 EGP
+              - generic [ref=e421]:
+                - generic [ref=e422]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e423] [cursor=pointer]
+            - generic [ref=e426]:
+              - generic [ref=e427]:
+                - generic [ref=e428]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e430] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-ٍSilver Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-ٍSilver Out of Stock 23,993.19 EGP 31,570 EGP Save 7,576.81 EGP" [ref=e433] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-g2-silver
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-ٍSilver"
+                - paragraph [ref=e434]: Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-ٍSilver
+                - generic [ref=e435]: Out of Stock
+                - generic [ref=e436]:
+                  - generic [ref=e437]: 23,993.19 EGP
+                  - generic [ref=e438]:
+                    - generic [ref=e439]: 31,570 EGP
+                    - generic [ref=e440]: Save 7,576.81 EGP
+              - generic [ref=e441]:
+                - generic [ref=e442]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e443] [cursor=pointer]
+            - generic [ref=e446]:
+              - generic [ref=e447]:
+                - generic [ref=e448]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e450] [cursor=pointer]
+              - link "Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-ٍSilver Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-ٍSilver Out of Stock 21,314.2 EGP 28,045 EGP Save 6,730.8 EGP" [ref=e453] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-g2-silver
+                - generic:
+                  - img "Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-ٍSilver"
+                - paragraph [ref=e454]: Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-ٍSilver
+                - generic [ref=e455]: Out of Stock
+                - generic [ref=e456]:
+                  - generic [ref=e457]: 21,314.2 EGP
+                  - generic [ref=e458]:
+                    - generic [ref=e459]: 28,045 EGP
+                    - generic [ref=e460]: Save 6,730.8 EGP
+              - generic [ref=e461]:
+                - generic [ref=e462]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e463] [cursor=pointer]
+            - generic [ref=e466]:
+              - generic [ref=e467]:
+                - generic [ref=e468]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e470] [cursor=pointer]
+              - link "Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-Ocean Blue Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-Ocean Blue Out of Stock 21,314.2 EGP 28,045 EGP Save 6,730.8 EGP" [ref=e473] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-g2-ocean-blue
+                - generic:
+                  - img "Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-Ocean Blue"
+                - paragraph [ref=e474]: Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-Ocean Blue
+                - generic [ref=e475]: Out of Stock
+                - generic [ref=e476]:
+                  - generic [ref=e477]: 21,314.2 EGP
+                  - generic [ref=e478]:
+                    - generic [ref=e479]: 28,045 EGP
+                    - generic [ref=e480]: Save 6,730.8 EGP
+              - generic [ref=e481]:
+                - generic [ref=e482]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e483] [cursor=pointer]
+            - generic [ref=e486]:
+              - generic [ref=e487]:
+                - generic [ref=e488]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e490] [cursor=pointer]
+              - link "Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-Dark Silver Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-Dark Silver Out of Stock 18,521.19 EGP 24,370 EGP Save 5,848.81 EGP" [ref=e493] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-07-kgs-inverter-direct-drive-pc-dark-silver
+                - generic:
+                  - img "Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-Dark Silver"
+                - paragraph [ref=e494]: Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-Dark Silver
+                - generic [ref=e495]: Out of Stock
+                - generic [ref=e496]:
+                  - generic [ref=e497]: 18,521.19 EGP
+                  - generic [ref=e498]:
+                    - generic [ref=e499]: 24,370 EGP
+                    - generic [ref=e500]: Save 5,848.81 EGP
+              - generic [ref=e501]:
+                - generic [ref=e502]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e503] [cursor=pointer]
+            - generic [ref=e506]:
+              - generic [ref=e507]:
+                - generic [ref=e508]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e510] [cursor=pointer]
+              - link "Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-Silver Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-Silver Out of Stock 18,521.19 EGP 24,370 EGP Save 5,848.81 EGP" [ref=e513] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-07-kgs-inverter-direct-drive-pc-silver
+                - generic:
+                  - img "Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-Silver"
+                - paragraph [ref=e514]: Fresh Washing Machine 07 Kgs Inverter Direct Drive PC-Silver
+                - generic [ref=e515]: Out of Stock
+                - generic [ref=e516]:
+                  - generic [ref=e517]: 18,521.19 EGP
+                  - generic [ref=e518]:
+                    - generic [ref=e519]: 24,370 EGP
+                    - generic [ref=e520]: Save 5,848.81 EGP
+              - generic [ref=e521]:
+                - generic [ref=e522]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e523] [cursor=pointer]
+            - generic [ref=e526]:
+              - generic [ref=e527]:
+                - generic [ref=e528]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e530] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing/Dryer Machine 10/7 Kgs Inverter Direct Drive G2-Ocean Blue Out of Stock 36,856.2 EGP 48,495 EGP Save 11,638.8 EGP" [ref=e533] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-dryer-machine-10-7-kgs-inverter-direct-drive-g2-ocean-blue
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e534]: Fresh Washing/Dryer Machine 10/7 Kgs Inverter Direct Drive G2-Ocean Blue
+                - generic [ref=e535]: Out of Stock
+                - generic [ref=e536]:
+                  - generic [ref=e537]: 36,856.2 EGP
+                  - generic [ref=e538]:
+                    - generic [ref=e539]: 48,495 EGP
+                    - generic [ref=e540]: Save 11,638.8 EGP
+              - generic [ref=e541]:
+                - generic [ref=e542]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e543] [cursor=pointer]
+            - generic [ref=e546]:
+              - generic [ref=e547]:
+                - generic [ref=e548]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e550] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 10 Kgs Inverter Direct Drive G2-Dark Silver Out of Stock 30,065.6 EGP 39,560 EGP Save 9,494.4 EGP" [ref=e553] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-10-kgs-inverter-direct-drive-g2-dark-silver
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e554]: Fresh Washing Machine 10 Kgs Inverter Direct Drive G2-Dark Silver
+                - generic [ref=e555]: Out of Stock
+                - generic [ref=e556]:
+                  - generic [ref=e557]: 30,065.6 EGP
+                  - generic [ref=e558]:
+                    - generic [ref=e559]: 39,560 EGP
+                    - generic [ref=e560]: Save 9,494.4 EGP
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e563] [cursor=pointer]
+            - generic [ref=e566]:
+              - generic [ref=e567]:
+                - generic [ref=e568]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e570] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-Dark Silver Out of Stock 21,314.2 EGP 28,045 EGP Save 6,730.8 EGP" [ref=e573] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-g2-dark-silver
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e574]: Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-Dark Silver
+                - generic [ref=e575]: Out of Stock
+                - generic [ref=e576]:
+                  - generic [ref=e577]: 21,314.2 EGP
+                  - generic [ref=e578]:
+                    - generic [ref=e579]: 28,045 EGP
+                    - generic [ref=e580]: Save 6,730.8 EGP
+              - generic [ref=e581]:
+                - generic [ref=e582]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e583] [cursor=pointer]
+            - generic [ref=e586]:
+              - generic [ref=e587]:
+                - generic [ref=e588]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e590] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 08 Kgs Inverter Direct Drive G1-Dark Silver Out of Stock 20,892.4 EGP 27,490.01 EGP Save 6,597.61 EGP" [ref=e593] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-g1-dark-silver
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e594]: Fresh Washing Machine 08 Kgs Inverter Direct Drive G1-Dark Silver
+                - generic [ref=e595]: Out of Stock
+                - generic [ref=e596]:
+                  - generic [ref=e597]: 20,892.4 EGP
+                  - generic [ref=e598]:
+                    - generic [ref=e599]: 27,490.01 EGP
+                    - generic [ref=e600]: Save 6,597.61 EGP
+              - generic [ref=e601]:
+                - generic [ref=e602]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e603] [cursor=pointer]
+            - generic [ref=e606]:
+              - generic [ref=e607]:
+                - generic [ref=e608]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e610] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-Ocean Blue Out of Stock 20,398.4 EGP 26,840 EGP Save 6,441.6 EGP" [ref=e613] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-pc-ocean-blue
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e614]: Fresh Washing Machine 08 Kgs Inverter Direct Drive PC-Ocean Blue
+                - generic [ref=e615]: Out of Stock
+                - generic [ref=e616]:
+                  - generic [ref=e617]: 20,398.4 EGP
+                  - generic [ref=e618]:
+                    - generic [ref=e619]: 26,840 EGP
+                    - generic [ref=e620]: Save 6,441.6 EGP
+              - generic [ref=e621]:
+                - generic [ref=e622]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e623] [cursor=pointer]
+            - generic [ref=e626]:
+              - generic [ref=e627]:
+                - generic [ref=e628]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e630] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 09 Kgs Inverter Direct Drive PC-Ocean Blue Out of Stock 23,256 EGP 30,600.01 EGP Save 7,344.01 EGP" [ref=e633] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-pc-ocean-blue
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e634]: Fresh Washing Machine 09 Kgs Inverter Direct Drive PC-Ocean Blue
+                - generic [ref=e635]: Out of Stock
+                - generic [ref=e636]:
+                  - generic [ref=e637]: 23,256 EGP
+                  - generic [ref=e638]:
+                    - generic [ref=e639]: 30,600.01 EGP
+                    - generic [ref=e640]: Save 7,344.01 EGP
+              - generic [ref=e641]:
+                - generic [ref=e642]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e643] [cursor=pointer]
+            - generic [ref=e646]:
+              - generic [ref=e647]:
+                - generic [ref=e648]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e650] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-Dark Silver Out of Stock 23,993.19 EGP 31,570 EGP Save 7,576.81 EGP" [ref=e653] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-g2-dark-silver
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e654]: Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-Dark Silver
+                - generic [ref=e655]: Out of Stock
+                - generic [ref=e656]:
+                  - generic [ref=e657]: 23,993.19 EGP
+                  - generic [ref=e658]:
+                    - generic [ref=e659]: 31,570 EGP
+                    - generic [ref=e660]: Save 7,576.81 EGP
+              - generic [ref=e661]:
+                - generic [ref=e662]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e663] [cursor=pointer]
+            - generic [ref=e666]:
+              - generic [ref=e667]:
+                - generic [ref=e668]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e670] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-Dark Silver Out of Stock 23,636 EGP 31,100 EGP Save 7,464 EGP" [ref=e673] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-g1-dark-silver
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e674]: Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-Dark Silver
+                - generic [ref=e675]: Out of Stock
+                - generic [ref=e676]:
+                  - generic [ref=e677]: 23,636 EGP
+                  - generic [ref=e678]:
+                    - generic [ref=e679]: 31,100 EGP
+                    - generic [ref=e680]: Save 7,464 EGP
+              - generic [ref=e681]:
+                - generic [ref=e682]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e683] [cursor=pointer]
+            - generic [ref=e686]:
+              - generic [ref=e687]:
+                - generic [ref=e688]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e690] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 08 Kgs Inverter Direct Drive G1-Black Out of Stock 20,892.4 EGP 27,490.01 EGP Save 6,597.61 EGP" [ref=e693] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-g1-black
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e694]: Fresh Washing Machine 08 Kgs Inverter Direct Drive G1-Black
+                - generic [ref=e695]: Out of Stock
+                - generic [ref=e696]:
+                  - generic [ref=e697]: 20,892.4 EGP
+                  - generic [ref=e698]:
+                    - generic [ref=e699]: 27,490.01 EGP
+                    - generic [ref=e700]: Save 6,597.61 EGP
+              - generic [ref=e701]:
+                - generic [ref=e702]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e703] [cursor=pointer]
+            - generic [ref=e706]:
+              - generic [ref=e707]:
+                - generic [ref=e708]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e710] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-Black Out of Stock 21,314.2 EGP 28,045 EGP Save 6,730.8 EGP" [ref=e713] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-08-kgs-inverter-direct-drive-g2-black
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e714]: Fresh Washing Machine 08 Kgs Inverter Direct Drive G2-Black
+                - generic [ref=e715]: Out of Stock
+                - generic [ref=e716]:
+                  - generic [ref=e717]: 21,314.2 EGP
+                  - generic [ref=e718]:
+                    - generic [ref=e719]: 28,045 EGP
+                    - generic [ref=e720]: Save 6,730.8 EGP
+              - generic [ref=e721]:
+                - generic [ref=e722]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e723] [cursor=pointer]
+            - generic [ref=e726]:
+              - generic [ref=e727]:
+                - generic [ref=e728]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e730] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-Black Out of Stock 23,993.19 EGP 31,570 EGP Save 7,576.81 EGP" [ref=e733] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-g2-black
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e734]: Fresh Washing Machine 09 Kgs Inverter Direct Drive G2-Black
+                - generic [ref=e735]: Out of Stock
+                - generic [ref=e736]:
+                  - generic [ref=e737]: 23,993.19 EGP
+                  - generic [ref=e738]:
+                    - generic [ref=e739]: 31,570 EGP
+                    - generic [ref=e740]: Save 7,576.81 EGP
+              - generic [ref=e741]:
+                - generic [ref=e742]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e743] [cursor=pointer]
+            - generic [ref=e746]:
+              - generic [ref=e747]:
+                - generic [ref=e748]: OFF 24% Cash
+                - button "Add to wishlist" [ref=e750] [cursor=pointer]
+              - link "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-Black Out of Stock 23,636 EGP 31,100 EGP Save 7,464 EGP" [ref=e753] [cursor=pointer]:
+                - /url: /en/products/fresh-washing-machine-09-kgs-inverter-direct-drive-g1-black
+                - generic:
+                  - img "Fresh Washing Machine 09 Kgs Inverter Direct Drive PC- Silver"
+                - paragraph [ref=e754]: Fresh Washing Machine 09 Kgs Inverter Direct Drive G1-Black
+                - generic [ref=e755]: Out of Stock
+                - generic [ref=e756]:
+                  - generic [ref=e757]: 23,636 EGP
+                  - generic [ref=e758]:
+                    - generic [ref=e759]: 31,100 EGP
+                    - generic [ref=e760]: Save 7,464 EGP
+              - generic [ref=e761]:
+                - generic [ref=e762]:
+                  - button "Add to cart" [disabled]
+                - button "Compare" [ref=e763] [cursor=pointer]
+          - generic [ref=e766]:
+            - paragraph [ref=e767]:
+              - generic [ref=e768]:
+                - text: Showing
+                - strong [ref=e769]: "30"
+                - text: out of
+                - strong [ref=e770]: "80"
+            - button "Load More" [ref=e771] [cursor=pointer]
+      - generic [ref=e773]:
+        - heading "Fresh Washing Machines" [level=2] [ref=e774]
+        - paragraph [ref=e775]: Fresh Washing Machines Collection with Various Models and Sizes - Fresh Offers the Highest Quality Automatic, Half-Automatic, Top Loading and Single Tub Washing Machines at the Lowest Cost and a Full Free Warranty - Buy Online Fresh Washing Machine through Fresh Official Website and Guarantee the Best Prices in the Market | Discounts and Various Installment Plans | Full Free Warranty | Fast and Free Delivery and After Service | Online & Cash Payment Options.
+  - contentinfo [ref=e776]:
+    - generic [ref=e777]:
+      - navigation [ref=e779]:
+        - generic [ref=e781]:
+          - heading "Customer Service" [level=3] [ref=e782]
+          - list [ref=e783]:
+            - listitem [ref=e784]:
+              - link "Frequently Asked Questions" [ref=e785] [cursor=pointer]:
+                - /url: /en/faqs
+            - listitem [ref=e786]:
+              - link "Contact us" [ref=e787] [cursor=pointer]:
+                - /url: /en/contact
+            - listitem [ref=e788]:
+              - link "Have a complaint?" [ref=e789] [cursor=pointer]:
+                - /url: /en/service
+        - generic [ref=e791]:
+          - heading "About Fresh" [level=3] [ref=e792]
+          - list [ref=e793]:
+            - listitem [ref=e794]:
+              - link "About us" [ref=e795] [cursor=pointer]:
+                - /url: /en/about
+            - listitem [ref=e796]:
+              - link "Maintenance" [ref=e797] [cursor=pointer]:
+                - /url: /en/maintenance
+            - listitem [ref=e798]:
+              - link "Careers" [ref=e799] [cursor=pointer]:
+                - /url: /en/careers
+        - generic [ref=e801]:
+          - heading "More" [level=3] [ref=e802]
+          - list [ref=e803]:
+            - listitem [ref=e804]:
+              - link "Terms and Conditions" [ref=e805] [cursor=pointer]:
+                - /url: /en/terms
+            - listitem [ref=e806]:
+              - link "Maintenance Terms" [ref=e807] [cursor=pointer]:
+                - /url: /en/maintenance-terms
+            - listitem [ref=e808]:
+              - link "Privacy Policy" [ref=e809] [cursor=pointer]:
+                - /url: /en/privacy
+            - listitem [ref=e810]:
+              - link "Refund Policy" [ref=e811] [cursor=pointer]:
+                - /url: /en/refund
+            - listitem [ref=e812]:
+              - link "Warranty Policy" [ref=e813] [cursor=pointer]:
+                - /url: /en/warranty
+        - generic [ref=e814]:
+          - generic [ref=e815]: Newsletter
+          - generic [ref=e816]:
+            - generic [ref=e817]:
+              - generic [ref=e818]: Get notified of new offers and discounts
+              - textbox "Get notified of new offers and discounts" [ref=e820]:
+                - /placeholder: Email Address
+            - button "Subscribe" [ref=e821] [cursor=pointer]
+          - generic [ref=e823]:
+            - link "Visit our Facebook page" [ref=e824] [cursor=pointer]:
+              - /url: https://www.facebook.com/fresh.eg/
+            - link "Visit our Instagram page" [ref=e827] [cursor=pointer]:
+              - /url: https://www.instagram.com/fresh.eg/
+            - link "Visit our channel on YouTube" [ref=e830] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCJbcrmW-u4p_OpukDxP-rTA
+            - link "Visit our LinkedIn page" [ref=e833] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/fresh-electric-for-home-appliances/
+          - list [ref=e836]:
+            - listitem [ref=e837]
+            - listitem [ref=e840]:
+              - img "Visa" [ref=e841]
+            - listitem [ref=e842]:
+              - img "Premium Card" [ref=e843]
+      - paragraph [ref=e845]: Copyright © 2025 Fresh. All rights reserved.

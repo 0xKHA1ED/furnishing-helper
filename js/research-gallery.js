@@ -139,12 +139,19 @@
     grid.innerHTML = list
       .map((it) => {
         const starred = stars.has(it.id);
+        const img = it.imageUrl
+          ? `<img src="${esc(it.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" decoding="async" onerror="this.style.display='none';this.nextElementSibling&&(this.nextElementSibling.style.display='flex')" />
+             <div class="research-thumb-inner research-thumb-fallback" style="display:none">
+               <span class="research-source">${esc(it.source || "")}</span>
+               <span class="research-brand">${esc(it.brand || "")}</span>
+             </div>`
+          : `<div class="research-thumb-inner">
+               <span class="research-source">${esc(it.source || "")}</span>
+               <span class="research-brand">${esc(it.brand || "")}</span>
+             </div>`;
         return `<article class="product-card ${starred ? "starred" : ""}" data-id="${esc(it.id)}">
-          <div class="thumb research-thumb">
-            <div class="research-thumb-inner">
-              <span class="research-source">${esc(it.source || "")}</span>
-              <span class="research-brand">${esc(it.brand || "")}</span>
-            </div>
+          <div class="thumb research-thumb${it.imageUrl ? " has-img" : ""}">
+            ${img}
             <div class="badge-abs">
               ${pickBadge(it.pick)}
               ${starred ? `<span class="chip-mini">★</span>` : ""}
@@ -200,6 +207,49 @@
       Object.entries(specs)
         .map(([k, v]) => `<li><strong>${esc(k)}</strong> ${esc(v)}</li>`)
         .join("");
+
+    // modal image
+    let modalImg = $("#modal-main-img");
+    let modalPh = $("#modal-no-img");
+    if (!modalImg) {
+      const gallery = $("#modal-backdrop .modal-gallery");
+      if (gallery) {
+        gallery.innerHTML = `
+          <img class="main-img" id="modal-main-img" alt="" referrerpolicy="no-referrer" style="display:none" />
+          <div class="ph research-thumb" id="modal-no-img" style="min-height:220px;border-radius:12px;display:flex;align-items:center;justify-content:center">
+            <div class="research-thumb-inner">
+              <span class="research-source">No photo</span>
+              <span class="research-brand">Open product link</span>
+            </div>
+          </div>`;
+        modalImg = $("#modal-main-img");
+        modalPh = $("#modal-no-img");
+      }
+    }
+    if (modalImg && modalPh) {
+      if (active.imageUrl) {
+        modalImg.onload = () => {
+          modalImg.style.display = "block";
+          modalPh.style.display = "none";
+        };
+        modalImg.onerror = () => {
+          modalImg.style.display = "none";
+          modalPh.style.display = "flex";
+        };
+        modalImg.src = active.imageUrl;
+        modalImg.alt = active.name || "";
+        // if cached
+        if (modalImg.complete && modalImg.naturalWidth) {
+          modalImg.style.display = "block";
+          modalPh.style.display = "none";
+        }
+      } else {
+        modalImg.removeAttribute("src");
+        modalImg.style.display = "none";
+        modalPh.style.display = "flex";
+      }
+    }
+
     const link = $("#modal-link");
     if (active.url) {
       link.href = active.url;

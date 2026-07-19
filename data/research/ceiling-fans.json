@@ -11,12 +11,30 @@
     "Listen for motor noise if you can see a floor model"
   ],
   "presets": [
-    { "id": "all", "label": "All options" },
-    { "id": "pack", "label": "3-packs" },
-    { "id": "value", "label": "Value singles" },
-    { "id": "brand", "label": "Known brands" },
-    { "id": "remote_light", "label": "Remote / light" },
-    { "id": "starred", "label": "★ Starred" }
+    {
+      "id": "all",
+      "label": "All options"
+    },
+    {
+      "id": "pack",
+      "label": "3-packs"
+    },
+    {
+      "id": "value",
+      "label": "Value singles"
+    },
+    {
+      "id": "brand",
+      "label": "Known brands"
+    },
+    {
+      "id": "remote_light",
+      "label": "Remote / light"
+    },
+    {
+      "id": "starred",
+      "label": "★ Starred"
+    }
   ],
   "items": [
     {
@@ -28,10 +46,22 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/carnival-ceiling-fan-56-inch-white-1-carton-3-pieces-44829001.html",
       "summary": "Bulk carton — check stock and that all three are white 56″.",
-      "tags": ["pack", "value", "white", "56"],
+      "tags": [
+        "pack",
+        "value",
+        "white",
+        "56"
+      ],
       "pick": "value",
-      "pros": ["Cheapest way to get 3 matching fans", "Listed as full carton"],
-      "cons": ["Lesser-known brand", "Verify carton contents"]
+      "pros": [
+        "Cheapest way to get 3 matching fans",
+        "Listed as full carton"
+      ],
+      "cons": [
+        "Lesser-known brand",
+        "Verify carton contents"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/10/092844/1.jpg?2224"
     },
     {
       "id": "hoho-3pack",
@@ -42,10 +72,21 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/hoho-56-inch-ceiling-fan-with-5-speeds-powerful-motor-quiet-operation-steel-blades-75w-pack-of-3-model-hc1856-134583822.html",
       "summary": "Budget 3-pack, 75W, 5 speeds claimed.",
-      "tags": ["pack", "value", "white", "56"],
+      "tags": [
+        "pack",
+        "value",
+        "white",
+        "56"
+      ],
       "pick": "value",
-      "pros": ["Under ~3k for three", "5 speeds listed"],
-      "cons": ["Brand trust lower than Fresh/Tornado"]
+      "pros": [
+        "Under ~3k for three",
+        "5 speeds listed"
+      ],
+      "cons": [
+        "Brand trust lower than Fresh/Tornado"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/22/8385431/1.jpg?9439"
     },
     {
       "id": "jac-ngcf",
@@ -56,10 +97,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/jac-ceiling-fan-56-inch-75-watt-ngcf-2030-white-134600637.html",
       "summary": "Cheap white single; ×3 ≈ 3.8k.",
-      "tags": ["value", "white", "56"],
+      "tags": [
+        "value",
+        "white",
+        "56"
+      ],
       "pick": null,
-      "pros": ["Low unit price", "Explicit white listing"],
-      "cons": ["Unknown durability"]
+      "pros": [
+        "Low unit price",
+        "Explicit white listing"
+      ],
+      "cons": [
+        "Unknown durability"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/73/6006431/1.jpg?4380"
     },
     {
       "id": "castle-fac",
@@ -70,10 +121,22 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/castle-ceiling-fan-56-inch-3-blades-5-speeds-100-copper-motor-quiet-operation-wall-speed-control-white-model-fac1056gw-3-years-warranty-134583134.html",
       "summary": "Wall speed control, warranty listed — solid mid value.",
-      "tags": ["value", "white", "56", "brand"],
+      "tags": [
+        "value",
+        "white",
+        "56",
+        "brand"
+      ],
       "pick": "recommended",
-      "pros": ["Warranty mentioned", "Copper motor claim", "Quiet marketing"],
-      "cons": ["Still mid-tier brand"]
+      "pros": [
+        "Warranty mentioned",
+        "Copper motor claim",
+        "Quiet marketing"
+      ],
+      "cons": [
+        "Still mid-tier brand"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/43/1385431/1.jpg?3719"
     },
     {
       "id": "ata-cf236",
@@ -84,10 +147,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/ata-ceiling-fan-56-inch-3-blades-5-speed-white-cf236-134283384.html",
       "summary": "Popular cheap white single; several similar ATA listings.",
-      "tags": ["value", "white", "56"],
+      "tags": [
+        "value",
+        "white",
+        "56"
+      ],
       "pick": "value",
-      "pros": ["Very low price", "Common listing"],
-      "cons": ["Mixed seller quality"]
+      "pros": [
+        "Very low price",
+        "Common listing"
+      ],
+      "cons": [
+        "Mixed seller quality"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/48/3382431/1.jpg?3849"
     },
     {
       "id": "nautical-j560",
@@ -98,10 +171,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/nautical-j-560z1-56-ceiling-fan-3fins-white-18312369.html",
       "summary": "Lowest single prices on Jumia — expect basic quality.",
-      "tags": ["value", "white", "56"],
+      "tags": [
+        "value",
+        "white",
+        "56"
+      ],
       "pick": null,
-      "pros": ["Cheapest unit"],
-      "cons": ["Basic build risk"]
+      "pros": [
+        "Cheapest unit"
+      ],
+      "cons": [
+        "Basic build risk"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/96/321381/1.jpg?3206"
     },
     {
       "id": "rovo-56",
@@ -112,10 +194,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/rovo-rovo-ceiling-fan-56-inch-3-blades-5-speeds-white-133742870.html",
       "summary": "Mid budget white single.",
-      "tags": ["value", "white", "56"],
+      "tags": [
+        "value",
+        "white",
+        "56"
+      ],
       "pick": null,
-      "pros": ["Clear white 56″ listing"],
-      "cons": ["Less brand recognition"]
+      "pros": [
+        "Clear white 56″ listing"
+      ],
+      "cons": [
+        "Less brand recognition"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/07/8247331/1.jpg?1147"
     },
     {
       "id": "sonai-mar560",
@@ -126,10 +217,21 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/sonai-ceiling-fan-56-inch-3-blades-5-speeds-75w-anti-vibration-white-mar-560-2-years-warranty-134643753.html",
       "summary": "Anti-vibration claim useful for nightly use without AC.",
-      "tags": ["value", "white", "56", "brand"],
+      "tags": [
+        "value",
+        "white",
+        "56",
+        "brand"
+      ],
       "pick": "recommended",
-      "pros": ["Warranty", "Anti-vibration claim"],
-      "cons": ["Verify real noise in reviews"]
+      "pros": [
+        "Warranty",
+        "Anti-vibration claim"
+      ],
+      "cons": [
+        "Verify real noise in reviews"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/35/7346431/1.jpg?0365"
     },
     {
       "id": "fresh-typhoon",
@@ -140,10 +242,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/fresh-typhoon-ceiling-fan-56-inches-white-fresh-500021298-134396356.html",
       "summary": "Known Egyptian brand — better spare-parts path.",
-      "tags": ["brand", "white", "56"],
+      "tags": [
+        "brand",
+        "white",
+        "56"
+      ],
       "pick": "recommended",
-      "pros": ["Familiar EG brand", "Service network"],
-      "cons": ["Higher than no-names"]
+      "pros": [
+        "Familiar EG brand",
+        "Service network"
+      ],
+      "cons": [
+        "Higher than no-names"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/65/3693431/1.jpg?3238"
     },
     {
       "id": "tornado-tcf56ww",
@@ -154,10 +266,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/tornado-ceiling-fan-56-inch-with-3-metal-blades-and-5-speeds-white-color-tcf56ww-20776698.html",
       "summary": "Stronger brand tier for quiet daily use.",
-      "tags": ["brand", "white", "56"],
+      "tags": [
+        "brand",
+        "white",
+        "56"
+      ],
       "pick": "recommended",
-      "pros": ["Brand trust", "Metal blades listed"],
-      "cons": ["×3 approaches ~7k"]
+      "pros": [
+        "Brand trust",
+        "Metal blades listed"
+      ],
+      "cons": [
+        "×3 approaches ~7k"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/89/667702/1.jpg?5644"
     },
     {
       "id": "prifix-cfp560",
@@ -168,10 +290,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/prifix-power-ceiling-fan-56-inch-3-speeds-3-blades-white-cfp-560-134518684.html",
       "summary": "Mid brand white fan without light kit.",
-      "tags": ["brand", "white", "56"],
+      "tags": [
+        "brand",
+        "white",
+        "56"
+      ],
       "pick": null,
-      "pros": ["White dedicated SKU"],
-      "cons": ["Fewer speeds than 5-speed models"]
+      "pros": [
+        "White dedicated SKU"
+      ],
+      "cons": [
+        "Fewer speeds than 5-speed models"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/48/6815431/1.jpg?9049"
     },
     {
       "id": "prifix-cfj563",
@@ -182,10 +313,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/prifix-jumbo-ceiling-fan-with-remote-lighting-56-inch-cfj-563-134366244.html",
       "summary": "Remote + light combo — only if you want fixture+fan.",
-      "tags": ["remote_light", "56"],
+      "tags": [
+        "remote_light",
+        "56"
+      ],
       "pick": "stretch",
-      "pros": ["Remote", "Integrated light"],
-      "cons": ["Higher unit cost", "Confirm white colorway"]
+      "pros": [
+        "Remote",
+        "Integrated light"
+      ],
+      "cons": [
+        "Higher unit cost",
+        "Confirm white colorway"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/44/2663431/1.jpg?0026"
     }
   ]
 }

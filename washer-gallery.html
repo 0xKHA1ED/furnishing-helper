@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Washer gallery — top-load · full auto · all colors · black filter</title>
+    <title>Washer gallery — B.TECH + Fresh + Elaraby official</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/appliances.css" />
   </head>
@@ -18,15 +18,14 @@
           </p>
           <h1>Washing machine gallery</h1>
           <p class="lead">
-            <strong>Top-load</strong>, <strong>fully automatic</strong> only (no half-auto).
-            <strong>All colors</strong> · hard size bands 7–15 kg.
-            Default shows <strong>everything</strong>; use Main 7–9 kg or
-            <strong>Black only</strong> to narrow for tomorrow.
+            <strong>Fully automatic</strong> washers from <strong>B.TECH</strong> plus official
+            <strong>Fresh.com.eg</strong> and <strong>Elaraby Group</strong>
+            (Sharp, Tornado, Hoover, Candy, Hitachi…). Top-load and front-load · filter by brand/source.
           </p>
         </div>
         <div class="badge-row">
           <span class="badge gold" id="count-badge">—</span>
-          <span class="badge">B.TECH · expanded</span>
+          <span class="badge">Official + retail</span>
         </div>
       </header>
 
@@ -36,7 +35,10 @@
         <button type="button" data-preset="all" class="active">All kept</button>
         <button type="button" data-preset="main">Main 7–9 kg</button>
         <button type="button" data-preset="adjacent">Adjacent 10–13 kg</button>
-        <button type="button" data-preset="oversized">Oversized 14–15 kg</button>
+        <button type="button" data-preset="oversized">Oversized 14+</button>
+        <button type="button" data-preset="top">Top-load</button>
+        <button type="button" data-preset="front">Front-load</button>
+        <button type="button" data-preset="official">Official sites</button>
         <button type="button" data-preset="black">Black only</button>
         <button type="button" data-preset="inverter">Inverter only</button>
         <button type="button" data-preset="starred">★ Starred</button>
@@ -46,12 +48,32 @@
         <label>Search
           <input id="f-q" type="search" placeholder="brand, model…" />
         </label>
+        <label>Brand
+          <select id="f-brand">
+            <option value="any">Any brand</option>
+          </select>
+        </label>
+        <label>Source
+          <select id="f-source">
+            <option value="any">Any source</option>
+            <option value="B.TECH">B.TECH</option>
+            <option value="Fresh Official">Fresh.com.eg</option>
+            <option value="Elaraby Group">Elaraby Group</option>
+          </select>
+        </label>
+        <label>Load type
+          <select id="f-type">
+            <option value="any">Any</option>
+            <option value="top_load">Top-load</option>
+            <option value="front_load">Front-load</option>
+          </select>
+        </label>
         <label>Band
           <select id="f-band">
             <option value="all" selected>All sizes</option>
             <option value="main">Main 7–9 kg</option>
             <option value="adjacent">Adjacent 10–13 kg</option>
-            <option value="oversized">Oversized 14–15 kg</option>
+            <option value="oversized">Oversized 14+</option>
           </select>
         </label>
         <label>Color
@@ -60,6 +82,8 @@
             <option value="black">Black only</option>
             <option value="dark_grey">Dark grey</option>
             <option value="silver">Silver / steel</option>
+            <option value="white">White</option>
+            <option value="gold">Gold</option>
           </select>
         </label>
         <label>Max EGP
@@ -78,6 +102,7 @@
             <option value="price_asc">Price ↑</option>
             <option value="price_desc">Price ↓</option>
             <option value="kg">Capacity</option>
+            <option value="brand">Brand</option>
           </select>
         </label>
         <label>Starred only
@@ -99,8 +124,9 @@
       </div>
 
       <footer class="app-footer">
-        Data: <code>data/appliances/washer_catalog.json</code> · Scope today: fridge →
-        washer → kitchen → TV (no water heater yet)
+        Data: <code>data/appliances/washer_catalog.json</code> ·
+        Sources: B.TECH + Fresh.com.eg + ElarabyGroup.com ·
+        Rebuild: <code>python scripts/merge_official_washers.py</code>
       </footer>
     </div>
 
@@ -129,7 +155,7 @@
             <ul class="spec-list" id="modal-specs"></ul>
             <div class="btn-row" style="margin-top: 1rem">
               <button type="button" class="btn ghost" id="modal-star">☆ Star</button>
-              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open on B.TECH</a>
+              <a class="btn primary" id="modal-link" href="#" target="_blank" rel="noopener">Open product</a>
             </div>
           </div>
         </div>
@@ -163,6 +189,9 @@
         const max = Number($("#f-max").value) || Infinity;
         const inv = $("#f-inv").value;
         const color = $("#f-color")?.value || "any";
+        const brand = $("#f-brand")?.value || "any";
+        const source = $("#f-source")?.value || "any";
+        const type = $("#f-type")?.value || "any";
         const onlyStar = $("#f-star").value === "yes";
         const sort = $("#f-sort").value;
         let list = items.filter((it) => {
@@ -172,17 +201,25 @@
           if ((it.priceEGP || 0) > max) return false;
           if (inv === "yes" && it.specs?.inverter !== true) return false;
           if (inv === "no" && it.specs?.inverter === true) return false;
-          if (color === "black" && it.color !== "black") return false;
-          if (color === "dark_grey" && it.color !== "dark_grey") return false;
-          if (color === "silver" && it.color !== "silver") return false;
+          if (color !== "any" && it.color !== color) return false;
+          if (brand !== "any" && it.brand !== brand) return false;
+          if (source !== "any" && it.retailer !== source) return false;
+          if (type !== "any" && (it.specs?.type || "top_load") !== type) return false;
           if (onlyStar && !stars.has(it.id)) return false;
-          if (q && !`${it.name} ${it.brand} ${it.summary} ${it.color}`.toLowerCase().includes(q)) return false;
+          if (
+            q &&
+            !`${it.name} ${it.brand} ${it.summary} ${it.color} ${it.retailer || ""}`
+              .toLowerCase()
+              .includes(q)
+          )
+            return false;
           return true;
         });
         list.sort((a, b) => {
-          if (sort === "price_asc") return a.priceEGP - b.priceEGP;
-          if (sort === "price_desc") return b.priceEGP - a.priceEGP;
+          if (sort === "price_asc") return (a.priceEGP || 0) - (b.priceEGP || 0);
+          if (sort === "price_desc") return (b.priceEGP || 0) - (a.priceEGP || 0);
           if (sort === "kg") return (b.capacityKg || 0) - (a.capacityKg || 0);
+          if (sort === "brand") return (a.brand || "").localeCompare(b.brand || "");
           return (a.rank || 99) - (b.rank || 99);
         });
         return list;
@@ -204,16 +241,17 @@
               <div class="thumb">${img}
                 <div class="badge-abs">
                   ${it.rank ? `<span class="chip-mini hot">#${it.rank}</span>` : ""}
-                  ${it.band === "main" ? `<span class="chip-mini hot">7–9 kg</span>` : `<span class="chip-mini">${esc(it.band)}</span>`}
-                  ${it.color === "black" ? `<span class="chip-mini hot">Black</span>` : `<span class="chip-mini">${esc(it.color || "")}</span>`}
+                  ${it.retailer && it.retailer !== "B.TECH" ? `<span class="chip-mini hot">Official</span>` : ""}
+                  ${it.band === "main" ? `<span class="chip-mini hot">7–9 kg</span>` : `<span class="chip-mini">${esc(it.band || "")}</span>`}
+                  ${it.color === "black" ? `<span class="chip-mini hot">Black</span>` : it.color ? `<span class="chip-mini">${esc(it.color)}</span>` : ""}
                   ${it.specs?.inverter ? `<span class="chip-mini hot">Inverter</span>` : ""}
                 </div>
                 <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
               </div>
               <div class="body">
-                <div class="brand">${esc(it.brand)} · top-load · ${esc(it.color || "")}</div>
+                <div class="brand">${esc(it.brand)} · ${esc((it.specs?.type || "top_load").replace("_", " "))} · ${esc(it.retailer || "")}</div>
                 <h3>${esc(it.name)}</h3>
-                <div class="meta">${it.capacityKg} kg · Fit ${it.researchFitScore ?? "—"}</div>
+                <div class="meta">${it.capacityKg ?? "—"} kg · ${esc(it.color || "")} · Fit ${it.researchFitScore ?? "—"}</div>
                 <div class="price">${fmt(it.priceEGP)}</div>
               </div>
             </article>`;
@@ -249,7 +287,7 @@
         const it = active;
         const g = it.imageGallery?.length ? it.imageGallery : it.imageUrl ? [it.imageUrl] : [];
         $("#modal-title").textContent = it.name;
-        $("#modal-sub").textContent = `${it.brand} · #${it.rank} · ${it.band} · ${it.scrapedAt}`;
+        $("#modal-sub").textContent = `${it.brand} · ${it.retailer || "—"} · #${it.rank} · ${it.band} · ${it.scrapedAt || ""}`;
         $("#modal-price").textContent = fmt(it.priceEGP);
         $("#modal-summary").textContent = it.summary || "";
         const main = $("#modal-main-img");
@@ -272,18 +310,28 @@
         );
         $("#modal-pros").innerHTML = (it.pros || []).map((p) => `<li>${esc(p)}</li>`).join("");
         $("#modal-cons").innerHTML = (it.cons || []).map((p) => `<li>${esc(p)}</li>`).join("");
+        const loadType = (it.specs?.type || "top_load").replace("_", " ");
         const specs = [
           ["Price", fmt(it.priceEGP)],
-          ["Capacity", `${it.capacityKg} kg`],
-          ["Load", "Top-load"],
+          ["Capacity", it.capacityKg != null ? `${it.capacityKg} kg` : "—"],
+          ["Load", loadType],
           ["Auto", "Fully automatic"],
           ["Inverter", it.specs?.inverter ? "Yes" : "No"],
           ["Color", it.color],
+          ["Source", it.retailer || it.sourceLabel || "—"],
           ["Fit", it.researchFitScore],
           ["Band", it.band],
         ];
         $("#modal-specs").innerHTML = specs.map(([k, v]) => `<li><span>${esc(k)}</span><span>${esc(String(v))}</span></li>`).join("");
         $("#modal-link").href = it.url;
+        $("#modal-link").textContent =
+          it.retailer === "Fresh Official"
+            ? "Open on Fresh"
+            : it.retailer === "Elaraby Group"
+              ? "Open on Elaraby"
+              : it.retailer === "B.TECH"
+                ? "Open on B.TECH"
+                : "Open product";
         $("#modal-star").textContent = stars.has(it.id) ? "★ Starred" : "☆ Star";
       }
       function applyPreset(name) {
@@ -296,9 +344,27 @@
         $("#f-inv").value = name === "inverter" ? "yes" : "any";
         $("#f-color").value = name === "black" ? "black" : "any";
         $("#f-star").value = name === "starred" ? "yes" : "no";
-        if (name === "inverter" || name === "black" || name === "starred") $("#f-band").value = "all";
+        $("#f-type").value = name === "top" ? "top_load" : name === "front" ? "front_load" : "any";
+        $("#f-source").value = name === "official" ? "any" : "any";
+        $("#f-brand").value = "any";
+        if (name === "official") {
+          // show only non-B.TECH via source — use special: filter both official sources in render
+          $("#f-source").dataset.officialOnly = "1";
+        } else {
+          delete $("#f-source").dataset.officialOnly;
+        }
+        if (["inverter", "black", "starred", "top", "front", "official"].includes(name)) $("#f-band").value = "all";
         renderGrid();
       }
+      // patch filter for official preset
+      const _filtered = filtered;
+      filtered = function () {
+        let list = _filtered();
+        if ($("#f-source")?.dataset.officialOnly === "1") {
+          list = list.filter((it) => it.retailer && it.retailer !== "B.TECH");
+        }
+        return list;
+      };
       async function init() {
         try {
           const data = await (await fetch("data/appliances/washer_catalog.json")).json();
@@ -306,13 +372,22 @@
           const blackN = items.filter((i) => i.color === "black").length;
           const invN = items.filter((i) => i.specs?.inverter).length;
           const mainN = items.filter((i) => i.band === "main").length;
-          $("#count-badge").textContent = `${items.length} total · ${mainN} main · ${blackN} black · ${invN} inv`;
+          const offN = items.filter((i) => i.retailer && i.retailer !== "B.TECH").length;
+          $("#count-badge").textContent = `${items.length} total · ${offN} official · ${mainN} main`;
           $("#disclaimer").textContent = (data.marketNote || "") + " " + (data.disclaimer || "");
+          // brand dropdown
+          const brands = [...new Set(items.map((i) => i.brand).filter(Boolean))].sort();
+          const brandSel = $("#f-brand");
+          brandSel.innerHTML =
+            `<option value="any">Any brand</option>` +
+            brands.map((b) => `<option value="${esc(b)}">${esc(b)}</option>`).join("");
           const counts = data.counts || {};
           $("#excluded-list").innerHTML =
-            `<div><strong>In catalog:</strong> ${counts.total ?? items.length} full-auto top-load (7–15 kg). ` +
-            `Main 7–9: ${counts.main ?? "—"} · Adjacent 10–13: ${counts.adjacent ?? "—"} · Oversized 14–15: ${counts.oversized ?? "—"} · Black: ${counts.black ?? "—"}.</div>` +
-            `<div style="margin-top:0.35rem">Excluded: front-load, half-auto, twin-tub, manual, accessories. Use <strong>All kept</strong> to see everything.</div>` +
+            `<div><strong>In catalog:</strong> ${counts.total ?? items.length} models · ` +
+            `B.TECH ${counts.btech ?? "—"} · Fresh official ${counts.fresh_official ?? "—"} · Elaraby official ${counts.elaraby_official ?? "—"}.</div>` +
+            `<div>Top-load ${counts.top_load ?? "—"} · Front-load ${counts.front_load ?? "—"} · ` +
+            `Main 7–9: ${counts.main ?? "—"} · Adjacent: ${counts.adjacent ?? "—"} · Oversized: ${counts.oversized ?? "—"} · Black: ${counts.black ?? "—"} · Inverter: ${counts.inverter ?? "—"}.</div>` +
+            `<div style="margin-top:0.35rem">Excluded: half-auto, twin-tub, manual, spare parts. Beko Egypt site had no scrapeable catalog at run time — check B.TECH/Elaraby for Beko stock or ask next.</div>` +
             (data.filtersApplied
               ? Object.entries(data.filtersApplied)
                   .map(([k, v]) => `<div style="margin:0.25rem 0"><strong>${esc(k)}</strong>: ${esc(Array.isArray(v) ? v.join(", ") : String(v))}</div>`)
@@ -322,11 +397,17 @@
           $("#disclaimer").innerHTML = "Run <code>python -m http.server 8765</code> and open via http://localhost:8765/washer-gallery.html";
           return;
         }
-        ["f-q", "f-band", "f-max", "f-inv", "f-color", "f-sort", "f-star"].forEach((id) => {
+        ["f-q", "f-band", "f-max", "f-inv", "f-color", "f-sort", "f-star", "f-brand", "f-source", "f-type"].forEach((id) => {
           const el = $("#" + id);
           if (!el) return;
-          el.addEventListener("input", renderGrid);
-          el.addEventListener("change", renderGrid);
+          el.addEventListener("input", () => {
+            if (id === "f-source") delete $("#f-source").dataset.officialOnly;
+            renderGrid();
+          });
+          el.addEventListener("change", () => {
+            if (id === "f-source") delete $("#f-source").dataset.officialOnly;
+            renderGrid();
+          });
         });
         $$(".preset-row button").forEach((b) => b.addEventListener("click", () => applyPreset(b.dataset.preset)));
         $("#modal-close").onclick = closeModal;

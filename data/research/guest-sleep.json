@@ -10,12 +10,30 @@
     "Skip permanent sofa bed until hosting pattern changes"
   ],
   "presets": [
-    { "id": "all", "label": "All options" },
-    { "id": "fold", "label": "Fold mattresses" },
-    { "id": "air", "label": "Air beds" },
-    { "id": "under2k", "label": "Under 2k" },
-    { "id": "comfort", "label": "Thicker / comfort" },
-    { "id": "starred", "label": "★ Starred" }
+    {
+      "id": "all",
+      "label": "All options"
+    },
+    {
+      "id": "fold",
+      "label": "Fold mattresses"
+    },
+    {
+      "id": "air",
+      "label": "Air beds"
+    },
+    {
+      "id": "under2k",
+      "label": "Under 2k"
+    },
+    {
+      "id": "comfort",
+      "label": "Thicker / comfort"
+    },
+    {
+      "id": "starred",
+      "label": "★ Starred"
+    }
   ],
   "items": [
     {
@@ -26,10 +44,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Folding+Floor+Mattress+COMFORT+COMPANY",
       "summary": "Cheapest sensible guest pad — closet storage.",
-      "tags": ["fold", "under2k"],
+      "tags": [
+        "fold",
+        "under2k"
+      ],
       "pick": "value",
-      "pros": ["Very cheap", "Stores flat"],
-      "cons": ["Narrow 60 cm"]
+      "pros": [
+        "Very cheap",
+        "Stores flat"
+      ],
+      "cons": [
+        "Narrow 60 cm"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/6170jtpu+lL._AC_UL320_.jpg"
     },
     {
       "id": "line-sleep",
@@ -40,10 +67,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/catalog/?q=Line+Sleep+Folding+Floor+Mattress",
       "summary": "Multiple designs; longer sizes ~1.7k with pillow.",
-      "tags": ["fold", "under2k"],
+      "tags": [
+        "fold",
+        "under2k"
+      ],
       "pick": "value",
-      "pros": ["Cheap", "Common on Jumia"],
-      "cons": ["Thin foam"]
+      "pros": [
+        "Cheap",
+        "Common on Jumia"
+      ],
+      "cons": [
+        "Thin foam"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/35/612354/1.jpg?8346"
     },
     {
       "id": "snooze-floor",
@@ -54,10 +90,19 @@
       "source": "Amazon.eg / Jumia",
       "url": "https://www.amazon.eg/s?k=Snooze+Floor+Foldable+mattress",
       "summary": "Longer pad better for taller guests.",
-      "tags": ["fold", "under2k"],
+      "tags": [
+        "fold",
+        "under2k"
+      ],
       "pick": "recommended",
-      "pros": ["Longer", "Known snack-brand line", "Under 1.3k"],
-      "cons": ["Still floor-level"]
+      "pros": [
+        "Longer",
+        "Known snack-brand line",
+        "Under 1.3k"
+      ],
+      "cons": [
+        "Still floor-level"
+      ]
     },
     {
       "id": "yarlin-80",
@@ -67,10 +112,18 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/yarlin-floor-foldable-double-face-mattress-80200-cm-yell",
       "summary": "Wider than 60 cm singles — better couple guest? still single width.",
-      "tags": ["fold", "under2k"],
+      "tags": [
+        "fold",
+        "under2k"
+      ],
       "pick": null,
-      "pros": ["80 cm width", "Double-face designs"],
-      "cons": ["Pattern-heavy prints"]
+      "pros": [
+        "80 cm width",
+        "Double-face designs"
+      ],
+      "cons": [
+        "Pattern-heavy prints"
+      ]
     },
     {
       "id": "snooze-bedtogo",
@@ -81,10 +134,21 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/snooze-bed-to-go-foldable-mattress-gray-grid-design-134614173.html",
       "summary": "Thicker guest pad — best default comfort under 2k class.",
-      "tags": ["fold", "under2k", "comfort"],
+      "tags": [
+        "fold",
+        "under2k",
+        "comfort"
+      ],
       "pick": "recommended",
-      "pros": ["Wider", "Better for overnight", "Still storeable"],
-      "cons": ["Bulkier in closet"]
+      "pros": [
+        "Wider",
+        "Better for overnight",
+        "Still storeable"
+      ],
+      "cons": [
+        "Bulkier in closet"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/37/1416431/1.jpg?9560"
     },
     {
       "id": "line-90-230",
@@ -94,10 +158,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/catalog/?q=Line+Sleep+Foldable+mattress+pillow",
       "summary": "Long mattress kit with pillow.",
-      "tags": ["fold", "under2k", "comfort"],
+      "tags": [
+        "fold",
+        "under2k",
+        "comfort"
+      ],
       "pick": null,
-      "pros": ["Pillow included", "Long"],
-      "cons": ["Still foam"]
+      "pros": [
+        "Pillow included",
+        "Long"
+      ],
+      "cons": [
+        "Still foam"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/15/5828331/1.jpg?1286"
     },
     {
       "id": "bestway-horizon",
@@ -107,10 +181,21 @@
       "source": "Jumia / Amazon.eg",
       "url": "https://www.jumia.com.eg/bestway-air-bed-blue-horizon-double-xllo-203-x-152-x-22-cm-134528231.html",
       "summary": "Double air bed for couple guests.",
-      "tags": ["air", "under2k"],
+      "tags": [
+        "air",
+        "under2k"
+      ],
       "pick": "recommended",
-      "pros": ["Double size", "Known brand", "Under 1.5k"],
-      "cons": ["Pump may be separate", "Can deflate overnight"]
+      "pros": [
+        "Double size",
+        "Known brand",
+        "Under 1.5k"
+      ],
+      "cons": [
+        "Pump may be separate",
+        "Can deflate overnight"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/13/2825431/1.jpg?5696"
     },
     {
       "id": "bestway-pavillo",
@@ -121,10 +206,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Bestway+Pavillo+Airbed",
       "summary": "Flocked surface more comfortable than bare PVC.",
-      "tags": ["air", "under2k"],
+      "tags": [
+        "air",
+        "under2k"
+      ],
       "pick": "value",
-      "pros": ["Flocked", "Cheap double-ish sizes"],
-      "cons": ["Height low"]
+      "pros": [
+        "Flocked",
+        "Cheap double-ish sizes"
+      ],
+      "cons": [
+        "Height low"
+      ]
     },
     {
       "id": "intex-set",
@@ -134,10 +227,19 @@
       "source": "Amazon.eg / Jumia",
       "url": "https://www.amazon.eg/s?k=Intex+air+bed+set+pump+pillow",
       "summary": "Kit with pump/pillows reduces extra shopping.",
-      "tags": ["air", "under2k", "comfort"],
+      "tags": [
+        "air",
+        "under2k",
+        "comfort"
+      ],
       "pick": "recommended",
-      "pros": ["Kit", "Brand"],
-      "cons": ["Storage volume"]
+      "pros": [
+        "Kit",
+        "Brand"
+      ],
+      "cons": [
+        "Storage volume"
+      ]
     },
     {
       "id": "intex-usb",
@@ -148,10 +250,17 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Intex+Dura-Beam+USB+pump",
       "summary": "Easier inflate — worth it if guests stay often enough.",
-      "tags": ["air", "comfort"],
+      "tags": [
+        "air",
+        "comfort"
+      ],
       "pick": null,
-      "pros": ["Built-in pump convenience"],
-      "cons": ["Higher price"]
+      "pros": [
+        "Built-in pump convenience"
+      ],
+      "cons": [
+        "Higher price"
+      ]
     },
     {
       "id": "panda-15cm",
@@ -161,10 +270,20 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Panda+Foldable+Tri-Fold+Foam+Mattress",
       "summary": "Thicker foam tri-fold — better sleep quality.",
-      "tags": ["fold", "comfort"],
+      "tags": [
+        "fold",
+        "comfort"
+      ],
       "pick": "recommended",
-      "pros": ["15 cm foam", "Still foldable"],
-      "cons": ["Narrow 60 cm", "~3k"]
+      "pros": [
+        "15 cm foam",
+        "Still foldable"
+      ],
+      "cons": [
+        "Narrow 60 cm",
+        "~3k"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/51DJphTYyUL._AC_UL320_.jpg"
     },
     {
       "id": "zayed-extrabed",
@@ -174,10 +293,20 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=zayed+folding+extra+bed+mattress",
       "summary": "Real off-floor guest bed that folds — soft stretch.",
-      "tags": ["comfort", "stretch"],
+      "tags": [
+        "comfort",
+        "stretch"
+      ],
       "pick": "stretch",
-      "pros": ["Real bed height", "Warranty claim"],
-      "cons": ["Bulk", "Over pure cheap path"]
+      "pros": [
+        "Real bed height",
+        "Warranty claim"
+      ],
+      "cons": [
+        "Bulk",
+        "Over pure cheap path"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/81pBME0gKpL._AC_UL320_.jpg"
     },
     {
       "id": "generic-3panel",
@@ -187,10 +316,17 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Folding+Floor+Mattress+3-Panel+180x60",
       "summary": "Standard tri-fold guest pad mid cheap tier.",
-      "tags": ["fold", "under2k"],
+      "tags": [
+        "fold",
+        "under2k"
+      ],
       "pick": null,
-      "pros": ["Classic form factor"],
-      "cons": ["Narrow"]
+      "pros": [
+        "Classic form factor"
+      ],
+      "cons": [
+        "Narrow"
+      ]
     }
   ]
 }

@@ -10,13 +10,34 @@
     "Skip over-budget glossy Kandil-class units unless you stretch"
   ],
   "presets": [
-    { "id": "all", "label": "All options" },
-    { "id": "under2k", "label": "Under 2k" },
-    { "id": "under4k", "label": "Under 4k" },
-    { "id": "wood", "label": "Wood / warm" },
-    { "id": "storage", "label": "Doors / storage" },
-    { "id": "creative", "label": "Creative / cart" },
-    { "id": "starred", "label": "★ Starred" }
+    {
+      "id": "all",
+      "label": "All options"
+    },
+    {
+      "id": "under2k",
+      "label": "Under 2k"
+    },
+    {
+      "id": "under4k",
+      "label": "Under 4k"
+    },
+    {
+      "id": "wood",
+      "label": "Wood / warm"
+    },
+    {
+      "id": "storage",
+      "label": "Doors / storage"
+    },
+    {
+      "id": "creative",
+      "label": "Creative / cart"
+    },
+    {
+      "id": "starred",
+      "label": "★ Starred"
+    }
   ],
   "items": [
     {
@@ -27,10 +48,21 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/modern-home-modern-tv-table-120-cm-brown-entertainment-unit-contemporary-media-console-with-storage-shelves-for-living-room-sturdy-and-stylish-tv-stand-for-screens-wide-design-134073510.html",
       "summary": "Warm brown 120 cm unit with shelves — good nest tone.",
-      "tags": ["under2k", "wood", "120"],
+      "tags": [
+        "under2k",
+        "wood",
+        "120"
+      ],
       "pick": "recommended",
-      "pros": ["Under budget", "Warm wood look", "Shelf storage"],
-      "cons": ["Chipboard — check reviews for wobble"]
+      "pros": [
+        "Under budget",
+        "Warm wood look",
+        "Shelf storage"
+      ],
+      "cons": [
+        "Chipboard — check reviews for wobble"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/01/5370431/1.jpg?9361"
     },
     {
       "id": "mh-black",
@@ -40,10 +72,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/modern-home-tv-table-unit-in-black-modern-entertainment-center-with-sleek-design-media-console-for-living-room-tv-stand-with-storage-for-media-devices-and-decor-134072045.html",
       "summary": "Ultra-cheap black unit — verify real size in photos.",
-      "tags": ["under2k", "creative"],
+      "tags": [
+        "under2k",
+        "creative"
+      ],
       "pick": "value",
-      "pros": ["Very cheap", "Minimal black"],
-      "cons": ["May be small/thin", "Photo vs reality risk"]
+      "pros": [
+        "Very cheap",
+        "Minimal black"
+      ],
+      "cons": [
+        "May be small/thin",
+        "Photo vs reality risk"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/54/0270431/1.jpg?2763"
     },
     {
       "id": "mh-wall-brown",
@@ -53,10 +95,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/modern-home-chipboard-wallmounted-tv-entertainment-unit-in-brown-set-top-box-stand-for-living-room-multipurpose-storage-display-rack-wooden-floating-furniture-modern-design-134072033.html",
       "summary": "Floating shelf style if TV is wall-mounted.",
-      "tags": ["under2k", "wood", "creative"],
+      "tags": [
+        "under2k",
+        "wood",
+        "creative"
+      ],
       "pick": null,
-      "pros": ["Frees floor space", "Warm tone"],
-      "cons": ["Needs solid wall fixings"]
+      "pros": [
+        "Frees floor space",
+        "Warm tone"
+      ],
+      "cons": [
+        "Needs solid wall fixings"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/33/0270431/1.jpg?2708"
     },
     {
       "id": "mdf-120-40",
@@ -66,10 +118,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/generic-tv-table-1203040cm-durable-mdf-unit-for-home-office-38827650.html",
       "summary": "Simple low MDF unit — classic bench look.",
-      "tags": ["under4k", "120"],
+      "tags": [
+        "under4k",
+        "120"
+      ],
       "pick": "recommended",
-      "pros": ["Clear dimensions", "Within budget"],
-      "cons": ["Plain look"]
+      "pros": [
+        "Clear dimensions",
+        "Within budget"
+      ],
+      "cons": [
+        "Plain look"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/05/672883/1.jpg?2351"
     },
     {
       "id": "mdf-120-45",
@@ -79,10 +140,18 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/generic-tv-table-1203045-cm-durable-mdf-unit-for-living-room-38827687.html",
       "summary": "Slightly taller sibling of the 40 cm unit.",
-      "tags": ["under4k", "120"],
+      "tags": [
+        "under4k",
+        "120"
+      ],
       "pick": null,
-      "pros": ["Known size"],
-      "cons": ["Basic finish"]
+      "pros": [
+        "Known size"
+      ],
+      "cons": [
+        "Basic finish"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/78/672883/1.jpg?2349"
     },
     {
       "id": "wood-120-45",
@@ -92,10 +161,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/catalog/?q=TV+Unit+Wooden+30*120*45",
       "summary": "Simple wood-look 120 cm unit mid price.",
-      "tags": ["under4k", "wood", "120"],
+      "tags": [
+        "under4k",
+        "wood",
+        "120"
+      ],
       "pick": null,
-      "pros": ["Warm aesthetic"],
-      "cons": ["Search listing — confirm seller"]
+      "pros": [
+        "Warm aesthetic"
+      ],
+      "cons": [
+        "Search listing — confirm seller"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/35/5226121/1.jpg?7083"
     },
     {
       "id": "redwud-skyler",
@@ -105,10 +183,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Redwud+Skyler+TV",
       "summary": "Compact storage cabinet style for mid-size TVs.",
-      "tags": ["under2k", "wood", "storage"],
+      "tags": [
+        "under2k",
+        "wood",
+        "storage"
+      ],
       "pick": "value",
-      "pros": ["Storage look", "Under 1k"],
-      "cons": ["Check max TV width"]
+      "pros": [
+        "Storage look",
+        "Under 1k"
+      ],
+      "cons": [
+        "Check max TV width"
+      ]
     },
     {
       "id": "geometric-bookcase",
@@ -118,10 +205,20 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Geometric+TV+Bookcase+Entertainment",
       "summary": "Display shelves — nest-friendly for books/decor.",
-      "tags": ["under2k", "wood", "storage"],
+      "tags": [
+        "under2k",
+        "wood",
+        "storage"
+      ],
       "pick": "recommended",
-      "pros": ["Aesthetic storage", "Dual display"],
-      "cons": ["Open dust"]
+      "pros": [
+        "Aesthetic storage",
+        "Dual display"
+      ],
+      "cons": [
+        "Open dust"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/71d+Hdd0+uL._AC_UL320_.jpg"
     },
     {
       "id": "black-135",
@@ -131,10 +228,17 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=TV+Stand+Shelf+135+cm+black",
       "summary": "Wide cheap black console — verify weight rating.",
-      "tags": ["under2k"],
+      "tags": [
+        "under2k"
+      ],
       "pick": null,
-      "pros": ["Wide", "Cheap"],
-      "cons": ["May be thin board"]
+      "pros": [
+        "Wide",
+        "Cheap"
+      ],
+      "cons": [
+        "May be thin board"
+      ]
     },
     {
       "id": "doors-120",
@@ -144,10 +248,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=TV+Stand+2+Doors+Open+Shelf+120",
       "summary": "Closed storage helps Egypt dust — strong dual-gate pick.",
-      "tags": ["under2k", "storage", "wood"],
+      "tags": [
+        "under2k",
+        "storage",
+        "wood"
+      ],
       "pick": "recommended",
-      "pros": ["Doors for dust", "Open + closed"],
-      "cons": ["Assembly quality varies"]
+      "pros": [
+        "Doors for dust",
+        "Open + closed"
+      ],
+      "cons": [
+        "Assembly quality varies"
+      ]
     },
     {
       "id": "cart-maiproo",
@@ -157,10 +270,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Rolling+TV+Stand+cart+wheels",
       "summary": "Creative flexible placement — not traditional furniture look.",
-      "tags": ["under4k", "creative"],
+      "tags": [
+        "under4k",
+        "creative"
+      ],
       "pick": null,
-      "pros": ["Movable", "No fixed wall"],
-      "cons": ["Industrial look", "Wheels vs nest vibe"]
+      "pros": [
+        "Movable",
+        "No fixed wall"
+      ],
+      "cons": [
+        "Industrial look",
+        "Wheels vs nest vibe"
+      ]
     },
     {
       "id": "kandil-skip",
@@ -170,10 +292,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/kandil-silver-140cm-tv-stand-with-faceted-drawer-glossy-modern-entertainment-unit-134141298.html",
       "summary": "Over soft budget — listed for comparison only.",
-      "tags": ["over_budget", "storage"],
+      "tags": [
+        "over_budget",
+        "storage"
+      ],
       "pick": null,
-      "pros": ["Drawer storage", "Finished look"],
-      "cons": ["~9k over soft 6k", "Glossy"]
+      "pros": [
+        "Drawer storage",
+        "Finished look"
+      ],
+      "cons": [
+        "~9k over soft 6k",
+        "Glossy"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/89/2141431/1.jpg?2809"
     }
   ]
 }

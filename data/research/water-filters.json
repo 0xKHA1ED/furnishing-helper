@@ -10,11 +10,26 @@
     "Ask seller for install fee to 6th of October"
   ],
   "presets": [
-    { "id": "all", "label": "All options" },
-    { "id": "under4k", "label": "Under 4k" },
-    { "id": "tank", "label": "Tank brand" },
-    { "id": "plus", "label": "Plus / UV / stretch" },
-    { "id": "starred", "label": "★ Starred" }
+    {
+      "id": "all",
+      "label": "All options"
+    },
+    {
+      "id": "under4k",
+      "label": "Under 4k"
+    },
+    {
+      "id": "tank",
+      "label": "Tank brand"
+    },
+    {
+      "id": "plus",
+      "label": "Plus / UV / stretch"
+    },
+    {
+      "id": "starred",
+      "label": "★ Starred"
+    }
   ],
   "items": [
     {
@@ -25,10 +40,17 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=PRO+TEC+RO+Water+Filter+7+Stage",
       "summary": "Budget full RO kit around soft low end.",
-      "tags": ["under4k"],
+      "tags": [
+        "under4k"
+      ],
       "pick": "value",
-      "pros": ["Full RO stack", "Low price"],
-      "cons": ["Service network less known"]
+      "pros": [
+        "Full RO stack",
+        "Low price"
+      ],
+      "cons": [
+        "Service network less known"
+      ]
     },
     {
       "id": "tank-premium",
@@ -38,10 +60,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Tank+Power+Water+Filter+7+stages+RO+Premium",
       "summary": "Known EG brand — strong default pick.",
-      "tags": ["under4k", "tank"],
+      "tags": [
+        "under4k",
+        "tank"
+      ],
       "pick": "recommended",
-      "pros": ["Brand common", "Warranty often listed", "Cartridges available"],
-      "cons": ["Install separate"]
+      "pros": [
+        "Brand common",
+        "Warranty often listed",
+        "Cartridges available"
+      ],
+      "cons": [
+        "Install separate"
+      ]
     },
     {
       "id": "tank-standard",
@@ -51,10 +82,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Tank+Power+Water+Filter+7+stages+RO",
       "summary": "Core Tank Power line — multiple sellers ~3.8–4.2k.",
-      "tags": ["under4k", "tank"],
+      "tags": [
+        "under4k",
+        "tank"
+      ],
       "pick": "recommended",
-      "pros": ["Easy parts", "Popular"],
-      "cons": ["Price varies by seller"]
+      "pros": [
+        "Easy parts",
+        "Popular"
+      ],
+      "cons": [
+        "Price varies by seller"
+      ]
     },
     {
       "id": "organic-tw",
@@ -64,10 +103,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Organic+RO+Water+Filter+7+Stage",
       "summary": "Taiwan membrane marketing — still verify local service.",
-      "tags": ["under4k"],
+      "tags": [
+        "under4k"
+      ],
       "pick": null,
-      "pros": ["Under 4k", "RO stages"],
-      "cons": ["Parts path unknown"]
+      "pros": [
+        "Under 4k",
+        "RO stages"
+      ],
+      "cons": [
+        "Parts path unknown"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/51ZiI-GM9aL._AC_UL320_.jpg"
     },
     {
       "id": "aqua-chiara",
@@ -79,8 +126,13 @@
       "summary": "Explicit storage tank size listed.",
       "tags": [],
       "pick": null,
-      "pros": ["14 L tank listed"],
-      "cons": ["Slightly over 4k"]
+      "pros": [
+        "14 L tank listed"
+      ],
+      "cons": [
+        "Slightly over 4k"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/61uk-UOQ1cL._AC_UL320_.jpg"
     },
     {
       "id": "tank-jumia-pack",
@@ -90,10 +142,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/power-ro-water-filter-7-stages-8-cartridge-free-tank-mpg936129.html",
       "summary": "Bundle with spare cartridges — good first-year value.",
-      "tags": ["tank", "plus"],
+      "tags": [
+        "tank",
+        "plus"
+      ],
       "pick": "recommended",
-      "pros": ["Spares included", "Tank brand"],
-      "cons": ["Slightly higher sticker"]
+      "pros": [
+        "Spares included",
+        "Tank brand"
+      ],
+      "cons": [
+        "Slightly higher sticker"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/27/850211/1.jpg?3306"
     },
     {
       "id": "tank-plus",
@@ -103,10 +164,17 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Tank+Power+Water+Filter+7+Stages+RO+Plus",
       "summary": "Plus tier of Tank Power line.",
-      "tags": ["tank", "plus"],
+      "tags": [
+        "tank",
+        "plus"
+      ],
       "pick": null,
-      "pros": ["Brand line consistency"],
-      "cons": ["Pay more than base"]
+      "pros": [
+        "Brand line consistency"
+      ],
+      "cons": [
+        "Pay more than base"
+      ]
     },
     {
       "id": "aqua-jet",
@@ -117,10 +185,16 @@
       "source": "Amazon.eg / Jumia",
       "url": "https://www.amazon.eg/s?k=Aqua-Jet+RO+Water+Filter+7+Stage",
       "summary": "Common alternative brand with stand variants.",
-      "tags": ["plus"],
+      "tags": [
+        "plus"
+      ],
       "pick": null,
-      "pros": ["Visible market presence"],
-      "cons": ["Higher than Tank base"]
+      "pros": [
+        "Visible market presence"
+      ],
+      "cons": [
+        "Higher than Tank base"
+      ]
     },
     {
       "id": "generic-7",
@@ -132,8 +206,12 @@
       "summary": "Many unbranded kits ~4–4.5k — only with good reviews.",
       "tags": [],
       "pick": null,
-      "pros": ["Price competition"],
-      "cons": ["Cartridge fit may be awkward"]
+      "pros": [
+        "Price competition"
+      ],
+      "cons": [
+        "Cartridge fit may be awkward"
+      ]
     },
     {
       "id": "tank-pro-uv",
@@ -143,10 +221,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Tank+Pro+RO+UV+Water+Filter",
       "summary": "Stretch for UV + nicer install form factor.",
-      "tags": ["plus", "tank", "stretch"],
+      "tags": [
+        "plus",
+        "tank",
+        "stretch"
+      ],
       "pick": "stretch",
-      "pros": ["UV stage", "Wall form"],
-      "cons": ["Above soft ~5.5k comfort"]
+      "pros": [
+        "UV stage",
+        "Wall form"
+      ],
+      "cons": [
+        "Above soft ~5.5k comfort"
+      ]
     },
     {
       "id": "tank-3stage",
@@ -156,10 +243,17 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Tank+Power+Water+Filter+3+Stages",
       "summary": "Listed for clarity — not recommended as sole drinking solution.",
-      "tags": ["under4k"],
+      "tags": [
+        "under4k"
+      ],
       "pick": null,
-      "pros": ["Cheap pre-filter"],
-      "cons": ["Not full RO desal"]
+      "pros": [
+        "Cheap pre-filter"
+      ],
+      "cons": [
+        "Not full RO desal"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/61Ft5fibGML._AC_UL320_.jpg"
     }
   ]
 }

@@ -10,12 +10,30 @@
     "Pair with chairs from dining-chairs page (≤10k combined)"
   ],
   "presets": [
-    { "id": "all", "label": "All options" },
-    { "id": "under3k", "label": "Under 3k" },
-    { "id": "metal", "label": "Metal frame" },
-    { "id": "fold", "label": "Fold / drop-leaf" },
-    { "id": "seats4", "label": "Seats ~4" },
-    { "id": "starred", "label": "★ Starred" }
+    {
+      "id": "all",
+      "label": "All options"
+    },
+    {
+      "id": "under3k",
+      "label": "Under 3k"
+    },
+    {
+      "id": "metal",
+      "label": "Metal frame"
+    },
+    {
+      "id": "fold",
+      "label": "Fold / drop-leaf"
+    },
+    {
+      "id": "seats4",
+      "label": "Seats ~4"
+    },
+    {
+      "id": "starred",
+      "label": "★ Starred"
+    }
   ],
   "items": [
     {
@@ -26,10 +44,21 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Folding+Drop+Leaf+Dining+Table+Black+Metal",
       "summary": "Excellent soft-budget minimal metal look; wheels often included.",
-      "tags": ["under3k", "metal", "fold", "seats4"],
+      "tags": [
+        "under3k",
+        "metal",
+        "fold",
+        "seats4"
+      ],
       "pick": "recommended",
-      "pros": ["Metal aesthetic", "Space-saving", "Under 3k"],
-      "cons": ["Wheels may feel less formal"]
+      "pros": [
+        "Metal aesthetic",
+        "Space-saving",
+        "Under 3k"
+      ],
+      "cons": [
+        "Wheels may feel less formal"
+      ]
     },
     {
       "id": "iron-mdf-3pc",
@@ -39,10 +68,20 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Iron+MDF+Dining+Table+Set+3+Pieces",
       "summary": "Industrial table sets around 3k — check if benches/chairs included.",
-      "tags": ["under3k", "metal", "seats4"],
+      "tags": [
+        "under3k",
+        "metal",
+        "seats4"
+      ],
       "pick": "value",
-      "pros": ["Metal+wood look", "Package deal possible"],
-      "cons": ["Confirm what’s in the 3 pieces"]
+      "pros": [
+        "Metal+wood look",
+        "Package deal possible"
+      ],
+      "cons": [
+        "Confirm what’s in the 3 pieces"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/61xTjR+ecYL._AC_UL320_.jpg"
     },
     {
       "id": "choezon-square",
@@ -52,10 +91,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=CHOEZON+Square+Dining+Table",
       "summary": "Small square — couple daily + desk hybrid creative.",
-      "tags": ["under3k", "creative"],
+      "tags": [
+        "under3k",
+        "creative"
+      ],
       "pick": null,
-      "pros": ["Cheap", "Multi-use"],
-      "cons": ["Tight for 4"]
+      "pros": [
+        "Cheap",
+        "Multi-use"
+      ],
+      "cons": [
+        "Tight for 4"
+      ]
     },
     {
       "id": "compact-120-70",
@@ -65,10 +112,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Modern+Compact+Dining+Table+120+70+metal",
       "summary": "Seats ~4, metal frame, clear dimensions.",
-      "tags": ["metal", "seats4"],
+      "tags": [
+        "metal",
+        "seats4"
+      ],
       "pick": "recommended",
-      "pros": ["True dining size", "Metal frame"],
-      "cons": ["Above 3k"]
+      "pros": [
+        "True dining size",
+        "Metal frame"
+      ],
+      "cons": [
+        "Above 3k"
+      ]
     },
     {
       "id": "brown-150-90",
@@ -78,10 +133,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Dining+Table+Brown+Wood+Black+Metal+150",
       "summary": "Larger couple table that still seats 4.",
-      "tags": ["metal", "seats4"],
+      "tags": [
+        "metal",
+        "seats4"
+      ],
       "pick": "recommended",
-      "pros": ["Generous surface", "Warm top"],
-      "cons": ["Needs floor space"]
+      "pros": [
+        "Generous surface",
+        "Warm top"
+      ],
+      "cons": [
+        "Needs floor space"
+      ]
     },
     {
       "id": "hallowood-dudley",
@@ -91,10 +154,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Hallowood+Dudley+Dining+Table",
       "summary": "Strong aesthetic dual-gate pick under 5k.",
-      "tags": ["metal", "seats4"],
+      "tags": [
+        "metal",
+        "seats4"
+      ],
       "pick": "recommended",
-      "pros": ["Design presence", "Metal U base"],
-      "cons": ["Heavier look"]
+      "pros": [
+        "Design presence",
+        "Metal U base"
+      ],
+      "cons": [
+        "Heavier look"
+      ]
     },
     {
       "id": "lion-industrial",
@@ -104,10 +175,17 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=LION+HOME+Industrial+Dining+Table",
       "summary": "At soft ceiling — farmhouse industrial.",
-      "tags": ["metal", "seats4"],
+      "tags": [
+        "metal",
+        "seats4"
+      ],
       "pick": null,
-      "pros": ["Looks premium for price"],
-      "cons": ["Hits 5k soft cap"]
+      "pros": [
+        "Looks premium for price"
+      ],
+      "cons": [
+        "Hits 5k soft cap"
+      ]
     },
     {
       "id": "ma-steel",
@@ -117,10 +195,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=MA+Steel+Dining+Table+metal+legs",
       "summary": "4–6 person claim — measure living carefully.",
-      "tags": ["metal", "seats4"],
+      "tags": [
+        "metal",
+        "seats4"
+      ],
       "pick": null,
-      "pros": ["Metal legs", "Warm walnut"],
-      "cons": ["May be large"]
+      "pros": [
+        "Metal legs",
+        "Warm walnut"
+      ],
+      "cons": [
+        "May be large"
+      ]
     },
     {
       "id": "tribesigns-71",
@@ -130,10 +216,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Tribesigns+Dining+Table+industrial",
       "summary": "Long table — only if open living allows.",
-      "tags": ["metal", "seats4"],
+      "tags": [
+        "metal",
+        "seats4"
+      ],
       "pick": null,
-      "pros": ["Seats more when needed"],
-      "cons": ["Long for 375 cm room"]
+      "pros": [
+        "Seats more when needed"
+      ],
+      "cons": [
+        "Long for 375 cm room"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/81jNFW+vUfL._AC_UL320_.jpg"
     },
     {
       "id": "jumia-rect",
@@ -143,10 +237,18 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/catalog/?q=%D8%AA%D8%B1%D8%A7%D8%A8%D9%8A%D8%B2%D8%A9+%D8%B3%D9%81%D8%B1%D8%A9",
       "summary": "Basic ready table listings around 2.5–2.9k.",
-      "tags": ["under3k", "seats4"],
+      "tags": [
+        "under3k",
+        "seats4"
+      ],
       "pick": "value",
-      "pros": ["Cheap"],
-      "cons": ["Sparse specs"]
+      "pros": [
+        "Cheap"
+      ],
+      "cons": [
+        "Sparse specs"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/11/3573431/1.jpg?7438"
     },
     {
       "id": "jumia-round",
@@ -156,10 +258,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/catalog/?q=round+dining+table",
       "summary": "Round is friendlier for conversation in small rooms.",
-      "tags": ["under3k", "seats4"],
+      "tags": [
+        "under3k",
+        "seats4"
+      ],
       "pick": null,
-      "pros": ["Soft visual", "Cheap"],
-      "cons": ["Confirm diameter"]
+      "pros": [
+        "Soft visual",
+        "Cheap"
+      ],
+      "cons": [
+        "Confirm diameter"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/12/5631431/1.jpg?2993"
     },
     {
       "id": "hail-fold",
@@ -170,10 +281,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/catalog/?q=Hail+Steel+Dining+table+folding",
       "summary": "Creative: not “dining furniture” but cheap reliable large surface.",
-      "tags": ["fold", "creative", "seats4"],
+      "tags": [
+        "fold",
+        "creative",
+        "seats4"
+      ],
       "pick": "value",
-      "pros": ["Sturdy fold", "Seats many guests"],
-      "cons": ["Plastic top look"]
+      "pros": [
+        "Sturdy fold",
+        "Seats many guests"
+      ],
+      "cons": [
+        "Plastic top look"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/48/2584431/1.jpg?4224"
     },
     {
       "id": "woltu-bar",
@@ -183,10 +304,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=WOLTU+High+Bar+Table+metal+wood",
       "summary": "Creative high table — couple breakfast counter vibe.",
-      "tags": ["under3k", "metal", "creative"],
+      "tags": [
+        "under3k",
+        "metal",
+        "creative"
+      ],
       "pick": null,
-      "pros": ["Cheap metal", "Different posture"],
-      "cons": ["Needs bar stools not dining chairs"]
+      "pros": [
+        "Cheap metal",
+        "Different posture"
+      ],
+      "cons": [
+        "Needs bar stools not dining chairs"
+      ]
     }
   ]
 }

@@ -10,12 +10,30 @@
     "Leave clearance for chair + door swing in second bedroom"
   ],
   "presets": [
-    { "id": "all", "label": "All options" },
-    { "id": "under15", "label": "Under 1.5k" },
-    { "id": "under3k", "label": "Under 3k" },
-    { "id": "minimal", "label": "Minimal 4-leg" },
-    { "id": "storage", "label": "With shelves" },
-    { "id": "starred", "label": "★ Starred" }
+    {
+      "id": "all",
+      "label": "All options"
+    },
+    {
+      "id": "under15",
+      "label": "Under 1.5k"
+    },
+    {
+      "id": "under3k",
+      "label": "Under 3k"
+    },
+    {
+      "id": "minimal",
+      "label": "Minimal 4-leg"
+    },
+    {
+      "id": "storage",
+      "label": "With shelves"
+    },
+    {
+      "id": "starred",
+      "label": "★ Starred"
+    }
   ],
   "items": [
     {
@@ -26,10 +44,21 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=DeckUp+Iris+desk+white",
       "summary": "Clean white engineered wood desk — under soft budget.",
-      "tags": ["under15", "under3k", "minimal"],
+      "tags": [
+        "under15",
+        "under3k",
+        "minimal"
+      ],
       "pick": "recommended",
-      "pros": ["Minimal", "Well under 3k", "Light look"],
-      "cons": ["Confirm actual width for dual monitors"]
+      "pros": [
+        "Minimal",
+        "Well under 3k",
+        "Light look"
+      ],
+      "cons": [
+        "Confirm actual width for dual monitors"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/61DoGRl4yTL._AC_UL320_.jpg"
     },
     {
       "id": "deckup-walnut",
@@ -39,10 +68,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=DeckUp+Iris+desk+walnut",
       "summary": "Warmer nest-friendly tone.",
-      "tags": ["under15", "under3k", "minimal"],
+      "tags": [
+        "under15",
+        "under3k",
+        "minimal"
+      ],
       "pick": "recommended",
-      "pros": ["Warm wood", "Cheap"],
-      "cons": ["Same size limits as white"]
+      "pros": [
+        "Warm wood",
+        "Cheap"
+      ],
+      "cons": [
+        "Same size limits as white"
+      ]
     },
     {
       "id": "deckup-wenge",
@@ -52,10 +90,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=DeckUp+Iris+desk+wenge",
       "summary": "Darker minimal option.",
-      "tags": ["under15", "under3k", "minimal"],
+      "tags": [
+        "under15",
+        "under3k",
+        "minimal"
+      ],
       "pick": "value",
-      "pros": ["Lowest DeckUp price band"],
-      "cons": ["Dark may mark dust"]
+      "pros": [
+        "Lowest DeckUp price band"
+      ],
+      "cons": [
+        "Dark may mark dust"
+      ]
     },
     {
       "id": "study-90-white",
@@ -65,10 +111,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Studying+Desk+White+90+40",
       "summary": "Compact minimal writing desk for tight rooms.",
-      "tags": ["under15", "under3k", "minimal"],
+      "tags": [
+        "under15",
+        "under3k",
+        "minimal"
+      ],
       "pick": "value",
-      "pros": ["Very cheap", "Small footprint"],
-      "cons": ["Narrow for long work sessions"]
+      "pros": [
+        "Very cheap",
+        "Small footprint"
+      ],
+      "cons": [
+        "Narrow for long work sessions"
+      ]
     },
     {
       "id": "mh-wenge-shelf",
@@ -78,10 +133,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/modern-home-wood-study-table-and-computer-desk-a-versatile-home-office-workstation-with-integrated-storage-shelf-for-books-and-essentials-dark-wenge-134073507.html",
       "summary": "Desk + integrated shelf — good hybrid office look.",
-      "tags": ["under15", "under3k", "storage"],
+      "tags": [
+        "under15",
+        "under3k",
+        "storage"
+      ],
       "pick": "recommended",
-      "pros": ["Storage built in", "Under 1k"],
-      "cons": ["Chipboard quality varies"]
+      "pros": [
+        "Storage built in",
+        "Under 1k"
+      ],
+      "cons": [
+        "Chipboard quality varies"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/70/5370431/1.jpg?9357"
     },
     {
       "id": "console-80",
@@ -91,10 +156,21 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Modern+Table+80+cm+Compact+Desk+brown",
       "summary": "Can double as slim console if room layout needs flexibility.",
-      "tags": ["under15", "under3k", "minimal", "creative"],
+      "tags": [
+        "under15",
+        "under3k",
+        "minimal",
+        "creative"
+      ],
       "pick": null,
-      "pros": ["Dual use", "Minimal"],
-      "cons": ["80 cm may feel small for WFH"]
+      "pros": [
+        "Dual use",
+        "Minimal"
+      ],
+      "cons": [
+        "80 cm may feel small for WFH"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/51QVmtzbMrL._AC_UL320_.jpg"
     },
     {
       "id": "folding-metal",
@@ -104,10 +180,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Folding+Computer+Desk+black+metal+frame",
       "summary": "Metal legs + board — matches “minimal four legs” brief.",
-      "tags": ["under3k", "minimal"],
+      "tags": [
+        "under3k",
+        "minimal"
+      ],
       "pick": "recommended",
-      "pros": ["Metal frame aesthetic", "Foldable if needed"],
-      "cons": ["Folding joints can flex"]
+      "pros": [
+        "Metal frame aesthetic",
+        "Foldable if needed"
+      ],
+      "cons": [
+        "Folding joints can flex"
+      ]
     },
     {
       "id": "cubicubi",
@@ -117,10 +201,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=CubiCubi+Computer+Desk",
       "summary": "Classic simple rectangle office desk.",
-      "tags": ["under3k", "minimal"],
+      "tags": [
+        "under3k",
+        "minimal"
+      ],
       "pick": "recommended",
-      "pros": ["True work desk proportions", "Simple look"],
-      "cons": ["Basic storage"]
+      "pros": [
+        "True work desk proportions",
+        "Simple look"
+      ],
+      "cons": [
+        "Basic storage"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/71dtb7pu9VL._AC_UL320_.jpg"
     },
     {
       "id": "shw-48",
@@ -130,10 +223,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=SHW+Home+Office+48+Computer+Desk",
       "summary": "Larger surface still under soft 3k.",
-      "tags": ["under3k", "minimal"],
+      "tags": [
+        "under3k",
+        "minimal"
+      ],
       "pick": "recommended",
-      "pros": ["~122 cm width", "Known desk brand"],
-      "cons": ["Black only in listing"]
+      "pros": [
+        "~122 cm width",
+        "Known desk brand"
+      ],
+      "cons": [
+        "Black only in listing"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/81gP1C2KUYL._AC_UL320_.jpg"
     },
     {
       "id": "greenforest",
@@ -143,10 +245,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=GreenForest+Computer+Desk+47",
       "summary": "Work surface + open shelves for books/router.",
-      "tags": ["under3k", "storage"],
+      "tags": [
+        "under3k",
+        "storage"
+      ],
       "pick": null,
-      "pros": ["Storage", "Under 2k"],
-      "cons": ["Bulkier visual"]
+      "pros": [
+        "Storage",
+        "Under 2k"
+      ],
+      "cons": [
+        "Bulkier visual"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/71MmR0PBS8L._AC_UL320_.jpg"
     },
     {
       "id": "wohomo-120",
@@ -156,10 +267,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=WOHOMO+Computer+Desk+120cm",
       "summary": "Good WFH size with storage — still soft under 3k.",
-      "tags": ["under3k", "storage"],
+      "tags": [
+        "under3k",
+        "storage"
+      ],
       "pick": "recommended",
-      "pros": ["120 cm", "Shelves"],
-      "cons": ["Heavier visual mass"]
+      "pros": [
+        "120 cm",
+        "Shelves"
+      ],
+      "cons": [
+        "Heavier visual mass"
+      ]
     },
     {
       "id": "wohomo-100",
@@ -169,10 +288,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=WOHOMO+Computer+Desk+100cm",
       "summary": "Slightly smaller WOHOMO for hybrid guest room.",
-      "tags": ["under3k", "storage"],
+      "tags": [
+        "under3k",
+        "storage"
+      ],
       "pick": null,
-      "pros": ["Fits tighter wall"],
-      "cons": ["Less spread space"]
+      "pros": [
+        "Fits tighter wall"
+      ],
+      "cons": [
+        "Less spread space"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/71J9GwaoP4L._AC_UL320_.jpg"
     },
     {
       "id": "dlandhome",
@@ -182,10 +309,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=DlandHome+Computer+Desk",
       "summary": "Wide simple top for dual use.",
-      "tags": ["under3k", "minimal"],
+      "tags": [
+        "under3k",
+        "minimal"
+      ],
       "pick": null,
-      "pros": ["Large surface"],
-      "cons": ["Measure room carefully"]
+      "pros": [
+        "Large surface"
+      ],
+      "cons": [
+        "Measure room carefully"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/71uPODyuw3L._AC_UL320_.jpg"
     },
     {
       "id": "grandder-40",
@@ -195,10 +330,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Grandder+40+inch+Computer+Desk",
       "summary": "Minimal black 4-leg style.",
-      "tags": ["under3k", "minimal"],
+      "tags": [
+        "under3k",
+        "minimal"
+      ],
       "pick": null,
-      "pros": ["Simple", "Adjustable feet listed"],
-      "cons": ["40″ may feel small"]
+      "pros": [
+        "Simple",
+        "Adjustable feet listed"
+      ],
+      "cons": [
+        "40″ may feel small"
+      ]
     },
     {
       "id": "aci-100x60",
@@ -209,10 +352,18 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/catalog/?q=ACI+Elegant+Office+Desk+100X60",
       "summary": "Explicit 100×60 work desk — upper soft band.",
-      "tags": ["under3k", "minimal"],
+      "tags": [
+        "under3k",
+        "minimal"
+      ],
       "pick": null,
-      "pros": ["Good depth 60 cm"],
-      "cons": ["Near budget ceiling"]
+      "pros": [
+        "Good depth 60 cm"
+      ],
+      "cons": [
+        "Near budget ceiling"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/09/363416/1.jpg?7538"
     },
     {
       "id": "furneaser",
@@ -222,10 +373,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=FURNEASER+study+table",
       "summary": "Space-saving with side shelves.",
-      "tags": ["under15", "under3k", "storage"],
+      "tags": [
+        "under15",
+        "under3k",
+        "storage"
+      ],
       "pick": "value",
-      "pros": ["Storage + desk", "Cheap"],
-      "cons": ["Not pure four-leg minimal"]
+      "pros": [
+        "Storage + desk",
+        "Cheap"
+      ],
+      "cons": [
+        "Not pure four-leg minimal"
+      ]
     }
   ]
 }

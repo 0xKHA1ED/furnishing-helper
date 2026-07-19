@@ -10,13 +10,34 @@
     "Skip faux Herman-Miller branded listings"
   ],
   "presets": [
-    { "id": "all", "label": "All options" },
-    { "id": "under2k", "label": "Under 2k" },
-    { "id": "mid", "label": "2–4.5k" },
-    { "id": "top", "label": "4.5–6k" },
-    { "id": "mesh", "label": "Mesh" },
-    { "id": "headrest", "label": "Headrest" },
-    { "id": "starred", "label": "★ Starred" }
+    {
+      "id": "all",
+      "label": "All options"
+    },
+    {
+      "id": "under2k",
+      "label": "Under 2k"
+    },
+    {
+      "id": "mid",
+      "label": "2–4.5k"
+    },
+    {
+      "id": "top",
+      "label": "4.5–6k"
+    },
+    {
+      "id": "mesh",
+      "label": "Mesh"
+    },
+    {
+      "id": "headrest",
+      "label": "Headrest"
+    },
+    {
+      "id": "starred",
+      "label": "★ Starred"
+    }
   ],
   "items": [
     {
@@ -27,10 +48,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/sarcomisr-mesh-office-chair-sm-110-ergonomic-desk-chair-swivel-black-134559960.html",
       "summary": "Entry mesh — short sessions OK, not ideal all-day.",
-      "tags": ["under2k", "mesh"],
+      "tags": [
+        "under2k",
+        "mesh"
+      ],
       "pick": "value",
-      "pros": ["Cheap mesh", "Swivel"],
-      "cons": ["Limited all-day support"]
+      "pros": [
+        "Cheap mesh",
+        "Swivel"
+      ],
+      "cons": [
+        "Limited all-day support"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/06/9955431/1.jpg?8473"
     },
     {
       "id": "mesh-jm",
@@ -40,10 +70,18 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/generic-mesh-jm-swivel-office-chair-black-color-chrome-base-from-leaders-furniture-134700595.html",
       "summary": "Budget mesh with chrome base.",
-      "tags": ["under2k", "mesh"],
+      "tags": [
+        "under2k",
+        "mesh"
+      ],
       "pick": null,
-      "pros": ["Under 1.5k"],
-      "cons": ["Basic pad"]
+      "pros": [
+        "Under 1.5k"
+      ],
+      "cons": [
+        "Basic pad"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/59/5007431/1.jpg?3568"
     },
     {
       "id": "karnak-mid",
@@ -53,10 +91,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/generic-karnak-home-office-chair-ergonomic-360-swivel-mesh-desk-chair-with-armrest-stainless-steel-base-adjustable-height-lumber-support-rotating-mesh-chair-mid-back-black-134700708.html",
       "summary": "Mid-back mesh with arms — entry WFH.",
-      "tags": ["under2k", "mesh"],
+      "tags": [
+        "under2k",
+        "mesh"
+      ],
       "pick": null,
-      "pros": ["Arms", "Height adjust"],
-      "cons": ["Mid-back only"]
+      "pros": [
+        "Arms",
+        "Height adjust"
+      ],
+      "cons": [
+        "Mid-back only"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/80/7007431/1.jpg?3670"
     },
     {
       "id": "quattro-medical",
@@ -66,10 +113,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Quattro+Manager+Medical+Office+Chair",
       "summary": "Common “medical mesh” Egypt style chair.",
-      "tags": ["under2k", "mesh"],
+      "tags": [
+        "under2k",
+        "mesh"
+      ],
       "pick": "value",
-      "pros": ["Breathable mesh", "Cheap"],
-      "cons": ["Padding quality varies"]
+      "pros": [
+        "Breathable mesh",
+        "Cheap"
+      ],
+      "cons": [
+        "Padding quality varies"
+      ]
     },
     {
       "id": "amz-headrest-1579",
@@ -79,10 +134,20 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Home+Office+chair+Mesh+Headrest+Black",
       "summary": "Budget headrest mesh — OK starter.",
-      "tags": ["under2k", "mesh", "headrest"],
+      "tags": [
+        "under2k",
+        "mesh",
+        "headrest"
+      ],
       "pick": null,
-      "pros": ["Headrest", "Under 2k"],
-      "cons": ["Build lottery"]
+      "pros": [
+        "Headrest",
+        "Under 2k"
+      ],
+      "cons": [
+        "Build lottery"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/61kE2u7uWfL._AC_UL320_.jpg"
     },
     {
       "id": "kia-director",
@@ -92,10 +157,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/generic-kia-medical-mesh-directors-chair-with-headrest-78547801.html",
       "summary": "Director style mesh with headrest.",
-      "tags": ["under2k", "mesh", "headrest"],
+      "tags": [
+        "under2k",
+        "mesh",
+        "headrest"
+      ],
       "pick": null,
-      "pros": ["Headrest", "Known style"],
-      "cons": ["Not full ergonomic"]
+      "pros": [
+        "Headrest",
+        "Known style"
+      ],
+      "cons": [
+        "Not full ergonomic"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/10/874587/1.jpg?9052"
     },
     {
       "id": "sm909",
@@ -106,10 +181,22 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/sarcomisr-desk-chair-office-chair-for-home-height-adjustable-mid-back-mesh-computer-chair-with-lumbar-support-mesh-swivel-computer-office-ergonomic-executive-chair-sm-909-with-headrest-black-134316618.html",
       "summary": "Better mid entry with lumbar + headrest claims.",
-      "tags": ["under2k", "mid", "mesh", "headrest"],
+      "tags": [
+        "under2k",
+        "mid",
+        "mesh",
+        "headrest"
+      ],
       "pick": "recommended",
-      "pros": ["Lumbar claim", "Headrest", "Still ~2k"],
-      "cons": ["Mid-back"]
+      "pros": [
+        "Lumbar claim",
+        "Headrest",
+        "Still ~2k"
+      ],
+      "cons": [
+        "Mid-back"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/81/6613431/1.jpg?6404"
     },
     {
       "id": "office-mix-a921",
@@ -119,10 +206,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Office+Mix+A-921+Manager+Chair",
       "summary": "High-back mesh manager chair mid band.",
-      "tags": ["mid", "mesh"],
+      "tags": [
+        "mid",
+        "mesh"
+      ],
       "pick": "recommended",
-      "pros": ["High back", "Tilt lock listed"],
-      "cons": ["Heavier aesthetic"]
+      "pros": [
+        "High back",
+        "Tilt lock listed"
+      ],
+      "cons": [
+        "Heavier aesthetic"
+      ]
     },
     {
       "id": "sarco-high",
@@ -132,10 +227,21 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/sarcomisr-desk-chair-high-back-mesh-office-chair-with-lumbar-support-ergonomic-height-adjustable-swivel-matte-finish-for-home-office-ergonomic-swivelmodern-style-black-with-headrest-134559843.html",
       "summary": "Strong soft-budget pick for longer sessions.",
-      "tags": ["mid", "mesh", "headrest"],
+      "tags": [
+        "mid",
+        "mesh",
+        "headrest"
+      ],
       "pick": "recommended",
-      "pros": ["High back", "Lumbar", "Under 4k"],
-      "cons": ["Still not premium foam"]
+      "pros": [
+        "High back",
+        "Lumbar",
+        "Under 4k"
+      ],
+      "cons": [
+        "Still not premium foam"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/34/8955431/1.jpg?5233"
     },
     {
       "id": "rama-402",
@@ -145,10 +251,19 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/rama-desk-chair-rm-402-high-back-mesh-office-chair-with-lumbar-support-ergonomic-height-adjustable-swivel-matte-finish-for-home-office-ergonomic-swivelmodern-style-black-medium-back-134733846.html",
       "summary": "Mid-upper band mesh task chair.",
-      "tags": ["top", "mesh"],
+      "tags": [
+        "top",
+        "mesh"
+      ],
       "pick": "recommended",
-      "pros": ["Ergonomic claims", "Under 5k"],
-      "cons": ["Listing says medium back — verify"]
+      "pros": [
+        "Ergonomic claims",
+        "Under 5k"
+      ],
+      "cons": [
+        "Listing says medium back — verify"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/64/8337431/1.jpg?5843"
     },
     {
       "id": "staff-sh-m007",
@@ -158,10 +273,20 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/generic-staff-chair-mesh-black-high-back-new-trend-mesh-2d-headrest-adjustable-armrests-8cm-lift-360-swivel-h110-118cm-sh-m-007-134611725.html",
       "summary": "High-back with headrest + adjustable arms.",
-      "tags": ["top", "mesh", "headrest"],
+      "tags": [
+        "top",
+        "mesh",
+        "headrest"
+      ],
       "pick": "recommended",
-      "pros": ["Arms adjust", "Headrest"],
-      "cons": ["Near soft cap"]
+      "pros": [
+        "Arms adjust",
+        "Headrest"
+      ],
+      "cons": [
+        "Near soft cap"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/52/7116431/1.jpg?1535"
     },
     {
       "id": "wasilaah-m5",
@@ -171,10 +296,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Wasilaah+M5+Mesh+Chair",
       "summary": "Contemporary mesh — brand presence on Amazon.eg.",
-      "tags": ["mid", "mesh"],
+      "tags": [
+        "mid",
+        "mesh"
+      ],
       "pick": null,
-      "pros": ["Known local listing", "Under 4.5k"],
-      "cons": ["Some versions armless"]
+      "pros": [
+        "Known local listing",
+        "Under 4.5k"
+      ],
+      "cons": [
+        "Some versions armless"
+      ],
+      "imageUrl": "https://m.media-amazon.com/images/I/71Q9LJyXk+L._AC_UL320_.jpg"
     },
     {
       "id": "ergo-4999",
@@ -184,10 +318,19 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Ergonomic+High-Back+Mesh+Office+Chair+Flip-Up",
       "summary": "Near soft budget ceiling — best features under 6k class.",
-      "tags": ["top", "mesh", "headrest"],
+      "tags": [
+        "top",
+        "mesh",
+        "headrest"
+      ],
       "pick": "recommended",
-      "pros": ["Flip arms", "Lumbar + headrest"],
-      "cons": ["Confirm seller rating"]
+      "pros": [
+        "Flip arms",
+        "Lumbar + headrest"
+      ],
+      "cons": [
+        "Confirm seller rating"
+      ]
     },
     {
       "id": "duramont",
@@ -197,10 +340,18 @@
       "source": "Amazon.eg",
       "url": "https://www.amazon.eg/s?k=Duramont+Ergonomic+Office+Chair",
       "summary": "Soft overshoot only if long WFH justifies it.",
-      "tags": ["top", "mesh", "stretch"],
+      "tags": [
+        "top",
+        "mesh",
+        "stretch"
+      ],
       "pick": "stretch",
-      "pros": ["Stronger ergonomic brand"],
-      "cons": ["Slightly over 6k soft cap"]
+      "pros": [
+        "Stronger ergonomic brand"
+      ],
+      "cons": [
+        "Slightly over 6k soft cap"
+      ]
     },
     {
       "id": "swivel-writing",
@@ -211,10 +362,17 @@
       "source": "Jumia",
       "url": "https://www.jumia.com.eg/catalog/?q=office+writing+swivel+chair",
       "summary": "Simple task chair mid budget.",
-      "tags": ["mid"],
+      "tags": [
+        "mid"
+      ],
       "pick": null,
-      "pros": ["Cheap mid"],
-      "cons": ["Often not full mesh"]
+      "pros": [
+        "Cheap mid"
+      ],
+      "cons": [
+        "Often not full mesh"
+      ],
+      "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/61/6007431/1.jpg?3585"
     }
   ]
 }
