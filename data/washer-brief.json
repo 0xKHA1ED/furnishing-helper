@@ -1,41 +1,30 @@
 {
-  "version": 3,
+  "version": 4,
   "lastUpdated": "2026-07-20",
-  "status": "market_constrained_watch_restock",
+  "status": "ready_to_compare_buy_now_options",
   "galleryPage": "washer-gallery.html",
   "catalogPath": "data/appliances/washer_catalog.json",
   "filters": {
     "loading": "top_load",
     "automation": "full_auto",
-    "color": "black_preferred_dark_silver_near_black_accepted",
-    "capacityKg": [9],
+    "color": "black_preferred_near_black_accepted",
+    "capacityKg": [9, 10],
     "channel": "official_manufacturer_only"
   },
-  "marketFinding": "Zero pure-black 9 kg top-load full-auto washers on official Egypt manufacturer sites (2026-07-20 Playwright scan). Only official near-black 9 kg tops: Sharp ES-TN09GDSP and Tornado TWE-TLN09RDS (Dark Silver body + Black lid) on Elaraby — both out of stock. Fresh 9 kg top is silver-only OOS. Samsung/LG/Beko/Zanussi 9 kg official SKUs are front-load. True black top-load starts at 10 kg (Fresh Black LED in stock ~13,017 EGP; LG T10V1TEHG2 ~15,990 EGP).",
+  "marketFinding": "With 10 kg included: two true-black top-load full-auto options are buyable on official sites — Fresh 10 kg Black LED (~13,017 EGP, in stock) and LG T10V1TEHG2 Middle Black (~15,990 EGP). Pure black 9 kg still zero. 9 kg near-black Sharp/Tornado dark silver remain OOS on Elaraby. Zanussi 10 kg dark grey near-black OOS.",
   "workingRecommendation": {
-    "strict_9kg_near_black_official": "Tornado TWE-TLN09RDS ~12,629 EGP or Sharp ES-TN09GDSP ~13,529 EGP on Elaraby — use Notify me (currently OOS)",
-    "if_must_buy_now_true_black": "Flex to Fresh 10 kg Black LED ~13,017 EGP (official Fresh, in stock) or LG 10 kg Middle Black ~15,990 EGP",
-    "avoid": "Front-load 9 kg blacks if top-load is hard requirement; pure silver 9 kg tops if black aesthetic is hard requirement",
-    "ui": "washer-gallery.html — near-black catalog + flex links in market callout"
+    "buy_now_value_black": "Fresh 10 kg Black LED ~13,017 EGP official — rank #1",
+    "buy_now_premium_black": "LG T10V1TEHG2 10 kg Middle Black ~15,990 EGP official",
+    "exact_9kg_near_black_wait": "Tornado TWE-TLN09RDS ~12.6k or Sharp ES-TN09GDSP ~13.5k on Elaraby — Notify me",
+    "ui": "washer-gallery.html — presets for true black / 9 kg / 10 kg / in stock"
   },
   "scrapePass": {
     "completedAt": "2026-07-20",
     "tool": "Playwright MCP",
-    "manufacturers": [
-      "Elaraby Group (Sharp, Tornado, Hoover, Candy, Hitachi, Toshiba)",
-      "Fresh.com.eg",
-      "Samsung Egypt",
-      "LG Egypt",
-      "Toshiba Lifestyle Egypt",
-      "Zanussi Egypt",
-      "White Point Elabd",
-      "Beko Egypt",
-      "Kiriazi",
-      "Unionaire",
-      "Haier Egypt"
-    ],
-    "strictBlack9kgTopMatches": 0,
-    "nearBlack9kgTopMatches": 2,
-    "catalogItems": 2
+    "capacityBand": [9, 10],
+    "catalogItems": 5,
+    "inStock": 2,
+    "strictBlack": 2,
+    "nearBlack": 3
   }
 }

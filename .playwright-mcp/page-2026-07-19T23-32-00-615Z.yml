@@ -1,0 +1,807 @@
+- generic [active] [ref=f112e1]:
+  - banner [ref=f112e9]:
+    - generic [ref=f112e10]:
+      - list [ref=f112e12]:
+        - listitem [ref=f112e13]:
+          - link "Business" [ref=f112e14] [cursor=pointer]:
+            - /url: /eg_en/business/
+      - generic [ref=f112e17]:
+        - link [ref=f112e19] [cursor=pointer]:
+          - /url: /eg_en/
+          - img "LG logo (Life's Good)" [ref=f112e22]
+        - list [ref=f112e24]:
+          - listitem [ref=f112e25]:
+            - button "Search" [ref=f112e26] [cursor=pointer]
+          - listitem [ref=f112e28]:
+            - link "Sign in New notification" [ref=f112e30] [cursor=pointer]:
+              - /url: /eg_en/login/
+              - generic [ref=f112e31]: Sign in
+              - emphasis
+          - listitem [ref=f112e32]:
+            - link "Cart 2" [ref=f112e33] [cursor=pointer]:
+              - /url: /eg_en/cart/
+              - generic [ref=f112e34]: Cart
+          - listitem [ref=f112e35]:
+            - button "Open Menu" [ref=f112e36] [cursor=pointer]
+  - generic [ref=f112e39]:
+    - navigation "Breadcrumb" [ref=f112e42]:
+      - list [ref=f112e43]:
+        - listitem [ref=f112e44]:
+          - link "Home" [ref=f112e45] [cursor=pointer]:
+            - /url: /eg_en/
+        - listitem [ref=f112e46]:
+          - link "Washer & Dryers" [ref=f112e47] [cursor=pointer]:
+            - /url: /eg_en/washer-dryers/
+        - listitem [ref=f112e48]:
+          - link "Top loading washing machines" [ref=f112e49] [cursor=pointer]:
+            - /url: /eg_en/washer-dryers/top-loading-washing-machines/
+        - listitem [ref=f112e50]:
+          - strong [ref=f112e51]: T10V1TEHG2
+    - main [ref=f112e53]:
+      - generic [ref=f112e56]:
+        - generic [ref=f112e62]:
+          - heading "New Top Load Washing Machine-10kg Middle Black" [level=2] [ref=f112e64]
+          - generic [ref=f112e65]:
+            - generic [ref=f112e67]:
+              - generic [ref=f112e68]: EGP 15,990.00
+              - generic [ref=f112e70]:
+                - generic [ref=f112e71]: Member only
+                - generic [ref=f112e72]: EGP 15,670.20
+            - link "Buy now" [ref=f112e74] [cursor=pointer]:
+              - /url: /eg_en/washer-dryers/top-loading-washing-machines/t10v1tehg2/buy
+        - generic [ref=f112e78]:
+          - generic [ref=f112e79]:
+            - generic [ref=f112e81]:
+              - heading "New Top Load Washing Machine-10kg Middle Black" [level=1] [ref=f112e84]
+              - generic [ref=f112e85]:
+                - generic [ref=f112e86]:
+                  - generic [ref=f112e87]: T10V1TEHG2
+                  - button "Copy model name" [ref=f112e89] [cursor=pointer]
+                - button "Chat with an expert" [ref=f112e92] [cursor=pointer]
+              - generic [ref=f112e97] [cursor=pointer]:
+                - generic [ref=f112e98]:
+                  - button "No rating value" [disabled] [ref=f112e99]
+                  - button "No rating value. Same page link. 0 Reviews" [ref=f112e111]:
+                    - generic [ref=f112e112]: No rating value. Same page link.
+                    - generic [ref=f112e113]: 0 Reviews
+                - button "Write a review. This action will open a modal dialog." [ref=f112e119]: Write a review
+            - generic [ref=f112e125]:
+              - generic [ref=f112e126]:
+                - list "Slider Label Title" [ref=f112e129]:
+                  - listitem [ref=f112e130]:
+                    - img "right side" [ref=f112e134]
+                  - listitem [ref=f112e135]:
+                    - img "Front view of New Top Load Washing Machine-10kg Middle Black T10V1TEHG2" [ref=f112e139]
+                  - listitem [ref=f112e140]:
+                    - img "front view open" [ref=f112e144]
+                  - listitem [ref=f112e145]:
+                    - img "drum" [ref=f112e149]
+                  - listitem [ref=f112e150]:
+                    - img "left tray open" [ref=f112e154]
+                  - listitem [ref=f112e155]:
+                    - img "display" [ref=f112e159]
+                  - listitem [ref=f112e160]:
+                    - img "front tray open" [ref=f112e164]
+                  - listitem [ref=f112e165]:
+                    - img "left side" [ref=f112e169]
+                  - listitem [ref=f112e170]:
+                    - img "left side" [ref=f112e174]
+                  - listitem [ref=f112e175]:
+                    - img "top perspective view" [ref=f112e179]
+                  - listitem [ref=f112e180]:
+                    - img "right side open" [ref=f112e184]
+                  - listitem [ref=f112e185]:
+                    - img "right side" [ref=f112e189]
+                  - listitem [ref=f112e190]:
+                    - img "right perspective view" [ref=f112e194]
+                  - listitem [ref=f112e195]:
+                    - img "side door open" [ref=f112e199]
+                  - listitem [ref=f112e200]:
+                    - img "left side" [ref=f112e204]
+                  - listitem [ref=f112e205]:
+                    - img "right side" [ref=f112e209]
+                  - listitem [ref=f112e210]:
+                    - img "Front view of New Top Load Washing Machine-10kg Middle Black T10V1TEHG2" [ref=f112e214]
+                - button "open gallery popup" [ref=f112e215] [cursor=pointer]
+              - generic [ref=f112e218]:
+                - button "Previous slide" [ref=f112e219] [cursor=pointer]
+                - list "Slider Label Title" [ref=f112e223]:
+                  - listitem [ref=f112e224] [cursor=pointer]:
+                    - button [ref=f112e225]:
+                      - img "Front view of New Top Load Washing Machine-10kg Middle Black T10V1TEHG2" [ref=f112e228]
+                  - listitem [ref=f112e229] [cursor=pointer]:
+                    - button [ref=f112e230]:
+                      - img "front view open" [ref=f112e233]
+                  - listitem [ref=f112e234] [cursor=pointer]:
+                    - button [ref=f112e235]:
+                      - img "drum" [ref=f112e238]
+                  - listitem [ref=f112e239] [cursor=pointer]:
+                    - button [ref=f112e240]:
+                      - img "left tray open" [ref=f112e243]
+                  - listitem [ref=f112e244] [cursor=pointer]:
+                    - button [ref=f112e245]:
+                      - img "display" [ref=f112e248]
+                  - listitem [ref=f112e249] [cursor=pointer]:
+                    - button [ref=f112e250]:
+                      - img "front tray open" [ref=f112e253]
+                  - listitem [ref=f112e254] [cursor=pointer]:
+                    - button [ref=f112e255]:
+                      - img "left side" [ref=f112e258]
+                  - listitem [ref=f112e259] [cursor=pointer]:
+                    - button [ref=f112e260]:
+                      - img "left side" [ref=f112e263]
+                  - listitem [ref=f112e264] [cursor=pointer]:
+                    - button [ref=f112e265]:
+                      - img "top perspective view" [ref=f112e268]
+                  - listitem [ref=f112e269] [cursor=pointer]:
+                    - button [ref=f112e270]:
+                      - img "right side open" [ref=f112e273]
+                  - listitem [ref=f112e274] [cursor=pointer]:
+                    - button [ref=f112e275]:
+                      - img "right side" [ref=f112e278]
+                  - listitem [ref=f112e279] [cursor=pointer]:
+                    - button [ref=f112e280]:
+                      - img "right perspective view" [ref=f112e283]
+                  - listitem [ref=f112e284] [cursor=pointer]:
+                    - button [ref=f112e285]:
+                      - img "side door open" [ref=f112e288]
+                  - listitem [ref=f112e289] [cursor=pointer]:
+                    - button [ref=f112e290]:
+                      - img "left side" [ref=f112e293]
+                  - listitem [ref=f112e294] [cursor=pointer]:
+                    - button [ref=f112e295]:
+                      - img "right side" [ref=f112e298]
+                - button "Next slide" [ref=f112e299] [cursor=pointer]
+            - generic [ref=f112e302]:
+              - paragraph [ref=f112e303]: Key Features
+              - list [ref=f112e304]:
+                - listitem [ref=f112e305]: Soft Closing Door
+                - listitem [ref=f112e306]: 10 Years Warranty
+                - listitem [ref=f112e307]: Smart Diagnosis™
+              - link "More" [ref=f112e308] [cursor=pointer]:
+                - /url: "#"
+              - list [ref=f112e310]:
+                - listitem [ref=f112e311]:
+                  - paragraph [ref=f112e313]: Free Delivery / Installation.
+          - tablist "If you select menu, the focus move to area providing the selected information in this web page." [ref=f112e317]:
+            - tab [selected] [ref=f112e318] [cursor=pointer]:
+              - heading "Features" [level=2] [ref=f112e319]
+            - tab [ref=f112e320] [cursor=pointer]:
+              - heading "Specs" [level=2] [ref=f112e321]
+            - tab [ref=f112e322] [cursor=pointer]:
+              - heading "Reviews" [level=2] [ref=f112e323]
+            - tab [ref=f112e324] [cursor=pointer]:
+              - heading "FAQ" [level=2] [ref=f112e325]
+            - tab [ref=f112e326] [cursor=pointer]:
+              - heading "Support" [level=2] [ref=f112e327]
+            - tab [ref=f112e328] [cursor=pointer]:
+              - heading "Where to buy" [level=2] [ref=f112e329]
+        - generic [ref=f112e334]:
+          - generic [ref=f112e337]:
+            - heading "Designed for a better laundry experience" [level=2] [ref=f112e343]
+            - list "Slider Label Title" [ref=f112e346]:
+              - listitem [ref=f112e347]:
+                - img "A little girl is lying in bed with a doll in her arms" [ref=f112e352]
+                - generic [ref=f112e353]:
+                  - paragraph [ref=f112e355]: Quiet as a whisper
+                  - paragraph [ref=f112e357]: Office level quiteness
+              - listitem [ref=f112e358]:
+                - img "The drum inside the washing machine is showing how it is running" [ref=f112e363]
+                - generic [ref=f112e364]:
+                  - paragraph [ref=f112e366]: TurboDrum™
+                  - paragraph [ref=f112e368]: Powerful yet gentle
+              - listitem [ref=f112e369]:
+                - img "In the background, there is a washing machine, and in front, there is a clean laundry and a washing machine motion icon on it" [ref=f112e374]
+                - generic [ref=f112e375]:
+                  - paragraph [ref=f112e377]: Smart motion
+                  - paragraph [ref=f112e379]: Triple-motion wash
+              - listitem [ref=f112e380]:
+                - img "The washing machine cover is showing open" [ref=f112e385]
+                - generic [ref=f112e386]:
+                  - paragraph [ref=f112e388]: Durability
+                  - paragraph [ref=f112e390]: Built strong, closes soft
+          - generic [ref=f112e395]:
+            - generic [ref=f112e396]:
+              - generic [ref=f112e397]:
+                - img "The drum in the washing machine is showing how it is running" [ref=f112e400]
+                - paragraph [ref=f112e401]
+              - 'button "Pause video : The drum in the washing machine is showing how it is running" [ref=f112e407] [cursor=pointer]':
+                - generic [ref=f112e408]: Pause video
+            - generic [ref=f112e412]:
+              - paragraph [ref=f112e416]: TurboDrum™
+              - heading "Powerful wash, gentle touch" [level=2] [ref=f112e420]
+              - paragraph [ref=f112e424]: TurboDrum™ delivers a powerful wash, removing tough dirt with a strong water stream.
+          - paragraph [ref=f112e439]: "*Product images are for illustrative purpose only and may differ from actual product."
+          - generic [ref=f112e444]:
+            - generic [ref=f112e445]:
+              - generic [ref=f112e446]:
+                - generic [ref=f112e448]:
+                  - img "In the background, there is a washing machine, and in front, there is a clean laundry and a washing machine motion icon on it"
+                - paragraph [ref=f112e449]
+              - 'button "Pause video : In the background, there is a washing machine, and in front, there is a clean laundry and a washing machine motion icon on it" [ref=f112e455] [cursor=pointer]':
+                - generic [ref=f112e456]: Pause video
+            - generic [ref=f112e460]:
+              - paragraph [ref=f112e464]: Smart Motion
+              - heading "Advanced triple stream wash" [level=2] [ref=f112e468]
+              - paragraph [ref=f112e472]: "Features three motions tailored for each fabric type: Agitating, Rotating, and Swing"
+          - paragraph [ref=f112e488]: "*Product images are for illustrative purpose only and may differ from actual product."
+          - generic [ref=f112e492]:
+            - generic [ref=f112e495]:
+              - generic [ref=f112e497]:
+                - heading "Scratch-resistant, soft closing door" [level=2] [ref=f112e501]
+                - paragraph [ref=f112e505]: Slim, durable design offers convenience, safety, efficiency, and innovation.
+              - generic [ref=f112e511]:
+                - generic "The washing machine cover is showing open" [ref=f112e512]
+                - generic [ref=f112e513]:
+                  - button "The washing machine cover is showing open" [ref=f112e514] [cursor=pointer]:
+                    - generic [ref=f112e515]: Play video
+                  - button "The washing machine cover is showing open" [ref=f112e516] [cursor=pointer]:
+                    - generic [ref=f112e517]: Pause video
+            - paragraph [ref=f112e524]: "*Product images are for illustrative purpose only and may differ from actual product."
+        - generic [ref=f112e528]:
+          - generic [ref=f112e529]: Print
+          - button "All Spec" [ref=f112e537] [cursor=pointer]:
+            - generic [ref=f112e538]: Close
+          - generic [ref=f112e539]:
+            - heading "All Spec" [level=3] [ref=f112e544]
+            - button "All Spec" [ref=f112e547] [cursor=pointer]:
+              - generic [ref=f112e548]: Close
+        - generic [ref=f112e552]:
+          - heading "What people are saying" [level=2] [ref=f112e557]
+          - generic [ref=f112e564]:
+            - heading "Reviews" [level=2] [ref=f112e567]
+            - generic [ref=f112e568]:
+              - generic [ref=f112e569]:
+                - generic [ref=f112e570]: ☆☆☆☆☆
+                - generic [ref=f112e571]: No rating value
+              - button "Be the first to review this product . This action will open a modal dialog." [ref=f112e572] [cursor=pointer]:
+                - text: Be the first to review this product
+                - generic [ref=f112e573]: . This action will open a modal dialog.
+            - generic:
+              - status
+        - generic [ref=f112e577]:
+          - heading "FAQ" [level=2] [ref=f112e583]
+          - list [ref=f112e585]:
+            - listitem [ref=f112e586]:
+              - generic [ref=f112e588]:
+                - generic [ref=f112e589]: Q.
+                - paragraph [ref=f112e592]: What is the best kg for a washing machine?
+              - generic [ref=f112e594]:
+                - generic [ref=f112e595]: A.
+                - paragraph [ref=f112e598]: LG recommends a washing machine with a drum capacity of 8–9 kg for an average-sized household. Consider a larger 11-13 kg model for a large family or if you generate particularly large laundry loads. Larger models can also cope with a duvet up to king-size. Remember that LG’s innovative technology means our appliances can offer increased capacity for the same size of washing machine.
+            - listitem [ref=f112e599]:
+              - generic [ref=f112e601]:
+                - generic [ref=f112e602]: Q.
+                - paragraph [ref=f112e605]: Why is my laundry covered with dust and lint?
+              - generic [ref=f112e607]:
+                - generic [ref=f112e608]: A.
+                - generic [ref=f112e610]:
+                  - paragraph [ref=f112e611]: 1. Dust generated during washing is filtered through a cleaning filter. If the cleaning filter is full, the dust may not be filtered out properly. The cleaning filter can be manually cleaned before every wash to prevent the machine from leaving dust and lint on clothes.
+                  - paragraph [ref=f112e612]: 2. Separate your colored and white clothes from your black and lint-producing clothes. Wash them in different loads to further prevent unwanted dust and lint in your laundry.
+            - listitem [ref=f112e613]:
+              - generic [ref=f112e615]:
+                - generic [ref=f112e616]: Q.
+                - paragraph [ref=f112e619]: "[IE] What should I do when I encounter this error?"
+              - generic [ref=f112e621]:
+                - generic [ref=f112e622]: A.
+                - generic [ref=f112e624]:
+                  - paragraph [ref=f112e625]: 1. It occurs when the washing container is not filled with water for a certain period of time.
+                  - paragraph [ref=f112e626]: 2. Check if the faucet is locked or the water hose is not connected
+                  - paragraph [ref=f112e627]: 3. Check if the water supply hose is pressed or bent
+                  - paragraph [ref=f112e628]: 4. Please check if the water supply hose is frozen because of the cold weather
+            - listitem [ref=f112e629]:
+              - generic [ref=f112e631]:
+                - generic [ref=f112e632]: Q.
+                - paragraph [ref=f112e635]: "[OE] What should I do when I encounter this error?"
+              - generic [ref=f112e637]:
+                - generic [ref=f112e638]: A.
+                - generic [ref=f112e640]:
+                  - paragraph [ref=f112e641]: 1. If the drain hose is twisted or bent, or if the drain hose is installed too high, the water flow may be interrupted and the water may not drain well. In this case, make sure that the drain hose is not more than 6 cm off of the floor and arrange it so that the bottom of the hose falls evenly, without obstruction.
+                  - paragraph [ref=f112e642]: 2. Make sure that the drain hose is not blocked with dust or other substances.
+                  - paragraph [ref=f112e643]: 3. Check if the drain hose has frozen due to cold weather.
+            - listitem [ref=f112e644]:
+              - generic [ref=f112e646]:
+                - generic [ref=f112e647]: Q.
+                - paragraph [ref=f112e650]: "[De] What should I do when I encounter this error?"
+              - generic [ref=f112e652]:
+                - generic [ref=f112e653]: A.
+                - paragraph [ref=f112e656]: If the valve where the source water is supplied or the dispense valve of the faucet is closed, the water pipe sterilization and water outlet sterilization features will not work. Please open the source water valve or the dispense valve.
+        - generic [ref=f112e661]:
+          - heading "Our picks for you" [level=2] [ref=f112e666]
+          - generic [ref=f112e671]:
+            - generic [ref=f112e672]:
+              - generic [ref=f112e674]:
+                - generic [ref=f112e675]:
+                  - link [ref=f112e678] [cursor=pointer]:
+                    - /url: /eg_en/washer-dryers/top-loading-washing-machines/t15v1ndhg2a/
+                    - heading "New Top Load Washing Machine-15kg Middle Black" [level=3] [ref=f112e679]
+                  - button "T15V1NDHG2A Copy model name" [ref=f112e682] [cursor=pointer]:
+                    - text: T15V1NDHG2A
+                    - generic [ref=f112e683]: Copy model name
+                - generic [ref=f112e685]:
+                  - menu "Slider Label Title"
+                  - status:
+                    - button "Previous slide" [disabled] [ref=f112e686] [cursor=pointer]
+                    - button "Next slide" [ref=f112e687] [cursor=pointer]
+                - link [ref=f112e690] [cursor=pointer]:
+                  - /url: /eg_en/washer-dryers/top-loading-washing-machines/t15v1ndhg2a/
+                  - img "front view" [ref=f112e692]
+              - generic [ref=f112e693]:
+                - generic [ref=f112e695]:
+                  - generic [ref=f112e696]: EGP 22,490.00
+                  - generic [ref=f112e698]: Member only EGP 22,040.20
+                - generic [ref=f112e702]:
+                  - button "Learn More" [ref=f112e703] [cursor=pointer]
+                  - button "Buy now" [ref=f112e705] [cursor=pointer]
+            - generic [ref=f112e707]:
+              - generic [ref=f112e709]:
+                - generic [ref=f112e710]:
+                  - link [ref=f112e713] [cursor=pointer]:
+                    - /url: /eg_en/washer-dryers/top-loading-washing-machines/t25x7efhttp/
+                    - heading "New 25KG TopLoad WashingMachine-Auto Despense" [level=3] [ref=f112e714]
+                  - button "T25X7EFHTTP Copy model name" [ref=f112e717] [cursor=pointer]:
+                    - text: T25X7EFHTTP
+                    - generic [ref=f112e718]: Copy model name
+                - generic [ref=f112e720]:
+                  - menu "Slider Label Title"
+                  - status:
+                    - button "Previous slide" [disabled] [ref=f112e721] [cursor=pointer]
+                    - button "Next slide" [ref=f112e722] [cursor=pointer]
+                - link [ref=f112e725] [cursor=pointer]:
+                  - /url: /eg_en/washer-dryers/top-loading-washing-machines/t25x7efhttp/
+                  - img "front view" [ref=f112e727]
+              - generic [ref=f112e728]:
+                - generic [ref=f112e729]:
+                  - generic [ref=f112e730]:
+                    - generic [ref=f112e731]: EGP 51,990.00
+                    - generic [ref=f112e733]: Member only EGP 50,950.20
+                  - list [ref=f112e738]:
+                    - listitem [ref=f112e739]:
+                      - paragraph [ref=f112e741]: Free Delivery / Installation.
+                - generic [ref=f112e743]:
+                  - button "Learn More" [ref=f112e744] [cursor=pointer]
+                  - button "Buy now" [ref=f112e746] [cursor=pointer]
+            - generic [ref=f112e748]:
+              - generic [ref=f112e750]:
+                - generic [ref=f112e751]:
+                  - generic [ref=f112e752]: 0% interest
+                  - link [ref=f112e755] [cursor=pointer]:
+                    - /url: /eg_en/washer-dryers/top-loading-washing-machines/t23x5ehhstx/
+                    - heading "New 23KG TopLoad WashingMachine-AIDD™- ThinQ™" [level=3] [ref=f112e756]
+                  - button "T23X5EHHSTX Copy model name" [ref=f112e759] [cursor=pointer]:
+                    - text: T23X5EHHSTX
+                    - generic [ref=f112e760]: Copy model name
+                - generic [ref=f112e762]:
+                  - menu "Slider Label Title"
+                  - status:
+                    - button "Previous slide" [disabled] [ref=f112e763] [cursor=pointer]
+                    - button "Next slide" [ref=f112e764] [cursor=pointer]
+                - link [ref=f112e767] [cursor=pointer]:
+                  - /url: /eg_en/washer-dryers/top-loading-washing-machines/t23x5ehhstx/
+                  - img "Front view of 23kg Top Loading Washing Machine Essence Graphite - AI DD™, 6 Motion™, TurboWash™ T21X5EHHTP.APBPEEC" [ref=f112e769]
+              - generic [ref=f112e770]:
+                - generic [ref=f112e771]:
+                  - generic [ref=f112e772]:
+                    - generic [ref=f112e773]: EGP 46,990.00
+                    - generic [ref=f112e775]: Member only EGP 46,050.20
+                  - list [ref=f112e780]:
+                    - listitem [ref=f112e781]:
+                      - paragraph [ref=f112e783]: Free Delivery / Installation.
+                - generic [ref=f112e785]:
+                  - button "Learn More" [ref=f112e786] [cursor=pointer]
+                  - button "Buy now" [ref=f112e788] [cursor=pointer]
+            - generic [ref=f112e790]:
+              - generic [ref=f112e792]:
+                - generic [ref=f112e793]:
+                  - generic [ref=f112e794]:
+                    - generic [ref=f112e795]: 0% interest
+                    - generic [ref=f112e796]: LG Online Exclusive
+                  - link [ref=f112e798] [cursor=pointer]:
+                    - /url: /eg_en/washer-dryers/top-loading-washing-machines/t1466nehgu/
+                    - heading "14 Kg Smart Inverter Top load Washing Machine Turbo Drum, Soft Closing Door" [level=3] [ref=f112e799]
+                  - button "T1466NEHGU Copy model name" [ref=f112e802] [cursor=pointer]:
+                    - text: T1466NEHGU
+                    - generic [ref=f112e803]: Copy model name
+                - generic [ref=f112e805]:
+                  - menu "Slider Label Title"
+                  - status:
+                    - button "Previous slide" [disabled] [ref=f112e806] [cursor=pointer]
+                    - button "Next slide" [ref=f112e807] [cursor=pointer]
+                - link [ref=f112e810] [cursor=pointer]:
+                  - /url: /eg_en/washer-dryers/top-loading-washing-machines/t1466nehgu/
+                  - img "Front Image|14 Kg Smart Inverter Top load Washing Machine Turbo Drum, Soft Closing Door|T1466NEHGU" [ref=f112e812]
+              - generic [ref=f112e813]:
+                - generic [ref=f112e814]:
+                  - generic [ref=f112e815]:
+                    - generic [ref=f112e816]: Save EGP 1,000.00
+                    - generic [ref=f112e818]:
+                      - generic [ref=f112e819]: EGP 21,990.00
+                      - deletion [ref=f112e821]: EGP 22,990.00
+                    - generic [ref=f112e822]: Member only EGP 21,550.20
+                  - generic [ref=f112e825]:
+                    - list [ref=f112e827]:
+                      - listitem [ref=f112e828]:
+                        - button "Click to check available installment offers for product" [ref=f112e829] [cursor=pointer]
+                    - list [ref=f112e831]:
+                      - listitem [ref=f112e832]:
+                        - paragraph [ref=f112e834]: Free Delivery / Installation.
+                - generic [ref=f112e836]:
+                  - button "Learn More" [ref=f112e837] [cursor=pointer]
+                  - button "Buy now" [ref=f112e839] [cursor=pointer]
+            - generic [ref=f112e841]:
+              - generic [ref=f112e843]:
+                - generic [ref=f112e844]:
+                  - generic [ref=f112e845]: LG Online Exclusive
+                  - link [ref=f112e848] [cursor=pointer]:
+                    - /url: /eg_en/washer-dryers/front-loading-washing-machines/f4r5tgg2t/
+                    - heading "8 Kg/ 5 Kg Dryer, with AI DD technology" [level=3] [ref=f112e849]
+                  - button "F4R5TGG2T Copy model name" [ref=f112e852] [cursor=pointer]:
+                    - text: F4R5TGG2T
+                    - generic [ref=f112e853]: Copy model name
+                - generic [ref=f112e855]:
+                  - menu "Slider Label Title"
+                  - status:
+                    - button "Previous slide" [disabled] [ref=f112e856] [cursor=pointer]
+                    - button "Next slide" [ref=f112e857] [cursor=pointer]
+                - link [ref=f112e860] [cursor=pointer]:
+                  - /url: /eg_en/washer-dryers/front-loading-washing-machines/f4r5tgg2t/
+                  - img "Front Image|8 Kg/ 5 Kg Dryer, with AI DD technology|F4R5TGG2T" [ref=f112e862]
+              - generic [ref=f112e863]:
+                - generic [ref=f112e864]:
+                  - generic [ref=f112e865]:
+                    - generic [ref=f112e866]: Save EGP 10,500.00
+                    - generic [ref=f112e868]:
+                      - generic [ref=f112e869]: EGP 29,990.00
+                      - deletion [ref=f112e871]: EGP 40,490.00
+                    - generic [ref=f112e872]: Member only EGP 29,390.20
+                  - generic [ref=f112e875]:
+                    - list [ref=f112e877]:
+                      - listitem [ref=f112e878]:
+                        - button "Click to check available installment offers for product" [ref=f112e879] [cursor=pointer]
+                    - list [ref=f112e881]:
+                      - listitem [ref=f112e882]:
+                        - paragraph [ref=f112e884]: Free Delivery / Installation.
+                - generic [ref=f112e886]:
+                  - button "Learn More" [ref=f112e887] [cursor=pointer]
+                  - button "Buy now" [ref=f112e889] [cursor=pointer]
+            - generic [ref=f112e891]:
+              - generic [ref=f112e893]:
+                - generic [ref=f112e894]:
+                  - generic [ref=f112e895]: 0% interest
+                  - link [ref=f112e898] [cursor=pointer]:
+                    - /url: /eg_en/washer-dryers/front-loading-washing-machines/f4r5tyg2t/
+                    - heading "8 Kg Vivace Washing Machine, with AI DD technology" [level=3] [ref=f112e899]
+                  - button "F4R5TYG2T Copy model name" [ref=f112e902] [cursor=pointer]:
+                    - text: F4R5TYG2T
+                    - generic [ref=f112e903]: Copy model name
+                - generic [ref=f112e905]:
+                  - menu "Slider Label Title"
+                  - status:
+                    - button "Previous slide" [disabled] [ref=f112e906] [cursor=pointer]
+                    - button "Next slide" [ref=f112e907] [cursor=pointer]
+                - link [ref=f112e910] [cursor=pointer]:
+                  - /url: /eg_en/washer-dryers/front-loading-washing-machines/f4r5tyg2t/
+                  - img "Front Image|8 Kg Vivace Washing Machine, with AI DD technology|F4R5TYG2T" [ref=f112e912]
+              - generic [ref=f112e913]:
+                - generic [ref=f112e914]:
+                  - generic [ref=f112e915]:
+                    - generic [ref=f112e916]: Save EGP 6,000.01
+                    - generic [ref=f112e918]:
+                      - generic [ref=f112e919]: EGP 28,989.99
+                      - deletion [ref=f112e921]: EGP 34,990.00
+                    - generic [ref=f112e922]: Member only EGP 28,410.20
+                  - generic [ref=f112e925]:
+                    - list [ref=f112e927]:
+                      - listitem [ref=f112e928]:
+                        - button "Click to check available installment offers for product" [ref=f112e929] [cursor=pointer]
+                    - list [ref=f112e931]:
+                      - listitem [ref=f112e932]:
+                        - paragraph [ref=f112e934]: Free Delivery / Installation.
+                - generic [ref=f112e936]:
+                  - button "Learn More" [ref=f112e937] [cursor=pointer]
+                  - button "Buy now" [ref=f112e939] [cursor=pointer]
+            - generic [ref=f112e941]:
+              - generic [ref=f112e943]:
+                - generic [ref=f112e944]:
+                  - link [ref=f112e947] [cursor=pointer]:
+                    - /url: /eg_en/washer-dryers/front-loading-washing-machines/f4x5ryg24/
+                    - heading "10kg Front Loading Washing Machine/AI DD/WIFI" [level=3] [ref=f112e948]
+                  - button "F4X5RYG24 Copy model name" [ref=f112e951] [cursor=pointer]:
+                    - text: F4X5RYG24
+                    - generic [ref=f112e952]: Copy model name
+                - generic [ref=f112e954]:
+                  - menu "Slider Label Title"
+                  - status:
+                    - button "Previous slide" [disabled] [ref=f112e955] [cursor=pointer]
+                    - button "Next slide" [ref=f112e956] [cursor=pointer]
+                - link [ref=f112e959] [cursor=pointer]:
+                  - /url: /eg_en/washer-dryers/front-loading-washing-machines/f4x5ryg24/
+                  - img "Front view of 13kg Front Loading Washing Machine White - AI DD, Auto Dispense, Microplastic Care F4X5RYG24.AEGPEEC" [ref=f112e961]
+              - generic [ref=f112e962]:
+                - generic [ref=f112e963]:
+                  - generic [ref=f112e964]:
+                    - generic [ref=f112e965]: EGP 31,990.00
+                    - generic [ref=f112e967]: Member only EGP 31,350.21
+                  - list [ref=f112e972]:
+                    - listitem [ref=f112e973]:
+                      - paragraph [ref=f112e975]: Free Delivery / Installation.
+                - generic [ref=f112e977]:
+                  - button "Learn More" [ref=f112e978] [cursor=pointer]
+                  - button "Buy now" [ref=f112e980] [cursor=pointer]
+        - generic [ref=f112e984]:
+          - generic [ref=f112e989]:
+            - generic [ref=f112e991]:
+              - generic [ref=f112e992]:
+                - heading "Need help?" [level=2] [ref=f112e996]
+                - paragraph [ref=f112e1000]: We're here to provide all the help you need.
+              - link "Get support" [ref=f112e1003] [cursor=pointer]:
+                - /url: /eg_en/support/
+            - list [ref=f112e1006]:
+              - listitem [ref=f112e1007]:
+                - link "Manual & Software Download product manuals and latest software for your product. Learn More" [ref=f112e1008] [cursor=pointer]:
+                  - /url: /eg_en/support/product-support/cs-T10V1TEHG2.ABMPEEC#manual-tab
+                  - generic [ref=f112e1009]:
+                    - heading "Manual & Software" [level=3] [ref=f112e1013]
+                    - paragraph [ref=f112e1017]: Download product manuals and latest software for your product.
+                  - generic [ref=f112e1020]: Learn More
+              - listitem [ref=f112e1023]:
+                - link "Trouble-shoot Find helpful how-to videos for your product. Learn More" [ref=f112e1024] [cursor=pointer]:
+                  - /url: /eg_en/support/product-support/cs-T10V1TEHG2.ABMPEEC#troubleshoot-tab
+                  - generic [ref=f112e1025]:
+                    - heading "Trouble-shoot" [level=3] [ref=f112e1029]
+                    - paragraph [ref=f112e1033]: Find helpful how-to videos for your product.
+                  - generic [ref=f112e1036]: Learn More
+              - listitem [ref=f112e1039]:
+                - link "Warranty Check your product warranty information here. Learn More" [ref=f112e1040] [cursor=pointer]:
+                  - /url: /eg_en/support/product-support/cs-T10V1TEHG2.ABMPEEC#warranty-tab
+                  - generic [ref=f112e1041]:
+                    - heading "Warranty" [level=3] [ref=f112e1045]
+                    - paragraph [ref=f112e1049]: Check your product warranty information here.
+                  - generic [ref=f112e1052]: Learn More
+              - listitem [ref=f112e1055]:
+                - link "Find LG service center Find an LG authorized service center near you Learn More" [ref=f112e1056] [cursor=pointer]:
+                  - /url: /eg_en/support/contact-us/locate-repair-center/
+                  - generic [ref=f112e1057]:
+                    - heading "Find LG service center" [level=3] [ref=f112e1061]
+                    - paragraph [ref=f112e1065]: Find an LG authorized service center near you
+                  - generic [ref=f112e1068]: Learn More
+              - listitem [ref=f112e1071]:
+                - link "Product registration Registering your product will help you get faster support. Learn More" [ref=f112e1072] [cursor=pointer]:
+                  - /url: /eg_en/support/product-support/product-registration/
+                  - generic [ref=f112e1073]:
+                    - heading "Product registration" [level=3] [ref=f112e1077]
+                    - paragraph [ref=f112e1081]: Registering your product will help you get faster support.
+                  - generic [ref=f112e1084]: Learn More
+              - listitem [ref=f112e1087]:
+                - link "Product support Find manual, troubleshoot and warranty of your LG product. Learn More" [ref=f112e1088] [cursor=pointer]:
+                  - /url: /eg_en/support/product-support/manuals-software/
+                  - generic [ref=f112e1089]:
+                    - heading "Product support" [level=3] [ref=f112e1093]
+                    - paragraph [ref=f112e1097]: Find manual, troubleshoot and warranty of your LG product.
+                  - generic [ref=f112e1100]: Learn More
+              - listitem [ref=f112e1103]:
+                - link "Order support Track your order and check order FAQ. Learn More" [ref=f112e1104] [cursor=pointer]:
+                  - /url: /eg_en/support/order-support/track-my-order/
+                  - generic [ref=f112e1105]:
+                    - heading "Order support" [level=3] [ref=f112e1109]
+                    - paragraph [ref=f112e1113]: Track your order and check order FAQ.
+                  - generic [ref=f112e1116]: Learn More
+              - listitem [ref=f112e1119]:
+                - link "Repair request Request repair service conveniently online. Learn More" [ref=f112e1120] [cursor=pointer]:
+                  - /url: /eg_en/support/product-support/request-repair/
+                  - generic [ref=f112e1121]:
+                    - heading "Repair request" [level=3] [ref=f112e1125]
+                    - paragraph [ref=f112e1129]: Request repair service conveniently online.
+                  - generic [ref=f112e1132]: Learn More
+          - generic [ref=f112e1139]:
+            - heading "Contact us" [level=2] [ref=f112e1146]
+            - list [ref=f112e1148]:
+              - listitem [ref=f112e1149]:
+                - link "Chat with us Chat with LG product experts for shopping assistance, discounts and offers in real time Learn More" [ref=f112e1150] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=f112e1151]:
+                    - heading "Chat with us" [level=3] [ref=f112e1155]
+                    - paragraph [ref=f112e1159]: Chat with LG product experts for shopping assistance, discounts and offers in real time
+                  - generic [ref=f112e1162]: Learn More
+              - listitem [ref=f112e1165]:
+                - link "WhatsApp Chat with LG service support using the most popular messenger Learn More" [ref=f112e1166] [cursor=pointer]:
+                  - /url: https://wa.me/201229307777
+                  - generic [ref=f112e1167]:
+                    - heading "WhatsApp" [level=3] [ref=f112e1171]
+                    - paragraph [ref=f112e1175]: Chat with LG service support using the most popular messenger
+                  - generic [ref=f112e1178]: Learn More
+              - listitem [ref=f112e1181]:
+                - link "Email us Send an Email to LG service support Learn More" [ref=f112e1182] [cursor=pointer]:
+                  - /url: /eg_en/support/contact-us/email/
+                  - generic [ref=f112e1183]:
+                    - heading "Email us" [level=3] [ref=f112e1187]
+                    - paragraph [ref=f112e1191]: Send an Email to LG service support
+                  - generic [ref=f112e1194]: Learn More
+              - listitem [ref=f112e1197]:
+                - link "Call us 24 hrs (7days a week) except national holidays 08069379999 Learn More" [ref=f112e1198] [cursor=pointer]:
+                  - /url: /eg_en/support/contact-us/
+                  - generic [ref=f112e1199]:
+                    - heading "Call us" [level=3] [ref=f112e1203]
+                    - paragraph [ref=f112e1207]: 24 hrs (7days a week) except national holidays 08069379999
+                  - generic [ref=f112e1210]: Learn More
+        - generic [ref=f112e1216]:
+          - heading "Find locally" [level=2] [ref=f112e1221]
+          - generic [ref=f112e1231]:
+            - generic [ref=f112e1232]: Experience this product around you.
+            - button "Button text" [ref=f112e1236] [cursor=pointer]
+  - generic [ref=f112e1239]:
+    - contentinfo [ref=f112e1246]:
+      - generic [ref=f112e1253]:
+        - generic [ref=f112e1255]:
+          - paragraph [ref=f112e1257]: "*Prices, promotions and availability may vary by store and online. Prices subject to change without notice. Quantities are limited. Check with your local retailers for final price and availability."
+          - button "Load more text" [ref=f112e1258] [cursor=pointer]: More
+        - generic [ref=f112e1260]:
+          - generic [ref=f112e1261]:
+            - paragraph [ref=f112e1262]: Jet Spray Technology - With this technology, clean water is sprayed directly through a Jet Spray Nozzle that cleans the core and dirty areas of the clothes. It helps to reduce manual labour and aids in the lesser use of water along with removing all the detergent stains effectively. 6 Motion DD - This wash program moves the wash drum in multiple directions with its innovative 6 Motion Direct Drive technology which gives the fabrics a clean wash along with maintaining its soft quality. It helps in obtaining cloth quality retention along with cleaner and untangled laundry .LG ThinQ - This feature from LG makes your laundry load much easier as it enables one to do laundry from any place and any time. It comes with Smart Diagnosis™ helps you to troubleshoot any problem saving your time & money and Download Cycle enables to schedule up to 20 wash programs. Quick Tub Clean - This feature uses hot steam with high spin speed to sterilize every corner of the tub which prevents the development of fungus and toxic substances in the tub area. Smart Diagnosis System - With the help of Smart Diagnosis™ System, LG has helped you in saving your precious time & money by assisting you to automatically detect and troubleshoot a problem with just one phone call. WaveForce Technology - Powerful rapid drum movement and water jets provide a revolutionary washing experience you have to see to believe. TrueBalance Anti-Vibration System - Reduces washer noise and vibration for a top-load wash so quiet, you won’t even know it is on. Capacity - Amongst the largest capacity washing machines in their class, LG’s top-load washers offer an extra-large capacity at 3.7 cubic feet and an ultra large capacity at 4.7 cubic feet, saving you time and energy with every wash.EasyDispense System - The Easy Dispense system from LG allows you to add bleach, detergent and fabric softener all at once for automatic release at the appropriate cycle time. Direct Drive Motor - Features fewer moving parts that operate more efficiently while being securely backed with a 10-year warranty for the ultimate peace of mind.
+            - paragraph [ref=f112e1263]
+          - button "Load more text" [ref=f112e1264] [cursor=pointer]: More
+      - navigation [ref=f112e1265]:
+        - list [ref=f112e1267]:
+          - listitem [ref=f112e1268]:
+            - strong [ref=f112e1270]: Shop
+            - list [ref=f112e1271]:
+              - listitem [ref=f112e1272]:
+                - link "All Promotion" [ref=f112e1274] [cursor=pointer]:
+                  - /url: /eg_en/offers/
+              - listitem [ref=f112e1275]:
+                - link "Shop the latest" [ref=f112e1277] [cursor=pointer]:
+                  - /url: /eg_en/shop-the-latest/
+              - listitem [ref=f112e1278]:
+                - link "LG brandshop" [ref=f112e1280] [cursor=pointer]:
+                  - /url: /eg_en/lg-brandshop/
+          - listitem [ref=f112e1281]:
+            - strong [ref=f112e1283]: TV/Audio
+            - list [ref=f112e1284]:
+              - listitem [ref=f112e1285]:
+                - link "TV & Soundbars" [ref=f112e1287] [cursor=pointer]:
+                  - /url: /eg_en/tv-soundbars/
+              - listitem [ref=f112e1288]:
+                - link "Bluetooth Speakers" [ref=f112e1290] [cursor=pointer]:
+                  - /url: /eg_en/speakers/
+          - listitem [ref=f112e1291]:
+            - strong [ref=f112e1293]: Appliances
+            - list [ref=f112e1294]:
+              - listitem [ref=f112e1295]:
+                - link "Washer & Dryers" [ref=f112e1297] [cursor=pointer]:
+                  - /url: /eg_en/washer-dryers/
+              - listitem [ref=f112e1298]:
+                - link "All Dishwashers" [ref=f112e1300] [cursor=pointer]:
+                  - /url: /eg_en/dishwashers/
+              - listitem [ref=f112e1301]:
+                - link "Cooking appliances" [ref=f112e1303] [cursor=pointer]:
+                  - /url: /eg_en/cooking-appliances/
+              - listitem [ref=f112e1304]:
+                - link "All Vacuum cleaners" [ref=f112e1306] [cursor=pointer]:
+                  - /url: /eg_en/vacuum-cleaners/
+              - listitem [ref=f112e1307]:
+                - link "All Home Appliance accessories" [ref=f112e1309] [cursor=pointer]:
+                  - /url: /eg_en/home-appliance-accessories/
+              - listitem [ref=f112e1310]:
+                - link "Refrigerators" [ref=f112e1312] [cursor=pointer]:
+                  - /url: /eg_en/refrigerators/
+              - listitem [ref=f112e1313]:
+                - link "Air care" [ref=f112e1315] [cursor=pointer]:
+                  - /url: /eg_en/air-care/
+          - listitem [ref=f112e1316]:
+            - strong [ref=f112e1318]: Computing
+            - list [ref=f112e1319]:
+              - listitem [ref=f112e1320]:
+                - link "Monitors" [ref=f112e1322] [cursor=pointer]:
+                  - /url: /eg_en/monitors/
+          - listitem [ref=f112e1323]:
+            - strong [ref=f112e1325]: Air solutions
+            - list [ref=f112e1326]:
+              - listitem [ref=f112e1327]:
+                - link "Residential air conditioner" [ref=f112e1329] [cursor=pointer]:
+                  - /url: /eg_en/residential-air-conditioners/
+              - listitem [ref=f112e1330]:
+                - link "All Commercial air conditioners" [ref=f112e1332] [cursor=pointer]:
+                  - /url: /eg_en/commercial-air-conditioners/
+            - link "LG AI" [ref=f112e1334] [cursor=pointer]:
+              - /url: /eg_en/lg-ai/
+            - list [ref=f112e1335]:
+              - listitem [ref=f112e1336]:
+                - link "LG Affectionate Intelligence" [ref=f112e1338] [cursor=pointer]:
+                  - /url: /eg_en/lg-ai/
+          - listitem [ref=f112e1339]:
+            - link "Support" [ref=f112e1341] [cursor=pointer]:
+              - /url: /eg_en/support/
+            - list [ref=f112e1342]:
+              - listitem [ref=f112e1343]:
+                - link "Product registration" [ref=f112e1345] [cursor=pointer]:
+                  - /url: /eg_en/support/product-support/product-registration/
+              - listitem [ref=f112e1346]:
+                - link "Manuals & softwares" [ref=f112e1348] [cursor=pointer]:
+                  - /url: /eg_en/support/product-support/manuals-software/
+              - listitem [ref=f112e1349]:
+                - link "Troubleshoot" [ref=f112e1351] [cursor=pointer]:
+                  - /url: /eg_en/support/product-support/troubleshoot/
+              - listitem [ref=f112e1352]:
+                - link "Warranty information" [ref=f112e1354] [cursor=pointer]:
+                  - /url: /eg_en/support/warranty-terms/
+            - link "About LG" [ref=f112e1356] [cursor=pointer]:
+              - /url: /eg_en/about-lg/
+            - list [ref=f112e1357]:
+              - listitem [ref=f112e1358]:
+                - link "Press and media" [ref=f112e1360] [cursor=pointer]:
+                  - /url: /eg_en/about-lg/press-and-media/
+            - link "LG ThinQ" [ref=f112e1362] [cursor=pointer]:
+              - /url: /eg_en/lg-thinq/
+            - link "Online FAQ" [ref=f112e1364] [cursor=pointer]:
+              - /url: /eg_en/support/order-support/frequently-asked-questions/
+      - generic [ref=f112e1366]:
+        - button "Egypt, English" [ref=f112e1369] [cursor=pointer]
+        - list [ref=f112e1372]:
+          - listitem [ref=f112e1373]:
+            - link "Facebook" [ref=f112e1374] [cursor=pointer]:
+              - /url: https://www.facebook.com/LGEgypt/
+              - img "Facebook"
+          - listitem [ref=f112e1375]:
+            - link "Twitter" [ref=f112e1376] [cursor=pointer]:
+              - /url: https://twitter.com/LGEEgypt
+              - img "Twitter"
+          - listitem [ref=f112e1377]:
+            - link "Youtube" [ref=f112e1378] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCKJ1b02mIPF8wWWPstBwBCw?view_as=subscriber
+              - img "Youtube"
+          - listitem [ref=f112e1379]:
+            - link "Linkedin" [ref=f112e1380] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/lg-electronics-egypt
+              - img "Linkedin"
+          - listitem [ref=f112e1381]:
+            - link "Instagram" [ref=f112e1382] [cursor=pointer]:
+              - /url: https://www.instagram.com/lgegypt/
+              - img "Instagram"
+          - listitem [ref=f112e1383]:
+            - link "Tik Tok" [ref=f112e1384] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@lgeegypt
+              - img "Tik Tok"
+      - generic [ref=f112e1386]:
+        - generic [ref=f112e1387]:
+          - list [ref=f112e1388]:
+            - listitem [ref=f112e1389]:
+              - link "Sitemap" [ref=f112e1390] [cursor=pointer]:
+                - /url: /eg_en/sitemap/
+            - listitem [ref=f112e1391]:
+              - link "Legal" [ref=f112e1392] [cursor=pointer]:
+                - /url: /eg_en/legal/
+            - listitem [ref=f112e1393]:
+              - link "LGE Service Terms of Use" [ref=f112e1394] [cursor=pointer]:
+                - /url: /eg_en/lge-terms/
+            - listitem [ref=f112e1395]:
+              - link "Privacy Policy" [ref=f112e1396] [cursor=pointer]:
+                - /url: /eg_en/privacy/
+            - listitem [ref=f112e1397]:
+              - link "Cookie Policy" [ref=f112e1398] [cursor=pointer]:
+                - /url: /eg_en/privacy/#tabs-cookie-policy
+            - listitem [ref=f112e1399]:
+              - link "Terms and Conditions of Purchase" [ref=f112e1400] [cursor=pointer]:
+                - /url: /eg_en/terms-and-conditions-of-purchase/
+            - listitem [ref=f112e1401]:
+              - link "Accessibility Help" [ref=f112e1402] [cursor=pointer]:
+                - /url: /eg_en/webaccessibility/
+          - generic [ref=f112e1403]:
+            - paragraph [ref=f112e1404]: Copyright © 2009-2024 LG Electronics. All Rights Reserved
+            - link "This is LG Electronics' official homepage. If you want to connect to LG Corp., or other LG affiliates, please click (opens in a new tab)" [ref=f112e1405] [cursor=pointer]:
+              - /url: https://www.lgcorp.com/about/companies
+              - text: This is LG Electronics' official homepage. If you want to connect to LG Corp., or other LG affiliates, please click
+              - generic [ref=f112e1406]: (opens in a new tab)
+        - link "LG Jeong-Do Management Ethics Hotline (opens in a new tab)" [ref=f112e1408] [cursor=pointer]:
+          - /url: https://ethics.lg.co.kr/main/en.do
+          - generic [ref=f112e1409]: LG Jeong-Do Management Ethics Hotline
+          - generic [ref=f112e1410]: (opens in a new tab)
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - button "Quick Menu" [ref=f112e1413] [cursor=pointer]
+            - alertdialog "Hi there! Need help? Click here to talk to our Product Experts for shopping assistance, discounts and offers." [ref=f112e1415]:
+              - alert [ref=f112e1416] [cursor=pointer]:
+                - generic [ref=f112e1417]: Hi there! Need help? Click here to talk to our Product Experts for shopping assistance, discounts and offers.
+                - button "close" [ref=f112e1418]
+  - alert [ref=f112e1420]

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Washer gallery — 9 kg black top-load · official manufacturers</title>
+    <title>Washer gallery — 9–10 kg black top-load · official manufacturers</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/appliances.css" />
   </head>
@@ -18,9 +18,9 @@
           </p>
           <h1>Washing machine gallery</h1>
           <p class="lead">
-            Criteria: <strong>9 kg</strong> · <strong>black</strong> (or near-black dark silver + black lid) ·
+            Criteria: <strong>9–10 kg</strong> · <strong>black</strong> (or near-black dark silver / dark grey) ·
             <strong>top-load</strong> · <strong>full automatic</strong> · buy from
-            <strong>official manufacturers only</strong> (Elaraby, Fresh, Samsung, LG, Beko, Zanussi, Toshiba, White Point…).
+            <strong>official manufacturers only</strong> (Fresh, LG, Elaraby, Zanussi, Samsung, Beko…).
           </p>
         </div>
         <div class="badge-row">
@@ -36,7 +36,10 @@
         <button type="button" data-preset="all" class="active">All kept</button>
         <button type="button" data-preset="instock">In stock</button>
         <button type="button" data-preset="oos">Out of stock</button>
+        <button type="button" data-preset="black">True black</button>
         <button type="button" data-preset="nearblack">Near-black</button>
+        <button type="button" data-preset="kg9">9 kg</button>
+        <button type="button" data-preset="kg10">10 kg</button>
         <button type="button" data-preset="starred">★ Starred</button>
       </div>
 
@@ -55,6 +58,7 @@
             <option value="Elaraby Group">Elaraby Group</option>
             <option value="Fresh Official">Fresh.com.eg</option>
             <option value="LG Egypt">LG Egypt</option>
+            <option value="Zanussi Egypt">Zanussi Egypt</option>
             <option value="Samsung Egypt">Samsung Egypt</option>
           </select>
         </label>
@@ -67,21 +71,17 @@
         </label>
         <label>Band
           <select id="f-band">
-            <option value="all" selected>All sizes</option>
-            <option value="main">Main 9 kg</option>
-            <option value="adjacent">Adjacent flex</option>
-            <option value="oversized">Oversized</option>
+            <option value="all" selected>All (9–10 kg)</option>
+            <option value="main">Exact 9 kg</option>
+            <option value="adjacent">10 kg</option>
           </select>
         </label>
         <label>Color
           <select id="f-color">
             <option value="any">Any color</option>
-            <option value="black">Black only</option>
-            <option value="dark_silver">Dark silver (near-black)</option>
+            <option value="black">True black</option>
+            <option value="dark_silver">Dark silver</option>
             <option value="dark_grey">Dark grey</option>
-            <option value="silver">Silver / steel</option>
-            <option value="white">White</option>
-            <option value="gold">Gold</option>
           </select>
         </label>
         <label>Stock
@@ -131,7 +131,7 @@
       <footer class="app-footer">
         Data: <code>data/appliances/washer_catalog.json</code> ·
         Official manufacturers only (Playwright scrape 2026-07-20) ·
-        Criteria: 9 kg · black preference · top-load · full-auto
+        Criteria: 9–10 kg · black preference · top-load · full-auto
       </footer>
     </div>
 
@@ -186,7 +186,8 @@
         return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
       }
       function fmt(n) {
-        return n == null ? "—" : Number(n).toLocaleString() + " EGP";
+        if (n == null || n === "" || Number.isNaN(Number(n))) return "Price TBA";
+        return Number(n).toLocaleString() + " EGP";
       }
       function stockOf(it) {
         if (it.inStock === true || it.stockStatus === "in_stock") return "in";
@@ -212,7 +213,11 @@
           if ((it.priceEGP || 0) > max) return false;
           if (inv === "yes" && it.specs?.inverter !== true) return false;
           if (inv === "no" && it.specs?.inverter === true) return false;
-          if (color !== "any" && it.color !== color) return false;
+          if ($("#f-color")?.dataset.nearOnly === "1") {
+            if (!["dark_silver", "dark_grey"].includes(it.color)) return false;
+          } else if (color !== "any" && it.color !== color) {
+            return false;
+          }
           if (brand !== "any" && it.brand !== brand) return false;
           if (source !== "any" && it.retailer !== source) return false;
           if (type !== "any" && (it.specs?.type || "top_load") !== type) return false;
@@ -361,16 +366,27 @@
               ? "Open on Elaraby"
               : it.retailer === "LG Egypt"
                 ? "Open on LG"
-                : it.retailer === "Samsung Egypt"
-                  ? "Open on Samsung"
-                  : "Open official product page";
+                : it.retailer === "Zanussi Egypt"
+                  ? "Open on Zanussi"
+                  : it.retailer === "Samsung Egypt"
+                    ? "Open on Samsung"
+                    : "Open official product page";
         $("#modal-star").textContent = stars.has(it.id) ? "★ Starred" : "☆ Star";
       }
       function applyPreset(name) {
         $$(".preset-row button").forEach((b) => b.classList.toggle("active", b.dataset.preset === name));
-        $("#f-band").value = "all";
+        $("#f-band").value = name === "kg9" ? "main" : name === "kg10" ? "adjacent" : "all";
         $("#f-inv").value = "any";
-        $("#f-color").value = name === "nearblack" ? "dark_silver" : "any";
+        $("#f-color").value =
+          name === "black" ? "black"
+          : name === "nearblack" ? "dark_silver"
+          : "any";
+        // nearblack preset should include dark_grey too — handled via dataset flag
+        if (name === "nearblack") {
+          $("#f-color").dataset.nearOnly = "1";
+        } else {
+          delete $("#f-color").dataset.nearOnly;
+        }
         $("#f-star").value = name === "starred" ? "yes" : "no";
         $("#f-type").value = "top_load";
         $("#f-source").value = "any";
@@ -392,19 +408,23 @@
           const mf = data.marketFinding || {};
           $("#disclaimer").textContent =
             (mf.summary || data.marketNote || "") + " " + (data.disclaimer || "");
-          const flex = mf.ifYouFlexSizeForTrueBlackInStock || [];
           const flexBox = $("#market-flex");
-          if (flex.length && flexBox) {
-            flexBox.style.display = "block";
-            flexBox.innerHTML =
-              `<strong>If you flex +1 kg for true black + buy-now:</strong><ul style="margin:0.4rem 0 0;padding-left:1.1rem">` +
-              flex
-                .map(
-                  (f) =>
-                    `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a> · ${fmt(f.priceEGP)} · ${esc(f.stock || "")} — ${esc(f.note || "")}</li>`
-                )
-                .join("") +
-              `</ul>`;
+          if (flexBox) {
+            const blackIn = items.filter((i) => i.color === "black" && stockOf(i) === "in");
+            if (blackIn.length) {
+              flexBox.style.display = "block";
+              flexBox.innerHTML =
+                `<strong>True black + in stock now (${blackIn.length}):</strong><ul style="margin:0.4rem 0 0;padding-left:1.1rem">` +
+                blackIn
+                  .map(
+                    (i) =>
+                      `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.name)}</a> · ${fmt(i.priceEGP)}</li>`
+                  )
+                  .join("") +
+                `</ul>`;
+            } else {
+              flexBox.style.display = "none";
+            }
           }
           const brands = [...new Set(items.map((i) => i.brand).filter(Boolean))].sort();
           const brandSel = $("#f-brand");
@@ -438,8 +458,12 @@
         ["f-q", "f-band", "f-max", "f-inv", "f-color", "f-sort", "f-star", "f-brand", "f-source", "f-type", "f-stock"].forEach((id) => {
           const el = $("#" + id);
           if (!el) return;
-          el.addEventListener("input", () => renderGrid());
-          el.addEventListener("change", () => renderGrid());
+          const go = () => {
+            if (id === "f-color") delete $("#f-color").dataset.nearOnly;
+            renderGrid();
+          };
+          el.addEventListener("input", go);
+          el.addEventListener("change", go);
         });
         $$(".preset-row button").forEach((b) => b.addEventListener("click", () => applyPreset(b.dataset.preset)));
         $("#modal-close").onclick = closeModal;

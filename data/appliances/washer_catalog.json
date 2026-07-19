@@ -1,12 +1,12 @@
 {
-  "version": 5,
-  "title": "Washer catalog — 9 kg · black preference · top-load full-auto · official manufacturers only",
+  "version": 6,
+  "title": "Washer catalog — 9–10 kg · black preference · top-load full-auto · official manufacturers only",
   "lastUpdated": "2026-07-20",
   "currency": "EGP",
   "retailerPrimary": "official_manufacturers",
   "filtersApplied": {
-    "capacityKg": 9,
-    "color": "black preferred; dark_silver body + black lid accepted as only official near-black 9 kg finish",
+    "capacityKg": "9 or 10",
+    "color": "black preferred; dark_silver / dark_grey near-black accepted when pure black unavailable",
     "loading": "top_load",
     "automation": "full_auto",
     "channel": "official manufacturer storefronts only (no B.TECH / Amazon / Jumia)",
@@ -15,7 +15,7 @@
       "twin_tub",
       "manual",
       "front_load",
-      "not_9kg",
+      "not_9_or_10_kg",
       "silver_only_body",
       "white",
       "gold",
@@ -24,109 +24,216 @@
   },
   "marketFinding": {
     "strictBlack9kgTopFullAuto": 0,
-    "summary": "As of 2026-07-20, no official Egypt manufacturer lists a pure-black 9 kg top-load full-automatic washer. Elaraby (Sharp/Tornado) sells 9 kg top-load only in Dark Silver (body) + Black lid, or Silver. Fresh 9 kg top-load is Silver only (OOS). LG/Samsung/Beko/Zanussi/White Point 9 kg SKUs on official sites are front-load. LG/Fresh black top-loads start at 10 kg. Elaraby pure Black top-load starts at 11 kg.",
+    "strictBlack10kgTopFullAuto": 2,
+    "summary": "Pure black 9 kg top-load full-auto: still zero on official sites. Expanding to 10 kg unlocks two true-black official options: Fresh 10 kg Black LED (in stock ~13,017 EGP) and LG T10V1TEHG2 Middle Black (~15,990 EGP, buy now). Zanussi Family Care 10 kg Dark Grey (near-black) is OOS. Elaraby 10 kg top-auto only silver/white. 9 kg near-black remains Sharp/Tornado dark silver + black lid (both OOS on Elaraby).",
     "manufacturersChecked": [
       {
         "source": "Elaraby Group",
         "url": "https://www.elarabygroup.com/en/electric-home-appliances/large-home-appliances/washing-machines/top-automatic-washing-machines",
         "brands": ["Sharp", "Tornado", "Hoover", "Candy", "Hitachi", "Toshiba"],
-        "result": "4× 9 kg top-auto: 2 dark silver (black lid) + 2 silver — all OOS online. Pure black top-auto: 9 SKUs, all ≥11 kg. Hitachi 9 kg is front-load grey."
+        "result": "9 kg: 2 dark silver + 2 silver (all OOS). 10 kg: Tornado silver/white only (OOS). Pure black top-auto ≥11 kg."
       },
       {
         "source": "Fresh Official",
         "url": "https://fresh.com.eg/en/categories/washing-machines/top-loading",
         "brands": ["Fresh"],
-        "result": "3× 9 kg top-load silver only, all OOS. No 9 kg black product page (404). Black top-load available at 7/10/11/12/15 kg."
-      },
-      {
-        "source": "Samsung Egypt",
-        "url": "https://www.samsung.com/eg/washers-and-dryers/all-washers-and-dryers/",
-        "brands": ["Samsung"],
-        "result": "9 kg models are front-load (incl. black WW90CGC0EDABAS). Top-load catalog is large-capacity (14–19 kg+)."
+        "result": "9 kg top = silver OOS. 10 kg Black LED in stock (~13k). 10 kg silver/gold OOS excluded."
       },
       {
         "source": "LG Egypt",
         "url": "https://www.lg.com/eg_en/washer-dryers/top-loading-washing-machines/",
         "brands": ["LG"],
-        "result": "No 9 kg top-load. Smallest black top-load: T10V1TEHG2 10 kg Middle Black ~15,990 EGP. 9 kg SKUs are front-load."
-      },
-      {
-        "source": "Toshiba Lifestyle Egypt",
-        "url": "https://www.toshiba-lifestyle.com/eg-en/laundry/top-load-washer/",
-        "brands": ["Toshiba"],
-        "result": "AW-J900DUPEG 9 kg top-load listed as Color Silver only (brochure site, no cart price)."
+        "result": "No 9 kg top-load. T10V1TEHG2 10 kg Middle Black ~15,990 EGP with Buy now."
       },
       {
         "source": "Zanussi Egypt",
         "url": "https://www.zanussi.com.eg/en/laundry/washing-machines.html",
         "brands": ["Zanussi"],
-        "result": "Top-load Family Care at 8/10/12 kg (dark grey/silver/white). 9 kg models are front-load SteamMax/ProSteam."
+        "result": "Family Care 10 kg top-load Dark Grey ZWT10710D — near-black, OOS, price hidden at 0 when OOS."
       },
       {
-        "source": "White Point Elabd",
-        "url": "https://whitepointelabd.com/product-category/full-automatic-washing-machine/",
-        "brands": ["White Point"],
-        "result": "Catalog is front-load full-auto (graphite/silver). No top-load 9 kg black listed."
+        "source": "Samsung Egypt",
+        "url": "https://www.samsung.com/eg/washers-and-dryers/all-washers-and-dryers/",
+        "brands": ["Samsung"],
+        "result": "No 9–10 kg black top-load; 9 kg is front-load; top-loads are large capacity."
       },
       {
-        "source": "Beko Egypt",
-        "url": "https://www.beko.com/eg-en/products/freestanding-washing-machines",
-        "brands": ["Beko"],
-        "result": "Freestanding front-load only on EG site (incl. 9 kg WFST97XA). No top-load 9 kg black."
-      },
-      {
-        "source": "Kiriazi Official",
-        "url": "https://kiriazi.com/",
-        "brands": ["Kiriazi"],
-        "result": "Site has top/front full-auto categories; no scrapeable 9 kg black top-load product cards in session."
-      },
-      {
-        "source": "Unionaire Official",
-        "url": "https://www.unionaire.com/",
-        "brands": ["Unionaire"],
-        "result": "No clear 9 kg black top-load e-commerce listing found."
-      },
-      {
-        "source": "Haier Egypt",
-        "url": "https://www.haier.com/eg_en/",
-        "brands": ["Haier"],
-        "result": "No matching 9 kg black top-load product listing confirmed on EG site."
-      }
-    ],
-    "ifYouFlexSizeForTrueBlackInStock": [
-      {
-        "name": "Fresh Top Loading 10 K.G. - Black LED",
-        "url": "https://fresh.com.eg/en/products/fresh-top-loading-washing-machine-10-k-g-black-led",
-        "priceEGP": 13017,
-        "stock": "in_stock",
-        "note": "Closest official true-black top-load in stock; +1 kg over target"
-      },
-      {
-        "name": "LG Top Load 10 kg Middle Black T10V1TEHG2",
-        "url": "https://www.lg.com/eg_en/washer-dryers/top-loading-washing-machines/t10v1tehg2/",
-        "priceEGP": 15990,
-        "stock": "listed",
-        "note": "Official LG black top-load; +1 kg over target"
+        "source": "Toshiba / Beko / White Point / Kiriazi / Unionaire / Haier",
+        "url": "various official sites",
+        "brands": ["Toshiba", "Beko", "White Point", "Kiriazi", "Unionaire", "Haier"],
+        "result": "No additional 9–10 kg black top-load full-auto listings confirmed on official EG storefronts."
       }
     ]
   },
   "householdContext": {
     "size": "couple, no kids",
     "ironOwned": true,
-    "note": "9 kg buffer for couple + bedding; black aesthetic preferred"
+    "note": "9 kg ideal; 10 kg acceptable buffer for bedding and black finish availability"
   },
   "counts": {
-    "total": 2,
-    "strict_black_body": 0,
-    "near_black_dark_silver_black_lid": 2,
-    "in_stock": 0,
-    "out_of_stock": 2,
-    "top_load": 2,
-    "official": 2,
+    "total": 5,
+    "kg9": 2,
+    "kg10": 3,
+    "strict_black_body": 2,
+    "near_black": 3,
+    "in_stock": 2,
+    "out_of_stock": 3,
+    "top_load": 5,
+    "official": 5,
     "inverter": 0
   },
-  "disclaimer": "Live scrape 2026-07-20 via Playwright on official manufacturer sites only. Pure black 9 kg top-load full-auto: zero listings. Included SKUs are the only official 9 kg top-load dark finishes (Dark Silver body + Black top cover). All currently Out of stock on Elaraby — use Notify me / call before buying. Prices change.",
+  "disclaimer": "Live Playwright scrape 2026-07-20 on official manufacturer sites. Criteria: 9–10 kg, black or near-black, top-load, full-auto. Prices/stock change — open product link before buying.",
   "items": [
+    {
+      "id": "wm_official_fresh_10kg_black_led",
+      "category": "washer",
+      "band": "adjacent",
+      "matchLevel": "strict_black",
+      "name": "Fresh Top Loading Washing Machine 10 K.G. — Black LED",
+      "brand": "Fresh",
+      "model": "10kg Black LED",
+      "priceEGP": 13017,
+      "url": "https://fresh.com.eg/en/products/fresh-top-loading-washing-machine-10-k-g-black-led",
+      "scrapedAt": "2026-07-20",
+      "retailer": "Fresh Official",
+      "sourceLabel": "Fresh.com.eg",
+      "color": "black",
+      "colorDetail": "Outer body Black (official Fresh listing)",
+      "capacity": 10,
+      "capacityUnit": "kg",
+      "capacityKg": 10,
+      "inStock": true,
+      "stockStatus": "in_stock",
+      "stockNote": "In stock on Fresh.com.eg — listing showed only 2 left at scrape time",
+      "specs": {
+        "capacityKg": 10,
+        "type": "top_load",
+        "automation": "full_auto",
+        "inverter": false,
+        "drainPump": true,
+        "loadingType": "Top Loading",
+        "bodyColor": "Black",
+        "controls": "LED / digital",
+        "dimensionsMm": { "w": 580, "d": 605, "h": 980 },
+        "waterInlets": "Cold + Hot",
+        "featuresClaimed": [
+          "Pump for drainage",
+          "Filter to eliminate impurities",
+          "2 water inlets (cold/hot)",
+          "Open door mid-cycle",
+          "Claims up to 60% lower electric/water use vs older non-smart lines",
+          "Soft close (product gallery)"
+        ]
+      },
+      "imageUrl": "https://be.fresh.com.eg/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/l/e/led_12_10kg_-_black.png",
+      "imageGallery": [
+        "https://be.fresh.com.eg/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/l/e/led_12_10kg_-_black.png",
+        "https://be.fresh.com.eg/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/_/4._soft_close_13.jpg",
+        "https://be.fresh.com.eg/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/_/5._digital_screen_14.jpg",
+        "https://be.fresh.com.eg/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/_/1._drum_14.jpg"
+      ],
+      "pros": [
+        "TRUE black body — matches aesthetics preference without dark-silver compromise",
+        "In stock on official Fresh site (~13k EGP after cash discount) — can buy now",
+        "10 kg is only +1 kg over target — still couple-sized with extra bedding headroom",
+        "Top-load full auto with drain pump and dual water inlets",
+        "Official manufacturer channel with local service footprint"
+      ],
+      "cons": [
+        "10 kg not exact 9 kg target (small size flex)",
+        "Non-inverter motor class — expect more noise than LG inverter tops",
+        "Low stock warning on site (only 2 left at scrape) — may sell out",
+        "Less brand prestige than LG for some buyers"
+      ],
+      "summary": "Best buy-now pick: true black 10 kg top-load on Fresh official · ~13,017 EGP · in stock.",
+      "researchFitScore": 9.1,
+      "hasDeepResearch": true,
+      "status": "shortlist",
+      "tags": [
+        "top_load",
+        "full_auto",
+        "10kg",
+        "black",
+        "strict_black",
+        "official",
+        "fresh",
+        "in_stock",
+        "buy_now"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "wm_official_lg_t10v1tehg2_10_black",
+      "category": "washer",
+      "band": "adjacent",
+      "matchLevel": "strict_black",
+      "name": "LG Top Load 10 kg Middle Black — T10V1TEHG2",
+      "brand": "LG",
+      "model": "T10V1TEHG2",
+      "priceEGP": 15990,
+      "url": "https://www.lg.com/eg_en/washer-dryers/top-loading-washing-machines/t10v1tehg2/",
+      "scrapedAt": "2026-07-20",
+      "retailer": "LG Egypt",
+      "sourceLabel": "LG Egypt official",
+      "color": "black",
+      "colorDetail": "Middle Black (official LG naming)",
+      "capacity": 10,
+      "capacityUnit": "kg",
+      "capacityKg": 10,
+      "inStock": true,
+      "stockStatus": "in_stock",
+      "stockNote": "Buy now available on LG Egypt product page",
+      "specs": {
+        "capacityKg": 10,
+        "type": "top_load",
+        "automation": "full_auto",
+        "inverter": false,
+        "loadingType": "Top Loading",
+        "bodyColor": "Middle Black",
+        "featuresClaimed": [
+          "Soft closing door",
+          "TurboDrum",
+          "Smart Motion (triple motion)",
+          "Smart Diagnosis",
+          "10 years warranty (as advertised on page)",
+          "Free delivery / installation (as advertised)"
+        ]
+      },
+      "imageUrl": "https://www.lg.com/content/dam/channel/wcms/eg_en/images/t10v1tehg2/450_0012_t10v1tehg2.jpg",
+      "imageGallery": [
+        "https://www.lg.com/content/dam/channel/wcms/eg_en/images/t10v1tehg2/450_0012_t10v1tehg2.jpg",
+        "https://www.lg.com/content/dam/channel/wcms/eg_en/images/t10v1tehg2/450_0012_t10v1tehg2.jpg/jcr:content/renditions/thum-350x350.jpeg"
+      ],
+      "pros": [
+        "TRUE black (Middle Black) top-load full-auto — aesthetic match",
+        "Available to buy now on official LG Egypt site",
+        "Soft-close door + TurboDrum / Smart Motion feature set",
+        "Strong LG service network in Egypt",
+        "10 kg buffer for couple + occasional large loads"
+      ],
+      "cons": [
+        "Price ~16k EGP — ~3k more than Fresh 10 kg black",
+        "+1 kg over original 9 kg target",
+        "Not advertised as inverter on the product hero (confirm motor type on full specs before buy)",
+        "Member-only price slightly lower — list price 15,990 EGP"
+      ],
+      "summary": "Premium true-black 10 kg top-load from LG official · 15,990 EGP · buy now.",
+      "researchFitScore": 8.9,
+      "hasDeepResearch": true,
+      "status": "shortlist",
+      "tags": [
+        "top_load",
+        "full_auto",
+        "10kg",
+        "black",
+        "strict_black",
+        "official",
+        "lg",
+        "in_stock",
+        "buy_now"
+      ],
+      "rank": 2
+    },
     {
       "id": "wm_official_sharp_es_tn09gdsp_9_ds",
       "category": "washer",
@@ -147,7 +254,7 @@
       "capacityKg": 9,
       "inStock": false,
       "stockStatus": "out_of_stock",
-      "stockNote": "Out of stock on Elaraby Group — Notify me when in stock available on product page",
+      "stockNote": "Out of stock on Elaraby Group — Notify me when in stock",
       "specs": {
         "capacityKg": 9,
         "type": "top_load",
@@ -176,21 +283,17 @@
         "https://www.elarabygroup.com/media/catalog/product/cache/3495d522e9ac8b580d54c7d730441906/s/h/sharp-washing-machine-top-automatic-9-kg-pump-dark-silver-es-tn09gdsp-closed.jpg"
       ],
       "pros": [
-        "Exact 9 kg capacity — right size for a couple with bedding buffer",
-        "Top-load full automatic with drain pump (no floor drain gymnastics)",
-        "Black top cover + dark body is the darkest official 9 kg Sharp finish",
-        "Made in Egypt · 5-year full free warranty via Elaraby service network",
-        "Official manufacturer channel (Elaraby) — no third-party markup layer",
-        "Price ~13.5k EGP is mid-range vs inverter/front-load 9 kg options"
+        "Exact 9 kg capacity target",
+        "Darkest official Sharp 9 kg finish (dark silver + black lid)",
+        "Drain pump · digital touch · 5-year warranty · made in Egypt",
+        "Official Elaraby channel"
       ],
       "cons": [
-        "NOT pure black body — official color is Dark Silver (retailers sometimes call it black)",
-        "Out of stock on Elaraby right now — cannot buy online until restock",
-        "Non-inverter motor — louder spin and likely higher long-term energy use",
-        "700 RPM max spin — clothes come out wetter than front-load 1200–1400 RPM",
-        "No inverter / DDM in this 9 kg pump line (inverter Sharp tops jump to larger kg)"
+        "Not pure black body",
+        "Out of stock online",
+        "Non-inverter · 700 RPM spin"
       ],
-      "summary": "Closest official Sharp 9 kg top-load to black (dark silver + black lid) · 13,529 EGP · OOS on Elaraby.",
+      "summary": "Exact 9 kg near-black Sharp on Elaraby · 13,529 EGP · OOS — notify for restock.",
       "researchFitScore": 8.2,
       "hasDeepResearch": true,
       "status": "watch_restock",
@@ -203,11 +306,9 @@
         "near_black",
         "official",
         "elaraby",
-        "out_of_stock",
-        "non_inverter",
-        "pump"
+        "out_of_stock"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "id": "wm_official_tornado_twe_tln09rds_9_ds",
@@ -229,7 +330,7 @@
       "capacityKg": 9,
       "inStock": false,
       "stockStatus": "out_of_stock",
-      "stockNote": "Out of stock on Elaraby Group — Notify me when in stock available on product page",
+      "stockNote": "Out of stock on Elaraby Group — Notify me when in stock",
       "specs": {
         "capacityKg": 9,
         "type": "top_load",
@@ -258,20 +359,16 @@
         "https://www.elarabygroup.com/media/catalog/product/cache/3495d522e9ac8b580d54c7d730441906/t/o/tornado-washing-machine-top-automatic-9-kg-pump-dark-silver-twe-tln09rds-1.jpg"
       ],
       "pros": [
-        "Same 9 kg top-load full-auto form factor as Sharp twin — couple-sized correctly",
-        "Cheapest official near-black 9 kg option (~12.6k EGP vs Sharp ~13.5k)",
-        "Black top cover + dark silver body — darkest Tornado 9 kg finish on Elaraby",
-        "Drain pump + digital touch + 5-year warranty via Elaraby",
-        "Made in Egypt — local parts/service path under Elaraby Group"
+        "Exact 9 kg · cheapest official near-black 9 kg (~12.6k)",
+        "Black lid + dark silver body",
+        "Same Elaraby warranty/service path as Sharp twin"
       ],
       "cons": [
-        "Not pure black body (Dark Silver official); same near-black compromise as Sharp",
-        "Out of stock online on Elaraby",
-        "Non-inverter · 700 RPM — wetter spin-out, more noise than inverter tops",
-        "Tornado brand perception slightly below Sharp for some buyers (same Elaraby group)",
-        "Spec sheet nearly identical to Sharp ES-TN09GDSP — pay less, similar hardware class"
+        "Not pure black body",
+        "Out of stock",
+        "Non-inverter · 700 RPM"
       ],
-      "summary": "Best-price official near-black 9 kg top-load (Tornado dark silver + black lid) · 12,629 EGP · OOS.",
+      "summary": "Cheapest official near-black 9 kg top-load · 12,629 EGP · OOS on Elaraby.",
       "researchFitScore": 8.0,
       "hasDeepResearch": true,
       "status": "watch_restock",
@@ -285,22 +382,84 @@
         "official",
         "elaraby",
         "out_of_stock",
-        "non_inverter",
-        "pump",
         "value"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "id": "wm_official_zanussi_zwt10710d_10_dg",
+      "category": "washer",
+      "band": "adjacent",
+      "matchLevel": "near_black",
+      "name": "Zanussi Family Care 10 kg Top Load — Dark Grey ZWT10710D",
+      "brand": "Zanussi",
+      "model": "ZWT10710D",
+      "priceEGP": null,
+      "url": "https://www.zanussi.com.eg/en/zanussi-family-care-10kg-topload-dark-grey-washing-machine-trio-jet-system.html",
+      "scrapedAt": "2026-07-20",
+      "retailer": "Zanussi Egypt",
+      "sourceLabel": "Zanussi.com.eg (Electrolux)",
+      "color": "dark_grey",
+      "colorDetail": "Dark Grey (official Zanussi Family Care)",
+      "capacity": 10,
+      "capacityUnit": "kg",
+      "capacityKg": 10,
+      "inStock": false,
+      "stockStatus": "out_of_stock",
+      "stockNote": "OUT OF STOCK on Zanussi Egypt — price shown as EGP 0 while OOS; Notify me available",
+      "specs": {
+        "capacityKg": 10,
+        "type": "top_load",
+        "automation": "full_auto",
+        "inverter": false,
+        "loadingType": "Top Loading",
+        "bodyColor": "Dark Grey",
+        "featuresClaimed": [
+          "Cyclonic Care System",
+          "Trio Jet System",
+          "Soft closing door",
+          "Digital display",
+          "Fuzzy Logic"
+        ]
+      },
+      "imageUrl": "https://www.zanussi.com.eg/media/catalog/product/cache/240f97347c121d5bf132ca1e5684e702/8/k/8kg-dg-zan-1500x1500-min-removebg-preview_1.png",
+      "imageGallery": [
+        "https://www.zanussi.com.eg/media/catalog/product/cache/240f97347c121d5bf132ca1e5684e702/8/k/8kg-dg-zan-1500x1500-min-removebg-preview_1.png"
+      ],
+      "pros": [
+        "10 kg top-load full-auto with dark grey near-black finish",
+        "Soft-close + Trio Jet / Cyclonic Care feature story",
+        "Official Zanussi Egypt (Electrolux) channel",
+        "Family Care line aimed at household loads"
+      ],
+      "cons": [
+        "Out of stock — no live price on site (shows EGP 0)",
+        "Dark grey not pure black",
+        "Cannot complete purchase until restock"
+      ],
+      "summary": "Zanussi 10 kg dark grey top-load near-black · OOS on official site · price TBA at restock.",
+      "researchFitScore": 7.2,
+      "hasDeepResearch": true,
+      "status": "watch_restock",
+      "tags": [
+        "top_load",
+        "full_auto",
+        "10kg",
+        "dark_grey",
+        "near_black",
+        "official",
+        "zanussi",
+        "out_of_stock"
+      ],
+      "rank": 5
     }
   ],
   "excludedExamples": [
-    "Fresh 9 kg top-load silver (OOS) — fails black",
-    "Sharp/Tornado 9 kg silver lid variants — fails black",
-    "Hitachi BD-90YFVEM 9 kg grey — front-load, not top",
-    "Samsung WW90CGC0EDABAS 9 kg black — front-load",
-    "LG F4Y2VYGYZ 9 kg — front-load",
-    "Beko WFST97XA 9 kg — front-load freestanding",
-    "All Elaraby pure Black top-auto (11–17 kg) — fail 9 kg",
-    "Fresh 10 kg Black LED (in stock) — fail 9 kg (listed under marketFinding flex only)",
-    "All prior B.TECH catalog SKUs — not official manufacturer channel"
+    "Fresh 10 kg Panorama Silver / Facelift Gold — not black",
+    "Elaraby Tornado 10 kg silver/white only",
+    "Zanussi Family Care 10 kg silver/white — not black",
+    "All front-load 9–10 kg (Samsung, LG front, Beko, Hitachi, etc.)",
+    "Pure black top-load ≥11 kg (out of 9–10 band)",
+    "Prior B.TECH-only catalog SKUs"
   ]
 }
