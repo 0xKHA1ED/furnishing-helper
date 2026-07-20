@@ -22,7 +22,8 @@
             Hard filters: <strong>55–65 inches</strong>,
             <strong>under 30,000 EGP</strong>,
             <strong>official manufacturers only</strong> (Samsung, LG, Elaraby/Tornado/Sharp/TCL, Fresh, etc.).
-            Each card includes price, pros/cons, and stock status from the brand site.
+            Ranked by <strong>image quality → OS → design → features → brand</strong> (not price-first).
+            Each card includes enriched pros/cons covering those dimensions.
           </p>
         </div>
         <div class="badge-row">
@@ -64,7 +65,7 @@
         </label>
         <label>Sort
           <select id="f-sort">
-            <option value="rank">Our rank</option>
+            <option value="rank">Quality rank</option>
             <option value="price_asc">Price ↑</option>
             <option value="price_desc">Price ↓</option>
             <option value="size_desc">Size ↓</option>
@@ -230,9 +231,9 @@
                 <button type="button" class="star-btn ${stars.has(it.id) ? "on" : ""}" data-star="${esc(it.id)}">★</button>
               </div>
               <div class="body">
-                <div class="brand">${esc(it.brand)} · ${esc(it.panel)} · ${esc(it.resolution)}</div>
+                <div class="brand">${esc(it.brand)} · ${esc(it.panel)} · ${esc(it.os || "Smart")} · ${esc(it.resolution)}</div>
                 <h3>${esc(it.name)}</h3>
-                <div class="meta">${esc(it.source || "")} · ${esc(stock)}</div>
+                <div class="meta">${esc(it.source || "")} · ${esc(stock)}${it.qualityScore != null ? " · q" + it.qualityScore : ""}</div>
                 <div class="price">${fmt(it.priceEGP)}</div>
               </div>
             </article>`;
@@ -260,7 +261,7 @@
         if (!active) return;
         $("#modal-backdrop").classList.add("open");
         $("#modal-title").textContent = active.name;
-        $("#modal-sub").textContent = `${active.brand} · ${active.sizeInches || "?"}″ · ${active.panel} · ${active.resolution}`;
+        $("#modal-sub").textContent = `${active.brand} · ${active.sizeInches || "?"}″ · ${active.panel} · ${active.os || "Smart"} · ${active.resolution}${active.qualityScore != null ? " · quality " + active.qualityScore : ""}`;
         $("#modal-price").textContent = fmt(active.priceEGP);
         $("#modal-summary").textContent = active.summary || "";
         if (active.imageUrl) {
@@ -274,8 +275,11 @@
         $("#modal-pros").innerHTML = (active.pros || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
         $("#modal-cons").innerHTML = (active.cons || []).map((p) => `<li>${esc(p)}</li>`).join("") || "<li>—</li>";
         const specs = [
+          ["Rank", active.rank != null && active.rank < 200 ? "#" + active.rank + " (quality-first)" : "—"],
+          ["Quality score", active.qualityScore != null ? String(active.qualityScore) : "—"],
           ["Size", active.sizeInches ? active.sizeInches + " inches" : "—"],
-          ["Panel", active.panel],
+          ["Panel / image", active.panel],
+          ["OS", active.os || "—"],
           ["Resolution", active.resolution],
           ["Brand", active.brand],
           ["Source", active.source],

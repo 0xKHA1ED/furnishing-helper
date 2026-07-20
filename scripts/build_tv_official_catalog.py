@@ -13,7 +13,7 @@ MIN_INCH = 55
 MAX_INCH = 65
 
 
-def el(name, brand, price, inch, url, img, oos, panel="LED", res="4K UHD", extra=None):
+def el(name, brand, price, inch, url, img, oos, panel="LED", res="4K UHD", extra=None, os_name=None):
     return {
         "name": name,
         "brand": brand,
@@ -26,7 +26,33 @@ def el(name, brand, price, inch, url, img, oos, panel="LED", res="4K UHD", extra
         "source": "Elaraby Group official",
         "inStock": not oos,
         "features": extra or [],
+        "os": os_name,
     }
+
+
+def detect_os(it: dict) -> str:
+    """Best-effort OS label from brand + name/features."""
+    if it.get("os"):
+        return it["os"]
+    blob = (" ".join(it.get("features") or []) + " " + it["name"]).lower()
+    brand = it["brand"]
+    if "google tv" in blob:
+        return "Google TV"
+    if "android" in blob:
+        return "Android TV"
+    if "webos" in blob or brand == "LG":
+        return "webOS"
+    if "tizen" in blob or brand == "Samsung":
+        return "Tizen"
+    if brand == "TCL":
+        return "Google TV"
+    if brand == "Fresh":
+        return "Google TV"
+    if brand == "Sharp":
+        return "Google TV"
+    if brand in {"Tornado", "Kajito"}:
+        return "Smart TV"
+    return "Smart TV"
 
 
 def main():
@@ -45,11 +71,13 @@ def main():
             "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/ua55m70hauxeg/gallery/eg-mini-led-m70h-ua55m70hauxeg-552250102?$1164_776_PNG$",
             "source": "Samsung Egypt official",
             "inStock": True,
+            "os": "Tizen",
             "features": [
-                "Mini LED",
+                "Mini LED local dimming",
                 "4K",
                 "Samsung Vision AI",
                 "Tizen smart TV",
+                "2026 model",
                 "Official Samsung EG store",
             ],
         },
@@ -64,10 +92,12 @@ def main():
             "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/qa55q6faauxeg/gallery/eg-qled-q6f-qa55q6faauxeg-552022552?$1164_776_PNG$",
             "source": "Samsung Egypt official",
             "inStock": True,
+            "os": "Tizen",
             "features": [
-                "QLED",
+                "QLED quantum-dot color",
                 "4K",
                 "2025 model",
+                "Tizen smart TV",
                 "Official Samsung EG store",
                 "Add to cart available",
             ],
@@ -83,11 +113,14 @@ def main():
             "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/ua65u8000huxeg/gallery/eg-uhd-u8000h-ua65u8000huxeg-552249641?$1164_776_PNG$",
             "source": "Samsung Egypt official",
             "inStock": True,
+            "os": "Tizen",
             "features": [
                 "Crystal UHD",
                 "4K",
                 "65 inch large living-room size",
                 "Samsung Vision AI",
+                "Tizen smart TV",
+                "2026 model",
                 "In stock on official store",
             ],
         },
@@ -102,9 +135,13 @@ def main():
             "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/ua55u8000huxeg/gallery/eg-uhd-u8000h-ua55u8000huxeg-552249589?$1164_776_PNG$",
             "source": "Samsung Egypt official",
             "inStock": False,
+            "os": "Tizen",
             "features": [
                 "Crystal UHD",
                 "4K",
+                "Samsung Vision AI",
+                "Tizen smart TV",
+                "2026 model",
                 "Best Samsung price in size band",
                 "Listed but not available for cart on official site",
             ],
@@ -124,10 +161,13 @@ def main():
             "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/portal/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/55-nu85/gallery/55-450.jpg",
             "source": "LG Egypt official",
             "inStock": True,
+            "os": "webOS",
             "features": [
                 "NanoCell / NANO 4K",
                 "webOS",
+                "AI picture processing",
                 "AI Magic remote ecosystem",
+                "2026 model",
                 "Free delivery/installation offers",
                 "Buy now on LG.com/eg",
             ],
@@ -143,9 +183,12 @@ def main():
             "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/portal/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/55-nu85/gallery/55-450.jpg",
             "source": "LG Egypt official",
             "inStock": True,
+            "os": "webOS",
             "features": [
                 "NANO 4K AI NU85",
                 "webOS",
+                "AI picture processing",
+                "2026 model",
                 "In stock",
                 "Official LG Egypt pricing",
             ],
@@ -161,9 +204,13 @@ def main():
             "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/55-qned70/gallery/55-450-1.jpg",
             "source": "LG Egypt official",
             "inStock": True,
+            "os": "webOS",
             "features": [
-                "QNED Mini LED",
+                "QNED Mini LED local dimming",
+                "webOS",
+                "AI picture processing",
                 "LG Online Exclusive",
+                "2026 model",
                 "0% interest offers",
                 "Buy now",
             ],
@@ -179,8 +226,12 @@ def main():
             "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/65-nu85/gallery/new/450.jpg",
             "source": "LG Egypt official",
             "inStock": False,
+            "os": "webOS",
             "features": [
                 "65 inch NANO",
+                "webOS",
+                "AI picture processing",
+                "2026 model",
                 "LG Online Exclusive pricing",
                 "Stock alert shown on PDP",
             ],
@@ -196,7 +247,14 @@ def main():
             "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/55-qned70/gallery/55-450.jpg",
             "source": "LG Egypt official",
             "inStock": True,
-            "features": ["QNED70 Mini LED", "2026 model", "In stock on LG Egypt"],
+            "os": "webOS",
+            "features": [
+                "QNED70 Mini LED local dimming",
+                "webOS",
+                "AI picture processing",
+                "2026 model",
+                "In stock on LG Egypt",
+            ],
         },
         {
             "name": "65 inch LG NANO 4K AI NU85 Smart TV 2026",
@@ -209,7 +267,16 @@ def main():
             "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/portal/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/65-nu85/gallery/65-450.jpg",
             "source": "LG Egypt official",
             "inStock": True,
-            "features": ["65 inch", "NANO 4K AI", "In stock", "Official LG store"],
+            "os": "webOS",
+            "features": [
+                "65 inch",
+                "NANO 4K AI",
+                "webOS",
+                "AI picture processing",
+                "2026 model",
+                "In stock",
+                "Official LG store",
+            ],
         },
         {
             "name": "65 inch LG QNED AI QNED7E Mini LED 4K Smart TV 2026",
@@ -222,7 +289,15 @@ def main():
             "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/65-qned70/gallery/65-450-1.jpg",
             "source": "LG Egypt official",
             "inStock": True,
-            "features": ["QNED Mini LED 65\"", "Just under 30k", "Buy now available"],
+            "os": "webOS",
+            "features": [
+                "QNED Mini LED 65\" local dimming",
+                "webOS",
+                "AI picture processing",
+                "2026 model",
+                "Just under 30k",
+                "Buy now available",
+            ],
         },
     ]
 
@@ -252,6 +327,7 @@ def main():
         "55C6K": f"{base}/t/c/tcl-4k-smart-frameless-qd-mini-led-tv-55-inch-built-in-receiver-55c6k.jpg",
     }
 
+    # name, brand, price, inch, url_key, oos, panel, features, os
     elaraby = [
         (
             "TORNADO 4K Smart DLED TV 58 Inch WiFi Connection 58US1500E",
@@ -263,6 +339,7 @@ def main():
             False,
             "LED",
             ["Built-in WiFi", "Local Tornado/Elaraby service", "Cheapest 58\" official listing"],
+            "Smart TV",
         ),
         (
             "TORNADO 4K Smart Frameless DLED TV 55 Inch 55US4600E",
@@ -274,6 +351,7 @@ def main():
             True,
             "LED",
             ["Frameless DLED", "Out of stock on Elaraby"],
+            "Smart TV",
         ),
         (
             "TORNADO 4K Smart Frameless DLED TV 55 Inch Built-In Receiver 55US3500E",
@@ -284,7 +362,8 @@ def main():
             "55US3500E",
             True,
             "LED",
-            ["Built-in receiver", "Out of stock"],
+            ["Frameless", "Built-in receiver", "Out of stock"],
+            "Smart TV",
         ),
         (
             "TORNADO 4K Smart Frameless DLED TV 58 Inch 58US4600E",
@@ -296,6 +375,7 @@ def main():
             False,
             "LED",
             ["Frameless", "58 inch mid-size", "In stock"],
+            "Smart TV",
         ),
         (
             "TORNADO 4K Frameless TV 55 Inch Android Built-In Receiver 55UA5300E",
@@ -306,7 +386,8 @@ def main():
             "55UA5300E",
             False,
             "LED",
-            ["Android TV", "Built-in receiver", "In stock"],
+            ["Frameless", "Android TV", "Built-in receiver", "In stock"],
+            "Android TV",
         ),
         (
             "TORNADO 4K Frameless TV 55 Inch Android Built-In Receiver 55UA1400E",
@@ -317,7 +398,8 @@ def main():
             "55UA1400E",
             True,
             "LED",
-            ["Android", "Built-in receiver", "Out of stock"],
+            ["Frameless", "Android TV", "Built-in receiver", "3 HDMI / 2 USB", "Out of stock"],
+            "Android TV",
         ),
         (
             "TORNADO 4K Smart Frameless TV 55 Inch Built-In Receiver 55UA3400E",
@@ -328,7 +410,8 @@ def main():
             "55UA3400E",
             True,
             "LED",
-            ["Built-in receiver", "Out of stock"],
+            ["Frameless", "Built-in receiver", "Out of stock"],
+            "Smart TV",
         ),
         (
             "SHARP 4K Smart Frameless TV 55 Inch 4T-C55FJ16EX",
@@ -339,7 +422,8 @@ def main():
             "4T-C55FJ16EX",
             False,
             "LED",
-            ["Sharp brand via Elaraby", "Frameless 4K", "In stock"],
+            ["Sharp brand via Elaraby", "Frameless 4K", "Google TV ecosystem", "In stock"],
+            "Google TV",
         ),
         (
             "TCL 4K QLED Smart Frameless TV 55 Inch Built-In Receiver 55P7K",
@@ -350,7 +434,8 @@ def main():
             "55P7K",
             False,
             "QLED",
-            ["QLED", "Built-in receiver", "TCL via official Elaraby"],
+            ["QLED quantum-dot color", "Frameless", "Built-in receiver", "Google TV", "TCL via official Elaraby"],
+            "Google TV",
         ),
         (
             "KAJITO 4K Smart Frameless TV QLED 55 Inch Built-In Receiver K55QA501D",
@@ -361,7 +446,8 @@ def main():
             "K55QA501D",
             True,
             "QLED",
-            ["Elaraby house brand Kajito", "QLED", "Out of stock"],
+            ["Elaraby house brand Kajito", "QLED", "Frameless", "Built-in receiver", "Out of stock"],
+            "Smart TV",
         ),
         (
             "SHARP 4K Smart Frameless TV 55 Inch Built-In Receiver 4T-C55FL6EX",
@@ -372,7 +458,8 @@ def main():
             "4T-C55FL6EX",
             True,
             "LED",
-            ["Built-in receiver", "Out of stock"],
+            ["Frameless", "Built-in receiver", "Google TV ecosystem", "Out of stock"],
+            "Google TV",
         ),
         (
             "TORNADO 4K Smart Frameless QLED TV 55 Inch Built-In Receiver 55QA3400G",
@@ -383,7 +470,8 @@ def main():
             "55QA3400G",
             True,
             "QLED",
-            ["QLED", "Out of stock"],
+            ["QLED", "Frameless", "Built-in receiver", "Out of stock"],
+            "Smart TV",
         ),
         (
             "SHARP 4K Smart Frameless TV 65 Inch 4T-C65FJ16EX",
@@ -394,7 +482,8 @@ def main():
             "4T-C65FJ16EX",
             False,
             "LED",
-            ["65 inch Sharp", "In stock", "Elaraby official"],
+            ["65 inch Sharp", "Frameless", "Google TV ecosystem", "In stock", "Elaraby official"],
+            "Google TV",
         ),
         (
             "TORNADO 4K Smart Frameless QLED TV 55 Inch Built-In Receiver 55QS3500E",
@@ -405,7 +494,8 @@ def main():
             "55QS3500E",
             False,
             "QLED",
-            ["QLED", "Built-in receiver", "In stock"],
+            ["QLED", "Frameless", "Built-in receiver", "In stock"],
+            "Smart TV",
         ),
         (
             "TORNADO 4K Smart Frameless TV 65 Inch Built-In Receiver 65UA3400E",
@@ -416,7 +506,8 @@ def main():
             "65UA3400E",
             False,
             "LED",
-            ["65 inch", "Built-in receiver", "In stock"],
+            ["65 inch", "Frameless", "Built-in receiver", "In stock"],
+            "Smart TV",
         ),
         (
             "TORNADO 4K Frameless TV 65 Inch Android Built-In Receiver 65UA5300E",
@@ -427,7 +518,8 @@ def main():
             "65UA5300E",
             False,
             "LED",
-            ["Android TV 65\"", "Built-in receiver", "In stock"],
+            ["Android TV 65\"", "Frameless", "Built-in receiver", "In stock"],
+            "Android TV",
         ),
         (
             "TORNADO 4K Smart DLED TV 65 Inch WiFi Connection 65US1500E",
@@ -439,6 +531,7 @@ def main():
             True,
             "LED",
             ["65 inch DLED", "Out of stock"],
+            "Smart TV",
         ),
         (
             "TORNADO 4K Frameless TV 65 Inch Android Built-In Receiver 65UA1400E",
@@ -449,7 +542,8 @@ def main():
             "65UA1400E",
             True,
             "LED",
-            ["Android", "Out of stock"],
+            ["Android TV", "Frameless", "Built-in receiver", "3 HDMI / 2 USB", "Out of stock"],
+            "Android TV",
         ),
         (
             "TORNADO 4K Smart Frameless QLED TV 55 Inch Built-In Receiver 55QA3400E",
@@ -460,7 +554,8 @@ def main():
             "55QA3400E",
             True,
             "QLED",
-            ["QLED", "Out of stock"],
+            ["QLED", "Frameless", "Built-in receiver", "Out of stock"],
+            "Smart TV",
         ),
         (
             "TORNADO 4K Smart Frameless DLED TV 65 Inch Built-In Receiver 65US3500E",
@@ -471,7 +566,8 @@ def main():
             "65US3500E",
             False,
             "LED",
-            ["65 inch DLED", "Built-in receiver", "In stock"],
+            ["65 inch DLED", "Frameless", "Built-in receiver", "In stock"],
+            "Smart TV",
         ),
         (
             "TCL 4K Smart Frameless TV QLED 55 Inch Built-In Receiver 55P8K",
@@ -482,7 +578,8 @@ def main():
             "55P8K",
             False,
             "QLED",
-            ["QLED P8K", "Built-in receiver", "In stock"],
+            ["QLED P8K (higher TCL tier)", "Frameless", "Built-in receiver", "Google TV", "In stock"],
+            "Google TV",
         ),
         (
             "TCL 4K Smart Frameless QD-Mini LED TV 55 Inch Built-In Receiver 55C6K",
@@ -493,11 +590,12 @@ def main():
             "55C6K",
             False,
             "Mini-LED",
-            ["QD-Mini LED", "PDP price above 30k"],
+            ["QD-Mini LED", "Frameless", "Built-in receiver", "Google TV", "PDP price above 30k"],
+            "Google TV",
         ),
     ]
 
-    for name, brand, price, inch, url, key, oos, panel, feats in elaraby:
+    for name, brand, price, inch, url, key, oos, panel, feats, os_name in elaraby:
         raw.append(
             el(
                 name,
@@ -510,6 +608,7 @@ def main():
                 panel,
                 "4K UHD",
                 feats + ["Elaraby Group official manufacturer channel"],
+                os_name,
             )
         )
 
@@ -526,9 +625,11 @@ def main():
             "imageUrl": "https://be.fresh.com.eg/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/0/60muq433g.jpg",
             "source": "Fresh Egypt official",
             "inStock": True,
+            "os": "Google TV",
             "features": [
                 "Google TV",
-                "QLED UHD",
+                "QLED UHD quantum-dot color",
+                "Monitor-style chassis",
                 "60 inch rare mid-size",
                 "Egyptian brand Fresh official store",
             ],
@@ -566,81 +667,229 @@ def main():
     )
 
     def score(it):
-        s = 50
+        """
+        Quality-first score (higher = better). Dimensions:
+        image panel, brand processing, OS, design, features, size, budget fit, stock.
+        Pros/cons are written per dimension for the gallery modal.
+        """
+        s = 0  # higher is better quality
         pros, cons = [], []
         inch, price, brand = it["sizeInches"], it["priceEGP"], it["brand"]
         panel = it["panel"]
         stock = it.get("inStock")
-        blob = " ".join(it.get("features") or []) + " " + it["name"]
+        blob = (" ".join(it.get("features") or []) + " " + it["name"]).lower()
+        os_name = detect_os(it)
+        year_2026 = "2026" in it["name"] or "2026" in blob
+        year_2025 = "2025" in it["name"] or "2025" in blob
+        frameless = "frameless" in blob
+        has_receiver = "receiver" in blob or "built-in receiver" in blob
+        has_ai = any(k in blob for k in ("vision ai", "ai picture", "nano 4k ai", "qned ai", " ai "))
+        mini_led = panel == "Mini-LED" or "mini led" in blob or "mini-led" in blob or "qned" in blob
 
-        if inch >= 65:
-            s -= 16
-            pros.append(f'{inch}" — large living-room size within 55–65 band')
-        elif inch >= 60:
-            s -= 14
-            pros.append(f'{inch}" — generous size under 65"')
-        elif inch >= 58:
-            s -= 12
-            pros.append(f'{inch}" — between common 55 and 65 sizes')
+        # --- Image quality / panel (0–42) ---
+        if mini_led:
+            s += 42
+            pros.append(
+                "Image: Mini-LED / multi-zone local dimming — strongest contrast & HDR punch in this budget"
+            )
+        elif panel == "QLED":
+            s += 30
+            pros.append(
+                "Image: QLED quantum-dot color — brighter, more vivid color than basic LED"
+            )
+        elif panel == "NanoCell":
+            s += 28
+            pros.append(
+                "Image: NanoCell filter — cleaner color and better off-angle viewing than plain LED"
+            )
+        elif panel == "OLED":
+            s += 45
+            pros.append("Image: OLED perfect blacks — top-tier picture (rare under 30k)")
         else:
-            s -= 10
-            pros.append(f'{inch}" — solid living-room size under budget')
+            s += 14
+            pros.append(
+                "Image: Standard LED/Crystal UHD 4K — solid for streaming; average blacks & peak brightness"
+            )
+            cons.append(
+                "Image: No Mini-LED / QLED layer — less pop in bright rooms and darker movie scenes"
+            )
 
+        # Brand processing & reliability (0–14)
+        if brand in {"Samsung", "LG"}:
+            s += 14
+            pros.append(
+                f"Quality: {brand} processing + Egypt service network — better upscaling, motion, and warranty path"
+            )
+        elif brand in {"Sharp", "Sony", "Toshiba"}:
+            s += 10
+            pros.append(
+                f"Quality: {brand} — established brand with credible Egypt service via official channel"
+            )
+        elif brand in {"TCL", "Hisense"}:
+            s += 8
+            pros.append(
+                f"Quality: {brand} — strong panel value; confirm warranty card and service centre"
+            )
+        elif brand in {"Tornado", "Fresh", "Haier", "Beko"}:
+            s += 4
+            pros.append(
+                f"Quality: {brand} — common Egypt retail brand with local service; image tuning is mid-tier"
+            )
+            cons.append(
+                "Quality: Value-brand pipeline — expect average HDR tone-mapping and motion handling"
+            )
+        else:
+            s += 1
+            cons.append(
+                "Quality: Lesser-known brand — verify warranty length and spare-parts support before buying"
+            )
+
+        # --- OS / smart platform (0–18) ---
+        if os_name == "webOS":
+            s += 18
+            pros.append(
+                "OS: LG webOS — polished home UI, Magic Remote pointer, strong long-term app support"
+            )
+        elif os_name == "Tizen":
+            s += 17
+            pros.append(
+                "OS: Samsung Tizen — fast menus, full app set (Netflix/YouTube/Disney+), reliable updates"
+            )
+        elif os_name == "Google TV":
+            s += 15
+            pros.append(
+                "OS: Google TV — best content discovery, Chromecast built-in, Play Store apps"
+            )
+        elif os_name == "Android TV":
+            s += 11
+            pros.append(
+                "OS: Android TV — familiar Google apps; useful if you already live in that ecosystem"
+            )
+            cons.append(
+                "OS: Android TV on local brands may lag major OS upgrades vs Tizen/webOS flagships"
+            )
+        else:
+            s += 5
+            pros.append("OS: Basic smart TV — streaming apps present; confirm Netflix/YouTube versions")
+            cons.append(
+                "OS: Proprietary/basic smart platform — fewer apps and slower feature updates than Tizen/webOS/Google TV"
+            )
+
+        # --- Design (0–10) ---
+        design_pts = 0
+        if frameless:
+            design_pts += 5
+            pros.append("Design: Frameless bezel — cleaner modern look on a living-room wall")
+        if brand in {"Samsung", "LG"}:
+            design_pts += 4
+            pros.append("Design: Premium chassis/stand language from a global design line")
+        elif "monitor" in blob:
+            design_pts += 3
+            pros.append("Design: Monitor-style slim chassis — easy to wall-mount or desk-place")
+        if design_pts == 0:
+            design_pts = 2
+        s += design_pts
+
+        # --- Features (0–16) ---
+        if has_ai:
+            s += 5
+            pros.append(
+                "Features: AI picture processing — auto upscaling and scene optimization for mixed content"
+            )
+        if has_receiver:
+            s += 5
+            pros.append(
+                "Features: Built-in satellite receiver — fewer boxes for Egyptian dish setups"
+            )
+        if year_2026:
+            s += 4
+            pros.append(
+                "Features: 2026 model year — fresher smart features and a longer support window"
+            )
+        elif year_2025:
+            s += 2
+            pros.append("Features: Recent 2025 model — still current-gen software/features")
+            if brand == "Samsung" and panel == "QLED":
+                cons.append("Features: 2025 QLED generation — one year behind the newest 2026 line")
+        if "hdmi" in blob:
+            s += 1
+            pros.append("Features: Multiple HDMI/USB ports called out for consoles and sticks")
+        if "free delivery" in blob or "installation" in blob:
+            s += 1
+            pros.append("Features: Free delivery/installation offers on official store")
+
+        # Size for living room (secondary, 0–10)
+        if inch and inch >= 65:
+            s += 10
+            pros.append(f'Size: {inch}" — max living-room immersion in the 55–65 band')
+        elif inch and inch >= 60:
+            s += 7
+            pros.append(f'Size: {inch}" — generous mid-size between common 55 and 65 options')
+        elif inch and inch >= 58:
+            s += 5
+            pros.append(f'Size: {inch}" — slightly larger than 55" without a full 65" footprint')
+        else:
+            s += 4
+            pros.append(f'Size: {inch or "?"}" — solid living-room size under budget')
+
+        # Budget fit (weak, 0–5) — quality-first, price only breaks ties
         if price is not None:
             head = MAX_PRICE - price
             if head >= 7000:
-                s -= 8
-                pros.append(f"Leaves ~{head:,} EGP under 30k ceiling")
+                s += 5
+                pros.append(f"Value: Leaves ~{head:,} EGP under 30k for stand/soundbar")
             elif head >= 3000:
-                s -= 4
-                pros.append(f"Under budget by ~{head:,} EGP")
+                s += 3
+                pros.append(f"Value: Under budget by ~{head:,} EGP")
             elif head < 500:
-                s += 2
-                cons.append("Near the 30k ceiling — little room for stand/mount")
+                s += 0
+                cons.append("Value: Near the 30k ceiling — little headroom for stand or soundbar")
+            else:
+                s += 1
 
-        tier_a = {"Samsung", "LG", "Sharp", "Toshiba", "Sony", "Hisense"}
-        tier_b = {"TCL", "Tornado", "Fresh", "Haier", "Beko"}
-        if brand in tier_a:
-            s -= 12
-            pros.append(f"{brand} — strong Egypt brand/service path")
-        elif brand in tier_b:
-            s -= 6
-            pros.append(f"{brand} — common Egypt retail brand; confirm warranty card")
-        else:
-            s += 3
-            cons.append("Lesser-known brand — confirm warranty and service centres")
-
+        # Channel / stock (soft — quality still leads)
         if "official" in it["source"].lower():
-            s -= 8
-            pros.append(f"Official manufacturer channel: {it['source']}")
-        if "built-in receiver" in blob.lower() or "receiver" in it["name"].lower():
-            s -= 5
-            pros.append("Built-in receiver — useful for Egyptian satellite setups")
-        if "android" in blob.lower() or "google tv" in blob.lower():
-            s -= 2
-            pros.append("Android/Google TV app ecosystem")
-
-        if panel == "OLED":
-            s += 1
-            cons.append("OLED premium panel — often overkill for value brief")
-        if panel in ("QLED", "NanoCell", "Mini-LED"):
-            cons.append(f"{panel} marketing layer — fine if price is right")
-        if panel == "LED":
-            s -= 3
-            pros.append("Simple LED panel — good value orientation")
-
+            s += 3
+            pros.append(f"Buy path: Official manufacturer channel ({it['source']})")
         if stock is True:
-            s -= 6
-            pros.append("In stock on official site at scrape time")
+            s += 4
+            pros.append("Stock: In stock on official site at scrape time")
         elif stock is False:
-            s += 15
-            cons.append("Out of stock / not available for cart on official site")
+            s -= 8
+            cons.append("Stock: Out of stock / not available for cart — re-check before planning a trip")
 
-        pros = list(dict.fromkeys(pros))[:6]
-        cons = list(dict.fromkeys(cons))[:5]
-        if not cons:
-            cons.append("Re-verify price, stock, and warranty the day you buy")
-        return max(1, s), pros, cons
+        # Dimensional cons when list is thin (so every card teaches tradeoffs)
+        if mini_led and price is not None and price > 28000:
+            cons.append(
+                "Tradeoff: Mini-LED premium eats most of the 30k budget — plan soundbar/stand separately"
+            )
+        if panel == "QLED" and brand not in {"Samsung", "LG", "TCL", "Sony"}:
+            cons.append(
+                "Image: Entry QLED branding varies — real brightness/local dimming may be modest vs Samsung/LG"
+            )
+        if panel in ("LED",) and inch and inch >= 65:
+            cons.append(
+                "Image: Large LED without Mini-LED dimming — more backlight bloom on dark scenes at 65\""
+            )
+        if inch and inch <= 55 and brand in {"Samsung", "LG"} and mini_led:
+            cons.append(
+                "Size: 55\" Mini-LED prioritizes picture over screen size — step up to 65\" if seating is far"
+            )
+        if os_name == "Smart TV":
+            cons.append(
+                "Features: Fewer smart extras (voice, AI, casting) than Tizen/webOS/Google TV peers"
+            )
+        if brand in {"Tornado", "Kajito", "Fresh"} and not has_receiver:
+            cons.append(
+                "Features: No built-in receiver called out — may still need an external satellite box"
+            )
+
+        # Cap pros/cons for readable modals; keep dimension variety
+        pros = list(dict.fromkeys(pros))[:8]
+        cons = list(dict.fromkeys(cons))[:6]
+        if len(cons) < 2:
+            cons.append("Re-verify price, stock, and warranty terms the day you buy")
+        return s, pros, cons, os_name
 
     items = []
     excluded_examples = []
@@ -658,7 +907,7 @@ def main():
             excluded = True
             reasons.append(f"{price:,} EGP over 30k budget")
 
-        sc, pros, cons = score(it)
+        quality, pros, cons, os_name = score(it)
         if reasons:
             cons = reasons + cons
 
@@ -672,15 +921,18 @@ def main():
             if it.get("inStock") is True
             else ("out_of_stock" if it.get("inStock") is False else "unknown")
         )
+        panel_label = it["panel"]
         item = {
             "id": f"tv_{slug}",
-            "rank": sc,
+            "rank": quality,  # temporary; reassigned after quality sort
+            "qualityScore": quality,
             "name": it["name"],
             "brand": it["brand"],
             "priceEGP": int(round(price)) if price is not None else None,
             "sizeInches": inch,
-            "panel": it["panel"],
+            "panel": panel_label,
             "resolution": it["resolution"],
+            "os": os_name,
             "url": it["url"],
             "imageUrl": it.get("imageUrl") or "",
             "source": it["source"],
@@ -692,8 +944,8 @@ def main():
             ),
             "stockStatus": stock_status,
             "summary": (
-                f'{inch or "?"}″ {it["panel"]} {it["resolution"]}. '
-                f"Official manufacturer channel. Filter: 55–65″ and <{MAX_PRICE:,} EGP. "
+                f'{inch or "?"}″ {panel_label} {it["resolution"]} · {os_name}. '
+                f"Ranked by image quality, OS, design, features, and brand. "
                 f'Availability: {"in stock" if it.get("inStock") else "not in stock / unavailable"}.'
             ),
             "pros": pros,
@@ -703,8 +955,9 @@ def main():
                 for t in [
                     it["brand"].lower(),
                     f"{inch}in" if inch else None,
-                    it["panel"].lower().replace(" ", "_").replace("-", "_"),
+                    panel_label.lower().replace(" ", "_").replace("-", "_"),
                     it["resolution"].lower().replace(" ", "_"),
+                    os_name.lower().replace(" ", "_"),
                     "under_30k" if price and price < MAX_PRICE else "over_budget",
                     "in_stock" if it.get("inStock") else "oos",
                     "official",
@@ -730,21 +983,17 @@ def main():
     out_of = [i for i in items if i["excluded"]]
 
     def sort_key(x):
-        stock_pen = 0 if x.get("inStock") else 1
-        brand_tier = (
-            0
-            if x["brand"] in {"Samsung", "LG", "Sharp", "Toshiba", "Sony"}
-            else (1 if x["brand"] in {"TCL", "Tornado", "Fresh", "Hisense"} else 2)
-        )
+        # Quality first; in-stock preferred on ties; then price; then size as footprint bonus
         return (
-            stock_pen,
-            brand_tier,
-            -(x.get("sizeInches") or 0),
+            -(x.get("qualityScore") or 0),
+            0 if x.get("inStock") else 1,
             x.get("priceEGP") or 10**9,
+            -(x.get("sizeInches") or 0),
             x["name"],
         )
 
     main_items.sort(key=sort_key)
+    out_of.sort(key=sort_key)
     for i, it in enumerate(main_items, 1):
         it["rank"] = i
     for i, it in enumerate(out_of, 1):
@@ -752,16 +1001,10 @@ def main():
 
     final = main_items + out_of
 
+    # Recommended = top quality in-stock across panel tiers
     picks = []
     for it in main_items:
-        if it.get("inStock") and it["brand"] in {
-            "Samsung",
-            "LG",
-            "Sharp",
-            "TCL",
-            "Tornado",
-            "Fresh",
-        }:
+        if it.get("inStock"):
             picks.append(it["id"])
         if len(picks) >= 8:
             break
@@ -774,21 +1017,27 @@ def main():
         by_size[k] = by_size.get(k, 0) + 1
 
     catalog = {
-        "version": 2,
+        "version": 3,
         "title": "TV shortlist — 55–65″ · under 30,000 EGP · official manufacturers only",
         "lastUpdated": "2026-07-20",
         "currency": "EGP",
+        "rankMethod": (
+            "Quality-first: image panel (Mini-LED > QLED/NanoCell > LED) + brand processing + "
+            "OS (webOS/Tizen > Google TV > Android TV > basic smart) + design + features + size; "
+            "stock and price break ties. Pros/cons cover each dimension."
+        ),
         "filtersApplied": {
             "maxPriceEGP": MAX_PRICE,
             "minSizeInches": MIN_INCH,
             "maxSizeInches": MAX_INCH,
             "sources": "official manufacturer websites in Egypt only",
             "prefer": [
+                "higher image-quality panels (Mini-LED, QLED, NanoCell)",
+                "mature OS (webOS, Tizen, Google TV)",
+                "frameless / premium design",
+                "AI processing and built-in receiver when useful",
                 "official manufacturer store / brand group",
-                "in-stock models",
-                "size 55–65 for living room",
-                "reliable brand service in Egypt",
-                "built-in receiver when present",
+                "in-stock models when quality is comparable",
             ],
         },
         "householdContext": {
@@ -808,37 +1057,44 @@ def main():
         },
         "recommendedIds": picks,
         "shoppingRoute": [
-            "Filter gallery to Main (55–65″ & under 30k) and prefer In stock",
-            "Start with Samsung / LG official stores for warranty clarity",
-            "Compare Elaraby (Tornado / Sharp / TCL) for local value and built-in receivers",
-            "Fresh 60″ is a rare mid-size official option under 30k",
-            "Ignore marketplace listings — this catalog is official manufacturers only",
-            "Re-check price and stock the day you buy — promos move weekly",
+            "Sort by Our rank — quality-first (panel + OS + design + features), not cheapest-first",
+            "Top tier under 30k: Mini-LED (LG QNED / Samsung M70H) for the best picture",
+            "Mid tier: Samsung QLED / LG NanoCell for color + polished Tizen/webOS",
+            "Value: TCL/Fresh QLED or Sharp frameless if you want size + Google TV under less spend",
+            "Local practical: Tornado Android + built-in receiver when dish setup matters more than panel class",
+            "Prefer in-stock official carts; re-check price/stock the day you buy",
         ],
         "kits": [
             {
-                "id": "kit_value_55",
-                "name": "Value 55″ under 30k",
-                "note": "Best price-to-size among in-stock official listings",
-                "rule": "Pick cheapest in-stock 55″ from Samsung/LG/Sharp/Tornado/TCL",
+                "id": "kit_picture_first",
+                "name": "Picture-first under 30k",
+                "note": "Mini-LED LG QNED or Samsung M70H — best image quality in band",
+                "rule": "Pick highest-ranked Mini-LED that is in stock",
             },
             {
-                "id": "kit_65_official",
-                "name": "65″ official under 30k",
-                "note": "Samsung U8000H / LG NANO / Tornado-Sharp 65″ options",
-                "rule": "Confirm seating distance ≥2.2m",
+                "id": "kit_os_design",
+                "name": "OS + design priority",
+                "note": "webOS NanoCell / Tizen QLED — polished software and cleaner living-room look",
+                "rule": "Prefer Samsung or LG official store even if slightly higher",
             },
             {
-                "id": "kit_brand_service",
-                "name": "Brand service priority",
-                "note": "Samsung or LG official store even if slightly higher",
-                "rule": "Prefer in-stock official cart over OOS cheaper listing",
+                "id": "kit_65_size",
+                "name": "65″ immersion under 30k",
+                "note": "LG 65 QNED / 65 Nano / Samsung 65 U8000H / Sharp 65",
+                "rule": "Confirm seating distance ≥2.2m for 65\"",
+            },
+            {
+                "id": "kit_value_apps",
+                "name": "Value + apps",
+                "note": "TCL/Fresh QLED Google TV or Sharp frameless for app ecosystem without flagship spend",
+                "rule": "Confirm built-in receiver only if you need satellite",
             },
         ],
         "excludedExamples": excluded_examples,
         "disclaimer": (
             "Scraped 2026-07-20 via Playwright from official manufacturer sites in Egypt only "
             "(Samsung.com/eg, LG.com/eg_en, Elaraby Group, Fresh.com.eg). "
+            "Ranked by image quality, OS, design, features, and brand — not by price alone. "
             "Beko had no 55–65″ models; Haier listed models without EG e-commerce prices; "
             "Hisense Middle East site was unavailable. Prices and stock change — re-verify before purchase."
         ),
@@ -854,11 +1110,13 @@ def main():
     )
     print("Brands:", by_brand)
     print("Sources:", by_source)
-    print("Top in-stock:")
-    for it in [i for i in main_items if i.get("inStock")][:10]:
+    print("Top by quality (all main):")
+    for it in main_items[:12]:
+        stock = "IN" if it.get("inStock") else "OOS"
         print(
-            f"  #{it['rank']} {it['priceEGP']:>6} {it['sizeInches']}\" "
-            f"{it['brand']:8} {it['name'][:55]}"
+            f"  #{it['rank']:2} q={it.get('qualityScore'):3} {stock:3} "
+            f"{it['priceEGP']:>6} {it['sizeInches']}\" {it['panel']:10} "
+            f"{it.get('os','?'):10} {it['brand']:8} {it['name'][:45]}"
         )
 
 

@@ -18,11 +18,13 @@
       "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/ua55m70hauxeg/gallery/eg-mini-led-m70h-ua55m70hauxeg-552250102?$1164_776_PNG$",
       "source": "Samsung Egypt official",
       "inStock": true,
+      "os": "Tizen",
       "features": [
-        "Mini LED",
+        "Mini LED local dimming",
         "4K",
         "Samsung Vision AI",
         "Tizen smart TV",
+        "2026 model",
         "Official Samsung EG store"
       ]
     },
@@ -37,10 +39,12 @@
       "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/qa55q6faauxeg/gallery/eg-qled-q6f-qa55q6faauxeg-552022552?$1164_776_PNG$",
       "source": "Samsung Egypt official",
       "inStock": true,
+      "os": "Tizen",
       "features": [
-        "QLED",
+        "QLED quantum-dot color",
         "4K",
         "2025 model",
+        "Tizen smart TV",
         "Official Samsung EG store",
         "Add to cart available"
       ]
@@ -56,11 +60,14 @@
       "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/ua65u8000huxeg/gallery/eg-uhd-u8000h-ua65u8000huxeg-552249641?$1164_776_PNG$",
       "source": "Samsung Egypt official",
       "inStock": true,
+      "os": "Tizen",
       "features": [
         "Crystal UHD",
         "4K",
         "65 inch large living-room size",
         "Samsung Vision AI",
+        "Tizen smart TV",
+        "2026 model",
         "In stock on official store"
       ]
     },
@@ -75,9 +82,13 @@
       "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/ua55u8000huxeg/gallery/eg-uhd-u8000h-ua55u8000huxeg-552249589?$1164_776_PNG$",
       "source": "Samsung Egypt official",
       "inStock": false,
+      "os": "Tizen",
       "features": [
         "Crystal UHD",
         "4K",
+        "Samsung Vision AI",
+        "Tizen smart TV",
+        "2026 model",
         "Best Samsung price in size band",
         "Listed but not available for cart on official site"
       ]
@@ -93,10 +104,13 @@
       "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/portal/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/55-nu85/gallery/55-450.jpg",
       "source": "LG Egypt official",
       "inStock": true,
+      "os": "webOS",
       "features": [
         "NanoCell / NANO 4K",
         "webOS",
+        "AI picture processing",
         "AI Magic remote ecosystem",
+        "2026 model",
         "Free delivery/installation offers",
         "Buy now on LG.com/eg"
       ]
@@ -112,9 +126,12 @@
       "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/portal/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/55-nu85/gallery/55-450.jpg",
       "source": "LG Egypt official",
       "inStock": true,
+      "os": "webOS",
       "features": [
         "NANO 4K AI NU85",
         "webOS",
+        "AI picture processing",
+        "2026 model",
         "In stock",
         "Official LG Egypt pricing"
       ]
@@ -130,9 +147,13 @@
       "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/55-qned70/gallery/55-450-1.jpg",
       "source": "LG Egypt official",
       "inStock": true,
+      "os": "webOS",
       "features": [
-        "QNED Mini LED",
+        "QNED Mini LED local dimming",
+        "webOS",
+        "AI picture processing",
         "LG Online Exclusive",
+        "2026 model",
         "0% interest offers",
         "Buy now"
       ]
@@ -148,8 +169,12 @@
       "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/65-nu85/gallery/new/450.jpg",
       "source": "LG Egypt official",
       "inStock": false,
+      "os": "webOS",
       "features": [
         "65 inch NANO",
+        "webOS",
+        "AI picture processing",
+        "2026 model",
         "LG Online Exclusive pricing",
         "Stock alert shown on PDP"
       ]
@@ -165,8 +190,11 @@
       "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/55-qned70/gallery/55-450.jpg",
       "source": "LG Egypt official",
       "inStock": true,
+      "os": "webOS",
       "features": [
-        "QNED70 Mini LED",
+        "QNED70 Mini LED local dimming",
+        "webOS",
+        "AI picture processing",
         "2026 model",
         "In stock on LG Egypt"
       ]
@@ -182,9 +210,13 @@
       "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/portal/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/65-nu85/gallery/65-450.jpg",
       "source": "LG Egypt official",
       "inStock": true,
+      "os": "webOS",
       "features": [
         "65 inch",
         "NANO 4K AI",
+        "webOS",
+        "AI picture processing",
+        "2026 model",
         "In stock",
         "Official LG store"
       ]
@@ -200,8 +232,12 @@
       "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/65-qned70/gallery/65-450-1.jpg",
       "source": "LG Egypt official",
       "inStock": true,
+      "os": "webOS",
       "features": [
-        "QNED Mini LED 65\"",
+        "QNED Mini LED 65\" local dimming",
+        "webOS",
+        "AI picture processing",
+        "2026 model",
         "Just under 30k",
         "Buy now available"
       ]
@@ -222,7 +258,8 @@
         "Local Tornado/Elaraby service",
         "Cheapest 58\" official listing",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "TORNADO 4K Smart Frameless DLED TV 55 Inch 55US4600E",
@@ -239,7 +276,8 @@
         "Frameless DLED",
         "Out of stock on Elaraby",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "TORNADO 4K Smart Frameless DLED TV 55 Inch Built-In Receiver 55US3500E",
@@ -253,10 +291,12 @@
       "source": "Elaraby Group official",
       "inStock": false,
       "features": [
+        "Frameless",
         "Built-in receiver",
         "Out of stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "TORNADO 4K Smart Frameless DLED TV 58 Inch 58US4600E",
@@ -274,7 +314,8 @@
         "58 inch mid-size",
         "In stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "TORNADO 4K Frameless TV 55 Inch Android Built-In Receiver 55UA5300E",
@@ -288,11 +329,13 @@
       "source": "Elaraby Group official",
       "inStock": true,
       "features": [
+        "Frameless",
         "Android TV",
         "Built-in receiver",
         "In stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Android TV"
     },
     {
       "name": "TORNADO 4K Frameless TV 55 Inch Android Built-In Receiver 55UA1400E",
@@ -306,11 +349,14 @@
       "source": "Elaraby Group official",
       "inStock": false,
       "features": [
-        "Android",
+        "Frameless",
+        "Android TV",
         "Built-in receiver",
+        "3 HDMI / 2 USB",
         "Out of stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Android TV"
     },
     {
       "name": "TORNADO 4K Smart Frameless TV 55 Inch Built-In Receiver 55UA3400E",
@@ -324,10 +370,12 @@
       "source": "Elaraby Group official",
       "inStock": false,
       "features": [
+        "Frameless",
         "Built-in receiver",
         "Out of stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "SHARP 4K Smart Frameless TV 55 Inch 4T-C55FJ16EX",
@@ -343,9 +391,11 @@
       "features": [
         "Sharp brand via Elaraby",
         "Frameless 4K",
+        "Google TV ecosystem",
         "In stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Google TV"
     },
     {
       "name": "TCL 4K QLED Smart Frameless TV 55 Inch Built-In Receiver 55P7K",
@@ -359,11 +409,14 @@
       "source": "Elaraby Group official",
       "inStock": true,
       "features": [
-        "QLED",
+        "QLED quantum-dot color",
+        "Frameless",
         "Built-in receiver",
+        "Google TV",
         "TCL via official Elaraby",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Google TV"
     },
     {
       "name": "KAJITO 4K Smart Frameless TV QLED 55 Inch Built-In Receiver K55QA501D",
@@ -379,9 +432,12 @@
       "features": [
         "Elaraby house brand Kajito",
         "QLED",
+        "Frameless",
+        "Built-in receiver",
         "Out of stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "SHARP 4K Smart Frameless TV 55 Inch Built-In Receiver 4T-C55FL6EX",
@@ -395,10 +451,13 @@
       "source": "Elaraby Group official",
       "inStock": false,
       "features": [
+        "Frameless",
         "Built-in receiver",
+        "Google TV ecosystem",
         "Out of stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Google TV"
     },
     {
       "name": "TORNADO 4K Smart Frameless QLED TV 55 Inch Built-In Receiver 55QA3400G",
@@ -413,9 +472,12 @@
       "inStock": false,
       "features": [
         "QLED",
+        "Frameless",
+        "Built-in receiver",
         "Out of stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "SHARP 4K Smart Frameless TV 65 Inch 4T-C65FJ16EX",
@@ -430,10 +492,13 @@
       "inStock": true,
       "features": [
         "65 inch Sharp",
+        "Frameless",
+        "Google TV ecosystem",
         "In stock",
         "Elaraby official",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Google TV"
     },
     {
       "name": "TORNADO 4K Smart Frameless QLED TV 55 Inch Built-In Receiver 55QS3500E",
@@ -448,10 +513,12 @@
       "inStock": true,
       "features": [
         "QLED",
+        "Frameless",
         "Built-in receiver",
         "In stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "TORNADO 4K Smart Frameless TV 65 Inch Built-In Receiver 65UA3400E",
@@ -466,10 +533,12 @@
       "inStock": true,
       "features": [
         "65 inch",
+        "Frameless",
         "Built-in receiver",
         "In stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "TORNADO 4K Frameless TV 65 Inch Android Built-In Receiver 65UA5300E",
@@ -484,10 +553,12 @@
       "inStock": true,
       "features": [
         "Android TV 65\"",
+        "Frameless",
         "Built-in receiver",
         "In stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Android TV"
     },
     {
       "name": "TORNADO 4K Smart DLED TV 65 Inch WiFi Connection 65US1500E",
@@ -504,7 +575,8 @@
         "65 inch DLED",
         "Out of stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "TORNADO 4K Frameless TV 65 Inch Android Built-In Receiver 65UA1400E",
@@ -518,10 +590,14 @@
       "source": "Elaraby Group official",
       "inStock": false,
       "features": [
-        "Android",
+        "Android TV",
+        "Frameless",
+        "Built-in receiver",
+        "3 HDMI / 2 USB",
         "Out of stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Android TV"
     },
     {
       "name": "TORNADO 4K Smart Frameless QLED TV 55 Inch Built-In Receiver 55QA3400E",
@@ -536,9 +612,12 @@
       "inStock": false,
       "features": [
         "QLED",
+        "Frameless",
+        "Built-in receiver",
         "Out of stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "TORNADO 4K Smart Frameless DLED TV 65 Inch Built-In Receiver 65US3500E",
@@ -553,10 +632,12 @@
       "inStock": true,
       "features": [
         "65 inch DLED",
+        "Frameless",
         "Built-in receiver",
         "In stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Smart TV"
     },
     {
       "name": "TCL 4K Smart Frameless TV QLED 55 Inch Built-In Receiver 55P8K",
@@ -570,11 +651,14 @@
       "source": "Elaraby Group official",
       "inStock": true,
       "features": [
-        "QLED P8K",
+        "QLED P8K (higher TCL tier)",
+        "Frameless",
         "Built-in receiver",
+        "Google TV",
         "In stock",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Google TV"
     },
     {
       "name": "TCL 4K Smart Frameless QD-Mini LED TV 55 Inch Built-In Receiver 55C6K",
@@ -589,9 +673,13 @@
       "inStock": true,
       "features": [
         "QD-Mini LED",
+        "Frameless",
+        "Built-in receiver",
+        "Google TV",
         "PDP price above 30k",
         "Elaraby Group official manufacturer channel"
-      ]
+      ],
+      "os": "Google TV"
     },
     {
       "name": "Fresh Smart Google TV Monitor 60 Inch QLED UHD - 60MUQ433GT",
@@ -604,9 +692,11 @@
       "imageUrl": "https://be.fresh.com.eg/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/0/60muq433g.jpg",
       "source": "Fresh Egypt official",
       "inStock": true,
+      "os": "Google TV",
       "features": [
         "Google TV",
-        "QLED UHD",
+        "QLED UHD quantum-dot color",
+        "Monitor-style chassis",
         "60 inch rare mid-size",
         "Egyptian brand Fresh official store"
       ]

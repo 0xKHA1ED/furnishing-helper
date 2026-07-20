@@ -1,7 +1,7 @@
 {
   "version": 2,
   "lastUpdated": "2026-07-20",
-  "status": "catalog_ready",
+  "status": "catalog_ready_quality_ranked",
   "galleryPage": "tv-gallery.html",
   "catalogPath": "data/appliances/tv_catalog.json",
   "answers": {
@@ -16,11 +16,14 @@
     "minSizeInches": 55,
     "maxSizeInches": 65,
     "rankBy": [
+      "image_panel_quality",
+      "brand_processing_service",
+      "os_maturity",
+      "design_frameless_premium",
+      "features_ai_receiver_year",
+      "living_room_size",
       "in_stock_official",
-      "size_within_budget",
-      "brand_service_egypt",
-      "built_in_receiver",
-      "price_headroom"
+      "price_headroom_tiebreak"
     ],
     "sourcesAllowed": [
       "Samsung Egypt official",
@@ -57,9 +60,11 @@
     "inStock": 21
   },
   "decisionHints": [
-    "Prefer In stock filter first — several good prices are OOS on official sites",
-    "Samsung/LG official carts give cleanest warranty path",
-    "Elaraby Tornado/Sharp often win on price with built-in receivers",
-    "65\" under 30k exists (Samsung U8000H, LG NANO/QNED, Sharp, Tornado) if seating distance allows"
+    "Rank is quality-first: Mini-LED > QLED/NanoCell > LED; webOS/Tizen > Google TV > Android > basic smart",
+    "Best picture under 30k: LG QNED Mini-LED or Samsung Mini-LED M70H",
+    "Best OS polish: LG webOS or Samsung Tizen official stores",
+    "Value + apps: TCL/Fresh QLED Google TV or Sharp frameless",
+    "Dish setup: Tornado/TCL built-in receiver models when satellite boxes matter",
+    "65\" under 30k exists (LG QNED/NANO, Samsung U8000H, Sharp, Tornado) if seating ≥2.2m"
   ]
 }
